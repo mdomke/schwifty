@@ -1,32 +1,49 @@
-import csv
 import json
 import sys
 
 
-if __name__ == '__main__':
-    with open(sys.argv[1], 'r') as fp:
-        all_fieldnames = [
-            'id', 'bank_code', 'feature', 'name', 'postal_code', 'place', 'short_name', 'pan',
-            'bic', 'check_digit_method', 'record_number', 'mod_number', 'tbd',
-            'successor_bank_code']
-        data = csv.DictReader(fp, all_fieldnames, delimiter=';')
+FIELD_LENGTHS = {
+    'bank_code': 8,
+    'feature': 1,
+    'name': 58,
+    'postal_code': 5,
+    'place': 35,
+    'short_name': 27,
+    'pan': 5,
+    'bic': 11,
+    'check_digit_method': 2,
+    'record_number': 6,
+    'mod_number': 1,
+    'tbd': 1,
+    'successor_bank_code': 8,
+}
 
+
+def read_blz_file(infp):
+    for line in infp:
+        record = {}
+        offset = 0
+        for (field, length) in FIELD_LENGTHS.items():
+            record[field] = line[offset:offset+length]
+            offset = offset + length
+        yield record
+
+
+if __name__ == '__main__':
+    with open(sys.argv[1], 'r', encoding='latin-1') as fp:
         fieldnames = ('bank_code', 'name', 'short_name', 'bic', 'tbd')
         cleaned = []
-        next(data)  # Skip header line
-        for row in data:
+        for row in read_blz_file(fp):
             if not row['bank_code'].strip():
                 continue
-            for key, value in row.items():
-                if key == 'feature':
-                    row['primary'] = value.strip() == '1'
-                if key not in fieldnames:
-                    del row[key]
-                    continue
-                row[key] = value.strip()
-            row['country_code'] = 'DE'
-            if row['bic']:
-                cleaned.append(row)
+
+            clean_row = {k: v.strip() for (k, v) in row.items() if k in fieldnames}
+
+            clean_row['primary'] = row['feature'] == '1'
+            clean_row['country_code'] = 'DE'
+
+            if clean_row['bic']:
+                cleaned.append(clean_row)
 
     with open('schwifty/bank-registry.json', 'w') as fp:
         json.dump(cleaned, fp, indent=2)

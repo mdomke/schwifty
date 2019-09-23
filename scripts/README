@@ -1,6 +1,5 @@
 Download the german bank registry from:
 
-http://bundesbank.de/Redaktion/DE/Standardartikel/Aufgaben/Unbarer_Zahlungsverkehr/bankleitzahlen_download.html
+https://www.bundesbank.de/de/aufgaben/unbarer-zahlungsverkehr/serviceangebot/bankleitzahlen/download-bankleitzahlen-602592
 
-Get the XLS formatted version and convert it to CSV in order to be able
-to transform it with the convert_blz_doc.py script.
+Get the TXT formatted version and convert it with the convert_blz_doc.py script.
