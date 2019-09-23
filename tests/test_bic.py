@@ -23,6 +23,7 @@ def test_bic_no_branch_code():
     assert bic.formatted == 'GENO DE M1'
 
 
+@pytest.mark.skip("GENODEM1GLS is assigned to two banks: 43060967 and 43060988 and probably shouldn't be used to test lookups")
 def test_bic_properties():
     bic = BIC('GENODEM1GLS')
     assert bic.length == 11
