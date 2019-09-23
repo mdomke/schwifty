@@ -1,4 +1,3 @@
-import csv
 import json
 import re
 
@@ -12,13 +11,56 @@ url = 'https://www.swift.com/standards/data-standards/iban'
 def get_raw():
     soup = BeautifulSoup(requests.get(url).content, 'html.parser')
     link = soup.find('a', attrs={'data-title': 'IBAN Registry (TXT)'})
-    return requests.get(link['href']).content
+    # Warning: This document is not in Unicode, but also probably not in any one 8-bit encoding
+    # Some names and addresses are Turkish, others French
+    # We will ignore this for now, but if ever the names/addresses become relevant, we would
+    # need to find a solution
+    return requests.get(link['href']).content.decode('windows-1252')
 
 
-def clean(raw):
-    chars = ' \t\n\r;:\'"'
-    return [{key.strip(chars).lower(): value.strip(chars) for key, value in line.items()}
-            for line in raw]
+def parse_line(initer):
+    in_quote = False
+    databuffer = []
+    for ch in initer:
+        if not in_quote:
+            if ch == "\x09":
+                yield "".join(databuffer)
+                databuffer = []
+            elif ch in ("\n", "\r"):
+                break
+            elif ch == "\"":
+                in_quote = True
+            else:
+                databuffer.append(ch)
+        else:
+            if ch == "\"":
+                in_quote = False
+            else:
+                databuffer.append(ch)
+    if databuffer:
+        yield "".join(databuffer)
+
+
+def parse_txt(raw):
+    """
+    Turns a string like
+    A\t1\t2\t3
+    B\t4\t5\t6
+    into a list of dictionaries:
+    [{"A": "1", "B": "4"}, {"A": "2", "B": "5"}, {"A": "3", "B": "6"}]
+    """
+    result = []
+    raw_iter = iter(raw)
+    while True:
+        items = list(parse_line(raw_iter))
+        if not items:
+            break
+        key = items.pop(0)
+        while len(result) < len(items):
+            result.append({})
+        for i, item in enumerate(items):
+            result[i][key] = item
+    return result
 
 
 def parse_positions(bban_length, spec):
@@ -42,20 +84,30 @@ def parse_positions(bban_length, spec):
 
 
 if __name__ == '__main__':
-    raw = get_raw()
-    data = csv.DictReader(raw.splitlines(), delimiter='\t', quotechar='"')
+    #raw = get_raw()
+    raw = open('foo-0', encoding='windows-1254').read()
+    data = parse_txt(raw)
     registry = {}
-    for row in clean(data):
-        codes = re.findall(r'[A-Z]{2}', row['country code as defined in iso 3166'])
+    for row in data:
+        codes = re.findall(r'[A-Z]{2}', row["IBAN prefix country code (ISO 3166)"] + " " + row["Country code includes other countries/territories"])
         entry = {
-            'bban_spec': row['bban structure'],
-            'bban_length': row['bban length'],
-            'iban_spec': re.match(r'[A-Za-z0-9!]+', row['iban structure']).group(0),
-            'iban_length': int(row['iban length']),
+            'bban_spec': row['BBAN structure'],
+            'bban_length': row['BBAN length'],
+            'iban_spec': re.match(r'[A-Za-z0-9!]+', row['IBAN structure']).group(0),
+            'iban_length': row['IBAN length'],
         }
         if entry['bban_spec'] == 'Not in use':
             entry['bban_spec'] = re.sub(r'[A-Z]{2}2!n', '', entry['iban_spec'])
         entry['bban_spec'] = entry['bban_spec'].replace(' ', '')
+
+        if entry['bban_length'].endswith("!n"):
+            # Costa Rica (in 2019.09)
+            entry["bban_length"] = entry["bban_length"][:-2]
+
+        if entry['iban_length'].endswith("!n"):
+            # El Salvador (in 2019.09)
+            entry["iban_length"] = entry["iban_length"][:-2]
+        entry["iban_length"] = int(entry["iban_length"])
 
         if entry['bban_length'] == 'Not in use':
             entry['bban_length'] = entry['iban_length'] - 4
@@ -64,7 +116,7 @@ if __name__ == '__main__':
 
         entry['positions'] = parse_positions(
             entry['bban_length'],
-            row['bank identifier position within the bban'])
+            row['Bank identifier position within the BBAN'])
 
         for code in codes:
             registry[code] = entry
