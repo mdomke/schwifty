@@ -1534,5 +1534,13 @@
       "name": "VOLKSWAGEN BANK GMBH, S.E.",
       "primary": true,
       "short_name": "VOLKSWAGEN BANK GMBH, S.E."
+  },
+  {
+    "bank_code": "3190",
+    "bic": "BCOEESMM190",
+    "country_code": "ES",
+    "name": " C.R. DE ALBACETE, CIUDAD REAL Y CUENCA, S.C.C.",
+    "primary": true,
+    "short_name": "CAJA RURAL DE ALBACETE"
   }
 ]
