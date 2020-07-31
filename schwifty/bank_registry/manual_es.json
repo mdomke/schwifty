@@ -1,130 +1,1538 @@
 [
   {
-    "primary": true,
-    "name": "ING BANK, N.V. SUCURSAL EN ESPAÑA",
-    "short_name": "ING BANK ESPAÑA",
-    "bank_code": "1465",
-    "bic": "INGDESMMXXX",
-    "country_code": "ES"
+      "bank_code": "0241",
+      "bic": "PRDVESM1XXX",
+      "country_code": "ES",
+      "name": "AG BANCA PRIVADA S.A",
+      "primary": true,
+      "short_name": "AG BANCA PRIVADA"
   },
   {
-    "primary": true,
-    "name": "BANCO SANTANDER, S.A.",
-    "short_name": "BANCO SANTANDER",
-    "bank_code": "0049",
-    "bic": "BSCHESMM",
-    "country_code": "ES"
+      "bank_code": "1544",
+      "bic": "BACAESMMXXX",
+      "country_code": "ES",
+      "name": "ANDBANK ESPANA S. A.",
+      "primary": true,
+      "short_name": "ANDBANK"
   },
   {
-    "primary": true,
-    "name": "BANCO SANTANDER, S.A.",
-    "short_name": "BANCO SANTANDER",
-    "bank_code": "0075",
-    "bic": "BSCHESMM",
-    "country_code": "ES"
+      "bank_code": "0136",
+      "bic": "AREBESMMXXX",
+      "country_code": "ES",
+      "name": "ARESBANK",
+      "primary": true,
+      "short_name": "ARESBANK"
   },
   {
-    "primary": true,
-    "name": "CAIXABANK, S.A.",
-    "short_name": "CAIXABANK",
-    "bank_code": "2100",
-    "bic": "CAIXESBBXXX",
-    "country_code": "ES"
+      "bank_code": "1541",
+      "bic": "BCMAESMMXXX",
+      "country_code": "ES",
+      "name": "ATTIJARIWAFA BANK EUROPE SUCURSAL E",
+      "primary": true,
+      "short_name": "ATTIJARIWAFA BANK"
   },
   {
-    "primary": true,
-    "name": "BANKINTER, S.A.",
-    "short_name": "BANKINTER",
-    "bank_code": "0128",
-    "bic": "BKBKESMMXXX",
-    "country_code": "ES"
+      "bank_code": "0061",
+      "bic": "BMARES2MXXX",
+      "country_code": "ES",
+      "name": "BANCA MARCH",
+      "primary": true,
+      "short_name": "BANCA MARCH"
   },
   {
-    "primary": true,
-    "name": "OPEN BANK, S.A.",
-    "short_name": "OPEN BANK",
-    "bank_code": "0073",
-    "bic": "OPENESMMXXX",
-    "country_code": "ES"
+      "bank_code": "1550",
+      "bic": "ETICES21XXX",
+      "country_code": "ES",
+      "name": "BANCA POPOLARE ETICA",
+      "primary": true,
+      "short_name": "BANCA POPOLARE ETICA"
   },
   {
-    "primary": true,
-    "name": "BANCO DE SABADELL, S.A.",
-    "short_name": "BANCO DE SABADELL",
-    "bank_code": "0081",
-    "bic": "BSABESBBXXX",
-    "country_code": "ES"
+      "bank_code": "0078",
+      "bic": "BAPUES22XXX",
+      "country_code": "ES",
+      "name": "BANCA PUEYO",
+      "primary": true,
+      "short_name": "BANCA PUEYO"
   },
   {
-    "primary": true,
-    "name": "BANCO MEDIOLANUM, S.A.",
-    "short_name": "BANCO MEDIOLANUM",
-    "bank_code": "0186",
-    "bic": "BFIVESBBXXX",
-    "country_code": "ES"
+      "bank_code": "0188",
+      "bic": "ALCLESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO ALCALA",
+      "primary": true,
+      "short_name": "BANCO ALCALA"
   },
   {
-    "primary": true,
-    "name": "CAJA RURAL DEL SUR, S. COOP. DE CREDITO",
-    "short_name": "CAJA RURAL DEL SUR",
-    "bank_code": "3187",
-    "bic": "BCOEESMM187",
-    "country_code": "ES"
+      "bank_code": "0086",
+      "bic": "NORTESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO BANIF, S.A.",
+      "primary": true,
+      "short_name": "BANIF SANTANDER"
   },
   {
-    "primary": true,
-    "name": "EVO BANCO S.A.",
-    "short_name": "EVO BANCO",
-    "bank_code": "0239",
-    "bic": "EVOBESMMXXX",
-    "country_code": "ES"
+      "bank_code": "0190",
+      "bic": "BBPIESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO BPI, S.A., S.E.",
+      "primary": true,
+      "short_name": "BANCO BPI"
   },
   {
-    "primary": true,
-    "name": "EVO BANCO S.A.",
-    "short_name": "EVO BANCO",
-    "bank_code": "0239",
-    "bic": "EVOBESMMXXX",
-    "country_code": "ES"
+      "bank_code": "0130",
+      "bic": "CGDIESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO CAIXA GERAL",
+      "primary": true,
+      "short_name": "CAIXA GERAL"
   },
   {
-    "primary": true,
-    "name": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
-    "short_name": "BBVA",
-    "bank_code": "0182",
-    "bic": "BBVAESMMXXX",
-    "country_code": "ES"
+      "bank_code": "0234",
+      "bic": "CCOCESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO CAMINOS, S.A.",
+      "primary": true,
+      "short_name": "BANCO CAMINOS"
   },
   {
-    "primary": true,
-    "name": "KUTXABANK, S.A.",
-    "short_name": "KUTXABANK",
-    "bank_code": "2095",
-    "bic": "BASKES2BXXX",
-    "country_code": "ES"
+      "bank_code": "2105",
+      "bic": "CECAESMM105",
+      "country_code": "ES",
+      "name": "BANCO CASTILLA LA MANCHA",
+      "primary": true,
+      "short_name": "BANCO CASTILLA LA MANCHA"
   },
   {
-    "primary": true,
-    "name": "CAJA DE CREDITO DE LOS INGENIEROS,  S. COOP. DE CREDITO",
-    "short_name": "CAJA DE CREDITO DE INGENIEROS",
-    "bank_code": "3025",
-    "bic": "CDENESBBXXX",
-    "country_code": "ES"
+      "bank_code": "2108",
+      "bic": "CSPAES2LXXX",
+      "country_code": "ES",
+      "name": "BANCO CEISS - ESPANA",
+      "primary": true,
+      "short_name": "BANCO DE CAJA ESPANA"
   },
   {
-    "primary": true,
-    "name": "BANKIA, S.A.",
-    "short_name": "BANKIA",
-    "bank_code": "2038",
-    "bic": "CAHMESMMXXX",
-    "country_code": "ES"
+      "bank_code": "2104",
+      "bic": "CSSOES2SXXX",
+      "country_code": "ES",
+      "name": "BANCO CEISS SALAMANCA Y SORIA",
+      "primary": true,
+      "short_name": "CAJA DE AHORROS DE SALAMANCA Y SORIA"
   },
   {
-    "primary": true,
-    "name": "EUROCAJA RURAL, SOCIEDAD COOPERATIVA DE CRÉDITO",
-    "short_name": "CAJA RURAL DE CASTILLA-LA MANCHA",
-    "bank_code": "3081",
-    "bic": "BCOEESMM081",
-    "country_code": "ES"
+      "bank_code": "0198",
+      "bic": "BCOEESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO COOPERATIVO",
+      "primary": true,
+      "short_name": "BANCO COOPERATIVO"
+  },
+  {
+      "bank_code": "0003",
+      "bic": "BDEPESM1XXX",
+      "country_code": "ES",
+      "name": "BANCO DE DEPOSITOS, S.A.",
+      "primary": true,
+      "short_name": "BANCO DE DEPOSITOS"
+  },
+  {
+      "bank_code": "0169",
+      "bic": "NACNESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO DE LA NACION ARGENTINA",
+      "primary": true,
+      "short_name": "BANCO DE LA NACION ARGENTINA"
+  },
+  {
+      "bank_code": "0059",
+      "bic": "MADRESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO DE MADRID,S.A.",
+      "primary": true,
+      "short_name": "BANCO DE MADRID"
+  },
+  {
+      "bank_code": "0155",
+      "bic": "BRASESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO DO BRASIL AG - ESPANA",
+      "primary": true,
+      "short_name": "BANCO DO BRASIL"
+  },
+  {
+      "bank_code": "0131",
+      "bic": "BESMESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO ESPIRITO SANTO S A SUCUR",
+      "primary": true,
+      "short_name": "NOVO BANCO"
+  },
+  {
+      "bank_code": "0184",
+      "bic": "BEDFESM1XXX",
+      "country_code": "ES",
+      "name": "BANCO EUROPEO DE FINANZAS",
+      "primary": true,
+      "short_name": "BANCO EUROPEO DE FINANZAS"
+  },
+  {
+      "bank_code": "0220",
+      "bic": "FIOFESM1XXX",
+      "country_code": "ES",
+      "name": "BANCO FINANTIA SOFINLOC S.A.",
+      "primary": true,
+      "short_name": "BANCO FINANTIA"
+  },
+  {
+      "bank_code": "0232",
+      "bic": "INVLESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO INVERSIS NET S.A.",
+      "primary": true,
+      "short_name": "BANCO INVERSIS"
+  },
+  {
+      "bank_code": "0487",
+      "bic": "GBMNESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO MARE NOSTRUM",
+      "primary": true,
+      "short_name": "BANCO MARE NOSTRUM"
+  },
+  {
+      "bank_code": "0186",
+      "bic": "BFIVESBBXXX",
+      "country_code": "ES",
+      "name": "BANCO MEDIOLANUM, S.A.",
+      "primary": true,
+      "short_name": "BANCO MEDIOLANUM"
+  },
+  {
+      "bank_code": "0238",
+      "bic": "PSTRESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO PASTOR",
+      "primary": true,
+      "short_name": "BANCO PASTOR"
+  },
+  {
+      "bank_code": "0072",
+      "bic": "PSTRESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO PASTOR",
+      "primary": true,
+      "short_name": "BANCO PASTOR"
+  },
+  {
+      "bank_code": "0235",
+      "bic": "PICHESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO PICHINCHA ESPANA",
+      "primary": true,
+      "short_name": "BANCO PICHINCHA"
+  },
+  {
+      "bank_code": "0004",
+      "bic": "POPUESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO POPULAR",
+      "primary": true,
+      "short_name": "BANCO POPULAR"
+  },
+  {
+      "bank_code": "0024",
+      "bic": "POPUESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO POPULAR",
+      "primary": true,
+      "short_name": "BANCO POPULAR"
+  },
+  {
+      "bank_code": "0082",
+      "bic": "POPUESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO POPULAR",
+      "primary": true,
+      "short_name": "BANCO POPULAR"
+  },
+  {
+      "bank_code": "0095",
+      "bic": "POPUESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO POPULAR",
+      "primary": true,
+      "short_name": "BANCO POPULAR"
+  },
+  {
+      "bank_code": "0097",
+      "bic": "POPUESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO POPULAR",
+      "primary": true,
+      "short_name": "BANCO POPULAR"
+  },
+  {
+      "bank_code": "0116",
+      "bic": "POPUESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO POPULAR",
+      "primary": true,
+      "short_name": "BANCO POPULAR"
+  },
+  {
+      "bank_code": "0081",
+      "bic": "BSABESBBXXX",
+      "country_code": "ES",
+      "name": "BANCO SABADELL",
+      "primary": true,
+      "short_name": "SABADELL"
+  },
+  {
+      "bank_code": "0049",
+      "bic": "BSCHESMMXXX",
+      "country_code": "ES",
+      "name": "BANCO SANTANDER",
+      "primary": true,
+      "short_name": "SANTANDER"
+  },
+  {
+      "bank_code": "0125",
+      "bic": "BAOFESM1XXX",
+      "country_code": "ES",
+      "name": "BANCOFAR S A",
+      "primary": true,
+      "short_name": "BANCOFAR"
+  },
+  {
+      "bank_code": "0229",
+      "bic": "POPLESMMXXX",
+      "country_code": "ES",
+      "name": "WIZINK BANK, S.A.",
+      "primary": true,
+      "short_name": "WIZINK"
+  },
+  {
+      "bank_code": "1484",
+      "bic": "ESPCESMMXXX",
+      "country_code": "ES",
+      "name": "MBNA EUROPE BANK LIMITED, S.E.",
+      "primary": true,
+      "short_name": "MBNA EUROPE BANK"
+  },
+  {
+      "bank_code": "1485",
+      "bic": "BOFAES2XXXX",
+      "country_code": "ES",
+      "name": "BANK OF AMERICA MADRID LJUBLJA",
+      "primary": true,
+      "short_name": "BANK OF AMERICA"
+  },
+  {
+      "bank_code": "2038",
+      "bic": "CAHMESMMXXX",
+      "country_code": "ES",
+      "name": "BANKIA",
+      "primary": true,
+      "short_name": "BANKIA"
+  },
+  {
+      "bank_code": "0128",
+      "bic": "BKBKESMMXXX",
+      "country_code": "ES",
+      "name": "BANKINTER",
+      "primary": true,
+      "short_name": "BANKINTER"
+  },
+  {
+      "bank_code": "0138",
+      "bic": "BKOAES22XXX",
+      "country_code": "ES",
+      "name": "BANKOA",
+      "primary": true,
+      "short_name": "BANKOA"
+  },
+  {
+      "bank_code": "1525",
+      "bic": "BCDMESMMXXX",
+      "country_code": "ES",
+      "name": "BANQUE CHAABI DU MAROC",
+      "primary": true,
+      "short_name": "BANQUE CHAABI DU MAROC"
+  },
+  {
+      "bank_code": "0219",
+      "bic": "BMCEESMMXXX",
+      "country_code": "ES",
+      "name": "BANQUE MAROCAINE DU COMM. EXTE.",
+      "primary": true,
+      "short_name": "BANQUE MAROCAINE DU COMM"
+  },
+  {
+      "bank_code": "0065",
+      "bic": "BARCESMMXXX",
+      "country_code": "ES",
+      "name": "BARCLAYS BANK",
+      "primary": true,
+      "short_name": "BARCLAYS"
+  },
+  {
+      "bank_code": "0152",
+      "bic": "BARCESMMXXX",
+      "country_code": "ES",
+      "name": "BARCLAYS BANK",
+      "primary": true,
+      "short_name": "BARCLAYS"
+  },
+  {
+      "bank_code": "0237",
+      "bic": "CSURES2CXXX",
+      "country_code": "ES",
+      "name": "BBK BANK CAJASUR SAU",
+      "primary": true,
+      "short_name": "CAJASUR"
+  },
+  {
+      "bank_code": "2059",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "2073",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "2074",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "2088",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "2107",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "2013",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "2040",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "2041",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "1301",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "1302",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0182",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0202",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "1001",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "1004",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "1005",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0009",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0010",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0015",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0020",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0035",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0044",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0045",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0050",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0062",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0068",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0102",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0104",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0127",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0137",
+      "bic": "BBVAESMMXXX",
+      "country_code": "ES",
+      "name": "BBVA",
+      "primary": true,
+      "short_name": "BBVA"
+  },
+  {
+      "bank_code": "0058",
+      "bic": "BNPAESMMXXX",
+      "country_code": "ES",
+      "name": "BNP PARIBAS ESPANA, SA",
+      "primary": true,
+      "short_name": "BNP PARIBAS"
+  },
+  {
+      "bank_code": "0167",
+      "bic": "GEBAESMMXXX",
+      "country_code": "ES",
+      "name": "BNP PARIBAS FORTIS",
+      "primary": true,
+      "short_name": "BNP PARIBAS FORTIS"
+  },
+  {
+      "bank_code": "0144",
+      "bic": "PARBESMXXXX",
+      "country_code": "ES",
+      "name": "BNP PARIBAS SECURITIES MADRIDB",
+      "primary": true,
+      "short_name": "BNP PARIBAS SECURITIES"
+  },
+  {
+      "bank_code": "0149",
+      "bic": "BNPAESMSXXX",
+      "country_code": "ES",
+      "name": "BNP PARIBAS, S.E.",
+      "primary": true,
+      "short_name": "BNP PARIBAS"
+  },
+  {
+      "bank_code": "3060",
+      "bic": "BCOEESMM060",
+      "country_code": "ES",
+      "name": "C R. BURGOS FUENT. SEG. Y CASTEL",
+      "primary": true,
+      "short_name": "CAJA RURAL BURGOS"
+  },
+  {
+      "bank_code": "\t3121",
+      "bic": "CCRIES2A121",
+      "country_code": "ES",
+      "name": "C.R. DE CHESTE SCC",
+      "primary": true,
+      "short_name": "CAJA RURAL DE CHESTE"
+  },
+  {
+      "bank_code": "3157",
+      "bic": "CCRIES2A157",
+      "country_code": "ES",
+      "name": "C.R. LA JUNQUERA DE CHILCHES SCCV",
+      "primary": true,
+      "short_name": "CAJA RURAL DE CHILCHES"
+  },
+  {
+      "bank_code": "3095",
+      "bic": "CCRIES2A095",
+      "country_code": "ES",
+      "name": "C.R. SAN ROQUE DE ALMENARA SCCV",
+      "primary": true,
+      "short_name": "CAJA RURAL SAN ROQUE"
+  },
+  {
+      "bank_code": "3179",
+      "bic": "CCRIES2A179",
+      "country_code": "ES",
+      "name": "C.R.DE ALGINET SCCV",
+      "primary": true,
+      "short_name": "CAJA RURAL DE ALGINET"
+  },
+  {
+      "bank_code": "3081",
+      "bic": "BCOEESMM081",
+      "country_code": "ES",
+      "name": "C.R.DE CASTILLA-LA MANCHA",
+      "primary": true,
+      "short_name": "CAJA RURAL DE CASTILLA LA MANCHA"
+  },
+  {
+      "bank_code": "3152",
+      "bic": "CCRIES2A152",
+      "country_code": "ES",
+      "name": "C.R.DE VILLAR CCV",
+      "primary": true,
+      "short_name": "CAJA RURAL DE VILLAR CCV"
+  },
+  {
+      "bank_code": "3018",
+      "bic": "BCOEESMM018",
+      "country_code": "ES",
+      "name": "C.R.R.S.AGUSTIN FUENTE ALA",
+      "primary": true,
+      "short_name": "CAJA RURAL SAN AGUSTIN"
+  },
+  {
+      "bank_code": "3165",
+      "bic": "CCRIES2A165",
+      "country_code": "ES",
+      "name": "C.R.S. ISIDRO DE VILAFAMES SCCV",
+      "primary": true,
+      "short_name": "CAJA RURAL SAN ISIDRO"
+  },
+  {
+      "bank_code": "3119",
+      "bic": "CCRIES2A119",
+      "country_code": "ES",
+      "name": "C.R.S. JAIME ALQUERIAS NINO PERDIDO",
+      "primary": true,
+      "short_name": "CAJA RURAL JAIME ALQUERIAS"
+  },
+  {
+      "bank_code": "3112",
+      "bic": "CCRIES2A112",
+      "country_code": "ES",
+      "name": "C.R.S. JOSE DE BURRIANA SCCV",
+      "primary": true,
+      "short_name": "CAJA RURAL JOSE DE BURRIANA"
+  },
+  {
+      "bank_code": "3135",
+      "bic": "CCRIES2A135",
+      "country_code": "ES",
+      "name": "C.R.S. JOSE DE NULES",
+      "primary": true,
+      "short_name": "CAJA RURAL JOSE DE NULES"
+  },
+  {
+      "bank_code": "2056",
+      "bic": "CECAESMM056",
+      "country_code": "ES",
+      "name": "CAIXA D ESTALVIS DE POLLENSA",
+      "primary": true,
+      "short_name": "CAIXA D ESTALVIS DE POLLENSA"
+  },
+  {
+      "bank_code": "3025",
+      "bic": "CDENESBBXXX",
+      "country_code": "ES",
+      "name": "CAIXA DE C. DELS ENGYNYER",
+      "primary": true,
+      "short_name": "CAIXA DE C. DELS ENGYNYER"
+  },
+  {
+      "bank_code": "3159",
+      "bic": "BCOEESMM159",
+      "country_code": "ES",
+      "name": "CAIXA POPULAR-CAIXA RURAL",
+      "primary": true,
+      "short_name": "CAIXA POPULAR-CAIXA RURAL"
+  },
+  {
+      "bank_code": "3162",
+      "bic": "BCOEESMM162",
+      "country_code": "ES",
+      "name": "CAIXA R. BENICARL",
+      "primary": true,
+      "short_name": "CAIXA R. BENICARL"
+  },
+  {
+      "bank_code": "3096",
+      "bic": "BCOEESMM096",
+      "country_code": "ES",
+      "name": "CAIXA R. D ALCUDIA",
+      "primary": true,
+      "short_name": "CAIXA R. D ALCUDIA"
+  },
+  {
+      "bank_code": "3105",
+      "bic": "CCRIES2A105",
+      "country_code": "ES",
+      "name": "CAIXA R. DE CALLOSA EN SARRIA CCV",
+      "primary": true,
+      "short_name": "CAIXA R. DE CALLOSA EN SARRIA CCV"
+  },
+  {
+      "bank_code": "3174",
+      "bic": "BCOEESMM174",
+      "country_code": "ES",
+      "name": "CAIXA R. VINAROS",
+      "primary": true,
+      "short_name": "CAIXA R. VINAROS"
+  },
+  {
+      "bank_code": "3186",
+      "bic": "CCRIES2A186",
+      "country_code": "ES",
+      "name": "CAIXA R.ALBALAT DELS SORELLS",
+      "primary": true,
+      "short_name": "CAIXA R.ALBALAT DELS SORELLS"
+  },
+  {
+      "bank_code": "3166",
+      "bic": "BCOEESMM166",
+      "country_code": "ES",
+      "name": "CAIXA R.LES COVES VINROMA",
+      "primary": true,
+      "short_name": "CAIXA R.LES COVES VINROMA"
+  },
+  {
+      "bank_code": "3160",
+      "bic": "CCRIES2A160",
+      "country_code": "ES",
+      "name": "CAIXA R.S.JOSEP DE VILAVELLA SCCV",
+      "primary": true,
+      "short_name": "CAIXA R.S.JOSEP DE VILAVELLA SCCV"
+  },
+  {
+      "bank_code": "3045",
+      "bic": "CCRIES2A045",
+      "country_code": "ES",
+      "name": "CAIXA RURAL ALTEA CCV",
+      "primary": true,
+      "short_name": "CAIXA RURAL ALTEA CCV"
+  },
+  {
+      "bank_code": "3118",
+      "bic": "CCRIES2A118",
+      "country_code": "ES",
+      "name": "CAIXA RURAL DE TORRENT CCV",
+      "primary": true,
+      "short_name": "CAIXA RURAL DE TORRENT CCV"
+  },
+  {
+      "bank_code": "3070",
+      "bic": "BCOEESMM070",
+      "country_code": "ES",
+      "name": "CAIXA RURAL GALEGA, SCCLG",
+      "primary": true,
+      "short_name": "CAIXA RURAL GALEGA, SCCLG"
+  },
+  {
+      "bank_code": "3111",
+      "bic": "BCOEESMM111",
+      "country_code": "ES",
+      "name": "CAIXA RURAL LA VALL \"SAN ISIDRO\"",
+      "primary": true,
+      "short_name": "CAIXA RURAL LA VALL \"SAN ISIDRO\""
+  },
+  {
+      "bank_code": "2100",
+      "bic": "CAIXESBBXXX",
+      "country_code": "ES",
+      "name": "CAIXABANK",
+      "primary": true,
+      "short_name": "CAIXABANK"
+  },
+  {
+      "bank_code": "2045",
+      "bic": "CECAESMM045",
+      "country_code": "ES",
+      "name": "CAJA AH. Y MP. DE ONTINYENT",
+      "primary": true,
+      "short_name": "CAJA AH. Y MP. DE ONTINYENT"
+  },
+  {
+      "bank_code": "3183",
+      "bic": "CASDESBBXXX",
+      "country_code": "ES",
+      "name": "CAJA DE ARQUITECTOS, S.C.C",
+      "primary": true,
+      "short_name": "CAJA DE ARQUITECTOS, S.C.C"
+  },
+  {
+      "bank_code": "3146",
+      "bic": "CCCVESM1XXX",
+      "country_code": "ES",
+      "name": "CAJA DE CDTO COOPERATIVO",
+      "primary": true,
+      "short_name": "CAJA DE CDTO COOPERATIVO"
+  },
+  {
+      "bank_code": "3029",
+      "bic": "CCRIES2A029",
+      "country_code": "ES",
+      "name": "CAJA DE CREDITO DE PETREL",
+      "primary": true,
+      "short_name": "CAJA DE CREDITO DE PETREL"
+  },
+  {
+      "bank_code": "3035",
+      "bic": "CLPEES2MXXX",
+      "country_code": "ES",
+      "name": "CAJA LABORAL",
+      "primary": true,
+      "short_name": "CAJA LABORAL"
+  },
+  {
+      "bank_code": "3098",
+      "bic": "BCOEESMM098",
+      "country_code": "ES",
+      "name": "CAJA NTA.SRA.DEL ROSARIO",
+      "primary": true,
+      "short_name": "CAJA NTA.SRA.DEL ROSARIO"
+  },
+  {
+      "bank_code": "3001",
+      "bic": "BCOEESMM001",
+      "country_code": "ES",
+      "name": "CAJA R. ALMENDRALEJO",
+      "primary": true,
+      "short_name": "CAJA R. ALMENDRALEJO"
+  },
+  {
+      "bank_code": "3102",
+      "bic": "CCRIES2A102",
+      "country_code": "ES",
+      "name": "CAJA R. DE SAN VICENTE VALL DE UXO",
+      "primary": true,
+      "short_name": "CAJA R. DE SAN VICENTE VALL DE UXO"
+  },
+  {
+      "bank_code": "3115",
+      "bic": "BCOEESMM115",
+      "country_code": "ES",
+      "name": "CAJA R. NTA. MADRE DEL SOL",
+      "primary": true,
+      "short_name": "CAJA R. NTA. MADRE DEL SOL"
+  },
+  {
+      "bank_code": "3089",
+      "bic": "BCOEESMM089",
+      "country_code": "ES",
+      "name": "CAJA R.BAENA GUADAL.",
+      "primary": true,
+      "short_name": "CAJA R.BAENA GUADAL."
+  },
+  {
+      "bank_code": "3104",
+      "bic": "BCOEESMM104",
+      "country_code": "ES",
+      "name": "CAJA R.CANETE DE LAS TORRE",
+      "primary": true,
+      "short_name": "CAJA R.CANETE DE LAS TORRE"
+  },
+  {
+      "bank_code": "3134",
+      "bic": "BCOEESMM134",
+      "country_code": "ES",
+      "name": "CAJA R.NTRA. SRA ESPERANZA ONDA",
+      "primary": true,
+      "short_name": "CAJA R.NTRA. SRA ESPERANZA ONDA"
+  },
+  {
+      "bank_code": "3113",
+      "bic": "BCOEESMM113",
+      "country_code": "ES",
+      "name": "CAJA R.SAN JOSE DE ALCORA",
+      "primary": true,
+      "short_name": "CAJA R.SAN JOSE DE ALCORA"
+  },
+  {
+      "bank_code": "3130",
+      "bic": "BCOEESMM130",
+      "country_code": "ES",
+      "name": "CAJA R.SAN JOSE DE ALMASSORA",
+      "primary": true,
+      "short_name": "CAJA R.SAN JOSE DE ALMASSORA"
+  },
+  {
+      "bank_code": "3127",
+      "bic": "BCOEESMM127",
+      "country_code": "ES",
+      "name": "CAJA RURAL CASAS IBANEZ",
+      "primary": true,
+      "short_name": "CAJA RURAL CASAS IBANEZ"
+  },
+  {
+      "bank_code": "3110",
+      "bic": "CCRIES2A110",
+      "country_code": "ES",
+      "name": "CAJA RURAL CATOLICO AGRARIA",
+      "primary": true,
+      "short_name": "CAJA RURAL CATOLICO AGRARIA"
+  },
+  {
+      "bank_code": "3005",
+      "bic": "BCOEESMM005",
+      "country_code": "ES",
+      "name": "CAJA RURAL CENTRAL",
+      "primary": true,
+      "short_name": "CAJA RURAL CENTRAL"
+  },
+  {
+      "bank_code": "3117",
+      "bic": "BCOEESMM117",
+      "country_code": "ES",
+      "name": "CAJA RURAL D ALGEMESI",
+      "primary": true,
+      "short_name": "CAJA RURAL D ALGEMESI"
+  },
+  {
+      "bank_code": "3150",
+      "bic": "BCOEESMM150",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE ALBAL",
+      "primary": true,
+      "short_name": "CAJA RURAL DE ALBAL"
+  },
+  {
+      "bank_code": "3189",
+      "bic": "BCOEESMM191",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE ARAGON, S.C.C.",
+      "primary": true,
+      "short_name": "CAJA RURAL DE ARAGON, S.C.C."
+  },
+  {
+      "bank_code": "3059",
+      "bic": "BCOEESMM059",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE ASTURIAS",
+      "primary": true,
+      "short_name": "CAJA RURAL DE ASTURIAS"
+  },
+  {
+      "bank_code": "3138",
+      "bic": "BCOEESMM138",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE BETXI",
+      "primary": true,
+      "short_name": "CAJA RURAL DE BETXI"
+  },
+  {
+      "bank_code": "3063",
+      "bic": "BCOEESMM063",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE CORDOBA",
+      "primary": true,
+      "short_name": "CAJA RURAL DE CORDOBA"
+  },
+  {
+      "bank_code": "3009",
+      "bic": "BCOEESMM009",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE EXTREMADURA",
+      "primary": true,
+      "short_name": "CAJA RURAL DE EXTREMADURA"
+  },
+  {
+      "bank_code": "3007",
+      "bic": "BCOEESMM007",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE GIJON",
+      "primary": true,
+      "short_name": "CAJA RURAL DE GIJON"
+  },
+  {
+      "bank_code": "3023",
+      "bic": "BCOEESMM023",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE GRANADA",
+      "primary": true,
+      "short_name": "CAJA RURAL DE GRANADA"
+  },
+  {
+      "bank_code": "3140",
+      "bic": "BCOEESMM140",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE GUISSONA, S.C.C.",
+      "primary": true,
+      "short_name": "CAJA RURAL DE GUISSONA, S.C.C."
+  },
+  {
+      "bank_code": "3067",
+      "bic": "BCOEESMM067",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE JAEN",
+      "primary": true,
+      "short_name": "CAJA RURAL DE JAEN"
+  },
+  {
+      "bank_code": "3008",
+      "bic": "BCOEESMM008",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE NAVARRA",
+      "primary": true,
+      "short_name": "CAJA RURAL DE NAVARRA"
+  },
+  {
+      "bank_code": "3016",
+      "bic": "BCOEESMM016",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE SALAMANCA",
+      "primary": true,
+      "short_name": "CAJA RURAL DE SALAMANCA"
+  },
+  {
+      "bank_code": "3017",
+      "bic": "BCOEESMM017",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE SORIA",
+      "primary": true,
+      "short_name": "CAJA RURAL DE SORIA"
+  },
+  {
+      "bank_code": "3080",
+      "bic": "BCOEESMM080",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE TEERUEL",
+      "primary": true,
+      "short_name": "CAJA RURAL DE TEERUEL"
+  },
+  {
+      "bank_code": "3123",
+      "bic": "CCRIES2A123",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE TURIS",
+      "primary": true,
+      "short_name": "CAJA RURAL DE TURIS"
+  },
+  {
+      "bank_code": "3020",
+      "bic": "BCOEESMM020",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE UTRERA,S.C.A",
+      "primary": true,
+      "short_name": "CAJA RURAL DE UTRERA,S.C.A"
+  },
+  {
+      "bank_code": "3144",
+      "bic": "BCOEESMM144",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE VILLAMALEA",
+      "primary": true,
+      "short_name": "CAJA RURAL DE VILLAMALEA"
+  },
+  {
+      "bank_code": "3085",
+      "bic": "BCOEESMM085",
+      "country_code": "ES",
+      "name": "CAJA RURAL DE ZAMORA",
+      "primary": true,
+      "short_name": "CAJA RURAL DE ZAMORA"
+  },
+  {
+      "bank_code": "3187",
+      "bic": "BCOEESMM187",
+      "country_code": "ES",
+      "name": "CAJA RURAL DEL SUR, S.C.C.",
+      "primary": true,
+      "short_name": "CAJA RURAL DEL SUR, S.C.C."
+  },
+  {
+      "bank_code": "3076",
+      "bic": "BCOEESMM076",
+      "country_code": "ES",
+      "name": "CAJASIETE, CAJA RURAL",
+      "primary": true,
+      "short_name": "CAJASIETE, CAJA RURAL"
+  },
+  {
+      "bank_code": "3141",
+      "bic": "CESCESBBXXX",
+      "country_code": "ES",
+      "name": "CATALUNYA BANC",
+      "primary": true,
+      "short_name": "CATALUNYA BANC"
+  },
+  {
+      "bank_code": "2000",
+      "bic": "CECAESMMXXX",
+      "country_code": "ES",
+      "name": "CECABANK",
+      "primary": true,
+      "short_name": "CECABANK"
+  },
+  {
+      "bank_code": "0122",
+      "bic": "CITIES2XXXX",
+      "country_code": "ES",
+      "name": "CITIBANK ESPANA",
+      "primary": true,
+      "short_name": "CITIBANK ESPANA"
+  },
+  {
+      "bank_code": "1474",
+      "bic": "CITIESMXXXX",
+      "country_code": "ES",
+      "name": "CITIBANK INTL PLC SPAIN BRANCH",
+      "primary": true,
+      "short_name": "CITIBANK INTL PLC SPAIN BRANCH"
+  },
+  {
+      "bank_code": "0143",
+      "bic": "COBAESMXXXX",
+      "country_code": "ES",
+      "name": "COMMERZBANK AGTERNATIONAL S AN",
+      "primary": true,
+      "short_name": "COMMERZBANK AGTERNATIONAL S AN"
+  },
+  {
+      "bank_code": "1459",
+      "bic": "PRABESMMXXX",
+      "country_code": "ES",
+      "name": "COOP.CENTR-RAIFFEISEN-BOER",
+      "primary": true,
+      "short_name": "COOP.CENTR-RAIFFEISEN-BOER"
+  },
+  {
+      "bank_code": "1475",
+      "bic": "CCSEESM1XXX",
+      "country_code": "ES",
+      "name": "CORTAL CONSORS, S.E.",
+      "primary": true,
+      "short_name": "CORTAL CONSORS, S.E."
+  },
+  {
+      "bank_code": "1460",
+      "bic": "CRESESMMXXX",
+      "country_code": "ES",
+      "name": "CR DIT SUISSE AG, S.E.",
+      "primary": true,
+      "short_name": "CR DIT SUISSE AG, S.E."
+  },
+  {
+      "bank_code": "1451",
+      "bic": "AGRIESB1XXX",
+      "country_code": "ES",
+      "name": "CRCAM SUD MEDITERRANEE SE",
+      "primary": true,
+      "short_name": "CRCAM SUD MEDITERRANEE SE"
+  },
+  {
+      "bank_code": "0154",
+      "bic": "BSUIESMMXXX",
+      "country_code": "ES",
+      "name": "CREDIT AGRICOLE CIB MADRID",
+      "primary": true,
+      "short_name": "CREDIT AGRICOLE CIB MADRID"
+  },
+  {
+      "bank_code": "1545",
+      "bic": "AGRIESMMXXX",
+      "country_code": "ES",
+      "name": "CREDIT AGRICOLE LUXEMBOURG S.E.",
+      "primary": true,
+      "short_name": "CREDIT AGRICOLE LUXEMBOURG S.E."
+  },
+  {
+      "bank_code": "0019",
+      "bic": "DEUTESBBXXX",
+      "country_code": "ES",
+      "name": "DEUTSCHE BANK SOCIEDAD ANONIMA",
+      "primary": true,
+      "short_name": "DEUTSCHE BANK SOCIEDAD ANONIMA"
+  },
+  {
+      "bank_code": "0231",
+      "bic": "DSBLESMMXXX",
+      "country_code": "ES",
+      "name": "DEXIA SABADELL",
+      "primary": true,
+      "short_name": "DEXIA SABADELL"
+  },
+  {
+      "bank_code": "0211",
+      "bic": "PROAESMMXXX",
+      "country_code": "ES",
+      "name": "EBN BANCO DENEGOCIOS, S.A.",
+      "primary": true,
+      "short_name": "EBN BANCO DENEGOCIOS, S.A."
+  },
+  {
+      "bank_code": "0214",
+      "bic": "ARABESMMXXX",
+      "country_code": "ES",
+      "name": "EUROPE ARAB BANK, PLC - SUCURSAL EN",
+      "primary": true,
+      "short_name": "EUROPE ARAB BANK,"
+  },
+  {
+      "bank_code": "0239",
+      "bic": "EVOBESMMXXX",
+      "country_code": "ES",
+      "name": "EVO BANCO S.A.",
+      "primary": true,
+      "short_name": "EVO BANCO S.A."
+  },
+  {
+      "bank_code": "8517",
+      "bic": "CAZRES2ZXXX",
+      "country_code": "ES",
+      "name": "IBERCAJA BANCO",
+      "primary": true,
+      "short_name": "IBERCAJA BANCO"
+  },
+  {
+      "bank_code": "1538",
+      "bic": "ICBKESMMXXX",
+      "country_code": "ES",
+      "name": "IND. AND COMM. BANK OF CHINA MADRID",
+      "primary": true,
+      "short_name": "IND. AND COMM. BANK OF CHINA MADRID"
+  },
+  {
+      "bank_code": "1465",
+      "bic": "INGDESMMXXX",
+      "country_code": "ES",
+      "name": "ING BANK, N.V. S.E.",
+      "primary": true,
+      "short_name": "ING BANK, N.V. S.E."
+  },
+  {
+      "bank_code": "0168",
+      "bic": "BBRUESMXXXX",
+      "country_code": "ES",
+      "name": "ING BELGIUM MADRID BRANCH",
+      "primary": true,
+      "short_name": "ING BELGIUM MADRID BRANCH"
+  },
+  {
+      "bank_code": "1494",
+      "bic": "BCITESMMXXX",
+      "country_code": "ES",
+      "name": "INTESA SANPAOLO SPA MADRIDNEBA",
+      "primary": true,
+      "short_name": "INTESA SANPAOLO SPA MADRIDNEBA"
+  },
+  {
+      "bank_code": "0222",
+      "bic": "CHASESM3XXX",
+      "country_code": "ES",
+      "name": "JP MORGAN CHASE BANK MADRIDKAR",
+      "primary": true,
+      "short_name": "JP MORGAN CHASE BANK MADRIDKAR"
+  },
+  {
+      "bank_code": "1534",
+      "bic": "KBLXESMMXXX",
+      "country_code": "ES",
+      "name": "KBL EUROPEAN PRIVATE BANKERS S.A.",
+      "primary": true,
+      "short_name": "KBL EUROPEAN PRIVATE BANKERS S.A."
+  },
+  {
+      "bank_code": "2095",
+      "bic": "BASKES2BXXX",
+      "country_code": "ES",
+      "name": "KUTXABANK",
+      "primary": true,
+      "short_name": "KUTXABANK"
+  },
+  {
+      "bank_code": "2048",
+      "bic": "CECAESMM048",
+      "country_code": "ES",
+      "name": "LIBERBANK",
+      "primary": true,
+      "short_name": "LIBERBANK"
+  },
+  {
+      "bank_code": "2080",
+      "bic": "CAGLESMMXXX",
+      "country_code": "ES",
+      "name": "NCG BANCO",
+      "primary": true,
+      "short_name": "NCG BANCO"
+  },
+  {
+      "bank_code": "0133",
+      "bic": "MIKBESB1XXX",
+      "country_code": "ES",
+      "name": "NUEVO MICRO BANK",
+      "primary": true,
+      "short_name": "NUEVO MICRO BANK"
+  },
+  {
+      "bank_code": "0073",
+      "bic": "OPENESMMXXX",
+      "country_code": "ES",
+      "name": "OPEN BANK SANTANDER CONSUMER S.A",
+      "primary": true,
+      "short_name": "OPEN BANK SANTANDER CONSUMER S.A"
+  },
+  {
+      "bank_code": "1488",
+      "bic": "PICTESMMXXX",
+      "country_code": "ES",
+      "name": "PICTET AND CIE EUROPE SA",
+      "primary": true,
+      "short_name": "PICTET AND CIE EUROPE SA"
+  },
+  {
+      "bank_code": "0233",
+      "bic": "POPIESMMXXX",
+      "country_code": "ES",
+      "name": "POPULAR BANCA PRIVADA S.A.",
+      "primary": true,
+      "short_name": "POPULAR BANCA PRIVADA S.A."
+  },
+  {
+      "bank_code": "0196",
+      "bic": "WELAESMMXXX",
+      "country_code": "ES",
+      "name": "PORTIGON AG, S.E.",
+      "primary": true,
+      "short_name": "PORTIGON AG, S.E."
+  },
+  {
+      "bank_code": "200",
+      "bic": "PRVBESB1XXX",
+      "country_code": "ES",
+      "name": "PRIVAT BANK DEGROOF SAU",
+      "primary": true,
+      "short_name": "PRIVAT BANK DEGROOF SAU"
+  },
+  {
+      "bank_code": "0094",
+      "bic": "BVALESMMXXX",
+      "country_code": "ES",
+      "name": "RBC INVESTOR SERV. ESPANA",
+      "primary": true,
+      "short_name": "RBC INVESTOR SERV. ESPANA"
+  },
+  {
+      "bank_code": "0083",
+      "bic": "RENBESMMXXX",
+      "country_code": "ES",
+      "name": "RENTA 4 BANCO, S.A.",
+      "primary": true,
+      "short_name": "RENTA 4 BANCO, S.A."
+  },
+  {
+      "bank_code": "0156",
+      "bic": "ABNAESMMXXX",
+      "country_code": "ES",
+      "name": "ROYAL BANK OF SCOTLAND PLC SPAIN",
+      "primary": true,
+      "short_name": "ROYAL BANK OF SCOTLAND PLC SPAIN"
+  },
+  {
+      "bank_code": "0224",
+      "bic": "SCFBESMMXXX",
+      "country_code": "ES",
+      "name": "SANTANDER CONSUMER FINANCE,S.A.",
+      "primary": true,
+      "short_name": "SANTANDER CONSUMER FINANCE,S.A."
+  },
+  {
+      "bank_code": "1490",
+      "bic": "SELFESMMXXX",
+      "country_code": "ES",
+      "name": "SELF TRADE BANK",
+      "primary": true,
+      "short_name": "SELF TRADE BANK"
+  },
+  {
+      "bank_code": "0108",
+      "bic": "SOGEESMMXXX",
+      "country_code": "ES",
+      "name": "SOCIETE GENERALE MADRIDDZIAL W",
+      "primary": true,
+      "short_name": "SOCIETE GENERALE MADRIDDZIAL W"
+  },
+  {
+      "bank_code": "0216",
+      "bic": "POHIESMMXXX",
+      "country_code": "ES",
+      "name": "TARGOBANK, S.A.",
+      "primary": true,
+      "short_name": "TARGOBANK, S.A."
+  },
+  {
+      "bank_code": "0176",
+      "bic": "BOTKESMXXXX",
+      "country_code": "ES",
+      "name": "THE BANK OF TOKYO MITS. UFJ, MADRID",
+      "primary": true,
+      "short_name": "THE BANK OF TOKYO MITS. UFJ, MADRID"
+  },
+  {
+      "bank_code": "1491",
+      "bic": "TRIOESMMXXX",
+      "country_code": "ES",
+      "name": "TRIODOS BANK, N.V. S.E.",
+      "primary": true,
+      "short_name": "TRIODOS BANK, N.V. S.E."
+  },
+  {
+      "bank_code": "1524",
+      "bic": "UBIBESMMXXX",
+      "country_code": "ES",
+      "name": "UBI BANCA INTERNATIONAL S.A. S.E",
+      "primary": true,
+      "short_name": "UBI BANCA INTERNATIONAL S.A. S.E"
+  },
+  {
+      "bank_code": "0226",
+      "bic": "UBSWESMMXXX",
+      "country_code": "ES",
+      "name": "UBS SPAINROMA SPASPAI FOSSANOR",
+      "primary": true,
+      "short_name": "UBS SPAINROMA SPASPAI FOSSANOR"
+  },
+  {
+      "bank_code": "2103",
+      "bic": "UCJAES2MXXX",
+      "country_code": "ES",
+      "name": "UNICAJA BANCO",
+      "primary": true,
+      "short_name": "UNICAJA BANCO"
+  },
+  {
+      "bank_code": "1480",
+      "bic": "VOWAES21XXX",
+      "country_code": "ES",
+      "name": "VOLKSWAGEN BANK GMBH, S.E.",
+      "primary": true,
+      "short_name": "VOLKSWAGEN BANK GMBH, S.E."
   }
 ]
