@@ -1539,8 +1539,16 @@
     "bank_code": "3190",
     "bic": "BCOEESMM190",
     "country_code": "ES",
-    "name": " C.R. DE ALBACETE, CIUDAD REAL Y CUENCA, S.C.C.",
+    "name": "C.R. DE ALBACETE, CIUDAD REAL Y CUENCA, S.C.C.",
     "primary": true,
     "short_name": "CAJA RURAL DE ALBACETE"
+  },
+  {
+    "bank_code": "2085",
+    "bic": "CAZRES2ZXXX",
+    "country_code": "ES",
+    "name": "IBERCAJA BANCO, S.A.",
+    "primary": true,
+    "short_name": "IBERCAJA"
   }
 ]
