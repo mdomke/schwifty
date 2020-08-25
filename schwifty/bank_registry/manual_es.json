@@ -1550,5 +1550,13 @@
     "name": "IBERCAJA BANCO, S.A.",
     "primary": true,
     "short_name": "IBERCAJA"
+  },
+  {
+    "bank_code": "3058",
+    "bic": "CCRIES2AXXX",
+    "country_code": "ES",
+    "name": "CAJAMAR CAJA RURAL, S.C.C.",
+    "primary": true,
+    "short_name": "CAJAMAR"
   }
 ]
