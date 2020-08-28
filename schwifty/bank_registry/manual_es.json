@@ -1558,5 +1558,13 @@
     "name": "CAJAMAR CAJA RURAL, S.C.C.",
     "primary": true,
     "short_name": "CAJAMAR"
+  },
+  {
+    "bank_code": "0030",
+    "bic": "ESPCESMMXXX",
+    "country_code": "ES",
+    "name": "BANCO ESPAÑOL DE CREDITO, S.A.",
+    "primary": true,
+    "short_name": "BANCO ESPAÑOL DE CREDITO"
   }
 ]
