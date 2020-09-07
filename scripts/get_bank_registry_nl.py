@@ -22,8 +22,8 @@ def process():
                 "primary": True,
                 "bic": bic.value.upper().replace(" ", ""),
                 "bank_code": bank_code.value,
-                "name": name.value or second_name.value,
-                "short_name": name.value or second_name.value,
+                "name": name.value,
+                "short_name": name.value,
             }
         )
     return registry
