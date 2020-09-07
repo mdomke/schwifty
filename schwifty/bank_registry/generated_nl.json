@@ -1,0 +1,602 @@
+[
+  {
+    "short_name": "ABN AMRO BANK ",
+    "primary": true,
+    "country_code": "NL",
+    "name": "ABN AMRO BANK ",
+    "bic": "ABNANL2A",
+    "bank_code": "ABNA"
+  },
+  {
+    "short_name": "ABN AMRO (ex FORTIS)",
+    "primary": true,
+    "country_code": "NL",
+    "name": "ABN AMRO (ex FORTIS)",
+    "bic": "ABNANL2A",
+    "bank_code": "FTSB"
+  },
+  {
+    "short_name": "ABN AMRO Clearing Bank N.V.",
+    "primary": true,
+    "country_code": "NL",
+    "name": "ABN AMRO Clearing Bank N.V.",
+    "bic": "ABNCNL2A",
+    "bank_code": "ABNC"
+  },
+  {
+    "short_name": "ADYEN",
+    "primary": true,
+    "country_code": "NL",
+    "name": "ADYEN",
+    "bic": "ADYBNL2A",
+    "bank_code": "ADYB"
+  },
+  {
+    "short_name": "AEGON BANK ",
+    "primary": true,
+    "country_code": "NL",
+    "name": "AEGON BANK ",
+    "bic": "AEGONL2U",
+    "bank_code": "AEGO"
+  },
+  {
+    "short_name": "ANADOLUBANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "ANADOLUBANK",
+    "bic": "ANDLNL2A",
+    "bank_code": "ANDL"
+  },
+  {
+    "short_name": "ACHMEA BANK ",
+    "primary": true,
+    "country_code": "NL",
+    "name": "ACHMEA BANK ",
+    "bic": "ARBNNL22",
+    "bank_code": "ARBN"
+  },
+  {
+    "short_name": "ARGENTA SPAARBANK ",
+    "primary": true,
+    "country_code": "NL",
+    "name": "ARGENTA SPAARBANK ",
+    "bic": "ARSNNL21",
+    "bank_code": "ARSN"
+  },
+  {
+    "short_name": "ASN BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "ASN BANK",
+    "bic": "ASNBNL21",
+    "bank_code": "ASNB"
+  },
+  {
+    "short_name": "AMSTERDAM TRADE BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "AMSTERDAM TRADE BANK",
+    "bic": "ATBANL2A",
+    "bank_code": "ATBA"
+  },
+  {
+    "short_name": "BARCLAYS BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BARCLAYS BANK",
+    "bic": "BARCNL22",
+    "bank_code": "BARC"
+  },
+  {
+    "short_name": "BANQUE CHAABI DU MAROC",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BANQUE CHAABI DU MAROC",
+    "bic": "BCDMNL22",
+    "bank_code": "BCDM"
+  },
+  {
+    "short_name": "INTESA SANPAOLO",
+    "primary": true,
+    "country_code": "NL",
+    "name": "INTESA SANPAOLO",
+    "bic": "BCITNL2A",
+    "bank_code": "BCIT"
+  },
+  {
+    "short_name": "BINCKBANK ",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BINCKBANK ",
+    "bic": "BICKNL2A",
+    "bank_code": "BICK"
+  },
+  {
+    "short_name": "BINCKBANK, PROF",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BINCKBANK, PROF",
+    "bic": "BINKNL21",
+    "bank_code": "BINK"
+  },
+  {
+    "short_name": "BITSAFE PAYMENTS",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BITSAFE PAYMENTS",
+    "bic": "BITSNL2A",
+    "bank_code": "BITS"
+  },
+  {
+    "short_name": "BANK OF CHINA",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BANK OF CHINA",
+    "bic": "BKCHNL2R",
+    "bank_code": "BKCH"
+  },
+  {
+    "short_name": "BANK MENDES GANS",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BANK MENDES GANS",
+    "bic": "BKMGNL2A",
+    "bank_code": "BKMG"
+  },
+  {
+    "short_name": "BLG WONEN",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BLG WONEN",
+    "bic": "BLGWNL21",
+    "bank_code": "BLGW"
+  },
+  {
+    "short_name": "BMCE EUROSERVICES",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BMCE EUROSERVICES",
+    "bic": "BMEUNL21",
+    "bank_code": "BMEU"
+  },
+  {
+    "short_name": "BRAND NEW DAY BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BRAND NEW DAY BANK",
+    "bic": "BNDANL2A",
+    "bank_code": "BNDA"
+  },
+  {
+    "short_name": "BANK NEDERLANDSE GEMEENTEN",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BANK NEDERLANDSE GEMEENTEN",
+    "bic": "BNGHNL2G",
+    "bank_code": "BNGH"
+  },
+  {
+    "short_name": "BNP PARIBAS",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BNP PARIBAS",
+    "bic": "BNPANL2A",
+    "bank_code": "BNPA"
+  },
+  {
+    "short_name": "BANK OF AMERICA",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BANK OF AMERICA",
+    "bic": "BOFANLNX",
+    "bank_code": "BOFA"
+  },
+  {
+    "short_name": "BANK OF SCOTLAND, AMSTERDAM",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BANK OF SCOTLAND, AMSTERDAM",
+    "bic": "BOFSNL21002",
+    "bank_code": "BOFS"
+  },
+  {
+    "short_name": "MUFG BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "MUFG BANK",
+    "bic": "BOTKNL2X",
+    "bank_code": "BOTK"
+  },
+  {
+    "short_name": "BUNQ",
+    "primary": true,
+    "country_code": "NL",
+    "name": "BUNQ",
+    "bic": "BUNQNL2A",
+    "bank_code": "BUNQ"
+  },
+  {
+    "short_name": "JPMORGAN CHASE",
+    "primary": true,
+    "country_code": "NL",
+    "name": "JPMORGAN CHASE",
+    "bic": "CHASNL2X",
+    "bank_code": "CHAS"
+  },
+  {
+    "short_name": "CITCO BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "CITCO BANK",
+    "bic": "CITCNL2A",
+    "bank_code": "CITC"
+  },
+  {
+    "short_name": "CITIBANK INTERNATIONAL",
+    "primary": true,
+    "country_code": "NL",
+    "name": "CITIBANK INTERNATIONAL",
+    "bic": "CITINL2X",
+    "bank_code": "CITI"
+  },
+  {
+    "short_name": "COMMERZBANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "COMMERZBANK",
+    "bic": "COBANL2X",
+    "bank_code": "COBA"
+  },
+  {
+    "short_name": "OYENS & VAN EEGHEN - part of Delen Private Bank",
+    "primary": true,
+    "country_code": "NL",
+    "name": "OYENS & VAN EEGHEN - part of Delen Private Bank",
+    "bic": "DELENL22",
+    "bank_code": "DELE"
+  },
+  {
+    "short_name": "DEUTSCHE BANK (bij alle SEPA-transacties)",
+    "primary": true,
+    "country_code": "NL",
+    "name": "DEUTSCHE BANK (bij alle SEPA-transacties)",
+    "bic": "DEUTNL2A",
+    "bank_code": "DEUT"
+  },
+  {
+    "short_name": "DEMIR-HALK BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "DEMIR-HALK BANK",
+    "bic": "DHBNNL2R",
+    "bank_code": "DHBN"
+  },
+  {
+    "short_name": "DELTA LLOYD BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "DELTA LLOYD BANK",
+    "bic": "DLBKNL2A",
+    "bank_code": "DLBK"
+  },
+  {
+    "short_name": "NIBC",
+    "primary": true,
+    "country_code": "NL",
+    "name": "NIBC",
+    "bic": "DNIBNL2G",
+    "bank_code": "DNIB"
+  },
+  {
+    "short_name": "EBURY NETHERLANDS (Brussel entiteit)",
+    "primary": true,
+    "country_code": "NL",
+    "name": "EBURY NETHERLANDS (Brussel entiteit)",
+    "bic": "EBPBNL22",
+    "bank_code": "EBPB"
+  },
+  {
+    "short_name": "EBURY NETHERLANDS (Londen entiteit)",
+    "primary": true,
+    "country_code": "NL",
+    "name": "EBURY NETHERLANDS (Londen entiteit)",
+    "bic": "EBURNL21",
+    "bank_code": "EBUR"
+  },
+  {
+    "short_name": "CREDIT EUROPE BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "CREDIT EUROPE BANK",
+    "bic": "FBHLNL2A",
+    "bank_code": "FBHL"
+  },
+  {
+    "short_name": "DE NEDERLANDSCHE BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "DE NEDERLANDSCHE BANK",
+    "bic": "FLORNL2A",
+    "bank_code": "FLOR"
+  },
+  {
+    "short_name": "FRANX",
+    "primary": true,
+    "country_code": "NL",
+    "name": "FRANX",
+    "bic": "FRNXNL2A",
+    "bank_code": "FRNX"
+  },
+  {
+    "short_name": "VAN LANSCHOT ",
+    "primary": true,
+    "country_code": "NL",
+    "name": "VAN LANSCHOT ",
+    "bic": "FVLBNL22",
+    "bank_code": "FVLB"
+  },
+  {
+    "short_name": "IBANFIRST",
+    "primary": true,
+    "country_code": "NL",
+    "name": "IBANFIRST",
+    "bic": "FXBBNL22",
+    "bank_code": "FXBB"
+  },
+  {
+    "short_name": "INSINGERGILISSEN ",
+    "primary": true,
+    "country_code": "NL",
+    "name": "INSINGERGILISSEN ",
+    "bic": "GILLNL2A",
+    "bank_code": "GILL"
+  },
+  {
+    "short_name": "SVENSKA HANDELSBANKEN",
+    "primary": true,
+    "country_code": "NL",
+    "name": "SVENSKA HANDELSBANKEN",
+    "bic": "HANDNL2A",
+    "bank_code": "HAND"
+  },
+  {
+    "short_name": "HOF HOORNEMAN BANKIERS",
+    "primary": true,
+    "country_code": "NL",
+    "name": "HOF HOORNEMAN BANKIERS",
+    "bic": "HHBANL22",
+    "bank_code": "HHBA"
+  },
+  {
+    "short_name": "HSBC BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "HSBC BANK",
+    "bic": "HSBCNL2A",
+    "bank_code": "HSBC"
+  },
+  {
+    "short_name": "MEGA INTERNATIONAL COMMERCIAL BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "MEGA INTERNATIONAL COMMERCIAL BANK",
+    "bic": "ICBCNL2A",
+    "bank_code": "ICBC"
+  },
+  {
+    "short_name": "INDUSTRIAL & COMMERCIAL BANK OF CHINA",
+    "primary": true,
+    "country_code": "NL",
+    "name": "INDUSTRIAL & COMMERCIAL BANK OF CHINA",
+    "bic": "ICBKNL2A",
+    "bank_code": "ICBK"
+  },
+  {
+    "short_name": "ICEPAY",
+    "primary": true,
+    "country_code": "NL",
+    "name": "ICEPAY",
+    "bic": "ICEPNL21",
+    "bank_code": "ICEP"
+  },
+  {
+    "short_name": "ING",
+    "primary": true,
+    "country_code": "NL",
+    "name": "ING",
+    "bic": "INGBNL2A",
+    "bank_code": "INGB"
+  },
+  {
+    "short_name": "CACEIS BANK, Netherlands Branch",
+    "primary": true,
+    "country_code": "NL",
+    "name": "CACEIS BANK, Netherlands Branch",
+    "bic": "ISAENL2A",
+    "bank_code": "ISAE"
+  },
+  {
+    "short_name": "ISBANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "ISBANK",
+    "bic": "ISBKNL2A",
+    "bank_code": "ISBK"
+  },
+  {
+    "short_name": "YAPI KREDI BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "YAPI KREDI BANK",
+    "bic": "KABANL2A",
+    "bank_code": "KABA"
+  },
+  {
+    "short_name": "KAS BANK ",
+    "primary": true,
+    "country_code": "NL",
+    "name": "KAS BANK ",
+    "bic": "KASANL2A",
+    "bank_code": "KASA"
+  },
+  {
+    "short_name": "KNAB",
+    "primary": true,
+    "country_code": "NL",
+    "name": "KNAB",
+    "bic": "KNABNL2H",
+    "bank_code": "KNAB"
+  },
+  {
+    "short_name": "KEB HANA BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "KEB HANA BANK",
+    "bic": "KOEXNL2A",
+    "bank_code": "KOEX"
+  },
+  {
+    "short_name": "KBC BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "KBC BANK",
+    "bic": "KREDNL2X",
+    "bank_code": "KRED"
+  },
+  {
+    "short_name": "LOMBARD ODIER DARIER HENTSCH & CIE",
+    "primary": true,
+    "country_code": "NL",
+    "name": "LOMBARD ODIER DARIER HENTSCH & CIE",
+    "bic": "LOCYNL2A",
+    "bank_code": "LOCY"
+  },
+  {
+    "short_name": "LLOYDS TSB BANK ",
+    "primary": true,
+    "country_code": "NL",
+    "name": "LLOYDS TSB BANK ",
+    "bic": "LOYDNL2A",
+    "bank_code": "LOYD"
+  },
+  {
+    "short_name": "LEASEPLAN CORPORATION ",
+    "primary": true,
+    "country_code": "NL",
+    "name": "LEASEPLAN CORPORATION ",
+    "bic": "LPLNNL2F",
+    "bank_code": "LPLN"
+  },
+  {
+    "short_name": "MIZUHO BANK EUROPE NV",
+    "primary": true,
+    "country_code": "NL",
+    "name": "MIZUHO BANK EUROPE NV",
+    "bic": "MHCBNL2A",
+    "bank_code": "MHCB"
+  },
+  {
+    "short_name": "MONEYOU",
+    "primary": true,
+    "country_code": "NL",
+    "name": "MONEYOU",
+    "bic": "MOYONL21",
+    "bank_code": "MOYO"
+  },
+  {
+    "short_name": "NATIONALE-NEDERLANDEN BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "NATIONALE-NEDERLANDEN BANK",
+    "bic": "NNBANL2G",
+    "bank_code": "NNBA"
+  },
+  {
+    "short_name": "NEDERLANDSE WATERSCHAPSBANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "NEDERLANDSE WATERSCHAPSBANK",
+    "bic": "NWABNL2G",
+    "bank_code": "NWAB"
+  },
+  {
+    "short_name": "CHINA CONSTRUCTION BANK, AMSTERDAM BRANCH",
+    "primary": true,
+    "country_code": "NL",
+    "name": "CHINA CONSTRUCTION BANK, AMSTERDAM BRANCH",
+    "bic": "PCBCNL2A",
+    "bank_code": "PCBC"
+  },
+  {
+    "short_name": "RABOBANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "RABOBANK",
+    "bic": "RABONL2U",
+    "bank_code": "RABO"
+  },
+  {
+    "short_name": "REGIOBANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "REGIOBANK",
+    "bic": "RBRBNL21",
+    "bank_code": "RBRB"
+  },
+  {
+    "short_name": "SNS",
+    "primary": true,
+    "country_code": "NL",
+    "name": "SNS",
+    "bic": "SNSBNL2A",
+    "bank_code": "SNSB"
+  },
+  {
+    "short_name": "SOCIETE GENERALE",
+    "primary": true,
+    "country_code": "NL",
+    "name": "SOCIETE GENERALE",
+    "bic": "SOGENL2A",
+    "bank_code": "SOGE"
+  },
+  {
+    "short_name": "TRIODOS BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "TRIODOS BANK",
+    "bic": "TRIONL2U",
+    "bank_code": "TRIO"
+  },
+  {
+    "short_name": "GARANTIBANK INTERNATIONAL ",
+    "primary": true,
+    "country_code": "NL",
+    "name": "GARANTIBANK INTERNATIONAL ",
+    "bic": "UGBINL2A",
+    "bank_code": "UGBI"
+  },
+  {
+    "short_name": "VOLKSWAGEN BANK",
+    "primary": true,
+    "country_code": "NL",
+    "name": "VOLKSWAGEN BANK",
+    "bic": "VOWANL21",
+    "bank_code": "VOWA"
+  },
+  {
+    "short_name": "VIVA PAYMENT SERVICES S.A.",
+    "primary": true,
+    "country_code": "NL",
+    "name": "VIVA PAYMENT SERVICES S.A.",
+    "bic": "VPAYNL22",
+    "bank_code": "VPAY"
+  },
+  {
+    "short_name": "SNS ( ex ZWITSERLEVENBANK)",
+    "primary": true,
+    "country_code": "NL",
+    "name": "SNS ( ex ZWITSERLEVENBANK)",
+    "bic": "ZWLBNL21",
+    "bank_code": "ZWLB"
+  }
+]
