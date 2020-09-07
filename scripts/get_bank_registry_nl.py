@@ -20,7 +20,7 @@ def process():
             {
                 "country_code": "NL",
                 "primary": True,
-                "bic": bic.value.upper().replace(" ", ""),
+                "bic": bic.value.upper(),
                 "bank_code": bank_code.value,
                 "name": name.value,
                 "short_name": name.value,
