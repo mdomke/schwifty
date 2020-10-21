@@ -10,7 +10,7 @@ def process():
     registry = []
     with requests.get(URL, stream=True) as fp:
         for row in fp.iter_lines():
-            cells = [cell.strip() for cell in row.decode("latin1").split("\t")]
+            cells = [cell.strip() for cell in row.decode("CP852").split("\t")]
             if len(cells) != 32:
                 continue
             registry.append(
