@@ -52,16 +52,16 @@
     "primary": true,
     "bic": "LUBASKBX",
     "bank_code": "3100",
-    "name": "Prima banka Slovensko, a.s. (predt\u00fdm Sberbank Slovensko, a.s.) \u2013 k\u00f3d pre dobeh platieb ",
-    "short_name": "Prima banka Slovensko, a.s. (predt\u00fdm Sberbank Slovensko, a.s.) \u2013 k\u00f3d pre dobeh platieb "
+    "name": "Prima banka Slovensko, a.s. (predt\u00fdm Sberbank Slovensko, a.s.) \u2013 k\u00f3d pre dobeh platieb",
+    "short_name": "Prima banka Slovensko, a.s. (predt\u00fdm Sberbank Slovensko, a.s.) \u2013 k\u00f3d pre dobeh platieb"
   },
   {
     "country_code": "SK",
     "primary": true,
     "bic": "OTPVSKBX",
     "bank_code": "5200",
-    "name": "OTP Banka Slovensko, a.s. ",
-    "short_name": "OTP Banka Slovensko, a.s. "
+    "name": "OTP Banka Slovensko, a.s.",
+    "short_name": "OTP Banka Slovensko, a.s."
   },
   {
     "country_code": "SK",
