@@ -12,7 +12,7 @@ def process():
         csvfile = csv.reader([line.decode("cp1250") for line in fp.iter_lines()], delimiter=";")
     return [
         {
-            "country_code": "CZ",
+            "country_code": "SK",
             "primary": True,
             "bic": row[2].strip().upper(),
             "bank_code": row[0].strip().zfill(4),
