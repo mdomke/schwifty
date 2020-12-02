@@ -17274,7 +17274,7 @@
   {
     "country_code": "PL",
     "primary": true,
-    "bic": "PLUPLPRXXX",
+    "bic": "POLUPLPRXXX",
     "bank_code": "82411019",
     "name": "Bank Sp\u00f3\u0142dzielczy w P\u0142o\u0144sku",
     "short_name": "Bank Sp\u00f3\u0142dzielczy w P\u0142o\u0144sku"
@@ -22634,7 +22634,7 @@
   {
     "country_code": "PL",
     "primary": true,
-    "bic": "POLUPLPRXX",
+    "bic": "POLUPLPRXXX",
     "bank_code": "91830005",
     "name": "Bank Sp\u00f3\u0142dzielczy w Mielcu",
     "short_name": "Bank Sp\u00f3\u0142dzielczy w Mielcu"
