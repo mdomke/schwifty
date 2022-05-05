@@ -62,5 +62,13 @@
     "name": "POSTE ITALIANE SPA",
     "short_name": "POSTE ITALIANE SPA",
     "primary": true
+  },
+  {
+    "country_code": "IT",
+    "bic": "UNCRITMMXXX",
+    "bank_code": "03002",
+    "name": "UNICREDIT BANCA DI ROMA SPA",
+    "short_name": "UNICREDIT BANCA DI ROMA SPA",
+    "primary": true
   }
 ]
