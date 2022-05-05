@@ -5,6 +5,28 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+`2022.04.2`_ - 2022/04/29
+-------------------------
+
+Changed
+~~~~~~~
+* Allow getting bank names from IBAN. Previously, you could do ``iban.bic.bank_names[0]``, but since
+  a BIC can be associated to multiple bank codes the context of the specific bank is lost and you
+  could end up with the wrong bank name. `@jose-reveni <https://github.com/jose-reveni>`_
+
+
+`2022.04.1`_ - 2022/04/29
+-------------------------
+
+Changed
+~~~~~~~
+* The Italian BBAN checksum algorithm is now also applied for San Marino `@fabienpe <https://github.com/fabienpe>`_
+
+Fixed
+~~~~~
+* Fix Italian BBAN checksum calculation `#78 <https://github.com/mdomke/schwifty/issues/78>`_
+* Fix bank code position in BBAN for Jordan banks `@fabienpe <https://github.com/fabienpe>`_
+
 
 `2022.04.0`_ - 2022/04/11
 -------------------------
@@ -246,6 +268,8 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2022.04.2: https://github.com/mdomke/schwifty/compare/2022.04.1...2022.04.2
+.. _2022.04.1: https://github.com/mdomke/schwifty/compare/2022.04.0...2022.04.1
 .. _2022.04.0: https://github.com/mdomke/schwifty/compare/2022.03.1...2022.04.0
 .. _2022.03.1: https://github.com/mdomke/schwifty/compare/2022.03.0...2022.03.1
 .. _2022.03.0: https://github.com/mdomke/schwifty/compare/2022.02.0...2022.03.0

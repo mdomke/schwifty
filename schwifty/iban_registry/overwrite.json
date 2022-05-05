@@ -12,5 +12,12 @@
       "bank_code": [0, 5],
       "branch_code": [5, 10]
     }
+  },
+  "JO": {
+    "positions": {
+      "account_code": [8, 26],
+      "bank_code": [0,4],
+      "branch_code": [4,8]
+    }
   }
 }

@@ -40,7 +40,8 @@ def code_length(spec: Dict, code_type: str) -> int:
 
 
 def add_bban_checksum(country_code: str, bban: str) -> str:
-    if country_code == "IT":
+    if country_code in ["IT", "SM"]:
+        # The IBAN of San Marino is covered by the Italian IBAN and uses the same checksum
         checksum = algorithms["IT:default"].compute(bban[1:])
         bban = checksum + bban[1:]
     elif country_code == "BE":
@@ -341,6 +342,7 @@ class IBAN(common.Base):
             >>> IBAN('DE89370400440532013000').bank_name
             'Commerzbank'
 
+        .. versionadded:: 2022.04.2
         """
 
         return None if self.bank is None else self.bank["name"]
@@ -353,6 +355,7 @@ class IBAN(common.Base):
             >>> IBAN('DE89370400440532013000').bank_short_name
             'Commerzbank Köln'
 
+        .. versionadded:: 2022.04.2
         """
 
         return None if self.bank is None else self.bank["short_name"]
