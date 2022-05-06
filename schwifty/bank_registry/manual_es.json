@@ -22,5 +22,13 @@
     "bic": "BSCHESMM",
     "name": "BANCO POPULAR INDUSTRIAL, S.A.(EUROBANCO)",
     "short_name": "POPULAR IND."
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bank_code": "2038",
+    "bic": "CAIXESBB",
+    "name": "CAIXABANK, S.A.",
+    "short_name": "CAIXABANK, S.A."
   }
 ]
