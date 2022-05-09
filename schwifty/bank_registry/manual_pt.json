@@ -6,5 +6,12 @@
     "name": "BANCO COMERCIAL PORTUGUÊS, SA",
     "short_name": "BANCO COMERCIAL PORTUGUÊS",
     "primary": true
+  }, {
+    "country_code": "PT",
+    "bic": "TOTAPTPLXXX",
+    "bank_code": "0018",
+    "name": "BANCO SANTANDER TOTTA, SA,",
+    "short_name": "BANCO SANTANDER TOTTA",
+    "primary": true
   }
 ]
