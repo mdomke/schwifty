@@ -30,5 +30,13 @@
     "bic": "CAIXESBB",
     "name": "CAIXABANK, S.A.",
     "short_name": "CAIXABANK, S.A."
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bank_code": "0030",
+    "bic": "BSCHESMM",
+    "name": "BANCO ESPA\u00d1OL DE CREDITO, S.A.",
+    "short_name": "BANESTO"
   }
 ]

@@ -13,5 +13,12 @@
     "name": "BANCO SANTANDER TOTTA, SA,",
     "short_name": "BANCO SANTANDER TOTTA",
     "primary": true
+  }, {
+    "country_code": "PT",
+    "bic": "ACTVPTPLXXX",
+    "bank_code": "0023",
+    "name": "BANCO ACTIVOBANK, SA",
+    "short_name": "BANCO ACTIVOBANK",
+    "primary": true
   }
 ]
