@@ -70,5 +70,13 @@
     "name": "UNICREDIT BANCA DI ROMA SPA",
     "short_name": "UNICREDIT BANCA DI ROMA SPA",
     "primary": true
+  },
+  {
+    "country_code": "IT",
+    "bic": "MEDBITMMXXX",
+    "bank_code": "03062",
+    "name": "BANCA MEDIOLANUM S.P.A.",
+    "short_name": "BANCA MEDIOLANUM S.P.A.",
+    "primary": true
   }
 ]
