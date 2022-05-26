@@ -1,6 +1,7 @@
 import itertools
 import json
 import pathlib
+import sys
 from collections import defaultdict
 from typing import Any
 from typing import Callable
@@ -8,6 +9,8 @@ from typing import Dict
 from typing import List
 from typing import Tuple
 from typing import Union
+from pathlib import Path
+
 
 
 try:
@@ -41,7 +44,10 @@ def has(name: str) -> bool:
 def get(name: str) -> Union[Dict, List[Dict]]:
     if not has(name):
         data = None
-        directory = files(__package__) / f"{name}_registry"
+        package_path = files(__package__)
+        if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+            package_path = Path(sys._MEIPASS)
+        directory = package_path / f"{name}_registry"
         assert isinstance(directory, pathlib.Path)
         for entry in sorted(directory.glob("*.json")):
             with entry.open(encoding="utf-8") as fp:
