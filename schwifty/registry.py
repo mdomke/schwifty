@@ -12,7 +12,6 @@ from typing import Union
 from pathlib import Path
 
 
-
 try:
     from importlib.resources import files
 except ImportError:
@@ -45,7 +44,7 @@ def get(name: str) -> Union[Dict, List[Dict]]:
     if not has(name):
         data = None
         package_path = files(__package__)
-        if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+        if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
             package_path = Path(sys._MEIPASS)
         directory = package_path / f"{name}_registry"
         assert isinstance(directory, pathlib.Path)
