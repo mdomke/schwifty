@@ -13,9 +13,11 @@ from pathlib import Path
 
 
 try:
+    from importlib.abc import Traversable
     from importlib.resources import files
 except ImportError:
     from importlib_resources import files  # type: ignore
+    from importlib_resources.abc import Traversable  # type: ignore
 
 
 _registry: Dict[str, Union[Dict, List[Dict]]] = {}
@@ -43,9 +45,11 @@ def has(name: str) -> bool:
 def get(name: str) -> Union[Dict, List[Dict]]:
     if not has(name):
         data = None
-        package_path = files(__package__)
+        package_path: Union[Traversable, Path]
         if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
-            package_path = Path(sys._MEIPASS)
+            package_path = Path(getattr(sys, "_MEIPASS"))
+        else:
+            package_path = files(__package__)
         directory = package_path / f"{name}_registry"
         assert isinstance(directory, pathlib.Path)
         for entry in sorted(directory.glob("*.json")):
