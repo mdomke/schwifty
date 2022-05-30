@@ -78,5 +78,13 @@
     "name": "BANCA MEDIOLANUM S.P.A.",
     "short_name": "BANCA MEDIOLANUM S.P.A.",
     "primary": true
+  },
+  {
+    "country_code": "IT",
+    "bic": "ICRAITRRTV0",
+    "bank_code": "07075",
+    "name": "BANCA CENTRO-CREDITO COOPERATIVO TOSCANA-UMBRIA SOC.COOPERATIVA",
+    "short_name": "Banca Centro Toscana-Umbria",
+    "primary": true
   }
 ]
