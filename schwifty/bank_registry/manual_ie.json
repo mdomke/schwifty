@@ -14,5 +14,13 @@
     "name": "J.P. Morgan Bank Luxembourg S.A. Dublin Branch",
     "short_name": "J.P. Morgan Bank Luxembourg S.A. Dublin Branch",
     "primary": true
+  },
+  {
+    "country_code": "IE",
+    "bic": "BOFIIE2D",
+    "bank_code": "BOFI",
+    "name": "Bank Of Ireland",
+    "short_name": "Bank Of Ireland",
+    "primary": true
   }
 ]
