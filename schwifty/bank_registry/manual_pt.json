@@ -20,5 +20,12 @@
     "name": "BANCO ACTIVOBANK, SA",
     "short_name": "BANCO ACTIVOBANK",
     "primary": true
+  }, {
+    "country_code": "PT",
+    "bic": "BBPIPTPLXXX",
+    "bank_code": "0010",
+    "name": "BANCO BPI, SA",
+    "short_name": "BANCO BPI",
+    "primary": true
   }
 ]
