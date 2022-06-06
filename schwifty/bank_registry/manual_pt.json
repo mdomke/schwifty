@@ -27,5 +27,12 @@
     "name": "BANCO BPI, SA",
     "short_name": "BANCO BPI",
     "primary": true
+  }, {
+    "country_code": "PT",
+    "bic": "BESCPTPLXXX",
+    "bank_code": "0007",
+    "name": "NOVO BANCO, SA",
+    "short_name": "NOVO BANCO, SA",
+    "primary": true
   }
 ]
