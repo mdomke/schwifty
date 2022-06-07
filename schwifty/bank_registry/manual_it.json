@@ -86,5 +86,14 @@
     "name": "BANCA CENTRO-CREDITO COOPERATIVO TOSCANA-UMBRIA SOC.COOPERATIVA",
     "short_name": "Banca Centro Toscana-Umbria",
     "primary": true
+  },
+  {
+    "country_code": "IT",
+    "bic": "PASCITMMXXX",
+    "bank_code": "01030",
+    "name": "BANCA MONTE DEI PASCHI DI SIENA S.P.A.",
+    "short_name": "Banca Monte dei Paschi di Siena",
+    "primary": true
   }
+
 ]
