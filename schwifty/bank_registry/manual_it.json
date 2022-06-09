@@ -94,6 +94,13 @@
     "name": "BANCA MONTE DEI PASCHI DI SIENA S.P.A.",
     "short_name": "Banca Monte dei Paschi di Siena",
     "primary": true
+  },
+  {
+    "country_code": "IT",
+    "bic": "BNLIITRRXXX",
+    "bank_code": "01005",
+    "name": "BANCA NAZIONALE DEL LAVORO S.P.A. (IN FORMA CONTRATTA BNL S.P.A.)",
+    "short_name": "BANCA NAZIONALE DEL LAVORO S.P.A.",
+    "primary": true
   }
-
 ]
