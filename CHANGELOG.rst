@@ -5,6 +5,21 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+`2022.06.0`_ - 2022/06/06
+-------------------------
+
+Added
+~~~~~
+* Manually curated list of Bulgarian BICs `@Krystofee <https://github.com/Krystofee>`_
+* Manually curated list of Saudi Arabian BICs `@samizaman <https://github.com/samizaman>`_
+* Support for `PyInstaller <https://pyinstaller.org/en/stable/>`_ `@Lukasz87 <https://github.com/Lukasz87>`_
+
+Internal
+~~~~~~~~
+* Run tests on Python 3.10 `@adamchainz <https://github.com/adamchainz>`_
+* Use standard keys in ``setup.cfg`` `@adamchainz <https://github.com/adamchainz>`_
+* Don't rely on ``hacking`` in test-setup `@adamchainz <https://github.com/adamchainz>`_
+
 `2022.04.2`_ - 2022/04/29
 -------------------------
 
@@ -268,6 +283,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2022.06.0: https://github.com/mdomke/schwifty/compare/2022.04.2...2022.06.0
 .. _2022.04.2: https://github.com/mdomke/schwifty/compare/2022.04.1...2022.04.2
 .. _2022.04.1: https://github.com/mdomke/schwifty/compare/2022.04.0...2022.04.1
 .. _2022.04.0: https://github.com/mdomke/schwifty/compare/2022.03.1...2022.04.0
