@@ -102,5 +102,13 @@
     "name": "BANCA NAZIONALE DEL LAVORO S.P.A. (IN FORMA CONTRATTA BNL S.P.A.)",
     "short_name": "BANCA NAZIONALE DEL LAVORO S.P.A.",
     "primary": true
+  },
+  {
+    "country_code": "IT",
+    "bic": "FEBIITM1XXX",
+    "bank_code": "03015",
+    "name": "FINECOBANK BANCA FINECO S.P.A",
+    "short_name": "FINECOBANK BANCA FINECO S.P.A",
+    "primary": true
   }
 ]
