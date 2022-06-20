@@ -23,13 +23,14 @@ def process():
                 bic_code = str(line[1].value).upper()
                 if bic_code not in yielded_bic_codes:
                     yielded_bic_codes.add(bic_code)
+                    bank_code = str(line[0].value)[:3]
                     bank_name = str(line[2].value)
 
                     yield {
                         "country_code": "HU",
                         "primary": True,
                         "bic": bic_code,
-                        "bank_code": bic_code[:4],
+                        "bank_code": bank_code,
                         "name": bank_name,
                         "short_name": bank_name,
                     }
