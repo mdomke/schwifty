@@ -108,7 +108,15 @@
     "bic": "FEBIITM1XXX",
     "bank_code": "03015",
     "name": "FINECOBANK BANCA FINECO S.P.A",
-    "short_name": "FINECOBANK BANCA FINECO S.P.A",
+    "short_name": "FINECOBANK BANCA FINECO S.P.A.",
+    "primary": true
+  },
+  {
+    "country_code": "IT",
+    "bic": "BRTOITTTXXX",
+    "bank_code": "03138",
+    "name": "BANCA REALE S.P.A.",
+    "short_name": "BANCA REALE S.P.A.",
     "primary": true
   }
 ]
