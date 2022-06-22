@@ -87,16 +87,22 @@ class BIC(common.Base):
 
             * Austria
             * Belgium
+            * Bulgaria
             * Croatia
             * Czech Republic
             * Finland
             * France
             * Germany
             * Great Britan
+            * Hungary
+            * Ireland
             * Latvia
             * Lithuania
             * Netherlands
             * Poland
+            * Romania
+            * Saudi Arabia
+            * Slovakia
             * Slovenia
             * Spain
             * Sweden

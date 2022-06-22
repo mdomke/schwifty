@@ -65,18 +65,23 @@ and currently includes entries for the following countries:
 
 * Austria
 * Belgium
+* Bulgaria
 * Croatia
 * Czech Republic
 * Finland
 * France
 * Germany
 * Great Britan
+* Hungary
+* Ireland
 * Latvia
 * Lithuania
 * Netherlands
 * Poland
-* Slovenia
+* Romania
+* Saudi Arabia
 * Slovakia
+* Slovenia
 * Spain
 * Sweden
 * Switzerland

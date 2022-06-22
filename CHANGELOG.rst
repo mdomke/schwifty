@@ -5,6 +5,16 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+`2022.06.1`_ - 2022/06/06
+-------------------------
+
+Added
+~~~~~
+* Generated list of Romanian BICs `@Krystofee <https://github.com/Krystofee>`_
+* Generated list of Hungarian BICs `@Krystofee <https://github.com/Krystofee>`_
+* Extended manually curated list of Irish BICs `@dennisxtria <https://github.com/dennisxtria>`_
+
+
 `2022.06.0`_ - 2022/06/06
 -------------------------
 
@@ -283,6 +293,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2022.06.1: https://github.com/mdomke/schwifty/compare/2022.06.0...2022.06.1
 .. _2022.06.0: https://github.com/mdomke/schwifty/compare/2022.04.2...2022.06.0
 .. _2022.04.2: https://github.com/mdomke/schwifty/compare/2022.04.1...2022.04.2
 .. _2022.04.1: https://github.com/mdomke/schwifty/compare/2022.04.0...2022.04.1
