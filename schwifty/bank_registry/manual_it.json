@@ -118,5 +118,13 @@
     "name": "BANCA REALE S.P.A.",
     "short_name": "BANCA REALE S.P.A.",
     "primary": true
+  },
+  {
+    "country_code": "IT",
+    "bic": "ICRAITRRCAR",
+    "bank_code": "08440",
+    "name": "BANCA DI CREDITO COOPERATIVO DI CARATE BRIANZA - SOCIETA' COOPERATIVA",
+    "short_name": "BCC CARATE BRIANZA",
+    "primary": true
   }
 ]
