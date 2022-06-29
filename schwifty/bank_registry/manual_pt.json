@@ -32,7 +32,14 @@
     "bic": "BESCPTPLXXX",
     "bank_code": "0007",
     "name": "NOVO BANCO, SA",
-    "short_name": "NOVO BANCO, SA",
+    "short_name": "NOVO BANCO",
+    "primary": true
+  }, {
+    "country_code": "PT",
+    "bic": "CGDIPTPLXXX",
+    "bank_code": "0035",
+    "name": "CAIXA GERAL DE DEPÓSITOS, SA",
+    "short_name": "CAIXA GERAL DE DEPÓSITOS",
     "primary": true
   }
 ]
