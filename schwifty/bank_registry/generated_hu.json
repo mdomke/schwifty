@@ -26,6 +26,22 @@
   {
     "country_code": "HU",
     "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "103",
+    "name": "MKB Bank Nyrt.",
+    "short_name": "MKB Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "OKHBHUHB",
+    "bank_code": "104",
+    "name": "K&H Bank Zrt. 002 Budapest",
+    "short_name": "K&H Bank Zrt. 002 Budapest"
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
     "bic": "CIBHHUHB",
     "bank_code": "107",
     "name": "CIB Bank Zrt. K\u00f6zpont",
@@ -46,6 +62,14 @@
     "bank_code": "109",
     "name": "UniCredit Bank Hungary Zrt.",
     "short_name": "UniCredit Bank Hungary Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "CIBHHUHB",
+    "bank_code": "111",
+    "name": "CIB Bank Zrt. Szabads\u00e1g t\u00e9ri Fi\u00f3k",
+    "short_name": "CIB Bank Zrt. Szabads\u00e1g t\u00e9ri Fi\u00f3k"
   },
   {
     "country_code": "HU",
@@ -90,6 +114,14 @@
   {
     "country_code": "HU",
     "primary": true,
+    "bic": "GIBAHUHB",
+    "bank_code": "119",
+    "name": "Erste Bank Zrt.",
+    "short_name": "Erste Bank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
     "bic": "UBRTHUHB",
     "bank_code": "120",
     "name": "Raiffeisen Bank Zrt. Budapesti Fi\u00f3k",
@@ -102,6 +134,14 @@
     "bank_code": "121",
     "name": "Gr\u00e1nit Bank Zrt.",
     "short_name": "Gr\u00e1nit Bank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "GIBAHUHB",
+    "bank_code": "125",
+    "name": "Erste Bank Zrt.",
+    "short_name": "Erste Bank Zrt."
   },
   {
     "country_code": "HU",
@@ -218,6 +258,22 @@
   {
     "country_code": "HU",
     "primary": true,
+    "bic": "OTPVHUHB",
+    "bank_code": "170",
+    "name": "OTP Bank Nyrt.",
+    "short_name": "OTP Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "BACXHUHB",
+    "bank_code": "171",
+    "name": "UniCredit Jelz\u00e1logbank Zrt.",
+    "short_name": "UniCredit Jelz\u00e1logbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
     "bic": "BKCHHUHB",
     "bank_code": "175",
     "name": "Bank of China (CEE) Zrt.",
@@ -226,10 +282,42 @@
   {
     "country_code": "HU",
     "primary": true,
-    "bic": "EHBBHUHS",
+    "bic": "HBWEHUHB",
     "bank_code": "176",
-    "name": "Sopron Bank ZRt K\u00f6zpont",
-    "short_name": "Sopron Bank ZRt K\u00f6zpont"
+    "name": "MagNet Bank Soproni fi\u00f3k",
+    "short_name": "MagNet Bank Soproni fi\u00f3k"
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "BNPAHUHX",
+    "bank_code": "178",
+    "name": "BNP-Paribas Magyarorsz\u00e1gi fi\u00f3ktelepe",
+    "short_name": "BNP-Paribas Magyarorsz\u00e1gi fi\u00f3ktelepe"
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "181",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "182",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "BNPAHUHX",
+    "bank_code": "183",
+    "name": "BNP-Paribas Magyarorsz\u00e1gi fi\u00f3ktelepe",
+    "short_name": "BNP-Paribas Magyarorsz\u00e1gi fi\u00f3ktelepe"
   },
   {
     "country_code": "HU",
@@ -246,6 +334,22 @@
     "bank_code": "186",
     "name": "BNP Paribas Securities Services",
     "short_name": "BNP Paribas Securities Services"
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "OTPVHUHB",
+    "bank_code": "187",
+    "name": "Banco Primus Fi\u00f3ktelep Magyarorsz\u00e1g",
+    "short_name": "Banco Primus Fi\u00f3ktelep Magyarorsz\u00e1g"
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MANEHUHH",
+    "bank_code": "190",
+    "name": "Magyar Nemzeti Bank",
+    "short_name": "Magyar Nemzeti Bank"
   },
   {
     "country_code": "HU",
@@ -274,6 +378,14 @@
   {
     "country_code": "HU",
     "primary": true,
+    "bic": "OTPVHUHB",
+    "bank_code": "200",
+    "name": "OTP P\u00e9nzt\u00e1rszolg\u00e1ltat\u00f3 Zrt.",
+    "short_name": "OTP P\u00e9nzt\u00e1rszolg\u00e1ltat\u00f3 Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
     "bic": "OFSZHUHB",
     "bank_code": "222",
     "name": "O.F.SZ. Zrt",
@@ -290,10 +402,442 @@
   {
     "country_code": "HU",
     "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "500",
+    "name": "MTB Zrt. bankk\u00e1rtya adminisztr\u00e1ci\u00f3",
+    "short_name": "MTB Zrt. bankk\u00e1rtya adminisztr\u00e1ci\u00f3"
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "501",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "503",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "504",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "507",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "508",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "510",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "511",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "512",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "514",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "515",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "517",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "519",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "520",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "523",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "525",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "526",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "528",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "531",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "532",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "533",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "535",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "536",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "537",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "539",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "540",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "542",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "543",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "545",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "546",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "551",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "554",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "556",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "558",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "568",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "569",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "571",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "572",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "574",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "576",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "577",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "578",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "581",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
     "bic": "DTBAHUHB",
     "bank_code": "586",
     "name": "DUNA Takar\u00e9k Bank Zrt.",
     "short_name": "DUNA Takar\u00e9k Bank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "589",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "590",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "591",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "592",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "593",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "595",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "596",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "598",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "599",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "603",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "606",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
   },
   {
     "country_code": "HU",
@@ -306,8 +850,520 @@
   {
     "country_code": "HU",
     "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "614",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "616",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "619",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "620",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "621",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "623",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "626",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "627",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "628",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "629",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "632",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "633",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "636",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "638",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "640",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "644",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "647",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "648",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "651",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "652",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "655",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "657",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "659",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "660",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "669",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "670",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "676",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "678",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "679",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "680",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "682",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "685",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "687",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "688",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "693",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "694",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "695",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "698",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "701",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "703",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "704",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "705",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "706",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "709",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "718",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "719",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "721",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "726",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "727",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "728",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "729",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "732",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "736",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "739",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "740",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "745",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "750",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "755",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "757",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "803",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "TAKBHUHB",
+    "bank_code": "806",
+    "name": "Takar\u00e9kbank Zrt.",
+    "short_name": "Takar\u00e9kbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
     "bic": "FLTPHUHB",
     "bank_code": "880",
+    "name": "Fundamenta-Lak\u00e1skassza Zrt.",
+    "short_name": "Fundamenta-Lak\u00e1skassza Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "OTPVHUHB",
+    "bank_code": "881",
+    "name": "OTP Lak\u00e1stakar\u00e9kp\u00e9nzt\u00e1r Zrt.",
+    "short_name": "OTP Lak\u00e1stakar\u00e9kp\u00e9nzt\u00e1r Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "FLTPHUHB",
+    "bank_code": "882",
+    "name": "Fundamenta-Lak\u00e1skassza Zrt.",
+    "short_name": "Fundamenta-Lak\u00e1skassza Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "FLTPHUHB",
+    "bank_code": "883",
     "name": "Fundamenta-Lak\u00e1skassza Zrt.",
     "short_name": "Fundamenta-Lak\u00e1skassza Zrt."
   },
@@ -318,6 +1374,14 @@
     "bank_code": "884",
     "name": "OTP Jelz\u00e1logbank Zrt.",
     "short_name": "OTP Jelz\u00e1logbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "OKHBHUHB",
+    "bank_code": "888",
+    "name": "K&H Jelz\u00e1logbank Zrt.",
+    "short_name": "K&H Jelz\u00e1logbank Zrt."
   },
   {
     "country_code": "HU",

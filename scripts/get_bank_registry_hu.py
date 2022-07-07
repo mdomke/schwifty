@@ -10,7 +10,7 @@ BANK_CODES_URL = "https://www.mnb.hu/letoltes/sht.xlsx"
 
 
 def process():
-    yielded_bic_codes = set()
+    yielded_bank_codes = set()
 
     with NamedTemporaryFile(suffix="data.xlsx") as temp_file:
         response = requests.get(BANK_CODES_URL)
@@ -20,10 +20,10 @@ def process():
 
         for row_i, line in enumerate(sheet):
             if row_i > 1:
-                bic_code = str(line[1].value).upper()
-                if bic_code not in yielded_bic_codes:
-                    yielded_bic_codes.add(bic_code)
-                    bank_code = str(line[0].value)[:3]
+                bank_code = str(line[0].value)[:3]
+                if bank_code not in yielded_bank_codes:
+                    bic_code = str(line[1].value).upper()
+                    yielded_bank_codes.add(bank_code)
                     bank_name = str(line[2].value)
 
                     yield {
