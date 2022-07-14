@@ -2,3 +2,4 @@ beautifulsoup4
 requests
 xlrd<2
 openpyxl
+pandas
