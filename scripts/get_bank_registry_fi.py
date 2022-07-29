@@ -7,7 +7,7 @@ URL = "https://www.finanssiala.fi/wp-content/uploads/2021/03/Finnish_monetary_in
 
 
 def process():
-    datas = pandas.read_excel(URL, skiprows=2, sheet_name=0, dtype=str)
+    datas = pandas.read_excel(URL, sheet_name=0, dtype=str, header=None)
     datas.fillna("", inplace=True)
 
     return [
