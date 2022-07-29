@@ -11,6 +11,7 @@ def process():
 
     datas = pandas.read_excel(URL, skiprows=3, sheet_name=0, dtype=str)
     datas = datas.dropna(how="all")
+    datas.fillna("", inplace=True)
 
     for row in datas.itertuples(index=False):
         bic, bank_code, name = row[:3]

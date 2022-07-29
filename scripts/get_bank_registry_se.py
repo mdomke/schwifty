@@ -13,6 +13,7 @@ def process():
     registry = []
 
     datas = pandas.read_excel(URL, skiprows=2, sheet_name=0, dtype=str)
+    datas.fillna("", inplace=True)
 
     for row in datas.itertuples(index=False):
         bank_code, bic, name = row[:3]

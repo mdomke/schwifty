@@ -10,6 +10,7 @@ URL = "https://www.nbs.sk/_img/Documents/_PlatobneSystemy/EUROSIPS/Directory_IC_
 def process():
     datas = pandas.read_csv(URL, encoding="cp1250", delimiter=";")
     datas = datas.dropna(how="all")
+    datas.fillna("", inplace=True)
 
     registry = []
 

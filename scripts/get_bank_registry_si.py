@@ -13,6 +13,7 @@ URL = (
 def process():
     datas = pandas.read_csv(URL, encoding="latin1", delimiter=";", dtype=str)
     datas = datas.dropna(how="all")
+    datas.fillna("", inplace=True)
 
     registry = []
     for row in datas.itertuples(index=False):

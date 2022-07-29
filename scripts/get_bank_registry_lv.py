@@ -7,7 +7,8 @@ URL = "https://www.bank.lv/images/stories/pielikumi/makssist/bic_saraksts_22.01.
 
 
 def process():
-    sheet = pandas.read_excel(URL, skiprows=2, sheet_name=0, dtype="str")
+    datas = pandas.read_excel(URL, skiprows=2, sheet_name=0, dtype="str")
+    datas.fillna("", inplace=True)
 
     return [
         {
@@ -18,7 +19,7 @@ def process():
             "name": name,
             "short_name": name,
         }
-        for _id, name, _iban_structure, bic in list(sheet.itertuples())[2:]
+        for _id, name, _iban_structure, bic in list(datas.itertuples())[2:]
     ]
 
 

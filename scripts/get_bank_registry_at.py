@@ -9,6 +9,7 @@ URL = "https://www.oenb.at/docroot/downloads_observ/sepa-zv-vz_gesamt.csv"
 def process():
     datas = pandas.read_csv(URL, skiprows=5, encoding="latin1", delimiter=";")
     datas = datas.dropna(how="all")
+    datas.fillna("", inplace=True)
 
     registry = []
     for row in datas.itertuples(index=False):

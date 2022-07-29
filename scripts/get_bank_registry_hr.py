@@ -7,10 +7,12 @@ URL = "https://www.hnb.hr/documents/20182/121798/tf-pp-ds-vbb-xlsx-e-vbb.xlsx/"
 
 
 def process():
-    sheet = pandas.read_excel(URL, skiprows=3, sheet_name=0, dtype=str)
+    datas = pandas.read_excel(URL, skiprows=3, sheet_name=0, dtype=str)
+    datas.fillna("", inplace=True)
+
     registry = []
 
-    for row in sheet.itertuples(index=False):
+    for row in datas.itertuples(index=False):
         _, name, bank_code, bic = row[:4]
 
         registry.append(

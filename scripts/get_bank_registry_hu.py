@@ -8,9 +8,10 @@ URL = "https://www.mnb.hu/letoltes/sht.xlsx"
 
 def process():
     registry = []
-    sheet = pandas.read_excel(URL, sheet_name=0, dtype="str")
+    datas = pandas.read_excel(URL, sheet_name=0, dtype="str")
+    datas.fillna("", inplace=True)
 
-    for row in sheet.itertuples(index=False):
+    for row in datas.itertuples(index=False):
         bank_code, bic, name = row[:3]
 
         print(row)

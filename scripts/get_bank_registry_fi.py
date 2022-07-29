@@ -7,7 +7,8 @@ URL = "https://www.finanssiala.fi/wp-content/uploads/2021/03/Finnish_monetary_in
 
 
 def process():
-    sheet = pandas.read_excel(URL, skiprows=2, sheet_name=0, dtype=str)
+    datas = pandas.read_excel(URL, skiprows=2, sheet_name=0, dtype=str)
+    datas.fillna("", inplace=True)
 
     return [
         {
@@ -18,7 +19,7 @@ def process():
             "name": name,
             "short_name": name,
         }
-        for bank_code, bic, name in list(sheet.itertuples(index=False))[2:]
+        for bank_code, bic, name in list(datas.itertuples(index=False))[2:]
         if bank_code != ""
     ]
 

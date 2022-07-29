@@ -15,6 +15,7 @@ bic_remapping = {
 def process():
     datas = pandas.read_csv(URL, encoding="CP852", delimiter="\t", header=None)
     datas = datas.dropna(how="all")
+    datas.fillna("", inplace=True)
 
     registry = []
     for row in datas.itertuples(index=False):
