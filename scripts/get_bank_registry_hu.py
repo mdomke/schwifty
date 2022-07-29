@@ -14,7 +14,6 @@ def process():
     for row in datas.itertuples(index=False):
         bank_code, bic, name = row[:3]
 
-        print(row)
         registry.append(
             {
                 "country_code": "HU",

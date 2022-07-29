@@ -9,6 +9,7 @@ URL = "https://ewib.nbp.pl/plewibnra?dokNazwa=plewibnra.txt"
 bic_remapping = {
     "PLUPLPRXXX": "POLUPLPRXXX",
     "POLUPLPRXX": "POLUPLPRXXX",
+    "POLUPLPR": "POLUPLPRXXX",
 }
 
 
