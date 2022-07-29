@@ -10,7 +10,7 @@ def process():
     registry = []
     skip_names = ["NAV", "VRIJ", "NAP", "NYA", "VRIJ - LIBRE", "-"]
 
-    datas = pandas.read_excel(URL, skiprows=2, sheet_name=0, dtype=str)
+    datas = pandas.read_excel(URL, skiprows=1, sheet_name=0, dtype=str)
     datas.fillna("", inplace=True)
 
     for row in datas.itertuples(index=False):
