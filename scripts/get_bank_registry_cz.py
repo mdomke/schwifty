@@ -7,7 +7,7 @@ URL = "https://www.cnb.cz/cs/platebni-styk/.galleries/ucty_kody_bank/download/ko
 
 
 def process():
-    datas = pandas.read_csv(URL, encoding="utf-8", delimiter=";", dtype="str")
+    datas = pandas.read_csv(URL, encoding="latin1", delimiter=";", dtype="str")
     datas = datas.dropna(how="all")
     datas.fillna("", inplace=True)
 
