@@ -1,27 +1,30 @@
-import csv
+#!/usr/bin/env python
 import json
-
-import requests
+import pandas
 
 
 URL = "https://www.cnb.cz/cs/platebni-styk/.galleries/ucty_kody_bank/download/kody_bank_CR.csv"
 
 
 def process():
-    with requests.get(URL, stream=True) as fp:
-        csvfile = csv.reader([line.decode("latin1") for line in fp.iter_lines()], delimiter=";")
-    return [
-        {
-            "country_code": "CZ",
-            "primary": True,
-            "bic": row[2].strip().upper(),
-            "bank_code": row[0].strip(),
-            "name": row[1].strip(),
-            "short_name": row[1].strip(),
-        }
-        for i, row in enumerate(csvfile)
-        if i >= 1 and row
-    ]
+    datas = pandas.read_csv(URL, encoding="utf-8", delimiter=";", dtype="str")
+    datas = datas.dropna(how="all")
+
+    registry = []
+    for row in datas.itertuples(index=False):
+        registry.append(
+            {
+                "country_code": "CZ",
+                "primary": True,
+                "bic": str(row[2]).strip().upper(),
+                "bank_code": str(row[0]).strip(),
+                "name": str(row[1]).strip(),
+                "short_name": str(row[1]).strip(),
+            }
+        )
+
+    print(f"Fetched {len(registry)} bank records")
+    return registry
 
 
 if __name__ == "__main__":

@@ -23,6 +23,8 @@ def process():
                 "short_name": name,
             }
         )
+
+    print(f"Fetched {len(registry)} bank records")
     return registry
 
 

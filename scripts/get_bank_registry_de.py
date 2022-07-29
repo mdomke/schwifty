@@ -64,6 +64,8 @@ def process(records):
 
         if cleaned["bic"]:
             registry.append(cleaned)
+
+    print(f"Fetched {len(registry)} bank records")
     return registry
 
 

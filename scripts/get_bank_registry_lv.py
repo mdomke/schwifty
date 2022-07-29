@@ -1,26 +1,24 @@
 #!/usr/bin/env python
 import json
-
-import requests
-import xlrd
+import pandas
 
 
 URL = "https://www.bank.lv/images/stories/pielikumi/makssist/bic_saraksts_22.01.2020_eng.xls"
 
 
 def process():
-    book = xlrd.open_workbook(file_contents=requests.get(URL).content)
-    sheet = book.sheet_by_index(0)
+    sheet = pandas.read_excel(URL, skiprows=2, sheet_name=0, dtype="str")
+
     return [
         {
             "country_code": "LV",
             "primary": True,
-            "bic": bic.value.upper(),
-            "bank_code": bic.value[:4],
-            "name": name.value,
-            "short_name": name.value,
+            "bic": str(bic).upper(),
+            "bank_code": str(bic)[:4],
+            "name": name,
+            "short_name": name,
         }
-        for _id, name, _iban_structure, bic in list(sheet.get_rows())[2:]
+        for _id, name, _iban_structure, bic in list(sheet.itertuples())[2:]
     ]
 
 

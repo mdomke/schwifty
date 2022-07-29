@@ -1,7 +1,6 @@
+#!/usr/bin/env python
 import json
-
-import requests
-
+import pandas
 
 URL = (
     "https://www.bsi.si/ckfinder/connector?command=Proxy&lang=sl&type=Files&"
@@ -11,23 +10,23 @@ URL = (
 
 
 def process():
+    datas = pandas.read_csv(URL, encoding="latin1", delimiter=";", dtype=str)
+    datas = datas.dropna(how="all")
+
     registry = []
-    with requests.get(URL, stream=True) as txtfile:
-        for row in list(txtfile.iter_lines())[1:]:
-            cells = [cell.strip() for cell in row.decode("latin1").split(";")]
-            if len(cells) != 6:
-                continue
-            bank_code, name = cells[:2]
-            registry.append(
-                {
-                    "country_code": "SI",
-                    "primary": True,
-                    "bic": cells[5].upper(),
-                    "bank_code": bank_code,
-                    "name": name,
-                    "short_name": name,
-                }
-            )
+    for row in datas.itertuples(index=False):
+        registry.append(
+            {
+                "country_code": "SI",
+                "primary": True,
+                "bic": str(row[5]).strip().upper(),
+                "bank_code": str(row[0]).strip(),
+                "name": str(row[1]).strip(),
+                "short_name": str(row[1]).strip(),
+            }
+        )
+
+    print(f"Fetched {len(registry)} bank records")
     return registry
 
 
