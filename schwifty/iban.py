@@ -332,7 +332,7 @@ class IBAN(common.Base):
     def bank(self) -> Optional[dict]:
         bank_registry = registry.get("bank_code")
         assert isinstance(bank_registry, dict)
-        return bank_registry.get((self.country_code, self.bank_code))
+        return bank_registry.get((self.country_code, self.bank_code or self.branch_code))
 
     @property
     def bank_name(self) -> Optional[str]:

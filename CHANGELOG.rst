@@ -5,7 +5,15 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
-`2022.07.0`_ - 2022/0//07
+`2022.07.1`_ - 2022/28/07
+-------------------------
+Fixed
+~~~~~
+* In some countries the BBAN does not include a bank code, but only a branch code (e.g. Poland). In
+  those cases the branch code should be used to lookup the bank associated to an IBAN instead of the
+  obviously empty bank code.
+
+`2022.07.0`_ - 2022/07/07
 -------------------------
 Fixed
 ~~~~~
@@ -322,6 +330,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2022.07.1: https://github.com/mdomke/schwifty/compare/2022.07.0...2022.07.1
 .. _2022.07.0: https://github.com/mdomke/schwifty/compare/2022.06.3...2022.07.0
 .. _2022.06.3: https://github.com/mdomke/schwifty/compare/2022.06.2...2022.06.3
 .. _2022.06.2: https://github.com/mdomke/schwifty/compare/2022.06.1...2022.06.2
