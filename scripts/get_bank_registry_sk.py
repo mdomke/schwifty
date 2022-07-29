@@ -3,6 +3,7 @@ import pandas
 
 from schwifty import BIC
 
+
 URL = "https://www.nbs.sk/_img/Documents/_PlatobneSystemy/EUROSIPS/Directory_IC_DPS_SR.csv"
 
 

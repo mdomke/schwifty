@@ -2,6 +2,7 @@
 import json
 import pandas
 
+
 URL = (
     "https://www.bsi.si/ckfinder/connector?command=Proxy&lang=sl&type=Files&"
     "currentFolder=%2FPla%C4%8Dilni%20sistemi%2FSeznam%20identifikacijskih%20oznak%20PPS%2F&"
