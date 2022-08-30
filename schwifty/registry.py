@@ -3,13 +3,13 @@ import json
 import pathlib
 import sys
 from collections import defaultdict
+from pathlib import Path
 from typing import Any
 from typing import Callable
 from typing import Dict
 from typing import List
 from typing import Tuple
 from typing import Union
-from pathlib import Path
 
 
 try:
