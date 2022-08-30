@@ -19,5 +19,25 @@
       "bank_code": [0,4],
       "branch_code": [4,8]
     }
+  },
+  "SN": {
+    "bban_spec": "2!a22!n",
+    "iban_spec": "SN2!n2!a22!n",
+    "bban_length": 24,
+    "iban_length": 28,
+    "positions": {
+      "account_code": [
+        0,
+        24
+      ],
+      "bank_code": [
+        0,
+        0
+      ],
+      "branch_code": [
+        0,
+        0
+      ]
+    }
   }
 }
