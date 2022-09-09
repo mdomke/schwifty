@@ -252,8 +252,8 @@
     "primary": true,
     "bic": "VBOECZ2X",
     "bank_code": "6800",
-    "name": "Sberbank CZ, a.s.",
-    "short_name": "Sberbank CZ, a.s."
+    "name": "Sberbank CZ, a.s. v likvidaci",
+    "short_name": "Sberbank CZ, a.s. v likvidaci"
   },
   {
     "country_code": "CZ",
@@ -388,8 +388,8 @@
     "primary": true,
     "bic": "",
     "bank_code": "8240",
-    "name": "Dru\u00c5\u00bestevn\u00c3\u00ad z\u00c3\u00a1lo\u00c5\u00bena Kredit",
-    "short_name": "Dru\u00c5\u00bestevn\u00c3\u00ad z\u00c3\u00a1lo\u00c5\u00bena Kredit"
+    "name": "Dru\u00c5\u00bestevn\u00c3\u00ad z\u00c3\u00a1lo\u00c5\u00bena Kredit, v likvidaci",
+    "short_name": "Dru\u00c5\u00bestevn\u00c3\u00ad z\u00c3\u00a1lo\u00c5\u00bena Kredit, v likvidaci"
   },
   {
     "country_code": "CZ",

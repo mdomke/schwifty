@@ -68,8 +68,8 @@
     "primary": true,
     "bic": "ATBANL2A",
     "bank_code": "ATBA",
-    "name": "AMSTERDAM TRADE BANK",
-    "short_name": "AMSTERDAM TRADE BANK"
+    "name": "AMSTERDAM TRADE BANK * status exclusion * ",
+    "short_name": "AMSTERDAM TRADE BANK * status exclusion * "
   },
   {
     "country_code": "NL",
@@ -470,14 +470,6 @@
     "bank_code": "MHCB",
     "name": "MIZUHO BANK EUROPE NV",
     "short_name": "MIZUHO BANK EUROPE NV"
-  },
-  {
-    "country_code": "NL",
-    "primary": true,
-    "bic": "MOYONL21",
-    "bank_code": "MOYO",
-    "name": "MONEYOU * expected expiry date 1 September 2021 *",
-    "short_name": "MONEYOU * expected expiry date 1 September 2021 *"
   },
   {
     "country_code": "NL",

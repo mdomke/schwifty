@@ -5,6 +5,43 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+`2022.07.1`_ - 2022/28/07
+-------------------------
+Fixed
+~~~~~
+* In some countries the BBAN does not include a bank code, but only a branch code (e.g. Poland). In
+  those cases the branch code should be used to lookup the bank associated to an IBAN instead of the
+  obviously empty bank code.
+
+`2022.07.0`_ - 2022/07/07
+-------------------------
+Fixed
+~~~~~
+* Hungarian bank registry generator script was fixed by `@Krystofee <https://github.com/Krystofee>`_
+
+`2022.06.3`_ - 2022/06/29
+-------------------------
+Added
+~~~~~
+* Generated list of Lithuanian BICs `@Draugelis <https://github.com/Draugelis>`_
+* Removed manually curated list of Lithuanian banks.
+
+`2022.06.2`_ - 2022/06/22
+-------------------------
+Added
+~~~~~
+* Generated list of Greek BICs `@kounabi  <https://github.com/kounabi>`_
+* Generated list of Cypriot BICs `@kounabi  <https://github.com/kounabi>`_
+
+Changed
+~~~~~~~
+* Updated bank registry for Austria, Belgium, Czech Republic, Germany, Croatia, Netherlands, Poland
+  and Slovenia.
+
+Fixed
+~~~~~
+* The domestic bank code for Hungarian banks was wrongly generated `@Krystofee <https://github.com/Krystofee>`_
+
 `2022.06.1`_ - 2022/06/06
 -------------------------
 
@@ -293,6 +330,10 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2022.07.1: https://github.com/mdomke/schwifty/compare/2022.07.0...2022.07.1
+.. _2022.07.0: https://github.com/mdomke/schwifty/compare/2022.06.3...2022.07.0
+.. _2022.06.3: https://github.com/mdomke/schwifty/compare/2022.06.2...2022.06.3
+.. _2022.06.2: https://github.com/mdomke/schwifty/compare/2022.06.1...2022.06.2
 .. _2022.06.1: https://github.com/mdomke/schwifty/compare/2022.06.0...2022.06.1
 .. _2022.06.0: https://github.com/mdomke/schwifty/compare/2022.04.2...2022.06.0
 .. _2022.04.2: https://github.com/mdomke/schwifty/compare/2022.04.1...2022.04.2

@@ -6202,6 +6202,14 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "PAYVBEB2",
+    "bank_code": "977",
+    "name": "Paynovate",
+    "short_name": "Paynovate"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "ARSPBE22",
     "bank_code": "978",
     "name": "Argenta Spaarbank (ASPA)",

@@ -54,6 +54,15 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "10010700",
+    "name": "Financiere des Paiements Electroniques NL Deutschland",
+    "short_name": "FPE Deutschland",
+    "bic": "FPEGDEB2XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
     "bank_code": "10011001",
     "name": "N26 Bank",
     "short_name": "N26 Bank Berlin",
@@ -655,15 +664,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "94"
-  },
-  {
-    "bank_code": "10120800",
-    "name": "BNP Paribas Ndl. Deutschland former VON ESSEN Bank",
-    "short_name": "BNP Paribas Ndl. Dt.",
-    "bic": "VONEDE33BLN",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
   },
   {
     "bank_code": "10130600",
@@ -8002,8 +8002,8 @@
   },
   {
     "bank_code": "26661494",
-    "name": "Emsl\u00e4ndische Volksbank Meppen",
-    "short_name": "Emsl\u00e4ndische VB Meppen",
+    "name": "Emsl\u00e4ndische Volksbank Meppen -alt-",
+    "short_name": "Emsl\u00e4ndische VB Meppen-alt-",
     "bic": "GENODEF1MEP",
     "primary": true,
     "country_code": "DE",
@@ -8314,15 +8314,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "50"
-  },
-  {
-    "bank_code": "27010200",
-    "name": "BNP Paribas Ndl. Deutschland former VON ESSEN Bank",
-    "short_name": "BNP Paribas Ndl. Dt.",
-    "bic": "VONEDE33BRA",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
   },
   {
     "bank_code": "27020000",
@@ -9202,15 +9193,6 @@
     "name": "Volksbank Niedergrafschaft",
     "short_name": "VB Niedergrafschaft",
     "bic": "GENODEF1HOO",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "28"
-  },
-  {
-    "bank_code": "28069930",
-    "name": "Volksbank Langen-Gersten -alt-",
-    "short_name": "VB Langen-Gersten -alt-",
-    "bic": "GENODEF1LAG",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "28"
@@ -10291,15 +10273,6 @@
     "name": "NRW.BANK",
     "short_name": "NRW.BANK D\u00fcsseldorf",
     "bic": "NRWBDEDMXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "08"
-  },
-  {
-    "bank_code": "30025500",
-    "name": "Portigon",
-    "short_name": "Portigon D\u00fcsseldorf",
-    "bic": "PORTDEDDXXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "08"
@@ -12528,15 +12501,6 @@
     "checksum_algo": "24"
   },
   {
-    "bank_code": "36010200",
-    "name": "BNP Paribas Ndl. Deutschland former VON ESSEN BANK",
-    "short_name": "BNP Paribas Ndl. Dt.",
-    "bic": "VONEDE33XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
     "bank_code": "36010424",
     "name": "Aareal Bank",
     "short_name": "Aareal Bank Essen",
@@ -14320,8 +14284,8 @@
   },
   {
     "bank_code": "38160220",
-    "name": "VR-Bank Bonn",
-    "short_name": "VR-Bank Bonn",
+    "name": "VR-Bank Bonn -alt-",
+    "short_name": "VR-Bank Bonn -alt-",
     "bic": "GENODED1HBO",
     "primary": true,
     "country_code": "DE",
@@ -17317,8 +17281,8 @@
   },
   {
     "bank_code": "45251515",
-    "name": "Stadtsparkasse Sprockh\u00f6vel",
-    "short_name": "St Spk Sprockh\u00f6vel",
+    "name": "Stadtsparkasse Sprockh\u00f6vel -alt-",
+    "short_name": "St Spk Sprockh\u00f6vel -alt-",
     "bic": "SPSHDE31XXX",
     "primary": true,
     "country_code": "DE",
@@ -17371,8 +17335,8 @@
   },
   {
     "bank_code": "45451555",
-    "name": "St\u00e4dtische Sparkasse zu Schwelm",
-    "short_name": "St Spk Schwelm",
+    "name": "Sparkasse Schwelm-Sprockh\u00f6vel",
+    "short_name": "Spk Schwelm-Sprockh\u00f6vel",
     "bic": "WELADED1SLM",
     "primary": true,
     "country_code": "DE",
@@ -18369,15 +18333,6 @@
     "checksum_algo": "34"
   },
   {
-    "bank_code": "47263472",
-    "name": "Volksbank Westerloh-Westerwiehe -alt-",
-    "short_name": "VB Westerloh-Westerwiehe",
-    "bic": "GENODEM1WWW",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "34"
-  },
-  {
     "bank_code": "47264367",
     "name": "Vereinigte Volksbank",
     "short_name": "Vereinigte Volksbank",
@@ -18756,15 +18711,6 @@
     "checksum_algo": "34"
   },
   {
-    "bank_code": "47861806",
-    "name": "Volksbank Kaunitz -alt-",
-    "short_name": "Volksbank Kaunitz -alt-",
-    "bic": "GENODEM1VKA",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "34"
-  },
-  {
     "bank_code": "47862261",
     "name": "Volksbank Marienfeld -alt-",
     "short_name": "Volksbank Marienfeld -alt-",
@@ -18820,12 +18766,12 @@
   },
   {
     "bank_code": "48020151",
-    "name": "Bankhaus Lampe",
-    "short_name": "Bankhaus Lampe Bielefeld",
+    "name": "Hauck Aufh\u00e4user Lampe Privatbank",
+    "short_name": "Hauck Aufh\u00e4user Lampe",
     "bic": "LAMPDEDDXXX",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "32"
+    "checksum_algo": "09"
   },
   {
     "bank_code": "48021900",
@@ -19468,8 +19414,8 @@
   },
   {
     "bank_code": "50020000",
-    "name": "Sberbank Europe Zndl Deutschland",
-    "short_name": "Sberbank Direct Frankfurt",
+    "name": "S\u00dcDWESTBANK - BAWAG Niederlassung Deutschland",
+    "short_name": "S\u00dcDWESTBANK-BAWAG NL DE",
     "bic": "SEZDDEF1XXX",
     "primary": true,
     "country_code": "DE",
@@ -20927,11 +20873,11 @@
   {
     "bank_code": "50131000",
     "name": "Vietnam Joint Stock Commercial Bank for Industry and Trade",
-    "short_name": "Vietinbank",
+    "short_name": "VietinBank Frankfurt",
     "bic": "ICBVDEFFXXX",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "E1"
+    "checksum_algo": "09"
   },
   {
     "bank_code": "50190000",
@@ -21213,15 +21159,6 @@
     "checksum_algo": "31"
   },
   {
-    "bank_code": "50324040",
-    "name": "ABN AMRO Bank, MoneYou",
-    "short_name": "ABN AMRO Bank MoneYou, Ffm",
-    "bic": "FTSBDEFAMYO",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "31"
-  },
-  {
     "bank_code": "50330000",
     "name": "State Bank of India",
     "short_name": "State Bk of India Frankfurt",
@@ -21280,6 +21217,15 @@
     "name": "The Bank of New York Mellon NL Frankfurt",
     "short_name": "BNY Mellon NL FFM",
     "bic": "BNYMDEF1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50339900",
+    "name": "German branch of Unifiedpost Payments",
+    "short_name": "Unifiedpost Payments",
+    "bic": "PANXDEF2XXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -22599,42 +22545,6 @@
     "checksum_algo": "09"
   },
   {
-    "bank_code": "51230800",
-    "name": "Wirecard Bank",
-    "short_name": "Wirecard Bank",
-    "bic": "WIREDEMMXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
-    "bank_code": "51230801",
-    "name": "Wirecard Bank",
-    "short_name": "Wirecard Bank",
-    "bic": "WIREDEMMXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
-    "bank_code": "51230802",
-    "name": "Wirecard Bank",
-    "short_name": "Wirecard Bank",
-    "bic": "WIREDEMMXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
-    "bank_code": "51230805",
-    "name": "Wirecard Bank",
-    "short_name": "Wirecard Bank",
-    "bic": "WIREDEMMXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
     "bank_code": "51250000",
     "name": "Taunus-Sparkasse",
     "short_name": "Taunus-Sparkasse Bad Hombg",
@@ -23170,15 +23080,6 @@
     "name": "Raiffeisenbank",
     "short_name": "Raiffeisenbank Baunatal",
     "bic": "GENODEF1BTA",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "32"
-  },
-  {
-    "bank_code": "52065220",
-    "name": "Raiffeisenbank -alt-",
-    "short_name": "Raiffeisenbank Calden -alt-",
-    "bic": "GENODEF1CAL",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "32"
@@ -26901,15 +26802,6 @@
     "checksum_algo": "99"
   },
   {
-    "bank_code": "60020300",
-    "name": "BNP Paribas Ndl. Deutschland former VON ESSEN Bank",
-    "short_name": "BNP Paribas Ndl. Dt.",
-    "bic": "VONEDE33STG",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
     "bank_code": "60030000",
     "name": "Mercedes-Benz Bank",
     "short_name": "Mercedes-Benz Bank",
@@ -28348,15 +28240,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "10"
-  },
-  {
-    "bank_code": "60410600",
-    "name": "Oldenburgische Landesbank",
-    "short_name": "OLB",
-    "bic": "WUEHDE61XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
   },
   {
     "bank_code": "60420000",
@@ -39861,15 +39744,6 @@
     "checksum_algo": "00"
   },
   {
-    "bank_code": "79061000",
-    "name": "Raiffeisenbank-alt-",
-    "short_name": "Raiffbk Ochsenfurt -alt-",
-    "bic": "GENODEF1OCH",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
-  },
-  {
     "bank_code": "79062106",
     "name": "Raiffeisenbank -alt-",
     "short_name": "Raiffbk Hammelburg -alt-",
@@ -39916,8 +39790,8 @@
   },
   {
     "bank_code": "79069010",
-    "name": "VR-Bank Schweinfurt",
-    "short_name": "VR-Bank Schweinfurt",
+    "name": "VR-Bank Schweinfurt -alt-",
+    "short_name": "VR-Bank Schweinfurt -alt-",
     "bic": "GENODEF1ATE",
     "primary": true,
     "country_code": "DE",
@@ -39943,8 +39817,8 @@
   },
   {
     "bank_code": "79069165",
-    "name": "Volksbank Raiffeisenbank Rh\u00f6n-Grabfeld",
-    "short_name": "VR-Bank Rh\u00f6n-Grabfeld",
+    "name": "VR-Bank Main-Rh\u00f6n",
+    "short_name": "VR-Bank Main-Rh\u00f6n",
     "bic": "GENODEF1MLV",
     "primary": true,
     "country_code": "DE",
@@ -39973,15 +39847,6 @@
     "name": "Raiffeisenbank Ma\u00dfbach",
     "short_name": "Raiffeisenbank Ma\u00dfbach",
     "bic": "GENODEF1RNM",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
-  },
-  {
-    "bank_code": "79069271",
-    "name": "Raiffeisenbank -alt-",
-    "short_name": "Raiffbk Th\u00fcngersheim -alt-",
-    "bic": "GENODEF1THH",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"

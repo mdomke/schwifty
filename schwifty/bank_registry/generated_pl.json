@@ -14554,14 +14554,6 @@
   {
     "country_code": "PL",
     "primary": true,
-    "bic": "SOGEPLPWXXX",
-    "bank_code": "22400008",
-    "name": "Banque PSA Finance Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce w likwidacji",
-    "short_name": "Banque PSA Finance Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce w likwidacji"
-  },
-  {
-    "country_code": "PL",
-    "primary": true,
     "bic": "HANDPLPWXXX",
     "bank_code": "22500001",
     "name": "Svenska Handelsbanken AB Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce",
@@ -15750,6 +15742,14 @@
     "bank_code": "61100006",
     "name": "VIVA PAYMENT SERVICES SP\u00d3\u0141KA AKCYJNA ODDZIA\u0141 W POLSCE",
     "short_name": "VIVA PAYMENT SERVICES SP\u00d3\u0141KA AKCYJNA ODDZIA\u0141 W POLSCE"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
+    "bic": "",
+    "bank_code": "61600001",
+    "name": "UNIFIEDPOST PAYMENTS SP\u00d3\u0141KA AKCYJNA ODDZIA\u0141 W POLSCE",
+    "short_name": "UNIFIEDPOST PAYMENTS SP\u00d3\u0141KA AKCYJNA ODDZIA\u0141 W POLSCE"
   },
   {
     "country_code": "PL",
@@ -22571,14 +22571,6 @@
     "country_code": "PL",
     "primary": true,
     "bic": "POLUPLPRXXX",
-    "bank_code": "91700005",
-    "name": "Bank Sp\u00f3\u0142dzielczy w Kamieniu",
-    "short_name": "Bank Sp\u00f3\u0142dzielczy w Kamieniu"
-  },
-  {
-    "country_code": "PL",
-    "primary": true,
-    "bic": "POLUPLPRXXX",
     "bank_code": "91710004",
     "name": "Bank Sp\u00f3\u0142dzielczy w Ropczycach",
     "short_name": "Bank Sp\u00f3\u0142dzielczy w Ropczycach"
@@ -22790,6 +22782,14 @@
     "bank_code": "91871024",
     "name": "Bank Sp\u00f3\u0142dzielczy w Le\u017cajsku",
     "short_name": "Bank Sp\u00f3\u0142dzielczy w Le\u017cajsku"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
+    "bic": "POLUPLPRXXX",
+    "bank_code": "91700005",
+    "name": "Bank Sp\u00f3\u0142dzielczy w Jasionce",
+    "short_name": "Bank Sp\u00f3\u0142dzielczy w Jasionce"
   },
   {
     "country_code": "PL",

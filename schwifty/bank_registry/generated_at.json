@@ -2932,8 +2932,8 @@
     "primary": true,
     "bic": "SABRATWWXXX",
     "bank_code": "74000",
-    "name": "Sberbank Europe AG",
-    "short_name": "Sberbank Europe AG"
+    "name": "Sberbank Europe AG in Abwicklung",
+    "short_name": "Sberbank Europe AG in Abwicklung"
   },
   {
     "country_code": "AT",
@@ -3172,8 +3172,8 @@
     "primary": true,
     "bic": "RZTIAT22336",
     "bank_code": "36336",
-    "name": "Raiffeisenbank Telfs-Mieming eGen",
-    "short_name": "Raiffeisenbank Telfs-Mieming eGen"
+    "name": "Raiffeisenbank Tirol Mitte West eGen",
+    "short_name": "Raiffeisenbank Tirol Mitte West eGen"
   },
   {
     "country_code": "AT",
@@ -5652,8 +5652,8 @@
     "primary": true,
     "bic": "RZTIAT22336",
     "bank_code": "36276",
-    "name": "Raiffeisenbank Telfs-Mieming eGen",
-    "short_name": "Raiffeisenbank Telfs-Mieming eGen"
+    "name": "Raiffeisenbank Tirol Mitte West eGen",
+    "short_name": "Raiffeisenbank Tirol Mitte West eGen"
   },
   {
     "country_code": "AT",

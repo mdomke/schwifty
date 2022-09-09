@@ -98,9 +98,29 @@ def test_invalid_bic(code, exc):
         BIC(code)
 
 
-def test_bic_from_bank_code():
-    bic = BIC.from_bank_code("DE", "43060967")
-    assert bic.compact == "GENODEM1GLS"
+@pytest.mark.parametrize(
+    "country,bank_code,bic",
+    [
+        ("AT", "36274", "RZTIAT22274"),
+        ("BE", "002", "GEBABEBB"),
+        ("CZ", "0600", "AGBACZPP"),
+        ("ES", "0209", "BSABESBB"),
+        ("FI", "101", "NDEAFIHH"),
+        ("DE", "43060967", "GENODEM1GLS"),
+        ("HU", "107", "CIBHHUHB"),
+        ("HR", "2485003", "CROAHR2X"),
+        ("LV", "RIKO", "RIKOLV2XXXX"),
+        ("NL", "ADYB", "ADYBNL2A"),
+        ("PL", "10100055", "NBPLPLPWXXX"),
+        ("RO", "BPOS", "BPOSROBU"),
+        ("SE", "500", "ESSESESS"),
+        ("SI", "01050", "BSLJSI2XFNB"),
+        ("SK", "0900", "GIBASKBX"),
+    ],
+)
+def test_bic_from_bank_code(country, bank_code, bic):
+    bic = BIC.from_bank_code(country, bank_code)
+    assert bic.compact == bic
 
 
 def test_bic_from_unknown_bank_code():
