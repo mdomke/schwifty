@@ -1,0 +1,14 @@
+FROM python:3.10
+
+# How use this Dockerfile to generate the Swedish bank registry:
+
+# docker build -t schwifty_se -f scripts/Dockerfile_se .
+# docker run --rm -v `pwd`:/schwifty --workdir /schwifty schwifty_se
+
+RUN apt update -y \
+    && apt install -y ghostscript python3-tk libgl1 \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install "camelot-py[base]" opencv-python
+
+CMD [ "python", "scripts/get_bank_registry_se.py" ]
