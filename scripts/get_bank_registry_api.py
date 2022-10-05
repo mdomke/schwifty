@@ -98,5 +98,6 @@ def main(
         with open(Path(out_dir) / f'generated_{country_code.lower()}.json', 'w', encoding='utf-8') as f:
             json.dump(bic_regs, f, indent=2)
 
+
 if __name__ == '__main__':
     fire.Fire(main)
