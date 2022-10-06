@@ -58,6 +58,14 @@
   {
     "country_code": "EE",
     "primary": true,
+    "bic": "FOREEE2X",
+    "bank_code": "33",
+    "name": "Danske Bank A/S Eesti filiaal (Sampo Pank)",
+    "short_name": "Danske Bank A/S Eesti filiaal (Sampo Pank)"
+  },
+  {
+    "country_code": "EE",
+    "primary": true,
     "bic": "EKRDEE22",
     "bank_code": "42",
     "name": "Coop Pank aktsiaselts",

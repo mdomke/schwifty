@@ -38,7 +38,7 @@ def try_iban_validate_ibancalculator(iban_str:str):
     sres = re.search(r'BIC:</b> (\w+)', text)
     if sres is not None:
         bic = sres.groups()[0]
-        bank_sres = re.search(r'Bank:</b> (<a[\w\s=\":/.-]+>)?([\w\s\"\'-]+)', text)
+        bank_sres = re.search(r'Bank:</b> (<a[\w\s=\":/.-]+>)?(.+?)<', text)
         if bank_sres == None:
             print('Unexpected')
             raise ValueError()
