@@ -1,39 +1,42 @@
 #!/usr/bin/env python
 import json
-from tempfile import NamedTemporaryFile
 
-import openpyxl
-import requests
+import pandas
 
 
-BANK_CODES_URL = "https://www.mnb.hu/letoltes/sht.xlsx"
+URL = "https://www.mnb.hu/letoltes/sht.xlsx"
 
 
 def process():
-    yielded_bank_codes = set()
+    registry = []
+    datas = pandas.read_excel(URL, sheet_name=0, dtype="str")
+    datas.fillna("", inplace=True)
 
-    with NamedTemporaryFile(suffix="data.xlsx") as temp_file:
-        response = requests.get(BANK_CODES_URL)
-        temp_file.write(response.content)
-        workbook = openpyxl.load_workbook(temp_file.name)
-        sheet = workbook.worksheets[0]
+    bank_codes = set()
+    for row in datas.itertuples(index=False):
+        code, bic, name = row[:3]
 
-        for row_i, line in enumerate(sheet):
-            if row_i > 1:
-                bank_code = str(line[0].value)[:3]
-                if bank_code not in yielded_bank_codes:
-                    bic_code = str(line[1].value).upper()
-                    yielded_bank_codes.add(bank_code)
-                    bank_name = str(line[2].value)
+        # The branch code, which is the remainder of the `code`,  could be used to figure out the
+        # correct bank name (including the branch location), but that would require to alter the
+        # way banks are being looked up.
+        bank_code = code[:3]
+        if bank_code in bank_codes:
+            continue
 
-                    yield {
-                        "country_code": "HU",
-                        "primary": True,
-                        "bic": bic_code,
-                        "bank_code": bank_code,
-                        "name": bank_name,
-                        "short_name": bank_name,
-                    }
+        bank_codes.add(bank_code)
+        registry.append(
+            {
+                "country_code": "HU",
+                "primary": True,
+                "bic": str(bic).upper().replace(" ", ""),
+                "bank_code": str(bank_code),
+                "name": name,
+                "short_name": name,
+            }
+        )
+
+    print(f"Fetched {len(registry)} bank records")
+    return registry
 
 
 if __name__ == "__main__":

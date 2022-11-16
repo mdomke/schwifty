@@ -5,6 +5,17 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+`2022.09.0`_ - 2022/16/09
+-------------------------
+Added
+~~~~~
+* IBAN validation for Senegal `mkopec87 <https://github.com/mkopec87>`_
+
+Changed
+~~~~~~~
+* Refactored most of the scripts to generate the bank registry to use Pandas `@pebosi <https://github.com/pebosi>`_
+* Updated bank registry for Austria, Belgium, Germany, Spain, Hungary, Netherlands and Poland.
+
 `2022.07.1`_ - 2022/28/07
 -------------------------
 Fixed
@@ -330,6 +341,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2022.09.0: https://github.com/mdomke/schwifty/compare/2022.07.1...2022.09.0
 .. _2022.07.1: https://github.com/mdomke/schwifty/compare/2022.07.0...2022.07.1
 .. _2022.07.0: https://github.com/mdomke/schwifty/compare/2022.06.3...2022.07.0
 .. _2022.06.3: https://github.com/mdomke/schwifty/compare/2022.06.2...2022.06.3

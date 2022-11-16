@@ -1386,10 +1386,10 @@
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1477",
-    "bic": "",
+    "bank_code": "0156",
+    "bic": "ABNAESMM",
     "name": "THE ROYAL BANK OF SCOTLAND PLC, S.E.",
-    "short_name": "R. B. SCOTLAND"
+    "short_name": "ROYAL BANK"
   },
   {
     "country_code": "ES",

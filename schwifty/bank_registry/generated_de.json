@@ -72,6 +72,24 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "10014000",
+    "name": "Swan Zweigniederlassung Deutschland",
+    "short_name": "Swan Zndl Deutschland",
+    "bic": "SWNBDEBBXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "10014001",
+    "name": "Swan Zweigniederlassung Deutschland (Gesch\u00e4ftsfeld)",
+    "short_name": "Swan Zndl Deutschland",
+    "bic": "SWNBDEBBXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
     "bank_code": "10017997",
     "name": "Holvi Payment Services Zweigniederlassung Deutschland",
     "short_name": "Holvi - Berlin",
@@ -2755,8 +2773,8 @@
   },
   {
     "bank_code": "20010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale Hamburg",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W200",
     "primary": true,
     "country_code": "DE",
@@ -3574,8 +3592,8 @@
   },
   {
     "bank_code": "20069232",
-    "name": "Raiffeisenbank",
-    "short_name": "Raiffbk Struvenh\u00fctten",
+    "name": "Raiffeisenbank -alt-",
+    "short_name": "Raiffbk Struvenh\u00fctten -alt-",
     "bic": "GENODEF1STV",
     "primary": true,
     "country_code": "DE",
@@ -3673,8 +3691,8 @@
   },
   {
     "bank_code": "20069989",
-    "name": "Volksbank Wulfsen",
-    "short_name": "Volksbank Wulfsen",
+    "name": "Volksbank Wulfsen -alt-",
+    "short_name": "Volksbank Wulfsen -alt-",
     "bic": "GENODEF1WUL",
     "primary": true,
     "country_code": "DE",
@@ -5518,8 +5536,8 @@
   },
   {
     "bank_code": "21290016",
-    "name": "VR Bank Neum\u00fcnster",
-    "short_name": "VR Bank Neum\u00fcnster",
+    "name": "VR Bank Neum\u00fcnster -alt-",
+    "short_name": "VR Bank Neum\u00fcnster -alt-",
     "bic": "GENODEF1NMS",
     "primary": true,
     "country_code": "DE",
@@ -5545,8 +5563,8 @@
   },
   {
     "bank_code": "21390008",
-    "name": "VR Bank Ostholstein Nord-Pl\u00f6n",
-    "short_name": "VR Bk Ostholstein Nord-Pl\u00f6n",
+    "name": "VR Bank zwischen den Meeren",
+    "short_name": "VR Bank zdM, Neum\u00fcnster",
     "bic": "GENODEF1NSH",
     "primary": true,
     "country_code": "DE",
@@ -6400,8 +6418,8 @@
   },
   {
     "bank_code": "25010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale Hannover",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W250",
     "primary": true,
     "country_code": "DE",
@@ -8974,8 +8992,8 @@
   },
   {
     "bank_code": "28063607",
-    "name": "Volksbank Bakum",
-    "short_name": "Volksbank Bakum",
+    "name": "Volksbank Bakum -alt-",
+    "short_name": "Volksbank Bakum -alt-",
     "bic": "GENODEF1BAM",
     "primary": true,
     "country_code": "DE",
@@ -11991,15 +12009,6 @@
     "bank_code": "34060094",
     "name": "Volksbank im Bergischen Land",
     "short_name": "Volksbank i.Bergischen Land",
-    "bic": "VBRSDE33344",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "00"
-  },
-  {
-    "bank_code": "34060094",
-    "name": "Volksbank im Bergischen Land",
-    "short_name": "Volksbank i.Bergischen Land",
     "bic": "VBRSDE33347",
     "primary": false,
     "country_code": "DE",
@@ -12897,15 +12906,6 @@
     "checksum_algo": "09"
   },
   {
-    "bank_code": "37030200",
-    "name": "Deutsche Oppenheim Family Office (ehem. Sal. Oppenheim)",
-    "short_name": "Deutsche Oppenheim K\u00f6ln",
-    "bic": "SOPPDE3KXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
     "bank_code": "37030700",
     "name": "abcbank",
     "short_name": "abcbank K\u00f6ln",
@@ -13267,8 +13267,8 @@
   },
   {
     "bank_code": "37069520",
-    "name": "VR-Bank Rhein-Sieg",
-    "short_name": "VR-Bank Rhein-Sieg Siegburg",
+    "name": "VR-Bank Bonn Rhein-Sieg",
+    "short_name": "VR-Bank Bonn Rhein-Sieg",
     "bic": "GENODED1RST",
     "primary": true,
     "country_code": "DE",
@@ -15822,15 +15822,6 @@
     "checksum_algo": "00"
   },
   {
-    "bank_code": "41652560",
-    "name": "Sparkasse Warstein-R\u00fcthen -alt-",
-    "short_name": "Spk Warstein-R\u00fcthen -alt-",
-    "bic": "WELADED1WAR",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "00"
-  },
-  {
     "bank_code": "41660124",
     "name": "Volksbank Beckum-Lippstadt",
     "short_name": "Volksbank Beckum-Lippstadt",
@@ -16849,8 +16840,8 @@
   },
   {
     "bank_code": "44152490",
-    "name": "Stadtsparkasse Schwerte",
-    "short_name": "Sparkasse Schwerte",
+    "name": "Stadtsparkasse Schwerte -alt-",
+    "short_name": "Sparkasse Schwerte -alt-",
     "bic": "WELADED1SWT",
     "primary": true,
     "country_code": "DE",
@@ -18640,8 +18631,8 @@
   },
   {
     "bank_code": "47850065",
-    "name": "Sparkasse G\u00fctersloh-Rietberg",
-    "short_name": "Spk G\u00fctersloh-Rietberg",
+    "name": "Sparkasse G\u00fctersloh-Rietberg-Versmold",
+    "short_name": "Spk.G\u00fctersl.-Rietb.-Versmo.",
     "bic": "WELADED1GTL",
     "primary": true,
     "country_code": "DE",
@@ -18658,8 +18649,8 @@
   },
   {
     "bank_code": "47853355",
-    "name": "Stadtsparkasse Versmold",
-    "short_name": "St Spk Versmold",
+    "name": "Stadtsparkasse Versmold -alt-",
+    "short_name": "St Spk Versmold -alt-",
     "bic": "WELADED1VSM",
     "primary": true,
     "country_code": "DE",
@@ -19350,9 +19341,18 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "50010300",
+    "name": "First Commercial Bank, Frankfurt Branch",
+    "short_name": "First Commercial Bank, FFM",
+    "bic": "FCBKDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
     "bank_code": "50010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale Frankfurt",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W500",
     "primary": true,
     "country_code": "DE",
@@ -19669,6 +19669,69 @@
     "name": "Commerzbank (IPC MADRID)",
     "short_name": "Commerzbank (IPC MADRID)FFM",
     "bic": "COBADEFFMAD",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040016",
+    "name": "Commerzbank (CLB New York) FFM",
+    "short_name": "Commerzbank(CLB New YorkFFM",
+    "bic": "COBADEFFNYC",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040017",
+    "name": "Commerzbank (CLB Singapore) Frankfurt",
+    "short_name": "CommerzbankCLB SingaporeFFM",
+    "bic": "COBADEFFSGP",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040018",
+    "name": "Commerzbank (CLB London)",
+    "short_name": "Commerzbank (CLB London)FFM",
+    "bic": "COBADEFFLDN",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040019",
+    "name": "Commerzbank (CLB Z\u00fcrich)",
+    "short_name": "Commerzbank (CLB Z\u00fcrich)FFM",
+    "bic": "COBADEFFZUR",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040020",
+    "name": "Commerzbank (CLB Prag)",
+    "short_name": "Commerzbank (CLB Prag) FFM",
+    "bic": "COBADEFFPRA",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040021",
+    "name": "Commerzbank (CLB Moskau)",
+    "short_name": "Commerzbank (CLB Moskau)FFM",
+    "bic": "COBADEFFMOS",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040022",
+    "name": "Commerzbank (CLB Hamburg)",
+    "short_name": "Commerzbank(CLB Hamburg)FFM",
+    "bic": "COBADEFFHBG",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "13"
@@ -20844,15 +20907,6 @@
     "checksum_algo": "09"
   },
   {
-    "bank_code": "50130200",
-    "name": "Deutsche Oppenheim Family Office (ehem. Sal. Oppenheim)",
-    "short_name": "Deutsche Oppenheim FFM",
-    "bic": "SOPPDEFFXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
     "bank_code": "50130400",
     "name": "Merck Finck A Quintet Private Bank",
     "short_name": "Merck Finck",
@@ -21183,7 +21237,7 @@
     "bic": "RAISDEFFXXX",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "checksum_algo": "09"
   },
   {
     "bank_code": "50330300",
@@ -21304,8 +21358,8 @@
   },
   {
     "bank_code": "50560102",
-    "name": "Raiffeisenbank Offenbach/M.-Bieber",
-    "short_name": "Raiffbk Offenbach",
+    "name": "Raiffeisenbank Offenbach/M.-Bieber -alt-",
+    "short_name": "Raiffbk Offenbach -alt-",
     "bic": "GENODE51OF2",
     "primary": true,
     "country_code": "DE",
@@ -23032,8 +23086,8 @@
   },
   {
     "bank_code": "52061303",
-    "name": "Raiffeisenbank Borken Nordhessen",
-    "short_name": "Raiffbk Borken Nordhessen",
+    "name": "Raiffeisenbank Borken Nordhessen -alt-",
+    "short_name": "RB Borken Nordhessen -alt-",
     "bic": "GENODEF1BOR",
     "primary": true,
     "country_code": "DE",
@@ -23113,8 +23167,8 @@
   },
   {
     "bank_code": "52069149",
-    "name": "Raiffeisenbank Volkmarsen",
-    "short_name": "Raiffbk Volkmarsen",
+    "name": "Raiffeisenbank Volkmarsen -alt-",
+    "short_name": "Raiffbk Volkmarsen -alt-",
     "bic": "GENODEF1VLM",
     "primary": true,
     "country_code": "DE",
@@ -24427,8 +24481,8 @@
   },
   {
     "bank_code": "55010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale Mainz",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W550",
     "primary": true,
     "country_code": "DE",
@@ -24895,8 +24949,8 @@
   },
   {
     "bank_code": "56061472",
-    "name": "Volksbank Hunsr\u00fcck-Nahe",
-    "short_name": "VB Hunsr\u00fcck-Nahe",
+    "name": "Vereinigte Volksbank Raiffeisenbank",
+    "short_name": "VVR-Bank Simmern",
     "bic": "GENODED1KHK",
     "primary": true,
     "country_code": "DE",
@@ -25165,8 +25219,8 @@
   },
   {
     "bank_code": "57069727",
-    "name": "Raiffeisenbank Irrel",
-    "short_name": "Raiffeisenbank Irrel",
+    "name": "Raiffeisenbank Irrel -alt-",
+    "short_name": "Raiffeisenbank Irrel -alt-",
     "bic": "GENODED1IRR",
     "primary": true,
     "country_code": "DE",
@@ -25813,8 +25867,8 @@
   },
   {
     "bank_code": "58760954",
-    "name": "Vereinigte Volksbank Raiffeisenbank",
-    "short_name": "VVR-Bank Wittlich",
+    "name": "Vereinigte Volksbank Raiffeisenbank -alt-",
+    "short_name": "VVR-Bank Wittlich -alt-",
     "bic": "GENODED1WTL",
     "primary": true,
     "country_code": "DE",
@@ -26605,8 +26659,8 @@
   },
   {
     "bank_code": "59291200",
-    "name": "Volks- und Raiffeisenbank Saarpfalz",
-    "short_name": "Volks- u. Raiffbk Saarpfalz",
+    "name": "Volks- und Raiffeisenbank Saarpfalz -alt-",
+    "short_name": "VR Bank Saarpfalz-alt-",
     "bic": "GENODE51BEX",
     "primary": true,
     "country_code": "DE",
@@ -26722,8 +26776,8 @@
   },
   {
     "bank_code": "60010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale Stuttgart",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W600",
     "primary": true,
     "country_code": "DE",
@@ -32896,8 +32950,8 @@
   },
   {
     "bank_code": "70010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale M\u00fcnchen",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W700",
     "primary": true,
     "country_code": "DE",
@@ -33091,24 +33145,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "67"
-  },
-  {
-    "bank_code": "70013100",
-    "name": "net-m privatbank 1891",
-    "short_name": "net-m privatbank 1891",
-    "bic": "BVWBDE2WXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "32"
-  },
-  {
-    "bank_code": "70013199",
-    "name": "net-m privatbank 1891",
-    "short_name": "net-m privatbank 1891",
-    "bic": "BVWBDE2WXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "32"
   },
   {
     "bank_code": "70013400",
@@ -33625,8 +33661,8 @@
   },
   {
     "bank_code": "70051003",
-    "name": "Sparkasse Freising",
-    "short_name": "Sparkasse Freising",
+    "name": "Sparkasse Freising Moosburg",
+    "short_name": "Sparkasse Freising Moosburg",
     "bic": "BYLADEM1FSI",
     "primary": true,
     "country_code": "DE",
@@ -34876,8 +34912,8 @@
   },
   {
     "bank_code": "70350000",
-    "name": "Kreissparkasse Garmisch-Partenkirchen",
-    "short_name": "Kr Spk Garmisch-Partenkirch",
+    "name": "Kreissparkasse Garmisch-Partenkirchen -alt-",
+    "short_name": "Kr Spk Garmisch-Part. -alt-",
     "bic": "BYLADEM1GAP",
     "primary": true,
     "country_code": "DE",
@@ -35898,7 +35934,7 @@
     "bic": "GENODEF1S03",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "84"
+    "checksum_algo": "09"
   },
   {
     "bank_code": "72090900",
@@ -36532,8 +36568,8 @@
   },
   {
     "bank_code": "73369854",
-    "name": "Raiffeisenbank Fuchstal-Denklingen",
-    "short_name": "Raiffbk Fuchstal-Denklingen",
+    "name": "Raiffeisenbank Fuchstal-Denklingen -alt-",
+    "short_name": "RB Fuchstal-Denklingen-alt-",
     "bic": "GENODEF1FCH",
     "primary": true,
     "country_code": "DE",
@@ -37306,8 +37342,8 @@
   },
   {
     "bank_code": "74351740",
-    "name": "Stadt- und Kreissparkasse Moosburg",
-    "short_name": "St u Kr Spk Moosburg",
+    "name": "Stadt- und Kreissparkasse Moosburg -alt-",
+    "short_name": "St u Kr Spk Moosburg -alt-",
     "bic": "BYLADEM1MSB",
     "primary": true,
     "country_code": "DE",
@@ -37630,8 +37666,8 @@
   },
   {
     "bank_code": "75069020",
-    "name": "Raiffeisenbank Bruck",
-    "short_name": "Raiffeisenbank Bruck",
+    "name": "Raiffeisenbank Bruck -alt-",
+    "short_name": "Raiffeisenbank Bruck -alt-",
     "bic": "GENODEF1BUK",
     "primary": true,
     "country_code": "DE",
@@ -39016,8 +39052,8 @@
   },
   {
     "bank_code": "76460015",
-    "name": "Raiffeisenbank Roth-Schwabach",
-    "short_name": "Raiffbk Roth-Schwabach",
+    "name": "Raiffeisenbank Roth-Schwabach -alt-",
+    "short_name": "Raiffbk Roth-Schwabach-alt-",
     "bic": "GENODEF1SWR",
     "primary": true,
     "country_code": "DE",
@@ -39124,8 +39160,8 @@
   },
   {
     "bank_code": "76560060",
-    "name": "VR-Bank Mittelfranken West",
-    "short_name": "VR-Bank Mittelfranken West",
+    "name": "VR-Bank Mittelfranken Mitte",
+    "short_name": "VR-Bank Mittelfranken Mitte",
     "bic": "GENODEF1ANS",
     "primary": true,
     "country_code": "DE",
@@ -39742,15 +39778,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
-  },
-  {
-    "bank_code": "79062106",
-    "name": "Raiffeisenbank -alt-",
-    "short_name": "Raiffbk Hammelburg -alt-",
-    "bic": "GENODEF1HAB",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
   },
   {
     "bank_code": "79063060",
@@ -40645,8 +40672,8 @@
   },
   {
     "bank_code": "81054000",
-    "name": "Sparkasse Jerichower Land",
-    "short_name": "Sparkasse Jerichower Land",
+    "name": "Sparkasse Jerichower Land -alt-",
+    "short_name": "Spk Jerichower Land -alt-",
     "bic": "NOLADE21JEL",
     "primary": true,
     "country_code": "DE",
@@ -41131,8 +41158,8 @@
   },
   {
     "bank_code": "82064088",
-    "name": "VR-Bank Eisenach-Ronshausen",
-    "short_name": "VR-Bank Eisenach-Ronshausen",
+    "name": "VR Bank Ihre Heimatbank",
+    "short_name": "VR Bank Ihre Heimatbank",
     "bic": "GENODEF1ESA",
     "primary": true,
     "country_code": "DE",
@@ -41140,8 +41167,8 @@
   },
   {
     "bank_code": "82064168",
-    "name": "Raiffeisenbank Gotha",
-    "short_name": "Raiffeisenbank Gotha",
+    "name": "Raiffeisenbank Gotha -alt-",
+    "short_name": "Raiffeisenbank Gotha -alt-",
     "bic": "GENODEF1GTH",
     "primary": true,
     "country_code": "DE",
@@ -41521,15 +41548,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB831",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "82070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB826",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -42310,8 +42328,8 @@
   },
   {
     "bank_code": "86010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale Leipzig",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W860",
     "primary": true,
     "country_code": "DE",

@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 import json
 
-import requests
-import xlrd
+import pandas
 
 
 # https://www.swedishbankers.se/fraagor-vi-arbetar-med/betalningar/ny-nordisk-betalningsinfrastruktur/iban-och-svenskt-nationellt-kontonummer/
@@ -15,21 +14,23 @@ URL = (
 def process():
     registry = []
 
-    book = xlrd.open_workbook(file_contents=requests.get(URL).content)
-    sheet = book.sheet_by_index(0)
+    datas = pandas.read_excel(URL, skiprows=2, sheet_name=0, dtype=str)
+    datas.fillna("", inplace=True)
 
-    for row in list(sheet.get_rows())[3:]:
+    for row in datas.itertuples(index=False):
         bank_code, bic, name = row[:3]
         registry.append(
             {
                 "country_code": "SE",
                 "primary": True,
-                "bic": bic.value.upper(),
-                "bank_code": str(bank_code.value).split(".", 1)[0],
-                "name": name.value.strip(),
-                "short_name": name.value.strip(),
+                "bic": str(bic).upper(),
+                "bank_code": str(bank_code).split(".", 1)[0],
+                "name": str(name).strip(),
+                "short_name": str(name).strip(),
             }
         )
+
+    print(f"Fetched {len(registry)} bank records")
     return registry
 
 

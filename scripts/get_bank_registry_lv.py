@@ -1,26 +1,30 @@
 #!/usr/bin/env python
 import json
 
+import pandas
 import requests
-import xlrd
 
 
 URL = "https://www.bank.lv/images/stories/pielikumi/makssist/bic_saraksts_22.01.2020_eng.xls"
 
 
 def process():
-    book = xlrd.open_workbook(file_contents=requests.get(URL).content)
-    sheet = book.sheet_by_index(0)
+    agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:104.0) Gecko/20100101 Firefox/104.0"
+    response = requests.get(URL, headers={"User-Agent": agent})
+
+    datas = pandas.read_excel(response.content, skiprows=1, sheet_name=0, dtype="str")
+    datas.fillna("", inplace=True)
+
     return [
         {
             "country_code": "LV",
             "primary": True,
-            "bic": bic.value.upper(),
-            "bank_code": bic.value[:4],
-            "name": name.value,
-            "short_name": name.value,
+            "bic": str(row.BIC).upper(),
+            "bank_code": str(row.BIC)[:4],
+            "name": row._2,
+            "short_name": row._2,
         }
-        for _id, name, _iban_structure, bic in list(sheet.get_rows())[2:]
+        for row in list(datas.itertuples())
     ]
 
 

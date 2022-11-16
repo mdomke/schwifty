@@ -3788,8 +3788,8 @@
     "primary": true,
     "bic": "CHASBEBX",
     "bank_code": "549",
-    "name": "JP Morgan Chase Bank",
-    "short_name": "JP Morgan Chase Bank"
+    "name": "J.P. Morgan SE \u2013 Brussels Branch",
+    "short_name": "J.P. Morgan SE \u2013 Brussels Branch"
   },
   {
     "country_code": "BE",
@@ -5922,14 +5922,6 @@
   {
     "country_code": "BE",
     "primary": true,
-    "bic": "PAGOBEBB",
-    "bank_code": "927",
-    "name": "PagoFX Europe",
-    "short_name": "PagoFX Europe"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
     "bic": "VPAYBE21",
     "bank_code": "928",
     "name": "VIVA Payment Services",
@@ -6014,6 +6006,14 @@
     "bank_code": "945",
     "name": "J.P. Morgan SE \u2013 Brussels Branch",
     "short_name": "J.P. Morgan SE \u2013 Brussels Branch"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "HOMNBEB1",
+    "bank_code": "948",
+    "name": "Mastercard Transaction Services (Europe) NV/SA ",
+    "short_name": "Mastercard Transaction Services (Europe) NV/SA "
   },
   {
     "country_code": "BE",
@@ -6126,6 +6126,14 @@
     "bank_code": "963",
     "name": "AXA Bank Belgium",
     "short_name": "AXA Bank Belgium"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "FPEBBEB2",
+    "bank_code": "964",
+    "name": "FINANCIERE DES PAIEMENTS ELECTRONIQUES SAS - NICKEL BELGIUM",
+    "short_name": "FINANCIERE DES PAIEMENTS ELECTRONIQUES SAS - NICKEL BELGIUM"
   },
   {
     "country_code": "BE",
@@ -6262,37 +6270,5 @@
     "bank_code": "984",
     "name": "bpost",
     "short_name": "bpost"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "BPOTBEB1",
-    "bank_code": "985",
-    "name": "bpost bank",
-    "short_name": "bpost bank"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "BPOTBEB1",
-    "bank_code": "986",
-    "name": "bpost bank",
-    "short_name": "bpost bank"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "BPOTBEB1",
-    "bank_code": "987",
-    "name": "bpost bank",
-    "short_name": "bpost bank"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "BPOTBEB1",
-    "bank_code": "988",
-    "name": "bpost bank",
-    "short_name": "bpost bank"
   }
 ]

@@ -4,8 +4,8 @@
     "primary": true,
     "bic": "ABNANL2A",
     "bank_code": "ABNA",
-    "name": "ABN AMRO BANK ",
-    "short_name": "ABN AMRO BANK "
+    "name": "ABN AMRO BANK",
+    "short_name": "ABN AMRO BANK"
   },
   {
     "country_code": "NL",
@@ -28,8 +28,8 @@
     "primary": true,
     "bic": "AEGONL2U",
     "bank_code": "AEGO",
-    "name": "AEGON BANK ",
-    "short_name": "AEGON BANK "
+    "name": "AEGON BANK",
+    "short_name": "AEGON BANK"
   },
   {
     "country_code": "NL",
@@ -44,16 +44,16 @@
     "primary": true,
     "bic": "ARBNNL22",
     "bank_code": "ARBN",
-    "name": "ACHMEA BANK ",
-    "short_name": "ACHMEA BANK "
+    "name": "ACHMEA BANK",
+    "short_name": "ACHMEA BANK"
   },
   {
     "country_code": "NL",
     "primary": true,
     "bic": "ARSNNL21",
     "bank_code": "ARSN",
-    "name": "ARGENTA SPAARBANK ",
-    "short_name": "ARGENTA SPAARBANK "
+    "name": "ARGENTA SPAARBANK",
+    "short_name": "ARGENTA SPAARBANK"
   },
   {
     "country_code": "NL",
@@ -68,8 +68,8 @@
     "primary": true,
     "bic": "ATBANL2A",
     "bank_code": "ATBA",
-    "name": "AMSTERDAM TRADE BANK * status exclusion * ",
-    "short_name": "AMSTERDAM TRADE BANK * status exclusion * "
+    "name": "AMSTERDAM TRADE BANK * status exclusion *",
+    "short_name": "AMSTERDAM TRADE BANK * status exclusion *"
   },
   {
     "country_code": "NL",
@@ -92,8 +92,8 @@
     "primary": true,
     "bic": "BICKNL2A",
     "bank_code": "BICK",
-    "name": "BINCKBANK ",
-    "short_name": "BINCKBANK "
+    "name": "BINCKBANK",
+    "short_name": "BINCKBANK"
   },
   {
     "country_code": "NL",
@@ -306,6 +306,14 @@
   {
     "country_code": "NL",
     "primary": true,
+    "bic": "FNOMNL22",
+    "bank_code": "FNOM",
+    "name": "FINOM Payments B.V.",
+    "short_name": "FINOM Payments B.V."
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
     "bic": "FRNXNL2A",
     "bank_code": "FRNX",
     "name": "FRANX",
@@ -316,8 +324,8 @@
     "primary": true,
     "bic": "FVLBNL22",
     "bank_code": "FVLB",
-    "name": "VAN LANSCHOT ",
-    "short_name": "VAN LANSCHOT "
+    "name": "VAN LANSCHOT",
+    "short_name": "VAN LANSCHOT"
   },
   {
     "country_code": "NL",
@@ -332,8 +340,8 @@
     "primary": true,
     "bic": "GILLNL2A",
     "bank_code": "GILL",
-    "name": "INSINGERGILISSEN ",
-    "short_name": "INSINGERGILISSEN "
+    "name": "INSINGERGILISSEN",
+    "short_name": "INSINGERGILISSEN"
   },
   {
     "country_code": "NL",
@@ -452,16 +460,16 @@
     "primary": true,
     "bic": "LOYDNL2A",
     "bank_code": "LOYD",
-    "name": "LLOYDS TSB BANK ",
-    "short_name": "LLOYDS TSB BANK "
+    "name": "LLOYDS TSB BANK",
+    "short_name": "LLOYDS TSB BANK"
   },
   {
     "country_code": "NL",
     "primary": true,
     "bic": "LPLNNL2F",
     "bank_code": "LPLN",
-    "name": "LEASEPLAN CORPORATION ",
-    "short_name": "LEASEPLAN CORPORATION "
+    "name": "LEASEPLAN CORPORATION",
+    "short_name": "LEASEPLAN CORPORATION"
   },
   {
     "country_code": "NL",
@@ -540,8 +548,8 @@
     "primary": true,
     "bic": "UGBINL2A",
     "bank_code": "UGBI",
-    "name": "GARANTIBANK INTERNATIONAL ",
-    "short_name": "GARANTIBANK INTERNATIONAL "
+    "name": "GARANTIBANK INTERNATIONAL",
+    "short_name": "GARANTIBANK INTERNATIONAL"
   },
   {
     "country_code": "NL",

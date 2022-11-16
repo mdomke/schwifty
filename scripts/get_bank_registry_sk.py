@@ -1,7 +1,5 @@
-import csv
 import json
-
-import requests
+import pandas
 
 from schwifty import BIC
 
@@ -10,26 +8,31 @@ URL = "https://www.nbs.sk/_img/Documents/_PlatobneSystemy/EUROSIPS/Directory_IC_
 
 
 def process():
-    with requests.get(URL, stream=True) as fp:
-        csvfile = csv.reader([line.decode("cp1250") for line in fp.iter_lines()], delimiter=";")
+    datas = pandas.read_csv(URL, encoding="cp1250", delimiter=";")
+    datas = datas.dropna(how="all")
+    datas.fillna("", inplace=True)
+
     registry = []
-    next(csvfile)
-    for row in csvfile:
-        if len(row) != 4:
-            continue
-        bic = row[2].strip().upper()
+
+    for row in datas.itertuples(index=False):
+        bank_code, name, bic = row[:3]
+
+        bic = str(bic).strip().upper()
         if bic and not BIC(bic, allow_invalid=True).is_valid:
             continue
+
         registry.append(
             {
                 "country_code": "SK",
                 "primary": True,
                 "bic": bic,
-                "bank_code": row[0].strip().zfill(4),
-                "name": row[1].strip(),
-                "short_name": row[1].strip(),
+                "bank_code": str(bank_code).strip().zfill(4),
+                "name": str(name).strip(),
+                "short_name": str(name).strip(),
             }
         )
+
+    print(f"Fetched {len(registry)} bank records")
     return registry
 
 

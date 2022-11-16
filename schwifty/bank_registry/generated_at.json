@@ -242,14 +242,6 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "RZOOAT2L613",
-    "bank_code": "34613",
-    "name": "Raiffeisenbank Schwertberg eGen",
-    "short_name": "Raiffeisenbank Schwertberg eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
     "bic": "RZOOAT2L633",
     "bank_code": "34633",
     "name": "Raiffeisenbank Steinbach-Gr\u00fcnburg eGen",
@@ -1730,14 +1722,6 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "RLNWATWWAUE",
-    "bank_code": "32039",
-    "name": "Raiffeisenbank Auersthal-Bockflie\u00df-Gro\u00df Schweinbarth eGen",
-    "short_name": "Raiffeisenbank Auersthal-Bockflie\u00df-Gro\u00df Schweinbarth eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
     "bic": "RZTIAT22203",
     "bank_code": "36203",
     "name": "Raiffeisenbank Alpbachtal eGen",
@@ -2036,8 +2020,8 @@
     "primary": true,
     "bic": "RZOOAT2L460",
     "bank_code": "34460",
-    "name": "Raiffeisenbank Region Pregarten eGen",
-    "short_name": "Raiffeisenbank Region Pregarten eGen"
+    "name": "Raiffeisenbank Aist eGen",
+    "short_name": "Raiffeisenbank Aist eGen"
   },
   {
     "country_code": "AT",
@@ -2074,18 +2058,10 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "RZSTAT2G238",
-    "bank_code": "38238",
-    "name": "Raiffeisenbank Murau eGen",
-    "short_name": "Raiffeisenbank Murau eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
     "bic": "RZSTAT2G402",
     "bank_code": "38402",
-    "name": "Raiffeisenbank Neumarkt-Oberw\u00f6lz eGen",
-    "short_name": "Raiffeisenbank Neumarkt-Oberw\u00f6lz eGen"
+    "name": "Raiffeisenbank Murau eGen",
+    "short_name": "Raiffeisenbank Murau eGen"
   },
   {
     "country_code": "AT",
@@ -2540,8 +2516,8 @@
     "primary": true,
     "bic": "RLNWATW1715",
     "bank_code": "32715",
-    "name": "Raiffeisenkasse Retz-Pulkautal registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
-    "short_name": "Raiffeisenkasse Retz-Pulkautal registrierte Genossenschaft mit beschr\u00e4nkter Haftung"
+    "name": "Raiffeisenkasse Retz-Pulkautal eGen",
+    "short_name": "Raiffeisenkasse Retz-Pulkautal eGen"
   },
   {
     "country_code": "AT",
@@ -2802,14 +2778,6 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "RZOOAT2L735",
-    "bank_code": "34735",
-    "name": "Raiffeisenbank Waldzell eGen",
-    "short_name": "Raiffeisenbank Waldzell eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
     "bic": "RZOOAT2L738",
     "bank_code": "34738",
     "name": "Raiffeisenbank Wartberg an der Krems eGen",
@@ -2862,14 +2830,6 @@
     "bank_code": "20272",
     "name": "Waldviertler Sparkasse Bank AG",
     "short_name": "Waldviertler Sparkasse Bank AG"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
-    "bic": "RZOOAT2L170",
-    "bank_code": "34170",
-    "name": "Raiffeisenbank H\u00f6rsching-Thening eGen",
-    "short_name": "Raiffeisenbank H\u00f6rsching-Thening eGen"
   },
   {
     "country_code": "AT",
@@ -2972,8 +2932,8 @@
     "primary": true,
     "bic": "RZSTAT2G402",
     "bank_code": "38452",
-    "name": "Raiffeisenbank Neumarkt-Oberw\u00f6lz eGen",
-    "short_name": "Raiffeisenbank Neumarkt-Oberw\u00f6lz eGen"
+    "name": "Raiffeisenbank Murau eGen",
+    "short_name": "Raiffeisenbank Murau eGen"
   },
   {
     "country_code": "AT",
@@ -3012,8 +2972,8 @@
     "primary": true,
     "bic": "RZOOAT2L081",
     "bank_code": "34081",
-    "name": "Raiffeisenbank Eberschwang eGen",
-    "short_name": "Raiffeisenbank Eberschwang eGen"
+    "name": "Raiffeisenbank Eberschwang-Pramet eGen",
+    "short_name": "Raiffeisenbank Eberschwang-Pramet eGen"
   },
   {
     "country_code": "AT",
@@ -3182,14 +3142,6 @@
     "bank_code": "38487",
     "name": "Raiffeisenbank Lipizzanerheimat eGen",
     "short_name": "Raiffeisenbank Lipizzanerheimat eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
-    "bic": "RLBBAT2E048",
-    "bank_code": "33048",
-    "name": "Raiffeisenbank Lutzmannsburg - Frankenau eGen",
-    "short_name": "Raiffeisenbank Lutzmannsburg - Frankenau eGen"
   },
   {
     "country_code": "AT",
@@ -4458,14 +4410,6 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "RZOOAT2L438",
-    "bank_code": "34438",
-    "name": "Raiffeisenbank Pramet eGen",
-    "short_name": "Raiffeisenbank Pramet eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
     "bic": "RZOOAT2L747",
     "bank_code": "34747",
     "name": "Raiffeisenbank Weyer eGen",
@@ -4642,14 +4586,6 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "RLNWATWWNSM",
-    "bank_code": "32865",
-    "name": "Raiffeisenbank Schneebergland eGen",
-    "short_name": "Raiffeisenbank Schneebergland eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
     "bic": "RZKTAT2K561",
     "bank_code": "39561",
     "name": "Raiffeisenbank Oberes M\u00f6lltal-Oberdrauburg eGen",
@@ -4756,8 +4692,8 @@
     "primary": true,
     "bic": "RZOOAT2L276",
     "bank_code": "34276",
-    "name": "Raiffeisenbank Leonding eGen",
-    "short_name": "Raiffeisenbank Leonding eGen"
+    "name": "Raiffeisenbank Linz-Land West eGen",
+    "short_name": "Raiffeisenbank Linz-Land West eGen"
   },
   {
     "country_code": "AT",
@@ -4898,18 +4834,10 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "RZOOAT2L284",
-    "bank_code": "34284",
-    "name": "Raiffeisenbank Lohnsburg eGen",
-    "short_name": "Raiffeisenbank Lohnsburg eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
     "bic": "RLNWATWWWRN",
     "bank_code": "32937",
-    "name": "Raiffeisenregionalbank Wiener Neustadt eGen",
-    "short_name": "Raiffeisenregionalbank Wiener Neustadt eGen"
+    "name": "Raiffeisenbank Wr. Neustadt-Schneebergland eGen",
+    "short_name": "Raiffeisenbank Wr. Neustadt-Schneebergland eGen"
   },
   {
     "country_code": "AT",
@@ -5092,8 +5020,8 @@
     "primary": true,
     "bic": "RLNWATWWWDF",
     "bank_code": "32951",
-    "name": "Raiffeisenbank Wolkersdorf eGen",
-    "short_name": "Raiffeisenbank Wolkersdorf eGen"
+    "name": "Raiffeisenbank Wolkersdorf - Auersthal eGen",
+    "short_name": "Raiffeisenbank Wolkersdorf - Auersthal eGen"
   },
   {
     "country_code": "AT",
@@ -6010,14 +5938,6 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "RLNWATWWNSM",
-    "bank_code": "32642",
-    "name": "Raiffeisenbank Schneebergland eGen",
-    "short_name": "Raiffeisenbank Schneebergland eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
     "bic": "RZOOAT2L060",
     "bank_code": "34661",
     "name": "Raiffeisenbank Region Braunau eGen",
@@ -6740,8 +6660,8 @@
     "primary": true,
     "bic": "RLNWATWWWRN",
     "bank_code": "32940",
-    "name": "Raiffeisenregionalbank Wiener Neustadt eGen",
-    "short_name": "Raiffeisenregionalbank Wiener Neustadt eGen"
+    "name": "Raiffeisenbank Wr. Neustadt-Schneebergland eGen",
+    "short_name": "Raiffeisenbank Wr. Neustadt-Schneebergland eGen"
   },
   {
     "country_code": "AT",
@@ -6806,14 +6726,6 @@
     "bank_code": "38285",
     "name": "Raiffeisenbank Region Gleisdorf-Pischelsdorf eGen",
     "short_name": "Raiffeisenbank Region Gleisdorf-Pischelsdorf eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
-    "bic": "INGBATWWXXX",
-    "bank_code": "19360",
-    "name": "ING-DiBa Austria Niederlassung der ING-DiBa AG",
-    "short_name": "ING-DiBa Austria Niederlassung der ING-DiBa AG"
   },
   {
     "country_code": "AT",
@@ -6902,6 +6814,94 @@
     "bank_code": "19210",
     "name": "bank99 AG",
     "short_name": "bank99 AG"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RZOOAT2L081",
+    "bank_code": "34438",
+    "name": "Raiffeisenbank Eberschwang-Pramet eGen",
+    "short_name": "Raiffeisenbank Eberschwang-Pramet eGen"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RLBBAT2E010",
+    "bank_code": "33048",
+    "name": "Raiffeisenbank Region Deutschkreutz-Horitschon eGen",
+    "short_name": "Raiffeisenbank Region Deutschkreutz-Horitschon eGen"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RZOOAT2L276",
+    "bank_code": "34170",
+    "name": "Raiffeisenbank Linz-Land West eGen",
+    "short_name": "Raiffeisenbank Linz-Land West eGen"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RZSTAT2G402",
+    "bank_code": "38238",
+    "name": "Raiffeisenbank Murau eGen",
+    "short_name": "Raiffeisenbank Murau eGen"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RLNWATWWWDF",
+    "bank_code": "32039",
+    "name": "Raiffeisenbank Wolkersdorf - Auersthal eGen",
+    "short_name": "Raiffeisenbank Wolkersdorf - Auersthal eGen"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RZOOAT2L460",
+    "bank_code": "34613",
+    "name": "Raiffeisenbank Aist eGen",
+    "short_name": "Raiffeisenbank Aist eGen"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RLNWATWWWRN",
+    "bank_code": "32865",
+    "name": "Raiffeisenbank Wr. Neustadt-Schneebergland eGen",
+    "short_name": "Raiffeisenbank Wr. Neustadt-Schneebergland eGen"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RLNWATWWWRN",
+    "bank_code": "32642",
+    "name": "Raiffeisenbank Wr. Neustadt-Schneebergland eGen",
+    "short_name": "Raiffeisenbank Wr. Neustadt-Schneebergland eGen"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RZOOAT2L450",
+    "bank_code": "34735",
+    "name": "Raiffeisenbank Region Ried i.I. eGen",
+    "short_name": "Raiffeisenbank Region Ried i.I. eGen"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RZOOAT2L450",
+    "bank_code": "34284",
+    "name": "Raiffeisenbank Region Ried i.I. eGen",
+    "short_name": "Raiffeisenbank Region Ried i.I. eGen"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "",
+    "bank_code": "19360",
+    "name": "ING Austria Branch of ING Bank N.V.",
+    "short_name": "ING Austria Branch of ING Bank N.V."
   },
   {
     "country_code": "AT",

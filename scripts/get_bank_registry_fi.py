@@ -1,31 +1,30 @@
 #!/usr/bin/env python
 import json
 
-import requests
-import xlrd
+import pandas
 
 
 URL = (
-    "https://www.finanssiala.fi/wp-content/uploads/2021/03/"
-    "Finnish_monetary_institution_codes_and_BICs_in_excel_format.xlsx"
+    "https://www.finanssiala.fi/"
+    "wp-content/uploads/2021/03/Finnish_monetary_institution_codes_and_BICs_in_excel_format.xlsx"
 )
 
 
 def process():
-    book = xlrd.open_workbook(file_contents=requests.get(URL).content)
-    sheet = book.sheet_by_index(0)
+    datas = pandas.read_excel(URL, sheet_name=0, dtype=str, header=None)
+    datas.fillna("", inplace=True)
 
     return [
         {
             "country_code": "FI",
             "primary": True,
-            "bic": bic.value.upper().strip(),
-            "bank_code": bank_code.value,
-            "name": name.value,
-            "short_name": name.value,
+            "bic": str(bic).upper().strip(),
+            "bank_code": bank_code,
+            "name": name,
+            "short_name": name,
         }
-        for bank_code, bic, name in list(sheet.get_rows())[2:]
-        if bank_code.value != ""
+        for bank_code, bic, name in list(datas.itertuples(index=False))[2:]
+        if bank_code != ""
     ]
 
 

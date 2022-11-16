@@ -1,27 +1,33 @@
 #!/usr/bin/env python
 import json
-
-import requests
-import xlrd
+import pandas
 
 
 URL = "https://www.hnb.hr/documents/20182/121798/tf-pp-ds-vbb-xlsx-e-vbb.xlsx/"
 
 
 def process():
-    book = xlrd.open_workbook(file_contents=requests.get(URL).content)
-    sheet = book.sheet_by_index(0)
-    return [
-        {
-            "country_code": "HR",
-            "primary": True,
-            "bic": bic.value.upper().replace(" ", ""),
-            "bank_code": str(int(bank_code.value)),
-            "name": name.value,
-            "short_name": name.value,
-        }
-        for _, name, bank_code, bic in list(sheet.get_rows())[4:]
-    ]
+    datas = pandas.read_excel(URL, skiprows=3, sheet_name=0, dtype=str)
+    datas.fillna("", inplace=True)
+
+    registry = []
+
+    for row in datas.itertuples(index=False):
+        _, name, bank_code, bic = row[:4]
+
+        registry.append(
+            {
+                "country_code": "HR",
+                "primary": True,
+                "bic": str(bic).upper().replace(" ", ""),
+                "bank_code": str(bank_code),
+                "name": name,
+                "short_name": name,
+            }
+        )
+
+    print(f"Fetched {len(registry)} bank records")
+    return registry
 
 
 if __name__ == "__main__":

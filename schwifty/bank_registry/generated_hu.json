@@ -4,8 +4,8 @@
     "primary": true,
     "bic": "HUSTHUHB",
     "bank_code": "100",
-    "name": "Magyar \u00c1llamkincst\u00e1r K\u00f6zpont",
-    "short_name": "Magyar \u00c1llamkincst\u00e1r K\u00f6zpont"
+    "name": "Magyar \u00c1llamkincst\u00e1r. \u00e9rt\u00e9kp.-p\u00e9nzt\u00e1r",
+    "short_name": "Magyar \u00c1llamkincst\u00e1r. \u00e9rt\u00e9kp.-p\u00e9nzt\u00e1r"
   },
   {
     "country_code": "HU",
@@ -356,8 +356,8 @@
     "primary": true,
     "bic": "BORGISRE",
     "bank_code": "194",
-    "name": "BORGUN hf.",
-    "short_name": "BORGUN hf."
+    "name": "Saltpay IIB hf",
+    "short_name": "Saltpay IIB hf"
   },
   {
     "country_code": "HU",
@@ -398,6 +398,14 @@
     "bank_code": "296",
     "name": "Libra Internet Bank S.A.",
     "short_name": "Libra Internet Bank S.A."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "ELFZHUHH",
+    "bank_code": "297",
+    "name": "Els\u0151 Fedezetkezel\u0151 Zrt. K\u00f6zponti Fi\u00f3k",
+    "short_name": "Els\u0151 Fedezetkezel\u0151 Zrt. K\u00f6zponti Fi\u00f3k"
   },
   {
     "country_code": "HU",
