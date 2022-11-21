@@ -2398,5 +2398,21 @@
         "name": "SWAN",
         "short_name": "SWAN",
         "primary": true
+    },
+    {
+        "country_code": "FR",
+        "primary": true,
+        "bank_code": "AECF",
+        "bic": "AECFFR21",
+        "name": "AMERICAN EXPRESS CARTE - FRANCE S.A.",
+        "short_name": "AMERICAN EXPRESS CARTE"
+    },
+    {
+        "country_code": "FR",
+        "bic": "CMBRFR2B",
+        "bank_code": "CMBR",
+        "name": "CREDIT MUTUEL DE BRETAGNE",
+        "short_name": "CREDIT MUTUEL DE BRETAGNE",
+        "primary": true
     }
 ]
