@@ -242,6 +242,14 @@
   {
     "country_code": "ES",
     "primary": true,
+    "bank_code": "3187",
+    "bic": "BCOEESMM",
+    "name": "CAJA RURAL DEL SUR",
+    "short_name": "RURALVIA"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
     "bank_code": "0192",
     "bic": "",
     "name": "BANCO CREDIPAS, S.A.",
