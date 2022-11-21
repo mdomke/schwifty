@@ -198,5 +198,13 @@
     "name": "Wells Fargo Bank International Unlimited Company",
     "short_name": "Wells Fargo Bank International Unlimited Company",
     "primary": true
+  },
+  {
+    "country_code": "IE",
+    "bic": "NTSBDEB1",
+    "bank_code": "NTSB",
+    "name": "N26 BANK GMBH",
+    "short_name": "N26 BANK",
+    "primary": true
   }
 ]
