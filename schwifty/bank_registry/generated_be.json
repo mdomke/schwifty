@@ -6270,5 +6270,21 @@
     "bank_code": "984",
     "name": "bpost",
     "short_name": "bpost"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "BPOTBEBE",
+    "bank_code": "BPOT",
+    "name": "bpost",
+    "short_name": "bpost"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "VDSPBE22",
+    "bank_code": "VDSP",
+    "name": "VDK BANK",
+    "short_name": "VDK BANK"
   }
 ]
