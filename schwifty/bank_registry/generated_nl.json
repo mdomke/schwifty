@@ -598,5 +598,13 @@
     "bank_code": "BMEU",
     "name": "BMCE EUROSERVICES * (tijdelijk) inactief sinds 7 juni 2021 *",
     "short_name": "BMCE EUROSERVICES * (tijdelijk) inactief sinds 7 juni 2021 *"
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
+    "bic": "ICSVNL21",
+    "bank_code": "ICSV",
+    "name": "INTERNATIONAL CARD SERVICES B.V.",
+    "short_name": "INTERNATIONAL CARD SERVICES B.V."
   }
 ]
