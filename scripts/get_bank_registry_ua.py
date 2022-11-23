@@ -14,7 +14,7 @@ def split_names(s) -> Tuple[str, str]:
     return name, short_name
 
 
-def get_data(filter_insolvent: bool = True) -> Tuple[pd.DataFrame, pd.DataFrame]:
+def get_data(filter_insolvent: bool = True) -> pd.DataFrame:
 
     # Get raw dataframes for parent banks and branches
     with requests.get(PARENT_URL) as r:
@@ -48,12 +48,12 @@ def get_data(filter_insolvent: bool = True) -> Tuple[pd.DataFrame, pd.DataFrame]
         branches.loc[idx, "NGOL_E"] = parent_full_name  # type: ignore
         branches.loc[idx, "NGOL_E_SHORT"] = parent_short_name  # type: ignore
 
-    return branches, parents
+    return branches
 
 
 def process():
 
-    branches, parents = get_data()
+    branches = get_data()
     registry = []
 
     for idx, row in branches.iterrows():
@@ -61,7 +61,7 @@ def process():
         registry.append(
             {
                 "country_code": "UA",
-                "primary": True if row["TYP"] == 0 else False,
+                "primary": row["TYP"] == 0,
                 "bic": None,
                 "bank_code": str(row["MFO"]),
                 "name": row["FULLNAME"],
