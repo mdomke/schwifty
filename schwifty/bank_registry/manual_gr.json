@@ -163,7 +163,7 @@
         "primary": true,
         "name": "VIVA PAYMENT SERVICES SINGLE MEMBER S.A.",
         "short_name": "VIVA PAYMENT SERVICES S.A.",
-        "bank_code": "VPAY",
+        "bank_code": "701",
         "bic": "VPAYGRAAXXX",
         "country_code": "GR"
     },
