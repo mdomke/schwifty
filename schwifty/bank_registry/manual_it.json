@@ -13,7 +13,7 @@
     "country_code": "IT",
     "name": "BANCA NAZIONALE DEL LAVORO SPA",
     "primary": true,
-    "short_name": "BANCA NAZIONALE DEL LAVORO SPA"
+    "short_name": "BANCA NAZIONALE DEL LAVORO"
   },
   {
     "bank_code": "01015",
@@ -21,7 +21,7 @@
     "country_code": "IT",
     "name": "BANCO DI SARDEGNA SPA",
     "primary": true,
-    "short_name": "BANCO DI SARDEGNA SPA"
+    "short_name": "BANCO DI SARDEGNA"
   },
   {
     "bank_code": "01030",
@@ -29,7 +29,7 @@
     "country_code": "IT",
     "name": "BANCA MONTE DEI PASCHI DI SIENA S.P.A.",
     "primary": true,
-    "short_name": "BANCA MONTE DEI PASCHI DI SIENA S.P.A."
+    "short_name": "BANCA MONTE DEI PASCHI DI SIENA"
   },
   {
     "bank_code": "02008",
@@ -40,12 +40,20 @@
     "short_name": "UNICREDIT, SOCIETA' PER AZIONI"
   },
   {
+    "bank_code": "03002",
+    "bic": "UNCRITMM",
+    "country_code": "IT",
+    "name": "UNICREDIT BANCA DI ROMA SPA",
+    "primary": true,
+    "short_name": "UNICREDIT BANCA DI ROMA"
+  },
+  {
     "bank_code": "03015",
     "bic": "FEBIITM1",
     "country_code": "IT",
     "name": "FINECOBANK SPA",
     "primary": true,
-    "short_name": "FINECOBANK SPA"
+    "short_name": "FINECOBANK"
   },
   {
     "bank_code": "03025",
@@ -53,7 +61,7 @@
     "country_code": "IT",
     "name": "BANCA PROFILO S.P.A.",
     "primary": true,
-    "short_name": "BANCA PROFILO S.P.A."
+    "short_name": "BANCA PROFILO"
   },
   {
     "bank_code": "03032",
@@ -61,7 +69,15 @@
     "country_code": "IT",
     "name": "CREDITO EMILIANO SPA",
     "primary": true,
-    "short_name": "CREDITO EMILIANO SPA"
+    "short_name": "CREDITO EMILIANO"
+  },
+  {
+    "bank_code": "03048",
+    "bic": "BDCPITTT",
+    "country_code": "IT",
+    "name": "BANCA DEL PIEMONTE S.P.A.",
+    "primary": true,
+    "short_name": "BANCA DEL PIEMONTE"
   },
   {
     "bank_code": "03058",
@@ -69,7 +85,7 @@
     "country_code": "IT",
     "name": "CHE BANCA S.P.A",
     "primary": true,
-    "short_name": "CHE BANCA S.P.A"
+    "short_name": "CHE BANCA"
   },
   {
     "bank_code": "03062",
@@ -77,7 +93,7 @@
     "country_code": "IT",
     "name": "BANCA MEDIOLANUM S.P.A.",
     "primary": true,
-    "short_name": "BANCA MEDIOLANUM S.P.A."
+    "short_name": "BANCA MEDIOLANUM"
   },
   {
     "bank_code": "03069",
@@ -85,7 +101,7 @@
     "country_code": "IT",
     "name": "INTESA SANPAOLO S.P.A.",
     "primary": true,
-    "short_name": "INTESA SANPAOLO S.P.A."
+    "short_name": "INTESA SANPAOLO"
   },
   {
     "bank_code": "03075",
@@ -93,7 +109,15 @@
     "country_code": "IT",
     "name": "BANCA GENERALI S.P.A.",
     "primary": true,
-    "short_name": "BANCA GENERALI S.P.A."
+    "short_name": "BANCA GENERALI"
+  },
+  {
+    "bank_code": "03104",
+    "bic": "DEUTITMM",
+    "country_code": "IT",
+    "name": "DEUTSCHE BANK SPA",
+    "primary": true,
+    "short_name": "DEUTSCHE BANK"
   },
   {
     "bank_code": "03115",
@@ -101,7 +125,7 @@
     "country_code": "IT",
     "name": "FINDOMESTIC BANCA SPA",
     "primary": true,
-    "short_name": "FINDOMESTIC BANCA SPA"
+    "short_name": "FINDOMESTIC BANCA"
   },
   {
     "bank_code": "03239",
@@ -109,7 +133,7 @@
     "country_code": "IT",
     "name": "INTESA SANPAOLO PRIVATE BANKING S.P.A.",
     "primary": true,
-    "short_name": "INTESA SANPAOLO PRIVATE BANKING S.P.A."
+    "short_name": "INTESA SANPAOLO PRIVATE BANKING"
   },
   {
     "bank_code": "03268",
@@ -117,7 +141,7 @@
     "country_code": "IT",
     "name": "BANCA SELLA SPA",
     "primary": true,
-    "short_name": "BANCA SELLA SPA"
+    "short_name": "BANCA SELLA"
   },
   {
     "bank_code": "03296",
@@ -125,7 +149,15 @@
     "country_code": "IT",
     "name": "FIDEURAM - INTESA SANPAOLO PRIVATE BANKING SPA",
     "primary": true,
-    "short_name": "FIDEURAM - INTESA SANPAOLO PRIVATE BANKING SPA"
+    "short_name": "FIDEURAM - INTESA SANPAOLO PRIVATE BANKING"
+  },
+  {
+    "bank_code": "03332",
+    "bic": "PASBITGG",
+    "country_code": "IT",
+    "name": "BANCA PASSADORE AND C.",
+    "primary": true,
+    "short_name": "BANCA PASSADORE AND C."
   },
   {
     "bank_code": "03395",
@@ -133,7 +165,23 @@
     "country_code": "IT",
     "name": "ILLIMITY BANK S.P.A.",
     "primary": true,
-    "short_name": "ILLIMITY BANK S.P.A."
+    "short_name": "ILLIMITY BANK"
+  },
+  {
+    "bank_code": "03440",
+    "bic": "BDBDIT22",
+    "country_code": "IT",
+    "name": "BANCO DI DESIO E DELLA BRIANZA",
+    "primary": true,
+    "short_name": "BANCO DI DESIO E DELLA BRIANZA"
+  },
+  {
+    "bank_code": "03441",
+    "bic": "SVTUIT21",
+    "country_code": "IT",
+    "name": "BLU BANCA S.P.A.",
+    "primary": true,
+    "short_name": "BLU BANCA"
   },
   {
     "bank_code": "03442",
@@ -141,7 +189,7 @@
     "country_code": "IT",
     "name": "BANCA WIDIBA SPA",
     "primary": true,
-    "short_name": "BANCA WIDIBA SPA"
+    "short_name": "BANCA WIDIBA"
   },
   {
     "bank_code": "03475",
@@ -149,7 +197,7 @@
     "country_code": "IT",
     "name": "ING BANK N.V.",
     "primary": true,
-    "short_name": "ING BANK N.V."
+    "short_name": "ING BANK"
   },
   {
     "bank_code": "03576",
@@ -157,7 +205,7 @@
     "country_code": "IT",
     "name": "BANCO BILBAO VIZCAYA ARGENTARIA S.A.",
     "primary": true,
-    "short_name": "BANCO BILBAO VIZCAYA ARGENTARIA S.A."
+    "short_name": "BANCO BILBAO VIZCAYA ARGENTARIA"
   },
   {
     "bank_code": "03589",
@@ -165,7 +213,7 @@
     "country_code": "IT",
     "name": "ALLIANZ BANK FINANCIAL ADVISORS SPA",
     "primary": true,
-    "short_name": "ALLIANZ BANK FINANCIAL ADVISORS SPA"
+    "short_name": "ALLIANZ BANK"
   },
   {
     "bank_code": "03599",
@@ -173,7 +221,15 @@
     "country_code": "IT",
     "name": "CASSA CENTRALE BANCA - CREDITO COOPERATIVO ITALIANO S.P.A.",
     "primary": true,
-    "short_name": "CASSA CENTRALE BANCA - CREDITO COOPERATIVO ITALIANO S.P.A."
+    "short_name": "CASSA CENTRALE BANCA"
+  },
+  {
+    "bank_code": "03646",
+    "bic": "NTSBITM1",
+    "country_code": "IT",
+    "name": "N26 BANK GMBH",
+    "primary": true,
+    "short_name": "N26 BANK"
   },
   {
     "bank_code": "03665",
@@ -184,20 +240,28 @@
     "short_name": "SOLARISBANK AG"
   },
   {
-    "bank_code": "05387",
-    "bic": "BPMOIT22",
-    "country_code": "IT",
-    "name": "BPER Banca S.p.A",
-    "primary": true,
-    "short_name": "BPER Banca S.p.A"
-  },
-  {
     "bank_code": "05034",
     "bic": "BAPPIT22",
     "country_code": "IT",
     "name": "BANCO BPM S.P.A.",
     "primary": true,
-    "short_name": "BANCO BPM S.P.A."
+    "short_name": "BANCO BPM"
+  },
+  {
+    "bank_code": "05387",
+    "bic": "BPMOIT22",
+    "country_code": "IT",
+    "name": "BPER Banca S.p.A",
+    "primary": true,
+    "short_name": "BPER Banca"
+  },
+  {
+    "bank_code": "05428",
+    "bic": "BLOPIT22",
+    "country_code": "IT",
+    "name": "BANCA POPOLARE DI BERGAMO S.P.A.",
+    "primary": true,
+    "short_name": "BANCA POPOLARE DI BERGAMO"
   },
   {
     "bank_code": "05484",
@@ -205,7 +269,15 @@
     "country_code": "IT",
     "name": "BANCA DI CIVIDALE S.P.A",
     "primary": true,
-    "short_name": "BANCA DI CIVIDALE S.P.A"
+    "short_name": "BANCA DI CIVIDALE"
+  },
+  {
+    "bank_code": "05652",
+    "bic": "SFSPIT22",
+    "country_code": "IT",
+    "name": "SANFELICE 1893 BANCA POPOLARE",
+    "primary": true,
+    "short_name": "SANFELICE 1893 BANCA POPOLARE"
   },
   {
     "bank_code": "05676",
@@ -213,7 +285,7 @@
     "country_code": "IT",
     "name": "BIBANCA S.P.A.",
     "primary": true,
-    "short_name": "BIBANCA S.P.A."
+    "short_name": "BIBANCA"
   },
   {
     "bank_code": "05696",
@@ -224,12 +296,28 @@
     "short_name": "BANCA POPOLARE DI SONDRIO"
   },
   {
+    "bank_code": "05772",
+    "bic": "PSANIT3P",
+    "country_code": "IT",
+    "name": "BANCA POPOLARE SANT'ANGELO SCPA",
+    "primary": true,
+    "short_name": "BANCA POPOLARE SANT'ANGELO"
+  },
+  {
     "bank_code": "06085",
     "bic": "CASRIT22",
     "country_code": "IT",
     "name": "CASSA DI RISPARMIO DI ASTI SPA",
     "primary": true,
-    "short_name": "CASSA DI RISPARMIO DI ASTI SPA"
+    "short_name": "CASSA DI RISPARMIO DI ASTI"
+  },
+  {
+    "bank_code": "06175",
+    "bic": "CRGEITGG",
+    "country_code": "IT",
+    "name": "BANCA CARIGE S.P.A. - CASSA DI RISPARMIO DI GENOVA E IMPERIA",
+    "primary": true,
+    "short_name": "BANCA CARIGE"
   },
   {
     "bank_code": "06230",
@@ -245,7 +333,15 @@
     "country_code": "IT",
     "name": "LA CASSA DI RAVENNA S.P.A.",
     "primary": true,
-    "short_name": "LA CASSA DI RAVENNA S.P.A."
+    "short_name": "LA CASSA DI RAVENNA"
+  },
+  {
+    "bank_code": "06370",
+    "bic": "CRVOIT3V",
+    "country_code": "IT",
+    "name": "CASSA DI RISPARMIO DI VOLTERRA SPA",
+    "primary": true,
+    "short_name": "CASSA DI RISPARMIO DI VOLTERRA"
   },
   {
     "bank_code": "07056",
@@ -253,7 +349,7 @@
     "country_code": "IT",
     "name": "BANCA DI CREDITO COOPERATIVO DELL'ALTA MURGIA S.C.P.A.R.L.",
     "primary": true,
-    "short_name": "BANCA DI CREDITO COOPERATIVO DELL'ALTA MURGIA S.C.P.A.R.L."
+    "short_name": "BCC DELL'ALTA MURGIA"
   },
   {
     "bank_code": "07072",
@@ -261,7 +357,7 @@
     "country_code": "IT",
     "name": "EMIL BANCA - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA",
     "primary": true,
-    "short_name": "EMIL BANCA - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA"
+    "short_name": "EMIL BANCA"
   },
   {
     "bank_code": "07601",
@@ -269,7 +365,15 @@
     "country_code": "IT",
     "name": "POSTE ITALIANE SPA",
     "primary": true,
-    "short_name": "POSTE ITALIANE SPA"
+    "short_name": "POSTE ITALIANE"
+  },
+  {
+    "bank_code": "08010",
+    "bic": "RZSBIT21008",
+    "country_code": "IT",
+    "name": "CASSA RAIFFEISEN VAL BADIA SCRL",
+    "primary": true,
+    "short_name": "CASSA RAIFFEISEN VAL BADIA"
   },
   {
     "bank_code": "08016",
@@ -280,12 +384,36 @@
     "short_name": "CASSA RURALE ALTOGARDA - ROVERETO"
   },
   {
+    "bank_code": "08078",
+    "bic": "CCRTIT2T20A",
+    "country_code": "IT",
+    "name": "LA CASSA RURALE - CC ADAMELLO GIUDICARIE VALSABBIA PAGANELLA - SC",
+    "primary": true,
+    "short_name": "LA CASSA RURALE"
+  },
+  {
+    "bank_code": "08327",
+    "bic": "ICRAITRRROM",
+    "country_code": "IT",
+    "name": "BANCA DI CREDITO COOPERATIVO DI ROMA SOC.COOP. A R.L.",
+    "primary": true,
+    "short_name": "BANCA DI CREDITO COOPERATIVO DI ROMA"
+  },
+  {
     "bank_code": "08378",
     "bic": "ICRAITRRAI0",
     "country_code": "IT",
     "name": "BCC CAMPANIA CENTRO-CASSA RURALE ED ARTIGIANA SOC. COOP.",
     "primary": true,
-    "short_name": "BCC CAMPANIA CENTRO-CASSA RURALE ED ARTIGIANA SOC. COOP."
+    "short_name": "BCC CAMPANIA CENTRO-CASSA RURALE ED ARTIGIANA"
+  },
+  {
+    "bank_code": "08425",
+    "bic": "CRACIT33",
+    "country_code": "IT",
+    "name": "BANCA CAMBIANO 1884 SPA",
+    "primary": true,
+    "short_name": "BANCA CAMBIANO 1884"
   },
   {
     "bank_code": "08430",
@@ -293,7 +421,15 @@
     "country_code": "IT",
     "name": "CASSA RURALE ED ARTIGIANA DI CANTU' BANCA DI CREDITO COOPERATIVO SOC. COOP.",
     "primary": true,
-    "short_name": "CASSA RURALE ED ARTIGIANA DI CANTU' BANCA DI CREDITO COOPERATIVO SOC. COOP."
+    "short_name": "CASSA RURALE ED ARTIGIANA DI CANTU' BCC"
+  },
+  {
+    "bank_code": "08440",
+    "bic": "ICRAITRRCAR",
+    "country_code": "IT",
+    "name": "BANCA DI CREDITO COOPERATIVO DI CARATE BRIANZA SCRI",
+    "primary": true,
+    "short_name": "BCC DI CARATE BRIANZA"
   },
   {
     "bank_code": "08452",
@@ -301,7 +437,15 @@
     "country_code": "IT",
     "name": "BANCA DI CREDITO COOPERATIVO DI VENEZIA PADOVA E ROVIGO - BANCA ANNIA S.C.",
     "primary": true,
-    "short_name": "BANCA DI CREDITO COOPERATIVO DI VENEZIA PADOVA E ROVIGO - BANCA ANNIA S.C."
+    "short_name": "BCC DI VENEZIA PADOVA E ROVIGO - BANCA ANNIA"
+  },
+  {
+    "bank_code": "08473",
+    "bic": "ICRAITRRD50",
+    "country_code": "IT",
+    "name": "BANCA DI CREDITO COOP. DI CASTIGLIONE MESSER RAIMONDO E PIANELLA",
+    "primary": true,
+    "short_name": "BCC DI CASTIGLIONE MESSER RAIMONDO E PIANELLA"
   },
   {
     "bank_code": "08491",
@@ -309,7 +453,31 @@
     "country_code": "IT",
     "name": "BANCO MARCHIGIANO CREDITO COOPERATIVO",
     "primary": true,
-    "short_name": "BANCO MARCHIGIANO CREDITO COOPERATIVO"
+    "short_name": "BANCO MARCHIGIANO"
+  },
+  {
+    "bank_code": "08514",
+    "bic": "ICRAITRREA0",
+    "country_code": "IT",
+    "name": "BANCA DI CREDITO COOPERATIVO DELL'OGLIO E DEL SERIO S.C.",
+    "primary": true,
+    "short_name": "BCC DELL'OGLIO E DEL SERIO"
+  },
+  {
+    "bank_code": "08519",
+    "bic": "ICRAITRREF0",
+    "country_code": "IT",
+    "name": "BANCA DI CREDITO COOPERATIVO DI FANO SCRL",
+    "primary": true,
+    "short_name": "BCC DI FANO"
+  },
+  {
+    "bank_code": "08530",
+    "bic": "ICRAITRREQ0",
+    "country_code": "IT",
+    "name": "BANCA D'ALBA CREDITO COOPERATIVO SC",
+    "primary": true,
+    "short_name": "BCC D'ALBA"
   },
   {
     "bank_code": "08542",
@@ -317,7 +485,31 @@
     "country_code": "IT",
     "name": "CREDITO COOPERATIVO RAVENNATE FORLIVESE E IMOLESE SOC. COOP.",
     "primary": true,
-    "short_name": "CREDITO COOPERATIVO RAVENNATE FORLIVESE E IMOLESE SOC. COOP."
+    "short_name": "BCC RAVENNATE FORLIVESE E IMOLESE"
+  },
+  {
+    "bank_code": "08553",
+    "bic": "CCRTIT2TFLU",
+    "country_code": "IT",
+    "name": "BANCA DI CREDITO COOPERATIVO DI FLUMERI SOC. COOP.",
+    "primary": true,
+    "short_name": "BCC DI FLUMERI"
+  },
+  {
+    "bank_code": "08622",
+    "bic": "CCRTIT2T96A",
+    "country_code": "IT",
+    "name": "CREDITO COOPERATIVO - CASSA RURALE ED ARTIGIANA DEL FRIULI VENEZIA GIULIA SC",
+    "primary": true,
+    "short_name": "CASSA RURALE ED ARTIGIANA DEL FRIULI VENEZIA GIULIA"
+  },
+  {
+    "bank_code": "08637",
+    "bic": "CCRTIT2T99A",
+    "country_code": "IT",
+    "name": "PRIMACASSA - CREDITO COOPERATIV O FVG - SOCIETA' COOPERATIVA",
+    "primary": true,
+    "short_name": "PRIMACASSA - CREDITO COOPERATIV O FVG - SOCIETA' COOPERATIVA"
   },
   {
     "bank_code": "08673",
@@ -325,7 +517,7 @@
     "country_code": "IT",
     "name": "CHIANTIBANCA - CREDITO COOPERATIVO - S.C.",
     "primary": true,
-    "short_name": "CHIANTIBANCA - CREDITO COOPERATIVO - S.C."
+    "short_name": "CHIANTIBANCA"
   },
   {
     "bank_code": "08692",
@@ -333,7 +525,7 @@
     "country_code": "IT",
     "name": "BANCA DI CREDITO COOPERATIVO DI BRESCIA S.C.",
     "primary": true,
-    "short_name": "BANCA DI CREDITO COOPERATIVO DI BRESCIA S.C."
+    "short_name": "BCC DI BRESCIA"
   },
   {
     "bank_code": "08728",
@@ -341,7 +533,23 @@
     "country_code": "IT",
     "name": "BANCA PATAVINA CREDITO COOPERATIVO DI SANT'ELENA E PIOVE DI SACCO SC",
     "primary": true,
-    "short_name": "BANCA PATAVINA CREDITO COOPERATIVO DI SANT'ELENA E PIOVE DI SACCO SC"
+    "short_name": "BANCA PATAVINA"
+  },
+  {
+    "bank_code": "08735",
+    "bic": "CCRTIT2TBTL",
+    "country_code": "IT",
+    "name": "BANCA DEL TERRITORIO LOMBARDO CREDITO COOPERATIVO SOC. COOP.",
+    "primary": true,
+    "short_name": "BCC DEL TERRITORIO LOMBARDO"
+  },
+  {
+    "bank_code": "08784",
+    "bic": "CCRTIT2TMPR",
+    "country_code": "IT",
+    "name": "BANCA MONTE PRUNO CREDITO COOPERATIVO DI FISCIANO, ROSCIGNO E LAURINO SC",
+    "primary": true,
+    "short_name": "BANCA MONTE PRUNO CREDITO COOPERATIVO DI FISCIANO, ROSCIGNO E LAURINO SC"
   },
   {
     "bank_code": "08794",
@@ -349,7 +557,23 @@
     "country_code": "IT",
     "name": "BANCA DI CREDITO COOPERATIVO LAUDENSE - LODI SOCIETA' COOPERATIVA",
     "primary": true,
-    "short_name": "BANCA DI CREDITO COOPERATIVO LAUDENSE - LODI SOCIETA' COOPERATIVA"
+    "short_name": "BCC LAUDENSE - LODI SOCIETA' COOPERATIVA"
+  },
+  {
+    "bank_code": "08807",
+    "bic": "ICRAITRRBSG",
+    "country_code": "IT",
+    "name": "BCC DI VERONA E VICENZA CREDITO COOPERATIVO - SOCIETA' COOPERATIVA",
+    "primary": true,
+    "short_name": "BCC DI VERONA E VICENZA CREDITO COOPERATIVO - SOCIETA' COOPERATIVA"
+  },
+  {
+    "bank_code": "08852",
+    "bic": "CCRTIT2TRMB",
+    "country_code": "IT",
+    "name": "ROMAGNABANCA CREDITO COOPERATIVOS.C.",
+    "primary": true,
+    "short_name": "ROMAGNABANCA CREDITO COOPERATIVO"
   },
   {
     "bank_code": "08871",
@@ -357,7 +581,23 @@
     "country_code": "IT",
     "name": "BANCA DI CREDITO COOPERATIVO DI SPELLO E DEL VELINO SOC. COOP.",
     "primary": true,
-    "short_name": "BANCA DI CREDITO COOPERATIVO DI SPELLO E DEL VELINO SOC. COOP."
+    "short_name": "BCC DI SPELLO E DEL VELINO"
+  },
+  {
+    "bank_code": "08969",
+    "bic": "ICRAITRRQX0",
+    "country_code": "IT",
+    "name": "BANCA S. FRANCESCO - CREDITO COOPERATIVO - CANICATTI' SCRL",
+    "primary": true,
+    "short_name": "BANCA S. FRANCESCO - CREDITO COOPERATIVO - CANICATTI' SCRL"
+  },
+  {
+    "bank_code": "08985",
+    "bic": "CCRTIT2TNIS",
+    "country_code": "IT",
+    "name": "BANCA SICANA C.C. DI SOMMATINO SERRADIFALCO E SAMBUCA DI SICILIA",
+    "primary": true,
+    "short_name": "BANCA SICANA C.C. DI SOMMATINO SERRADIFALCO E SAMBUCA DI SICILIA"
   },
   {
     "bank_code": "08988",
@@ -365,7 +605,7 @@
     "country_code": "IT",
     "name": "BANCA DI CREDITO COOPERATIVO DEGLI ULIVI - TERRA DI BARI SCRL",
     "primary": true,
-    "short_name": "BANCA DI CREDITO COOPERATIVO DEGLI ULIVI - TERRA DI BARI SCRL"
+    "short_name": "BCC DEGLI ULIVI - TERRA DI BARI"
   },
   {
     "bank_code": "32532",
@@ -373,7 +613,7 @@
     "country_code": "IT",
     "name": "MOONEY S.P.A.",
     "primary": true,
-    "short_name": "MOONEY S.P.A."
+    "short_name": "MOONEY"
   },
   {
     "bank_code": "32875",
@@ -381,7 +621,7 @@
     "country_code": "IT",
     "name": "NEXI PAYMENTS S.P.A.",
     "primary": true,
-    "short_name": "NEXI PAYMENTS S.P.A."
+    "short_name": "NEXI PAYMENTS"
   },
   {
     "bank_code": "36000",
@@ -389,7 +629,7 @@
     "country_code": "IT",
     "name": "LIS PAY S.P.A.",
     "primary": true,
-    "short_name": "LIS PAY S.P.A."
+    "short_name": "LIS PAY"
   },
   {
     "bank_code": "36003",
@@ -397,7 +637,7 @@
     "country_code": "IT",
     "name": "FLOWE S.P.A. - SOCIETA' BENEFIT",
     "primary": true,
-    "short_name": "FLOWE S.P.A. - SOCIETA' BENEFIT"
+    "short_name": "FLOWE - SOCIETA' BENEFIT"
   },
   {
     "bank_code": "36081",
@@ -405,7 +645,7 @@
     "country_code": "IT",
     "name": "PostePay S.p.a.",
     "primary": true,
-    "short_name": "PostePay S.p.a."
+    "short_name": "PostePay"
   },
   {
     "bank_code": "36092",
@@ -421,6 +661,6 @@
     "country_code": "IT",
     "name": "HYPE S.P.A.",
     "primary": true,
-    "short_name": "HYPE S.P.A."
+    "short_name": "HYPE"
   }
 ]
