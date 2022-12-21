@@ -1,0 +1,114 @@
+[
+    {
+      "bank_code": "0007",
+      "bic": "BESCPTPL",
+      "country_code": "PT",
+      "name": "NOVO BANCO, SA",
+      "primary": true,
+      "short_name": "NOVO BANCO"
+    },
+    {
+      "bank_code": "0010",
+      "bic": "BBPIPTPL",
+      "country_code": "PT",
+      "name": "BANCO BPI, SA",
+      "primary": true,
+      "short_name": "BANCO BPI"
+    },
+    {
+      "bank_code": "0018",
+      "bic": "TOTAPTPL",
+      "country_code": "PT",
+      "name": "BANCO SANTANDER TOTTA, SA",
+      "primary": true,
+      "short_name": "BANCO SANTANDER TOTTA"
+    },
+    {
+      "bank_code": "0019",
+      "bic": "BBVAPTPL",
+      "country_code": "PT",
+      "name": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A. - SUCURSAL EM PORTUGAL",
+      "primary": true,
+      "short_name": "BANCO BILBAO VIZCAYA ARGENTARIA"
+    },
+    {
+      "bank_code": "0023",
+      "bic": "ACTVPTPL",
+      "country_code": "PT",
+      "name": "BANCO ACTIVOBANK, SA",
+      "primary": true,
+      "short_name": "BANCO ACTIVOBANK"
+    },
+    {
+      "bank_code": "0033",
+      "bic": "BCOMPTPL",
+      "country_code": "PT",
+      "name": "BANCO COMERCIAL PORTUGUES, SA",
+      "primary": true,
+      "short_name": "BANCO COMERCIAL PORTUGUES"
+    },
+    {
+      "bank_code": "0035",
+      "bic": "CGDIPTPL",
+      "country_code": "PT",
+      "name": "CAIXA GERAL DE DEPOSITOS, SA",
+      "primary": true,
+      "short_name": "CAIXA GERAL DE DEPOSITOS"
+    },
+    {
+      "bank_code": "0036",
+      "bic": "MPIOPTPL",
+      "country_code": "PT",
+      "name": "CAIXA ECONOMICA MONTEPIO GERAL, CAIXA ECONOMICA BANCARIA, SA",
+      "primary": true,
+      "short_name": "CAIXA ECONOMICA MONTEPIO GERAL"
+    },
+    {
+      "bank_code": "0045",
+      "bic": "CCCMPTPL",
+      "country_code": "PT",
+      "name": "CAIXA CENTRAL - CAIXA CENTRAL DE CREDITO AGRICOLA MUTUO, CRL",
+      "primary": true,
+      "short_name": "CAIXA CENTRAL DE CREDITO AGRICOLA MUTUO"
+    },
+    {
+      "bank_code": "0065",
+      "bic": "BESZPTPL",
+      "country_code": "PT",
+      "name": "BEST - BANCO ELECTRONICO DE SERVICO TOTAL, SA",
+      "primary": true,
+      "short_name": "BEST - BANCO ELECTRONICO DE SERVICO TOTAL"
+    },
+    {
+      "bank_code": "0079",
+      "bic": "BPNPPTPL",
+      "country_code": "PT",
+      "name": "BANCO BIC PORTUGUES, SA",
+      "primary": true,
+      "short_name": "BANCO BIC PORTUGUES"
+    },
+    {
+      "bank_code": "0189",
+      "bic": "BAPAPTPL",
+      "country_code": "PT",
+      "name": "BANCO ATLANTICO EUROPA, SA",
+      "primary": true,
+      "short_name": "BANCO ATLANTICO EUROPA"
+    },
+    {
+      "bank_code": "0193",
+      "bic": "CTTVPTPL",
+      "country_code": "PT",
+      "name": "BANCO CTT, SA",
+      "primary": true,
+      "short_name": "BANCO CTT"
+    },
+    {
+      "bank_code": "0269",
+      "bic": "BKBKPTPL",
+      "country_code": "PT",
+      "name": "BANKINTER, SA - SUCURSAL EM PORTUGAL",
+      "primary": true,
+      "short_name": "BANKINTER"
+    }
+]
