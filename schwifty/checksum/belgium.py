@@ -17,6 +17,8 @@ class DefaultAlgorithm(checksum.Algorithm):
         spec = registry.get("iban")
         assert isinstance(spec, dict)
         checksum = int(bban[: spec["BE"]["bban_length"] - self.checksum_length]) % 97
+        # Specific value in case checksum is expliclity 97
+        checksum = checksum if checksum != 0 else 97
         return str(checksum).zfill(self.checksum_length)
 
     def validate(self, bban: str) -> bool:
