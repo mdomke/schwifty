@@ -179,8 +179,8 @@ class IBAN(common.Base):
         """Validate the structural integrity of this IBAN.
 
         This function will verify the country specific format as well as the Luhn checksum in the
-        3rd and 4th position of the IBAN. For some countries (currently Germany and Italy) it will
-        also verify the correctness of the country specific checksum within the BBAN if the
+        3rd and 4th position of the IBAN. For some countries (currently Belgium, Germany and Italy)
+        it will also verify the correctness of the country specific checksum within the BBAN if the
         `validate_bban` parameter is set to `True`. For German banks it will pick the appropriate
         algorithm based on the bank code and verify that the account code has the correct checksum.
 
