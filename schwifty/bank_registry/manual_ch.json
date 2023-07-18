@@ -230,5 +230,13 @@
         "name": "Swissquote Bank SA",
         "short_name": "Swissquote Bank SA",
         "primary": true
+    },
+        {
+        "country_code": "CH",
+        "bic": "UBSWCHZH40M",
+        "bank_code": "00292",
+        "name": "UBS SWITZERLAND AG",
+        "short_name": "UBS SWITZERLAND AG",
+        "primary": true
     }
 ]
