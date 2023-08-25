@@ -31,7 +31,7 @@ def get_banks_registry_data_from_bank_name(bank_name):
                 yield {
                     'country_code': 'IT',
                     'primary': True,
-                    'bic': str(bic),
+                    'bic': str(bic).split(',')[0],
                     'bank_code': str(int(bank_code)).zfill(5),
                     'name': row.select("td")[1].text,
                     'short_name': row.select("td")[1].text,
