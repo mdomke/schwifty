@@ -1,4 +1,6 @@
 beautifulsoup4
 requests
-xlrd<2
+xlrd>=2.0.1
+pandas==1.4.3
 openpyxl
+lxml

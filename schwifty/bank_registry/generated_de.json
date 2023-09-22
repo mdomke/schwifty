@@ -27,6 +27,15 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "10010200",
+    "name": "Treezor, Berlin",
+    "short_name": "Treezor Berlin",
+    "bic": "TRZODEB2XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
     "bank_code": "10010300",
     "name": "Klarna Bank German Branch",
     "short_name": "Klarna Bank, Berlin",
@@ -46,8 +55,8 @@
   },
   {
     "bank_code": "10010500",
-    "name": "Afone Paiement",
-    "short_name": "Afone Paiement, Berlin",
+    "name": "Noelse Pay",
+    "short_name": "Noelse Pay, Berlin",
     "bic": "AFOPDEB2XXX",
     "primary": true,
     "country_code": "DE",
@@ -67,6 +76,24 @@
     "name": "N26 Bank",
     "short_name": "N26 Bank Berlin",
     "bic": "NTSBDEB1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "10014000",
+    "name": "Swan Zweigniederlassung Deutschland",
+    "short_name": "Swan Zndl Deutschland",
+    "bic": "SWNBDEBBXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "10014001",
+    "name": "Swan Zweigniederlassung Deutschland (Gesch\u00e4ftsfeld)",
+    "short_name": "Swan Zndl Deutschland",
+    "bic": "SWNBDEBBXXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -2206,8 +2233,8 @@
   },
   {
     "bank_code": "13090000",
-    "name": "Rostocker Volks- und Raiffeisenbank",
-    "short_name": "Rostocker VR Bank",
+    "name": "Rostocker Volks- und Raiffeisenbank -alt-",
+    "short_name": "Rostocker VR Bank -alt-",
     "bic": "GENODEF1HR1",
     "primary": true,
     "country_code": "DE",
@@ -2755,8 +2782,8 @@
   },
   {
     "bank_code": "20010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale Hamburg",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W200",
     "primary": true,
     "country_code": "DE",
@@ -3574,8 +3601,8 @@
   },
   {
     "bank_code": "20069232",
-    "name": "Raiffeisenbank",
-    "short_name": "Raiffbk Struvenh\u00fctten",
+    "name": "Raiffeisenbank -alt-",
+    "short_name": "Raiffbk Struvenh\u00fctten -alt-",
     "bic": "GENODEF1STV",
     "primary": true,
     "country_code": "DE",
@@ -3673,8 +3700,8 @@
   },
   {
     "bank_code": "20069989",
-    "name": "Volksbank Wulfsen",
-    "short_name": "Volksbank Wulfsen",
+    "name": "Volksbank Wulfsen -alt-",
+    "short_name": "Volksbank Wulfsen -alt-",
     "bic": "GENODEF1WUL",
     "primary": true,
     "country_code": "DE",
@@ -4104,15 +4131,6 @@
     "checksum_algo": "09"
   },
   {
-    "bank_code": "20090500",
-    "name": "Augsburger Aktienbank (netbank)",
-    "short_name": "AAB (netbank)",
-    "bic": "AUGBDE71NET",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "81"
-  },
-  {
     "bank_code": "20090700",
     "name": "Edekabank",
     "short_name": "Edekabank Hamburg",
@@ -4375,7 +4393,7 @@
   },
   {
     "bank_code": "20230800",
-    "name": "Max Heinr. Sutor",
+    "name": "Sutor Bank",
     "short_name": "Sutor Bank Hamburg",
     "bic": "MHSBDEHBXXX",
     "primary": true,
@@ -4387,15 +4405,6 @@
     "name": "Europ\u00e4isch-Iranische Handelsbank",
     "short_name": "Europ-Iran Handelsbk Hambg",
     "bic": "EIHBDEHHXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
-    "bank_code": "20320500",
-    "name": "Danske Bank",
-    "short_name": "Danske Bank Hamburg",
-    "bic": "DABADEHHXXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -5518,8 +5527,8 @@
   },
   {
     "bank_code": "21290016",
-    "name": "VR Bank Neum\u00fcnster",
-    "short_name": "VR Bank Neum\u00fcnster",
+    "name": "VR Bank Neum\u00fcnster -alt-",
+    "short_name": "VR Bank Neum\u00fcnster -alt-",
     "bic": "GENODEF1NMS",
     "primary": true,
     "country_code": "DE",
@@ -5545,8 +5554,8 @@
   },
   {
     "bank_code": "21390008",
-    "name": "VR Bank Ostholstein Nord-Pl\u00f6n",
-    "short_name": "VR Bk Ostholstein Nord-Pl\u00f6n",
+    "name": "VR Bank zwischen den Meeren",
+    "short_name": "VR Bank zdM, Neum\u00fcnster",
     "bic": "GENODEF1NSH",
     "primary": true,
     "country_code": "DE",
@@ -6337,8 +6346,8 @@
   },
   {
     "bank_code": "24161594",
-    "name": "Zevener Volksbank",
-    "short_name": "Zevener Volksbank",
+    "name": "Zevener Volksbank -alt-",
+    "short_name": "Zevener Volksbank -alt-",
     "bic": "GENODEF1SIT",
     "primary": true,
     "country_code": "DE",
@@ -6400,8 +6409,8 @@
   },
   {
     "bank_code": "25010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale Hannover",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W250",
     "primary": true,
     "country_code": "DE",
@@ -7066,8 +7075,8 @@
   },
   {
     "bank_code": "25591413",
-    "name": "Volksbank in Schaumburg",
-    "short_name": "Volksbank in Schaumburg",
+    "name": "Volksbank in Schaumburg und Nienburg",
+    "short_name": "VB in Schaumburg & Nienburg",
     "bic": "GENODEF1BCK",
     "primary": true,
     "country_code": "DE",
@@ -7129,8 +7138,8 @@
   },
   {
     "bank_code": "25690009",
-    "name": "Volksbank Nienburg",
-    "short_name": "Volksbank Nienburg",
+    "name": "Volksbank Nienburg -alt-",
+    "short_name": "Volksbank Nienburg -alt-",
     "bic": "GENODEF1NIN",
     "primary": true,
     "country_code": "DE",
@@ -7258,15 +7267,6 @@
     "name": "Sparkasse Uelzen L\u00fcchow-Dannenberg",
     "short_name": "Sparkasse Uelzen L\u00fcchow-Dbg",
     "bic": "NOLADE21UEL",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "00"
-  },
-  {
-    "bank_code": "25851335",
-    "name": "Sparkasse Uelzen L\u00fcchow-Dannenberg -alt-",
-    "short_name": "Spk Uelzen L\u00fcchow-Dbg.-alt-",
-    "bic": "NOLADE21DAN",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
@@ -7456,15 +7456,6 @@
     "name": "Sparkasse Duderstadt",
     "short_name": "Sparkasse Duderstadt",
     "bic": "NOLADE21DUD",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "00"
-  },
-  {
-    "bank_code": "26051450",
-    "name": "Kreis- und Stadtsparkasse M\u00fcnden -alt-",
-    "short_name": "Kr u St Spk M\u00fcnden -alt-",
-    "bic": "NOLADE21HMU",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
@@ -8857,8 +8848,8 @@
   },
   {
     "bank_code": "28060228",
-    "name": "Raiffeisenbank Oldenburg",
-    "short_name": "Raiffbk Oldenburg",
+    "name": "Raiffeisenbank Oldenburg -alt-",
+    "short_name": "Raiffbk Oldenburg -alt-",
     "bic": "GENODEF1OL2",
     "primary": true,
     "country_code": "DE",
@@ -8893,8 +8884,8 @@
   },
   {
     "bank_code": "28061822",
-    "name": "Volksbank Oldenburg",
-    "short_name": "Volksbank Oldenburg",
+    "name": "Oldenburger Volksbank",
+    "short_name": "Oldenburger Volksbank",
     "bic": "GENODEF1EDE",
     "primary": true,
     "country_code": "DE",
@@ -8974,8 +8965,8 @@
   },
   {
     "bank_code": "28063607",
-    "name": "Volksbank Bakum",
-    "short_name": "Volksbank Bakum",
+    "name": "Volksbank Bakum -alt-",
+    "short_name": "Volksbank Bakum -alt-",
     "bic": "GENODEF1BAM",
     "primary": true,
     "country_code": "DE",
@@ -10171,8 +10162,8 @@
   },
   {
     "bank_code": "29265747",
-    "name": "Volksbank Bremerhaven-Cuxland",
-    "short_name": "VB Bremerhaven-Cuxland",
+    "name": "Volksbank im Elbe-Weser-Dreieck",
+    "short_name": "VB im Elbe-Weser-Dreieck",
     "bic": "GENODEF1BEV",
     "primary": true,
     "country_code": "DE",
@@ -10919,7 +10910,7 @@
   {
     "bank_code": "30330800",
     "name": "flatexDEGIRO Bank",
-    "short_name": "flatex Bank, Frankfurt",
+    "short_name": "FTX Bank, Frankfurt",
     "bic": "BIWBDE33303",
     "primary": true,
     "country_code": "DE",
@@ -11233,8 +11224,8 @@
   },
   {
     "bank_code": "31263359",
-    "name": "Raiffeisenbank Erkelenz",
-    "short_name": "Raiffbk Erkelenz",
+    "name": "Raiffeisenbank Erkelenz -alt-",
+    "short_name": "Raiffbk Erkelenz -alt-",
     "bic": "GENODED1LOE",
     "primary": true,
     "country_code": "DE",
@@ -11512,8 +11503,8 @@
   },
   {
     "bank_code": "32250050",
-    "name": "Verbandssparkasse Goch",
-    "short_name": "Verb Spk Goch",
+    "name": "Verbandssparkasse Goch -alt-",
+    "short_name": "Verb Spk Goch -alt-",
     "bic": "WELADED1GOC",
     "primary": true,
     "country_code": "DE",
@@ -11983,15 +11974,6 @@
     "name": "Volksbank im Bergischen Land",
     "short_name": "Volksbank i.Bergischen Land",
     "bic": "VBRSDE33346",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "00"
-  },
-  {
-    "bank_code": "34060094",
-    "name": "Volksbank im Bergischen Land",
-    "short_name": "Volksbank i.Bergischen Land",
-    "bic": "VBRSDE33344",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "00"
@@ -12862,9 +12844,9 @@
   },
   {
     "bank_code": "37020600",
-    "name": "Santander Consumer Bank MG",
-    "short_name": "Santander Consumer Bk K\u00f6ln",
-    "bic": "AKBCDE31XXX",
+    "name": "Santander Consumer Bank",
+    "short_name": "Santander Consumer Bank",
+    "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -12897,10 +12879,10 @@
     "checksum_algo": "09"
   },
   {
-    "bank_code": "37030200",
-    "name": "Deutsche Oppenheim Family Office (ehem. Sal. Oppenheim)",
-    "short_name": "Deutsche Oppenheim K\u00f6ln",
-    "bic": "SOPPDE3KXXX",
+    "bank_code": "37027000",
+    "name": "Santander Consumer Bank",
+    "short_name": "Santander Consumer Bank",
+    "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -13267,8 +13249,8 @@
   },
   {
     "bank_code": "37069520",
-    "name": "VR-Bank Rhein-Sieg",
-    "short_name": "VR-Bank Rhein-Sieg Siegburg",
+    "name": "VR-Bank Bonn Rhein-Sieg",
+    "short_name": "VR-Bank Bonn Rhein-Sieg",
     "bic": "GENODED1RST",
     "primary": true,
     "country_code": "DE",
@@ -13312,8 +13294,8 @@
   },
   {
     "bank_code": "37069642",
-    "name": "Raiffeisenbank",
-    "short_name": "Raiffbk Simmerath",
+    "name": "Raiffeisenbank Eifel",
+    "short_name": "Raiffbk Eifel Simmerath",
     "bic": "GENODED1SMR",
     "primary": true,
     "country_code": "DE",
@@ -13879,8 +13861,8 @@
   },
   {
     "bank_code": "37551020",
-    "name": "Stadt-Sparkasse Leichlingen",
-    "short_name": "St Spk Leichlingen Rheinl",
+    "name": "Stadt-Sparkasse Leichlingen -alt-",
+    "short_name": "St Spk Leichlingen Rh.-alt-",
     "bic": "WELADED1LEI",
     "primary": true,
     "country_code": "DE",
@@ -14113,8 +14095,8 @@
   },
   {
     "bank_code": "38051290",
-    "name": "Stadtsparkasse Bad Honnef",
-    "short_name": "St Spk Bad Honnef",
+    "name": "Stadtsparkasse Bad Honnef -alt-",
+    "short_name": "St Spk Bad Honnef -alt-",
     "bic": "WELADED1HON",
     "primary": true,
     "country_code": "DE",
@@ -14446,8 +14428,8 @@
   },
   {
     "bank_code": "38650000",
-    "name": "Kreissparkasse Siegburg",
-    "short_name": "Kr Spk Siegburg",
+    "name": "Kreissparkasse Siegburg -alt-",
+    "short_name": "Kr Spk Siegburg -alt-",
     "bic": "WELADED1SGB",
     "primary": true,
     "country_code": "DE",
@@ -14455,8 +14437,8 @@
   },
   {
     "bank_code": "38651390",
-    "name": "Sparkasse Hennef",
-    "short_name": "Sparkasse Hennef",
+    "name": "Sparkasse Hennef -alt-",
+    "short_name": "Sparkasse Hennef -alt-",
     "bic": "WELADED1HEN",
     "primary": true,
     "country_code": "DE",
@@ -15401,7 +15383,7 @@
   {
     "bank_code": "40351060",
     "name": "Kreissparkasse Steinfurt",
-    "short_name": "Kr Spk Steinfurt",
+    "short_name": "Kreissparkasse Steinfurt",
     "bic": "WELADED1STF",
     "primary": true,
     "country_code": "DE",
@@ -15817,15 +15799,6 @@
     "name": "Sparkasse Geseke",
     "short_name": "Sparkasse Geseke",
     "bic": "WELADED1GES",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "00"
-  },
-  {
-    "bank_code": "41652560",
-    "name": "Sparkasse Warstein-R\u00fcthen -alt-",
-    "short_name": "Spk Warstein-R\u00fcthen -alt-",
-    "bic": "WELADED1WAR",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
@@ -16849,8 +16822,8 @@
   },
   {
     "bank_code": "44152490",
-    "name": "Stadtsparkasse Schwerte",
-    "short_name": "Sparkasse Schwerte",
+    "name": "Stadtsparkasse Schwerte -alt-",
+    "short_name": "Sparkasse Schwerte -alt-",
     "bic": "WELADED1SWT",
     "primary": true,
     "country_code": "DE",
@@ -17119,8 +17092,8 @@
   },
   {
     "bank_code": "45050001",
-    "name": "Sparkasse HagenHerdecke",
-    "short_name": "Sparkasse HagenHerdecke",
+    "name": "Sparkasse an Volme und Ruhr",
+    "short_name": "Sparkasse an Volme und Ruhr",
     "bic": "WELADE3HXXX",
     "primary": true,
     "country_code": "DE",
@@ -17326,8 +17299,8 @@
   },
   {
     "bank_code": "45451060",
-    "name": "Sparkasse Ennepetal-Breckerfeld",
-    "short_name": "Spk Ennepetal-Breckerfeld",
+    "name": "Sparkasse Ennepetal-Breckerfeld -alt-",
+    "short_name": "Spk Ennepetal-Brecker.-alt-",
     "bic": "WELADED1ENE",
     "primary": true,
     "country_code": "DE",
@@ -17371,8 +17344,8 @@
   },
   {
     "bank_code": "45850005",
-    "name": "Sparkasse L\u00fcdenscheid",
-    "short_name": "Spk L\u00fcdenscheid",
+    "name": "Sparkasse L\u00fcdenscheid -alt-",
+    "short_name": "Spk L\u00fcdenscheid -alt-",
     "bic": "WELADED1LSD",
     "primary": true,
     "country_code": "DE",
@@ -17506,8 +17479,8 @@
   },
   {
     "bank_code": "46062817",
-    "name": "Volksbank Bigge-Lenne",
-    "short_name": "Volksbank Bigge-Lenne",
+    "name": "Volksbank Sauerland",
+    "short_name": "Volksbank Sauerland",
     "bic": "GENODEM1SMA",
     "primary": true,
     "country_code": "DE",
@@ -17983,8 +17956,8 @@
   },
   {
     "bank_code": "46660022",
-    "name": "Volksbank Sauerland",
-    "short_name": "Volksbank Sauerland",
+    "name": "Volksbank Sauerland -alt-",
+    "short_name": "Volksbank Sauerland -alt-",
     "bic": "GENODEM1NEH",
     "primary": true,
     "country_code": "DE",
@@ -18091,8 +18064,8 @@
   },
   {
     "bank_code": "47251550",
-    "name": "Sparkasse H\u00f6xter",
-    "short_name": "Spk H\u00f6xter Brakel",
+    "name": "Sparkasse H\u00f6xter -alt-",
+    "short_name": "Spk H\u00f6xter Brakel -alt-",
     "bic": "WELADED1HXB",
     "primary": true,
     "country_code": "DE",
@@ -18100,8 +18073,8 @@
   },
   {
     "bank_code": "47251740",
-    "name": "Stadtsparkasse Delbr\u00fcck",
-    "short_name": "St Spk Delbr\u00fcck",
+    "name": "Stadtsparkasse Delbr\u00fcck -alt-",
+    "short_name": "St Spk Delbr\u00fcck -alt-",
     "bic": "WELADED1DEL",
     "primary": true,
     "country_code": "DE",
@@ -18307,8 +18280,8 @@
   },
   {
     "bank_code": "47261603",
-    "name": "Volksbank Brilon-B\u00fcren-Salzkotten",
-    "short_name": "VB Brilon-B\u00fcren-Salzkotten",
+    "name": "Volksbank Brilon-B\u00fcren-Salzkotten -alt-",
+    "short_name": "VB Brilon-B\u00fcren-Salzk.-alt-",
     "bic": "GENODEM1BUS",
     "primary": true,
     "country_code": "DE",
@@ -18469,8 +18442,8 @@
   },
   {
     "bank_code": "47650130",
-    "name": "Sparkasse Paderborn-Detmold",
-    "short_name": "Spk Paderborn-Detmold",
+    "name": "Sparkasse Paderborn-Detmold-H\u00f6xter",
+    "short_name": "Spk Paderborn-Detmold-H\u00f6xt.",
     "bic": "WELADE3LXXX",
     "primary": true,
     "country_code": "DE",
@@ -18640,8 +18613,8 @@
   },
   {
     "bank_code": "47850065",
-    "name": "Sparkasse G\u00fctersloh-Rietberg",
-    "short_name": "Spk G\u00fctersloh-Rietberg",
+    "name": "Sparkasse G\u00fctersloh-Rietberg-Versmold",
+    "short_name": "Spk.G\u00fctersl.-Rietb.-Versmo.",
     "bic": "WELADED1GTL",
     "primary": true,
     "country_code": "DE",
@@ -18658,8 +18631,8 @@
   },
   {
     "bank_code": "47853355",
-    "name": "Stadtsparkasse Versmold",
-    "short_name": "St Spk Versmold",
+    "name": "Stadtsparkasse Versmold -alt-",
+    "short_name": "St Spk Versmold -alt-",
     "bic": "WELADED1VSM",
     "primary": true,
     "country_code": "DE",
@@ -18768,8 +18741,17 @@
     "bank_code": "48020151",
     "name": "Hauck Aufh\u00e4user Lampe Privatbank",
     "short_name": "Hauck Aufh\u00e4user Lampe",
-    "bic": "LAMPDEDDXXX",
+    "bic": "HAUKDEFFXXX",
     "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "48020151",
+    "name": "Hauck Aufh\u00e4user Lampe Privatbank",
+    "short_name": "Hauck Aufh\u00e4user Lampe",
+    "bic": "LAMPDEDDXXX",
+    "primary": false,
     "country_code": "DE",
     "checksum_algo": "09"
   },
@@ -19350,9 +19332,18 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "50010300",
+    "name": "First Commercial Bank, Frankfurt Branch",
+    "short_name": "First Commercial Bank, FFM",
+    "bic": "FCBKDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
     "bank_code": "50010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale Frankfurt",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W500",
     "primary": true,
     "country_code": "DE",
@@ -19399,6 +19390,15 @@
     "name": "ALTE LEIPZIGER Bauspar",
     "short_name": "ALTE LEIPZIGER Bauspar",
     "bic": "ALTEDEFAXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "28"
+  },
+  {
+    "bank_code": "50015001",
+    "name": "J&T BANKA, Zweigniederlassung Deutschland",
+    "short_name": "J&T Bank in Frankfurt/Main",
+    "bic": "JTBPDEFFXXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "28"
@@ -19521,6 +19521,15 @@
     "checksum_algo": "10"
   },
   {
+    "bank_code": "50026600",
+    "name": "UNLIMINT EU Zweigniederlassung Deutschland",
+    "short_name": "Unlimint Frankfurt",
+    "bic": "CARDDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "00"
+  },
+  {
     "bank_code": "50030000",
     "name": "PSA Bank Deutschland",
     "short_name": "PSA Bank Neu-Isenburg",
@@ -19539,18 +19548,9 @@
     "checksum_algo": "09"
   },
   {
-    "bank_code": "50030100",
-    "name": "HKB Bank Frankfurt",
-    "short_name": "HKB Bank Frankfurt am Main",
-    "bic": "HKBBDEF1FRA",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "00"
-  },
-  {
     "bank_code": "50030500",
-    "name": "BNP PARIBAS Securities Services",
-    "short_name": "BNP PARIBAS Sec Serv",
+    "name": "BNP Paribas Niederlassung Deutschland",
+    "short_name": "BNP Paribas NDL Deutschland",
     "bic": "PARBDEFFXXX",
     "primary": true,
     "country_code": "DE",
@@ -19669,6 +19669,69 @@
     "name": "Commerzbank (IPC MADRID)",
     "short_name": "Commerzbank (IPC MADRID)FFM",
     "bic": "COBADEFFMAD",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040016",
+    "name": "Commerzbank (CLB New York) FFM",
+    "short_name": "Commerzbank(CLB New YorkFFM",
+    "bic": "COBADEFFNYC",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040017",
+    "name": "Commerzbank (CLB Singapore) Frankfurt",
+    "short_name": "CommerzbankCLB SingaporeFFM",
+    "bic": "COBADEFFSGP",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040018",
+    "name": "Commerzbank (CLB London)",
+    "short_name": "Commerzbank (CLB London)FFM",
+    "bic": "COBADEFFLDN",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040019",
+    "name": "Commerzbank (CLB Z\u00fcrich)",
+    "short_name": "Commerzbank (CLB Z\u00fcrich)FFM",
+    "bic": "COBADEFFZUR",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040020",
+    "name": "Commerzbank (CLB Prag)",
+    "short_name": "Commerzbank (CLB Prag) FFM",
+    "bic": "COBADEFFPRA",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040021",
+    "name": "Commerzbank (CLB Moskau)",
+    "short_name": "Commerzbank (CLB Moskau)FFM",
+    "bic": "COBADEFFMOS",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
+  },
+  {
+    "bank_code": "50040022",
+    "name": "Commerzbank (CLB Hamburg)",
+    "short_name": "Commerzbank(CLB Hamburg)FFM",
+    "bic": "COBADEFFHBG",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "13"
@@ -20089,8 +20152,8 @@
   },
   {
     "bank_code": "50069241",
-    "name": "Raiffeisenkasse Erbes-B\u00fcdesheim und Umgebung",
-    "short_name": "Raiffeisenkasse",
+    "name": "Raiffeisenkasse Erbes-B\u00fcdesheim und Umgebung -alt-",
+    "short_name": "Raika Erbes-B\u00fcdesheim -alt-",
     "bic": "GENODE51ERB",
     "primary": true,
     "country_code": "DE",
@@ -20275,6 +20338,150 @@
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
+  },
+  {
+    "bank_code": "50070050",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070051",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070052",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070053",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070054",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070055",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070056",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070057",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070058",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070059",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070060",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070061",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070062",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070063",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070064",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50070065",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
   },
   {
     "bank_code": "50070324",
@@ -20638,8 +20845,8 @@
   },
   {
     "bank_code": "50093000",
-    "name": "R\u00fcsselsheimer Volksbank",
-    "short_name": "R\u00fcsselsheimer Volksbank",
+    "name": "R\u00fcsselsheimer Volksbank -alt-",
+    "short_name": "R\u00fcsselsheimer Volksb. -alt-",
     "bic": "GENODE51RUS",
     "primary": true,
     "country_code": "DE",
@@ -20647,8 +20854,8 @@
   },
   {
     "bank_code": "50093010",
-    "name": "R\u00fcsselsheimer Volksbank GAA",
-    "short_name": "VB R\u00fcsselsheim GAA",
+    "name": "R\u00fcsselsheimer Volksbank GAA -alt-",
+    "short_name": "VB R\u00fcsselsheim GAA -alt-",
     "bic": "GENODE51GAA",
     "primary": true,
     "country_code": "DE",
@@ -20673,15 +20880,6 @@
     "checksum_algo": "09"
   },
   {
-    "bank_code": "50110300",
-    "name": "DVB Bank",
-    "short_name": "DVB Frankfurt Main",
-    "bic": "DVKBDEFFXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "10"
-  },
-  {
     "bank_code": "50110400",
     "name": "AKA Ausfuhrkredit GmbH",
     "short_name": "AKA Ausfuhrkredit Frankfurt",
@@ -20701,7 +20899,7 @@
   },
   {
     "bank_code": "50110636",
-    "name": "Standard Chartered Bank",
+    "name": "Standard Chartered Bank Frankfurt",
     "short_name": "SCB FFM",
     "bic": "SCBLDEFXXXX",
     "primary": true,
@@ -20728,12 +20926,12 @@
   },
   {
     "bank_code": "50110801",
-    "name": "J.P. Morgan, Internal Reference",
-    "short_name": "J.P. Morgan, IR, Ffm",
+    "name": "J.P. Morgan",
+    "short_name": "J.P. Morgan Frankfurt",
     "bic": "CHASDEFXVR1",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "94"
+    "checksum_algo": "09"
   },
   {
     "bank_code": "50110855",
@@ -20773,8 +20971,8 @@
   },
   {
     "bank_code": "50120383",
-    "name": "Bethmann Bank",
-    "short_name": "Bethmann Bank Frankfurt",
+    "name": "ABN AMRO Bank Frankfurt Branch - Bethmann Bank",
+    "short_name": "ABN AMRO Bank Ffm",
     "bic": "DELBDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -20844,15 +21042,6 @@
     "checksum_algo": "09"
   },
   {
-    "bank_code": "50130200",
-    "name": "Deutsche Oppenheim Family Office (ehem. Sal. Oppenheim)",
-    "short_name": "Deutsche Oppenheim FFM",
-    "bic": "SOPPDEFFXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
     "bank_code": "50130400",
     "name": "Merck Finck A Quintet Private Bank",
     "short_name": "Merck Finck",
@@ -20881,8 +21070,8 @@
   },
   {
     "bank_code": "50190000",
-    "name": "Frankfurter Volksbank",
-    "short_name": "Frankfurter Volksbank",
+    "name": "Frankfurter Volksbank Rhein-Main",
+    "short_name": "Frankfurter Voba Rhein-Main",
     "bic": "FFVBDEFFXXX",
     "primary": true,
     "country_code": "DE",
@@ -20911,15 +21100,6 @@
     "name": "Rabobank International Frankfurt Branch",
     "short_name": "Rabobank Frankfurt Main",
     "bic": "RABODEFFTAR",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "18"
-  },
-  {
-    "bank_code": "50210212",
-    "name": "RaboDirect",
-    "short_name": "RaboDirect Frankfurt Main",
-    "bic": "RABODEFFDIR",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "18"
@@ -21183,7 +21363,7 @@
     "bic": "RAISDEFFXXX",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "checksum_algo": "09"
   },
   {
     "bank_code": "50330300",
@@ -21304,8 +21484,8 @@
   },
   {
     "bank_code": "50560102",
-    "name": "Raiffeisenbank Offenbach/M.-Bieber",
-    "short_name": "Raiffbk Offenbach",
+    "name": "Raiffeisenbank Offenbach/M.-Bieber -alt-",
+    "short_name": "Raiffbk Offenbach -alt-",
     "bic": "GENODE51OF2",
     "primary": true,
     "country_code": "DE",
@@ -21511,8 +21691,8 @@
   },
   {
     "bank_code": "50592200",
-    "name": "Volksbank Dreieich",
-    "short_name": "VB Dreieich",
+    "name": "VR Bank Dreieich-Offenbach",
+    "short_name": "VR Bank Dreieich-Offenbach",
     "bic": "GENODE51DRE",
     "primary": true,
     "country_code": "DE",
@@ -22422,7 +22602,7 @@
     "bank_code": "51210801",
     "name": "Societe Generale",
     "short_name": "Societe Generale",
-    "bic": "SOGEDEFFXXX",
+    "bic": "SGSSDEFFXXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -23032,8 +23212,8 @@
   },
   {
     "bank_code": "52061303",
-    "name": "Raiffeisenbank Borken Nordhessen",
-    "short_name": "Raiffbk Borken Nordhessen",
+    "name": "Raiffeisenbank Borken Nordhessen -alt-",
+    "short_name": "RB Borken Nordhessen -alt-",
     "bic": "GENODEF1BOR",
     "primary": true,
     "country_code": "DE",
@@ -23113,8 +23293,8 @@
   },
   {
     "bank_code": "52069149",
-    "name": "Raiffeisenbank Volkmarsen",
-    "short_name": "Raiffbk Volkmarsen",
+    "name": "Raiffeisenbank Volkmarsen -alt-",
+    "short_name": "Raiffbk Volkmarsen -alt-",
     "bic": "GENODEF1VLM",
     "primary": true,
     "country_code": "DE",
@@ -23374,8 +23554,8 @@
   },
   {
     "bank_code": "52430000",
-    "name": "Credit Mutuel - BECM - Ndl Deutschland",
-    "short_name": "Credit Mutuel - BECM",
+    "name": "TARGOBANK FIRMENKUNDEN CIB",
+    "short_name": "TARGOBANK CIB Frankfurt",
     "bic": "CMCIDEF1XXX",
     "primary": true,
     "country_code": "DE",
@@ -23976,15 +24156,6 @@
     "checksum_algo": "76"
   },
   {
-    "bank_code": "54290000",
-    "name": "VR-Bank Pirmasens -alt-",
-    "short_name": "VR-Bank Pirmasens -alt-",
-    "bic": "GENODE61PS1",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "06"
-  },
-  {
     "bank_code": "54291200",
     "name": "Raiffeisen- u Volksbank Dahn -alt-",
     "short_name": "Raiffbk u Volksbk Dahn-alt-",
@@ -24427,8 +24598,8 @@
   },
   {
     "bank_code": "55010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale Mainz",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W550",
     "primary": true,
     "country_code": "DE",
@@ -24895,8 +25066,8 @@
   },
   {
     "bank_code": "56061472",
-    "name": "Volksbank Hunsr\u00fcck-Nahe",
-    "short_name": "VB Hunsr\u00fcck-Nahe",
+    "name": "Vereinigte Volksbank Raiffeisenbank",
+    "short_name": "VVR-Bank Simmern",
     "bic": "GENODED1KHK",
     "primary": true,
     "country_code": "DE",
@@ -25165,8 +25336,8 @@
   },
   {
     "bank_code": "57069727",
-    "name": "Raiffeisenbank Irrel",
-    "short_name": "Raiffeisenbank Irrel",
+    "name": "Raiffeisenbank Irrel -alt-",
+    "short_name": "Raiffeisenbank Irrel -alt-",
     "bic": "GENODED1IRR",
     "primary": true,
     "country_code": "DE",
@@ -25813,8 +25984,8 @@
   },
   {
     "bank_code": "58760954",
-    "name": "Vereinigte Volksbank Raiffeisenbank",
-    "short_name": "VVR-Bank Wittlich",
+    "name": "Vereinigte Volksbank Raiffeisenbank -alt-",
+    "short_name": "VVR-Bank Wittlich -alt-",
     "bic": "GENODED1WTL",
     "primary": true,
     "country_code": "DE",
@@ -25894,44 +26065,44 @@
   },
   {
     "bank_code": "59010011",
-    "name": "ZVC FK 11 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK11 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF011",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010012",
-    "name": "ZVC FK 12 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK12 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF012",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010013",
-    "name": "ZVC FK 13 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK13 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF013",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010014",
-    "name": "ZVC FK 14 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK14 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF014",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010015",
-    "name": "ZVC FK 15 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK15 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF015",
     "primary": true,
     "country_code": "DE",
@@ -25939,17 +26110,17 @@
   },
   {
     "bank_code": "59010016",
-    "name": "ZVC FK 16 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK16 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF016",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010017",
-    "name": "ZVC FK 17 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK17 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF017",
     "primary": true,
     "country_code": "DE",
@@ -25957,17 +26128,17 @@
   },
   {
     "bank_code": "59010018",
-    "name": "ZVC FK 18 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK18 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF018",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010019",
-    "name": "ZVC FK 19 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK19 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF019",
     "primary": true,
     "country_code": "DE",
@@ -25975,8 +26146,8 @@
   },
   {
     "bank_code": "59010021",
-    "name": "ZVC FK 21 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK21 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF021",
     "primary": true,
     "country_code": "DE",
@@ -25984,8 +26155,8 @@
   },
   {
     "bank_code": "59010022",
-    "name": "ZVC FK 22 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK22 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF022",
     "primary": true,
     "country_code": "DE",
@@ -25993,8 +26164,8 @@
   },
   {
     "bank_code": "59010023",
-    "name": "ZVC FK 23 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK23 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF023",
     "primary": true,
     "country_code": "DE",
@@ -26002,17 +26173,17 @@
   },
   {
     "bank_code": "59010024",
-    "name": "ZVC FK 24 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK24 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF024",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010025",
-    "name": "ZVC FK 25 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK25 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF025",
     "primary": true,
     "country_code": "DE",
@@ -26020,53 +26191,53 @@
   },
   {
     "bank_code": "59010026",
-    "name": "ZVC FK 26 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK26 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF026",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010027",
-    "name": "ZVC FK 27 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK27 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF027",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010028",
-    "name": "ZVC FK 28 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK28 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF028",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010029",
-    "name": "ZVC FK 29 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK29 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF029",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010031",
-    "name": "ZVC FK 31 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK31 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF031",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010032",
-    "name": "ZVC FK 32 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK32 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF032",
     "primary": true,
     "country_code": "DE",
@@ -26074,8 +26245,8 @@
   },
   {
     "bank_code": "59010033",
-    "name": "ZVC FK 33 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK33 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF033",
     "primary": true,
     "country_code": "DE",
@@ -26083,35 +26254,35 @@
   },
   {
     "bank_code": "59010034",
-    "name": "ZVC FK 34 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK34 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF034",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010035",
-    "name": "ZVC FK 35 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK35 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF035",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010036",
-    "name": "ZVC FK 36 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK36 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF036",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010037",
-    "name": "ZVC FK 37 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK37 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF037",
     "primary": true,
     "country_code": "DE",
@@ -26119,17 +26290,17 @@
   },
   {
     "bank_code": "59010038",
-    "name": "ZVC FK 38 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK38 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF038",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010039",
-    "name": "ZVC FK 39 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK39 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF039",
     "primary": true,
     "country_code": "DE",
@@ -26137,26 +26308,26 @@
   },
   {
     "bank_code": "59010040",
-    "name": "ZVC FK 40 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK40 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF040",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010041",
-    "name": "ZVC FK 41 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK41 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF041",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010042",
-    "name": "ZVC FK 42 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK42 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF042",
     "primary": true,
     "country_code": "DE",
@@ -26164,8 +26335,8 @@
   },
   {
     "bank_code": "59010044",
-    "name": "ZVC FK 44 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK44 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF044",
     "primary": true,
     "country_code": "DE",
@@ -26173,17 +26344,17 @@
   },
   {
     "bank_code": "59010045",
-    "name": "ZVC FK 45 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK45 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF045",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010047",
-    "name": "ZVC FK 47 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK47 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF047",
     "primary": true,
     "country_code": "DE",
@@ -26191,17 +26362,17 @@
   },
   {
     "bank_code": "59010048",
-    "name": "ZVC FK 48 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK48 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF048",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010049",
-    "name": "ZVC FK 49 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK49 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF049",
     "primary": true,
     "country_code": "DE",
@@ -26209,26 +26380,26 @@
   },
   {
     "bank_code": "59010051",
-    "name": "ZVC FK 51 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK51 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF051",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010052",
-    "name": "ZVC FK 52 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK52 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF052",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010053",
-    "name": "ZVC FK 53 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK53 Postbank Ndl DB",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
     "bic": "PBNKDEFF053",
     "primary": true,
     "country_code": "DE",
@@ -26236,99 +26407,99 @@
   },
   {
     "bank_code": "59010054",
-    "name": "ZVC FK 54 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK54 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF054",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010055",
-    "name": "ZVC FK 55 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK55 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF055",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010056",
-    "name": "ZVC FK 56 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK56 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF056",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010057",
-    "name": "ZVC FK 57 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK57 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF057",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010058",
-    "name": "ZVC FK 58 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK58 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF058",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010059",
-    "name": "ZVC FK 59 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK59 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF059",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010061",
-    "name": "ZVC FK 61 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK61 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF061",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010062",
-    "name": "ZVC FK 62 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK62 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF062",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010063",
-    "name": "ZVC FK 63 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK63 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF063",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010064",
-    "name": "ZVC FK 64 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK64 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF064",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010065",
-    "name": "ZVC FK 65 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK65 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF065",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -26344,54 +26515,54 @@
   },
   {
     "bank_code": "59010068",
-    "name": "ZVC FK 68 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK68 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF068",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010069",
-    "name": "ZVC FK 69 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK69 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF069",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010071",
-    "name": "ZVC FK 71 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK71 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF071",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010072",
-    "name": "ZVC FK 72 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK72 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF072",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010073",
-    "name": "ZVC FK 73 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK73 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF073",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
   },
   {
     "bank_code": "59010074",
-    "name": "ZVC FK 74 Postbank Ndl der Deutsche Bank",
-    "short_name": "ZVCFK74 Postbank Ndl DB",
-    "bic": "PBNKDEFFXXX",
+    "name": "Postbank Ndl der Deutsche Bank",
+    "short_name": "Postbank Ndl Deutsche Bank",
+    "bic": "PBNKDEFF074",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -26605,8 +26776,8 @@
   },
   {
     "bank_code": "59291200",
-    "name": "Volks- und Raiffeisenbank Saarpfalz",
-    "short_name": "Volks- u. Raiffbk Saarpfalz",
+    "name": "Volks- und Raiffeisenbank Saarpfalz -alt-",
+    "short_name": "VR Bank Saarpfalz-alt-",
     "bic": "GENODE51BEX",
     "primary": true,
     "country_code": "DE",
@@ -26722,8 +26893,8 @@
   },
   {
     "bank_code": "60010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale Stuttgart",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W600",
     "primary": true,
     "country_code": "DE",
@@ -28225,8 +28396,8 @@
   },
   {
     "bank_code": "60391310",
-    "name": "Volksbank Herrenberg-Nagold-Rottenburg",
-    "short_name": "VB Herrenbg-Nagold-Rottenbg",
+    "name": "Volksbank in der Region",
+    "short_name": "Volksbank in der Region",
     "bic": "GENODES1VBH",
     "primary": true,
     "country_code": "DE",
@@ -28612,8 +28783,8 @@
   },
   {
     "bank_code": "61091200",
-    "name": "Volksbank-Raiffeisenbank Deggingen",
-    "short_name": "VB-Raiffbk Deggingen",
+    "name": "Volksbank-Raiffeisenbank Deggingen -alt-",
+    "short_name": "VB-Raiffbk Deggingen -alt-",
     "bic": "GENODES1DGG",
     "primary": true,
     "country_code": "DE",
@@ -28837,8 +29008,8 @@
   },
   {
     "bank_code": "61361975",
-    "name": "Raiffeisenbank Mutlangen",
-    "short_name": "Raiffeisenbank Mutlangen",
+    "name": "Raiffeisenbank Mutlangen -alt-",
+    "short_name": "Raiffbk Mutlangen -alt-",
     "bic": "GENODES1RML",
     "primary": true,
     "country_code": "DE",
@@ -28999,8 +29170,8 @@
   },
   {
     "bank_code": "61391410",
-    "name": "Volksbank Welzheim",
-    "short_name": "Volksbank Welzheim",
+    "name": "VR Bank Schw\u00e4bischer Wald",
+    "short_name": "VR Bank Schw\u00e4bischer Wald",
     "bic": "GENODES1WEL",
     "primary": true,
     "country_code": "DE",
@@ -29068,15 +29239,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "16"
-  },
-  {
-    "bank_code": "62020100",
-    "name": "FCA Bank Deutschland",
-    "short_name": "FCA Bank Heilbronn Neckar",
-    "bic": "FBHNDE61XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
   },
   {
     "bank_code": "62040060",
@@ -29386,8 +29548,8 @@
   },
   {
     "bank_code": "63061486",
-    "name": "VR-Bank Langenau-Ulmer Alb",
-    "short_name": "VR-Bank Langenau-Ulmer Alb",
+    "name": "VR-Bank Langenau-Ulmer Alb -alt-",
+    "short_name": "VR Langenau-Ulmer Alb -alt-",
     "bic": "GENODES1LBK",
     "primary": true,
     "country_code": "DE",
@@ -29494,8 +29656,8 @@
   },
   {
     "bank_code": "63091300",
-    "name": "Volksbank Laichinger Alb",
-    "short_name": "Volksbank Laichinger Alb",
+    "name": "Volksbank Alb",
+    "short_name": "Volksbank Alb",
     "bic": "GENODES1LAI",
     "primary": true,
     "country_code": "DE",
@@ -29584,8 +29746,8 @@
   },
   {
     "bank_code": "64061854",
-    "name": "VR Bank T\u00fcbingen",
-    "short_name": "VR Bank T\u00fcbingen",
+    "name": "VR Bank T\u00fcbingen -alt-",
+    "short_name": "VR Bank T\u00fcbingen -alt-",
     "bic": "GENODES1STW",
     "primary": true,
     "country_code": "DE",
@@ -30511,8 +30673,8 @@
   },
   {
     "bank_code": "65461878",
-    "name": "Raiffeisenbank Biberach",
-    "short_name": "Raiffeisenbank Biberach",
+    "name": "Raiffeisenbank Biberach -alt-",
+    "short_name": "Raiffbk Biberach -alt-",
     "bic": "GENODES1WAR",
     "primary": true,
     "country_code": "DE",
@@ -30889,8 +31051,8 @@
   },
   {
     "bank_code": "66190000",
-    "name": "Volksbank Karlsruhe Baden-Baden",
-    "short_name": "VB Karlsruhe Baden-Baden",
+    "name": "Volksbank pur",
+    "short_name": "Volksbank pur",
     "bic": "GENODE61KA1",
     "primary": true,
     "country_code": "DE",
@@ -31411,8 +31573,8 @@
   },
   {
     "bank_code": "66690000",
-    "name": "Volksbank Pforzheim",
-    "short_name": "Volksbank Pforzheim",
+    "name": "Volksbank Pforzheim -alt-",
+    "short_name": "Volksbank Pforzheim -alt-",
     "bic": "VBPFDE66XXX",
     "primary": true,
     "country_code": "DE",
@@ -31420,8 +31582,8 @@
   },
   {
     "bank_code": "66692300",
-    "name": "VR Bank Enz plus",
-    "short_name": "VR Bank Enz plus",
+    "name": "VR Bank Enz plus -alt-",
+    "short_name": "VR Bank Enz plus -alt-",
     "bic": "GENODE61WIR",
     "primary": true,
     "country_code": "DE",
@@ -32896,8 +33058,8 @@
   },
   {
     "bank_code": "70010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale M\u00fcnchen",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W700",
     "primary": true,
     "country_code": "DE",
@@ -32931,6 +33093,15 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "70010588",
+    "name": "Deutsche Pfandbriefbank",
+    "short_name": "pbb, Garching",
+    "bic": "REBMDEMMSCA",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
     "bank_code": "70010800",
     "name": "Middle East Bank, Munich Branch",
     "short_name": "Middle East Bank, M\u00fcnchen",
@@ -32940,24 +33111,6 @@
     "checksum_algo": "11"
   },
   {
-    "bank_code": "70011100",
-    "name": "Deutsche Handelsbank",
-    "short_name": "Deutsche Handelsbank",
-    "bic": "DEKTDE7GXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "06"
-  },
-  {
-    "bank_code": "70011110",
-    "name": "Deutsche Handelsbank",
-    "short_name": "Deutsche Handelsbank",
-    "bic": "DEKTDE7GXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "06"
-  },
-  {
     "bank_code": "70011200",
     "name": "Bank Vontobel Europe",
     "short_name": "Bank Vontobel Europe",
@@ -32965,15 +33118,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "17"
-  },
-  {
-    "bank_code": "70011300",
-    "name": "Autobank",
-    "short_name": "Autobank Oberhaching",
-    "bic": "AUZDDEM1XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "16"
   },
   {
     "bank_code": "70011400",
@@ -33091,24 +33235,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "67"
-  },
-  {
-    "bank_code": "70013100",
-    "name": "net-m privatbank 1891",
-    "short_name": "net-m privatbank 1891",
-    "bic": "BVWBDE2WXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "32"
-  },
-  {
-    "bank_code": "70013199",
-    "name": "net-m privatbank 1891",
-    "short_name": "net-m privatbank 1891",
-    "bic": "BVWBDE2WXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "32"
   },
   {
     "bank_code": "70013400",
@@ -33625,12 +33751,12 @@
   },
   {
     "bank_code": "70051003",
-    "name": "Sparkasse Freising",
-    "short_name": "Sparkasse Freising",
+    "name": "Sparkasse Freising Moosburg",
+    "short_name": "Sparkasse Freising Moosburg",
     "bic": "BYLADEM1FSI",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "00"
+    "checksum_algo": "A3"
   },
   {
     "bank_code": "70051540",
@@ -34263,24 +34389,6 @@
     "checksum_algo": "00"
   },
   {
-    "bank_code": "70130700",
-    "name": "Bankhaus August Lenz & Co",
-    "short_name": "Lenz Bank M\u00fcnchen",
-    "bic": "LENZDEM1XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
-    "bank_code": "70130799",
-    "name": "Bankhaus August Lenz & Co Gf GAA",
-    "short_name": "Lenz Bank M\u00fcnchen Gf GAA",
-    "bic": "LENZDEM1XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
     "bank_code": "70130800",
     "name": "MERKUR PRIVATBANK",
     "short_name": "MERKUR PRIVATBANK M\u00fcnchen",
@@ -34372,8 +34480,8 @@
   },
   {
     "bank_code": "70169190",
-    "name": "Raiffeisenbank Tattenh-Gro\u00dfkarolinenf",
-    "short_name": "Raiffbk Tattenh Gro\u00dfkarol",
+    "name": "Raiffeisenbank Tattenhausen-Gro\u00dfkarolinenfeld -alt-",
+    "short_name": "Raiffbk Tattenh Gro\u00dfk.-alt-",
     "bic": "GENODEF1GKT",
     "primary": true,
     "country_code": "DE",
@@ -34426,8 +34534,8 @@
   },
   {
     "bank_code": "70169351",
-    "name": "Raiffeisenbank Nordkreis Landsberg",
-    "short_name": "Raiffbk Nordkreis Landsberg",
+    "name": "Raiffeisenbank Lechrain",
+    "short_name": "RB Lechrain, Fuchstal",
     "bic": "GENODEF1ELB",
     "primary": true,
     "country_code": "DE",
@@ -34750,8 +34858,8 @@
   },
   {
     "bank_code": "70169619",
-    "name": "Raiffeisenbank Zorneding",
-    "short_name": "Raiffeisenbank Zorneding",
+    "name": "Raiffeisenbank Zorneding -alt-",
+    "short_name": "Raiffeisenbk Zorneding-alt-",
     "bic": "GENODEF1ZOR",
     "primary": true,
     "country_code": "DE",
@@ -34876,8 +34984,8 @@
   },
   {
     "bank_code": "70350000",
-    "name": "Kreissparkasse Garmisch-Partenkirchen",
-    "short_name": "Kr Spk Garmisch-Partenkirch",
+    "name": "Kreissparkasse Garmisch-Partenkirchen -alt-",
+    "short_name": "Kr Spk Garmisch-Part. -alt-",
     "bic": "BYLADEM1GAP",
     "primary": true,
     "country_code": "DE",
@@ -35406,15 +35514,6 @@
     "checksum_algo": "99"
   },
   {
-    "bank_code": "72020700",
-    "name": "Augsburger Aktienbank",
-    "short_name": "Augsburger Aktienbank",
-    "bic": "AUGBDE77XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "23"
-  },
-  {
     "bank_code": "72021271",
     "name": "UniCredit Bank - HypoVereinsbank",
     "short_name": "UniCredit Bank-HypoVereinbk",
@@ -35479,8 +35578,8 @@
   },
   {
     "bank_code": "72050101",
-    "name": "Kreissparkasse Augsburg",
-    "short_name": "Kr Spk Augsburg",
+    "name": "Kreissparkasse Augsburg -alt-",
+    "short_name": "Kr Spk Augsburg -alt-",
     "bic": "BYLADEM1AUG",
     "primary": true,
     "country_code": "DE",
@@ -35623,8 +35722,8 @@
   },
   {
     "bank_code": "72069135",
-    "name": "Raiffeisenbank Stauden",
-    "short_name": "Raiffbk Stauden Langenneufn",
+    "name": "Raiffeisenbank Stauden -alt-",
+    "short_name": "Raiffbk Stauden -alt-",
     "bic": "GENODEF1LST",
     "primary": true,
     "country_code": "DE",
@@ -35677,8 +35776,8 @@
   },
   {
     "bank_code": "72069220",
-    "name": "Raiffeisenbank",
-    "short_name": "Raiffbk Schwabm\u00fcnchen",
+    "name": "Raiffeisenbank Schwabm\u00fcnchen-Stauden",
+    "short_name": "RB Schwabm\u00fcnchen-Stauden",
     "bic": "GENODEF1SMU",
     "primary": true,
     "country_code": "DE",
@@ -35898,7 +35997,7 @@
     "bic": "GENODEF1S03",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "84"
+    "checksum_algo": "09"
   },
   {
     "bank_code": "72090900",
@@ -36082,8 +36181,8 @@
   },
   {
     "bank_code": "72169380",
-    "name": "Raiffeisenbank Beilngries",
-    "short_name": "Raiffeisenbank Beilngries",
+    "name": "Raiffeisenbank Beilngries -alt-",
+    "short_name": "Raiffbk Beilngries -alt-",
     "bic": "GENODEF1BLN",
     "primary": true,
     "country_code": "DE",
@@ -36532,8 +36631,8 @@
   },
   {
     "bank_code": "73369854",
-    "name": "Raiffeisenbank Fuchstal-Denklingen",
-    "short_name": "Raiffbk Fuchstal-Denklingen",
+    "name": "Raiffeisenbank Fuchstal-Denklingen -alt-",
+    "short_name": "RB Fuchstal-Denklingen-alt-",
     "bic": "GENODEF1FCH",
     "primary": true,
     "country_code": "DE",
@@ -36553,15 +36652,6 @@
     "name": "Raiffeisenbank Baisweil-Eggenthal-Friesenried",
     "short_name": "Raiffbk Baisweil-Eggent-Fr",
     "bic": "GENODEF1EGB",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
-  },
-  {
-    "bank_code": "73369881",
-    "name": "Raiffeisenbank Haldenwang -alt-",
-    "short_name": "Raiffbk Haldenwang -alt-",
-    "bic": "GENODEF1HWG",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"
@@ -37306,8 +37396,8 @@
   },
   {
     "bank_code": "74351740",
-    "name": "Stadt- und Kreissparkasse Moosburg",
-    "short_name": "St u Kr Spk Moosburg",
+    "name": "Stadt- und Kreissparkasse Moosburg -alt-",
+    "short_name": "St u Kr Spk Moosburg -alt-",
     "bic": "BYLADEM1MSB",
     "primary": true,
     "country_code": "DE",
@@ -37324,8 +37414,8 @@
   },
   {
     "bank_code": "74362663",
-    "name": "Raiffeisenbank Altdorf-Ergolding",
-    "short_name": "Raiffbk Altdorf-Ergolding",
+    "name": "Raiffeisenbank Landshuter Land",
+    "short_name": "Raiffbk Landshuter Land",
     "bic": "GENODEF1ERG",
     "primary": true,
     "country_code": "DE",
@@ -37333,8 +37423,8 @@
   },
   {
     "bank_code": "74364689",
-    "name": "Raiffeisenbank Pfeffenhausen-Rottenburg-Wildenberg",
-    "short_name": "Raiffbk Pfeffenhausen",
+    "name": "Raiffeisenbank Pfeffenhausen-Rottenburg-Wildenberg -alt-",
+    "short_name": "Raiffbk Pfeffenhausen -alt-",
     "bic": "GENODEF1PFF",
     "primary": true,
     "country_code": "DE",
@@ -37387,8 +37477,8 @@
   },
   {
     "bank_code": "74369656",
-    "name": "Raiffeisenbank Essenbach",
-    "short_name": "Raiffeisenbank Essenbach",
+    "name": "Raiffeisenbank Essenbach -alt-",
+    "short_name": "Raiffbk Essenbach  -alt-",
     "bic": "GENODEF1ENA",
     "primary": true,
     "country_code": "DE",
@@ -37630,8 +37720,8 @@
   },
   {
     "bank_code": "75069020",
-    "name": "Raiffeisenbank Bruck",
-    "short_name": "Raiffeisenbank Bruck",
+    "name": "Raiffeisenbank Bruck -alt-",
+    "short_name": "Raiffeisenbank Bruck -alt-",
     "bic": "GENODEF1BUK",
     "primary": true,
     "country_code": "DE",
@@ -37824,7 +37914,7 @@
     "bic": "GENODEF1S05",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "84"
+    "checksum_algo": "09"
   },
   {
     "bank_code": "75090900",
@@ -37882,8 +37972,8 @@
   },
   {
     "bank_code": "75261700",
-    "name": "Raiffeisenbank Sulzbach-Rosenberg",
-    "short_name": "Raiffbk Sulzbach-Rosenberg",
+    "name": "Raiffeisenbank Sulzbach-Rosenberg -alt-",
+    "short_name": "Raiffbk Sulzbach-Rose.-alt-",
     "bic": "GENODEF1SZH",
     "primary": true,
     "country_code": "DE",
@@ -37891,8 +37981,8 @@
   },
   {
     "bank_code": "75290000",
-    "name": "Volksbank-Raiffeisenbank Amberg",
-    "short_name": "VB-Raiffbk Amberg",
+    "name": "VR Bank Amberg-Sulzbach",
+    "short_name": "VR Bank Amberg-Sulzbach",
     "bic": "GENODEF1AMV",
     "primary": true,
     "country_code": "DE",
@@ -38314,8 +38404,8 @@
   },
   {
     "bank_code": "76069462",
-    "name": "Raiffeisenbank Greding - Thalm\u00e4ssing",
-    "short_name": "Raiffbk Greding-Thalm\u00e4ssing",
+    "name": "Raiffeisenbank Altm\u00fchl-Jura",
+    "short_name": "Raiffeisenbank Altm\u00fchl-Jura",
     "bic": "GENODEF1GDG",
     "primary": true,
     "country_code": "DE",
@@ -38385,18 +38475,9 @@
     "checksum_algo": "88"
   },
   {
-    "bank_code": "76069598",
-    "name": "Raiffeisenbank Gro\u00dfhabersdorf-Ro\u00dftal -alt-",
-    "short_name": "Raiffeisenbank Ro\u00dftal -alt-",
-    "bic": "GENODEF1RSS",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
-  },
-  {
     "bank_code": "76069602",
-    "name": "Raiffeisenbank Seebachgrund",
-    "short_name": "Raiffbk Seebachgrund-He\u00dfdf",
+    "name": "Raiffeisenbank DreiFranken",
+    "short_name": "Raiffbk DreiFranken",
     "bic": "GENODEF1HSE",
     "primary": true,
     "country_code": "DE",
@@ -39016,8 +39097,8 @@
   },
   {
     "bank_code": "76460015",
-    "name": "Raiffeisenbank Roth-Schwabach",
-    "short_name": "Raiffbk Roth-Schwabach",
+    "name": "Raiffeisenbank Roth-Schwabach -alt-",
+    "short_name": "Raiffbk Roth-Schwabach-alt-",
     "bic": "GENODEF1SWR",
     "primary": true,
     "country_code": "DE",
@@ -39124,8 +39205,8 @@
   },
   {
     "bank_code": "76560060",
-    "name": "VR-Bank Mittelfranken West",
-    "short_name": "VR-Bank Mittelfranken West",
+    "name": "VR-Bank Mittelfranken Mitte",
+    "short_name": "VR-Bank Mittelfranken Mitte",
     "bic": "GENODEF1ANS",
     "primary": true,
     "country_code": "DE",
@@ -39250,8 +39331,8 @@
   },
   {
     "bank_code": "77069091",
-    "name": "Raiffeisenbank Ebrachgrund",
-    "short_name": "Raiffeisenbank Ebrachgrund",
+    "name": "Raiffeisenbank Ebrachgrund -alt-",
+    "short_name": "Raiffbk Ebrachgrund -alt-",
     "bic": "GENODEF1SFD",
     "primary": true,
     "country_code": "DE",
@@ -39454,15 +39535,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
-  },
-  {
-    "bank_code": "77361600",
-    "name": "Raiffeisen-Volksbank Kronach-Ludwigsstadt -alt-",
-    "short_name": "RVB Kronach-Ludwigsst.-alt-",
-    "bic": "GENODEF1KC1",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
   },
   {
     "bank_code": "77363749",
@@ -39744,18 +39816,9 @@
     "checksum_algo": "00"
   },
   {
-    "bank_code": "79062106",
-    "name": "Raiffeisenbank -alt-",
-    "short_name": "Raiffbk Hammelburg -alt-",
-    "bic": "GENODEF1HAB",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
-  },
-  {
     "bank_code": "79063060",
-    "name": "Raiffeisenbank Estenfeld-Bergtheim",
-    "short_name": "Raiffbk Estenfeld-Bergtheim",
+    "name": "Raiffeisenbank Estenfeld-Bergtheim -alt-",
+    "short_name": "Raiffbk Estenfeld-B. -alt-",
     "bic": "GENODEF1EFD",
     "primary": true,
     "country_code": "DE",
@@ -40069,8 +40132,8 @@
   },
   {
     "bank_code": "79362081",
-    "name": "VR-Bank Gerolzhofen",
-    "short_name": "VR-Bank Gerolzhofen",
+    "name": "VR-MainBank",
+    "short_name": "VR-MainBank",
     "bic": "GENODEF1GZH",
     "primary": true,
     "country_code": "DE",
@@ -40599,6 +40662,15 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "81010400",
+    "name": "Investitionsbank Sachsen-Anhalt",
+    "short_name": "Investitionsbk Sachsen-Anh.",
+    "bic": "NOLADE21LSA",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "27"
+  },
+  {
     "bank_code": "81020500",
     "name": "Bank f\u00fcr Sozialwirtschaft",
     "short_name": "Bank f\u00fcr Sozialwirtschaft",
@@ -40645,8 +40717,8 @@
   },
   {
     "bank_code": "81054000",
-    "name": "Sparkasse Jerichower Land",
-    "short_name": "Sparkasse Jerichower Land",
+    "name": "Sparkasse Jerichower Land -alt-",
+    "short_name": "Spk Jerichower Land -alt-",
     "bic": "NOLADE21JEL",
     "primary": true,
     "country_code": "DE",
@@ -41131,8 +41203,8 @@
   },
   {
     "bank_code": "82064088",
-    "name": "VR-Bank Eisenach-Ronshausen",
-    "short_name": "VR-Bank Eisenach-Ronshausen",
+    "name": "VR Bank Ihre Heimatbank",
+    "short_name": "VR Bank Ihre Heimatbank",
     "bic": "GENODEF1ESA",
     "primary": true,
     "country_code": "DE",
@@ -41140,8 +41212,8 @@
   },
   {
     "bank_code": "82064168",
-    "name": "Raiffeisenbank Gotha",
-    "short_name": "Raiffeisenbank Gotha",
+    "name": "Raiffeisenbank Gotha -alt-",
+    "short_name": "Raiffeisenbank Gotha -alt-",
     "bic": "GENODEF1GTH",
     "primary": true,
     "country_code": "DE",
@@ -41521,15 +41593,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB831",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "82070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB826",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -42310,8 +42373,8 @@
   },
   {
     "bank_code": "86010424",
-    "name": "Aareal Bank",
-    "short_name": "Aareal Bank",
+    "name": "Aareal Bank ehem. Filiale Leipzig",
+    "short_name": "Aareal Bank Wiesbaden",
     "bic": "AARBDE5W860",
     "primary": true,
     "country_code": "DE",

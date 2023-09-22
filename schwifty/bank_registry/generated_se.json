@@ -10,7 +10,7 @@
   {
     "country_code": "SE",
     "primary": true,
-    "bic": "AABAFI22",
+    "bic": "AABASESS",
     "bank_code": "230",
     "name": "\u00c5landsbanken",
     "short_name": "\u00c5landsbanken"
@@ -66,6 +66,14 @@
   {
     "country_code": "SE",
     "primary": true,
+    "bic": "FEMAMTMT",
+    "bank_code": "907",
+    "name": "Ferratum Bank",
+    "short_name": "Ferratum Bank"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
     "bic": "NNSESES1",
     "bank_code": "910",
     "name": "Nordnet Bank",
@@ -98,7 +106,7 @@
   {
     "country_code": "SE",
     "primary": true,
-    "bic": "DABASESX",
+    "bic": "MARGSESS",
     "bank_code": "923",
     "name": "Marginalen Bank",
     "short_name": "Marginalen Bank"
@@ -126,6 +134,14 @@
     "bank_code": "928",
     "name": "Resurs Bank AB",
     "short_name": "Resurs Bank AB"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
+    "bic": "SWEDSESS",
+    "bank_code": "930",
+    "name": "Swedbank",
+    "short_name": "Swedbank"
   },
   {
     "country_code": "SE",
@@ -178,10 +194,18 @@
   {
     "country_code": "SE",
     "primary": true,
-    "bic": "SWEDSESS",
+    "bic": "SPSDSE23",
     "bank_code": "957",
     "name": "Sparbanken Syd",
     "short_name": "Sparbanken Syd"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
+    "bic": "BMPBSESS",
+    "bank_code": "958",
+    "name": "AION Bank",
+    "short_name": "AION Bank"
   },
   {
     "country_code": "SE",
@@ -202,10 +226,10 @@
   {
     "country_code": "SE",
     "primary": true,
-    "bic": "NOFBSES1",
+    "bic": "NOFBSESS",
     "bank_code": "964",
-    "name": "Nordax Finans AB (publ)",
-    "short_name": "Nordax Finans AB (publ)"
+    "name": "Nordax Bank",
+    "short_name": "Nordax Bank"
   },
   {
     "country_code": "SE",
@@ -246,6 +270,14 @@
     "bank_code": "970",
     "name": "Ekobanken",
     "short_name": "Ekobanken"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
+    "bic": "NOHLSESS",
+    "bank_code": "975",
+    "name": "Northmill Bank",
+    "short_name": "Northmill Bank"
   },
   {
     "country_code": "SE",

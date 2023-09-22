@@ -67,6 +67,7 @@ valid = [
     "ST68 0001 0001 0051 8453 1011 2",  # Sao Tome And Principe
     "SA03 8000 0000 6080 1016 7519",  # Saudi Arabia
     "RS35 2600 0560 1001 6113 79",  # Serbia
+    "SN08 SN01 0015 2000 0485 0000 3035",  # Senegal
     # 'SC25 SSCB1101 0000 0000 0000 1497 USD',    # Seychelles
     "SK31 1200 0000 1987 4263 7541",  # Slovak Republic
     "SI56 1910 0000 0123 438",  # Slovenia
@@ -168,6 +169,7 @@ def test_iban_properties():
         (("BE", "050", "123456"), "BE45050012345689"),
         (("BE", "539", "0075470"), "BE68539007547034"),
         (("FR", "2004101005", "0500013M026"), "FR1420041010050500013M02606"),
+        (("BE", "050", "177"), "BE54050000017797"),
     ],
 )
 def test_generate_iban(components, compact):

@@ -5,6 +5,79 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+
+`2023.06.0`_ - 2023/06/21
+-------------------------
+Fixed
+~~~~~
+* For Ukrainian banks calling ``iban.bic`` did result in a ``TypeError``. Thanks
+  `@bernoreitsma <https://github.com/bernoreitsma>`_ for reporting.
+
+Changed
+~~~~~~~
+* Updated generated bank registries for Austria, Belgium, Czech Republic, Germany, Netherlands,
+  Hungary, Norway, Poland and Ukraine.
+
+
+`2023.03.0`_ - 2023/03/14
+-------------------------
+Changed
+~~~~~~~
+* Updated generated bank registries for Austria, Belgium, Germany, Netherlands,
+  Hungary, Slovenia and Ukraine.
+
+Added
+~~~~~
+* New bank registry for Norway thanks to `@ezet <https://github.com/ezet>`_
+
+`2023.02.1`_ - 2023/02/28
+-------------------------
+Fixed
+~~~~~
+* The domestic checksum calculation for Belgium now returns 97 in case the modulo operation
+  results in 0. `@mhemeryck <https://github.com/mhemeryck>`_
+
+Changed
+~~~~~~~
+* Updated generated bank registries for Austria, Belgium, Czech Republic, Germany, Spain,
+  Hungary and Croatia.
+
+`2023.02.0`_ - 2023/02/06
+-------------------------
+Added
+~~~~~
+* New banks for Portugal and Italy `@dennisxtria <https://github.com/dennisxtria>`_
+* Added support for Ukrainian banks `@shpigunov <https://github.com/shpigunov>`_
+
+Fixed
+~~~~~
+* Corrected bank codes for Cypriot banks `@Krystofee <https://github.com/Krystofee>`_
+
+`2022.09.0`_ - 2022/16/09
+-------------------------
+Added
+~~~~~
+* IBAN validation for Senegal `mkopec87 <https://github.com/mkopec87>`_
+
+Changed
+~~~~~~~
+* Refactored most of the scripts to generate the bank registry to use Pandas `@pebosi <https://github.com/pebosi>`_
+* Updated bank registry for Austria, Belgium, Germany, Spain, Hungary, Netherlands and Poland.
+
+`2022.07.1`_ - 2022/28/07
+-------------------------
+Fixed
+~~~~~
+* In some countries the BBAN does not include a bank code, but only a branch code (e.g. Poland). In
+  those cases the branch code should be used to lookup the bank associated to an IBAN instead of the
+  obviously empty bank code.
+
+`2022.07.0`_ - 2022/07/07
+-------------------------
+Fixed
+~~~~~
+* Hungarian bank registry generator script was fixed by `@Krystofee <https://github.com/Krystofee>`_
+
 `2022.06.3`_ - 2022/06/29
 -------------------------
 Added
@@ -316,6 +389,13 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2023.06.0: https://github.com/mdomke/schwifty/compare/2023.03.0...2023.06.0
+.. _2023.03.0: https://github.com/mdomke/schwifty/compare/2023.02.1...2023.03.0
+.. _2023.02.1: https://github.com/mdomke/schwifty/compare/2023.02.0...2023.02.1
+.. _2023.02.0: https://github.com/mdomke/schwifty/compare/2022.09.0...2023.02.0
+.. _2022.09.0: https://github.com/mdomke/schwifty/compare/2022.07.1...2022.09.0
+.. _2022.07.1: https://github.com/mdomke/schwifty/compare/2022.07.0...2022.07.1
+.. _2022.07.0: https://github.com/mdomke/schwifty/compare/2022.06.3...2022.07.0
 .. _2022.06.3: https://github.com/mdomke/schwifty/compare/2022.06.2...2022.06.3
 .. _2022.06.2: https://github.com/mdomke/schwifty/compare/2022.06.1...2022.06.2
 .. _2022.06.1: https://github.com/mdomke/schwifty/compare/2022.06.0...2022.06.1

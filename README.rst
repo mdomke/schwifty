@@ -1,6 +1,6 @@
 .. image:: https://img.shields.io/pypi/v/schwifty.svg?style=flat-square
     :target: https://pypi.python.org/pypi/schwifty
-.. image:: https://img.shields.io/github/workflow/status/mdomke/schwifty/lint-and-test?style=flat-square
+.. image:: https://img.shields.io/github/actions/workflow/status/mdomke/schwifty/lint-and-test.yml?branch=main&style=flat-square
     :target: https://github.com/mdomke/schwifty/actions?query=workflow%3Alint-and-test
 .. image:: https://img.shields.io/pypi/l/schwifty.svg?style=flat-square
     :target: https://pypi.python.org/pypi/schwifty

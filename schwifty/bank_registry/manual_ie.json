@@ -55,6 +55,14 @@
     "short_name": "Bank of Montreal",
     "primary": true
   },
+    {
+    "country_code": "IE",
+    "bic": "BUNQIE22XXX",
+    "bank_code": "BUNQ",
+    "name": "bunq B.V.",
+    "short_name": "bunq B.V.",
+    "primary": true
+  },
   {
     "country_code": "IE",
     "bic": "BARCIE2DXXX",

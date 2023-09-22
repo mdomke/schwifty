@@ -182,5 +182,13 @@
     "name": "CENTRAL DEPOSITORY AD",
     "bic": "CEDPBGSF",
     "primary": true
+  },
+    {
+    "country_code": "BG",
+    "bank_code": "INTF",
+    "short_name": "ICARD AD",
+    "name": "ICARD AD",
+    "bic": "INTFBGSF",
+    "primary": true
   }
 ]

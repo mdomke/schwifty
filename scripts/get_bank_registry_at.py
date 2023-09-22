@@ -1,28 +1,31 @@
-import csv
+#!/usr/bin/env python
 import json
-
-import requests
+import pandas
 
 
 URL = "https://www.oenb.at/docroot/downloads_observ/sepa-zv-vz_gesamt.csv"
 
 
 def process():
-    with requests.get(URL, stream=True) as fp:
-        csvfile = csv.reader([line.decode("latin1") for line in fp.iter_lines()], delimiter=";")
+    datas = pandas.read_csv(URL, skiprows=5, encoding="latin1", delimiter=";")
+    datas = datas.dropna(how="all")
+    datas.fillna("", inplace=True)
 
-    return [
-        {
-            "country_code": "AT",
-            "primary": True,
-            "bic": row[18].strip().upper(),
-            "bank_code": row[2].strip().rjust(5, "0"),
-            "name": row[6].strip(),
-            "short_name": row[6].strip(),
-        }
-        for i, row in enumerate(csvfile)
-        if i >= 6 and len(row) >= 19
-    ]
+    registry = []
+    for row in datas.itertuples(index=False):
+        registry.append(
+            {
+                "country_code": "AT",
+                "primary": True,
+                "bic": str(row[18]).strip().upper(),
+                "bank_code": str(row[2]).strip().rjust(5, "0"),
+                "name": str(row[6]).strip(),
+                "short_name": str(row[6]).strip(),
+            }
+        )
+
+    print(f"Fetched {len(registry)} bank records")
+    return registry
 
 
 if __name__ == "__main__":

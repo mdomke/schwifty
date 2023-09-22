@@ -4,8 +4,8 @@
     "primary": true,
     "bic": "ABNANL2A",
     "bank_code": "ABNA",
-    "name": "ABN AMRO BANK ",
-    "short_name": "ABN AMRO BANK "
+    "name": "ABN AMRO BANK",
+    "short_name": "ABN AMRO BANK"
   },
   {
     "country_code": "NL",
@@ -28,8 +28,16 @@
     "primary": true,
     "bic": "AEGONL2U",
     "bank_code": "AEGO",
-    "name": "AEGON BANK ",
-    "short_name": "AEGON BANK "
+    "name": "AEGON BANK",
+    "short_name": "AEGON BANK"
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
+    "bic": "AINHNL22",
+    "bank_code": "AINH",
+    "name": "AIRWALLEX (NETHERLANDS) B.V.",
+    "short_name": "AIRWALLEX (NETHERLANDS) B.V."
   },
   {
     "country_code": "NL",
@@ -44,16 +52,16 @@
     "primary": true,
     "bic": "ARBNNL22",
     "bank_code": "ARBN",
-    "name": "ACHMEA BANK ",
-    "short_name": "ACHMEA BANK "
+    "name": "ACHMEA BANK",
+    "short_name": "ACHMEA BANK"
   },
   {
     "country_code": "NL",
     "primary": true,
     "bic": "ARSNNL21",
     "bank_code": "ARSN",
-    "name": "ARGENTA SPAARBANK ",
-    "short_name": "ARGENTA SPAARBANK "
+    "name": "ARGENTA SPAARBANK",
+    "short_name": "ARGENTA SPAARBANK"
   },
   {
     "country_code": "NL",
@@ -62,14 +70,6 @@
     "bank_code": "ASNB",
     "name": "ASN BANK",
     "short_name": "ASN BANK"
-  },
-  {
-    "country_code": "NL",
-    "primary": true,
-    "bic": "ATBANL2A",
-    "bank_code": "ATBA",
-    "name": "AMSTERDAM TRADE BANK * status exclusion * ",
-    "short_name": "AMSTERDAM TRADE BANK * status exclusion * "
   },
   {
     "country_code": "NL",
@@ -92,8 +92,8 @@
     "primary": true,
     "bic": "BICKNL2A",
     "bank_code": "BICK",
-    "name": "BINCKBANK ",
-    "short_name": "BINCKBANK "
+    "name": "BINCKBANK",
+    "short_name": "BINCKBANK"
   },
   {
     "country_code": "NL",
@@ -228,8 +228,8 @@
     "primary": true,
     "bic": "CCBVNL2A",
     "bank_code": "CCBV",
-    "name": "Currencycloud B.V.",
-    "short_name": "Currencycloud B.V."
+    "name": "CURRENCYCLOUD B.V.",
+    "short_name": "CURRENCYCLOUD B.V."
   },
   {
     "country_code": "NL",
@@ -306,6 +306,14 @@
   {
     "country_code": "NL",
     "primary": true,
+    "bic": "FNOMNL22",
+    "bank_code": "FNOM",
+    "name": "FINOM Payments B.V.",
+    "short_name": "FINOM Payments B.V."
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
     "bic": "FRNXNL2A",
     "bank_code": "FRNX",
     "name": "FRANX",
@@ -314,10 +322,18 @@
   {
     "country_code": "NL",
     "primary": true,
+    "bic": "FROMNL2A",
+    "bank_code": "FROM",
+    "name": "FROMENTY AND CUSTARD E-COMMERCE",
+    "short_name": "FROMENTY AND CUSTARD E-COMMERCE"
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
     "bic": "FVLBNL22",
     "bank_code": "FVLB",
-    "name": "VAN LANSCHOT ",
-    "short_name": "VAN LANSCHOT "
+    "name": "VAN LANSCHOT",
+    "short_name": "VAN LANSCHOT"
   },
   {
     "country_code": "NL",
@@ -332,8 +348,8 @@
     "primary": true,
     "bic": "GILLNL2A",
     "bank_code": "GILL",
-    "name": "INSINGERGILISSEN ",
-    "short_name": "INSINGERGILISSEN "
+    "name": "INSINGERGILISSEN",
+    "short_name": "INSINGERGILISSEN"
   },
   {
     "country_code": "NL",
@@ -356,8 +372,16 @@
     "primary": true,
     "bic": "HIFXNL2A",
     "bank_code": "HIFX",
-    "name": "Xe Europe BV",
-    "short_name": "Xe Europe BV"
+    "name": "XE EUROPE BV",
+    "short_name": "XE EUROPE BV"
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
+    "bic": "HUSHNL2A",
+    "bank_code": "HUSH",
+    "name": "HUSHPAY",
+    "short_name": "HUSHPAY"
   },
   {
     "country_code": "NL",
@@ -452,16 +476,16 @@
     "primary": true,
     "bic": "LOYDNL2A",
     "bank_code": "LOYD",
-    "name": "LLOYDS TSB BANK ",
-    "short_name": "LLOYDS TSB BANK "
+    "name": "LLOYDS TSB BANK",
+    "short_name": "LLOYDS TSB BANK"
   },
   {
     "country_code": "NL",
     "primary": true,
     "bic": "LPLNNL2F",
     "bank_code": "LPLN",
-    "name": "LEASEPLAN CORPORATION ",
-    "short_name": "LEASEPLAN CORPORATION "
+    "name": "LEASEPLAN CORPORATION",
+    "short_name": "LEASEPLAN CORPORATION"
   },
   {
     "country_code": "NL",
@@ -470,6 +494,14 @@
     "bank_code": "MHCB",
     "name": "MIZUHO BANK EUROPE NV",
     "short_name": "MIZUHO BANK EUROPE NV"
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
+    "bic": "MODRNL22",
+    "bank_code": "MODR",
+    "name": "MODULR FINANCE B.V.",
+    "short_name": "MODULR FINANCE B.V."
   },
   {
     "country_code": "NL",
@@ -490,10 +522,26 @@
   {
     "country_code": "NL",
     "primary": true,
+    "bic": "PANXNL22",
+    "bank_code": "PANX",
+    "name": "UNIFIEDPOST PAYMENTS",
+    "short_name": "UNIFIEDPOST PAYMENTS"
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
     "bic": "PCBCNL2A",
     "bank_code": "PCBC",
     "name": "CHINA CONSTRUCTION BANK, AMSTERDAM BRANCH",
     "short_name": "CHINA CONSTRUCTION BANK, AMSTERDAM BRANCH"
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
+    "bic": "PNOWNL2A",
+    "bank_code": "PNOW",
+    "name": "PAY NOW",
+    "short_name": "PAY NOW"
   },
   {
     "country_code": "NL",
@@ -510,6 +558,22 @@
     "bank_code": "RBRB",
     "name": "REGIOBANK",
     "short_name": "REGIOBANK"
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
+    "bic": "REVONL22",
+    "bank_code": "REVO",
+    "name": "REVOLUT BANK UAB",
+    "short_name": "REVOLUT BANK UAB"
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
+    "bic": "SBOSNL2A",
+    "bank_code": "SBOS",
+    "name": "STATE STREET BANK INTERNATIONAL GbmH",
+    "short_name": "STATE STREET BANK INTERNATIONAL GbmH"
   },
   {
     "country_code": "NL",
@@ -540,8 +604,8 @@
     "primary": true,
     "bic": "UGBINL2A",
     "bank_code": "UGBI",
-    "name": "GARANTIBANK INTERNATIONAL ",
-    "short_name": "GARANTIBANK INTERNATIONAL "
+    "name": "GARANTIBANK INTERNATIONAL",
+    "short_name": "GARANTIBANK INTERNATIONAL"
   },
   {
     "country_code": "NL",
@@ -564,8 +628,16 @@
     "primary": true,
     "bic": "VTPSNL2R",
     "bank_code": "VTPS",
-    "name": "Vitesse PSP",
-    "short_name": "Vitesse PSP"
+    "name": "VITESSE PSP",
+    "short_name": "VITESSE PSP"
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
+    "bic": "YOURNL2A",
+    "bank_code": "YOUR",
+    "name": "YOURSAFE B.V.",
+    "short_name": "YOURSAFE B.V."
   },
   {
     "country_code": "NL",

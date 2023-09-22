@@ -30,7 +30,7 @@ def get_download_url():
     atag = soup.find(href=lambda ref: ref and "download-bankleitzahlen" in ref)
 
     soup = BeautifulSoup(requests.get(urljoin(URL, atag.get("href"))).content, "html.parser")
-    atag = soup.find(href=lambda ref: ref and "blz-aktuell-txt-data.txt" in ref)
+    atag = soup.find(href=lambda ref: ref and "blz-neu-txt-data.txt" in ref)
     return urljoin(URL, atag.get("href"))
 
 
@@ -64,6 +64,8 @@ def process(records):
 
         if cleaned["bic"]:
             registry.append(cleaned)
+
+    print(f"Fetched {len(registry)} bank records")
     return registry
 
 

@@ -3091,6 +3091,14 @@
     "country_code": "SI",
     "primary": true,
     "bic": "LJBASI2XXXX",
+    "bank_code": "02438",
+    "name": "NLB D.D.",
+    "short_name": "NLB D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "LJBASI2XXXX",
     "bank_code": "02450",
     "name": "NLB D.D.",
     "short_name": "NLB D.D."
@@ -6566,5 +6574,13 @@
     "bank_code": "64000",
     "name": "PRIMORSKA HRANILNICA VIPAVA D.D.",
     "short_name": "PRIMORSKA HRANILNICA VIPAVA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "KDDSSI22XXX",
+    "bank_code": "79095",
+    "name": "KDD-CENTRALNA KLIRIN\u008aKO DEPOTNA DRU\u008eBA, D.O.O.",
+    "short_name": "KDD-CENTRALNA KLIRIN\u008aKO DEPOTNA DRU\u008eBA, D.O.O."
   }
 ]

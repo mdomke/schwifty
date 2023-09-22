@@ -97,3 +97,7 @@ def test_belgium_checksum():
 
 def test_belgium_checksum_failure():
     assert algorithms["BE:default"].validate("050000123456") is False
+
+
+def test_belgium_checksum_checksum_edge_case():
+    assert algorithms["BE:default"].validate("050000017797") is True

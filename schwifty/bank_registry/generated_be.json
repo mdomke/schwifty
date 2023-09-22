@@ -986,6 +986,14 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "DIGEBEB2",
+    "bank_code": "130",
+    "name": "Digiteal SA",
+    "short_name": "Digiteal SA"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "CTBKBEBX",
     "bank_code": "131",
     "name": "Beobank",
@@ -1142,22 +1150,6 @@
     "bank_code": "176",
     "name": "Santander Consumer Finance \u2013 Succursale en Belgique/Bijkantoor in Belgi\u00eb",
     "short_name": "Santander Consumer Finance \u2013 Succursale en Belgique/Bijkantoor in Belgi\u00eb"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "COBABEBX",
-    "bank_code": "178",
-    "name": "Commerzbank",
-    "short_name": "Commerzbank"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "COBABEBX",
-    "bank_code": "179",
-    "name": "Commerzbank",
-    "short_name": "Commerzbank"
   },
   {
     "country_code": "BE",
@@ -3660,8 +3652,8 @@
     "primary": true,
     "bic": "PARBBEBZMDC",
     "bank_code": "508",
-    "name": "BNP Paribas Securities Services",
-    "short_name": "BNP Paribas Securities Services"
+    "name": "BNP Paribas SA, Belgium Branch \u2013 Securities Services business",
+    "short_name": "BNP Paribas SA, Belgium Branch \u2013 Securities Services business"
   },
   {
     "country_code": "BE",
@@ -3788,8 +3780,8 @@
     "primary": true,
     "bic": "CHASBEBX",
     "bank_code": "549",
-    "name": "JP Morgan Chase Bank",
-    "short_name": "JP Morgan Chase Bank"
+    "name": "J.P. Morgan SE -Brussels Branch",
+    "short_name": "J.P. Morgan SE -Brussels Branch"
   },
   {
     "country_code": "BE",
@@ -4346,6 +4338,14 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "REVOBEB2XXX",
+    "bank_code": "650",
+    "name": "Revolut Bank UAB Belgian branch",
+    "short_name": "Revolut Bank UAB Belgian branch"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "KEYTBEBB",
     "bank_code": "651",
     "name": "Ark\u00e9a Direct Bank (nom commercial / commerci\u00eble naam: Keytrade Bank)",
@@ -4468,8 +4468,8 @@
     "primary": true,
     "bic": "CBPXBE99",
     "bank_code": "677",
-    "name": "Compagnie de Banque Priv\u00e9e Quilvest",
-    "short_name": "Compagnie de Banque Priv\u00e9e Quilvest"
+    "name": "Intesa Sanpaolo Wealth Management",
+    "short_name": "Intesa Sanpaolo Wealth Management"
   },
   {
     "country_code": "BE",
@@ -4524,16 +4524,16 @@
     "primary": true,
     "bic": "BOFABE3X",
     "bank_code": "685",
-    "name": "",
-    "short_name": ""
+    "name": "Bank of America Europe DAC - Brussels Branch",
+    "short_name": "Bank of America Europe DAC - Brussels Branch"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "BOFABE3X",
     "bank_code": "686",
-    "name": "",
-    "short_name": ""
+    "name": "Bank of America Europe DAC - Brussels Branch",
+    "short_name": "Bank of America Europe DAC - Brussels Branch"
   },
   {
     "country_code": "BE",
@@ -4550,6 +4550,14 @@
     "bank_code": "688",
     "name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
     "short_name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "BOFABE3X",
+    "bank_code": "689",
+    "name": "Bank of America Europe DAC - Brussels Branch",
+    "short_name": "Bank of America Europe DAC - Brussels Branch"
   },
   {
     "country_code": "BE",
@@ -4574,6 +4582,14 @@
     "bank_code": "696",
     "name": "Cr\u00e9dit Agricole Corporate & Investment Bank",
     "short_name": "Cr\u00e9dit Agricole Corporate & Investment Bank"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "MGTCBEBE",
+    "bank_code": "699",
+    "name": "Euroclear Bank",
+    "short_name": "Euroclear Bank"
   },
   {
     "country_code": "BE",
@@ -5538,14 +5554,6 @@
   {
     "country_code": "BE",
     "primary": true,
-    "bic": "RABOBE22",
-    "bank_code": "844",
-    "name": "Rabobank.be",
-    "short_name": "Rabobank.be"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
     "bic": "DEGRBEBB",
     "bank_code": "845",
     "name": "Bank Degroof Petercam",
@@ -5922,15 +5930,7 @@
   {
     "country_code": "BE",
     "primary": true,
-    "bic": "PAGOBEBB",
-    "bank_code": "927",
-    "name": "PagoFX Europe",
-    "short_name": "PagoFX Europe"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "VPAYBE21",
+    "bic": "VPAYBEB1",
     "bank_code": "928",
     "name": "VIVA Payment Services",
     "short_name": "VIVA Payment Services"
@@ -6014,6 +6014,14 @@
     "bank_code": "945",
     "name": "J.P. Morgan SE \u2013 Brussels Branch",
     "short_name": "J.P. Morgan SE \u2013 Brussels Branch"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "HOMNBEB1",
+    "bank_code": "948",
+    "name": "Mastercard Transaction Services (Europe) NV/SA",
+    "short_name": "Mastercard Transaction Services (Europe) NV/SA"
   },
   {
     "country_code": "BE",
@@ -6130,10 +6138,10 @@
   {
     "country_code": "BE",
     "primary": true,
-    "bic": "NEECBEB2",
-    "bank_code": "966",
-    "name": "NewB",
-    "short_name": "NewB"
+    "bic": "FPEBBEB2",
+    "bank_code": "964",
+    "name": "FINANCIERE DES PAIEMENTS ELECTRONIQUES SAS - NICKEL BELGIUM",
+    "short_name": "FINANCIERE DES PAIEMENTS ELECTRONIQUES SAS - NICKEL BELGIUM"
   },
   {
     "country_code": "BE",
@@ -6262,37 +6270,5 @@
     "bank_code": "984",
     "name": "bpost",
     "short_name": "bpost"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "BPOTBEB1",
-    "bank_code": "985",
-    "name": "bpost bank",
-    "short_name": "bpost bank"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "BPOTBEB1",
-    "bank_code": "986",
-    "name": "bpost bank",
-    "short_name": "bpost bank"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "BPOTBEB1",
-    "bank_code": "987",
-    "name": "bpost bank",
-    "short_name": "bpost bank"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "BPOTBEB1",
-    "bank_code": "988",
-    "name": "bpost bank",
-    "short_name": "bpost bank"
   }
 ]

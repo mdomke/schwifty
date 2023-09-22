@@ -12,15 +12,15 @@
         "name": "ALPHA BANK S.A.",
         "short_name": "ALPHA BANK",
         "bank_code": "014",
-        "bic": "CRBAGRAAXXX",
+        "bic": "CRBAGRAA",
         "country_code": "GR"
     },
     {
         "primary": true,
-        "name": "ATTICA ΒΑΝΚ S.A.",
-        "short_name": "ATTICA ΒΑΝΚ",
+        "name": "ATTICA BANK S.A.",
+        "short_name": "ATTICA BANK",
         "bank_code": "016",
-        "bic": "ATTIGRAAXXX",
+        "bic": "ATTIGRAA",
         "country_code": "GR"
     },
     {
@@ -44,7 +44,7 @@
         "name": "BANK OF GREECE S.A.",
         "short_name": "BANK OF GREECE",
         "bank_code": "010",
-        "bic": "BNGRGRAAXXX",
+        "bic": "BNGRGRAA",
         "country_code": "GR"
     },
     {
@@ -92,7 +92,7 @@
         "name": "EUROBANK S.A.",
         "short_name": "EUROBANK",
         "bank_code": "026",
-        "bic": "ERBKGRAAXXX",
+        "bic": "ERBKGRAA",
         "country_code": "GR"
     },
     {
@@ -108,7 +108,7 @@
         "name": "NATIONAL BANK OF GREECE S.A.",
         "short_name": "NATIONAL BANK OF GREECE",
         "bank_code": "011",
-        "bic": "ETHNGRAAXXX",
+        "bic": "ETHNGRAA",
         "country_code": "GR"
     },
     {
@@ -116,7 +116,7 @@
         "name": "OPTIMA BANK S.A.",
         "short_name": "OPTIMA BANK",
         "bank_code": "034",
-        "bic": "IBOGGRAAXXX",
+        "bic": "IBOGGRAA",
         "country_code": "GR"
     },
     {
@@ -124,7 +124,7 @@
         "name": "PANCRETA BANK S.A.",
         "short_name": "PANCRETA BANK",
         "bank_code": "087",
-        "bic": "STPGGRAAXXX",
+        "bic": "STPGGRAA",
         "country_code": "GR"
     },
     {
@@ -132,7 +132,7 @@
         "name": "PIRAEUS BANK S.A.",
         "short_name": "PIRAEUS BANK",
         "bank_code": "017",
-        "bic": "PIRBGRAAXXX",
+        "bic": "PIRBGRAA",
         "country_code": "GR"
     },
     {
@@ -163,8 +163,8 @@
         "primary": true,
         "name": "VIVA PAYMENT SERVICES SINGLE MEMBER S.A.",
         "short_name": "VIVA PAYMENT SERVICES S.A.",
-        "bank_code": "VPAY",
-        "bic": "VPAYGRAAXXX",
+        "bank_code": "701",
+        "bic": "VPAYGRAA",
         "country_code": "GR"
     },
     {

@@ -4,16 +4,16 @@
     "primary": true,
     "bic": "HUSTHUHB",
     "bank_code": "100",
-    "name": "Magyar \u00c1llamkincst\u00e1r K\u00f6zpont",
-    "short_name": "Magyar \u00c1llamkincst\u00e1r K\u00f6zpont"
+    "name": "Magyar \u00c1llamkincst\u00e1r. \u00e9rt\u00e9kp.-p\u00e9nzt\u00e1r",
+    "short_name": "Magyar \u00c1llamkincst\u00e1r. \u00e9rt\u00e9kp.-p\u00e9nzt\u00e1r"
   },
   {
     "country_code": "HU",
     "primary": true,
     "bic": "MKKBHUHB",
     "bank_code": "101",
-    "name": "MKB Bank Nyrt. Szent Istv\u00e1n t\u00e9r",
-    "short_name": "MKB Bank Nyrt. Szent Istv\u00e1n t\u00e9r"
+    "name": "MBH 103 Szent Istv\u00e1n t\u00e9r",
+    "short_name": "MBH 103 Szent Istv\u00e1n t\u00e9r"
   },
   {
     "country_code": "HU",
@@ -22,6 +22,22 @@
     "bank_code": "102",
     "name": "K&H Bank Zrt. 242 P\u00e9cs",
     "short_name": "K&H Bank Zrt. 242 P\u00e9cs"
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "103",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "OKHBHUHB",
+    "bank_code": "104",
+    "name": "K&H Bank Zrt. 002 Budapest",
+    "short_name": "K&H Bank Zrt. 002 Budapest"
   },
   {
     "country_code": "HU",
@@ -50,6 +66,14 @@
   {
     "country_code": "HU",
     "primary": true,
+    "bic": "CIBHHUHB",
+    "bank_code": "111",
+    "name": "CIB Bank Zrt. Szabads\u00e1g t\u00e9ri Fi\u00f3k",
+    "short_name": "CIB Bank Zrt. Szabads\u00e1g t\u00e9ri Fi\u00f3k"
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
     "bic": "MANEHUHH",
     "bank_code": "114",
     "name": "NHB N\u00f6veked\u00e9si Hitel Bank Szent Istv\u00e1n",
@@ -60,8 +84,8 @@
     "primary": true,
     "bic": "TAKBHUHB",
     "bank_code": "115",
-    "name": "MTB Zrt. K\u00f6zpont",
-    "short_name": "MTB Zrt. K\u00f6zpont"
+    "name": "MBH Befektet\u00e9si Bank Zrt.  K\u00f6zpont",
+    "short_name": "MBH Befektet\u00e9si Bank Zrt.  K\u00f6zpont"
   },
   {
     "country_code": "HU",
@@ -90,6 +114,14 @@
   {
     "country_code": "HU",
     "primary": true,
+    "bic": "GIBAHUHB",
+    "bank_code": "119",
+    "name": "Erste Bank Zrt.",
+    "short_name": "Erste Bank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
     "bic": "UBRTHUHB",
     "bank_code": "120",
     "name": "Raiffeisen Bank Zrt. Budapesti Fi\u00f3k",
@@ -102,6 +134,14 @@
     "bank_code": "121",
     "name": "Gr\u00e1nit Bank Zrt.",
     "short_name": "Gr\u00e1nit Bank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "GIBAHUHB",
+    "bank_code": "125",
+    "name": "Erste Bank Zrt.",
+    "short_name": "Erste Bank Zrt."
   },
   {
     "country_code": "HU",
@@ -146,10 +186,10 @@
   {
     "country_code": "HU",
     "primary": true,
-    "bic": "COBAHUHX",
+    "bic": "GIBAHUHB",
     "bank_code": "142",
-    "name": "COMMERZBANK ZRT.",
-    "short_name": "COMMERZBANK ZRT."
+    "name": "Erste Bank Zrt.",
+    "short_name": "Erste Bank Zrt."
   },
   {
     "country_code": "HU",
@@ -212,8 +252,24 @@
     "primary": true,
     "bic": "FHJBHUHB",
     "bank_code": "168",
-    "name": "Takar\u00e9k Jelz\u00e1logbank Nyrt",
-    "short_name": "Takar\u00e9k Jelz\u00e1logbank Nyrt"
+    "name": "MBH Jelz\u00e1logbank Nyrt.",
+    "short_name": "MBH Jelz\u00e1logbank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "OTPVHUHB",
+    "bank_code": "170",
+    "name": "OTP Bank Nyrt.",
+    "short_name": "OTP Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "BACXHUHB",
+    "bank_code": "171",
+    "name": "UniCredit Jelz\u00e1logbank Zrt.",
+    "short_name": "UniCredit Jelz\u00e1logbank Zrt."
   },
   {
     "country_code": "HU",
@@ -226,10 +282,42 @@
   {
     "country_code": "HU",
     "primary": true,
-    "bic": "EHBBHUHS",
+    "bic": "HBWEHUHB",
     "bank_code": "176",
-    "name": "Sopron Bank ZRt K\u00f6zpont",
-    "short_name": "Sopron Bank ZRt K\u00f6zpont"
+    "name": "MagNet Bank Soproni fi\u00f3k",
+    "short_name": "MagNet Bank Soproni fi\u00f3k"
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "BNPAHUHX",
+    "bank_code": "178",
+    "name": "BNP-Paribas Magyarorsz\u00e1gi fi\u00f3ktelepe",
+    "short_name": "BNP-Paribas Magyarorsz\u00e1gi fi\u00f3ktelepe"
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "181",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "182",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "BNPAHUHX",
+    "bank_code": "183",
+    "name": "BNP-Paribas Magyarorsz\u00e1gi fi\u00f3ktelepe",
+    "short_name": "BNP-Paribas Magyarorsz\u00e1gi fi\u00f3ktelepe"
   },
   {
     "country_code": "HU",
@@ -242,18 +330,26 @@
   {
     "country_code": "HU",
     "primary": true,
-    "bic": "PARBHUHX",
-    "bank_code": "186",
-    "name": "BNP Paribas Securities Services",
-    "short_name": "BNP Paribas Securities Services"
+    "bic": "OTPVHUHB",
+    "bank_code": "187",
+    "name": "Banco Primus Fi\u00f3ktelep Magyarorsz\u00e1g",
+    "short_name": "Banco Primus Fi\u00f3ktelep Magyarorsz\u00e1g"
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MANEHUHH",
+    "bank_code": "190",
+    "name": "Magyar Nemzeti Bank",
+    "short_name": "Magyar Nemzeti Bank"
   },
   {
     "country_code": "HU",
     "primary": true,
     "bic": "BORGISRE",
     "bank_code": "194",
-    "name": "BORGUN hf.",
-    "short_name": "BORGUN hf."
+    "name": "Saltpay IIB hf",
+    "short_name": "Saltpay IIB hf"
   },
   {
     "country_code": "HU",
@@ -274,6 +370,14 @@
   {
     "country_code": "HU",
     "primary": true,
+    "bic": "OTPVHUHB",
+    "bank_code": "200",
+    "name": "OTP P\u00e9nzt\u00e1rszolg\u00e1ltat\u00f3 Zrt.",
+    "short_name": "OTP P\u00e9nzt\u00e1rszolg\u00e1ltat\u00f3 Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
     "bic": "OFSZHUHB",
     "bank_code": "222",
     "name": "O.F.SZ. Zrt",
@@ -290,10 +394,458 @@
   {
     "country_code": "HU",
     "primary": true,
+    "bic": "ELFZHUHH",
+    "bank_code": "297",
+    "name": "Els\u0151 Fedezetkezel\u0151 Zrt. K\u00f6zponti Fi\u00f3k",
+    "short_name": "Els\u0151 Fedezetkezel\u0151 Zrt. K\u00f6zponti Fi\u00f3k"
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "BCIRLULL",
+    "bank_code": "298",
+    "name": "Banking Circle S.A.",
+    "short_name": "Banking Circle S.A."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "500",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "501",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "503",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "504",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "507",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "508",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "510",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "511",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "512",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "514",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "515",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "517",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "519",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "520",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "523",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "525",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "526",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "528",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "531",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "532",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "533",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "535",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "536",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "537",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "539",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "540",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "542",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "543",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "545",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "546",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "551",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "554",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "556",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "558",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "568",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "569",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "571",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "572",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "574",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "576",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "577",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "578",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "581",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
     "bic": "DTBAHUHB",
     "bank_code": "586",
     "name": "DUNA Takar\u00e9k Bank Zrt.",
     "short_name": "DUNA Takar\u00e9k Bank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "589",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "590",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "591",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "592",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "593",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "595",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "596",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "598",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "599",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "603",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "606",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
   },
   {
     "country_code": "HU",
@@ -306,8 +858,520 @@
   {
     "country_code": "HU",
     "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "614",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "616",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "619",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "620",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "621",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "623",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "626",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "627",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "628",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "629",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "632",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "633",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "636",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "638",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "640",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "644",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "647",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "648",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "651",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "652",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "655",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "657",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "659",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "660",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "669",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "670",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "676",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "678",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "679",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "680",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "682",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "685",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "687",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "688",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "693",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "694",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "695",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "698",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "701",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "703",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "704",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "705",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "706",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "709",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "718",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "719",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "721",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "726",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "727",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "728",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "729",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "732",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "736",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "739",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "740",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "745",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "750",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "755",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "757",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "803",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "MKKBHUHB",
+    "bank_code": "806",
+    "name": "MBH Bank Nyrt.",
+    "short_name": "MBH Bank Nyrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
     "bic": "FLTPHUHB",
     "bank_code": "880",
+    "name": "Fundamenta-Lak\u00e1skassza Zrt.",
+    "short_name": "Fundamenta-Lak\u00e1skassza Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "OTPVHUHB",
+    "bank_code": "881",
+    "name": "OTP Lak\u00e1stakar\u00e9kp\u00e9nzt\u00e1r Zrt.",
+    "short_name": "OTP Lak\u00e1stakar\u00e9kp\u00e9nzt\u00e1r Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "FLTPHUHB",
+    "bank_code": "882",
+    "name": "Fundamenta-Lak\u00e1skassza Zrt.",
+    "short_name": "Fundamenta-Lak\u00e1skassza Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "FLTPHUHB",
+    "bank_code": "883",
     "name": "Fundamenta-Lak\u00e1skassza Zrt.",
     "short_name": "Fundamenta-Lak\u00e1skassza Zrt."
   },
@@ -318,6 +1382,14 @@
     "bank_code": "884",
     "name": "OTP Jelz\u00e1logbank Zrt.",
     "short_name": "OTP Jelz\u00e1logbank Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "OKHBHUHB",
+    "bank_code": "888",
+    "name": "K&H Jelz\u00e1logbank Zrt.",
+    "short_name": "K&H Jelz\u00e1logbank Zrt."
   },
   {
     "country_code": "HU",
