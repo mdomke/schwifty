@@ -127,6 +127,37 @@ def test_bic_from_unknown_bank_code():
     with pytest.raises(exceptions.InvalidBankCode):
         BIC.from_bank_code("PO", "12345678")
 
+@pytest.mark.parametrize(
+    "country,bank_code,bic_codes",
+    [
+        ("AT", "36274", ["RZTIAT22274"]),
+        ("BE", "002", ["GEBABEBB"]),
+        ("CZ", "0600", ["AGBACZPP"]),
+        ("ES", "0209", ["BSABESBB"]),
+        ("FI", "101", ["NDEAFIHH"]),
+        ("FR", "30004", ["BNPAFRPPIFN", "BNPAFRPPPAA", "BNPAFRPPMED", "BNPAFRPPCRN", "BNPAFRPP", "BNPAFRPPPAE", "BNPAFRPPPBQ", "BNPAFRPPNFE", "BNPAFRPPPGN", "BNPAFRPPXXX", "BNPAFRPPBOR", "BNPAFRPPCRM", "BNPAFRPPPVD", "BNPAFRPPPTX", "BNPAFRPPPAC", "BNPAFRPPPLZ", "BNPAFRPP039", "BNPAFRPPENG", "BNPAFRPPNEU", "BNPAFRPPORE", "BNPAFRPPPEE", "BNPAFRPPPXV", "BNPAFRPPIFO"]),
+        ("DE", "43060967", ["GENODEM1GLS"]),
+        ("HU", "107", ["CIBHHUHB"]),
+        ("HR", "2485003", ["CROAHR2X"]),
+        ("LV", "RIKO", ["RIKOLV2XXXX"]),
+        ("NL", "ADYB", ["ADYBNL2A"]),
+        ("PL", "10100055", ["NBPLPLPWXXX"]),
+        ("RO", "BPOS", ["BPOSROBU"]),
+        ("SE", "500", ["ESSESESS"]),
+        ("SI", "01050", ["BSLJSI2XFNB"]),
+        ("SK", "0900", ["GIBASKBX"]),
+    ],
+)
+def test_bic_candidates_from_bank_code(country, bank_code, bic_codes):
+    candidates = BIC.candidates_from_bank_code(country, bank_code)
+    for bic in candidates:
+        assert bic.compact in bic_codes
+
+
+def test_bic_candidates_from_unknown_bank_code():
+    with pytest.raises(exceptions.InvalidBankCode):
+        BIC.candidates_from_bank_code("PO", "12345678")
+
 
 def test_bic_is_from_primary_bank_code():
     bic = BIC.from_bank_code("DE", "20070024")

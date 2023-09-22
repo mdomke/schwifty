@@ -54,6 +54,74 @@ class BIC(common.Base):
             self.validate()
 
     @classmethod
+    def candidates_from_bank_code(cls, country_code: str, bank_code: str) -> list[BIC]:
+        """Create a list of potential BIC objects from country-code and domestic bank-code.
+
+        Examples:
+            >>> bic_codes = BIC.candidates_from_bank_code("FR", "30004")
+            >>> bic_codes # doctest: +NORMALIZE_WHITESPACE
+            [<BIC=BNPAFRPPIFN>, <BIC=BNPAFRPPPAA>, <BIC=BNPAFRPPMED>, \
+             <BIC=BNPAFRPPCRN>, <BIC=BNPAFRPP>, <BIC=BNPAFRPPPAE>, <BIC=BNPAFRPPPBQ>,
+             <BIC=BNPAFRPPNFE>, <BIC=BNPAFRPPPGN>, <BIC=BNPAFRPPXXX>, <BIC=BNPAFRPPBOR>,
+             <BIC=BNPAFRPPCRM>, <BIC=BNPAFRPPPVD>, <BIC=BNPAFRPPPTX>, <BIC=BNPAFRPPPAC>,
+             <BIC=BNPAFRPPPLZ>, <BIC=BNPAFRPP039>, <BIC=BNPAFRPPENG>, <BIC=BNPAFRPPNEU>,
+             <BIC=BNPAFRPPORE>, <BIC=BNPAFRPPPEE>, <BIC=BNPAFRPPPXV>, <BIC=BNPAFRPPIFO>]
+
+            >>> BIC.candidates_from_bank_code("DE", "20070024")
+            [<BIC=DEUTDEDBHAM>]
+
+            >>> BIC.candidates_from_bank_code("DE", "01010101")
+            Traceback (most recent call last):
+            ...
+            InvalidBankCode: Unknown bank code '01010101' for country 'DE'
+
+
+        Args:
+            country_code (str): ISO 3166 alpha2 country-code.
+            bank_code (str): Country specific bank-code.
+
+        Returns:
+            list[BIC]: a list of BIC objects generated from the given country code and bank code.
+
+        Raises:
+            InvalidBankCode: If the given bank code wasn't found in the registry
+
+        Note:
+            This currently only works for selected countries. Amongst them
+
+            * Austria
+            * Belgium
+            * Bulgaria
+            * Croatia
+            * Czech Republic
+            * Finland
+            * France
+            * Germany
+            * Great Britan
+            * Hungary
+            * Ireland
+            * Latvia
+            * Lithuania
+            * Netherlands
+            * Poland
+            * Romania
+            * Saudi Arabia
+            * Slovakia
+            * Slovenia
+            * Spain
+            * Sweden
+            * Switzerland
+        """
+        try:
+            spec = registry.get("bank_list_code")
+            assert isinstance(spec, dict)
+            return [cls(entry["bic"]) for entry in spec[(country_code, bank_code)]]
+        except KeyError:
+            raise exceptions.InvalidBankCode(
+                f"Unknown bank code {bank_code!r} for country {country_code!r}"
+            )
+
+    @classmethod
     def from_bank_code(cls, country_code: str, bank_code: str) -> BIC:
         """Create a new BIC object from country-code and domestic bank-code.
 
@@ -109,9 +177,8 @@ class BIC(common.Base):
             * Switzerland
         """
         try:
-            spec = registry.get("bank_code")
-            assert isinstance(spec, dict)
-            return cls(spec[(country_code, bank_code)]["bic"])
+            entries = cls.candidates_from_bank_code(country_code, bank_code)
+            return entries[0]
         except KeyError:
             raise exceptions.InvalidBankCode(
                 f"Unknown bank code {bank_code!r} for country {country_code!r}"
@@ -316,3 +383,4 @@ class BIC(common.Base):
 
 registry.build_index("bank", "bic", key="bic", accumulate=True)
 registry.build_index("bank", "bank_code", key=("country_code", "bank_code"), primary=True)
+registry.build_index("bank", "bank_list_code", key=("country_code", "bank_code"), primary=True, build_list=True)

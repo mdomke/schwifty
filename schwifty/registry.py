@@ -76,6 +76,7 @@ def build_index(
     index_name: str,
     key: Union[str, Tuple],
     accumulate: bool = False,
+    build_list: bool = False,
     **predicate: Any,
 ) -> None:
     def make_key(entry: Dict) -> Union[Tuple, str]:
@@ -94,7 +95,18 @@ def build_index(
             data[make_key(entry)].append(entry)
         save(index_name, dict(data))
     else:
-        save(index_name, {make_key(entry): entry for entry in base if match(entry)})
+        entries = {}
+        for entry in base:
+            if match(entry):
+                entry_key = make_key(entry)
+                if build_list:
+                    if entry_key not in entries:
+                        entries[entry_key] = [entry]
+                    else:
+                        entries[entry_key].append(entry)
+                else:
+                    entries[entry_key] = entry
+        save(index_name, entries)
 
 
 def manipulate(name: str, func: Callable) -> None:
