@@ -9,7 +9,7 @@ Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro
 -------------------------
 Removed
 ~~~~~~~
-* Support for Python 3.7 and 3.8 has been dropped. Only Python versions 3.9+ are supported.
+* Support for Python 3.7 has been dropped.
 
 Added
 ~~~~~
