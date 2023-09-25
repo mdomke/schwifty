@@ -1,5 +1,5 @@
 import pytest
-from pycountry import countries
+from pycountry import countries  # type: ignore
 
 from schwifty import BIC
 from schwifty import exceptions
@@ -119,8 +119,7 @@ def test_invalid_bic(code: str, exc: type[Exception]) -> None:
     ],
 )
 def test_bic_from_bank_code(country: str, bank_code: str, bic: str) -> None:
-    bic = BIC.from_bank_code(country, bank_code)
-    assert bic.compact == bic
+    assert BIC.from_bank_code(country, bank_code).compact == bic
 
 
 def test_bic_from_unknown_bank_code():

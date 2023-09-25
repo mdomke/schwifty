@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [envs.lint.scripts]
-typing = "mypy --install-types --non-interactive {args:schwifty}"
+typing = "mypy --install-types --non-interactive {args:schwifty tests}"
 style = [
   "black --check --diff {args:.}",
   "ruff {args:.}",
