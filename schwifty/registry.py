@@ -5,16 +5,17 @@ import json
 import pathlib
 import sys
 from collections import defaultdict
-from importlib.abc import Traversable
 from pathlib import Path
 from typing import Any
 from typing import Callable
 
 
 try:
+    from importlib.abc import Traversable
     from importlib.resources import files
 except ImportError:
     from importlib_resources import files  # type: ignore
+    from importlib_resources.abc import Traversable  # type: ignore
 
 
 _registry: dict[str, dict | list[dict]] = {}
