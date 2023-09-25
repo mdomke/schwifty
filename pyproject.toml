@@ -25,7 +25,7 @@ authors = [
     { name = "Martin Domke", email = "mail@martindomke.net" },
 ]
 dependencies = [
-    "importlib_resources;python_version<='3.8'",
+    "importlib_resources; python_version <= '3.8'",
     "iso3166",
     "pycountry",
 ]
