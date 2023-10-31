@@ -78,6 +78,7 @@ def test_unknown_bic_properties() -> None:
         ("GENODEM1GLS", "passive"),
         ("GENODEM2GLS", "reverse billing"),
         ("GENODEMMGLS", "default"),
+        ("1234DEWWXXX", "default"),
     ],
 )
 def test_bic_type(code: str, type: str) -> None:  # noqa: A002
@@ -90,7 +91,6 @@ def test_bic_type(code: str, type: str) -> None:  # noqa: A002
     [
         ("AAAA", exceptions.InvalidLength),
         ("AAAADEM1GLSX", exceptions.InvalidLength),
-        ("12ABDEM1GLS", exceptions.InvalidStructure),
         ("GENOD1M1GLS", exceptions.InvalidStructure),
         ("GENOXXM1GLS", exceptions.InvalidCountryCode),
     ],
