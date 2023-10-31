@@ -101,6 +101,3 @@ def test_belgium_checksum_failure():
 
 def test_belgium_checksum_checksum_edge_case():
     assert algorithms["BE:default"].validate("050000017797") is True
-
-def test_netherlands_checksum():
-    assert algorithms["NL:default"].validate("0417164300") is True

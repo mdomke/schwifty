@@ -38,4 +38,3 @@ from schwifty.checksum import belgium  # noqa
 from schwifty.checksum import france  # noqa
 from schwifty.checksum import germany  # noqa
 from schwifty.checksum import italy  # noqa
-from schwifty.checksum import netherlands  # noqa
