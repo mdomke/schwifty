@@ -19,6 +19,6 @@ class DefaultAlgorithm(checksum.Algorithm):
         acc_number = bban[-10:]
         total = 0
         for i, digit in enumerate(map(int, acc_number)):
-            total += i * (10-i)
+            total += digit * (10-i)
 
         return total % 11 == 0
