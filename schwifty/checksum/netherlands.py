@@ -1,7 +1,6 @@
 import functools
 
 from schwifty import checksum
-from schwifty import registry
 
 
 register = functools.partial(checksum.register, prefix="NL")
@@ -13,7 +12,7 @@ class DefaultAlgorithm(checksum.Algorithm):
     accepts = checksum.InputType.BBAN
 
     def compute(self, bban: str) -> str:
-        raise Exception('Cannot compute checksum for Netherlands')
+        raise NotImplementedError('Cannot compute checksum for Netherlands')
 
     def validate(self, bban: str) -> bool:
         acc_number = bban[-10:]
