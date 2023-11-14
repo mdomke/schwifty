@@ -108,6 +108,7 @@ def test_invalid_bic(code: str, exc: type[Exception]) -> None:
         ("CZ", "0600", "AGBACZPP"),
         ("ES", "0209", "BSABESBB"),
         ("FI", "101", "NDEAFIHH"),
+        ("FR", "30004", "BNPAFRPPXXX"),
         ("DE", "43060967", "GENODEM1GLS"),
         ("HU", "107", "CIBHHUHB"),
         ("HR", "2485003", "CROAHR2X"),
