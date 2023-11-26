@@ -5,6 +5,13 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+`2023.11.1`_ - tbd
+-------------------------
+Changed
+~~~~~~~
+* The Swiss bank registry is now generated from the SIX Group.
+
+
 `2023.11.0`_ - 2023/11/17
 -------------------------
 Changed
@@ -435,6 +442,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2023.11.1: https://github.com/mdomke/schwifty/compare/2023.11.0...2023.11.1
 .. _2023.11.0: https://github.com/mdomke/schwifty/compare/2023.10.0...2023.11.0
 .. _2023.10.0: https://github.com/mdomke/schwifty/compare/2023.09.0...2023.10.0
 .. _2023.09.0: https://github.com/mdomke/schwifty/compare/2023.06.0...2023.09.0

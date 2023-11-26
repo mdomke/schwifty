@@ -110,6 +110,8 @@ def test_invalid_bic(code: str, exc: type[Exception]) -> None:
     [
         ("AT", "36274", "RZTIAT22274"),
         ("BE", "002", "GEBABEBB"),
+        ("CH", "00777", "KBSZCH22XXX"),
+        ("CH", "08390", "ABSOCH22XXX"),
         ("CZ", "0600", "AGBACZPP"),
         ("DE", "43060967", "GENODEM1GLS"),
         ("ES", "0209", "BSABESBB"),
@@ -149,6 +151,7 @@ def test_bic_from_unknown_bank_code():
     [
         ("AT", "36274", ["RZTIAT22274"]),
         ("BE", "002", ["GEBABEBB"]),
+        ("CH", "00100", ["SNBZCHZZXXX"]),
         ("CZ", "0600", ["AGBACZPP"]),
         ("ES", "0209", ["BSABESBB"]),
         ("FI", "101", ["NDEAFIHH"]),
