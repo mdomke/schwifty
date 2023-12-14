@@ -2400,6 +2400,14 @@
       "primary": true
     },
     {
+      "country_code": "FR",
+      "bic": "REVOFRP2",
+      "bank_code": "28233",
+      "name": "REVOLUT BANK UAB",
+      "short_name": "REVOLUT",
+      "primary": true
+    },
+    {
         "country_code": "FR",
         "bic": "SWNBFR22",
         "bank_code": "17328",
