@@ -2392,6 +2392,14 @@
         "primary": true
     },
     {
+      "country_code": "FR",
+      "bic": "MEMOFRP2XXX",
+      "bank_code": "17338",
+      "name": "MEMO BANK",
+      "short_name": "MEMO BANK",
+      "primary": true
+    },
+    {
         "country_code": "FR",
         "bic": "SWNBFR22",
         "bank_code": "17328",
