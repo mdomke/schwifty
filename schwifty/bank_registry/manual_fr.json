@@ -2406,5 +2406,13 @@
         "name": "OKALI",
         "short_name": "OKALI",
         "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "FEFIFR21XXX",
+        "bank_code": "15900",
+        "name": "FEDERAL FINANCE",
+        "short_name": "ARKEA BP BREST",
+        "primary": true
     }
 ]
