@@ -2392,6 +2392,22 @@
         "primary": true
     },
     {
+      "country_code": "FR",
+      "bic": "MEMOFRP2XXX",
+      "bank_code": "17338",
+      "name": "MEMO BANK",
+      "short_name": "MEMO BANK",
+      "primary": true
+    },
+    {
+      "country_code": "FR",
+      "bic": "REVOFRP2",
+      "bank_code": "28233",
+      "name": "REVOLUT BANK UAB",
+      "short_name": "REVOLUT",
+      "primary": true
+    },
+    {
         "country_code": "FR",
         "bic": "SWNBFR22",
         "bank_code": "17328",
@@ -2413,6 +2429,14 @@
         "bank_code": "17598",
         "name": "LYDIA SOLUTIONS",
         "short_name": "LYDIA",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "SNNNFR22",
+        "bank_code": "17418",
+        "name": "SHINE",
+        "short_name": "SHINE",
         "primary": true
     }
 ]
