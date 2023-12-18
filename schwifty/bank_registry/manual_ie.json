@@ -206,5 +206,13 @@
     "name": "Wells Fargo Bank International Unlimited Company",
     "short_name": "Wells Fargo Bank International Unlimited Company",
     "primary": true
+  },
+  {
+    "country_code": "IE",
+    "bic": "SUMUIE22",
+    "bank_code": "SUMU",
+    "name": "SumUp Limited",
+    "short_name": "SumUp",
+    "primary": true
   }
 ]
