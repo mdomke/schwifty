@@ -2406,5 +2406,13 @@
         "name": "OKALI",
         "short_name": "OKALI",
         "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "LYDIFRP2",
+        "bank_code": "17598",
+        "name": "LYDIA SOLUTIONS",
+        "short_name": "LYDIA",
+        "primary": true
     }
 ]
