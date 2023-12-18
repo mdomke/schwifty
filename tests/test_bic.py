@@ -127,6 +127,7 @@ def test_invalid_bic(code: str, exc: type[Exception]) -> None:
         ("IT", "01015", "SARDIT31"),  # generated
         ("IT", "01030", "PASCITMM"),  # curated
         ("LV", "RIKO", "RIKOLV2XXXX"),
+        ("MC", "30003", "SOGEMCM1"),
         ("NL", "ADYB", "ADYBNL2A"),
         ("PL", "10100055", "NBPLPLPWXXX"),
         ("PL", "10900004", "WBKPPLPPXXX"),
