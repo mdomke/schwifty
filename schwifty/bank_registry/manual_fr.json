@@ -2446,5 +2446,13 @@
         "name": "SHINE",
         "short_name": "SHINE",
         "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "PSSSFR22",
+        "bank_code": "25733",
+        "name": "PPS EU SA",
+        "short_name": "Anytime",
+        "primary": true
     }
 ]
