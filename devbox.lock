@@ -3,6 +3,7 @@
   "packages": {
     "python@3.12": {
       "last_modified": "2023-12-13T22:54:10Z",
+      "plugin_version": "0.0.3",
       "resolved": "github:NixOS/nixpkgs/fd04bea4cbf76f86f244b9e2549fca066db8ddff#python312",
       "source": "devbox-search",
       "version": "3.12.1",
