@@ -1,24 +1,23 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "python@3.11": {
-      "last_modified": "2023-11-17T14:14:56Z",
-      "plugin_version": "0.0.3",
-      "resolved": "github:NixOS/nixpkgs/a71323f68d4377d12c04a5410e214495ec598d4c#python3",
+    "python@3.12": {
+      "last_modified": "2023-12-13T22:54:10Z",
+      "resolved": "github:NixOS/nixpkgs/fd04bea4cbf76f86f244b9e2549fca066db8ddff#python312",
       "source": "devbox-search",
-      "version": "3.11.6",
+      "version": "3.12.1",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/ai4hd8f1xhr0rfjdr17bxx1rwi42sx97-python3-3.11.6"
+          "store_path": "/nix/store/ph2c8v66fnn59bjd3n6gf6ijby35fy97-python3-3.12.1"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/7ahkv87jj59z90yal5dcrgagz58cqmz6-python3-3.11.6"
+          "store_path": "/nix/store/crw8ipyh7njx484zssl8h2cw4kg1dr4r-python3-3.12.1"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/dc4xnyqi2kh25f1c74dfczxw95anbhhr-python3-3.11.6"
+          "store_path": "/nix/store/fl15fnagapcq8csawqpbbifjlhx7wxgg-python3-3.12.1"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/qp5zys77biz7imbk6yy85q5pdv7qk84j-python3-3.11.6"
+          "store_path": "/nix/store/3vcbpxqx9lq044manf6jnkri8krifz5s-python3-3.12.1"
         }
       }
     }

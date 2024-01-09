@@ -11,8 +11,8 @@ from typing import Callable
 
 
 try:
-    from importlib.abc import Traversable
     from importlib.resources import files
+    from importlib.resources.abc import Traversable
 except ImportError:
     from importlib_resources import files  # type: ignore
     from importlib_resources.abc import Traversable  # type: ignore
