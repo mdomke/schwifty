@@ -4558,5 +4558,13 @@
     "bic": "",
     "name": "CAIXA D'ESTALVIS LAIETANA",
     "short_name": "CAIXA LAIETANA"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bank_code": "1583",
+    "bic": "REVOESM2XXX",
+    "name": "REVOLUT BANK UAB",
+    "short_name": "REVOLUT BANK UAB"
   }
 ]
