@@ -18,10 +18,13 @@ except ImportError:
     from importlib_resources.abc import Traversable  # type: ignore
 
 
-_registry: dict[str, dict | list[dict]] = {}
+Key = str | tuple
+Value = dict[Key, Any] | list[dict[Key, Any]]
+
+_registry: dict[Key, Value] = {}
 
 
-def merge_dicts(left: dict, right: dict) -> dict:
+def merge_dicts(left: dict[Key, Any], right: dict[Key, Any]) -> dict[Key, Any]:
     merged = {}
     for key in frozenset(right) & frozenset(left):
         left_value, right_value = left[key], right[key]
@@ -36,50 +39,52 @@ def merge_dicts(left: dict, right: dict) -> dict:
     return merged
 
 
-def has(name: str) -> bool:
+def has(name: Key) -> bool:
     return name in _registry
 
 
-def get(name: str) -> dict | list[dict]:
-    if not has(name):
-        data = None
-        package_path: Traversable | Path
-        if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
-            package_path = Path(sys._MEIPASS)
-        else:
-            package_path = files(__package__)
-        directory = package_path / f"{name}_registry"
-        assert isinstance(directory, pathlib.Path)
-        for entry in sorted(directory.glob("*.json")):
-            with entry.open(encoding="utf-8") as fp:
-                chunk = json.load(fp)
-                if data is None:
-                    data = chunk
-                elif isinstance(data, list):
-                    data.extend(chunk)
-                elif isinstance(data, dict):
-                    data = merge_dicts(data, chunk)
-        if data is None:
-            raise ValueError(f"Failed to load registry {name}")
-        save(name, data)
-    return _registry[name]
+def get(name: Key) -> Value:
+    if has(name):
+        return _registry[name]
+
+    data = None
+    package_path: Traversable | Path
+    if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
+        package_path = Path(sys._MEIPASS)
+    else:
+        package_path = files(__package__)
+    directory = package_path / f"{name}_registry"
+    assert isinstance(directory, pathlib.Path)
+    for entry in sorted(directory.glob("*.json")):
+        with entry.open(encoding="utf-8") as fp:
+            chunk = json.load(fp)
+            if data is None:
+                data = chunk
+            elif isinstance(data, list):
+                data.extend(chunk)
+            elif isinstance(data, dict):
+                data = merge_dicts(data, chunk)
+    if data is None:
+        raise ValueError(f"Failed to load registry {name}")
+    return save(name, data)
 
 
-def save(name: str, data: dict | list[dict]) -> None:
+def save(name: Key, data: Value) -> Value:
     _registry[name] = data
+    return data
 
 
 def build_index(
     base_name: str,
     index_name: str,
-    key: str | tuple,
+    key: str | tuple[str, ...],
     accumulate: bool = False,
     **predicate: Any,
 ) -> None:
-    def make_key(entry: dict) -> tuple | str:
+    def make_key(entry: dict[Key, Any]) -> tuple | str:
         return tuple(entry[k] for k in key) if isinstance(key, tuple) else entry[key]
 
-    def match(entry: dict) -> bool:
+    def match(entry: dict[Key, Any]) -> bool:
         return all(entry[key] == value for key, value in predicate.items())
 
     base = get(base_name)
@@ -100,7 +105,7 @@ def build_index(
         save(index_name, entries)
 
 
-def manipulate(name: str, func: Callable) -> None:
+def manipulate(name: Key, func: Callable) -> None:
     registry = get(name)
     if isinstance(registry, dict):
         for key, value in registry.items():
