@@ -6,7 +6,7 @@
     "init_hook": "test $FISH_VERSION && . $VENV_DIR/bin/activate.fish || . $VENV_DIR/bin/activate",
     "scripts": {
       "setup": [
-        "pip install hatch==1.7.0 pre-commit==3.3.3",
+        "pip install hatch==1.9.0 pre-commit==3.7.0",
         "pre-commit install"
       ]
     }
