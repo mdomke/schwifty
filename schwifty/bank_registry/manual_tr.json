@@ -315,7 +315,7 @@
     "country_code": "TR",
     "name": "D Yat\u0131r\u0131m Bankas\u0131 A.\u015e.",
     "short_name": "D Yat\u0131r\u0131m Bankas\u0131 A.\u015e.",
-    "bank_code": "0151",
+    "bank_code": "00151",
     "bic": "YATITRIS",
     "primary": true
   },
@@ -323,7 +323,7 @@
     "country_code": "TR",
     "name": "Destek Yat\u0131r\u0131m Bankas\u0131 A.\u015e.",
     "short_name": "Destek Yat\u0131r\u0131m Bankas\u0131 A.\u015e.",
-    "bank_code": "0152",
+    "bank_code": "00152",
     "bic": "DEYATRIS",
     "primary": true
   },
