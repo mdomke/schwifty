@@ -108,4 +108,4 @@ def test_netherlands_checksum() -> None:
 
 
 def test_norway_checksum_checksum_edge_case() -> None:
-    assert algorithms["NO:default"].validate(["6042", "143964"], "26") is True
+    assert algorithms["NO:default"].validate(["6042", "143964"], "0") is True
