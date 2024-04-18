@@ -32,3 +32,11 @@ class InvalidChecksumDigits(SchwiftyException):
 
 class InvalidBBANChecksum(SchwiftyException):
     """Indicates that the BBAN's checksum is invalid."""
+
+
+class GenerateRandomOverflowError(SchwiftyException):
+    """Indicates that during random entity generation no valid value could be found.
+
+    This could for example be the case if the national checksum digit does not compute for
+    a randomly chosen account code.
+    """

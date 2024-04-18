@@ -29,6 +29,7 @@ dependencies = [
     "importlib_resources>=5.10; python_version <= '3.11'",
     "iso3166",
     "pycountry",
+    "rstr",
 ]
 
 [project.optional-dependencies]

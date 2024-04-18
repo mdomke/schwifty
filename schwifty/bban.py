@@ -1,7 +1,11 @@
 from __future__ import annotations
 
+from dataclasses import dataclass
+from random import Random
 from typing import Any
 from typing import cast
+
+from rstr import Rstr
 
 from schwifty import common
 from schwifty import exceptions
@@ -11,7 +15,21 @@ from schwifty.checksum import algorithms
 from schwifty.domain import Component
 
 
-EMPTY_RANGE = (0, 0)
+@dataclass
+class Range:
+    start: int = 0
+    end: int = 0
+
+    @property
+    def length(self) -> int:
+        return self.end - self.start
+
+    @property
+    def is_empty(self) -> bool:
+        return self.start == 0 and self.end == 0
+
+    def cut(self, s: str) -> str:
+        return s[self.start : self.end]
 
 
 def _get_bban_spec(country_code: str) -> dict[str, Any]:
@@ -23,13 +41,12 @@ def _get_bban_spec(country_code: str) -> dict[str, Any]:
         raise exceptions.InvalidCountryCode(f"Unknown country-code '{country_code}'") from e
 
 
-def _get_position_range(spec: dict[str, Any], component_type: Component) -> tuple[int, int]:
-    return spec.get("positions", {}).get(component_type, EMPTY_RANGE)
+def _get_position_range(spec: dict[str, Any], component_type: Component) -> Range:
+    return Range(*spec.get("positions", {}).get(component_type, [0, 0]))
 
 
-def calc_value_length(spec: dict[str, Any], component_type: Component) -> int:
-    start, end = _get_position_range(spec, component_type)
-    return end - start
+def _get_position_ranges(spec: dict[str, Any]) -> dict[Component, Range]:
+    return {component: _get_position_range(spec, component) for component in Component}
 
 
 def compute_national_checksum(country_code: str, components: dict[Component, str]) -> str:
@@ -84,50 +101,109 @@ class BBAN(common.Base):
         if "positions" not in spec:
             raise exceptions.SchwiftyException(f"BBAN generation for {country_code} not supported")
 
-        bank_code_length: int = calc_value_length(spec, Component.BANK_CODE)
-        branch_code_length: int = calc_value_length(spec, Component.BRANCH_CODE)
-        account_code_length: int = calc_value_length(spec, Component.ACCOUNT_CODE)
+        ranges = _get_position_ranges(spec)
+        components: dict[Component, str] = {}
+        for key, range_ in ranges.items():
+            components[key] = common.clean(values.get(key, "")).zfill(range_.length)
 
-        country_code = common.clean(country_code)
-        bank_code = common.clean(values.get("bank_code", ""))
-        account_code = common.clean(values.get("account_code", ""))
-        branch_code = common.clean(values.get("branch_code", ""))
+        bank_code_length: int = ranges[Component.BANK_CODE].length
+        branch_code_length: int = ranges[Component.BRANCH_CODE].length
+        account_code_length: int = ranges[Component.ACCOUNT_CODE].length
 
-        if len(bank_code) == bank_code_length + branch_code_length:
-            bank_code, branch_code = bank_code[:bank_code_length], bank_code[bank_code_length:]
+        if len(components[Component.BANK_CODE]) == bank_code_length + branch_code_length:
+            components[Component.BRANCH_CODE] = components[Component.BANK_CODE][
+                bank_code_length : bank_code_length + branch_code_length
+            ]
+            components[Component.BANK_CODE] = components[Component.BANK_CODE][:bank_code_length]
 
-        if len(bank_code) > bank_code_length:
+        if len(components[Component.BANK_CODE]) > bank_code_length:
             raise exceptions.InvalidBankCode(f"Bank code exceeds maximum size {bank_code_length}")
 
-        if len(branch_code) > branch_code_length:
+        if len(components[Component.BRANCH_CODE]) > branch_code_length:
             raise exceptions.InvalidBranchCode(
                 f"Branch code exceeds maximum size {branch_code_length}"
             )
 
-        if len(account_code) > account_code_length:
+        if len(components[Component.ACCOUNT_CODE]) > account_code_length:
             raise exceptions.InvalidAccountCode(
                 f"Account code exceeds maximum size {account_code_length}"
             )
 
-        components = {
-            Component.BANK_CODE: bank_code.zfill(bank_code_length),
-            Component.BRANCH_CODE: branch_code.zfill(branch_code_length),
-            Component.ACCOUNT_CODE: account_code.zfill(account_code_length),
-        }
-        components[Component.NATIONAL_CHECKSUM_DIGITS] = compute_national_checksum(
-            country_code, components
-        )
+        checksum = compute_national_checksum(country_code, components)
+        if checksum:
+            components[Component.NATIONAL_CHECKSUM_DIGITS] = checksum
 
         bban = "0" * spec["bban_length"]
         for key, value in components.items():
-            position_range = _get_position_range(spec, key)
-            if position_range == EMPTY_RANGE:
+            range_ = ranges[key]
+            if range_.is_empty:
                 continue
-            end = position_range[1]
-            start = end - len(value)
-            bban = bban[:start] + value + bban[end:]
+            bban = bban[: range_.start] + value + bban[range_.end :]
 
         return cls(country_code, bban)
+
+    @classmethod
+    def random(cls, country_code: str = "", random: Random | None = None, **values: str) -> BBAN:
+        """Generate a random BBAN.
+
+        With no further arguments a random bank from the registry will be selected as basis for the
+        bank code and the BBAN structure. All other components, e.g. the account code will be
+        generated with the alphabet allowed by the BBAN spec.
+
+        If a ``country_code``
+
+        Args:
+            country_code (str): The ISO 3166 alpha-2 country code.
+            random (Random): An alternative random number generator.
+            values: The country specific BBAN components that should be taken as is and not be
+                    generated.
+        Raises:
+            GenerateRandomOverflowError: If no valid random value can be gerated after multiple
+                                         tries.
+        """
+        if random is None:
+            random = Random()  # noqa: S311
+
+        banks_by_country = cast(dict[str, Any], registry.get("country"))
+        if not country_code:
+            country_code = random.choice(list(banks_by_country.keys()))
+
+        rstr = Rstr(random)
+        spec = _get_bban_spec(country_code)
+        bank: dict[str, Any] = {}
+        if (banks := banks_by_country.get(country_code)) is not None:
+            bank = random.choice(banks)
+
+        ranges = _get_position_ranges(spec)
+        for _ in range(100):
+            bban = rstr.xeger(spec["regex"]).upper()
+            components: dict[Component, str] = {}
+            for key, range_ in ranges.items():
+                if (value := values.get(key)) is not None:
+                    components[key] = value
+                else:
+                    components[key] = bank.get(key) or range_.cut(bban)
+
+            bank_code = components[Component.BANK_CODE]
+            bank_code_length = ranges[Component.BANK_CODE].length
+            branch_code_length = ranges[Component.BRANCH_CODE].length
+
+            if len(bank_code) >= bank_code_length + branch_code_length:
+                start = bank_code_length
+                end = start + branch_code_length
+                components[Component.BRANCH_CODE] = bank_code[start:end]
+
+            for key, value in components.items():
+                components[key] = value[: ranges[key].length]
+
+            try:
+                return cls.from_components(
+                    country_code, **{key.value: value for key, value in components.items()}
+                )
+            except exceptions.SchwiftyException:
+                pass
+        else:
+            raise exceptions.GenerateRandomOverflowError
 
     def validate_national_checksum(self) -> bool:
         """bool: Validate the national checksum digits.
@@ -146,8 +222,8 @@ class BBAN(common.Base):
         return False
 
     def _get_component(self, component_type: Component) -> str:
-        start, end = _get_position_range(self.spec, component_type)
-        return self._get_slice(start, end)
+        position = _get_position_range(self.spec, component_type)
+        return self._get_slice(position.start, position.end)
 
     @property
     def spec(self) -> dict[str, Any]:
@@ -216,7 +292,11 @@ class BBAN(common.Base):
         """dict | None: The information of bank related to this BBANs bank code."""
         bank_registry = registry.get("bank_code")
         assert isinstance(bank_registry, dict)
-        bank_entry = bank_registry.get((self.country_code, self.bank_code or self.branch_code))
+
+        lookup_by = self.spec.get("bic_lookup_components", [Component.BANK_CODE])
+        key = "".join(self._get_component(component) for component in lookup_by)
+
+        bank_entry = bank_registry.get((self.country_code, key))
         if not bank_entry:
             return None
         return bank_entry and bank_entry[0]
@@ -240,3 +320,6 @@ class BBAN(common.Base):
             'Commerzbank Köln'
         """
         return None if self.bank is None else self.bank["short_name"]
+
+
+registry.build_index("bank", "country", key="country_code", accumulate=True)

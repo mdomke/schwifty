@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from random import Random
 from typing import Any
 from typing import TYPE_CHECKING
 
@@ -105,7 +106,12 @@ class IBAN(common.Base):
 
     @classmethod
     def generate(
-        cls, country_code: str, bank_code: str, account_code: str, branch_code: str = ""
+        cls,
+        country_code: str,
+        bank_code: str,
+        account_code: str,
+        branch_code: str = "",
+        **kwargs: Any,
     ) -> IBAN:
         """Generate an IBAN from it's components.
 
@@ -147,6 +153,11 @@ class IBAN(common.Base):
                 account_code=account_code,
             ),
         )
+
+    @classmethod
+    def random(cls, country_code: str = "", random: Random | None = None, **values: str) -> IBAN:
+        bban = BBAN.random(country_code, random=random, **values)
+        return cls.from_bban(bban.country_code, bban)
 
     def validate(self, validate_bban: bool = False) -> bool:
         """Validate the structural integrity of this IBAN.

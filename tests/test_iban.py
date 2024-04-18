@@ -358,6 +358,12 @@ def test_unknown_bank_name_short_from_iban() -> None:
     assert IBAN("SI72000001234567892").bank_short_name is None
 
 
+def test_random_iban() -> None:
+    for _ in range(100):
+        iban = IBAN.random()
+        assert isinstance(iban, IBAN)
+
+
 def test_pydantic_protocol() -> None:
     from pydantic import BaseModel
     from pydantic import ValidationError
