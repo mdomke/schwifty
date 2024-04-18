@@ -335,18 +335,6 @@
       ]
     }
   },
-  "DK": {
-    "positions": {
-      "account_code": [
-        4,
-        13
-      ],
-      "national_checksum_digits": [
-        13,
-        14
-      ]
-    }
-  },
   "DZ": {
     "bban_spec": "22!n",
     "bban_length": 22,

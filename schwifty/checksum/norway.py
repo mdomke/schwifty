@@ -27,4 +27,4 @@ class DefaultAlgorithm(checksum.Algorithm):
         check_digit = 11 - (total % 11)
         if check_digit == 10:
             raise InvalidAccountCode("Check digit does not compute: Invalid account code.")
-        return str(check_digit % 10)
+        return str(check_digit % 11)

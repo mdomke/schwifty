@@ -8,6 +8,12 @@ def test_validate_bics():
         BIC(bic, allow_invalid=False)
 
 
+def test_validate_cz_encoding():
+    assert "Komerční banka, a.s.", "Československá obchodní banka, a. s." in [
+        bank["name"] for bank in registry.get("bank") if bank["country_code"] == "CZ"
+    ]
+
+
 def test_valid_national_checksum_pl():
     bank_by_country = registry.get("country")
     algo = DefaultAlgorithm()

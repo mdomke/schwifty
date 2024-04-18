@@ -4,16 +4,16 @@
     "primary": true,
     "bic": "KOMBCZPP",
     "bank_code": "0100",
-    "name": "Komer\u00c4\u008dn\u00c3\u00ad banka, a.s.",
-    "short_name": "Komer\u00c4\u008dn\u00c3\u00ad banka, a.s."
+    "name": "Komer\u010dn\u00ed banka, a.s.",
+    "short_name": "Komer\u010dn\u00ed banka, a.s."
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "CEKOCZPP",
     "bank_code": "0300",
-    "name": "\u00c4\u008ceskoslovensk\u00c3\u00a1 obchodn\u00c3\u00ad banka, a. s.",
-    "short_name": "\u00c4\u008ceskoslovensk\u00c3\u00a1 obchodn\u00c3\u00ad banka, a. s."
+    "name": "\u010ceskoslovensk\u00e1 obchodn\u00ed banka, a. s.",
+    "short_name": "\u010ceskoslovensk\u00e1 obchodn\u00ed banka, a. s."
   },
   {
     "country_code": "CZ",
@@ -28,16 +28,16 @@
     "primary": true,
     "bic": "CNBACZPP",
     "bank_code": "0710",
-    "name": "\u00c4\u008cESK\u00c3\u0081 N\u00c3\u0081RODN\u00c3\u008d BANKA",
-    "short_name": "\u00c4\u008cESK\u00c3\u0081 N\u00c3\u0081RODN\u00c3\u008d BANKA"
+    "name": "\u010cESK\u00c1 N\u00c1RODN\u00cd BANKA",
+    "short_name": "\u010cESK\u00c1 N\u00c1RODN\u00cd BANKA"
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "GIBACZPX",
     "bank_code": "0800",
-    "name": "\u00c4\u008cesk\u00c3\u00a1 spo\u00c5\u0099itelna, a.s.",
-    "short_name": "\u00c4\u008cesk\u00c3\u00a1 spo\u00c5\u0099itelna, a.s."
+    "name": "\u010cesk\u00e1 spo\u0159itelna, a.s.",
+    "short_name": "\u010cesk\u00e1 spo\u0159itelna, a.s."
   },
   {
     "country_code": "CZ",
@@ -52,8 +52,8 @@
     "primary": true,
     "bic": "CITFCZPP",
     "bank_code": "2060",
-    "name": "Citfin, spo\u00c5\u0099iteln\u00c3\u00ad dru\u00c5\u00bestvo",
-    "short_name": "Citfin, spo\u00c5\u0099iteln\u00c3\u00ad dru\u00c5\u00bestvo"
+    "name": "Citfin, spo\u0159iteln\u00ed dru\u017estvo",
+    "short_name": "Citfin, spo\u0159iteln\u00ed dru\u017estvo"
   },
   {
     "country_code": "CZ",
@@ -68,24 +68,24 @@
     "primary": true,
     "bic": "",
     "bank_code": "2100",
-    "name": "Hypote\u00c4\u008dn\u00c3\u00ad banka, a.s.",
-    "short_name": "Hypote\u00c4\u008dn\u00c3\u00ad banka, a.s."
+    "name": "\u010cSOB Hypote\u010dn\u00ed banka, a.s.",
+    "short_name": "\u010cSOB Hypote\u010dn\u00ed banka, a.s."
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "",
     "bank_code": "2200",
-    "name": "Pen\u00c4\u009b\u00c5\u00ben\u00c3\u00ad d\u00c5\u00afm, spo\u00c5\u0099iteln\u00c3\u00ad dru\u00c5\u00bestvo",
-    "short_name": "Pen\u00c4\u009b\u00c5\u00ben\u00c3\u00ad d\u00c5\u00afm, spo\u00c5\u0099iteln\u00c3\u00ad dru\u00c5\u00bestvo"
+    "name": "Pen\u011b\u017en\u00ed d\u016fm, spo\u0159iteln\u00ed dru\u017estvo",
+    "short_name": "Pen\u011b\u017en\u00ed d\u016fm, spo\u0159iteln\u00ed dru\u017estvo"
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "ARTTCZPP",
     "bank_code": "2220",
-    "name": "Artesa, spo\u00c5\u0099iteln\u00c3\u00ad dru\u00c5\u00bestvo",
-    "short_name": "Artesa, spo\u00c5\u0099iteln\u00c3\u00ad dru\u00c5\u00bestvo"
+    "name": "Artesa, spo\u0159iteln\u00ed dru\u017estvo",
+    "short_name": "Artesa, spo\u0159iteln\u00ed dru\u017estvo"
   },
   {
     "country_code": "CZ",
@@ -100,24 +100,24 @@
     "primary": true,
     "bic": "",
     "bank_code": "2260",
-    "name": "NEY spo\u00c5\u0099iteln\u00c3\u00ad dru\u00c5\u00bestvo",
-    "short_name": "NEY spo\u00c5\u0099iteln\u00c3\u00ad dru\u00c5\u00bestvo"
+    "name": "NEY spo\u0159iteln\u00ed dru\u017estvo",
+    "short_name": "NEY spo\u0159iteln\u00ed dru\u017estvo"
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "",
     "bank_code": "2275",
-    "name": "Podnikatelsk\u00c3\u00a1 dru\u00c5\u00bestevn\u00c3\u00ad z\u00c3\u00a1lo\u00c5\u00bena",
-    "short_name": "Podnikatelsk\u00c3\u00a1 dru\u00c5\u00bestevn\u00c3\u00ad z\u00c3\u00a1lo\u00c5\u00bena"
+    "name": "Podnikatelsk\u00e1 dru\u017estevn\u00ed z\u00e1lo\u017ena",
+    "short_name": "Podnikatelsk\u00e1 dru\u017estevn\u00ed z\u00e1lo\u017ena"
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "CITICZPX",
     "bank_code": "2600",
-    "name": "Citibank Europe plc, organiza\u00c4\u008dn\u00c3\u00ad slo\u00c5\u00beka",
-    "short_name": "Citibank Europe plc, organiza\u00c4\u008dn\u00c3\u00ad slo\u00c5\u00beka"
+    "name": "Citibank Europe plc, organiza\u010dn\u00ed slo\u017eka",
+    "short_name": "Citibank Europe plc, organiza\u010dn\u00ed slo\u017eka"
   },
   {
     "country_code": "CZ",
@@ -140,8 +140,8 @@
     "primary": true,
     "bic": "BPPFCZP1",
     "bank_code": "3050",
-    "name": "BNP Paribas Personal Finance SA, od\u00c5\u00a1t\u00c4\u009bpn\u00c3\u00bd z\u00c3\u00a1vod",
-    "short_name": "BNP Paribas Personal Finance SA, od\u00c5\u00a1t\u00c4\u009bpn\u00c3\u00bd z\u00c3\u00a1vod"
+    "name": "BNP Paribas Personal Finance SA, od\u0161t\u011bpn\u00fd z\u00e1vod",
+    "short_name": "BNP Paribas Personal Finance SA, od\u0161t\u011bpn\u00fd z\u00e1vod"
   },
   {
     "country_code": "CZ",
@@ -172,8 +172,8 @@
     "primary": true,
     "bic": "NROZCZPP",
     "bank_code": "4300",
-    "name": "N\u00c3\u00a1rodn\u00c3\u00ad rozvojov\u00c3\u00a1 banka, a.s.",
-    "short_name": "N\u00c3\u00a1rodn\u00c3\u00ad rozvojov\u00c3\u00a1 banka, a.s."
+    "name": "N\u00e1rodn\u00ed rozvojov\u00e1 banka, a.s.",
+    "short_name": "N\u00e1rodn\u00ed rozvojov\u00e1 banka, a.s."
   },
   {
     "country_code": "CZ",
@@ -204,24 +204,24 @@
     "primary": true,
     "bic": "COBACZPX",
     "bank_code": "6200",
-    "name": "COMMERZBANK Aktiengesellschaft, pobo\u00c4\u008dka Praha",
-    "short_name": "COMMERZBANK Aktiengesellschaft, pobo\u00c4\u008dka Praha"
+    "name": "COMMERZBANK Aktiengesellschaft, pobo\u010dka Praha",
+    "short_name": "COMMERZBANK Aktiengesellschaft, pobo\u010dka Praha"
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "BREXCZPP",
     "bank_code": "6210",
-    "name": "mBank S.A., organiza\u00c4\u008dn\u00c3\u00ad slo\u00c5\u00beka",
-    "short_name": "mBank S.A., organiza\u00c4\u008dn\u00c3\u00ad slo\u00c5\u00beka"
+    "name": "mBank S.A., organiza\u010dn\u00ed slo\u017eka",
+    "short_name": "mBank S.A., organiza\u010dn\u00ed slo\u017eka"
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "GEBACZPP",
     "bank_code": "6300",
-    "name": "BNP Paribas S.A., pobo\u00c4\u008dka \u00c4\u008cesk\u00c3\u00a1 republika",
-    "short_name": "BNP Paribas S.A., pobo\u00c4\u008dka \u00c4\u008cesk\u00c3\u00a1 republika"
+    "name": "BNP Paribas S.A., pobo\u010dka \u010cesk\u00e1 republika",
+    "short_name": "BNP Paribas S.A., pobo\u010dka \u010cesk\u00e1 republika"
   },
   {
     "country_code": "CZ",
@@ -236,8 +236,8 @@
     "primary": true,
     "bic": "SUBACZPP",
     "bank_code": "6700",
-    "name": "V\u00c5\u00a1eobecn\u00c3\u00a1 \u00c3\u00baverov\u00c3\u00a1 banka a.s., pobo\u00c4\u008dka Praha",
-    "short_name": "V\u00c5\u00a1eobecn\u00c3\u00a1 \u00c3\u00baverov\u00c3\u00a1 banka a.s., pobo\u00c4\u008dka Praha"
+    "name": "V\u0161eobecn\u00e1 \u00faverov\u00e1 banka a.s., pobo\u010dka Praha",
+    "short_name": "V\u0161eobecn\u00e1 \u00faverov\u00e1 banka a.s., pobo\u010dka Praha"
   },
   {
     "country_code": "CZ",
@@ -252,72 +252,72 @@
     "primary": true,
     "bic": "DEUTCZPX",
     "bank_code": "7910",
-    "name": "Deutsche Bank Aktiengesellschaft Filiale Prag, organiza\u00c4\u008dn\u00c3\u00ad slo\u00c5\u00beka",
-    "short_name": "Deutsche Bank Aktiengesellschaft Filiale Prag, organiza\u00c4\u008dn\u00c3\u00ad slo\u00c5\u00beka"
+    "name": "Deutsche Bank Aktiengesellschaft Filiale Prag, organiza\u010dn\u00ed slo\u017eka",
+    "short_name": "Deutsche Bank Aktiengesellschaft Filiale Prag, organiza\u010dn\u00ed slo\u017eka"
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "",
     "bank_code": "7950",
-    "name": "Raiffeisen stavebn\u00c3\u00ad spo\u00c5\u0099itelna a.s.",
-    "short_name": "Raiffeisen stavebn\u00c3\u00ad spo\u00c5\u0099itelna a.s."
+    "name": "Raiffeisen stavebn\u00ed spo\u0159itelna a.s.",
+    "short_name": "Raiffeisen stavebn\u00ed spo\u0159itelna a.s."
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "",
     "bank_code": "7960",
-    "name": "\u00c4\u008cSOB Stavebn\u00c3\u00ad spo\u00c5\u0099itelna, a.s.",
-    "short_name": "\u00c4\u008cSOB Stavebn\u00c3\u00ad spo\u00c5\u0099itelna, a.s."
+    "name": "\u010cSOB Stavebn\u00ed spo\u0159itelna, a.s.",
+    "short_name": "\u010cSOB Stavebn\u00ed spo\u0159itelna, a.s."
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "",
     "bank_code": "7970",
-    "name": "MONETA Stavebn\u00c3\u00ad Spo\u00c5\u0099itelna, a.s.",
-    "short_name": "MONETA Stavebn\u00c3\u00ad Spo\u00c5\u0099itelna, a.s."
+    "name": "MONETA Stavebn\u00ed Spo\u0159itelna, a.s.",
+    "short_name": "MONETA Stavebn\u00ed Spo\u0159itelna, a.s."
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "",
     "bank_code": "7990",
-    "name": "Modr\u00c3\u00a1 pyramida stavebn\u00c3\u00ad spo\u00c5\u0099itelna, a.s.",
-    "short_name": "Modr\u00c3\u00a1 pyramida stavebn\u00c3\u00ad spo\u00c5\u0099itelna, a.s."
+    "name": "Modr\u00e1 pyramida stavebn\u00ed spo\u0159itelna, a.s.",
+    "short_name": "Modr\u00e1 pyramida stavebn\u00ed spo\u0159itelna, a.s."
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "GENOCZ21",
     "bank_code": "8030",
-    "name": "Volksbank Raiffeisenbank Nordoberpfalz eG pobo\u00c4\u008dka Cheb",
-    "short_name": "Volksbank Raiffeisenbank Nordoberpfalz eG pobo\u00c4\u008dka Cheb"
+    "name": "Volksbank Raiffeisenbank Nordoberpfalz eG pobo\u010dka Cheb",
+    "short_name": "Volksbank Raiffeisenbank Nordoberpfalz eG pobo\u010dka Cheb"
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "OBKLCZ2X",
     "bank_code": "8040",
-    "name": "Oberbank AG pobo\u00c4\u008dka \u00c4\u008cesk\u00c3\u00a1 republika",
-    "short_name": "Oberbank AG pobo\u00c4\u008dka \u00c4\u008cesk\u00c3\u00a1 republika"
+    "name": "Oberbank AG pobo\u010dka \u010cesk\u00e1 republika",
+    "short_name": "Oberbank AG pobo\u010dka \u010cesk\u00e1 republika"
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "",
     "bank_code": "8060",
-    "name": "Stavebn\u00c3\u00ad spo\u00c5\u0099itelna \u00c4\u008cesk\u00c3\u00a9 spo\u00c5\u0099itelny, a.s.",
-    "short_name": "Stavebn\u00c3\u00ad spo\u00c5\u0099itelna \u00c4\u008cesk\u00c3\u00a9 spo\u00c5\u0099itelny, a.s."
+    "name": "Stavebn\u00ed spo\u0159itelna \u010cesk\u00e9 spo\u0159itelny, a.s.",
+    "short_name": "Stavebn\u00ed spo\u0159itelna \u010cesk\u00e9 spo\u0159itelny, a.s."
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "CZEECZPP",
     "bank_code": "8090",
-    "name": "\u00c4\u008cesk\u00c3\u00a1 exportn\u00c3\u00ad banka, a.s.",
-    "short_name": "\u00c4\u008cesk\u00c3\u00a1 exportn\u00c3\u00ad banka, a.s."
+    "name": "\u010cesk\u00e1 exportn\u00ed banka, a.s.",
+    "short_name": "\u010cesk\u00e1 exportn\u00ed banka, a.s."
   },
   {
     "country_code": "CZ",
@@ -364,16 +364,16 @@
     "primary": true,
     "bic": "COMMCZPP",
     "bank_code": "8255",
-    "name": "Bank of Communications Co., Ltd., Prague Branch od\u00c5\u00a1t\u00c4\u009bpn\u00c3\u00bd z\u00c3\u00a1vod",
-    "short_name": "Bank of Communications Co., Ltd., Prague Branch od\u00c5\u00a1t\u00c4\u009bpn\u00c3\u00bd z\u00c3\u00a1vod"
+    "name": "Bank of Communications Co., Ltd., Prague Branch od\u0161t\u011bpn\u00fd z\u00e1vod",
+    "short_name": "Bank of Communications Co., Ltd., Prague Branch od\u0161t\u011bpn\u00fd z\u00e1vod"
   },
   {
     "country_code": "CZ",
     "primary": true,
     "bic": "ICBKCZPP",
     "bank_code": "8265",
-    "name": "Industrial and Commercial Bank of China Limited, Prague Branch, od\u00c5\u00a1t\u00c4\u009bpn\u00c3\u00bd z\u00c3\u00a1vod",
-    "short_name": "Industrial and Commercial Bank of China Limited, Prague Branch, od\u00c5\u00a1t\u00c4\u009bpn\u00c3\u00bd z\u00c3\u00a1vod"
+    "name": "Industrial and Commercial Bank of China Limited, Prague Branch, od\u0161t\u011bpn\u00fd z\u00e1vod",
+    "short_name": "Industrial and Commercial Bank of China Limited, Prague Branch, od\u0161t\u011bpn\u00fd z\u00e1vod"
   },
   {
     "country_code": "CZ",
