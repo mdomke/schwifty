@@ -90,6 +90,15 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "10012345",
+    "name": "Trade Republic Bank",
+    "short_name": "Trade Republic Bank, Berlin",
+    "bic": "TRBKDEBBXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
     "bank_code": "10014000",
     "name": "Swan Zweigniederlassung Deutschland",
     "short_name": "Swan Zndl Deutschland",
@@ -858,6 +867,15 @@
     "bank_code": "12070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB171",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "12070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEBB172",
     "primary": false,
     "country_code": "DE",
@@ -912,7 +930,25 @@
     "bank_code": "12070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB162",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "12070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEBB182",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "12070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB181",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -931,6 +967,24 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEBB175",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "12070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB183",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "12070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB125",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -958,6 +1012,42 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEBB163",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "12070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB188",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "12070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB164",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "12070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB184",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "12070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB165",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -1002,6 +1092,15 @@
     "bank_code": "12070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB126",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "12070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEBB176",
     "primary": false,
     "country_code": "DE",
@@ -1038,114 +1137,6 @@
     "bank_code": "12070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB189",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "12070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB183",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "12070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB169",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "12070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB124",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "12070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB171",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "12070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB162",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "12070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB181",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "12070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB125",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "12070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB188",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "12070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB164",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "12070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB184",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "12070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB126",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "12070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDEBB178",
     "primary": false,
     "country_code": "DE",
@@ -1164,6 +1155,15 @@
     "bank_code": "12070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB189",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "12070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEBB168",
     "primary": false,
     "country_code": "DE",
@@ -1173,7 +1173,16 @@
     "bank_code": "12070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB165",
+    "bic": "DEUTDEBB169",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "12070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB124",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -1299,6 +1308,15 @@
     "bank_code": "12070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB166",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "12070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB183",
     "primary": false,
     "country_code": "DE",
@@ -1390,15 +1408,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB120",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "12070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB166",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -1668,6 +1677,15 @@
     "bank_code": "13070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBR132",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "13070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEBR133",
     "primary": false,
     "country_code": "DE",
@@ -1687,6 +1705,15 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEBB131",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "13070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB132",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -1776,6 +1803,33 @@
     "bank_code": "13070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB145",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "13070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB146",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "13070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB147",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "13070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEBB154",
     "primary": false,
     "country_code": "DE",
@@ -1786,6 +1840,15 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEBR136",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "13070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBR137",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -1839,6 +1902,24 @@
     "bank_code": "13070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB157",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "13070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEBB158",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "13070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEBB148",
     "primary": false,
     "country_code": "DE",
@@ -1858,78 +1939,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEBB159",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "13070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB132",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "13070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB145",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "13070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB146",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "13070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB147",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "13070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBR137",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "13070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB158",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "13070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBB157",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "13070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEBR132",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -3639,25 +3648,7 @@
     "bank_code": "20070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEHH205",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "20070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEHH202",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "20070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEHH207",
+    "bic": "DEUTDEHH201",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -3675,7 +3666,16 @@
     "bank_code": "20070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEHH221",
+    "bic": "DEUTDEHH207",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "20070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEHH211",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -3693,7 +3693,16 @@
     "bank_code": "20070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEHH201",
+    "bic": "DEUTDEHH221",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "20070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEHH205",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -3720,7 +3729,7 @@
     "bank_code": "20070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEHH209",
+    "bic": "DEUTDEHH202",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -3738,25 +3747,25 @@
     "bank_code": "20070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEHH204",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "20070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEHH211",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "20070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDEHH213",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "20070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEHH209",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "20070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEHH204",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -6510,15 +6519,6 @@
     "bank_code": "25070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB243",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "25070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB250",
     "primary": false,
     "country_code": "DE",
@@ -6529,6 +6529,15 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB252",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "25070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB251",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -6555,24 +6564,6 @@
     "bank_code": "25070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB256",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "25070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB251",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "25070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB933",
     "primary": false,
     "country_code": "DE",
@@ -6582,7 +6573,25 @@
     "bank_code": "25070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB256",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "25070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB258",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "25070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB243",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -6618,7 +6627,7 @@
     "bank_code": "25070070",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE2H283",
+    "bic": "DEUTDE2H252",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -6636,7 +6645,7 @@
     "bank_code": "25070070",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE2H252",
+    "bic": "DEUTDE2H283",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -7770,7 +7779,7 @@
     "bank_code": "26570090",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B270",
+    "bic": "DEUTDE3B268",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -7788,7 +7797,7 @@
     "bank_code": "26570090",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B268",
+    "bic": "DEUTDE3B270",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -8013,7 +8022,7 @@
     "bank_code": "26770095",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B274",
+    "bic": "DEUTDE3B273",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -8022,7 +8031,7 @@
     "bank_code": "26770095",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B273",
+    "bic": "DEUTDE3B274",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -8301,6 +8310,15 @@
     "bank_code": "27070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB272",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "27070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB278",
     "primary": false,
     "country_code": "DE",
@@ -8310,7 +8328,25 @@
     "bank_code": "27070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB279",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "27070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB271",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "27070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB273",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -8329,33 +8365,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB274",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "27070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB272",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "27070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB279",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "27070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB273",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -8400,7 +8409,7 @@
     "bank_code": "27070034",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE2H281",
+    "bic": "DEUTDE2H278",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -8409,7 +8418,7 @@
     "bank_code": "27070034",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE2H278",
+    "bic": "DEUTDE2H281",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -10221,7 +10230,7 @@
     "bic": "TUBDDEDDXXX",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "56"
+    "checksum_algo": "00"
   },
   {
     "bank_code": "30030900",
@@ -10371,24 +10380,6 @@
     "bank_code": "30070010",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDD307",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "30070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDD300",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "30070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDD305",
     "primary": false,
     "country_code": "DE",
@@ -10398,7 +10389,7 @@
     "bank_code": "30070010",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDD301",
+    "bic": "DEUTDEDD307",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -10407,7 +10398,7 @@
     "bank_code": "30070010",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDD304",
+    "bic": "DEUTDEDD301",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -10426,6 +10417,24 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDD302",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "30070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDD300",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "30070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDD304",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -11010,6 +11019,15 @@
     "bank_code": "31070001",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDD319",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "31070001",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDD317",
     "primary": false,
     "country_code": "DE",
@@ -11020,15 +11038,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDD318",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "31070001",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDD319",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -11154,7 +11163,7 @@
     "bank_code": "31470004",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDD315",
+    "bic": "DEUTDEDD316",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -11163,7 +11172,7 @@
     "bank_code": "31470004",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDD316",
+    "bic": "DEUTDEDD315",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -11361,7 +11370,7 @@
     "bank_code": "32070080",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDD331",
+    "bic": "DEUTDEDD329",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -11370,7 +11379,7 @@
     "bank_code": "32070080",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDD329",
+    "bic": "DEUTDEDD331",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -11478,7 +11487,7 @@
     "bank_code": "32470077",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDD325",
+    "bic": "DEUTDEDD326",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -11487,7 +11496,7 @@
     "bank_code": "32470077",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDD326",
+    "bic": "DEUTDEDD325",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -11649,15 +11658,6 @@
     "bank_code": "33070090",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDW333",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "33070090",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDW332",
     "primary": false,
     "country_code": "DE",
@@ -11667,7 +11667,7 @@
     "bank_code": "33070090",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDW330",
+    "bic": "DEUTDEDW333",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -11677,6 +11677,15 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDW334",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "33070090",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDW330",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -11820,34 +11829,25 @@
     "bank_code": "34060094",
     "name": "Volksbank im Bergischen Land",
     "short_name": "Volksbank i.Bergischen Land",
+    "bic": "VBRSDE33346",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "00"
+  },
+  {
+    "bank_code": "34060094",
+    "name": "Volksbank im Bergischen Land",
+    "short_name": "Volksbank i.Bergischen Land",
+    "bic": "VBRSDE33347",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "00"
+  },
+  {
+    "bank_code": "34060094",
+    "name": "Volksbank im Bergischen Land",
+    "short_name": "Volksbank i.Bergischen Land",
     "bic": "VBRSDE33305",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "00"
-  },
-  {
-    "bank_code": "34060094",
-    "name": "Volksbank im Bergischen Land",
-    "short_name": "Volksbank i.Bergischen Land",
-    "bic": "VBRSDE33343",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "00"
-  },
-  {
-    "bank_code": "34060094",
-    "name": "Volksbank im Bergischen Land",
-    "short_name": "Volksbank i.Bergischen Land",
-    "bic": "VBRSDE33330",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "00"
-  },
-  {
-    "bank_code": "34060094",
-    "name": "Volksbank im Bergischen Land",
-    "short_name": "Volksbank i.Bergischen Land",
-    "bic": "VBRSDE33342",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "00"
@@ -11865,6 +11865,24 @@
     "bank_code": "34060094",
     "name": "Volksbank im Bergischen Land",
     "short_name": "Volksbank i.Bergischen Land",
+    "bic": "VBRSDE33343",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "00"
+  },
+  {
+    "bank_code": "34060094",
+    "name": "Volksbank im Bergischen Land",
+    "short_name": "Volksbank i.Bergischen Land",
+    "bic": "VBRSDE33342",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "00"
+  },
+  {
+    "bank_code": "34060094",
+    "name": "Volksbank im Bergischen Land",
+    "short_name": "Volksbank i.Bergischen Land",
     "bic": "VBRSDE33341",
     "primary": false,
     "country_code": "DE",
@@ -11874,16 +11892,7 @@
     "bank_code": "34060094",
     "name": "Volksbank im Bergischen Land",
     "short_name": "Volksbank i.Bergischen Land",
-    "bic": "VBRSDE33346",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "00"
-  },
-  {
-    "bank_code": "34060094",
-    "name": "Volksbank im Bergischen Land",
-    "short_name": "Volksbank i.Bergischen Land",
-    "bic": "VBRSDE33347",
+    "bic": "VBRSDE33330",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "00"
@@ -11955,6 +11964,15 @@
     "bank_code": "34070093",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDW345",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "34070093",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDW346",
     "primary": false,
     "country_code": "DE",
@@ -11965,15 +11983,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDW341",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "34070093",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDW345",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -13042,8 +13051,8 @@
   },
   {
     "bank_code": "37069330",
-    "name": "Volksbank Haaren",
-    "short_name": "Volksbank Haaren",
+    "name": "Volksbank Haaren -alt-",
+    "short_name": "Volksbank Haaren -alt-",
     "bic": "GENODED1HAW",
     "primary": true,
     "country_code": "DE",
@@ -13422,25 +13431,7 @@
     "bank_code": "37070060",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK372",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "37070060",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK370",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "37070060",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK373",
+    "bic": "DEUTDEDK379",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -13458,7 +13449,16 @@
     "bank_code": "37070060",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK354",
+    "bic": "DEUTDEDK373",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "37070060",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK370",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -13476,7 +13476,34 @@
     "bank_code": "37070060",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK353",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "37070060",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK354",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "37070060",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDK355",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "37070060",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK372",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -13494,7 +13521,16 @@
     "bank_code": "37070060",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK360",
+    "bic": "DEUTDEDK357",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "37070060",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK358",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -13512,43 +13548,16 @@
     "bank_code": "37070060",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK360",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "37070060",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDK371",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "37070060",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK379",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "37070060",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK357",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "37070060",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK353",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "37070060",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK358",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -14079,6 +14088,15 @@
     "bank_code": "38070059",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK387",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "38070059",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDK385",
     "primary": false,
     "country_code": "DE",
@@ -14097,15 +14115,6 @@
     "bank_code": "38070059",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK388",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "38070059",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDK384",
     "primary": false,
     "country_code": "DE",
@@ -14115,7 +14124,7 @@
     "bank_code": "38070059",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK387",
+    "bic": "DEUTDEDK388",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -14403,7 +14412,7 @@
     "bank_code": "39070020",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK391",
+    "bic": "DEUTDEDK399",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -14421,7 +14430,7 @@
     "bank_code": "39070020",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK392",
+    "bic": "DEUTDEDK391",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -14430,7 +14439,7 @@
     "bank_code": "39070020",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK394",
+    "bic": "DEUTDEDK401",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -14448,7 +14457,16 @@
     "bank_code": "39070020",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK399",
+    "bic": "DEUTDEDK394",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "39070020",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK392",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -14472,11 +14490,11 @@
     "checksum_algo": "63"
   },
   {
-    "bank_code": "39070020",
+    "bank_code": "39070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK401",
-    "primary": false,
+    "bic": "DEUTDEDB390",
+    "primary": true,
     "country_code": "DE",
     "checksum_algo": "63"
   },
@@ -14484,8 +14502,8 @@
     "bank_code": "39070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB390",
-    "primary": true,
+    "bic": "DEUTDEDB399",
+    "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
   },
@@ -14548,15 +14566,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB393",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "39070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB399",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -15033,6 +15042,24 @@
     "bank_code": "40070080",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE3B440",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "40070080",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE3B441",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "40070080",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE3B442",
     "primary": false,
     "country_code": "DE",
@@ -15051,25 +15078,7 @@
     "bank_code": "40070080",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B441",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "40070080",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDE3B404",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "40070080",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B440",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -15402,7 +15411,7 @@
     "bank_code": "40370079",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B406",
+    "bic": "DEUTDE3B405",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -15411,7 +15420,7 @@
     "bank_code": "40370079",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B405",
+    "bic": "DEUTDE3B406",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -15429,7 +15438,7 @@
     "bank_code": "40370079",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B409",
+    "bic": "DEUTDE3B407",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -15447,7 +15456,7 @@
     "bank_code": "40370079",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B407",
+    "bic": "DEUTDE3B409",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -15951,25 +15960,7 @@
     "bank_code": "42070062",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDE384",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "42070062",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDE422",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "42070062",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDE424",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -15987,7 +15978,16 @@
     "bank_code": "42070062",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDE425",
+    "bic": "DEUTDEDE424",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "42070062",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDE384",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -15997,6 +15997,15 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDE426",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "42070062",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDE425",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -16075,8 +16084,8 @@
   },
   {
     "bank_code": "42651315",
-    "name": "Stadtsparkasse Haltern am See",
-    "short_name": "St Spk Haltern",
+    "name": "Stadtsparkasse Haltern am See -alt-",
+    "short_name": "St Spk Haltern -alt-",
     "bic": "WELADED1HAT",
     "primary": true,
     "country_code": "DE",
@@ -16383,7 +16392,7 @@
     "bank_code": "43070061",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDE434",
+    "bic": "DEUTDEDE432",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -16392,7 +16401,7 @@
     "bank_code": "43070061",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDE432",
+    "bic": "DEUTDEDE434",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -16617,7 +16626,7 @@
     "bank_code": "44070050",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDE443",
+    "bic": "DEUTDEDE444",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -16626,7 +16635,7 @@
     "bank_code": "44070050",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDE444",
+    "bic": "DEUTDEDE443",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -16824,6 +16833,15 @@
     "bank_code": "44570004",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDW444",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "44570004",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDW447",
     "primary": false,
     "country_code": "DE",
@@ -16833,7 +16851,7 @@
     "bank_code": "44570004",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDW444",
+    "bic": "DEUTDEDW448",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -16852,15 +16870,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDW443",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "44570004",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDW448",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -17040,7 +17049,7 @@
     "bank_code": "45070002",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDW456",
+    "bic": "DEUTDEDW453",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -17049,7 +17058,7 @@
     "bank_code": "45070002",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDW453",
+    "bic": "DEUTDEDW456",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -17553,34 +17562,7 @@
     "bank_code": "46070090",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK461",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "46070090",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK466",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "46070090",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK463",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "46070090",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK516",
+    "bic": "DEUTDEDK467",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -17598,7 +17580,43 @@
     "bank_code": "46070090",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK467",
+    "bic": "DEUTDEDK463",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "46070090",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK469",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "46070090",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK466",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "46070090",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK461",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "46070090",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK516",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -17616,16 +17634,7 @@
     "bank_code": "46070090",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK465",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "46070090",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK474",
+    "bic": "DEUTDEDK475",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -17643,7 +17652,25 @@
     "bank_code": "46070090",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK469",
+    "bic": "DEUTDEDK474",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "46070090",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK472",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "46070090",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDK465",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -17671,24 +17698,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDK464",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "46070090",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK475",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "46070090",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDK472",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -17868,7 +17877,7 @@
     "bank_code": "46670007",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDW467",
+    "bic": "DEUTDEDW468",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -17877,7 +17886,7 @@
     "bank_code": "46670007",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDW468",
+    "bic": "DEUTDEDW467",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -18039,6 +18048,15 @@
     "bank_code": "47260121",
     "name": "VerbundVolksbank OWL",
     "short_name": "VerbundVolksbank OWL",
+    "bic": "DGPBDE3MDTM",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "34"
+  },
+  {
+    "bank_code": "47260121",
+    "name": "VerbundVolksbank OWL",
+    "short_name": "VerbundVolksbank OWL",
     "bic": "DGPBDE3MHOV",
     "primary": false,
     "country_code": "DE",
@@ -18049,42 +18067,6 @@
     "name": "VerbundVolksbank OWL",
     "short_name": "VerbundVolksbank OWL",
     "bic": "DGPBDE3MHOX",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "34"
-  },
-  {
-    "bank_code": "47260121",
-    "name": "VerbundVolksbank OWL",
-    "short_name": "VerbundVolksbank OWL",
-    "bic": "DGPBDE3MWAR",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "34"
-  },
-  {
-    "bank_code": "47260121",
-    "name": "VerbundVolksbank OWL",
-    "short_name": "VerbundVolksbank OWL",
-    "bic": "DGPBDE3MSTE",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "34"
-  },
-  {
-    "bank_code": "47260121",
-    "name": "VerbundVolksbank OWL",
-    "short_name": "VerbundVolksbank OWL",
-    "bic": "DGPBDE3MSAL",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "34"
-  },
-  {
-    "bank_code": "47260121",
-    "name": "VerbundVolksbank OWL",
-    "short_name": "VerbundVolksbank OWL",
-    "bic": "DGPBDE3MDTM",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "34"
@@ -18120,15 +18102,6 @@
     "bank_code": "47260121",
     "name": "VerbundVolksbank OWL",
     "short_name": "VerbundVolksbank OWL",
-    "bic": "DGPBDE3MOER",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "34"
-  },
-  {
-    "bank_code": "47260121",
-    "name": "VerbundVolksbank OWL",
-    "short_name": "VerbundVolksbank OWL",
     "bic": "DGPBDE3MMND",
     "primary": false,
     "country_code": "DE",
@@ -18138,7 +18111,43 @@
     "bank_code": "47260121",
     "name": "VerbundVolksbank OWL",
     "short_name": "VerbundVolksbank OWL",
+    "bic": "DGPBDE3MOER",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "34"
+  },
+  {
+    "bank_code": "47260121",
+    "name": "VerbundVolksbank OWL",
+    "short_name": "VerbundVolksbank OWL",
     "bic": "DGPBDE3MEPW",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "34"
+  },
+  {
+    "bank_code": "47260121",
+    "name": "VerbundVolksbank OWL",
+    "short_name": "VerbundVolksbank OWL",
+    "bic": "DGPBDE3MSAL",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "34"
+  },
+  {
+    "bank_code": "47260121",
+    "name": "VerbundVolksbank OWL",
+    "short_name": "VerbundVolksbank OWL",
+    "bic": "DGPBDE3MSTE",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "34"
+  },
+  {
+    "bank_code": "47260121",
+    "name": "VerbundVolksbank OWL",
+    "short_name": "VerbundVolksbank OWL",
+    "bic": "DGPBDE3MWAR",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "34"
@@ -18282,15 +18291,6 @@
     "bank_code": "47270029",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B475",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "47270029",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDE3B473",
     "primary": false,
     "country_code": "DE",
@@ -18300,7 +18300,7 @@
     "bank_code": "47270029",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B451",
+    "bic": "DEUTDE3B474",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -18309,7 +18309,16 @@
     "bank_code": "47270029",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B474",
+    "bic": "DEUTDE3B475",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "47270029",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE3B451",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -18363,15 +18372,6 @@
     "bank_code": "47670023",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B450",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "47670023",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDE3B477",
     "primary": false,
     "country_code": "DE",
@@ -18381,7 +18381,16 @@
     "bank_code": "47670023",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B478",
+    "bic": "DEUTDE3B450",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "47670023",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE3B452",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -18399,7 +18408,7 @@
     "bank_code": "47670023",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B452",
+    "bic": "DEUTDE3B478",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -18768,70 +18777,7 @@
     "bank_code": "48070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB483",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "48070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB486",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "48070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB413",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "48070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB480",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "48070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB484",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "48070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB485",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "48070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB487",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "48070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB489",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -18849,6 +18795,33 @@
     "bank_code": "48070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB480",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "48070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB483",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "48070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB484",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "48070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB481",
     "primary": false,
     "country_code": "DE",
@@ -18858,7 +18831,43 @@
     "bank_code": "48070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB485",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "48070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB486",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "48070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB487",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "48070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB488",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "48070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB489",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -19110,7 +19119,7 @@
     "bank_code": "49070028",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B494",
+    "bic": "DEUTDE3B493",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -19119,7 +19128,7 @@
     "bank_code": "49070028",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE3B493",
+    "bic": "DEUTDE3B494",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -19396,8 +19405,8 @@
   },
   {
     "bank_code": "50025000",
-    "name": "Opel Bank, Niederlassung Deutschland",
-    "short_name": "Opel Bank",
+    "name": "Stellantis Bank Niederlassung Deutschland",
+    "short_name": "Stellantis Bank Ndl DE",
     "bic": "GMGGDE51XXX",
     "primary": true,
     "country_code": "DE",
@@ -19414,8 +19423,8 @@
   },
   {
     "bank_code": "50030000",
-    "name": "PSA Bank Deutschland",
-    "short_name": "PSA Bank Neu-Isenburg",
+    "name": "Stellantis Bank Niederlassung Deutschland",
+    "short_name": "Stellantis Bank Ndl DE",
     "bic": "PSADDEF1XXX",
     "primary": true,
     "country_code": "DE",
@@ -19423,8 +19432,8 @@
   },
   {
     "bank_code": "50030010",
-    "name": "PSA Bank Deutschland",
-    "short_name": "PSA Bank Neu-Isenburg",
+    "name": "Stellantis Bank Niederlassung Deutschland",
+    "short_name": "Stellantis Bank Ndl DE",
     "bic": "BPNDDE52XXX",
     "primary": true,
     "country_code": "DE",
@@ -20127,7 +20136,16 @@
     "bank_code": "50070010",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEFF542",
+    "bic": "DEUTDEFF503",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "50070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFF540",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -20145,25 +20163,16 @@
     "bank_code": "50070010",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFF542",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "50070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEFF504",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "50070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEFF503",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "50070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEFF540",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -20925,6 +20934,15 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "50127700",
+    "name": "PAYONE",
+    "short_name": "PAYONE Frankfurt",
+    "bic": "PAYODE22XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
     "bank_code": "50130000",
     "name": "National Bank of Pakistan Zndl Frankfurt",
     "short_name": "Naba Frankfurt Main",
@@ -21160,8 +21178,8 @@
   },
   {
     "bank_code": "50320000",
-    "name": "VTB Bank (Europe)",
-    "short_name": "VTB Bank (Europe) Ffm",
+    "name": "OWH",
+    "short_name": "OWH",
     "bic": "OWHBDEFFXXX",
     "primary": true,
     "country_code": "DE",
@@ -21405,34 +21423,7 @@
     "bank_code": "50570018",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEFF507",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "50570018",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEFF549",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "50570018",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEFF546",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "50570018",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEFF548",
+    "bic": "DEUTDEFF544",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -21450,7 +21441,7 @@
     "bank_code": "50570018",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEFF544",
+    "bic": "DEUTDEFF546",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -21460,6 +21451,33 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEFF547",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "50570018",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFF548",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "50570018",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFF507",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "50570018",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEFF549",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -24231,7 +24249,7 @@
     "bank_code": "54570094",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESM544",
+    "bic": "DEUTDESM549",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -24240,7 +24258,7 @@
     "bank_code": "54570094",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESM549",
+    "bic": "DEUTDESM544",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -25320,7 +25338,7 @@
     "bank_code": "57070045",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE5M573",
+    "bic": "DEUTDE5M571",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -25338,7 +25356,7 @@
     "bank_code": "57070045",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE5M571",
+    "bic": "DEUTDE5M573",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -26949,25 +26967,7 @@
     "bank_code": "60050101",
     "name": "Baden-W\u00fcrttemb.Bank/Landesbank Baden-W\u00fcrttemb.",
     "short_name": "BW-Bank/LBBW Stuttgart",
-    "bic": "SOLADEST493",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "01"
-  },
-  {
-    "bank_code": "60050101",
-    "name": "Baden-W\u00fcrttemb.Bank/Landesbank Baden-W\u00fcrttemb.",
-    "short_name": "BW-Bank/LBBW Stuttgart",
     "bic": "SOLADEST880",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "01"
-  },
-  {
-    "bank_code": "60050101",
-    "name": "Baden-W\u00fcrttemb.Bank/Landesbank Baden-W\u00fcrttemb.",
-    "short_name": "BW-Bank/LBBW Stuttgart",
-    "bic": "SOLADEST447",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "01"
@@ -26985,7 +26985,16 @@
     "bank_code": "60050101",
     "name": "Baden-W\u00fcrttemb.Bank/Landesbank Baden-W\u00fcrttemb.",
     "short_name": "BW-Bank/LBBW Stuttgart",
-    "bic": "SOLADEST457",
+    "bic": "SOLADEST447",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "01"
+  },
+  {
+    "bank_code": "60050101",
+    "name": "Baden-W\u00fcrttemb.Bank/Landesbank Baden-W\u00fcrttemb.",
+    "short_name": "BW-Bank/LBBW Stuttgart",
+    "bic": "SOLADEST493",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "01"
@@ -26995,6 +27004,15 @@
     "name": "Baden-W\u00fcrttemb.Bank/Landesbank Baden-W\u00fcrttemb.",
     "short_name": "BW-Bank/LBBW Stuttgart",
     "bic": "SOLADEST490",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "01"
+  },
+  {
+    "bank_code": "60050101",
+    "name": "Baden-W\u00fcrttemb.Bank/Landesbank Baden-W\u00fcrttemb.",
+    "short_name": "BW-Bank/LBBW Stuttgart",
+    "bic": "SOLADEST457",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "01"
@@ -27021,15 +27039,6 @@
     "bank_code": "60050101",
     "name": "Baden-W\u00fcrttemb.Bank/Landesbank Baden-W\u00fcrttemb.",
     "short_name": "BW-Bank/LBBW Stuttgart",
-    "bic": "SOLADEST454",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "01"
-  },
-  {
-    "bank_code": "60050101",
-    "name": "Baden-W\u00fcrttemb.Bank/Landesbank Baden-W\u00fcrttemb.",
-    "short_name": "BW-Bank/LBBW Stuttgart",
     "bic": "SOLADEST896",
     "primary": false,
     "country_code": "DE",
@@ -27039,7 +27048,7 @@
     "bank_code": "60050101",
     "name": "Baden-W\u00fcrttemb.Bank/Landesbank Baden-W\u00fcrttemb.",
     "short_name": "BW-Bank/LBBW Stuttgart",
-    "bic": "SOLADEST836",
+    "bic": "SOLADEST454",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "01"
@@ -27057,7 +27066,7 @@
     "bank_code": "60050101",
     "name": "Baden-W\u00fcrttemb.Bank/Landesbank Baden-W\u00fcrttemb.",
     "short_name": "BW-Bank/LBBW Stuttgart",
-    "bic": "SOLADEST487",
+    "bic": "SOLADEST836",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "01"
@@ -27067,6 +27076,15 @@
     "name": "Baden-W\u00fcrttemb.Bank/Landesbank Baden-W\u00fcrttemb.",
     "short_name": "BW-Bank/LBBW Stuttgart",
     "bic": "SOLADEST428",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "01"
+  },
+  {
+    "bank_code": "60050101",
+    "name": "Baden-W\u00fcrttemb.Bank/Landesbank Baden-W\u00fcrttemb.",
+    "short_name": "BW-Bank/LBBW Stuttgart",
+    "bic": "SOLADEST487",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "01"
@@ -27858,7 +27876,7 @@
     "bank_code": "60070070",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS624",
+    "bic": "DEUTDESS647",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -27876,7 +27894,7 @@
     "bank_code": "60070070",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS605",
+    "bic": "DEUTDESS624",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -27885,7 +27903,7 @@
     "bank_code": "60070070",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS647",
+    "bic": "DEUTDESS605",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -28389,6 +28407,15 @@
     "bank_code": "60470082",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDESS608",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "60470082",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDESS635",
     "primary": false,
     "country_code": "DE",
@@ -28408,15 +28435,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDESS623",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "60470082",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS608",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -28587,7 +28605,7 @@
     "bank_code": "61070078",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS618",
+    "bic": "DEUTDESS627",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -28596,7 +28614,7 @@
     "bank_code": "61070078",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS627",
+    "bic": "DEUTDESS618",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -28704,7 +28722,7 @@
     "bank_code": "61170076",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS612",
+    "bic": "DEUTDESS619",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -28713,7 +28731,7 @@
     "bank_code": "61170076",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS619",
+    "bic": "DEUTDESS612",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -28929,43 +28947,7 @@
     "bank_code": "61370086",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS639",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "61370086",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS638",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "61370086",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDESS614",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "61370086",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS615",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "61370086",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS616",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -28983,7 +28965,43 @@
     "bank_code": "61370086",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDESS638",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "61370086",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDESS639",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "61370086",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDESS615",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "61370086",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDESS633",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "61370086",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDESS616",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -29181,6 +29199,15 @@
     "bank_code": "62070081",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDESS628",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "62070081",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDESS621",
     "primary": false,
     "country_code": "DE",
@@ -29200,15 +29227,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDESS622",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "62070081",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS628",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -29658,6 +29676,15 @@
     "bank_code": "64070085",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDESS646",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "64070085",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDESS642",
     "primary": false,
     "country_code": "DE",
@@ -29667,7 +29694,7 @@
     "bank_code": "64070085",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS641",
+    "bic": "DEUTDESS643",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -29694,16 +29721,7 @@
     "bank_code": "64070085",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS643",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "64070085",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS646",
+    "bic": "DEUTDESS641",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -30144,16 +30162,7 @@
     "bank_code": "65070084",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS658",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "65070084",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS657",
+    "bic": "DEUTDESS652",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -30171,7 +30180,7 @@
     "bank_code": "65070084",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS652",
+    "bic": "DEUTDESS649",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -30180,7 +30189,16 @@
     "bank_code": "65070084",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESS649",
+    "bic": "DEUTDESS657",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "65070084",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDESS658",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -30765,7 +30783,7 @@
     "bank_code": "66070004",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESM661",
+    "bic": "DEUTDESM663",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -30774,7 +30792,7 @@
     "bank_code": "66070004",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESM663",
+    "bic": "DEUTDESM661",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -30945,7 +30963,7 @@
     "bank_code": "66270001",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESM667",
+    "bic": "DEUTDESM669",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -30963,7 +30981,7 @@
     "bank_code": "66270001",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESM665",
+    "bic": "DEUTDESM667",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -30972,7 +30990,7 @@
     "bank_code": "66270001",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESM669",
+    "bic": "DEUTDESM665",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -31206,7 +31224,7 @@
     "bank_code": "66470035",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE6F665",
+    "bic": "DEUTDE6F666",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -31215,7 +31233,7 @@
     "bank_code": "66470035",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE6F666",
+    "bic": "DEUTDE6F665",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -31530,7 +31548,7 @@
     "bank_code": "67070010",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESM675",
+    "bic": "DEUTDESM673",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -31539,7 +31557,7 @@
     "bank_code": "67070010",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDESM673",
+    "bic": "DEUTDESM675",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -31834,8 +31852,8 @@
   },
   {
     "bank_code": "67390000",
-    "name": "Volksbank Main-Tauber",
-    "short_name": "VB Main-Tauber",
+    "name": "Ihre Volksbank Neckar Odenwald Main Tauber",
+    "short_name": "Ihre Volksbank",
     "bic": "GENODE61WTH",
     "primary": true,
     "country_code": "DE",
@@ -32106,7 +32124,7 @@
     "bank_code": "68070030",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE6F687",
+    "bic": "DEUTDE6F689",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -32115,7 +32133,7 @@
     "bank_code": "68070030",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE6F689",
+    "bic": "DEUTDE6F687",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -32358,25 +32376,16 @@
     "bank_code": "68370034",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE6F688",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "68370034",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE6F693",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "68370034",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDE6F684",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "68370034",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE6F688",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -32394,7 +32403,7 @@
     "bank_code": "68370034",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE6F679",
+    "bic": "DEUTDE6F693",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -32404,6 +32413,15 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDE6F678",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "68370034",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE6F679",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -32772,7 +32790,7 @@
     "bank_code": "69470024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB699",
+    "bic": "DEUTDEDB644",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -32781,7 +32799,7 @@
     "bank_code": "69470024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB644",
+    "bic": "DEUTDEDB699",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -32808,7 +32826,7 @@
     "bank_code": "69470039",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE6F697",
+    "bic": "DEUTDE6F698",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -32826,15 +32844,6 @@
     "bank_code": "69470039",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE6F699",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "69470039",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDE6F644",
     "primary": false,
     "country_code": "DE",
@@ -32844,7 +32853,16 @@
     "bank_code": "69470039",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE6F698",
+    "bic": "DEUTDE6F699",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "69470039",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE6F697",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -33600,88 +33618,7 @@
     "bank_code": "70070010",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM705",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "70070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM713",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "70070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM701",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "70070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM708",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "70070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM703",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "70070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM709",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "70070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM706",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "70070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM702",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "70070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM715",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "70070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM704",
+    "bic": "DEUTDEMM710",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -33699,34 +33636,7 @@
     "bank_code": "70070010",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM711",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "70070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM707",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "70070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM716",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "70070010",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM714",
+    "bic": "DEUTDEMM706",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -33744,7 +33654,97 @@
     "bank_code": "70070010",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM710",
+    "bic": "DEUTDEMM707",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "70070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM708",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "70070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM701",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "70070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM713",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "70070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM714",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "70070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM702",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "70070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM703",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "70070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM704",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "70070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM715",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "70070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM716",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "70070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM705",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -33754,6 +33754,24 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEMM717",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "70070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM709",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "70070010",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM711",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -35625,7 +35643,16 @@
     "bank_code": "72070001",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM727",
+    "bic": "DEUTDEMM723",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "72070001",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM724",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -35643,15 +35670,6 @@
     "bank_code": "72070001",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM723",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "72070001",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDEMM726",
     "primary": false,
     "country_code": "DE",
@@ -35661,7 +35679,7 @@
     "bank_code": "72070001",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM724",
+    "bic": "DEUTDEMM727",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -36003,15 +36021,6 @@
     "bank_code": "72170007",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM729",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "72170007",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDEMM722",
     "primary": false,
     "country_code": "DE",
@@ -36022,6 +36031,15 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEMM728",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "72170007",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM729",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -36471,16 +36489,7 @@
     "bank_code": "73370008",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM734",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "73370008",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM735",
+    "bic": "DEUTDEMM737",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -36498,7 +36507,16 @@
     "bank_code": "73370008",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM737",
+    "bic": "DEUTDEMM734",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "73370008",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM735",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -36838,8 +36856,8 @@
   },
   {
     "bank_code": "74069758",
-    "name": "Raiffeisenbank Kirchberg v. Wald",
-    "short_name": "Raiffbk Kirchberg",
+    "name": "Raiffeisenbank Kirchberg v. Wald -alt-",
+    "short_name": "Raiffbk Kirchberg -alt-",
     "bic": "GENODEF1TKI",
     "primary": true,
     "country_code": "DE",
@@ -37524,15 +37542,6 @@
     "bank_code": "75070013",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM751",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "75070013",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDEMM741",
     "primary": false,
     "country_code": "DE",
@@ -37543,6 +37552,15 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEMM752",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "75070013",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM751",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -38226,70 +38244,7 @@
     "bank_code": "76070012",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM773",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "76070012",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM762",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "76070012",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM763",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "76070012",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM783",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "76070012",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM764",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "76070012",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM769",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "76070012",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM774",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "76070012",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM768",
+    "bic": "DEUTDEMM765",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -38307,7 +38262,7 @@
     "bank_code": "76070012",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM765",
+    "bic": "DEUTDEMM762",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -38316,7 +38271,7 @@
     "bank_code": "76070012",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM766",
+    "bic": "DEUTDEMM773",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -38325,7 +38280,43 @@
     "bank_code": "76070012",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM767",
+    "bic": "DEUTDEMM783",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "76070012",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM763",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "76070012",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM768",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "76070012",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM764",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "76070012",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM774",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -38343,7 +38334,34 @@
     "bank_code": "76070012",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM767",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "76070012",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEMM771",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "76070012",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM766",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "76070012",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDEMM769",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -39585,7 +39603,7 @@
     "bank_code": "79070016",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM791",
+    "bic": "DEUTDEMM792",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -39594,7 +39612,7 @@
     "bank_code": "79070016",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEMM792",
+    "bic": "DEUTDEMM791",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -40440,7 +40458,25 @@
     "bank_code": "81070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8M815",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "81070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8M814",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "81070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8M811",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -40467,7 +40503,7 @@
     "bank_code": "81070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8M820",
+    "bic": "DEUTDE8M817",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -40477,6 +40513,24 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDE8M818",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "81070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8M819",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "81070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8M820",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -40504,42 +40558,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDE8M823",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "81070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8M815",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "81070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8M817",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "81070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8M819",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "81070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8M811",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -40908,6 +40926,15 @@
     "bank_code": "82070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8E841",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "82070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8E829",
     "primary": false,
     "country_code": "DE",
@@ -40989,6 +41016,15 @@
     "bank_code": "82070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8E826",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "82070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8E845",
     "primary": false,
     "country_code": "DE",
@@ -41016,6 +41052,15 @@
     "bank_code": "82070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8E846",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "82070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8E835",
     "primary": false,
     "country_code": "DE",
@@ -41026,6 +41071,15 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDE8E847",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "82070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8E823",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -41070,7 +41124,7 @@
     "bank_code": "82070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8E823",
+    "bic": "DEUTDE8E840",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -41079,7 +41133,7 @@
     "bank_code": "82070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8E840",
+    "bic": "DEUTDE8E851",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -41098,42 +41152,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDE8E836",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "82070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8E841",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "82070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8E826",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "82070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8E851",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "82070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8E846",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -41250,6 +41268,15 @@
     "bank_code": "82070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB821",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "82070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB845",
     "primary": false,
     "country_code": "DE",
@@ -41304,6 +41331,15 @@
     "bank_code": "82070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB823",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "82070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB848",
     "primary": false,
     "country_code": "DE",
@@ -41314,15 +41350,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB849",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "82070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB823",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -41368,15 +41395,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB820",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "82070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB821",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -41799,15 +41817,6 @@
     "bank_code": "85050300",
     "name": "Osts\u00e4chsische Sparkasse Dresden",
     "short_name": "Osts\u00e4chsische Spk Dresden",
-    "bic": "OSDDDE81SEB",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "20"
-  },
-  {
-    "bank_code": "85050300",
-    "name": "Osts\u00e4chsische Sparkasse Dresden",
-    "short_name": "Osts\u00e4chsische Spk Dresden",
     "bic": "OSDDDE81FTL",
     "primary": false,
     "country_code": "DE",
@@ -41844,6 +41853,15 @@
     "bank_code": "85050300",
     "name": "Osts\u00e4chsische Sparkasse Dresden",
     "short_name": "Osts\u00e4chsische Spk Dresden",
+    "bic": "OSDDDE81PIR",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "20"
+  },
+  {
+    "bank_code": "85050300",
+    "name": "Osts\u00e4chsische Sparkasse Dresden",
+    "short_name": "Osts\u00e4chsische Spk Dresden",
     "bic": "OSDDDE81RBG",
     "primary": false,
     "country_code": "DE",
@@ -41853,7 +41871,7 @@
     "bank_code": "85050300",
     "name": "Osts\u00e4chsische Sparkasse Dresden",
     "short_name": "Osts\u00e4chsische Spk Dresden",
-    "bic": "OSDDDE81PIR",
+    "bic": "OSDDDE81SEB",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "20"
@@ -42222,7 +42240,34 @@
     "bank_code": "86070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8L868",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "86070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8L866",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "86070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8L867",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "86070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8L869",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -42249,7 +42294,43 @@
     "bank_code": "86070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8L872",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "86070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8L873",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "86070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8L870",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "86070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8L885",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "86070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8L874",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -42276,7 +42357,43 @@
     "bank_code": "86070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8L878",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "86070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8L879",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "86070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8L880",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "86070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8L881",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "86070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8L882",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -42303,15 +42420,6 @@
     "bank_code": "86070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8L885",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "86070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8L887",
     "primary": false,
     "country_code": "DE",
@@ -42322,96 +42430,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDE8L888",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "86070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8L866",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "86070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8L868",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "86070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8L869",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "86070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8L872",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "86070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8L870",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "86070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8L874",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "86070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8L878",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "86070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8L879",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "86070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8L881",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "86070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8L882",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -42474,6 +42492,15 @@
     "bank_code": "86070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB868",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "86070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB866",
     "primary": false,
     "country_code": "DE",
@@ -42484,15 +42511,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB867",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "86070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB868",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -42825,7 +42843,16 @@
     "bank_code": "87050000",
     "name": "Sparkasse Chemnitz",
     "short_name": "Sparkasse Chemnitz",
-    "bic": "CHEKDE81MRN",
+    "bic": "CHEKDE81GLA",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "20"
+  },
+  {
+    "bank_code": "87050000",
+    "name": "Sparkasse Chemnitz",
+    "short_name": "Sparkasse Chemnitz",
+    "bic": "CHEKDE81HOT",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "20"
@@ -42852,16 +42879,7 @@
     "bank_code": "87050000",
     "name": "Sparkasse Chemnitz",
     "short_name": "Sparkasse Chemnitz",
-    "bic": "CHEKDE81GLA",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "20"
-  },
-  {
-    "bank_code": "87050000",
-    "name": "Sparkasse Chemnitz",
-    "short_name": "Sparkasse Chemnitz",
-    "bic": "CHEKDE81HOT",
+    "bic": "CHEKDE81MRN",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "20"
@@ -42951,7 +42969,43 @@
     "bank_code": "87070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C872",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C873",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8C874",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C875",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C876",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -42978,6 +43032,15 @@
     "bank_code": "87070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C878",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8C879",
     "primary": false,
     "country_code": "DE",
@@ -42996,15 +43059,6 @@
     "bank_code": "87070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C881",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8C882",
     "primary": false,
     "country_code": "DE",
@@ -43014,7 +43068,25 @@
     "bank_code": "87070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C881",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8C883",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C884",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -43059,6 +43131,33 @@
     "bank_code": "87070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C897",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C891",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C889",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8C890",
     "primary": false,
     "country_code": "DE",
@@ -43069,6 +43168,15 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDE8C892",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C893",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -43095,7 +43203,7 @@
     "bank_code": "87070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C897",
+    "bic": "DEUTDE8C896",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -43114,6 +43222,15 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDE8C899",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C900",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -43149,6 +43266,15 @@
     "bank_code": "87070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C905",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8C906",
     "primary": false,
     "country_code": "DE",
@@ -43167,6 +43293,15 @@
     "bank_code": "87070000",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDE8C908",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070000",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDE8C909",
     "primary": false,
     "country_code": "DE",
@@ -43177,123 +43312,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDE8C910",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C872",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C873",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C875",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C876",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C884",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C889",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C891",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C893",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C896",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C900",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C905",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C908",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070000",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDE8C878",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -43410,7 +43428,7 @@
     "bank_code": "87070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB881",
+    "bic": "DEUTDEDB882",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -43419,7 +43437,7 @@
     "bank_code": "87070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB882",
+    "bic": "DEUTDEDB881",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"
@@ -43491,6 +43509,15 @@
     "bank_code": "87070024",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
+    "bic": "DEUTDEDB891",
+    "primary": false,
+    "country_code": "DE",
+    "checksum_algo": "63"
+  },
+  {
+    "bank_code": "87070024",
+    "name": "Deutsche Bank",
+    "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB889",
     "primary": false,
     "country_code": "DE",
@@ -43501,15 +43528,6 @@
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
     "bic": "DEUTDEDB890",
-    "primary": false,
-    "country_code": "DE",
-    "checksum_algo": "63"
-  },
-  {
-    "bank_code": "87070024",
-    "name": "Deutsche Bank",
-    "short_name": "Deutsche Bank",
-    "bic": "DEUTDEDB891",
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "63"

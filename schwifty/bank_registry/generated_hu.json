@@ -140,8 +140,8 @@
     "primary": true,
     "bic": "TRWIBEBB",
     "bank_code": "126",
-    "name": "TransferWise Europe SA",
-    "short_name": "TransferWise Europe SA"
+    "name": "Wise Europe SA",
+    "short_name": "Wise Europe SA"
   },
   {
     "country_code": "HU",
@@ -406,6 +406,14 @@
     "bank_code": "304",
     "name": "BinX Zrt.",
     "short_name": "BinX Zrt."
+  },
+  {
+    "country_code": "HU",
+    "primary": true,
+    "bic": "DIUALT22",
+    "bank_code": "305",
+    "name": "DiPocket UAB",
+    "short_name": "DiPocket UAB"
   },
   {
     "country_code": "HU",
