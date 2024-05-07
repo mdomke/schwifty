@@ -16,7 +16,6 @@ test = "cov-test --no-cov"
 extra-dependencies = [
   "ruff==0.3.*",
   "mypy==1.9.*",
-  "pyright==1.1.*",
   "doc8==1.1.*",
   "pygments==2.16.*",
 ]
