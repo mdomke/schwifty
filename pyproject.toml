@@ -27,6 +27,7 @@ authors = [
 ]
 dependencies = [
     "importlib_resources>=5.10; python_version <= '3.11'",
+    "typing_extensions>=4.0; python_version <= '3.11'",
     "iso3166",
     "pycountry",
 ]

@@ -5,12 +5,18 @@ from functools import total_ordering
 from typing import Any
 
 
+try:
+    from typing import Self
+except ImportError:
+    from typing_extensions import Self
+
+
 _clean_regex = re.compile(r"\s+")
 
 
 @total_ordering
 class Base(str):
-    def __new__(cls: type[Base], value: str, **kwargs: Any) -> Base:
+    def __new__(cls: type[Self], value: str, **kwargs: Any) -> Self:
         return super().__new__(cls, clean(value))
 
     def __repr__(self) -> str:

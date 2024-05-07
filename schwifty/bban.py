@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from typing import Any
-from typing import cast
 
 from schwifty import common
 from schwifty import exceptions
@@ -10,6 +9,11 @@ from schwifty.bic import BIC
 from schwifty.checksum import algorithms
 from schwifty.domain import Component
 
+
+try:
+    from typing import Self
+except ImportError:
+    from typing_extensions import Self
 
 EMPTY_RANGE = (0, 0)
 
@@ -61,8 +65,8 @@ class BBAN(common.Base):
     .. versionadded:: 2024.01.1
     """
 
-    def __new__(cls: type[BBAN], country_code: str, value: str, **kwargs: Any) -> BBAN:
-        return cast(BBAN, super().__new__(cls, value, **kwargs))
+    def __new__(cls: type[Self], country_code: str, value: str, **kwargs: Any) -> Self:
+        return super().__new__(cls, value, **kwargs)
 
     def __init__(self, country_code: str, value: str) -> None:
         self.country_code = country_code
