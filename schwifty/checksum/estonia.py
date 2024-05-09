@@ -17,4 +17,6 @@ class DefaultAlgorithm(checksum.Algorithm):
 
     def compute(self, components: list[str]) -> str:
         weights = cycle([7, 3, 1])
-        return str(10 - checksum.weighted(reversed("".join(components)), 10, weights))
+        digit = checksum.weighted(reversed("".join(components)), 10, weights)
+        digit = digit if digit == 0 else 10 - digit
+        return str(digit)
