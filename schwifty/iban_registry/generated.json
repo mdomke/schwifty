@@ -1493,6 +1493,24 @@
       ]
     }
   },
+  "OM": {
+    "country": "OM",
+    "in_sepa_zone": false,
+    "bban_spec": "3!n16!c",
+    "bban_length": 19,
+    "iban_spec": "OM2!n3!n16!c",
+    "iban_length": 23,
+    "positions": {
+      "account_code": [
+        3,
+        19
+      ],
+      "bank_code": [
+        0,
+        3
+      ]
+    }
+  },
   "PK": {
     "country": "PK",
     "in_sepa_zone": false,

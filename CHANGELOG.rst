@@ -5,6 +5,67 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+`2024.05.2`_ - 2024/05/09
+-------------------------
+Fixed
+~~~~~
+* Add `typing-extensions` as explicit dependency for Python < 3.11 to support the `Self` type.
+
+`2024.05.1`_ - 2024/05/09
+-------------------------
+Changed
+~~~~~~~
+* Remove custom collection logic of the bank registry for ``pyinstaller``. The changes introduced in
+  `#92 <https://github.com/mdomke/schwifty/pull/92>`_ were wrong and have been reverted. Usage
+  example
+
+  .. code-block:: bash
+
+    $ pyinstaller <script> --collect-data schwifty --copy-metadata schwifty
+
+`2024.05.0`_ - 2024/05/07
+-------------------------
+Fixed
+~~~~~
+* Loading JSON data into a Pydantic model with an ``IBAN`` or ``BIC``-field
+  (``Model.model_validate_json()``) was previously broken and has been fixed now.
+
+Added
+~~~~~
+* JSON schema generation for Pydantic models.
+
+Changed
+~~~~~~~
+* Updated bank registries.
+* Remove the dependency to ``iso3166`` since its functionallity is already covered by ``pycountry``
+
+
+`2024.04.0`_ - 2024/04/18
+-------------------------
+Added
+~~~~~
+* Added Revolut Bank for Spain `@brunovilla <https://github.com/brunovila>`_
+* Added support for Python 3.12
+* Added manually curated bank registry for Montenegro `@Djuka <https://github.com/Djuka>`_
+
+Changed
+~~~~~~~
+* The bank registry is now internally validated, so that all domestic bank codes actaully match the
+  specification of the corresponding BBAN structure. As a result some entries had to be removed,
+  because they did contain invalid bank codes.
+* The Danish national checksum algorithm is considered opaque and the checksum digit is assumed to
+  be part of the account number (which is now always 10 digits long).
+
+Fixed
+~~~~~
+* The Czech bank registry was stored in latin-1 encoding while being read as UTF-8. This resulted
+  in invalid bank names `@Natim <https://github.com/Natim>`_ and
+  `@Cogax <https://github.com/Cogax>`_.
+* The Norwegian national checksum algorithm was rendering wrong results in some edge-cases
+  `@Natim <https://github.com/Natim>`_
+
+
+
 `2024.01.1`_ - 2024/01/05
 -------------------------
 Added
@@ -538,6 +599,10 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2024.05.2: https://github.com/mdomke/schwifty/compare/2024.05.1...2024.05.2
+.. _2024.05.1: https://github.com/mdomke/schwifty/compare/2024.05.0...2024.05.1
+.. _2024.05.0: https://github.com/mdomke/schwifty/compare/2024.04.0...2024.05.0
+.. _2024.04.0: https://github.com/mdomke/schwifty/compare/2024.01.1...2024.04.0
 .. _2024.01.1: https://github.com/mdomke/schwifty/compare/2023.11.2...2024.01.1
 .. _2023.11.2: https://github.com/mdomke/schwifty/compare/2023.11.1...2023.11.2
 .. _2023.11.1: https://github.com/mdomke/schwifty/compare/2023.11.0...2023.11.1

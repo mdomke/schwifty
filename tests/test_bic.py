@@ -188,6 +188,7 @@ def test_bic_from_unknown_bank_code() -> None:
         ("HU", "107", ["CIBHHUHB"]),
         ("HR", "2485003", ["CROAHR2X"]),
         ("LV", "RIKO", ["RIKOLV2XXXX"]),
+        ("ME", "907", ["CBCGMEPG"]),
         ("NL", "ADYB", ["ADYBNL2A"]),
         ("PL", "10100055", ["NBPLPLPWXXX"]),
         ("RO", "BPOS", ["BPOSROBU"]),
@@ -233,6 +234,18 @@ def test_pydantic_protocol() -> None:
 
     model = Model(bic="GENODEM1GLS")  # type: ignore[arg-type]
     assert isinstance(model.bic, BIC)
+    assert model.model_dump() == {"bic": model.bic}
 
-    with pytest.raises(ValidationError):
+    with pytest.raises(ValidationError) as err:
         Model(bic="GENODXM1GLS")  # type: ignore[arg-type]
+    assert len(err.value.errors()) == 1
+    error = err.value.errors()[0]
+    assert error["type"] == "bic_format"
+    assert error["msg"] == "Invalid country code 'DX'"
+    assert error["input"] == "GENODXM1GLS"
+
+    dumped = model.model_dump_json()
+    assert dumped == '{"bic":"GENODEM1GLS"}'
+
+    loaded = Model.model_validate_json(dumped)
+    assert loaded == model

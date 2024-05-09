@@ -2,8 +2,6 @@ from __future__ import annotations
 
 import itertools
 import json
-import pathlib
-import sys
 from collections import defaultdict
 from pathlib import Path
 from typing import Any
@@ -15,10 +13,8 @@ from typing import Union
 
 try:
     from importlib.resources import files
-    from importlib.resources.abc import Traversable
 except ImportError:
     from importlib_resources import files  # type: ignore
-    from importlib_resources.abc import Traversable  # type: ignore
 
 
 Key = Union[str, tuple]
@@ -51,13 +47,8 @@ def get(name: Key) -> Value:
         return _registry[name]
 
     data = None
-    package_path: Traversable | Path
-    if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
-        package_path = Path(sys._MEIPASS)
-    else:
-        package_path = files(__package__)
-    directory = package_path / f"{name}_registry"
-    assert isinstance(directory, pathlib.Path)
+    directory = files(__package__) / f"{name}_registry"
+    assert isinstance(directory, Path)
     for entry in sorted(directory.glob("*.json")):
         with entry.open(encoding="utf-8") as fp:
             chunk = json.load(fp)

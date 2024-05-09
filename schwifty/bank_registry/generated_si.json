@@ -6622,5 +6622,13 @@
     "bank_code": "79095",
     "name": "KDD-CENTRALNA KLIRIN\u008aKO DEPOTNA DRU\u008eBA, D.O.O.",
     "short_name": "KDD-CENTRALNA KLIRIN\u008aKO DEPOTNA DRU\u008eBA, D.O.O."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "PWSRSI22XXX",
+    "bank_code": "91002",
+    "name": "PAYWISER DRU\u008eBA ZA IZDAJO ELEKTRONSKEGA DENARJA IN PLA\u00c8ILNE STORITVE, D.O.O.",
+    "short_name": "PAYWISER DRU\u008eBA ZA IZDAJO ELEKTRONSKEGA DENARJA IN PLA\u00c8ILNE STORITVE, D.O.O."
   }
 ]

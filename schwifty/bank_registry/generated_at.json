@@ -1082,10 +1082,10 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "OKOMATWWXXX",
+    "bic": "",
     "bank_code": "18170",
-    "name": "KA Finanz AG",
-    "short_name": "KA Finanz AG"
+    "name": "KA Finanz AG i.A.",
+    "short_name": "KA Finanz AG i.A."
   },
   {
     "country_code": "AT",
@@ -1574,14 +1574,6 @@
     "bank_code": "35164",
     "name": "Raiffeisenbank Taxenbach eGen",
     "short_name": "Raiffeisenbank Taxenbach eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
-    "bic": "ASPKAT2LXXX",
-    "bank_code": "20315",
-    "name": "Sparkasse Ober\u00f6sterreich Bank AG",
-    "short_name": "Sparkasse Ober\u00f6sterreich Bank AG"
   },
   {
     "country_code": "AT",
@@ -4194,14 +4186,6 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "LEGMATW1XXX",
-    "bank_code": "73800",
-    "name": "LEASFINANZ Bank GmbH",
-    "short_name": "LEASFINANZ Bank GmbH"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
     "bic": "SPSCAT22XXX",
     "bank_code": "20510",
     "name": "Sparkasse Schwaz AG",
@@ -4524,8 +4508,8 @@
     "primary": true,
     "bic": "PABXATW1XXX",
     "bank_code": "18120",
-    "name": "paybox Bank AG",
-    "short_name": "paybox Bank AG"
+    "name": "A1 Bank AG",
+    "short_name": "A1 Bank AG"
   },
   {
     "country_code": "AT",
@@ -6364,8 +6348,8 @@
     "primary": true,
     "bic": "VPAYATW2XXX",
     "bank_code": "94648",
-    "name": "Viva Payment Services S.A. Zweigniederlassung Wien/\u00d6sterreich",
-    "short_name": "Viva Payment Services S.A. Zweigniederlassung Wien/\u00d6sterreich"
+    "name": "Viva Payment Services Single Member S.A. Zweigniederlassung Wien/ \u00d6sterreich",
+    "short_name": "Viva Payment Services Single Member S.A. Zweigniederlassung Wien/ \u00d6sterreich"
   },
   {
     "country_code": "AT",

@@ -20,6 +20,9 @@ from schwifty.checksum import numerify
 
 if TYPE_CHECKING:
     from pydantic import GetCoreSchemaHandler
+    from pydantic import GetJsonSchemaHandler
+    from pydantic import ValidatorFunctionWrapHandler
+    from pydantic.json_schema import JsonSchemaValue
     from pydantic_core import CoreSchema
 
 
@@ -370,15 +373,43 @@ class IBAN(common.Base):
         return self.bban.bank_short_name
 
     @classmethod
-    def __get_pydantic_core_schema__(cls, source: Any, handler: GetCoreSchemaHandler) -> CoreSchema:
+    def __get_pydantic_core_schema__(
+        cls, source: type[Any], handler: GetCoreSchemaHandler
+    ) -> CoreSchema:
         from pydantic_core import core_schema
 
-        return core_schema.union_schema(
-            [
-                core_schema.is_instance_schema(IBAN),
-                core_schema.no_info_plain_validator_function(IBAN),
-            ]
+        return core_schema.no_info_wrap_validator_function(
+            cls._pydantic_validate,
+            core_schema.union_schema(
+                [
+                    core_schema.is_instance_schema(IBAN),
+                    core_schema.no_info_plain_validator_function(IBAN),
+                    core_schema.str_schema(max_length=34),
+                ]
+            ),
+            serialization=core_schema.to_string_ser_schema(
+                when_used="json-unless-none",
+            ),
         )
+
+    @classmethod
+    def __get_pydantic_json_schema__(
+        cls, core_schema: CoreSchema, handler: GetJsonSchemaHandler
+    ) -> JsonSchemaValue:
+        json_schema = handler(core_schema)
+        json_schema = handler.resolve_ref_schema(json_schema)
+        json_schema["title"] = "IBAN"
+        return json_schema
+
+    @classmethod
+    def _pydantic_validate(cls, value: Any, handler: ValidatorFunctionWrapHandler) -> Any:
+        from pydantic_core import PydanticCustomError
+
+        try:
+            iban = cls(value)
+        except exceptions.SchwiftyException as err:
+            raise PydanticCustomError("iban_format", str(err)) from err
+        return handler(iban)
 
 
 def add_bban_regex(country: str, spec: dict) -> dict:

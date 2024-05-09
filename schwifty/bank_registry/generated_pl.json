@@ -3730,6 +3730,14 @@
   {
     "country_code": "PL",
     "primary": true,
+    "bic": "",
+    "bank_code": "10900091",
+    "name": "Santander Bank Polska Sp\u00f3\u0142ka Akcyjna",
+    "short_name": "Santander Bank Polska Sp\u00f3\u0142ka Akcyjna"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
     "bic": "WBKPPLPP",
     "bank_code": "10900105",
     "name": "Santander Bank Polska Sp\u00f3\u0142ka Akcyjna",
@@ -11746,6 +11754,14 @@
   {
     "country_code": "PL",
     "primary": true,
+    "bic": "",
+    "bank_code": "13200064",
+    "name": "Bank Pocztowy Sp\u00f3\u0142ka Akcyjna",
+    "short_name": "Bank Pocztowy Sp\u00f3\u0142ka Akcyjna"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
     "bic": "POCZPLP4XXX",
     "bank_code": "13201016",
     "name": "Bank Pocztowy Sp\u00f3\u0142ka Akcyjna",
@@ -15564,6 +15580,14 @@
     "primary": true,
     "bic": "POLUPLPRXXX",
     "bank_code": "86421201",
+    "name": "Bank Nowy Sp\u00f3\u0142ka Akcyjna",
+    "short_name": "Bank Nowy Sp\u00f3\u0142ka Akcyjna"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
+    "bic": "POLUPLPRXXX",
+    "bank_code": "90681013",
     "name": "Bank Nowy Sp\u00f3\u0142ka Akcyjna",
     "short_name": "Bank Nowy Sp\u00f3\u0142ka Akcyjna"
   },
@@ -21926,22 +21950,6 @@
     "bank_code": "90650006",
     "name": "Bank Sp\u00f3\u0142dzielczy w Gnie\u017anie",
     "short_name": "Bank Sp\u00f3\u0142dzielczy w Gnie\u017anie"
-  },
-  {
-    "country_code": "PL",
-    "primary": true,
-    "bic": "WISOPLPP",
-    "bank_code": "90680003",
-    "name": "Wielkopolski Bank Sp\u00f3\u0142dzielczy",
-    "short_name": "Wielkopolski Bank Sp\u00f3\u0142dzielczy"
-  },
-  {
-    "country_code": "PL",
-    "primary": true,
-    "bic": "WISOPLPP",
-    "bank_code": "90681013",
-    "name": "Wielkopolski Bank Sp\u00f3\u0142dzielczy",
-    "short_name": "Wielkopolski Bank Sp\u00f3\u0142dzielczy"
   },
   {
     "country_code": "PL",

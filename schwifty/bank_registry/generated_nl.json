@@ -194,6 +194,14 @@
   {
     "country_code": "NL",
     "primary": true,
+    "bic": "CCBVNL2A",
+    "bank_code": "CCBV",
+    "name": "CURRENCYCLOUD B.V.",
+    "short_name": "CURRENCYCLOUD B.V."
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
     "bic": "CHASNL2X",
     "bank_code": "CHAS",
     "name": "JPMORGAN CHASE",
@@ -226,14 +234,6 @@
   {
     "country_code": "NL",
     "primary": true,
-    "bic": "CCBVNL2A",
-    "bank_code": "CCBV",
-    "name": "CURRENCYCLOUD B.V.",
-    "short_name": "CURRENCYCLOUD B.V."
-  },
-  {
-    "country_code": "NL",
-    "primary": true,
     "bic": "DELENL22",
     "bank_code": "DELE",
     "name": "OYENS & VAN EEGHEN - part of Delen Private Bank",
@@ -254,14 +254,6 @@
     "bank_code": "DHBN",
     "name": "DEMIR-HALK BANK",
     "short_name": "DEMIR-HALK BANK"
-  },
-  {
-    "country_code": "NL",
-    "primary": true,
-    "bic": "DLBKNL2A",
-    "bank_code": "DLBK",
-    "name": "DELTA LLOYD BANK",
-    "short_name": "DELTA LLOYD BANK"
   },
   {
     "country_code": "NL",
@@ -358,14 +350,6 @@
     "bank_code": "HAND",
     "name": "SVENSKA HANDELSBANKEN",
     "short_name": "SVENSKA HANDELSBANKEN"
-  },
-  {
-    "country_code": "NL",
-    "primary": true,
-    "bic": "HHBANL22",
-    "bank_code": "HHBA",
-    "name": "HOF HOORNEMAN BANKIERS",
-    "short_name": "HOF HOORNEMAN BANKIERS"
   },
   {
     "country_code": "NL",
@@ -660,7 +644,7 @@
     "primary": true,
     "bic": "BCDMNL22",
     "bank_code": "BCDM",
-    "name": "BANQUE CHAABI DU MAROC * (tijdelijk) inactief sinds 31 december 2020 *",
-    "short_name": "BANQUE CHAABI DU MAROC * (tijdelijk) inactief sinds 31 december 2020 *"
+    "name": "BANQUE CHAABI DU MAROC * (langdurig) inactief sinds 31 december 2020 *",
+    "short_name": "BANQUE CHAABI DU MAROC * (langdurig) inactief sinds 31 december 2020 *"
   }
 ]

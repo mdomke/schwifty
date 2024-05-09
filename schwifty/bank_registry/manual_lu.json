@@ -902,5 +902,13 @@
     "bank_code": "999",
     "name": "Banque centrale du Luxembourg",
     "short_name": "Banque centrale du Luxembourg"
+  },
+  {
+    "country_code": "LU",
+    "primary": true,
+    "bic": "SOXALULL",
+    "bank_code": "619",
+    "name": "Sogexia S.A.",
+    "short_name": "Sogexia"
   }
 ]

@@ -374,6 +374,21 @@ def test_pydantic_protocol() -> None:
 
     model = Model(iban="GL89 6471 0001 0002 06")  # type: ignore[arg-type]
     assert isinstance(model.iban, IBAN)
+    assert model.model_dump() == {"iban": model.iban}
 
-    with pytest.raises(ValidationError):
+    with pytest.raises(ValidationError) as err:
         Model(iban="GB00 HLFX 1101 6111 4553 65")  # type: ignore[arg-type]
+    assert len(err.value.errors()) == 1
+    error = err.value.errors()[0]
+    assert error["type"] == "iban_format"
+    assert error["msg"] == "Invalid checksum digits"
+    assert error["input"] == "GB00 HLFX 1101 6111 4553 65"
+
+    json_schema = model.model_json_schema()
+    assert json_schema["properties"]["iban"] == {"maxLength": 34, "title": "IBAN", "type": "string"}
+
+    dumped = model.model_dump_json()
+    assert dumped == '{"iban":"GL8964710001000206"}'
+
+    loaded = Model.model_validate_json(dumped)
+    assert loaded == model

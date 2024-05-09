@@ -5,7 +5,6 @@ import warnings
 from typing import Any
 from typing import TYPE_CHECKING
 
-import iso3166
 from pycountry import countries  # type: ignore
 from pycountry.db import Data  # type: ignore
 
@@ -16,6 +15,9 @@ from schwifty import registry
 
 if TYPE_CHECKING:
     from pydantic import GetCoreSchemaHandler
+    from pydantic import GetJsonSchemaHandler
+    from pydantic import ValidatorFunctionWrapHandler
+    from pydantic.json_schema import JsonSchemaValue
     from pydantic_core import CoreSchema
 
 _bic_iso9362_re = re.compile(r"[A-Z0-9]{4}[A-Z]{2}[A-Z0-9]{2}(?:[A-Z0-9]{3})?")
@@ -283,11 +285,51 @@ class BIC(common.Base):
             raise exceptions.InvalidStructure(f"Invalid structure '{self!s}'")
 
     def _validate_country_code(self) -> None:
-        country_code = self.country_code
+        if self.country is None:
+            raise exceptions.InvalidCountryCode(f"Invalid country code '{self.country_code}'")
+
+    @classmethod
+    def __get_pydantic_core_schema__(
+        cls, source: type[Any], handler: GetCoreSchemaHandler
+    ) -> CoreSchema:
+        from pydantic_core import core_schema
+
+        return core_schema.no_info_wrap_validator_function(
+            cls._pydantic_validate,
+            core_schema.union_schema(
+                [
+                    core_schema.is_instance_schema(BIC),
+                    core_schema.no_info_plain_validator_function(BIC),
+                    core_schema.str_schema(
+                        pattern=r"[A-Z0-9]{4}[A-Z]{2}[A-Z0-9]{2}(:?[A-Z0-9]{3})?",
+                        min_length=8,
+                        max_length=11,
+                    ),
+                ]
+            ),
+            serialization=core_schema.to_string_ser_schema(
+                when_used="json-unless-none",
+            ),
+        )
+
+    @classmethod
+    def __get_pydantic_json_schema__(
+        cls, core_schema: CoreSchema, handler: GetJsonSchemaHandler
+    ) -> JsonSchemaValue:
+        json_schema = handler(core_schema)
+        json_schema = handler.resolve_ref_schema(json_schema)
+        json_schema["title"] = "BIC"
+        return json_schema
+
+    @classmethod
+    def _pydantic_validate(cls, value: Any, handler: ValidatorFunctionWrapHandler) -> Any:
+        from pydantic_core import PydanticCustomError
+
         try:
-            iso3166.countries_by_alpha2[country_code]
-        except KeyError as e:
-            raise exceptions.InvalidCountryCode(f"Invalid country code '{country_code}'") from e
+            bic = cls(value)
+        except exceptions.SchwiftyException as err:
+            raise PydanticCustomError("bic_format", str(err)) from err
+        return handler(bic)
 
     @property
     def is_valid(self) -> bool:
@@ -449,17 +491,6 @@ class BIC(common.Base):
     def branch_code(self) -> str:
         """str: The branch-code part of the BIC (if available)"""
         return self._get_slice(start=8, end=11)
-
-    @classmethod
-    def __get_pydantic_core_schema__(cls, source: Any, handler: GetCoreSchemaHandler) -> CoreSchema:
-        from pydantic_core import core_schema
-
-        return core_schema.union_schema(
-            [
-                core_schema.is_instance_schema(BIC),
-                core_schema.no_info_plain_validator_function(BIC),
-            ]
-        )
 
 
 registry.build_index("bank", "bic", key="bic", accumulate=True)
