@@ -42,7 +42,7 @@
   {
     "country_code": "PT",
     "bank_code": "0018",
-    "bic": "",
+    "bic": "TOTAPTPL",
     "name": "BANCO S.A.NTANDER TOTTA, S.A.",
     "short_name": "BANCO S.A.NTANDER TOTTA, S.A.",
     "primary": true
@@ -98,7 +98,7 @@
   {
     "country_code": "PT",
     "bank_code": "0033",
-    "bic": "",
+    "bic": "BCOMPTPL",
     "name": "BANCO COMERCIAL PORTUGUÊS, S.A.",
     "short_name": "BANCO COMERCIAL PORTUGUÊS, S.A.",
     "primary": true
@@ -122,7 +122,7 @@
   {
     "country_code": "PT",
     "bank_code": "0036",
-    "bic": "",
+    "bic": "MPIOPTPL",
     "name": "CAIXA ECONÓMICA MONTEPIO GERAL, CAIXA ECONÓMICA BANCÁRIA, S.A.",
     "short_name": "CAIXA ECONÓMICA MONTEPIO GERAL, CAIXA ECONÓMICA BANCÁRIA, S.A.",
     "primary": true
@@ -130,7 +130,7 @@
   {
     "country_code": "PT",
     "bank_code": "0038",
-    "bic": "",
+    "bic": "BNIFPTPL",
     "name": "BANCO S.A.NTANDER TOTTA, S.A. (ex-BANIF – BANCO INTERNACIONAL DO FUNCHAL, S.A.)",
     "short_name": "BANCO S.A.NTANDER TOTTA, S.A.",
     "primary": true
