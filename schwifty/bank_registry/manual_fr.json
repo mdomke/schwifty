@@ -2454,5 +2454,29 @@
         "name": "PPS EU SA",
         "short_name": "Anytime",
         "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "SOCBPFTXXXX",
+        "bank_code": "17469",
+        "name": "BANQUE SOCREDO",
+        "short_name": "BANQUE SOCREDO",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "BPOLPFTPXXX",
+        "bank_code": "12149",
+        "name": "BANQUE DE POLYNESIE",
+        "short_name": "BANQUE DE POLYNESIE",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "CCDFFRPPXXX",
+        "bank_code": "18079",
+        "name": "CCF",
+        "short_name": "CCF",
+        "primary": true
     }
 ]
