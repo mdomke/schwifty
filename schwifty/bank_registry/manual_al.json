@@ -1,0 +1,18 @@
+[
+  {
+    "country_code": "AL",
+    "primary": true,
+    "bic": "CDISALTR",
+    "bank_code": "CDIS",
+    "name": "CREDINS BANK S.A.",
+    "short_name": "CREDINS BANK S.A."
+  },
+  {
+    "country_code": "AL",
+    "primary": true,
+    "bic": "SGSBALTX",
+    "bank_code": "SGSB",
+    "name": "RAIFFEISEN BANK SH.A.",
+    "short_name": "RAIFFEISEN BANK SH.A."
+  }
+]
