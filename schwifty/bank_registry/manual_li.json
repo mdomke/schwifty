@@ -1,0 +1,42 @@
+[
+  {
+    "country_code": "LI",
+    "primary": true,
+    "bic": "VPBVLI2X",
+    "bank_code": "8805",
+    "name": "VP BANK AG",
+    "short_name": "VP BANK AG"
+  },
+  {
+    "country_code": "LI",
+    "primary": true,
+    "bic": "VPBVLI2X",
+    "bank_code": "88050",
+    "name": "VP BANK AG",
+    "short_name": "VP BANK AG"
+  },
+  {
+    "country_code": "LI",
+    "primary": true,
+    "bic": "VPBVLI2X",
+    "bank_code": "30174",
+    "name": "VP BANK AG",
+    "short_name": "VP BANK AG"
+  },
+  {
+    "country_code": "LI",
+    "primary": true,
+    "bic": "BFRILI22",
+    "bank_code": "8811",
+    "name": "BANK FRICK AND CO AKTIENGESELLSCHAFT",
+    "short_name": "BANK FRICK AND CO AKTIENGESELLSCHAFT"
+  },
+  {
+    "country_code": "LI",
+    "primary": true,
+    "bic": "BFRILI22",
+    "bank_code": "30290",
+    "name": "BANK FRICK AND CO AKTIENGESELLSCHAFT",
+    "short_name": "BANK FRICK AND CO AKTIENGESELLSCHAFT"
+  }
+]
