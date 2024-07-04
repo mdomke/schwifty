@@ -14,5 +14,21 @@
     "name": "Saxo Bank",
     "short_name": "Saxo Bank",
     "primary": true
+  },
+  {
+    "country_code": "DK",
+    "bic": "DABADKKK",
+    "bank_code": "297",
+    "name": "DANSKE BANK A/S",
+    "short_name": "DANSKE BANK A/S",
+    "primary": true
+  },
+  {
+    "country_code": "DK",
+    "bic": "JYBADKKK",
+    "bank_code": "5010",
+    "name": "JYSKE BANK A/S",
+    "short_name": "JYSKE BANK A/S",
+    "primary": true
   }
 ]
