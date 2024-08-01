@@ -2,10 +2,10 @@
   {
     "country_code": "BE",
     "primary": true,
-    "bic": "BPOTBEB1",
+    "bic": "GEBABEBB",
     "bank_code": "000",
-    "name": "bpost bank",
-    "short_name": "bpost bank"
+    "name": "BNP Paribas Fortis",
+    "short_name": "BNP Paribas Fortis"
   },
   {
     "country_code": "BE",
@@ -1986,10 +1986,10 @@
   {
     "country_code": "BE",
     "primary": true,
-    "bic": "BPOTBEB1",
+    "bic": "GEBABEBB",
     "bank_code": "299",
-    "name": "bpost bank",
-    "short_name": "bpost bank"
+    "name": "BNP Paribas Fortis",
+    "short_name": "BNP Paribas Fortis"
   },
   {
     "country_code": "BE",
@@ -4564,80 +4564,80 @@
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "700",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "701",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "702",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "703",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "704",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "705",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "706",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "707",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "708",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "709",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
@@ -4860,200 +4860,200 @@
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "750",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "751",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "752",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "753",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "754",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "755",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "756",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "757",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "758",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "759",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "760",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "761",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "762",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "763",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "764",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "765",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "766",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "767",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "768",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "769",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "770",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "771",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "772",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "773",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "774",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
@@ -5260,136 +5260,136 @@
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "800",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "801",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "802",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "803",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "804",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "805",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "806",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "807",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "808",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "809",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "810",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "811",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "812",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "813",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "814",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "815",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "816",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
@@ -6108,8 +6108,8 @@
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "963",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
@@ -6172,8 +6172,8 @@
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "975",
-    "name": "AXA Bank Belgium",
-    "short_name": "AXA Bank Belgium"
+    "name": "Crelan",
+    "short_name": "Crelan"
   },
   {
     "country_code": "BE",
