@@ -5,6 +5,13 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Added
+~~~~~
+* Allow ``BIC`` and ``IBAN`` objects to be deepcopied (thanks to `@binaryDiv <https://github.com/binaryDiv>`_
+  for pointing this out).
+
 `2024.08.0`_ - 2024/08/13
 -------------------------
 Added

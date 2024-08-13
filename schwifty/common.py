@@ -31,6 +31,9 @@ class Base(str):
     def __lt__(self, other: Any) -> bool:
         return str(self) < str(other)
 
+    def __deepcopy__(self, memo: dict[str, Any] | None = None) -> Self:
+        return self.__class__(str(self))
+
     @property
     def compact(self) -> str:
         """str: Compact representation of the code. It's preferable to call ``str(obj)``"""

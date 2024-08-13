@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import copy
+
 import pytest
 from pycountry import countries  # type: ignore
 
@@ -251,3 +253,15 @@ def test_pydantic_protocol() -> None:
 
     loaded = Model.model_validate_json(dumped)
     assert loaded == model
+
+
+def test_deepcopy() -> None:
+    bic = BIC("GENODEM1GLS")
+
+    bic_deepcopy = copy.deepcopy(bic)
+    assert id(bic) != id(bic_deepcopy)
+    assert bic == bic_deepcopy
+
+    bic_copy = copy.copy(bic)
+    assert id(bic) != id(bic_copy)
+    assert bic == bic_copy

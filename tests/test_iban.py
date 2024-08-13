@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import copy
+
 import pytest
 from pycountry import countries  # type: ignore
 
@@ -419,3 +421,15 @@ def test_pydantic_protocol() -> None:
 )
 def test_convert_bban_spec_to_regex(spec: str, regex: str) -> None:
     assert convert_bban_spec_to_regex(spec) == regex
+
+
+def test_copy() -> None:
+    iban = IBAN("BE68 5390 0754 7034")
+
+    iban_deepcopy = copy.deepcopy(iban)
+    assert id(iban) != id(iban_deepcopy)
+    assert iban == iban_deepcopy
+
+    iban_copy = copy.copy(iban)
+    assert id(iban) != id(iban_copy)
+    assert iban == iban_copy
