@@ -72,7 +72,7 @@ def parse_v2(data: dict[str, Any]) -> list[dict[str, Any]]:
     def expand(entry: dict[str, Any], src: str, dst: str) -> list[dict[str, Any]]:
         values = entry.pop(src)
         entry.setdefault("primary", False)
-        return [entry | {dst: value} for value in values]
+        return [{**entry, dst: value} for value in values]
 
     return list(
         itertools.chain.from_iterable(

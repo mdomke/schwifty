@@ -63,4 +63,4 @@ jobs:
       - name: Smoke test installation
         run: pip install .
       - name: Test
-        run: hatch test --cover
+        run: hatch test --cover --python ${{ matrix.python-version }}
