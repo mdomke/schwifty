@@ -322,14 +322,6 @@
   {
     "country_code": "GB",
     "primary": true,
-    "bic": "SANTANDER UK PLC",
-    "bank_code": "ABBYGB2LXXX",
-    "name": "SANTANDER UK PLC",
-    "short_name": "SANTANDER UK PLC"
-  },
-  {
-    "country_code": "GB",
-    "primary": true,
     "bic": "SRLGGB3L",
     "bank_code": "SRLG",
     "name": "STARLING BANK LIMITED",
