@@ -186,9 +186,9 @@
   {
     "country_code": "GB",
     "primary": true,
-    "bic": "HALIFAX (A TRADING NAME OF BANK OF SCOTLAND PLC)",
+    "bic": "HLFXGB22XXX",
     "bank_code": "HLFX",
-    "name": "HALIFAX (A TRADING NAME OF BANK OF SCOTLAND PLC)",
+    "name": "BANK OF SCOTLAND PLC",
     "short_name": "HALIFAX"
   },
   {
@@ -306,8 +306,8 @@
   {
     "country_code": "GB",
     "primary": true,
-    "bic": "REVO",
-    "bank_code": "REVOGB21",
+    "bic": "REVOGB21XXX",
+    "bank_code": "REVO",
     "name": "REVOLUT LTD",
     "short_name": "REVOLUT LTD"
   },
@@ -315,7 +315,7 @@
     "country_code": "GB",
     "primary": true,
     "bic": "REVOGB21XXX",
-    "bank_code": "REVO",
+    "bank_code": "NWBK",
     "name": "REVOLUT LTD",
     "short_name": "REVOLUT LTD"
   },
