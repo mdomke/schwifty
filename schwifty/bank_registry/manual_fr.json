@@ -2392,20 +2392,20 @@
         "primary": true
     },
     {
-      "country_code": "FR",
-      "bic": "MEMOFRP2XXX",
-      "bank_code": "17338",
-      "name": "MEMO BANK",
-      "short_name": "MEMO BANK",
-      "primary": true
+        "country_code": "FR",
+        "bic": "MEMOFRP2XXX",
+        "bank_code": "17338",
+        "name": "MEMO BANK",
+        "short_name": "MEMO BANK",
+        "primary": true
     },
     {
-      "country_code": "FR",
-      "bic": "REVOFRP2",
-      "bank_code": "28233",
-      "name": "REVOLUT BANK UAB",
-      "short_name": "REVOLUT",
-      "primary": true
+        "country_code": "FR",
+        "bic": "REVOFRP2",
+        "bank_code": "28233",
+        "name": "REVOLUT BANK UAB",
+        "short_name": "REVOLUT",
+        "primary": true
     },
     {
         "country_code": "FR",
@@ -2477,6 +2477,78 @@
         "bank_code": "18079",
         "name": "CCF",
         "short_name": "CCF",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "CCBPFRPP",
+        "bank_code": "11907",
+        "name": "Banque populaire du Massif central",
+        "short_name": "Banque populaire du Massif central",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "CEPAPFTP",
+        "bank_code": "12239",
+        "name": "Banque de Tahiti \"B.D.T.\"",
+        "short_name": "Banque de Tahiti \"B.D.T.\"",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "CEFNNCN1",
+        "bank_code": "14158",
+        "name": "CENTRE FINANCIER DE NOUMEA",
+        "short_name": "CENTRE FINANCIER DE NOUMEA",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "OFTPPFT1",
+        "bank_code": "14168",
+        "name": "Office des postes et t\u00e9l\u00e9communications Polyn\u00e9sie fran\u00e7aise",
+        "short_name": "Office des postes et t\u00e9l\u00e9communications Polyn\u00e9sie fran\u00e7aise",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "INGBFR21",
+        "bank_code": "14559",
+        "name": "ING Direct N.V.",
+        "short_name": "ING Direct N.V.",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "CCBPFRPP",
+        "bank_code": "16707",
+        "name": "Banque populaire de l'Ouest",
+        "short_name": "Banque populaire de l'Ouest",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "CCMNFR21",
+        "bank_code": "17620",
+        "name": "Caisse de cr\u00e9dit municipal de N\u00eemes",
+        "short_name": "Caisse de cr\u00e9dit municipal de N\u00eemes",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "CEPAFRPP",
+        "bank_code": "18025",
+        "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance de Picardie",
+        "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance de Picardie",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "SOXAFR2L",
+        "bank_code": "26733",
+        "name": "SOGEXIA S.A",
+        "short_name": "SOGEXIA S.A",
         "primary": true
     }
 ]
