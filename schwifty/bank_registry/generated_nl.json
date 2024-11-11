@@ -4,8 +4,8 @@
     "primary": true,
     "bic": "ABNANL2A",
     "bank_code": "ABNA",
-    "name": "ABN AMRO BANK",
-    "short_name": "ABN AMRO BANK"
+    "name": "ABN AMRO BANK N.V.",
+    "short_name": "ABN AMRO BANK N.V."
   },
   {
     "country_code": "NL",
@@ -194,6 +194,14 @@
   {
     "country_code": "NL",
     "primary": true,
+    "bic": "BUUTNL2A",
+    "bank_code": "BUUT",
+    "name": "ABN AMRO BANK N.V.",
+    "short_name": "ABN AMRO BANK N.V."
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
     "bic": "CCBVNL2A",
     "bank_code": "CCBV",
     "name": "CURRENCYCLOUD B.V.",
@@ -230,6 +238,14 @@
     "bank_code": "CITI",
     "name": "CITIBANK INTERNATIONAL",
     "short_name": "CITIBANK INTERNATIONAL"
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
+    "bic": "CLRBNL2A",
+    "bank_code": "CLRB",
+    "name": "CLEARBANK EUROPE N.V.",
+    "short_name": "CLEARBANK EUROPE N.V."
   },
   {
     "country_code": "NL",
@@ -490,6 +506,14 @@
   {
     "country_code": "NL",
     "primary": true,
+    "bic": "MLLENL2A",
+    "bank_code": "MLLE",
+    "name": "Mollie B.V.",
+    "short_name": "Mollie B.V."
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
     "bic": "MODRNL22",
     "bank_code": "MODR",
     "name": "MODULR FINANCE B.V.",
@@ -630,6 +654,14 @@
     "bank_code": "VTPS",
     "name": "VITESSE PSP",
     "short_name": "VITESSE PSP"
+  },
+  {
+    "country_code": "NL",
+    "primary": true,
+    "bic": "WOFTNL22",
+    "bank_code": "WOFT",
+    "name": "World First Netherlands B.V.",
+    "short_name": "World First Netherlands B.V."
   },
   {
     "country_code": "NL",
