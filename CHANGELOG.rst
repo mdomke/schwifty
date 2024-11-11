@@ -5,6 +5,12 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+`2024.11.0`_ - 2024/11/11
+-------------------------
+Changed
+~~~~~~~
+* Removed support for deprecated Python version 3.8
+
 `2024.09.0`_ - 2024/09/31
 -------------------------
 Fixed
@@ -685,6 +691,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2024.11.0: https://github.com/mdomke/schwifty/compare/2024.09.0...2024.11.0
 .. _2024.09.0: https://github.com/mdomke/schwifty/compare/2024.08.1...2024.09.0
 .. _2024.08.1: https://github.com/mdomke/schwifty/compare/2024.08.0...2024.08.1
 .. _2024.08.0: https://github.com/mdomke/schwifty/compare/2024.06.1...2024.08.0

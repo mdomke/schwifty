@@ -4,7 +4,6 @@ from dataclasses import dataclass
 from random import Random
 from typing import Any
 from typing import cast
-from typing import Dict
 
 from rstr import Rstr
 
@@ -183,7 +182,7 @@ class BBAN(common.Base):
         if random is None:
             random = Random()  # noqa: S311
 
-        banks_by_country = cast(Dict[str, Any], registry.get("country"))
+        banks_by_country = cast(dict[str, Any], registry.get("country"))
         if not country_code:
             country_code = random.choice(list(banks_by_country.keys()))
 
