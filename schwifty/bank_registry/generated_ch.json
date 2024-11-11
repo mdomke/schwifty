@@ -2536,8 +2536,8 @@
     "primary": true
   },
   {
-    "name": "Banque Havilland (Liechtenstein) AG, Vaduz, Zweig. Z\u00fcrich",
-    "short_name": "Banque Havilland (Liechtenstein) AG, Vaduz, Zweig. Z\u00fcrich",
+    "name": "+Banque Havilland (Liechtenstein) AG, Vaduz, Zweig. Z\u00fcrich",
+    "short_name": "+Banque Havilland (Liechtenstein) AG, Vaduz, Zweig. Z\u00fcrich",
     "bank_code": "08623",
     "bic": "BPGECHGGXXX",
     "country_code": "CH",
@@ -3204,14 +3204,6 @@
     "short_name": "Schweizerische Mobiliar Versicherungsgesellschaft AG",
     "bank_code": "08859",
     "bic": null,
-    "country_code": "CH",
-    "primary": true
-  },
-  {
-    "name": "CACEIS Bank, Montrouge, Zweigniederlassung Z\u00fcrich / Schweiz",
-    "short_name": "CACEIS Bank, Montrouge, Zweigniederlassung Z\u00fcrich / Schweiz",
-    "bank_code": "08863",
-    "bic": "FETACHZZXXX",
     "country_code": "CH",
     "primary": true
   },
@@ -4760,14 +4752,6 @@
     "primary": false
   },
   {
-    "name": "CACEIS Bank, Montrouge, Zweigniederlassung Z\u00fcrich / Schweiz",
-    "short_name": "CACEIS Bank, Montrouge, Zweigniederlassung Z\u00fcrich / Schweiz",
-    "bank_code": "30323",
-    "bic": "FETACHZZXXX",
-    "country_code": "CH",
-    "primary": false
-  },
-  {
     "name": "Remaco Asset Management AG",
     "short_name": "Remaco Asset Management AG",
     "bank_code": "30324",
@@ -5187,7 +5171,7 @@
     "name": "Banca dello Stato del Cantone Ticino",
     "short_name": "Banca dello Stato del Cantone Ticino",
     "bank_code": "76411",
-    "bic": null,
+    "bic": "BSCTCH22XXX",
     "country_code": "CH",
     "primary": false
   },
@@ -5195,7 +5179,7 @@
     "name": "Banca dello Stato del Cantone Ticino",
     "short_name": "Banca dello Stato del Cantone Ticino",
     "bank_code": "76412",
-    "bic": null,
+    "bic": "BSCTCH22XXX",
     "country_code": "CH",
     "primary": false
   },
@@ -5219,7 +5203,7 @@
     "name": "Banca dello Stato del Cantone Ticino",
     "short_name": "Banca dello Stato del Cantone Ticino",
     "bank_code": "76440",
-    "bic": null,
+    "bic": "BSCTCH22XXX",
     "country_code": "CH",
     "primary": false
   },
@@ -5227,7 +5211,7 @@
     "name": "Banca dello Stato del Cantone Ticino",
     "short_name": "Banca dello Stato del Cantone Ticino",
     "bank_code": "76450",
-    "bic": null,
+    "bic": "BSCTCH22XXX",
     "country_code": "CH",
     "primary": false
   },
@@ -5235,7 +5219,7 @@
     "name": "Banca dello Stato del Cantone Ticino",
     "short_name": "Banca dello Stato del Cantone Ticino",
     "bank_code": "76460",
-    "bic": null,
+    "bic": "BSCTCH22XXX",
     "country_code": "CH",
     "primary": false
   },
@@ -5243,7 +5227,7 @@
     "name": "Banca dello Stato del Cantone Ticino",
     "short_name": "Banca dello Stato del Cantone Ticino",
     "bank_code": "76470",
-    "bic": null,
+    "bic": "BSCTCH22XXX",
     "country_code": "CH",
     "primary": false
   },
@@ -6372,14 +6356,6 @@
     "short_name": "St. Galler Kantonalbank AG",
     "bank_code": "78158",
     "bic": "KBSGCH22XXX",
-    "country_code": "CH",
-    "primary": false
-  },
-  {
-    "name": "Schaffhauser Kantonalbank",
-    "short_name": "Schaffhauser Kantonalbank",
-    "bank_code": "78212",
-    "bic": "SHKBCH2SXXX",
     "country_code": "CH",
     "primary": false
   },
@@ -8684,6 +8660,22 @@
     "short_name": "SR Saphirstein AG",
     "bank_code": "83051",
     "bic": "SAHHCHZ2XXX",
+    "country_code": "CH",
+    "primary": true
+  },
+  {
+    "name": "Union Securities Switzerland SA",
+    "short_name": "Union Securities Switzerland SA",
+    "bank_code": "83057",
+    "bic": null,
+    "country_code": "CH",
+    "primary": true
+  },
+  {
+    "name": "finpension AG",
+    "short_name": "finpension AG",
+    "bank_code": "83059",
+    "bic": "FNPICH22XXX",
     "country_code": "CH",
     "primary": true
   },
