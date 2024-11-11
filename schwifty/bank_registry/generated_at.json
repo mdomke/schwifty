@@ -34,14 +34,6 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "RZTIAT22283",
-    "bank_code": "36283",
-    "name": "Raiffeisenbank Nauders eGen",
-    "short_name": "Raiffeisenbank Nauders eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
     "bic": "RZOOAT2L522",
     "bank_code": "34522",
     "name": "Raiffeisenbank St.Florian am Inn eGen",
@@ -590,14 +582,6 @@
     "bank_code": "34300",
     "name": "Raiffeisenbank Region Neufelden eGen",
     "short_name": "Raiffeisenbank Region Neufelden eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
-    "bic": "RZKTAT2K257",
-    "bank_code": "39257",
-    "name": "Raiffeisenbank Arnoldstein-F\u00fcrnitz eG",
-    "short_name": "Raiffeisenbank Arnoldstein-F\u00fcrnitz eG"
   },
   {
     "country_code": "AT",
@@ -1868,8 +1852,8 @@
     "primary": true,
     "bic": "RZTIAT22315",
     "bank_code": "36315",
-    "name": "Raiffeisenbank Serfaus-Fiss-Ried eGen",
-    "short_name": "Raiffeisenbank Serfaus-Fiss-Ried eGen"
+    "name": "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen",
+    "short_name": "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen"
   },
   {
     "country_code": "AT",
@@ -1924,8 +1908,8 @@
     "primary": true,
     "bic": "RZSTAT2G102",
     "bank_code": "38102",
-    "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach -Wildon eGen",
-    "short_name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach -Wildon eGen"
+    "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen",
+    "short_name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen"
   },
   {
     "country_code": "AT",
@@ -2100,8 +2084,8 @@
     "primary": true,
     "bic": "RZTIAT22320",
     "bank_code": "36320",
-    "name": "Raiffeisenkasse Schlitters, Bruck und Stra\u00df registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
-    "short_name": "Raiffeisenkasse Schlitters, Bruck und Stra\u00df registrierte Genossenschaft mit beschr\u00e4nkter Haftung"
+    "name": "Raiffeisenkasse Schlitters, Bruck und Strass registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+    "short_name": "Raiffeisenkasse Schlitters, Bruck und Strass registrierte Genossenschaft mit beschr\u00e4nkter Haftung"
   },
   {
     "country_code": "AT",
@@ -2556,8 +2540,8 @@
     "primary": true,
     "bic": "RZKTAT2K496",
     "bank_code": "39483",
-    "name": "Raiffeisen Bank Villach registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
-    "short_name": "Raiffeisen Bank Villach registrierte Genossenschaft mit beschr\u00e4nkter Haftung"
+    "name": "Raiffeisenbank Region Villach eG",
+    "short_name": "Raiffeisenbank Region Villach eG"
   },
   {
     "country_code": "AT",
@@ -2940,8 +2924,8 @@
     "primary": true,
     "bic": "RZSTAT2G102",
     "bank_code": "38499",
-    "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach -Wildon eGen",
-    "short_name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach -Wildon eGen"
+    "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen",
+    "short_name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen"
   },
   {
     "country_code": "AT",
@@ -2956,8 +2940,8 @@
     "primary": true,
     "bic": "RZSTAT2G102",
     "bank_code": "38292",
-    "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach -Wildon eGen",
-    "short_name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach -Wildon eGen"
+    "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen",
+    "short_name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen"
   },
   {
     "country_code": "AT",
@@ -3060,8 +3044,8 @@
     "primary": true,
     "bic": "RZOOAT2L083",
     "bank_code": "34083",
-    "name": "Raiffeisenbank Edt-Lambach eGen",
-    "short_name": "Raiffeisenbank Edt-Lambach eGen"
+    "name": "Raiffeisenbank Region Traun-Alm eGen",
+    "short_name": "Raiffeisenbank Region Traun-Alm eGen"
   },
   {
     "country_code": "AT",
@@ -3258,14 +3242,6 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "RZKTAT2K500",
-    "bank_code": "39500",
-    "name": "Raiffeisenbank St. Paul im Lavanttal eGen",
-    "short_name": "Raiffeisenbank St. Paul im Lavanttal eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
     "bic": "RZSTAT2G368",
     "bank_code": "38368",
     "name": "Raiffeisenbank Zirbenland eGen",
@@ -3406,14 +3382,6 @@
     "bank_code": "32250",
     "name": "Raiffeisen Regionalbank M\u00f6dling eGen",
     "short_name": "Raiffeisen Regionalbank M\u00f6dling eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
-    "bic": "RZOOAT2L165",
-    "bank_code": "34165",
-    "name": "Raiffeisenbank Hinterstoder und Vorderstoder eGen",
-    "short_name": "Raiffeisenbank Hinterstoder und Vorderstoder eGen"
   },
   {
     "country_code": "AT",
@@ -3932,8 +3900,8 @@
     "primary": true,
     "bic": "RVSAAT2S027",
     "bank_code": "35127",
-    "name": "Raiffeisenbank H\u00fcttau-St. Martin-Niedernfritz registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
-    "short_name": "Raiffeisenbank H\u00fcttau-St. Martin-Niedernfritz registrierte Genossenschaft mit beschr\u00e4nkter Haftung"
+    "name": "Raiffeisenbank H\u00fcttau-St. Martin eGen",
+    "short_name": "Raiffeisenbank H\u00fcttau-St. Martin eGen"
   },
   {
     "country_code": "AT",
@@ -4452,16 +4420,16 @@
     "primary": true,
     "bic": "RZKTAT2K491",
     "bank_code": "39491",
-    "name": "Raiffeisenbank Oberes Lavanttal registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
-    "short_name": "Raiffeisenbank Oberes Lavanttal registrierte Genossenschaft mit beschr\u00e4nkter Haftung"
+    "name": "Raiffeisenbank Oberes Lavanttal - St. Paul eG",
+    "short_name": "Raiffeisenbank Oberes Lavanttal - St. Paul eG"
   },
   {
     "country_code": "AT",
     "primary": true,
     "bic": "RZKTAT2K496",
     "bank_code": "39496",
-    "name": "Raiffeisen Bank Villach registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
-    "short_name": "Raiffeisen Bank Villach registrierte Genossenschaft mit beschr\u00e4nkter Haftung"
+    "name": "Raiffeisenbank Region Villach eG",
+    "short_name": "Raiffeisenbank Region Villach eG"
   },
   {
     "country_code": "AT",
@@ -4478,14 +4446,6 @@
     "bank_code": "39510",
     "name": "Raiffeisenbank Ossiacher See eG",
     "short_name": "Raiffeisenbank Ossiacher See eG"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
-    "bic": "RZKTAT2K543",
-    "bank_code": "39543",
-    "name": "Raiffeisenbank Hermagor eG",
-    "short_name": "Raiffeisenbank Hermagor eG"
   },
   {
     "country_code": "AT",
@@ -4546,14 +4506,6 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "RZOOAT2L750",
-    "bank_code": "34750",
-    "name": "Raiffeisenbank Bad Wimsbach-Neydharting eGen",
-    "short_name": "Raiffeisenbank Bad Wimsbach-Neydharting eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
     "bic": "RLNWATWWSTO",
     "bank_code": "32842",
     "name": "Raiffeisenbank Stockerau eGen",
@@ -4580,16 +4532,8 @@
     "primary": true,
     "bic": "RZKTAT2K364",
     "bank_code": "39364",
-    "name": "Raiffeisenbank K\u00f6tschach - Mauthen, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
-    "short_name": "Raiffeisenbank K\u00f6tschach - Mauthen, registrierte Genossenschaft mit beschr\u00e4nkter Haftung"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
-    "bic": "RZKTAT2K381",
-    "bank_code": "39381",
-    "name": "Raiffeisenbank Landskron - Gegendtal, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
-    "short_name": "Raiffeisenbank Landskron - Gegendtal, registrierte Genossenschaft mit beschr\u00e4nkter Haftung"
+    "name": "Raiffeisenbank Karnische Region eG",
+    "short_name": "Raiffeisenbank Karnische Region eG"
   },
   {
     "country_code": "AT",
@@ -4684,8 +4628,8 @@
     "primary": true,
     "bic": "RZKTAT2K390",
     "bank_code": "39390",
-    "name": "Raiffeisenbank Region W\u00f6rthersee eG",
-    "short_name": "Raiffeisenbank Region W\u00f6rthersee eG"
+    "name": "Raiffeisenbank W\u00f6rthersee-Landskron-Gegendtal eG",
+    "short_name": "Raiffeisenbank W\u00f6rthersee-Landskron-Gegendtal eG"
   },
   {
     "country_code": "AT",
@@ -4850,14 +4794,6 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "WELCATW1XXX",
-    "bank_code": "19410",
-    "name": "Mercedes-Benz Bank GmbH",
-    "short_name": "Mercedes-Benz Bank GmbH"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
     "bic": "SPLAAT21XXX",
     "bank_code": "20317",
     "name": "Sparkasse Lambach Bank Aktiengesellschaft",
@@ -4956,8 +4892,8 @@
     "primary": true,
     "bic": "RVSAAT2S027",
     "bank_code": "35027",
-    "name": "Raiffeisenbank H\u00fcttau-St. Martin-Niedernfritz registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
-    "short_name": "Raiffeisenbank H\u00fcttau-St. Martin-Niedernfritz registrierte Genossenschaft mit beschr\u00e4nkter Haftung"
+    "name": "Raiffeisenbank H\u00fcttau-St. Martin eGen",
+    "short_name": "Raiffeisenbank H\u00fcttau-St. Martin eGen"
   },
   {
     "country_code": "AT",
@@ -5108,8 +5044,8 @@
     "primary": true,
     "bic": "RZOOAT2L491",
     "bank_code": "34491",
-    "name": "Raiffeisenbank Windischgarsten eGen",
-    "short_name": "Raiffeisenbank Windischgarsten eGen"
+    "name": "Raiffeisenbank Pyhrn-Priel eGen",
+    "short_name": "Raiffeisenbank Pyhrn-Priel eGen"
   },
   {
     "country_code": "AT",
@@ -5260,8 +5196,8 @@
     "primary": true,
     "bic": "RZSTAT2G102",
     "bank_code": "38262",
-    "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach -Wildon eGen",
-    "short_name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach -Wildon eGen"
+    "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen",
+    "short_name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen"
   },
   {
     "country_code": "AT",
@@ -5668,16 +5604,8 @@
     "primary": true,
     "bic": "RZKTAT2K390",
     "bank_code": "39355",
-    "name": "Raiffeisenbank Region W\u00f6rthersee eG",
-    "short_name": "Raiffeisenbank Region W\u00f6rthersee eG"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
-    "bic": "RZKTAT2K257",
-    "bank_code": "39305",
-    "name": "Raiffeisenbank Arnoldstein-F\u00fcrnitz eG",
-    "short_name": "Raiffeisenbank Arnoldstein-F\u00fcrnitz eG"
+    "name": "Raiffeisenbank W\u00f6rthersee-Landskron-Gegendtal eG",
+    "short_name": "Raiffeisenbank W\u00f6rthersee-Landskron-Gegendtal eG"
   },
   {
     "country_code": "AT",
@@ -5844,8 +5772,8 @@
     "primary": true,
     "bic": "RZSTAT2G102",
     "bank_code": "38118",
-    "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach -Wildon eGen",
-    "short_name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach -Wildon eGen"
+    "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen",
+    "short_name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen"
   },
   {
     "country_code": "AT",
@@ -6148,8 +6076,8 @@
     "primary": true,
     "bic": "RZKTAT2K496",
     "bank_code": "39383",
-    "name": "Raiffeisen Bank Villach registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
-    "short_name": "Raiffeisen Bank Villach registrierte Genossenschaft mit beschr\u00e4nkter Haftung"
+    "name": "Raiffeisenbank Region Villach eG",
+    "short_name": "Raiffeisenbank Region Villach eG"
   },
   {
     "country_code": "AT",
@@ -6220,8 +6148,8 @@
     "primary": true,
     "bic": "RZTIAT22315",
     "bank_code": "36306",
-    "name": "Raiffeisenbank Serfaus-Fiss-Ried eGen",
-    "short_name": "Raiffeisenbank Serfaus-Fiss-Ried eGen"
+    "name": "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen",
+    "short_name": "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen"
   },
   {
     "country_code": "AT",
@@ -6334,14 +6262,6 @@
     "bank_code": "37461",
     "name": "Raiffeisenbank Montfort eGen",
     "short_name": "Raiffeisenbank Montfort eGen"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
-    "bic": "VPAYATW2XXX",
-    "bank_code": "94648",
-    "name": "Viva Payment Services Single Member S.A. Zweigniederlassung Wien/ \u00d6sterreich",
-    "short_name": "Viva Payment Services Single Member S.A. Zweigniederlassung Wien/ \u00d6sterreich"
   },
   {
     "country_code": "AT",
@@ -6866,6 +6786,70 @@
   {
     "country_code": "AT",
     "primary": true,
+    "bic": "RZKTAT2K496",
+    "bank_code": "39257",
+    "name": "Raiffeisenbank Region Villach eG",
+    "short_name": "Raiffeisenbank Region Villach eG"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RZKTAT2K496",
+    "bank_code": "39305",
+    "name": "Raiffeisenbank Region Villach eG",
+    "short_name": "Raiffeisenbank Region Villach eG"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RZKTAT2K491",
+    "bank_code": "39500",
+    "name": "Raiffeisenbank Oberes Lavanttal - St. Paul eG",
+    "short_name": "Raiffeisenbank Oberes Lavanttal - St. Paul eG"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RZKTAT2K364",
+    "bank_code": "39543",
+    "name": "Raiffeisenbank Karnische Region eG",
+    "short_name": "Raiffeisenbank Karnische Region eG"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RZKTAT2K390",
+    "bank_code": "39381",
+    "name": "Raiffeisenbank W\u00f6rthersee-Landskron-Gegendtal eG",
+    "short_name": "Raiffeisenbank W\u00f6rthersee-Landskron-Gegendtal eG"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RZTIAT22283",
+    "bank_code": "36283",
+    "name": "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen",
+    "short_name": "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RZOOAT2L083",
+    "bank_code": "34750",
+    "name": "Raiffeisenbank Region Traun-Alm eGen",
+    "short_name": "Raiffeisenbank Region Traun-Alm eGen"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "RZOOAT2L491",
+    "bank_code": "34165",
+    "name": "Raiffeisenbank Pyhrn-Priel eGen",
+    "short_name": "Raiffeisenbank Pyhrn-Priel eGen"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
     "bic": "BUNDATWWXXX",
     "bank_code": "01000",
     "name": "Republik \u00d6sterreich",
@@ -6966,5 +6950,21 @@
     "bank_code": "17899",
     "name": "BKS Bank AG",
     "short_name": "BKS Bank AG"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "BAWAATWWXXX",
+    "bank_code": "14001",
+    "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
+    "short_name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft"
+  },
+  {
+    "country_code": "AT",
+    "primary": true,
+    "bic": "BAWAATWWXXX",
+    "bank_code": "14002",
+    "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
+    "short_name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft"
   }
 ]
