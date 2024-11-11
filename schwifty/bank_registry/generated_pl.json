@@ -12218,14 +12218,6 @@
   {
     "country_code": "PL",
     "primary": true,
-    "bic": "CITIPLPXXXX",
-    "bank_code": "15800006",
-    "name": "Mercedes-Benz Bank Polska Sp\u00f3\u0142ka Akcyjna w likwidacji",
-    "short_name": "Mercedes-Benz Bank Polska Sp\u00f3\u0142ka Akcyjna w likwidacji"
-  },
-  {
-    "country_code": "PL",
-    "primary": true,
     "bic": "GBWCPLPPXXX",
     "bank_code": "16100006",
     "name": "SGB-Bank Sp\u00f3\u0142ka Akcyjna",
@@ -16363,22 +16355,6 @@
     "country_code": "PL",
     "primary": true,
     "bic": "POLUPLPRXXX",
-    "bank_code": "80350000",
-    "name": "Bank Sp\u00f3\u0142dzielczy w Kornicy",
-    "short_name": "Bank Sp\u00f3\u0142dzielczy w Kornicy"
-  },
-  {
-    "country_code": "PL",
-    "primary": true,
-    "bic": "POLUPLPRXXX",
-    "bank_code": "80480000",
-    "name": "Bank Sp\u00f3\u0142dzielczy w Kornicy",
-    "short_name": "Bank Sp\u00f3\u0142dzielczy w Kornicy"
-  },
-  {
-    "country_code": "PL",
-    "primary": true,
-    "bic": "POLUPLPRXXX",
     "bank_code": "80370008",
     "name": "Bank Sp\u00f3\u0142dzielczy w \u0141omazach",
     "short_name": "Bank Sp\u00f3\u0142dzielczy w \u0141omazach"
@@ -16395,6 +16371,14 @@
     "country_code": "PL",
     "primary": true,
     "bic": "POLUPLPRXXX",
+    "bank_code": "80350000",
+    "name": "Bank Sp\u00f3\u0142dzielczy w \u0141osicach",
+    "short_name": "Bank Sp\u00f3\u0142dzielczy w \u0141osicach"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
+    "bic": "POLUPLPRXXX",
     "bank_code": "80380007",
     "name": "Bank Sp\u00f3\u0142dzielczy w \u0141osicach",
     "short_name": "Bank Sp\u00f3\u0142dzielczy w \u0141osicach"
@@ -16404,6 +16388,14 @@
     "primary": true,
     "bic": "POLUPLPRXXX",
     "bank_code": "80440004",
+    "name": "Bank Sp\u00f3\u0142dzielczy w \u0141osicach",
+    "short_name": "Bank Sp\u00f3\u0142dzielczy w \u0141osicach"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
+    "bic": "POLUPLPRXXX",
+    "bank_code": "80480000",
     "name": "Bank Sp\u00f3\u0142dzielczy w \u0141osicach",
     "short_name": "Bank Sp\u00f3\u0142dzielczy w \u0141osicach"
   },
