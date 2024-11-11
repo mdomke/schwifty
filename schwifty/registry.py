@@ -6,8 +6,6 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 from typing import Callable
-from typing import Dict
-from typing import List
 from typing import Union
 
 
@@ -18,7 +16,7 @@ except ImportError:
 
 
 Key = Union[str, tuple]
-Value = Union[Dict[Key, Any], List[Dict[Key, Any]]]
+Value = Union[dict[Key, Any], list[dict[Key, Any]]]
 
 _registry: dict[Key, Value] = {}
 
