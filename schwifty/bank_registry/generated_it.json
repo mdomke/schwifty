@@ -570,14 +570,6 @@
   {
     "country_code": "IT",
     "primary": true,
-    "bic": "BPBAIT3B",
-    "bank_code": "05424",
-    "name": "BANCA POPOLARE DI BARI - SOCIETA' COOPERATIVA PER AZIONI",
-    "short_name": "BANCA POPOLARE DI BARI - SOCIETA' COOPERATIVA PER AZIONI"
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
     "bic": "CIPBITMM",
     "bank_code": "03330",
     "name": "BANCA INTERREGIONALE S.P.A.",
@@ -738,6 +730,14 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "BPBAIT3B",
+    "bank_code": "05424",
+    "name": "BANCA POPOLARE DI BARI - SOCIETA' COOPERATIVA PER AZIONI",
+    "short_name": "BANCA POPOLARE DI BARI - SOCIETA' COOPERATIVA PER AZIONI"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "ICRAITRR59Z",
     "bank_code": "08189",
     "name": "BCC DELLA VALLE DEL TRIGNO SOCIETA' COOPERATIVA",
@@ -766,14 +766,6 @@
     "bank_code": "08749",
     "name": "CENTROMARCA BANCA - CREDITO COOPERATIVO, SOCIETA' COOPERATIVA",
     "short_name": "CENTROMARCA BANCA - CREDITO COOPERATIVO, SOCIETA' COOPERATIVA"
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "FIDMIT31",
-    "bank_code": "03115",
-    "name": "FINDOMESTIC BANCA SPA",
-    "short_name": "FINDOMESTIC BANCA SPA"
   },
   {
     "country_code": "IT",
@@ -1034,6 +1026,14 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "ICRAITRRR10",
+    "bank_code": "08973",
+    "name": "CASSA RURALE ED ARTIGIANA S. GIUSEPPE CREDITO COOPERATIVO CAMERANO SOCIETA' COOPERATIVA",
+    "short_name": "CASSA RURALE ED ARTIGIANA S. GIUSEPPE CREDITO COOPERATIVO CAMERANO SOCIETA' COOPERATIVA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "IMCOIT2A",
     "bank_code": "03301",
     "name": "CASSA DEI RISPARMI DI MILANO E DELLA LOMBARDIA S.P.A.",
@@ -1050,6 +1050,14 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "SCCDIT31",
+    "bank_code": "03235",
+    "name": "Banca di Sconto e Conti Correnti di S.\nMaria Capua Vetere",
+    "short_name": "Banca di Sconto e Conti Correnti di S.\nMaria Capua Vetere"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "CCRTIT2TPIA",
     "bank_code": "08753",
     "name": "BANCA DI CREDITO COOPERATIVO DI PIANFEI E ROCCA DE' BALDI - SOCIETA' COOPERATIVA",
@@ -1058,7 +1066,7 @@
   {
     "country_code": "IT",
     "primary": true,
-    "bic": "SEPFIT31",
+    "bic": "SEPFIT31XXX",
     "bank_code": "36063",
     "name": "BUFFETTI FINANCE S.P.A.",
     "short_name": "BUFFETTI FINANCE S.P.A."
@@ -1070,14 +1078,6 @@
     "bank_code": "08810",
     "name": "BANCA DI CREDITO COOPERATIVO DI SAN GIOVANNI ROTONDO - SOCIETA' COOPERATIVA",
     "short_name": "BANCA DI CREDITO COOPERATIVO DI SAN GIOVANNI ROTONDO - SOCIETA' COOPERATIVA"
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "ICRAITRRR10",
-    "bank_code": "08973",
-    "name": "CASSA RURALE ED ARTIGIANA S. GIUSEPPE CREDITO COOPERATIVO CAMERANO SOCIETA' COOPERATIVA",
-    "short_name": "CASSA RURALE ED ARTIGIANA S. GIUSEPPE CREDITO COOPERATIVO CAMERANO SOCIETA' COOPERATIVA"
   },
   {
     "country_code": "IT",
@@ -1142,14 +1142,6 @@
     "bank_code": "05262",
     "name": "BANCA POPOLARE PUGLIESE - SOCIETA' COOPERATIVA PER AZIONI",
     "short_name": "BANCA POPOLARE PUGLIESE - SOCIETA' COOPERATIVA PER AZIONI"
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "SCCDIT31",
-    "bank_code": "03235",
-    "name": "BANCA DI SCONTO S.P.A.",
-    "short_name": "BANCA DI SCONTO S.P.A."
   },
   {
     "country_code": "IT",
@@ -1246,14 +1238,6 @@
     "bank_code": "05584",
     "name": "BANCO BPM SPA",
     "short_name": "BANCO BPM SPA"
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "PSANIT3P",
-    "bank_code": "05772",
-    "name": "BANCA POPOLARE SANT'ANGELO, SOCIETA' COOPERATIVA PER AZIONI",
-    "short_name": "BANCA POPOLARE SANT'ANGELO, SOCIETA' COOPERATIVA PER AZIONI"
   },
   {
     "country_code": "IT",
@@ -1514,6 +1498,14 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "EDRSITM1XXX",
+    "bank_code": "03407",
+    "name": "EDMOND DE ROTHSCHILD",
+    "short_name": "EDMOND DE ROTHSCHILD"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "IRVTITMM",
     "bank_code": "03351",
     "name": "THE BANK OF NEW YORK MELLON SA/NV",
@@ -1558,6 +1550,14 @@
     "bank_code": "03165",
     "name": "IW BANK SPA",
     "short_name": "IW BANK SPA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "ESPEITMM",
+    "bank_code": "03183",
+    "name": "Mediobanca Banca di Credito\nFinanziario Spa ",
+    "short_name": "Mediobanca Banca di Credito\nFinanziario Spa "
   },
   {
     "country_code": "IT",
@@ -1858,14 +1858,6 @@
   {
     "country_code": "IT",
     "primary": true,
-    "bic": "ESPEITMM",
-    "bank_code": "03183",
-    "name": "BANCA ESPERIA S.P.A.",
-    "short_name": "BANCA ESPERIA S.P.A."
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
     "bic": "ICRAITRRTI0",
     "bank_code": "07062",
     "name": "CREDITO COOPERATIVO MEDIOCRATI S.C. A R.L.",
@@ -1902,6 +1894,14 @@
     "bank_code": "03399",
     "name": "EXTRABANCA S.P.A.",
     "short_name": "EXTRABANCA S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "FIDMIT31",
+    "bank_code": "03115",
+    "name": "FINDOMESTIC BANCA SPA",
+    "short_name": "FINDOMESTIC BANCA SPA"
   },
   {
     "country_code": "IT",
@@ -1962,10 +1962,18 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "SEPFIT31",
+    "bank_code": "03386",
+    "name": "JCB FINANCE",
+    "short_name": "JCB FINANCE"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "KREDITMM",
     "bank_code": "03373",
-    "name": "KBC BANK N.V.",
-    "short_name": "KBC BANK N.V."
+    "name": "KBC BANK N.V. ITALIA",
+    "short_name": "KBC BANK N.V. ITALIA"
   },
   {
     "country_code": "IT",
