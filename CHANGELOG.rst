@@ -10,6 +10,13 @@ Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro
 Changed
 ~~~~~~~
 * Removed support for deprecated Python version 3.8
+* Updated the bank registries for Austria, Germany, Poland, Netherlands, Spain, Czech Republic,
+  Italy, and Switzerland.
+
+Added
+~~~~~
+* New French Banks `@Natim <https://github.com/Natim>`_
+* Add modulr bank to Spanish bank registry `@jose-reveni <https://github.com/jose-reveni>`_
 
 `2024.09.0`_ - 2024/09/31
 -------------------------
