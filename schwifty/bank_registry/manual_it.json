@@ -40,6 +40,14 @@
 		"short_name": "INTESA SANPAOLO"
 	},
 	{
+		"bank_code": "3165",
+		"bic": "BLPIIT21",
+		"country_code": "IT",
+		"name": "IW BANK PRIVATE INVESTMENTS",
+		"primary": true,
+		"short_name": "IW BANK PRIVATE INVESTMENTS"
+	},
+	{
 		"bank_code": "03296",
 		"bic": "FIBKITMM",
 		"country_code": "IT",
@@ -79,6 +87,14 @@
 		"name": "BANCA WIDIBA SPA",
 		"primary": true,
 		"short_name": "BANCA WIDIBA"
+	},
+	{
+		"bank_code": "3475",
+		"bic": "INGBITMM",
+		"country_code": "IT",
+		"name": "ING BANK N.V.",
+		"primary": true,
+		"short_name": "ING BANK N.V."
 	},
 	{
 		"bank_code": "03576",
@@ -784,6 +800,14 @@
 		"primary": true,
 		"short_name": "FRIULOVEST BANCA - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA"
 	},
+	{
+		"bank_code": "08807",
+		"bic": "ICRAITRRF90",
+		"country_code": "IT",
+		"name": "CREDITO COOPERATIVO - CASSA RURALE ED ARTIGIANA DI PALIANO SCRL",
+		"primary": true,
+		"short_name": "CREDITO COOPERATIVO - CASSA RURALE ED ARTIGIANA DI PALIANO SCRL"
+	},	
 	{
 		"bank_code": "08826",
 		"bic": "ICRAITRRMY0",
