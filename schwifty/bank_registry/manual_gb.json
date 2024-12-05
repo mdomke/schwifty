@@ -326,5 +326,13 @@
     "name": "TRANSFERWISE LIMITED",
     "short_name": "TRANSFERWISE LIMITED",
     "primary": true
+  },
+  {
+    "country_code": "GB",
+    "bic": "SAPYGB2L",
+    "bank_code": "SAPY",
+    "name": "BANKING CIRCLE S.A. UK Branch",
+    "short_name": "BANKING CIRCLE",
+    "primary": true
   }
 ]
