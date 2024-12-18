@@ -2555,13 +2555,13 @@
         "country_code": "FR",
         "bic": "CMCIFRPP",
         "bank_code": "11978",
-        "name": "CREDIT INDUSTRIEL ET COMMERCIAL-CIC",
-        "short_name": "CM - CIC BANQUES",
+        "name": "CREDIT MUTUEL FACTORING",
+        "short_name": "CREDIT MUTUEL",
         "primary": true
     },
     {
         "country_code": "FR",
-        "bic": "CMCIFRPP",
+        "bic": "FACFFRPP",
         "bank_code": "13580",
         "name": "FACTOFRANCE",
         "short_name": "FACTOFRANCE",
@@ -2569,18 +2569,18 @@
     },
     {
         "country_code": "FR",
-        "bic": "CMCIFRPP",
+        "bic": "ELFAFRP1XXX",
         "bank_code": "13888",
         "name": "HSBC FACTORING FRANCE",
-        "short_name": "HSBC FACTORING FRANCE",
+        "short_name": "HSBC",
         "primary": true
     },
     {
         "country_code": "FR",
-        "bic": "CMCIFRPP",
+        "bic": "CRNPFRP1XXX",
         "bank_code": "16478",
-        "name": "HSBC FACTORING FRANCE",
-        "short_name": "HSBC FACTORING FRANCE",
+        "name": "LA BANQUE POSTALE LEASING ET FACTORING",
+        "short_name": "LA BANQUE POSTALE",
         "primary": true
     },
     {
@@ -2588,7 +2588,7 @@
         "bic": "AGRIFRP1EFG",
         "bank_code": "16850",
         "name": "CREDIT AGRICOLE SA (LEASING AND FACTORING)",
-        "short_name": "CREDIT AGRICOLE SA (LEASING AND FACTORING)",
+        "short_name": "CREDIT AGRICOLE",
         "primary": true
     },
     {
@@ -2612,7 +2612,7 @@
         "bic": "BUNQFRP2",
         "bank_code": "27633",
         "name": "BUNQ B.V.",
-        "short_name": "BUNQ B.V.",
+        "short_name": "BUNQ",
         "primary": true
     },
     {
@@ -2620,7 +2620,7 @@
         "bic": "FNOMFRP2",
         "bank_code": "30833",
         "name": "FINOM PAYMENTS B.V.",
-        "short_name": "FINOM PAYMENTS B.V.",
+        "short_name": "FINOM",
         "primary": true
     }
 ]
