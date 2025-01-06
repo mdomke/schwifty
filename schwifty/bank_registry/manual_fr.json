@@ -2550,5 +2550,77 @@
         "name": "SOGEXIA S.A",
         "short_name": "SOGEXIA S.A",
         "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "CMCIFRPP",
+        "bank_code": "11978",
+        "name": "CREDIT MUTUEL FACTORING",
+        "short_name": "CREDIT MUTUEL",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "FACFFRPP",
+        "bank_code": "13580",
+        "name": "FACTOFRANCE",
+        "short_name": "FACTOFRANCE",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "ELFAFRP1XXX",
+        "bank_code": "13888",
+        "name": "HSBC FACTORING FRANCE",
+        "short_name": "HSBC",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "CRNPFRP1XXX",
+        "bank_code": "16478",
+        "name": "LA BANQUE POSTALE LEASING ET FACTORING",
+        "short_name": "LA BANQUE POSTALE",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "AGRIFRP1EFG",
+        "bank_code": "16850",
+        "name": "CREDIT AGRICOLE SA (LEASING AND FACTORING)",
+        "short_name": "CREDIT AGRICOLE",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "NTSBFRM1",
+        "bank_code": "20433",
+        "name": "N26 BANK GMBH, SUCCURSALE FRANCE",
+        "short_name": "N26 FRANCE",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "MPAYFRP1",
+        "bank_code": "21933",
+        "name": "MANGOPAY SA FRANCE",
+        "short_name": "MANGOPAY",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "BUNQFRP2",
+        "bank_code": "27633",
+        "name": "BUNQ B.V.",
+        "short_name": "BUNQ",
+        "primary": true
+    },
+    {
+        "country_code": "FR",
+        "bic": "FNOMFRP2",
+        "bank_code": "30833",
+        "name": "FINOM PAYMENTS B.V.",
+        "short_name": "FINOM",
+        "primary": true
     }
 ]
