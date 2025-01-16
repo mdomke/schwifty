@@ -334,5 +334,13 @@
     "name": "BANKING CIRCLE S.A. UK Branch",
     "short_name": "BANKING CIRCLE",
     "primary": true
+  },
+  {
+    "country_code": "GB",
+    "bic": "VEBAGB2LXXX",
+    "bank_code": "VEBA",
+    "name": "NOVEBA LIMITED",
+    "short_name": "NOVEBA",
+    "primary": true
   }
 ]
