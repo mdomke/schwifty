@@ -154,8 +154,8 @@
   },
   {
     "bank_code": "10020500",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Bank f\u00fcr Sozialwirtschaft",
+    "name": "SozialBank",
+    "short_name": "SozialBank Berlin",
     "bic": "BFSWDE33BER",
     "primary": true,
     "country_code": "DE",
@@ -163,8 +163,8 @@
   },
   {
     "bank_code": "10020510",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Sozialbank Berlin",
+    "name": "SozialBank",
+    "short_name": "SozialBank Berlin",
     "bic": "BFSWDE33BER",
     "primary": true,
     "country_code": "DE",
@@ -172,8 +172,8 @@
   },
   {
     "bank_code": "10020520",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Sozialbank Berlin",
+    "name": "SozialBank",
+    "short_name": "SozialBank Berlin",
     "bic": "BFSWDE33BER",
     "primary": true,
     "country_code": "DE",
@@ -232,15 +232,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
-  },
-  {
-    "bank_code": "10030600",
-    "name": "North Channel Bank",
-    "short_name": "North Channel Bank Mainz",
-    "bic": "GENODEF1OGK",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
   },
   {
     "bank_code": "10030700",
@@ -739,7 +730,7 @@
   },
   {
     "bank_code": "10310600",
-    "name": "Tradegate - Wertpapierhandelsbank Berlin",
+    "name": "Tradegate Berlin",
     "short_name": "Tradegate Berlin",
     "bic": "TRDADEB1PBK",
     "primary": true,
@@ -748,7 +739,7 @@
   },
   {
     "bank_code": "10310666",
-    "name": "Tradegate Wertpapierhandelsbank, GF DIR",
+    "name": "Tradegate, GF DIR",
     "short_name": "Tradegate GF DIR",
     "bic": "TRDADEBBDIR",
     "primary": true,
@@ -3393,15 +3384,6 @@
     "checksum_algo": "13"
   },
   {
-    "bank_code": "20050000",
-    "name": "Hamburg Commercial Bank, ehemals HSH Nordbank Hamburg",
-    "short_name": "Hamburg Commercial Bank",
-    "bic": "HSHNDEHHXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "C5"
-  },
-  {
     "bank_code": "20050550",
     "name": "Hamburger Sparkasse",
     "short_name": "Haspa Hamburg",
@@ -4087,8 +4069,8 @@
   },
   {
     "bank_code": "20120520",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Sozialbank Hamburg",
+    "name": "SozialBank",
+    "short_name": "SozialBank Hamburg",
     "bic": "BFSWDE33HAN",
     "primary": true,
     "country_code": "DE",
@@ -4123,8 +4105,8 @@
   },
   {
     "bank_code": "20130600",
-    "name": "Barclays Bank Ireland Hamburg Branch",
-    "short_name": "Barclays Bank Hamburg",
+    "name": "BAWAG Niederlassung Deutschland",
+    "short_name": "BAWAG Niederlassung DE",
     "bic": "BARCDEHAXXX",
     "primary": true,
     "country_code": "DE",
@@ -5420,7 +5402,7 @@
   {
     "bank_code": "21450000",
     "name": "Sparkasse Mittelholstein",
-    "short_name": "Spk Mittelholstein",
+    "short_name": "Spk Mittelholst Rendsburg",
     "bic": "NOLADE21RDB",
     "primary": true,
     "country_code": "DE",
@@ -5884,15 +5866,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "13"
-  },
-  {
-    "bank_code": "23050000",
-    "name": "Hamburg Commercial Bank, ehemals HSH Nordbank Hamburg",
-    "short_name": "Hamburg Commercial Bank",
-    "bic": "HSHNDEHH230",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "C5"
   },
   {
     "bank_code": "23050101",
@@ -6679,8 +6652,8 @@
   },
   {
     "bank_code": "25120510",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Bank f\u00fcr Sozialwirtschaft",
+    "name": "SozialBank",
+    "short_name": "SozialBank Hannover",
     "bic": "BFSWDE33HAN",
     "primary": true,
     "country_code": "DE",
@@ -6949,8 +6922,8 @@
   },
   {
     "bank_code": "25651325",
-    "name": "Kreissparkasse Grafschaft Diepholz",
-    "short_name": "Kr Spk Diepholz",
+    "name": "Kreissparkasse Grafschaft Diepholz -alt-",
+    "short_name": "Kr Spk Diepholz -alt-",
     "bic": "BRLADE21DHZ",
     "primary": true,
     "country_code": "DE",
@@ -9226,8 +9199,8 @@
   },
   {
     "bank_code": "28291551",
-    "name": "Volksbank Esens",
-    "short_name": "VB Esens",
+    "name": "Volksbank Esens -alt-",
+    "short_name": "VB Esens -alt-",
     "bic": "GENODEF1ESE",
     "primary": true,
     "country_code": "DE",
@@ -10222,6 +10195,15 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
+  },
+  {
+    "bank_code": "30040098",
+    "name": "Commerz Service-Center Intensive",
+    "short_name": "CS-CI D\u00fcsseldorf",
+    "bic": "COBADEFFCSC",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "13"
   },
   {
     "bank_code": "30040099",
@@ -12673,8 +12655,8 @@
   },
   {
     "bank_code": "37020500",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Bank f\u00fcr Sozialwirtschaft",
+    "name": "SozialBank",
+    "short_name": "SozialBank K\u00f6ln",
     "bic": "BFSWDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -14860,8 +14842,8 @@
   },
   {
     "bank_code": "40069622",
-    "name": "Volksbank Seppenrade",
-    "short_name": "Volksbank Seppenrade",
+    "name": "Volksbank Seppenrade -alt-",
+    "short_name": "Volksbank Seppenrade -alt-",
     "bic": "GENODEM1LSP",
     "primary": true,
     "country_code": "DE",
@@ -15139,8 +15121,8 @@
   },
   {
     "bank_code": "40164528",
-    "name": "Volksbank S\u00fcdm\u00fcnsterland-Mitte",
-    "short_name": "VB S\u00fcdm\u00fcnsterland-Mitte",
+    "name": "Volksbank S\u00fcdm\u00fcnsterland-Mitte -alt-",
+    "short_name": "VB S\u00fcdm\u00fcnsterland-Mitte-alt",
     "bic": "GENODEM1LHN",
     "primary": true,
     "country_code": "DE",
@@ -15499,8 +15481,8 @@
   },
   {
     "bank_code": "41250035",
-    "name": "Sparkasse Beckum-Wadersloh",
-    "short_name": "Spk Beckum-Wadersloh",
+    "name": "Sparkasse Beckum-Wadersloh -alt-",
+    "short_name": "Spk Beckum-Wadersloh -alt-",
     "bic": "WELADED1BEK",
     "primary": true,
     "country_code": "DE",
@@ -16102,8 +16084,8 @@
   },
   {
     "bank_code": "42861387",
-    "name": "VR-Bank Westm\u00fcnsterland",
-    "short_name": "VR-Bank Westm\u00fcnsterland",
+    "name": "Volksbank Westm\u00fcnsterland",
+    "short_name": "Volksbank Westm\u00fcnsterland",
     "bic": "GENODEM1BOB",
     "primary": true,
     "country_code": "DE",
@@ -20754,6 +20736,15 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "50110808",
+    "name": "J.P. Morgan",
+    "short_name": "J.P. Morgan",
+    "bic": "CHASDEF2XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
     "bank_code": "50110855",
     "name": "J.P. Morgan",
     "short_name": "JPMSE Frankfurt",
@@ -21004,6 +20995,15 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
+  },
+  {
+    "bank_code": "50228899",
+    "name": "FIB Frankfurt International Bank",
+    "short_name": "FIB, Frankfurt am Main",
+    "bic": "EFIBDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
   },
   {
     "bank_code": "50230000",
@@ -24391,8 +24391,8 @@
   },
   {
     "bank_code": "55010400",
-    "name": "Aareal Bank GF - BK01 -",
-    "short_name": "Aareal Bank GF - BK01 -",
+    "name": "Aareal Bank GF - Banking & Digital Solutions -",
+    "short_name": "Aareal Bank GF - BDS - WI",
     "bic": "AARBDE5WDOM",
     "primary": true,
     "country_code": "DE",
@@ -24454,8 +24454,8 @@
   },
   {
     "bank_code": "55020500",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Bank f\u00fcr Sozialwirtschaft",
+    "name": "SozialBank",
+    "short_name": "SozialBank Kassel",
     "bic": "BFSWDE33MNZ",
     "primary": true,
     "country_code": "DE",
@@ -24463,8 +24463,8 @@
   },
   {
     "bank_code": "55020555",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Sozialbank Mainz",
+    "name": "SozialBank",
+    "short_name": "SozialBank Kassel",
     "bic": "BFSWDE33MNZ",
     "primary": true,
     "country_code": "DE",
@@ -24955,15 +24955,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "63"
-  },
-  {
-    "bank_code": "56290000",
-    "name": "Volksbank-Raiffeisenbank Naheland -alt-",
-    "short_name": "VB-Raiffbk Naheland -alt-",
-    "bic": "GENODE51IDO",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "06"
   },
   {
     "bank_code": "57000000",
@@ -27879,7 +27870,7 @@
     "bic": "GENODEF1S02",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "87"
+    "checksum_algo": "09"
   },
   {
     "bank_code": "60090900",
@@ -27901,8 +27892,8 @@
   },
   {
     "bank_code": "60120500",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Bank f\u00fcr Sozialwirtschaft",
+    "name": "SozialBank",
+    "short_name": "SozialBank Stuttgart",
     "bic": "BFSWDE33STG",
     "primary": true,
     "country_code": "DE",
@@ -29773,8 +29764,8 @@
   },
   {
     "bank_code": "64262408",
-    "name": "VR-Bank Dornstetten-Horb",
-    "short_name": "VR-Bank Dornstetten-Horb",
+    "name": "VR-Bank Dornstetten-Horb -alt-",
+    "short_name": "VR-Bank Dornstetten-H.-alt-",
     "bic": "GENODES1VDS",
     "primary": true,
     "country_code": "DE",
@@ -30088,8 +30079,8 @@
   },
   {
     "bank_code": "65092200",
-    "name": "Volksbank Altshausen",
-    "short_name": "Volksbank Altshausen",
+    "name": "Volksbank Altshausen -alt-.",
+    "short_name": "Volksbank Altshausen -alt-",
     "bic": "GENODES1VAH",
     "primary": true,
     "country_code": "DE",
@@ -30097,8 +30088,8 @@
   },
   {
     "bank_code": "65093020",
-    "name": "Volksbank Bad Saulgau",
-    "short_name": "VB Bad Saulgau",
+    "name": "VR Bank Donau-Oberschwaben",
+    "short_name": "VR Bank Donau-Oberschwaben",
     "bic": "GENODES1SLG",
     "primary": true,
     "country_code": "DE",
@@ -30367,8 +30358,8 @@
   },
   {
     "bank_code": "65491320",
-    "name": "Volksbank Raiffeisenbank Laupheim-Illertal",
-    "short_name": "VR Laupheim-Illertal",
+    "name": "Volksbank Raiffeisenbank Laupheim-Illertal -alt-",
+    "short_name": "VR Laupheim-Illertal -alt-",
     "bic": "GENODES1VBL",
     "primary": true,
     "country_code": "DE",
@@ -30376,8 +30367,8 @@
   },
   {
     "bank_code": "65491510",
-    "name": "VR Bank Riedlingen-Federsee",
-    "short_name": "VR Bank Riedlingen-Federsee",
+    "name": "VR Bank Riedlingen-Federsee -alt-",
+    "short_name": "VR Bank Riedlingen-F.-alt-",
     "bic": "GENODES1VRR",
     "primary": true,
     "country_code": "DE",
@@ -30448,8 +30439,8 @@
   },
   {
     "bank_code": "66020500",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Bank f\u00fcr Sozialwirtschaft",
+    "name": "SozialBank",
+    "short_name": "SozialBank Karlsruhe",
     "bic": "BFSWDE33KRL",
     "primary": true,
     "country_code": "DE",
@@ -30457,8 +30448,8 @@
   },
   {
     "bank_code": "66020566",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Sozialbank Karlsruhe",
+    "name": "SozialBank",
+    "short_name": "SozialBank Karlsruhe",
     "bic": "BFSWDE33KRL",
     "primary": true,
     "country_code": "DE",
@@ -30943,8 +30934,8 @@
   },
   {
     "bank_code": "66432700",
-    "name": "Bankhaus J. Fai\u00dft",
-    "short_name": "Fai\u00dftbank Wolfach",
+    "name": "Yapi Kredi Bank Deutschland",
+    "short_name": "Yapi Kredi Deutschland, Ffm",
     "bic": "FAITDE66XXX",
     "primary": true,
     "country_code": "DE",
@@ -31078,8 +31069,8 @@
   },
   {
     "bank_code": "66490000",
-    "name": "Volksbank",
-    "short_name": "Volksbank",
+    "name": "Volksbank - Die Gestalterbank",
+    "short_name": "Volksbank - Gestalterbank",
     "bic": "GENODE61OG1",
     "primary": true,
     "country_code": "DE",
@@ -32293,8 +32284,8 @@
   },
   {
     "bank_code": "68490000",
-    "name": "Volksbank Rhein-Wehra",
-    "short_name": "Volksbank Rhein-Wehra",
+    "name": "Volksbank Rhein-Wehra -alt-",
+    "short_name": "Volksbank Rhein-Wehra -alt-",
     "bic": "GENODE61BSK",
     "primary": true,
     "country_code": "DE",
@@ -33121,8 +33112,8 @@
   },
   {
     "bank_code": "70020500",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Bank f\u00fcr Sozialwirtschaft",
+    "name": "SozialBank",
+    "short_name": "SozialBank M\u00fcnchen",
     "bic": "BFSWDE33MUE",
     "primary": true,
     "country_code": "DE",
@@ -33130,8 +33121,8 @@
   },
   {
     "bank_code": "70020570",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Sozialbank M\u00fcnchen",
+    "name": "SozialBank",
+    "short_name": "SozialBank M\u00fcnchen",
     "bic": "BFSWDE33MUE",
     "primary": true,
     "country_code": "DE",
@@ -34731,15 +34722,6 @@
     "checksum_algo": "00"
   },
   {
-    "bank_code": "71051010",
-    "name": "Kreissparkasse Alt\u00f6tting-Burghausen -alt-",
-    "short_name": "Kr Spk Alt\u00f6tting-Burgh-alt-",
-    "bic": "BYLADEM1AOE",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "00"
-  },
-  {
     "bank_code": "71052050",
     "name": "Kreissparkasse Traunstein-Trostberg",
     "short_name": "Kr Spk Traunstein-Trostberg",
@@ -35164,8 +35146,8 @@
   },
   {
     "bank_code": "72051840",
-    "name": "Sparkasse G\u00fcnzburg-Krumbach",
-    "short_name": "Spk G\u00fcnzburg-Krumbach",
+    "name": "Sparkasse G\u00fcnzburg-Krumbach -alt-",
+    "short_name": "Spk G\u00fcnzburg-Krumbach -alt-",
     "bic": "BYLADEM1GZK",
     "primary": true,
     "country_code": "DE",
@@ -36118,8 +36100,8 @@
   },
   {
     "bank_code": "73369823",
-    "name": "Raiffeisenbank Westallg\u00e4u",
-    "short_name": "Raiffeisenbank Westallg\u00e4u",
+    "name": "Raiffeisenbank Westallg\u00e4u -alt-",
+    "short_name": "Raiffbk Westallg\u00e4u -alt-",
     "bic": "GENODEF1WWA",
     "primary": true,
     "country_code": "DE",
@@ -36190,8 +36172,8 @@
   },
   {
     "bank_code": "73369920",
-    "name": "Raiffeisenbank Kempten-Oberallg\u00e4u",
-    "short_name": "Raiffbk Kempten-Oberallg\u00e4u",
+    "name": "VR Bank Kempten-Oberallg\u00e4u",
+    "short_name": "VR Bank Kempten-Oberallg\u00e4u",
     "bic": "GENODEF1SFO",
     "primary": true,
     "country_code": "DE",
@@ -39277,8 +39259,8 @@
   },
   {
     "bank_code": "79069181",
-    "name": "Raiffeisenbank",
-    "short_name": "Raiffeisenbank N\u00fcdlingen",
+    "name": "Raiffeisenbank -alt-",
+    "short_name": "Raiffbk N\u00fcdlingen -alt-",
     "bic": "GENODEF1NDL",
     "primary": true,
     "country_code": "DE",
@@ -39295,8 +39277,8 @@
   },
   {
     "bank_code": "79069213",
-    "name": "Raiffeisenbank Ma\u00dfbach",
-    "short_name": "Raiffeisenbank Ma\u00dfbach",
+    "name": "Raiffeisenbank",
+    "short_name": "Raiffeisenbank",
     "bic": "GENODEF1RNM",
     "primary": true,
     "country_code": "DE",
@@ -39610,8 +39592,8 @@
   },
   {
     "bank_code": "79562514",
-    "name": "Raiffeisen-Volksbank Aschaffenburg",
-    "short_name": "RV-Bank Aschaffenburg",
+    "name": "Raiffeisen-Volksbank Aschaffenburg -alt-",
+    "short_name": "RV-Bank Aschaffenburg -alt-",
     "bic": "GENODEF1AB1",
     "primary": true,
     "country_code": "DE",
@@ -40042,8 +40024,8 @@
   },
   {
     "bank_code": "81020500",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Bank f\u00fcr Sozialwirtschaft",
+    "name": "SozialBank",
+    "short_name": "SozialBank Magdeburg",
     "bic": "BFSWDE33MAG",
     "primary": true,
     "country_code": "DE",
@@ -40564,8 +40546,8 @@
   },
   {
     "bank_code": "82064038",
-    "name": "VR Bank Westth\u00fcringen",
-    "short_name": "VR Bank Westth\u00fcringen",
+    "name": "VR Bank in Th\u00fcringen",
+    "short_name": "VR Bank in Th\u00fcringen",
     "bic": "GENODEF1MU2",
     "primary": true,
     "country_code": "DE",
@@ -41149,8 +41131,8 @@
   },
   {
     "bank_code": "82094054",
-    "name": "Nordth\u00fcringer Volksbank",
-    "short_name": "Nordth\u00fcringer Volksbank",
+    "name": "Nordth\u00fcringer Volksbank -alt-",
+    "short_name": "Nordth\u00fcringer Volksbank-alt",
     "bic": "GENODEF1NDS",
     "primary": true,
     "country_code": "DE",
@@ -41242,15 +41224,6 @@
     "name": "Raiffeisen-Volksbank Hermsdorfer Kreuz",
     "short_name": "Raiffbk-VB Hermsdorf",
     "bic": "GENODEF1HMF",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "32"
-  },
-  {
-    "bank_code": "83064568",
-    "name": "Geraer Bank -alt-",
-    "short_name": "Geraer Bank -alt-",
-    "bic": "GENODEF1GEV",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "32"
@@ -41455,8 +41428,8 @@
   },
   {
     "bank_code": "85020500",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Bank f\u00fcr Sozialwirtschaft",
+    "name": "SozialBank",
+    "short_name": "SozialBank Dresden",
     "bic": "BFSWDE33DRE",
     "primary": true,
     "country_code": "DE",
@@ -41743,8 +41716,8 @@
   },
   {
     "bank_code": "86020500",
-    "name": "Bank f\u00fcr Sozialwirtschaft",
-    "short_name": "Bank f\u00fcr Sozialwirtschaft",
+    "name": "SozialBank",
+    "short_name": "SozialBank Leipzig",
     "bic": "BFSWDE33LPZ",
     "primary": true,
     "country_code": "DE",
