@@ -5048,8 +5048,8 @@
     "primary": false
   },
   {
-    "name": "Klarpay AG",
-    "short_name": "Klarpay AG",
+    "name": "Bivial AG",
+    "short_name": "Bivial AG",
     "bank_code": "31101",
     "bic": "KLARCH22XXX",
     "country_code": "CH",
@@ -8512,14 +8512,6 @@
     "primary": true
   },
   {
-    "name": "+FlowBank SA",
-    "short_name": "+FlowBank SA",
-    "bank_code": "83029",
-    "bic": "FLOKCHGGXXX",
-    "country_code": "CH",
-    "primary": true
-  },
-  {
     "name": "Allianz Suisse Lebensvers.-Ges. AG (geb. Verm\u00f6gen EL)",
     "short_name": "Allianz Suisse Lebensvers.-Ges. AG (geb. Verm\u00f6gen EL)",
     "bank_code": "83030",
@@ -8600,8 +8592,8 @@
     "primary": true
   },
   {
-    "name": "Klarpay AG",
-    "short_name": "Klarpay AG",
+    "name": "Bivial AG",
+    "short_name": "Bivial AG",
     "bank_code": "83041",
     "bic": "KLARCH22XXX",
     "country_code": "CH",
