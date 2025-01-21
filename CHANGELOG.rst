@@ -5,6 +5,13 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+`2025.01.0`_ - 2025/01/21
+-------------------------
+Changed
+~~~~~~~
+* Update the bank registries for Austria, Germany and Switzerland
+* Added some manual entries for France and Great Britain
+
 `2024.11.0`_ - 2024/11/11
 -------------------------
 Changed
@@ -698,6 +705,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2025.01.0: https://github.com/mdomke/schwifty/compare/2024.11.0...2025.01.0
 .. _2024.11.0: https://github.com/mdomke/schwifty/compare/2024.09.0...2024.11.0
 .. _2024.09.0: https://github.com/mdomke/schwifty/compare/2024.08.1...2024.09.0
 .. _2024.08.1: https://github.com/mdomke/schwifty/compare/2024.08.0...2024.08.1
