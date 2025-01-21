@@ -1,12 +1,12 @@
 {
-  "packages": ["python@3.12"],
+  "env": {
+    "UV_PYTHON": "$PWD/.venv/bin/python"
+  },
+  "packages": ["python@3.13", "uv@latest"],
   "shell": {
     "init_hook": "test $FISH_VERSION && . $VENV_DIR/bin/activate.fish || . $VENV_DIR/bin/activate",
     "scripts": {
-      "setup": [
-        "pip install hatch==1.12.0 pre-commit==4.0.1",
-        "pre-commit install"
-      ]
+      "setup": ["uv sync", "pre-commit install"]
     }
   }
 }
