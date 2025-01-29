@@ -5,6 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "schwifty"
 dynamic = ["version"]
+description = "IBAN parsing and validation"
 readme = "README.rst"
 license = "MIT"
 classifiers = [
