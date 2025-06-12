@@ -720,6 +720,14 @@
     "primary": false
   },
   {
+    "name": "UBS Switzerland AG - Z\u00fcrich",
+    "short_name": "UBS Switzerland AG",
+    "bank_code": "00308",
+    "bic": "UBSWCHZHW08",
+    "country_code": "CH",
+    "primary": false
+  },
+  {
     "name": "UBS AG",
     "short_name": "UBS AG",
     "bank_code": "00315",
@@ -2080,8 +2088,8 @@
     "primary": true
   },
   {
-    "name": "Spar- und Leihkasse G\u00fcrbetal AG",
-    "short_name": "Spar- und Leihkasse G\u00fcrbetal AG",
+    "name": "Spar + Leihkasse G\u00fcrbetal AG",
+    "short_name": "Spar + Leihkasse G\u00fcrbetal AG",
     "bank_code": "08396",
     "bic": "SLGUCH2MXXX",
     "country_code": "CH",
@@ -2480,18 +2488,10 @@
     "primary": true
   },
   {
-    "name": "BANKMED SUISSE SA",
-    "short_name": "BANKMED SUISSE SA",
+    "name": "Banque Des Monts Blancs SA",
+    "short_name": "Banque Des Monts Blancs SA",
     "bank_code": "08574",
     "bic": "MEDSCHGGXXX",
-    "country_code": "CH",
-    "primary": true
-  },
-  {
-    "name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale Private Banking (Suisse) SA",
-    "short_name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale Private Banking (Suisse) SA",
-    "bank_code": "08582",
-    "bic": "RUEGCHZZXXX",
     "country_code": "CH",
     "primary": true
   },
@@ -2532,14 +2532,6 @@
     "short_name": "Nomura Bank (Switzerland) Ltd",
     "bank_code": "08619",
     "bic": "NBSZCHZZXXX",
-    "country_code": "CH",
-    "primary": true
-  },
-  {
-    "name": "+Banque Havilland (Liechtenstein) AG, Vaduz, Zweig. Z\u00fcrich",
-    "short_name": "+Banque Havilland (Liechtenstein) AG, Vaduz, Zweig. Z\u00fcrich",
-    "bank_code": "08623",
-    "bic": "BPGECHGGXXX",
     "country_code": "CH",
     "primary": true
   },
@@ -2656,8 +2648,8 @@
     "primary": true
   },
   {
-    "name": "BNP Paribas (Suisse) SA",
-    "short_name": "BNP Paribas (Suisse) SA",
+    "name": "BNP PARIBAS, Paris, succursale de Lancy/Gen\u00e8ve",
+    "short_name": "BNP PARIBAS, Paris, succursale de Lancy/Gen\u00e8ve",
     "bank_code": "08686",
     "bic": "BPPBCHGGXXX",
     "country_code": "CH",
@@ -3344,14 +3336,6 @@
     "primary": false
   },
   {
-    "name": "SWISS4.0 SA",
-    "short_name": "SWISS4.0 SA",
-    "bank_code": "30015",
-    "bic": "IWSSCHGGXXX",
-    "country_code": "CH",
-    "primary": false
-  },
-  {
     "name": "Cr\u00e9dit Mutuel de la Vall\u00e9e SA",
     "short_name": "Cr\u00e9dit Mutuel de la Vall\u00e9e SA",
     "bank_code": "30020",
@@ -3436,6 +3420,14 @@
     "short_name": "Ersparniskasse Affoltern i. E. AG",
     "bank_code": "30031",
     "bic": "RBABCH22387",
+    "country_code": "CH",
+    "primary": false
+  },
+  {
+    "name": "Entris Banking AG",
+    "short_name": "Entris Banking AG",
+    "bank_code": "30032",
+    "bic": "RBABCH22XXX",
     "country_code": "CH",
     "primary": false
   },
@@ -3784,8 +3776,8 @@
     "primary": false
   },
   {
-    "name": "Spar- und Leihkasse G\u00fcrbetal AG",
-    "short_name": "Spar- und Leihkasse G\u00fcrbetal AG",
+    "name": "Spar + Leihkasse G\u00fcrbetal AG",
+    "short_name": "Spar + Leihkasse G\u00fcrbetal AG",
     "bank_code": "30129",
     "bic": "SLGUCH2MXXX",
     "country_code": "CH",
@@ -3904,8 +3896,8 @@
     "primary": false
   },
   {
-    "name": "BNP Paribas (Suisse) SA",
-    "short_name": "BNP Paribas (Suisse) SA",
+    "name": "BNP PARIBAS, Paris, succursale de Lancy/Gen\u00e8ve",
+    "short_name": "BNP PARIBAS, Paris, succursale de Lancy/Gen\u00e8ve",
     "bank_code": "30154",
     "bic": "BPPBCHGGXXX",
     "country_code": "CH",
@@ -4352,18 +4344,10 @@
     "primary": false
   },
   {
-    "name": "BANKMED SUISSE SA",
-    "short_name": "BANKMED SUISSE SA",
+    "name": "Banque Des Monts Blancs SA",
+    "short_name": "Banque Des Monts Blancs SA",
     "bank_code": "30234",
     "bic": "MEDSCHGGXXX",
-    "country_code": "CH",
-    "primary": false
-  },
-  {
-    "name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale Private Banking (Suisse) SA",
-    "short_name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale Private Banking (Suisse) SA",
-    "bank_code": "30236",
-    "bic": "RUEGCHZZXXX",
     "country_code": "CH",
     "primary": false
   },
@@ -4404,14 +4388,6 @@
     "short_name": "Nomura Bank (Switzerland) Ltd",
     "bank_code": "30241",
     "bic": "NBSZCHZZXXX",
-    "country_code": "CH",
-    "primary": false
-  },
-  {
-    "name": "Banque Havilland (Liechtenstein) AG, Vaduz, Zweig. Z\u00fcrich",
-    "short_name": "Banque Havilland (Liechtenstein) AG, Vaduz, Zweig. Z\u00fcrich",
-    "bank_code": "30242",
-    "bic": "BPGECHGGXXX",
     "country_code": "CH",
     "primary": false
   },
@@ -4668,6 +4644,14 @@
     "short_name": "S.P. Hinduja Banque Priv\u00e9e SA",
     "bank_code": "30299",
     "bic": "ABSGCHGGXXX",
+    "country_code": "CH",
+    "primary": false
+  },
+  {
+    "name": "UBS Switzerland AG - Z\u00fcrich",
+    "short_name": "UBS Switzerland AG",
+    "bank_code": "30308",
+    "bic": "UBSWCHZH80A",
     "country_code": "CH",
     "primary": false
   },
@@ -6568,8 +6552,8 @@
     "primary": false
   },
   {
-    "name": "Banca Raiffeisen del Vedeggio",
-    "short_name": "Banca Raiffeisen del Vedeggio",
+    "name": "Banca Raiffeisen Vedeggio Cassarate",
+    "short_name": "Banca Raiffeisen Vedeggio Cassarate",
     "bank_code": "80283",
     "bic": "RAIFCH22283",
     "country_code": "CH",
@@ -6644,14 +6628,6 @@
     "short_name": "Banca Raiffeisen della Campagnadorna",
     "bank_code": "80365",
     "bic": "RAIFCH22365",
-    "country_code": "CH",
-    "primary": false
-  },
-  {
-    "name": "Banca Raiffeisen del Cassarate",
-    "short_name": "Banca Raiffeisen del Cassarate",
-    "bank_code": "80366",
-    "bic": "RAIFCH22366",
     "country_code": "CH",
     "primary": false
   },
@@ -6888,18 +6864,10 @@
     "primary": false
   },
   {
-    "name": "Banque Raiffeisen de Troistorrents-Morgins",
-    "short_name": "Banque Raiffeisen de Troistorrents-Morgins",
+    "name": "Banque Raiffeisen Vall\u00e9e d'Illiez",
+    "short_name": "Banque Raiffeisen Vall\u00e9e d'Illiez",
     "bank_code": "80626",
     "bic": "RAIFCH22626",
-    "country_code": "CH",
-    "primary": false
-  },
-  {
-    "name": "Banque Raiffeisen de Val-d'Illiez-Champ\u00e9ry",
-    "short_name": "Banque Raiffeisen de Val-d'Illiez-Champ\u00e9ry",
-    "bank_code": "80627",
-    "bic": "RAIFCH22627",
     "country_code": "CH",
     "primary": false
   },
@@ -6916,14 +6884,6 @@
     "short_name": "Raiffeisenbank an der Limmat",
     "bank_code": "80666",
     "bic": "RAIFCH22666",
-    "country_code": "CH",
-    "primary": false
-  },
-  {
-    "name": "Raiffeisenbank Mutschellen-Reppischtal",
-    "short_name": "Raiffeisenbank Mutschellen-Reppischtal",
-    "bank_code": "80673",
-    "bic": "RAIFCH22673",
     "country_code": "CH",
     "primary": false
   },
@@ -7008,8 +6968,8 @@
     "primary": false
   },
   {
-    "name": "Raiffeisenbank Rohrdorferberg-Fislisbach",
-    "short_name": "Raiffeisenbank Rohrdorferberg-Fislisbach",
+    "name": "Raiffeisenbank Mutschellen",
+    "short_name": "Raiffeisenbank Mutschellen",
     "bank_code": "80719",
     "bic": "RAIFCH22719",
     "country_code": "CH",
@@ -7088,14 +7048,6 @@
     "primary": false
   },
   {
-    "name": "Raiffeisenbank Zufikon",
-    "short_name": "Raiffeisenbank Zufikon",
-    "bank_code": "80749",
-    "bic": "RAIFCH22749",
-    "country_code": "CH",
-    "primary": false
-  },
-  {
     "name": "Raiffeisenbank Liestal-Oberbaselbiet",
     "short_name": "Raiffeisenbank Liestal-Oberbaselbiet",
     "bank_code": "80773",
@@ -7148,14 +7100,6 @@
     "short_name": "Raiffeisen",
     "bank_code": "80808",
     "bic": "RAIFCH22XXX",
-    "country_code": "CH",
-    "primary": false
-  },
-  {
-    "name": "Raiffeisenbank Kiesental",
-    "short_name": "Raiffeisenbank Kiesental",
-    "bank_code": "80811",
-    "bic": "RAIFCH22811",
     "country_code": "CH",
     "primary": false
   },
@@ -7232,8 +7176,8 @@
     "primary": false
   },
   {
-    "name": "Raiffeisenbank Thunersee",
-    "short_name": "Raiffeisenbank Thunersee",
+    "name": "Raiffeisenbank Thunersee-Kiesental",
+    "short_name": "Raiffeisenbank Thunersee-Kiesental",
     "bank_code": "80867",
     "bic": "RAIFCH22867",
     "country_code": "CH",
@@ -7280,16 +7224,8 @@
     "primary": false
   },
   {
-    "name": "Raiffeisenbank Freiburg Ost / Fribourg Est",
-    "short_name": "Raiffeisenbank Freiburg Ost / Fribourg Est",
-    "bank_code": "80901",
-    "bic": "RAIFCH22901",
-    "country_code": "CH",
-    "primary": false
-  },
-  {
-    "name": "Raiffeisenbank Sensetal",
-    "short_name": "Raiffeisenbank Sensetal",
+    "name": "Raiffeisenbank Sensetal Freiburg-Ost / Sensetal Fribourg-Est",
+    "short_name": "Raiffeisenbank Sensetal Freiburg-Ost / Sensetal Fribourg-Est",
     "bank_code": "80905",
     "bic": "RAIFCH22905",
     "country_code": "CH",
@@ -8628,14 +8564,6 @@
     "short_name": "BG (Suisse) Private Bank SA",
     "bank_code": "83046",
     "bic": "BGPBCH22XXX",
-    "country_code": "CH",
-    "primary": true
-  },
-  {
-    "name": "SWISS4.0 SA",
-    "short_name": "SWISS4.0 SA",
-    "bank_code": "83048",
-    "bic": "IWSSCHGGXXX",
     "country_code": "CH",
     "primary": true
   },
