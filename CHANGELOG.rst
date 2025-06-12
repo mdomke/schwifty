@@ -5,6 +5,17 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+`2025.06.0`_ - 2025/01/21
+-------------------------
+Changed
+~~~~~~~
+* Allow country specific components to be passed to ``IBAN.generate()``.
+
+  .. code-block:: pycon
+
+    >>> IBAN.generate("IS", bank_code="0101", account_type="26", account_code="85002", account_holder_id="5402696029")
+    <IBAN=IS910101260850025402696029>
+
 `2025.01.0`_ - 2025/01/21
 -------------------------
 Changed
@@ -705,6 +716,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2025.06.0: https://github.com/mdomke/schwifty/compare/2025.01.0...2025.06.0
 .. _2025.01.0: https://github.com/mdomke/schwifty/compare/2024.11.0...2025.01.0
 .. _2024.11.0: https://github.com/mdomke/schwifty/compare/2024.09.0...2024.11.0
 .. _2024.09.0: https://github.com/mdomke/schwifty/compare/2024.08.1...2024.09.0

@@ -134,6 +134,7 @@ class IBAN(common.Base):
             country_code (str): The ISO 3166 alpha-2 country code.
             bank_code (str): The country specific bank-code.
             account_code (str): The customer specific account-code.
+            kwargs (str): Additional country specific fields.
 
         Raises:
             InvalidAccountCode: If the account code does not meet the national requirements.
@@ -153,6 +154,7 @@ class IBAN(common.Base):
                 bank_code=bank_code,
                 branch_code=branch_code,
                 account_code=account_code,
+                **kwargs,
             ),
         )
 

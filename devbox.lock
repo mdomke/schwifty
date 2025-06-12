@@ -1,6 +1,9 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "resolved": "github:NixOS/nixpkgs/9004cb4a05a42b15a6a2eef84acc72152e45ff33?lastModified=1741494726&narHash=sha256-OGQeoY72%2F881aar76xEn4j1BP9s5Ezdi4BxLgYVlqv0%3D"
+    },
     "python@3.13": {
       "last_modified": "2024-12-23T21:10:33Z",
       "plugin_version": "0.0.4",

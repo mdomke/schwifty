@@ -94,7 +94,16 @@ class BBAN(common.Base):
     def from_components(cls, country_code: str, **values: str) -> BBAN:
         """Generate a BBAN from its national components.
 
-        The currently supported ``values`` are ``bank_code``, ``branch_code`` and ``account_code``.
+        The currently supported ``values`` are
+
+            * ``bank_code``,
+            * ``branch_code``
+            * ``account_code``
+            * ``account_id``
+            * ``account_type``
+            * ``account_holder_id``
+            * ``currency_code``
+            * ``national_checksum_digits``
 
         Args:
             country_code (str): The ISO 3166 alpha-2 country code.
