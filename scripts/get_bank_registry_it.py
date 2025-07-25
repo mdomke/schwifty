@@ -219,12 +219,12 @@ if __name__ == "__main__":
     runtime_test_split_bank_name()
 
     bank_names = sorted(set(get_italian_bank_names()))
-    bic_to_bank = {}
+    bank_code_to_bank = {}
     for i, bank_name in enumerate(bank_names):
         print(f"{i}/{len(bank_names)}", "- ", bank_name)
         banks = get_banks_registry_data_from_bank_name(bank_name)
         for bank in banks:
-            bic_to_bank[bank["bic"]] = bank
+            bank_code_to_bank[bank["bank_code"]] = bank
 
     with open("schwifty/bank_registry/generated_it.json", "w") as fp:
-        json.dump(list(bic_to_bank.values()), fp, indent=2)
+        json.dump(list(bank_code_to_bank.values()), fp, indent=2)
