@@ -757,8 +757,8 @@
   },
   {
     "bank_code": "11010100",
-    "name": "solarisBank",
-    "short_name": "solarisBank",
+    "name": "Solaris",
+    "short_name": "Solaris",
     "bic": "SOBKDEBBXXX",
     "primary": true,
     "country_code": "DE",
@@ -766,8 +766,8 @@
   },
   {
     "bank_code": "11010101",
-    "name": "solarisBank Gf (S)",
-    "short_name": "solarisBank Gf (S)",
+    "name": "Solaris",
+    "short_name": "Solaris GF (S)",
     "bic": "SOBKDEB2XXX",
     "primary": true,
     "country_code": "DE",
@@ -775,8 +775,8 @@
   },
   {
     "bank_code": "11010111",
-    "name": "solarisBank Gf (PNTA)",
-    "short_name": "solarisBank Gf (PNTA)",
+    "name": "Solaris",
+    "short_name": "Solaris Gf (PNTA)",
     "bic": "PNTADEBBXXX",
     "primary": true,
     "country_code": "DE",
@@ -5130,15 +5130,6 @@
     "checksum_algo": "00"
   },
   {
-    "bank_code": "21000000",
-    "name": "Bundesbank eh Kiel",
-    "short_name": "BBk Hamburg eh Kiel",
-    "bic": "MARKDEF1210",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
     "bank_code": "21020600",
     "name": "Sydbank Filiale Kiel",
     "short_name": "Sydbank Fil. Kiel",
@@ -5848,15 +5839,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "10"
-  },
-  {
-    "bank_code": "23000000",
-    "name": "Bundesbank eh L\u00fcbeck",
-    "short_name": "BBk Hamburg eh L\u00fcbeck",
-    "bic": "MARKDEF1230",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
   },
   {
     "bank_code": "23040022",
@@ -6896,7 +6878,7 @@
   {
     "bank_code": "25621327",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Diepholz",
+    "short_name": "OLB AG Diepholz",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -7452,15 +7434,6 @@
     "checksum_algo": "13"
   },
   {
-    "bank_code": "26350001",
-    "name": "Stadtsparkasse Osterode -alt-",
-    "short_name": "St Spk Osterode -alt-",
-    "bic": "NOLADE21OHA",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "00"
-  },
-  {
     "bank_code": "26351015",
     "name": "Sparkasse Osterode am Harz",
     "short_name": "Sparkasse Osterode am Harz",
@@ -7490,7 +7463,7 @@
   {
     "bank_code": "26520017",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Osnabr\u00fcck",
+    "short_name": "OLB AG Osnabr\u00fcck",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -7499,7 +7472,7 @@
   {
     "bank_code": "26521703",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Bramsche",
+    "short_name": "OLB AG Bramsche",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -7508,7 +7481,7 @@
   {
     "bank_code": "26522319",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Quakenbr\u00fcck",
+    "short_name": "OLB AG Quakenbr\u00fcck",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -7751,7 +7724,7 @@
   {
     "bank_code": "26620010",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Lingen",
+    "short_name": "OLB AG Lingen",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -7760,7 +7733,7 @@
   {
     "bank_code": "26621413",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Meppen",
+    "short_name": "OLB AG Meppen",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -7813,8 +7786,8 @@
   },
   {
     "bank_code": "26662932",
-    "name": "Volksbank",
-    "short_name": "Volksbank Lengerich",
+    "name": "Volksbank -alt-",
+    "short_name": "Volksbank Lengerich -alt-",
     "bic": "GENODEF1LEN",
     "primary": true,
     "country_code": "DE",
@@ -7832,7 +7805,7 @@
   {
     "bank_code": "26720028",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Nordhorn",
+    "short_name": "OLB AG Nordhorn",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8498,7 +8471,7 @@
   {
     "bank_code": "28020050",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Oldenburg",
+    "short_name": "OLB AG Oldenburg",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8507,7 +8480,7 @@
   {
     "bank_code": "28021002",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Brake",
+    "short_name": "OLB AG Brake",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8516,7 +8489,7 @@
   {
     "bank_code": "28021301",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Ldbank Bad Zwischenahn",
+    "short_name": "OLB AG Bad Zwischenahn",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8525,7 +8498,7 @@
   {
     "bank_code": "28021504",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Cloppenburg",
+    "short_name": "OLB AG Cloppenburg",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8534,7 +8507,7 @@
   {
     "bank_code": "28021623",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Damme",
+    "short_name": "OLB AG Damme",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8543,7 +8516,7 @@
   {
     "bank_code": "28021705",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Delmenhorst",
+    "short_name": "OLB AG Delmenhorst",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8552,7 +8525,7 @@
   {
     "bank_code": "28021906",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Elsfleth",
+    "short_name": "OLB AG Elsfleth",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8561,7 +8534,7 @@
   {
     "bank_code": "28022015",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Nordenham",
+    "short_name": "OLB AG Nordenham",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8570,7 +8543,7 @@
   {
     "bank_code": "28022412",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank L\u00f6ningen",
+    "short_name": "OLB AG L\u00f6ningen",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8579,7 +8552,7 @@
   {
     "bank_code": "28022511",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Lohne",
+    "short_name": "OLB AG Lohne",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8588,7 +8561,7 @@
   {
     "bank_code": "28022620",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Rastede",
+    "short_name": "OLB AG Rastede",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8597,7 +8570,7 @@
   {
     "bank_code": "28022822",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Vechta",
+    "short_name": "OLB AG Vechta",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8606,7 +8579,7 @@
   {
     "bank_code": "28023224",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Westerstede",
+    "short_name": "OLB AG Westerstede",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8615,7 +8588,7 @@
   {
     "bank_code": "28023325",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Ldbank Wildeshausen",
+    "short_name": "OLB AG Wildeshausen",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -8623,8 +8596,8 @@
   },
   {
     "bank_code": "28030300",
-    "name": "Oldenburgische Landesbank (vormals W. Fortmann & S\u00f6hne)",
-    "short_name": "OLB, Oldenburg",
+    "name": "Oldenburgische Landesbank AG (vormals W. Fortmann & S\u00f6hne)",
+    "short_name": "OLB AG Oldenburg",
     "bic": "FORTDEH4XXX",
     "primary": true,
     "country_code": "DE",
@@ -9074,7 +9047,7 @@
   {
     "bank_code": "28220026",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Ldbank Wilhelmshaven",
+    "short_name": "OLB AG Wilhelmshaven",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -9083,7 +9056,7 @@
   {
     "bank_code": "28222208",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Jever",
+    "short_name": "OLB AG Jever",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -9092,7 +9065,7 @@
   {
     "bank_code": "28222621",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Varel",
+    "short_name": "OLB AG Varel",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -9209,7 +9182,7 @@
   {
     "bank_code": "28320014",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Norden",
+    "short_name": "OLB AG Norden",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -9218,7 +9191,7 @@
   {
     "bank_code": "28321816",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Norderney",
+    "short_name": "OLB AG Norderney",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -9245,7 +9218,7 @@
   {
     "bank_code": "28420007",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Emden",
+    "short_name": "OLB AG Emden",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -9254,7 +9227,7 @@
   {
     "bank_code": "28421030",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Aurich",
+    "short_name": "OLB AG Aurich",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -9353,7 +9326,7 @@
   {
     "bank_code": "28520009",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Leer",
+    "short_name": "OLB AG Leer",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -9362,7 +9335,7 @@
   {
     "bank_code": "28521518",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Papenburg",
+    "short_name": "OLB AG Papenburg",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -9502,15 +9475,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "28"
-  },
-  {
-    "bank_code": "29000000",
-    "name": "Bundesbank eh Bremen",
-    "short_name": "BBk Hannover eh Bremen",
-    "bic": "MARKDEF1290",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
   },
   {
     "bank_code": "29020000",
@@ -9785,7 +9749,7 @@
   {
     "bank_code": "29121731",
     "name": "Oldenburgische Landesbank AG",
-    "short_name": "Oldb Landesbank Syke",
+    "short_name": "OLB AG Syke",
     "bic": "OLBODEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -9883,8 +9847,8 @@
   },
   {
     "bank_code": "29167624",
-    "name": "Volksbank Syke",
-    "short_name": "Volksbank Syke",
+    "name": "Volksbank Syke -alt-",
+    "short_name": "Volksbank Syke -alt-",
     "bic": "GENODEF1SHR",
     "primary": true,
     "country_code": "DE",
@@ -10035,6 +9999,15 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "30013300",
+    "name": "EburyPartners Belgium, Zweigniederlassung Deutschland",
+    "short_name": "EburyPartners Belgium, DE",
+    "bic": "EBPBDED2XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
     "bank_code": "30018800",
     "name": "VIVA PAYMENT SERVICES - Zweigniederlassung Deutschland",
     "short_name": "VIVA Payments",
@@ -10054,8 +10027,8 @@
   },
   {
     "bank_code": "30020700",
-    "name": "Mizuho Bank Filiale D\u00fcsseldorf",
-    "short_name": "Mizuho Bank D\u00fcsseldorf",
+    "name": "Mizuho Bank Europe, Frankfurt Branch",
+    "short_name": "MBE Frankfurt",
     "bic": "MHCBDEDDXXX",
     "primary": true,
     "country_code": "DE",
@@ -12667,15 +12640,6 @@
     "name": "Santander Consumer Bank",
     "short_name": "Santander Consumer Bank",
     "bic": "SCFBDE33XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
-    "bank_code": "37020900",
-    "name": "Ford Bank Ndl. der FCE Bank",
-    "short_name": "Ford Bank K\u00f6ln",
-    "bic": "FDBADE3KXXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -15517,8 +15481,8 @@
   },
   {
     "bank_code": "41262501",
-    "name": "Volksbank",
-    "short_name": "Volksbank",
+    "name": "Volksbank -alt-",
+    "short_name": "Volksbank -alt-",
     "bic": "GENODEM1AHL",
     "primary": true,
     "country_code": "DE",
@@ -15589,8 +15553,8 @@
   },
   {
     "bank_code": "41651770",
-    "name": "Sparkasse Hochsauerland",
-    "short_name": "Spk Hochsauerland Brilon",
+    "name": "Sparkasse Hochsauerland -alt-",
+    "short_name": "Spk Hochsauerland -alt-",
     "bic": "WELADED1HSL",
     "primary": true,
     "country_code": "DE",
@@ -17749,8 +17713,8 @@
   },
   {
     "bank_code": "46650005",
-    "name": "Sparkasse Arnsberg-Sundern",
-    "short_name": "Spk Arnsberg-Sundern",
+    "name": "Sparkasse Arnsberg-Sundern -alt-",
+    "short_name": "Spk Arnsberg-Sundern -alt-",
     "bic": "WELADED1ARN",
     "primary": true,
     "country_code": "DE",
@@ -19162,8 +19126,8 @@
   },
   {
     "bank_code": "50010700",
-    "name": "Oldenburgische Landesbank",
-    "short_name": "Oldb Landesbank Oldenburg",
+    "name": "Oldenburgische Landesbank AG",
+    "short_name": "OLB AG Oldenburg",
     "bic": "DEGUDEFFXXX",
     "primary": true,
     "country_code": "DE",
@@ -19372,6 +19336,15 @@
     "name": "Triodos Bank Deutschland",
     "short_name": "Triodos Bank Deutschland",
     "bic": "TRODDEF1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "06"
+  },
+  {
+    "bank_code": "50031900",
+    "name": "BANCO BILBAO VIZCAYA ARGENTARIA, Niederlassung Deutschland",
+    "short_name": "BBVA Frankfurt",
+    "bic": "BBVADEFFXXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "06"
@@ -20620,8 +20593,8 @@
   },
   {
     "bank_code": "50092100",
-    "name": "Spar- u Kreditbank ev-freikirchl Gemeinden",
-    "short_name": "Spar- u Kreditbk Bad Hombg",
+    "name": "Freikirchen.Bank",
+    "short_name": "Freikirchen.Bank",
     "bic": "GENODE51BH2",
     "primary": true,
     "country_code": "DE",
@@ -20755,18 +20728,9 @@
   },
   {
     "bank_code": "50110900",
-    "name": "Bank of America N.A. Military Bank",
-    "short_name": "Bank of America N.A. Mil Bk",
+    "name": "Navy Federal Credit Union - Overseas Military Bank",
+    "short_name": "Navy Federal Credit Union",
     "bic": "MNBIDEF1XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
-    "bank_code": "50120000",
-    "name": "Stifel Europe Bank",
-    "short_name": "Stifel Europe Bank",
-    "bic": "MAIFDEFFXXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -20788,15 +20752,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "D9"
-  },
-  {
-    "bank_code": "50120500",
-    "name": "Credit Suisse (Deutschland)",
-    "short_name": "CSD Frankfurt Main",
-    "bic": "CRESDE55XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "66"
   },
   {
     "bank_code": "50120600",
@@ -20875,6 +20830,15 @@
     "name": "Vietnam Joint Stock Commercial Bank for Industry and Trade",
     "short_name": "VietinBank Frankfurt",
     "bic": "ICBVDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50131700",
+    "name": "The Korea Development Bank, Frankfurt Branch",
+    "short_name": "KDB Frankfurt Branch",
+    "bic": "KODBDEFFXXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -21265,15 +21229,6 @@
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "99"
-  },
-  {
-    "bank_code": "50522222",
-    "name": "FIDOR Bank Zndl Frankfurt am Main",
-    "short_name": "FIDOR Bank Frankfurt",
-    "bic": "FDDODEMMXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
   },
   {
     "bank_code": "50530000",
@@ -22266,24 +22221,6 @@
     "checksum_algo": "06"
   },
   {
-    "bank_code": "51091700",
-    "name": "vr bank Untertaunus -alt-",
-    "short_name": "vr bank Untertaunus -alt-",
-    "bic": "VRBUDE51XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "06"
-  },
-  {
-    "bank_code": "51091711",
-    "name": "vr bank Untertaunus -alt-",
-    "short_name": "vr bank Untertaunus -alt-",
-    "bic": "VRBUDE51XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "06"
-  },
-  {
     "bank_code": "51140029",
     "name": "Commerzbank",
     "short_name": "Commerzbank Limburg Lahn",
@@ -22554,15 +22491,6 @@
     "checksum_algo": "06"
   },
   {
-    "bank_code": "51300000",
-    "name": "Bundesbank eh Gie\u00dfen",
-    "short_name": "BBk Frankfurt eh Gie\u00dfen",
-    "bic": "MARKDEF1513",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
     "bank_code": "51340013",
     "name": "Commerzbank",
     "short_name": "Commerzbank Gie\u00dfen",
@@ -22660,15 +22588,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "06"
-  },
-  {
-    "bank_code": "51410600",
-    "name": "Bank of America",
-    "short_name": "Bank of America Frankfurt",
-    "bic": "BOFADEFFXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
   },
   {
     "bank_code": "51410700",
@@ -24337,8 +24256,8 @@
   },
   {
     "bank_code": "54851440",
-    "name": "Sparkasse Germersheim-Kandel",
-    "short_name": "Spk Kandel Pfalz",
+    "name": "Sparkasse Germersheim-Kandel -alt-",
+    "short_name": "Spk Kandel Pfalz -alt-",
     "bic": "MALADE51KAD",
     "primary": true,
     "country_code": "DE",
@@ -28090,8 +28009,8 @@
   },
   {
     "bank_code": "60420000",
-    "name": "Oldenburgische Landesbank",
-    "short_name": "OLB",
+    "name": "Oldenburgische Landesbank AG",
+    "short_name": "OLB AG Oldenburg",
     "bic": "WBAGDE61XXX",
     "primary": true,
     "country_code": "DE",
@@ -28099,8 +28018,8 @@
   },
   {
     "bank_code": "60420020",
-    "name": "Oldenburgische Landesbank",
-    "short_name": "OLB",
+    "name": "Oldenburgische Landesbank AG",
+    "short_name": "OLB AG Oldenburg",
     "bic": "WBAGDEA1XXX",
     "primary": true,
     "country_code": "DE",
@@ -28108,8 +28027,8 @@
   },
   {
     "bank_code": "60420021",
-    "name": "Oldenburgische Landesbank",
-    "short_name": "OLB",
+    "name": "Oldenburgische Landesbank AG",
+    "short_name": "OLB AG Oldenburg",
     "bic": "WBAGDEA1XXX",
     "primary": true,
     "country_code": "DE",
@@ -32536,8 +32455,8 @@
   },
   {
     "bank_code": "69362032",
-    "name": "Volksbank Me\u00dfkirch Raiffeisenbank",
-    "short_name": "Volksbank Me\u00dfkirch Raiffbk",
+    "name": "Volksbank Me\u00dfkirch -alt-",
+    "short_name": "Volksbank Me\u00dfkirch -alt-",
     "bic": "GENODE61MES",
     "primary": true,
     "country_code": "DE",
@@ -32815,8 +32734,8 @@
   },
   {
     "bank_code": "70011900",
-    "name": "InterCard",
-    "short_name": "InterCard Taufkirchen",
+    "name": "VERIFONE PAYMENTS",
+    "short_name": "VERIFONE PAYMENTS",
     "bic": "ICRDDE71XXX",
     "primary": true,
     "country_code": "DE",
@@ -32860,7 +32779,7 @@
   },
   {
     "bank_code": "70012700",
-    "name": "VZ Depotbank Deutschland",
+    "name": "VZ Verm\u00f6gensZentrum Bank",
     "short_name": "VZDB DE M\u00fcnchen",
     "bic": "DEPDDEMMXXX",
     "primary": true,
@@ -33147,15 +33066,6 @@
     "checksum_algo": "99"
   },
   {
-    "bank_code": "70022200",
-    "name": "Fidor Bank",
-    "short_name": "Fidor Bank M\u00fcnchen",
-    "bic": "FDDODEMMXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "16"
-  },
-  {
     "bank_code": "70025175",
     "name": "UniCredit Bank - HypoVereinsbank",
     "short_name": "UniCredit Bank-HypoVereinbk",
@@ -33229,8 +33139,8 @@
   },
   {
     "bank_code": "70035000",
-    "name": "Oldenburgische Landesbank",
-    "short_name": "OLB, Oldenburg",
+    "name": "Oldenburgische Landesbank AG",
+    "short_name": "OLB AG Oldenburg",
     "bic": "OLBODEH2700",
     "primary": true,
     "country_code": "DE",
@@ -33846,7 +33756,7 @@
     "bic": "GENODEF1S04",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "81"
+    "checksum_algo": "09"
   },
   {
     "bank_code": "70091500",
@@ -34138,7 +34048,7 @@
   },
   {
     "bank_code": "70169382",
-    "name": "Raiffeisenbank",
+    "name": "Raiffeisenbank Gilching",
     "short_name": "Raiffeisenbank Gilching",
     "bic": "GENODEF1GIL",
     "primary": true,
@@ -35137,8 +35047,8 @@
   },
   {
     "bank_code": "72051210",
-    "name": "Sparkasse Aichach-Schrobenhausen",
-    "short_name": "Spk Aichach-Schrobenhausen",
+    "name": "Sparkasse Altbayern",
+    "short_name": "Spk Altbayern",
     "bic": "BYLADEM1AIC",
     "primary": true,
     "country_code": "DE",
@@ -35221,15 +35131,6 @@
     "name": "Raiffeisenbank Aschberg -alt-",
     "short_name": "Raiffbk Aschberg -alt-",
     "bic": "GENODEF1HZH",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
-  },
-  {
-    "bank_code": "72069114",
-    "name": "Raiffeisenbank -alt-",
-    "short_name": "Raiffbk Holzheim -alt-",
-    "bic": "GENODEF1HZR",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"
@@ -35650,8 +35551,8 @@
   },
   {
     "bank_code": "72151880",
-    "name": "Sparkasse Aichach-Schrobenhausen -alt-",
-    "short_name": "Spk Aichach-Schrobenhausen",
+    "name": "Stadtsparkasse Schrobenhausen -alt-",
+    "short_name": "Stadtspk Schrobenhausen",
     "bic": "BYLADEM1SSH",
     "primary": true,
     "country_code": "DE",
@@ -35659,8 +35560,8 @@
   },
   {
     "bank_code": "72152070",
-    "name": "Sparkasse Neuburg-Rain",
-    "short_name": "Spk Neuburg-Rain",
+    "name": "Sparkasse Neuburg-Rain -alt-",
+    "short_name": "Spk Neuburg-Rain -alt-",
     "bic": "BYLADEM1NEB",
     "primary": true,
     "country_code": "DE",
@@ -35893,8 +35794,8 @@
   },
   {
     "bank_code": "72250160",
-    "name": "Sparkasse Donauw\u00f6rth",
-    "short_name": "Spk Donauw\u00f6rth",
+    "name": "Sparkasse Donauw\u00f6rth -alt-",
+    "short_name": "Sparkasse Donauw\u00f6rth -alt-",
     "bic": "BYLADEM1DON",
     "primary": true,
     "country_code": "DE",
@@ -35902,8 +35803,8 @@
   },
   {
     "bank_code": "72251520",
-    "name": "Sparkasse Dillingen-N\u00f6rdlingen",
-    "short_name": "Spk Dillingen-N\u00f6rdlingen",
+    "name": "Sparkasse Nordschwaben",
+    "short_name": "Sparkasse Nordschwaben",
     "bic": "BYLADEM1DLG",
     "primary": true,
     "country_code": "DE",
@@ -35950,15 +35851,6 @@
     "name": "VR-Bank Neu-Ulm",
     "short_name": "VR-Bank Neu-Ulm",
     "bic": "GENODEF1NU1",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
-  },
-  {
-    "bank_code": "73090000",
-    "name": "Volksbank Neu-Ulm -alt-",
-    "short_name": "Volksbank Neu-Ulm -alt-",
-    "bic": "GENODEF1NUV",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"
@@ -36091,8 +35983,8 @@
   },
   {
     "bank_code": "73369821",
-    "name": "BodenseeBank",
-    "short_name": "BodenseeBank",
+    "name": "VR S\u00fcdBank",
+    "short_name": "VR S\u00fcdBank",
     "bic": "GENODEF1LBB",
     "primary": true,
     "country_code": "DE",
@@ -36882,15 +36774,6 @@
     "checksum_algo": "88"
   },
   {
-    "bank_code": "74366666",
-    "name": "Raiffeisenbank Geisenhausen -alt-",
-    "short_name": "Raiffbk Geisenh. -alt-",
-    "bic": "GENODEF1GSH",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
-  },
-  {
     "bank_code": "74369068",
     "name": "Raiffeisenbank Hofkirchen-Bayerbach",
     "short_name": "Raiffbk Hofkirchen-Bayerbch",
@@ -36967,15 +36850,6 @@
     "name": "VR-Bank Landshut",
     "short_name": "VR-Bank Landshut",
     "bic": "GENODEF1LH1",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
-  },
-  {
-    "bank_code": "74391300",
-    "name": "Volksbank-Raiffeisenbank Dingolfing -alt-",
-    "short_name": "VB-Raiffbk Dingolfing -alt-",
-    "bic": "GENODEF1DGF",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"
@@ -38319,7 +38193,7 @@
     "bic": "GENODEF1S06",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "81"
+    "checksum_algo": "09"
   },
   {
     "bank_code": "76090900",
@@ -38878,15 +38752,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"
-  },
-  {
-    "bank_code": "77300000",
-    "name": "Bundesbank eh Bayreuth",
-    "short_name": "BBk M\u00fcnchen eh Bayreuth",
-    "bic": "MARKDEF1773",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
   },
   {
     "bank_code": "77320072",
@@ -41398,15 +41263,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "32"
-  },
-  {
-    "bank_code": "85000000",
-    "name": "Bundesbank eh Dresden",
-    "short_name": "BBk Leipzig eh Dresden",
-    "bic": "MARKDEF1850",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
   },
   {
     "bank_code": "85010500",
