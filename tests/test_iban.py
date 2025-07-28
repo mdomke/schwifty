@@ -233,7 +233,7 @@ def test_iban_properties_it() -> None:
     assert iban.national_checksum_digits == "X"
     assert iban.country == countries.get(alpha_2="IT")
     assert iban.bic == "BLOPIT22"
-    assert iban.bank_name == "BANCA POPOLARE DI BERGAMO S.P.A."
+    assert iban.bank_name == "Unione Di Banche Italiane SpA"
     assert iban.in_sepa_zone is True
 
 
