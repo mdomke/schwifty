@@ -1736,8 +1736,8 @@
     "primary": true
   },
   {
-    "name": "Credit Europe Bank (Suisse) SA",
-    "short_name": "Credit Europe Bank (Suisse) SA",
+    "name": "Nexent Bank (Suisse) SA",
+    "short_name": "Nexent Bank (Suisse) SA",
     "bank_code": "08236",
     "bic": "FSUICHGGXXX",
     "country_code": "CH",
@@ -1768,8 +1768,8 @@
     "primary": true
   },
   {
-    "name": "ONE swiss bank SA",
-    "short_name": "ONE swiss bank SA",
+    "name": "Gonet & Cie SA (ex. ONE swiss bank SA)",
+    "short_name": "Gonet & Cie SA (ex. ONE swiss bank SA)",
     "bank_code": "08246",
     "bic": "BQBHCHGGXXX",
     "country_code": "CH",
@@ -2368,8 +2368,8 @@
     "primary": true
   },
   {
-    "name": "Privatbank IHAG Z\u00fcrich AG",
-    "short_name": "Privatbank IHAG Z\u00fcrich AG",
+    "name": "PB IHAG AG",
+    "short_name": "PB IHAG AG",
     "bank_code": "08528",
     "bic": "IHZUCHZZXXX",
     "country_code": "CH",
@@ -3864,8 +3864,8 @@
     "primary": false
   },
   {
-    "name": "Privatbank IHAG Z\u00fcrich AG",
-    "short_name": "Privatbank IHAG Z\u00fcrich AG",
+    "name": "PB IHAG AG",
+    "short_name": "PB IHAG AG",
     "bank_code": "30148",
     "bic": "IHZUCHZZXXX",
     "country_code": "CH",
@@ -4032,8 +4032,8 @@
     "primary": false
   },
   {
-    "name": "Credit Europe Bank (Suisse) SA",
-    "short_name": "Credit Europe Bank (Suisse) SA",
+    "name": "Nexent Bank (Suisse) SA",
+    "short_name": "Nexent Bank (Suisse) SA",
     "bank_code": "30182",
     "bic": "FSUICHGGXXX",
     "country_code": "CH",
@@ -4056,8 +4056,8 @@
     "primary": false
   },
   {
-    "name": "ONE swiss bank SA",
-    "short_name": "ONE swiss bank SA",
+    "name": "Gonet & Cie SA (ex. ONE swiss bank SA)",
+    "short_name": "Gonet & Cie SA (ex. ONE swiss bank SA)",
     "bank_code": "30187",
     "bic": "BQBHCHGGXXX",
     "country_code": "CH",
@@ -8588,6 +8588,14 @@
     "short_name": "Union Securities Switzerland SA",
     "bank_code": "83057",
     "bic": null,
+    "country_code": "CH",
+    "primary": true
+  },
+  {
+    "name": "Swiss Life Asset Management AG",
+    "short_name": "Swiss Life Asset Management AG",
+    "bank_code": "83058",
+    "bic": "SLAMCHZZFMM",
     "country_code": "CH",
     "primary": true
   },
