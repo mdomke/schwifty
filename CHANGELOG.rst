@@ -5,7 +5,29 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
-`2025.06.0`_ - 2025/01/21
+`2025.07.0`_ - 2025/07/28
+-------------------------
+Changed
+~~~~~~~
+* Allow lax validation of ``IBAN`` values when used with Pydantic
+
+  .. code-block:: python
+
+    from typing import Annotated
+    from typing import Field
+    from pydantic import BaseModel
+
+
+    class Model(BaseModel):
+      iban: Annotated[IBAN, Field(strict=False)]
+
+
+Fixed
+~~~~~
+* Fixed script populating the Italian bank registry, adding over 150 additional banks (thanks to `@ciotto <https://github.com/ciotto>`_)
+
+
+`2025.06.0`_ - 2025/06/25
 -------------------------
 Changed
 ~~~~~~~
@@ -716,6 +738,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2025.07.0: https://github.com/mdomke/schwifty/compare/2025.06.0...2025.07.0
 .. _2025.06.0: https://github.com/mdomke/schwifty/compare/2025.01.0...2025.06.0
 .. _2025.01.0: https://github.com/mdomke/schwifty/compare/2024.11.0...2025.01.0
 .. _2024.11.0: https://github.com/mdomke/schwifty/compare/2024.09.0...2024.11.0

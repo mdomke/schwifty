@@ -327,3 +327,21 @@ library `Pydantic <https://docs.pydantic.dev/latest/>`_ like so
 
   model = Model(iban="DE89370400440532013000")  # OK
   model = Model(iban="DX89370400440532013000")  # Raises ValidationError due to invalid country code
+
+
+You can also allow invalid values (think ``IBAN(allow_invalid=True)``) with
+
+
+.. code-block:: python
+
+  from typing import Annotated
+
+  from pydantic import BaseModel
+  from pydantic import Field
+  from schwifty import IBAN
+
+
+  class Model(BaseModel):
+    iban: Annotated[IBAN, Field(strict=False)]
+
+  model = Model(iban="DX89370400440532013000")  # OK, even though the country code is incorrect

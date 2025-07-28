@@ -22,7 +22,8 @@ if TYPE_CHECKING:
     from pydantic import GetJsonSchemaHandler
     from pydantic import ValidatorFunctionWrapHandler
     from pydantic.json_schema import JsonSchemaValue
-    from pydantic_core import CoreSchema
+    from pydantic_core.core_schema import CoreSchema
+    from pydantic_core.core_schema import NoInfoWrapValidatorFunction
 
 
 _spec_to_re: dict[str, str] = {"n": r"\d", "a": r"[A-Z]", "c": r"[A-Za-z0-9]", "e": r" "}
@@ -410,8 +411,31 @@ class IBAN(common.Base):
     ) -> CoreSchema:
         from pydantic_core import core_schema
 
+        return core_schema.lax_or_strict_schema(
+            cls._get_pydantic_schema(allow_invalid=True),
+            cls._get_pydantic_schema(allow_invalid=False),
+            strict=True,
+        )
+
+    @classmethod
+    def __get_pydantic_json_schema__(
+        cls, core_schema: CoreSchema, handler: GetJsonSchemaHandler
+    ) -> JsonSchemaValue:
+        json_schema = handler(core_schema)
+        json_schema = handler.resolve_ref_schema(json_schema)
+        json_schema["title"] = "IBAN"
+        return json_schema
+
+    @classmethod
+    def _get_pydantic_schema(
+        cls,
+        *,
+        allow_invalid: bool = False,
+    ) -> CoreSchema:
+        from pydantic_core import core_schema
+
         return core_schema.no_info_wrap_validator_function(
-            cls._pydantic_validate,
+            cls._get_pydantic_validate_func(allow_invalid=allow_invalid),
             core_schema.union_schema(
                 [
                     core_schema.is_instance_schema(IBAN),
@@ -425,23 +449,21 @@ class IBAN(common.Base):
         )
 
     @classmethod
-    def __get_pydantic_json_schema__(
-        cls, core_schema: CoreSchema, handler: GetJsonSchemaHandler
-    ) -> JsonSchemaValue:
-        json_schema = handler(core_schema)
-        json_schema = handler.resolve_ref_schema(json_schema)
-        json_schema["title"] = "IBAN"
-        return json_schema
+    def _get_pydantic_validate_func(
+        cls,
+        *,
+        allow_invalid: bool = False,
+    ) -> NoInfoWrapValidatorFunction:
+        def validate(value: Any, handler: ValidatorFunctionWrapHandler) -> Any:
+            from pydantic_core import PydanticCustomError
 
-    @classmethod
-    def _pydantic_validate(cls, value: Any, handler: ValidatorFunctionWrapHandler) -> Any:
-        from pydantic_core import PydanticCustomError
+            try:
+                iban = cls(value, allow_invalid=allow_invalid)
+            except (exceptions.SchwiftyException, TypeError) as err:
+                raise PydanticCustomError("iban_format", "{err}", {"err": str(err)}) from err
+            return handler(iban)
 
-        try:
-            iban = cls(value)
-        except exceptions.SchwiftyException as err:
-            raise PydanticCustomError("iban_format", str(err)) from err
-        return handler(iban)
+        return validate
 
 
 def add_bban_regex(country: str, spec: dict) -> dict:
