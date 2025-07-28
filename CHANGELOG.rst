@@ -21,6 +21,7 @@ Changed
     class Model(BaseModel):
       iban: Annotated[IBAN, Field(strict=False)]
 
+* Updated bank registry for Germany, Autstria, Switzerland and Poland.
 
 Fixed
 ~~~~~
