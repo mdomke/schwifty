@@ -46,11 +46,11 @@ def test_bic_properties() -> None:
         "GLS Gemeinschaftsbk Bochum",
     ]
     assert bic.country == countries.get(alpha_2="DE")
-    with pytest.warns(DeprecationWarning):
+    with pytest.warns(DeprecationWarning, match="Use `BIC.bank_names` instead"):
         assert bic.bank_name == "GLS Gemeinschaftsbank"
-    with pytest.warns(DeprecationWarning):
+    with pytest.warns(DeprecationWarning, match="Use `BIC.bank_short_names` instead"):
         assert bic.bank_short_name == "GLS Bank in Bochum (GAA)"
-    with pytest.warns(DeprecationWarning):
+    with pytest.warns(DeprecationWarning, match="Use `BIC.domestic_bank_codes` instead"):
         assert bic.country_bank_code == "43060967"
     assert bic.exists
     assert bic.type == "passive"

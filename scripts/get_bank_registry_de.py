@@ -53,7 +53,7 @@ def parse(raw):
 def process(records):
     fieldnames = ("bank_code", "name", "short_name", "bic")
     registry = []
-    for record in sorted(records, key=lambda item: f'{item["bank_code"]}{item["bic"]}'):
+    for record in sorted(records, key=lambda item: f"{item['bank_code']}{item['bic']}"):
         if not record["bank_code"]:
             continue
 
