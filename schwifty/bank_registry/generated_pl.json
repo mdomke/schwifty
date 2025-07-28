@@ -12459,6 +12459,14 @@
     "country_code": "PL",
     "primary": true,
     "bic": "IVSEPLPPXXX",
+    "bank_code": "16800049",
+    "name": "PLUS BANK Sp\u00f3\u0142ka Akcyjna",
+    "short_name": "PLUS BANK Sp\u00f3\u0142ka Akcyjna"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
+    "bic": "IVSEPLPPXXX",
     "bank_code": "16801017",
     "name": "PLUS BANK Sp\u00f3\u0142ka Akcyjna",
     "short_name": "PLUS BANK Sp\u00f3\u0142ka Akcyjna"
@@ -12612,6 +12620,14 @@
     "primary": true,
     "bic": "HYVEPLP2XXX",
     "bank_code": "18900002",
+    "name": "Pekao Bank Hipoteczny Sp\u00f3\u0142ka Akcyjna",
+    "short_name": "Pekao Bank Hipoteczny Sp\u00f3\u0142ka Akcyjna"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
+    "bic": "HYVEPLP2XXX",
+    "bank_code": "18900028",
     "name": "Pekao Bank Hipoteczny Sp\u00f3\u0142ka Akcyjna",
     "short_name": "Pekao Bank Hipoteczny Sp\u00f3\u0142ka Akcyjna"
   },
@@ -14692,8 +14708,8 @@
     "primary": true,
     "bic": "DEUTPLPXXXX",
     "bank_code": "24100001",
-    "name": "Elavon Financial Services Designated Activity Company (Sp\u00f3\u0142ka z O.O. o Wyznaczonym Przedmiocie Dzia\u0142alno\u015bci) Oddzia\u0142 w Polsce",
-    "short_name": "Elavon Financial Services Designated Activity Company (Sp\u00f3\u0142ka z O.O. o Wyznaczonym Przedmiocie Dzia\u0142alno\u015bci) Oddzia\u0142 w Polsce"
+    "name": "U.S. Bank Europe Designated Activity Company (Sp\u00f3\u0142ka z o.o. o Wyznaczonym Przedmiocie Dzia\u0142alno\u015bci) Oddzia\u0142 w Polsce",
+    "short_name": "U.S. Bank Europe Designated Activity Company (Sp\u00f3\u0142ka z o.o. o Wyznaczonym Przedmiocie Dzia\u0142alno\u015bci) Oddzia\u0142 w Polsce"
   },
   {
     "country_code": "PL",
@@ -15284,8 +15300,8 @@
     "primary": true,
     "bic": "",
     "bank_code": "27000001",
-    "name": "TF BANK AB (Sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105) Oddzia\u0142 w Polsce",
-    "short_name": "TF BANK AB (Sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105) Oddzia\u0142 w Polsce"
+    "name": "TF BANK AB (Sp\u00f3\u0142ka Akcyjna) Oddzia\u0142 w Polsce",
+    "short_name": "TF BANK AB (Sp\u00f3\u0142ka Akcyjna) Oddzia\u0142 w Polsce"
   },
   {
     "country_code": "PL",
@@ -15563,6 +15579,14 @@
     "country_code": "PL",
     "primary": true,
     "bic": "POLUPLPRXXX",
+    "bank_code": "90680003",
+    "name": "Bank Nowy Sp\u00f3\u0142ka Akcyjna",
+    "short_name": "Bank Nowy Sp\u00f3\u0142ka Akcyjna"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
+    "bic": "POLUPLPRXXX",
     "bank_code": "90681013",
     "name": "Bank Nowy Sp\u00f3\u0142ka Akcyjna",
     "short_name": "Bank Nowy Sp\u00f3\u0142ka Akcyjna"
@@ -15596,6 +15620,22 @@
     "primary": true,
     "bic": "BMPBPLPPXXX",
     "bank_code": "29100006",
+    "name": "AION Bank S.A. Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce",
+    "short_name": "AION Bank S.A. Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
+    "bic": "BMPBPLPPXXX",
+    "bank_code": "29100019",
+    "name": "AION Bank S.A. Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce",
+    "short_name": "AION Bank S.A. Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
+    "bic": "BMPBPLPPXXX",
+    "bank_code": "29100022",
     "name": "AION Bank S.A. Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce",
     "short_name": "AION Bank S.A. Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce"
   },
@@ -15786,6 +15826,14 @@
   {
     "country_code": "PL",
     "primary": true,
+    "bic": "",
+    "bank_code": "29600001",
+    "name": "Woori Bank Europe GmbH sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105 Oddzia\u0142 w Polsce",
+    "short_name": "Woori Bank Europe GmbH sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105 Oddzia\u0142 w Polsce"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
     "bic": "NBPLPLPWXXX",
     "bank_code": "60000002",
     "name": "Zak\u0142ad Ubezpiecze\u0144 Spo\u0142ecznych",
@@ -15810,14 +15858,6 @@
   {
     "country_code": "PL",
     "primary": true,
-    "bic": "VPAYPLP2",
-    "bank_code": "61100006",
-    "name": "VIVA PAYMENT SERVICES SP\u00d3\u0141KA AKCYJNA ODDZIA\u0141 W POLSCE",
-    "short_name": "VIVA PAYMENT SERVICES SP\u00d3\u0141KA AKCYJNA ODDZIA\u0141 W POLSCE"
-  },
-  {
-    "country_code": "PL",
-    "primary": true,
     "bic": "",
     "bank_code": "61600001",
     "name": "UNIFIEDPOST PAYMENTS SP\u00d3\u0141KA AKCYJNA ODDZIA\u0141 W POLSCE",
@@ -15834,10 +15874,26 @@
   {
     "country_code": "PL",
     "primary": true,
+    "bic": "",
+    "bank_code": "62300016",
+    "name": "Quicko sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105",
+    "short_name": "Quicko sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
     "bic": "IGTRPLP1XXX",
     "bank_code": "63000005",
     "name": "Igoria Trade Sp\u00f3\u0142ka Akcyjna",
     "short_name": "Igoria Trade Sp\u00f3\u0142ka Akcyjna"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
+    "bic": "",
+    "bank_code": "63600003",
+    "name": "SPEEDY AG sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105",
+    "short_name": "SPEEDY AG sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105"
   },
   {
     "country_code": "PL",
@@ -17764,8 +17820,8 @@
     "primary": true,
     "bic": "GBWCPLPP",
     "bank_code": "83100002",
-    "name": "Bank Sp\u00f3\u0142dzielczy w Dzierzgoniu",
-    "short_name": "Bank Sp\u00f3\u0142dzielczy w Dzierzgoniu"
+    "name": "Bank Sp\u00f3\u0142dzielczy w Sztumie",
+    "short_name": "Bank Sp\u00f3\u0142dzielczy w Sztumie"
   },
   {
     "country_code": "PL",
@@ -24164,6 +24220,14 @@
     "primary": true,
     "bic": "SPBOPLP1XXX",
     "bank_code": "94840007",
+    "name": "Bank Sp\u00f3\u0142dzielczy w Brodnicy",
+    "short_name": "Bank Sp\u00f3\u0142dzielczy w Brodnicy"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
+    "bic": "",
+    "bank_code": "94840023",
     "name": "Bank Sp\u00f3\u0142dzielczy w Brodnicy",
     "short_name": "Bank Sp\u00f3\u0142dzielczy w Brodnicy"
   },
