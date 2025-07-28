@@ -1,8 +1,7 @@
-from __future__ import annotations
-
 import copy
 from typing import Annotated
 from typing import Any
+from typing import Union
 
 import pytest
 from pycountry import countries  # type: ignore
@@ -442,7 +441,7 @@ def test_pydantic_union_type() -> None:
     from pydantic import BaseModel
 
     class Model(BaseModel):
-        iban_or_dict: IBAN | dict[str, Any]
+        iban_or_dict: Union[IBAN, dict[str, Any]]
 
     model = Model(iban_or_dict="GL89 6471 0001 0002 06")  # type: ignore[arg-type]
     assert isinstance(model.iban_or_dict, IBAN)
