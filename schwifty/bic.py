@@ -145,6 +145,7 @@ class BIC(common.Base):
             * Israel
             * Kazakhstan
             * Latvia
+            * Liechtenstein
             * Lithuania
             * Luxembourg
             * Moldova
