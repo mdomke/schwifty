@@ -5,6 +5,13 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+`2025.08.0`_ - 2025/08/06
+-------------------------
+Added
+~~~~~
+* Added bank registry for Liechtenstein.
+
+
 `2025.07.0`_ - 2025/07/28
 -------------------------
 Changed
@@ -739,6 +746,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2025.08.0: https://github.com/mdomke/schwifty/compare/2025.07.0...2025.08.0
 .. _2025.07.0: https://github.com/mdomke/schwifty/compare/2025.06.0...2025.07.0
 .. _2025.06.0: https://github.com/mdomke/schwifty/compare/2025.01.0...2025.06.0
 .. _2025.01.0: https://github.com/mdomke/schwifty/compare/2024.11.0...2025.01.0

@@ -15,18 +15,16 @@ def process(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
     registry: list[dict[str, Any]] = []
 
     for record in records:
-        if record["entryType"] != "BankMaster" or record["country"] != "CH":
+        if record["entryType"] != "BankMaster" or record["country"] != "LI":
             continue
         name = short_name = record["bankOrInstitutionName"]
-        if name == "UBS Switzerland AG":
-            name += f" - {record['townName']}"
         registry.append(
             {
                 "name": name,
                 "short_name": short_name,
                 "bank_code": f"{record['iid']:0>5}",
                 "bic": record.get("bic"),
-                "country_code": "CH",
+                "country_code": "LI",
                 "primary": record["iidType"] == "HEADQUARTERS",
             }
         )
@@ -34,5 +32,5 @@ def process(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_ch.json", "w") as fp:
+    with open("schwifty/bank_registry/generated_li.json", "w") as fp:
         json.dump(process(fetch()), fp, indent=2)
