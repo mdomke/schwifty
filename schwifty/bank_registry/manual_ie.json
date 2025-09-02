@@ -206,5 +206,13 @@
     "name": "SumUp Limited",
     "short_name": "SumUp",
     "primary": true
+  },
+  {
+    "country_code": "IE",
+    "bic": "MODRNL22",
+    "bank_code": "MODR",
+    "name": "Modulr Finance B.V.",
+    "short_name": "Modulr Finance B.V.",
+    "primary": true
   }
 ]
