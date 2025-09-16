@@ -860,22 +860,17 @@
     "positions": {
       "bank_code": [
         0,
-        3
+        8
       ],
       "branch_code": [
-        3,
-        7
+        0,
+        0
       ],
       "national_checksum_digits": [
         7,
         8
       ]
-    },
-    "bic_lookup_components": [
-      "bank_code",
-      "branch_code",
-      "national_checksum_digits"
-    ]
+    }
   },
   "PM": {
     "positions": {
