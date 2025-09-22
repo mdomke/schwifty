@@ -5,11 +5,17 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
-`2025.08.0`_ - 2025/08/06
+`2025.09.0`_ - 2025/09/22
 -------------------------
 Added
 ~~~~~
 * Added bank registry for Liechtenstein.
+
+Fixed
+~~~~~
+* The Polish IBAN format override was breaking down the bank code in an unusual way, which made it
+  hard to generate IBANs from the components known to the user. This has been detected and fixed
+  by `@pywkm <https://github.com/pywkm>`_.
 
 
 `2025.07.0`_ - 2025/07/28
@@ -746,7 +752,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
-.. _2025.08.0: https://github.com/mdomke/schwifty/compare/2025.07.0...2025.08.0
+.. _2025.09.0: https://github.com/mdomke/schwifty/compare/2025.07.0...2025.09.0
 .. _2025.07.0: https://github.com/mdomke/schwifty/compare/2025.06.0...2025.07.0
 .. _2025.06.0: https://github.com/mdomke/schwifty/compare/2025.01.0...2025.06.0
 .. _2025.01.0: https://github.com/mdomke/schwifty/compare/2024.11.0...2025.01.0
