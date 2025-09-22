@@ -101,3 +101,8 @@ max-line-length = 100
 
 [tool.mypy]
 exclude = ["docs"]
+
+[dependency-groups]
+dev = [
+    "pytest >=8.1.1,<9",
+]
