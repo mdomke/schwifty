@@ -214,5 +214,13 @@
     "name": "Modulr Finance B.V.",
     "short_name": "Modulr Finance B.V.",
     "primary": true
+  },
+  {
+    "country_code": "IE",
+    "bic": "REVOIE23",
+    "bank_code": "REVO",
+    "name": "Revolut Bank UAB",
+    "short_name": "Revolut Bank UAB",
+    "primary": true
   }
 ]
