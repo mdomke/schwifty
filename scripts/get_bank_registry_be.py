@@ -6,7 +6,7 @@ import pandas
 import requests
 
 
-URL = "https://www.nbb.be/doc/be/be/protocol/r_fulllist_of_codes_current.xlsx"
+URL = "https://www.nbb.be/doc/be/be/protocol/full_list_current.xlsx"
 
 
 def process():
@@ -17,7 +17,7 @@ def process():
 
     with tempfile.NamedTemporaryFile(delete_on_close=False) as fp:
         fp.write(r.content)
-        datas = pandas.read_excel(fp.name, skiprows=1, sheet_name=0, dtype=str)
+        datas = pandas.read_excel(fp.name, skiprows=1, sheet_name=0, dtype=str, engine="openpyxl")
 
     datas.fillna("", inplace=True)
 

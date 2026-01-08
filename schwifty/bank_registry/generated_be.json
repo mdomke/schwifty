@@ -818,6 +818,14 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "",
+    "bank_code": "102",
+    "name": "Uitwisselingscentrum en Verrekening (U.C.V.)",
+    "short_name": "Uitwisselingscentrum en Verrekening (U.C.V.)"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "NICABEBB",
     "bank_code": "103",
     "name": "Crelan",
@@ -902,6 +910,22 @@
     "bank_code": "114",
     "name": "Beobank",
     "short_name": "Beobank"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "PAUIBE22",
+    "bank_code": "115",
+    "name": "HR Pay Solutions",
+    "short_name": "HR Pay Solutions"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "ATMNBE32XXX",
+    "bank_code": "116",
+    "name": "Atlantic Money NV/SA",
+    "short_name": "Atlantic Money NV/SA"
   },
   {
     "country_code": "BE",
@@ -1034,6 +1058,14 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "",
+    "bank_code": "138",
+    "name": "Onbeschikbaar",
+    "short_name": "Onbeschikbaar"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "GEBABEBB",
     "bank_code": "140",
     "name": "BNP Paribas Fortis",
@@ -1122,10 +1154,26 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "",
+    "bank_code": "154",
+    "name": "VRIJ",
+    "short_name": "VRIJ"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "CPHBBE75",
     "bank_code": "171",
     "name": "Banque CPH",
     "short_name": "Banque CPH"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "175",
+    "name": "Syst\u00e8mes Technologiques d'Echange et de Traitement - STET",
+    "short_name": "Syst\u00e8mes Technologiques d'Echange et de Traitement - STET"
   },
   {
     "country_code": "BE",
@@ -3594,14 +3642,6 @@
   {
     "country_code": "BE",
     "primary": true,
-    "bic": "MTPSBEBB",
-    "bank_code": "500",
-    "name": "Moneytrans Payment Services",
-    "short_name": "Moneytrans Payment Services"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
     "bic": "DHBNBEBB",
     "bank_code": "501",
     "name": "Demir-Halk Bank (Nederland) (DHB)",
@@ -3682,6 +3722,14 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "",
+    "bank_code": "520",
+    "name": "Onbeschikbaar",
+    "short_name": "Onbeschikbaar"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "FVLBBE22",
     "bank_code": "521",
     "name": "F. van Lanschot Bankiers",
@@ -3722,10 +3770,34 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "",
+    "bank_code": "529",
+    "name": "VRIJ",
+    "short_name": "VRIJ"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "539",
+    "name": "Onbeschikbaar",
+    "short_name": "Onbeschikbaar"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "BKIDBE22",
     "bank_code": "541",
     "name": "BANK OF INDIA",
     "short_name": "BANK OF INDIA"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "545",
+    "name": "Onbeschikbaar",
+    "short_name": "Onbeschikbaar"
   },
   {
     "country_code": "BE",
@@ -4130,6 +4202,22 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "SWNBBEB2",
+    "bank_code": "603",
+    "name": "SWAN SAS",
+    "short_name": "SWAN SAS"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "SWNBBEB2",
+    "bank_code": "604",
+    "name": "SWAN SAS",
+    "short_name": "SWAN SAS"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "BKCHBEBB",
     "bank_code": "605",
     "name": "Bank of China (Europe) SA Brussels Branch",
@@ -4260,8 +4348,16 @@
     "primary": true,
     "bic": "BMPBBEBB",
     "bank_code": "643",
-    "name": "Aion",
-    "short_name": "Aion"
+    "name": "UniCredit SA/NV",
+    "short_name": "UniCredit SA/NV"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "644",
+    "name": "FCA Bank S.p.A.",
+    "short_name": "FCA Bank S.p.A."
   },
   {
     "country_code": "BE",
@@ -4292,8 +4388,8 @@
     "primary": true,
     "bic": "BMPBBEBBVOD",
     "bank_code": "648",
-    "name": "Aion",
-    "short_name": "Aion"
+    "name": "UniCredit SA/NV",
+    "short_name": "UniCredit SA/NV"
   },
   {
     "country_code": "BE",
@@ -4370,6 +4466,14 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "",
+    "bank_code": "666",
+    "name": "WORLDLINE NV",
+    "short_name": "WORLDLINE NV"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "CMCIBEB1CIC",
     "bank_code": "667",
     "name": "Cr\u00e9dit Industriel et Commercial - Succursale de Bruxelles",
@@ -4382,6 +4486,14 @@
     "bank_code": "668",
     "name": "State Bank of India",
     "short_name": "State Bank of India"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "669",
+    "name": "WORLDLINE NV",
+    "short_name": "WORLDLINE NV"
   },
   {
     "country_code": "BE",
@@ -4450,10 +4562,10 @@
   {
     "country_code": "BE",
     "primary": true,
-    "bic": "PCHQBEBB",
+    "bic": "GEBABEBB",
     "bank_code": "679",
-    "name": "bpost",
-    "short_name": "bpost"
+    "name": "BNP Paribas Fortis",
+    "short_name": "BNP Paribas Fortis"
   },
   {
     "country_code": "BE",
@@ -4542,6 +4654,14 @@
     "bank_code": "694",
     "name": "Deutsche Bank AG",
     "short_name": "Deutsche Bank AG"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "MGTCBEBE",
+    "bank_code": "695",
+    "name": "Euroclear Bank",
+    "short_name": "Euroclear Bank"
   },
   {
     "country_code": "BE",
@@ -4987,54 +5107,6 @@
     "country_code": "BE",
     "primary": true,
     "bic": "AXABBE22",
-    "bank_code": "766",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "767",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "768",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "769",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "770",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "771",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
     "bank_code": "772",
     "name": "Crelan",
     "short_name": "Crelan"
@@ -5308,86 +5380,6 @@
     "primary": true,
     "bic": "AXABBE22",
     "bank_code": "806",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "807",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "808",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "809",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "810",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "811",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "812",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "813",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "814",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "815",
-    "name": "Crelan",
-    "short_name": "Crelan"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
-    "bic": "AXABBE22",
-    "bank_code": "816",
     "name": "Crelan",
     "short_name": "Crelan"
   },
@@ -5794,6 +5786,46 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "",
+    "bank_code": "900",
+    "name": "Onbeschikbaar",
+    "short_name": "Onbeschikbaar"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "901",
+    "name": "Onbeschikbaar",
+    "short_name": "Onbeschikbaar"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "902",
+    "name": "Onbeschikbaar",
+    "short_name": "Onbeschikbaar"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "TRWIBEB1",
+    "bank_code": "903",
+    "name": "Wise Europe SA",
+    "short_name": "Wise Europe SA"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "TRWIBEBB",
+    "bank_code": "904",
+    "name": "Wise Europe SA",
+    "short_name": "Wise Europe SA"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "TRWIBEB1",
     "bank_code": "905",
     "name": "Wise Europe SA",
@@ -5806,6 +5838,14 @@
     "bank_code": "906",
     "name": "Centrale Kredietverlening (C.K.V.)",
     "short_name": "Centrale Kredietverlening (C.K.V.)"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "907",
+    "name": "Mollie B.V.",
+    "short_name": "Mollie B.V."
   },
   {
     "country_code": "BE",
@@ -5844,8 +5884,8 @@
     "primary": true,
     "bic": "FXBBBEBB",
     "bank_code": "914",
-    "name": "FX4BIZ",
-    "short_name": "FX4BIZ"
+    "name": "Ibanfirst",
+    "short_name": "Ibanfirst"
   },
   {
     "country_code": "BE",
@@ -5906,14 +5946,6 @@
   {
     "country_code": "BE",
     "primary": true,
-    "bic": "VPAYBEB1",
-    "bank_code": "928",
-    "name": "VIVA Payment Services",
-    "short_name": "VIVA Payment Services"
-  },
-  {
-    "country_code": "BE",
-    "primary": true,
     "bic": "BBRUBEBB",
     "bank_code": "929",
     "name": "ING Belgi\u00eb",
@@ -5970,10 +6002,10 @@
   {
     "country_code": "BE",
     "primary": true,
-    "bic": "CVMCBEBB",
+    "bic": "DEGRBEBB",
     "bank_code": "941",
-    "name": "C A Indosuez Wealth (Europe)",
-    "short_name": "C A Indosuez Wealth (Europe)"
+    "name": "Banque Degroof Petercam Luxembourg",
+    "short_name": "Banque Degroof Petercam Luxembourg"
   },
   {
     "country_code": "BE",
@@ -5986,6 +6018,14 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "",
+    "bank_code": "943",
+    "name": "IC Financial Services SA \u2013 Belgian Branch",
+    "short_name": "IC Financial Services SA \u2013 Belgian Branch"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "JPMGBEBB",
     "bank_code": "945",
     "name": "J.P. Morgan SE \u2013 Brussels Branch",
@@ -5994,7 +6034,7 @@
   {
     "country_code": "BE",
     "primary": true,
-    "bic": "HOMNBEB1",
+    "bic": "HOMNBEB2",
     "bank_code": "948",
     "name": "Mastercard Transaction Services (Europe) NV/SA",
     "short_name": "Mastercard Transaction Services (Europe) NV/SA"
@@ -6154,6 +6194,14 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "",
+    "bank_code": "972",
+    "name": "Onbeschikbaar",
+    "short_name": "Onbeschikbaar"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "ARSPBE22",
     "bank_code": "973",
     "name": "Argenta Spaarbank (ASPA)",
@@ -6246,5 +6294,93 @@
     "bank_code": "984",
     "name": "bpost",
     "short_name": "bpost"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "989",
+    "name": "bpost",
+    "short_name": "bpost"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "990",
+    "name": "Bpost",
+    "short_name": "Bpost"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "991",
+    "name": "Bpost",
+    "short_name": "Bpost"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "992",
+    "name": "Bpost",
+    "short_name": "Bpost"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "993",
+    "name": "Bpost",
+    "short_name": "Bpost"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "994",
+    "name": "Bpost",
+    "short_name": "Bpost"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "995",
+    "name": "Bpost",
+    "short_name": "Bpost"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "996",
+    "name": "Bpost",
+    "short_name": "Bpost"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "997",
+    "name": "Bpost",
+    "short_name": "Bpost"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "998",
+    "name": "Bpost",
+    "short_name": "Bpost"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "999",
+    "name": "Bpost",
+    "short_name": "Bpost"
   }
 ]
