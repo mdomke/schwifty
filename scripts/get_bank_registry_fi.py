@@ -6,7 +6,7 @@ import pandas
 
 URL = (
     "https://www.finanssiala.fi/"
-    "wp-content/uploads/2021/03/Finnish_monetary_institution_codes_and_BICs_in_excel_format.xlsx"
+    "wp-content/uploads/2026/01/finnish_monetary_institution_codes_and_bics_in_excel_format-12012026.xlsx"
 )
 
 
