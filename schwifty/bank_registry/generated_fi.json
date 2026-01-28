@@ -1602,86 +1602,6 @@
   {
     "country_code": "FI",
     "primary": true,
-    "bic": "HANDFIHH",
-    "bank_code": "310",
-    "name": "SVENSKA HANDELSBANKEN",
-    "short_name": "SVENSKA HANDELSBANKEN"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "HANDFIHH",
-    "bank_code": "311",
-    "name": "SVENSKA HANDELSBANKEN",
-    "short_name": "SVENSKA HANDELSBANKEN"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "HANDFIHH",
-    "bank_code": "312",
-    "name": "SVENSKA HANDELSBANKEN",
-    "short_name": "SVENSKA HANDELSBANKEN"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "HANDFIHH",
-    "bank_code": "313",
-    "name": "SVENSKA HANDELSBANKEN",
-    "short_name": "SVENSKA HANDELSBANKEN"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "HANDFIHH",
-    "bank_code": "314",
-    "name": "SVENSKA HANDELSBANKEN",
-    "short_name": "SVENSKA HANDELSBANKEN"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "HANDFIHH",
-    "bank_code": "315",
-    "name": "SVENSKA HANDELSBANKEN",
-    "short_name": "SVENSKA HANDELSBANKEN"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "HANDFIHH",
-    "bank_code": "316",
-    "name": "SVENSKA HANDELSBANKEN",
-    "short_name": "SVENSKA HANDELSBANKEN"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "HANDFIHH",
-    "bank_code": "317",
-    "name": "SVENSKA HANDELSBANKEN",
-    "short_name": "SVENSKA HANDELSBANKEN"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "HANDFIHH",
-    "bank_code": "318",
-    "name": "SVENSKA HANDELSBANKEN",
-    "short_name": "SVENSKA HANDELSBANKEN"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "HANDFIHH",
-    "bank_code": "319",
-    "name": "SVENSKA HANDELSBANKEN",
-    "short_name": "SVENSKA HANDELSBANKEN"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
     "bic": "ESSEFIHX",
     "bank_code": "330",
     "name": "SKANDINAVISKA ENSKILDA BANKEN",
@@ -1998,86 +1918,6 @@
     "bank_code": "379",
     "name": "DNB NOR BANK ASA, FILIAL FINLAND",
     "short_name": "DNB NOR BANK ASA, FILIAL FINLAND"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "SWEDFIHH",
-    "bank_code": "380",
-    "name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK",
-    "short_name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "SWEDFIHH",
-    "bank_code": "381",
-    "name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK",
-    "short_name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "SWEDFIHH",
-    "bank_code": "382",
-    "name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK",
-    "short_name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "SWEDFIHH",
-    "bank_code": "383",
-    "name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK",
-    "short_name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "SWEDFIHH",
-    "bank_code": "384",
-    "name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK",
-    "short_name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "SWEDFIHH",
-    "bank_code": "385",
-    "name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK",
-    "short_name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "SWEDFIHH",
-    "bank_code": "386",
-    "name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK",
-    "short_name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "SWEDFIHH",
-    "bank_code": "387",
-    "name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK",
-    "short_name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "SWEDFIHH",
-    "bank_code": "388",
-    "name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK",
-    "short_name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK"
-  },
-  {
-    "country_code": "FI",
-    "primary": true,
-    "bic": "SWEDFIHH",
-    "bank_code": "389",
-    "name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK",
-    "short_name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK"
   },
   {
     "country_code": "FI",
@@ -2620,80 +2460,80 @@
     "primary": true,
     "bic": "POPFFI22",
     "bank_code": "470",
-    "name": "POP BANK",
-    "short_name": "POP BANK"
+    "name": "POP BANK AND BONUM BANK",
+    "short_name": "POP BANK AND BONUM BANK"
   },
   {
     "country_code": "FI",
     "primary": true,
     "bic": "POPFFI22",
     "bank_code": "471",
-    "name": "POP BANK",
-    "short_name": "POP BANK"
+    "name": "POP BANK AND BONUM BANK",
+    "short_name": "POP BANK AND BONUM BANK"
   },
   {
     "country_code": "FI",
     "primary": true,
     "bic": "POPFFI22",
     "bank_code": "472",
-    "name": "POP BANK",
-    "short_name": "POP BANK"
+    "name": "POP BANK AND BONUM BANK",
+    "short_name": "POP BANK AND BONUM BANK"
   },
   {
     "country_code": "FI",
     "primary": true,
     "bic": "POPFFI22",
     "bank_code": "473",
-    "name": "POP BANK",
-    "short_name": "POP BANK"
+    "name": "POP BANK AND BONUM BANK",
+    "short_name": "POP BANK AND BONUM BANK"
   },
   {
     "country_code": "FI",
     "primary": true,
     "bic": "POPFFI22",
     "bank_code": "474",
-    "name": "POP BANK",
-    "short_name": "POP BANK"
+    "name": "POP BANK AND BONUM BANK",
+    "short_name": "POP BANK AND BONUM BANK"
   },
   {
     "country_code": "FI",
     "primary": true,
     "bic": "POPFFI22",
     "bank_code": "475",
-    "name": "POP BANK",
-    "short_name": "POP BANK"
+    "name": "POP BANK AND BONUM BANK",
+    "short_name": "POP BANK AND BONUM BANK"
   },
   {
     "country_code": "FI",
     "primary": true,
     "bic": "POPFFI22",
     "bank_code": "476",
-    "name": "POP BANK",
-    "short_name": "POP BANK"
+    "name": "POP BANK AND BONUM BANK",
+    "short_name": "POP BANK AND BONUM BANK"
   },
   {
     "country_code": "FI",
     "primary": true,
     "bic": "POPFFI22",
     "bank_code": "477",
-    "name": "POP BANK",
-    "short_name": "POP BANK"
+    "name": "POP BANK AND BONUM BANK",
+    "short_name": "POP BANK AND BONUM BANK"
   },
   {
     "country_code": "FI",
     "primary": true,
     "bic": "POPFFI22",
     "bank_code": "478",
-    "name": "POP BANK",
-    "short_name": "POP BANK"
+    "name": "POP BANK AND BONUM BANK",
+    "short_name": "POP BANK AND BONUM BANK"
   },
   {
     "country_code": "FI",
     "primary": true,
     "bic": "POPFFI22",
     "bank_code": "479",
-    "name": "BONUM BANK LTD",
-    "short_name": "BONUM BANK LTD"
+    "name": "POP BANK AND BONUM BANK",
+    "short_name": "POP BANK AND BONUM BANK"
   },
   {
     "country_code": "FI",
@@ -4498,6 +4338,14 @@
   {
     "country_code": "FI",
     "primary": true,
+    "bic": "EVSEFIHH",
+    "bank_code": "714",
+    "name": "FELLOW BANK",
+    "short_name": "FELLOW BANK"
+  },
+  {
+    "country_code": "FI",
+    "primary": true,
     "bic": "ITELFIHH",
     "bank_code": "715",
     "name": "CENTRAL BANK OF SAVINGS BANKS FINLAND LTD",
@@ -4514,10 +4362,58 @@
   {
     "country_code": "FI",
     "primary": true,
-    "bic": "VPAYFIH2",
-    "bank_code": "798",
-    "name": "VIVA PAYMENT SERVICES S.A., FINNISH BRANCH",
-    "short_name": "VIVA PAYMENT SERVICES S.A., FINNISH BRANCH"
+    "bic": "UASNFIH2",
+    "bank_code": "718",
+    "name": "SALDO BANK UAB FINLAND BRANCH",
+    "short_name": "SALDO BANK UAB FINLAND BRANCH"
+  },
+  {
+    "country_code": "FI",
+    "primary": true,
+    "bic": "IVPYFIH2",
+    "bank_code": "792",
+    "name": "IVY PAY OY",
+    "short_name": "IVY PAY OY"
+  },
+  {
+    "country_code": "FI",
+    "primary": true,
+    "bic": "TRYEFIH3",
+    "bank_code": "793",
+    "name": "TRUELAYER (IRELAND) LIMITED, FINNISH BRANCH",
+    "short_name": "TRUELAYER (IRELAND) LIMITED, FINNISH BRANCH"
+  },
+  {
+    "country_code": "FI",
+    "primary": true,
+    "bic": "PASXFIH2",
+    "bank_code": "794",
+    "name": "PAYSAXAS OY",
+    "short_name": "PAYSAXAS OY"
+  },
+  {
+    "country_code": "FI",
+    "primary": true,
+    "bic": "WAMOFIH2",
+    "bank_code": "795",
+    "name": "WAMO SOLUTIONS OY",
+    "short_name": "WAMO SOLUTIONS OY"
+  },
+  {
+    "country_code": "FI",
+    "primary": true,
+    "bic": "NARYFIH2",
+    "bank_code": "796",
+    "name": "NARVI PAYMENTS OY AB",
+    "short_name": "NARVI PAYMENTS OY AB"
+  },
+  {
+    "country_code": "FI",
+    "primary": true,
+    "bic": "TRYEFIH2",
+    "bank_code": "797",
+    "name": "TRUELAYER (IRELAND) LIMITED, FINNISH BRANCH",
+    "short_name": "TRUELAYER (IRELAND) LIMITED, FINNISH BRANCH"
   },
   {
     "country_code": "FI",
