@@ -2,16 +2,25 @@
 import json
 
 import pandas
+import requests
+from bs4 import BeautifulSoup
 
 
-URL = (
-    "https://www.finanssiala.fi/"
-    "wp-content/uploads/2026/01/finnish_monetary_institution_codes_and_bics_in_excel_format-12012026.xlsx"
+BASE_URL = (
+    "https://www.finanssiala.fi/en/topics/payment-services-in-finland/payment-technical-documents/"
 )
 
 
 def process():
-    datas = pandas.read_excel(URL, sheet_name=0, dtype=str, header=None)
+    soup = BeautifulSoup(requests.get(BASE_URL).content, "html.parser")
+    url = next(
+        a
+        for a in soup.find_all("a")
+        if a.text == "Finnish monetary institution codes and BICsin excel format"
+    ).attrs["href"]
+    print(f"Using URL: {url}")
+
+    datas = pandas.read_excel(url, sheet_name=0, dtype=str, header=None)
     datas.fillna("", inplace=True)
 
     return [
