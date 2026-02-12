@@ -342,5 +342,45 @@
     "name": "NOVEBA LIMITED",
     "short_name": "NOVEBA",
     "primary": true
+  },
+  {
+    "country_code": "GB",
+    "bic": "MONZGB2LXXX",
+    "bank_code": "MONZ",
+    "name": "MONZO BANK LIMITED",
+    "short_name": "MONZO BANK LIMITED",
+    "primary": true
+  },
+  {
+    "country_code": "GB",
+    "bic": "NAIAGB21XXX",
+    "bank_code": "NAIA",
+    "name": "NATIONWIDE BUILDING SOCIETY",
+    "short_name": "NATIONWIDE BUILDING SOCIETY",
+    "primary": true
+  },
+  {
+    "country_code": "GB",
+    "bic": "TSBSGB21",
+    "bank_code": "TSBS",
+    "name": "TSB BANK PLC",
+    "short_name": "TSB BANK PLC",
+    "primary": true
+  },
+  {
+    "country_code": "GB",
+    "bic": "YORKGB22XXX",
+    "bank_code": "YORK",
+    "name": "VIRGIN MONEY (31 CLYDESDALE BANK)",
+    "short_name": "VIRGIN MONEY",
+    "primary": true
+  },
+  {
+    "country_code": "GB",
+    "bic": "DABAGB2B231",
+    "bank_code": "DABA",
+    "name": "NORTHERN BANK LIMITED T/A DANSKE BA",
+    "short_name": "NORTHERN BANK LIMITED T/A DANSKE BA",
+    "primary": true
   }
 ]
