@@ -1,0 +1,82 @@
+[
+    {
+        "country_code": "MD",
+        "primary": true,
+        "bic": "AGRNMD2X",
+        "bank_code": "AG",
+        "name": "Banca Comercială 'Moldova Agroindbank' S.A.",
+        "short_name": "MAIB"
+    },
+    {
+        "country_code": "MD",
+        "primary": true,
+        "bic": "MOLDMD2X",
+        "bank_code": "ML",
+        "name": "Banca Comercială 'Moldindconbank' S.A.",
+        "short_name": "Moldindconbank (MICB)"
+    },
+    {
+        "country_code": "MD",
+        "primary": true,
+        "bic": "VICBMD2X",
+        "bank_code": "VI",
+        "name": "Banca Comercială 'Victoriabank' S.A.",
+        "short_name": "Victoriabank"
+    },
+    {
+        "country_code": "MD",
+        "primary": true,
+        "bic": "MOBBMD22",
+        "bank_code": "MO",
+        "name": "Banca Comercială 'OTP Bank' S.A.",
+        "short_name": "OTP Bank"
+    },
+    {
+        "country_code": "MD",
+        "primary": true,
+        "bic": "PRCBMD22",
+        "bank_code": "PR",
+        "name": "Banca Comercială 'ProCredit Bank' S.A.",
+        "short_name": "ProCredit Bank"
+    },
+    {
+        "country_code": "MD",
+        "primary": true,
+        "bic": "ENEGMD22",
+        "bank_code": "EN",
+        "name": "Banca Comercială 'Energbank' S.A.",
+        "short_name": "Energbank"
+    },
+    {
+        "country_code": "MD",
+        "primary": true,
+        "bic": "FTMDMD2X",
+        "bank_code": "FT",
+        "name": "Banca de Finanţe şi Comerţ S.A.",
+        "short_name": "FinComBank"
+    },
+    {
+        "country_code": "MD",
+        "primary": true,
+        "bic": "EXMMMD22",
+        "bank_code": "EX",
+        "name": "Banca Comercială 'EXIMBANK' S.A.",
+        "short_name": "EXIMBANK"
+    },
+    {
+        "country_code": "MD",
+        "primary": true,
+        "bic": "ECBMMD2X",
+        "bank_code": "EC",
+        "name": "Banca Comercială 'EuroCreditBank' S.A.",
+        "short_name": "EuroCreditBank"
+    },
+    {
+        "country_code": "MD",
+        "primary": true,
+        "bic": "CMTBMD2X",
+        "bank_code": "CB",
+        "name": "Banca Comercială 'Comerţbank' S.A.",
+        "short_name": "Comerţbank"
+    }
+]
