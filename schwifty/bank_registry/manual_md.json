@@ -34,14 +34,6 @@
     {
         "country_code": "MD",
         "primary": true,
-        "bic": "PRCBMD22",
-        "bank_code": "PR",
-        "name": "Banca Comercială 'ProCredit Bank' S.A.",
-        "short_name": "ProCredit Bank"
-    },
-    {
-        "country_code": "MD",
-        "primary": true,
         "bic": "ENEGMD22",
         "bank_code": "EN",
         "name": "Banca Comercială 'Energbank' S.A.",
