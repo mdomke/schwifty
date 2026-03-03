@@ -13299,6 +13299,14 @@
     "country_code": "PL",
     "primary": true,
     "bic": "PPABPLPKXXX",
+    "bank_code": "16000087",
+    "name": "BNP Paribas Bank Polska Sp\u00f3\u0142ka Akcyjna",
+    "short_name": "BNP Paribas Bank Polska Sp\u00f3\u0142ka Akcyjna"
+  },
+  {
+    "country_code": "PL",
+    "primary": true,
+    "bic": "PPABPLPKXXX",
     "bank_code": "16001013",
     "name": "BNP Paribas Bank Polska Sp\u00f3\u0142ka Akcyjna",
     "short_name": "BNP Paribas Bank Polska Sp\u00f3\u0142ka Akcyjna"
@@ -20467,23 +20475,7 @@
     "country_code": "PL",
     "primary": true,
     "bic": "POLUPLPRXXX",
-    "bank_code": "88100007",
-    "name": "Bank Sp\u00f3\u0142dzielczy w Nowym S\u0105czu",
-    "short_name": "Bank Sp\u00f3\u0142dzielczy w Nowym S\u0105czu"
-  },
-  {
-    "country_code": "PL",
-    "primary": true,
-    "bic": "POLUPLPRXXX",
     "bank_code": "88110006",
-    "name": "Bank Sp\u00f3\u0142dzielczy w Nowym S\u0105czu",
-    "short_name": "Bank Sp\u00f3\u0142dzielczy w Nowym S\u0105czu"
-  },
-  {
-    "country_code": "PL",
-    "primary": true,
-    "bic": "POLUPLPRXXX",
-    "bank_code": "88111016",
     "name": "Bank Sp\u00f3\u0142dzielczy w Nowym S\u0105czu",
     "short_name": "Bank Sp\u00f3\u0142dzielczy w Nowym S\u0105czu"
   },
