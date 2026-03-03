@@ -51,16 +51,15 @@ packages = [
     "schwifty",
 ]
 
-[tool.pytest.pytest.ini_options]
-addopts = """
-  --pyargs schwifty
-  --doctest-modules
-  --junit-xml test-results.xml
-  --cov-report xml
-  --cov-report term-missing
-"""
+[tool.pytest]
+minversion = "9.0"
+addopts = [
+    "--pyargs", "schwifty",
+    "--doctest-modules",
+    "--junit-xml", "test-results.xml",
+]
 console_output_style = "progress"
-doctest_optionflags = "ALLOW_UNICODE IGNORE_EXCEPTION_DETAIL"
+doctest_optionflags = ["ALLOW_UNICODE", "IGNORE_EXCEPTION_DETAIL"]
 
 [tool.ruff]
 target-version = "py310"
