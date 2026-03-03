@@ -706,14 +706,6 @@
   {
     "country_code": "AT",
     "primary": false,
-    "bic": "NAN",
-    "bank_code": "18170",
-    "name": "KA Finanz AG i.A.",
-    "short_name": "KA Finanz AG i.A."
-  },
-  {
-    "country_code": "AT",
-    "primary": false,
     "bic": "BAWAATWWXXX",
     "bank_code": "18190",
     "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
@@ -834,14 +826,6 @@
   {
     "country_code": "AT",
     "primary": false,
-    "bic": "NAN",
-    "bank_code": "19325",
-    "name": "ODDO BHF SCA, Niederlassung \u00d6sterreich",
-    "short_name": "ODDO BHF SCA, Niederlassung \u00d6sterreich"
-  },
-  {
-    "country_code": "AT",
-    "primary": false,
     "bic": "INGBATWWXXX",
     "bank_code": "19360",
     "name": "ING Austria Branch of ING Bank N.V.",
@@ -862,14 +846,6 @@
     "bank_code": "19390",
     "name": "BMW Austria Bank GmbH",
     "short_name": "BMW Austria Bank GmbH"
-  },
-  {
-    "country_code": "AT",
-    "primary": false,
-    "bic": "NAN",
-    "bank_code": "19400",
-    "name": "MUFG Bank (Europe) N.V. Vienna Branch",
-    "short_name": "MUFG Bank (Europe) N.V. Vienna Branch"
   },
   {
     "country_code": "AT",
@@ -958,14 +934,6 @@
     "bank_code": "19600",
     "name": "Schelhammer Capital Bank AG",
     "short_name": "Schelhammer Capital Bank AG"
-  },
-  {
-    "country_code": "AT",
-    "primary": false,
-    "bic": "NAN",
-    "bank_code": "19610",
-    "name": "BNP PARIBAS PERSONAL FINANCE SA Niederlassung \u00d6sterreich",
-    "short_name": "BNP PARIBAS PERSONAL FINANCE SA Niederlassung \u00d6sterreich"
   },
   {
     "country_code": "AT",
@@ -6202,14 +6170,6 @@
   {
     "country_code": "AT",
     "primary": false,
-    "bic": "NAN",
-    "bank_code": "40074",
-    "name": "immigon portfolioabbau ag i.A.",
-    "short_name": "immigon portfolioabbau ag i.A."
-  },
-  {
-    "country_code": "AT",
-    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "40100",
     "name": "VOLKSBANK WIEN AG",
@@ -6774,14 +6734,6 @@
     "bank_code": "60000",
     "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
     "short_name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft"
-  },
-  {
-    "country_code": "AT",
-    "primary": true,
-    "bic": "NAN",
-    "bank_code": "73700",
-    "name": "\u00d6sterreichische Hotel- und Tourismusbank Gesellschaft m.b.H.",
-    "short_name": "\u00d6sterreichische Hotel- und Tourismusbank Gesellschaft m.b.H."
   },
   {
     "country_code": "AT",

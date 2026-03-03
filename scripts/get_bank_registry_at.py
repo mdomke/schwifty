@@ -16,9 +16,12 @@ def process():
         delimiter=";",
     )
     datas = datas.dropna(how="all")
+    datas = datas[datas["SWIFT-Code"].notna()]
 
     registry = []
     for _, row in datas.iterrows():
+        if row["SWIFT-Code"] == "":
+            continue
         registry.append(
             {
                 "country_code": "AT",
