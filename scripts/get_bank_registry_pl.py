@@ -1,7 +1,10 @@
 #!/usr/bin/env python
 import json
+from typing import Any
 
 import pandas
+
+from scripts.remap import convert_to_v2
 
 
 URL = "https://ewib.nbp.pl/plewibnra?dokNazwa=plewibnra.txt"
@@ -14,7 +17,7 @@ bic_remapping = {
 }
 
 
-def process():
+def process() -> dict[str, Any]:
     datas = pandas.read_csv(URL, encoding="CP852", delimiter="\t", header=None)
     datas = datas.dropna(how="all")
     datas.fillna("", inplace=True)
@@ -35,9 +38,9 @@ def process():
         )
 
     print(f"Fetched {len(registry)} bank records")
-    return registry
+    return convert_to_v2(registry)
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_pl.json", "w") as fp:
+    with open("schwifty/bank_registry/generated_pl.v2.json", "w") as fp:
         json.dump(process(), fp, indent=2)
