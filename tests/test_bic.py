@@ -56,6 +56,7 @@ def test_bic_properties() -> None:
     assert bic.type == "passive"
 
 
+@pytest.mark.filterwarnings("ignore:Use `BIC")
 def test_unknown_bic_properties() -> None:
     bic = BIC("ABNAJPJTXXX")
     assert bic.length == len(bic) == 11
