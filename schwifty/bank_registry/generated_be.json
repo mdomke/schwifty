@@ -1002,6 +1002,14 @@
   {
     "country_code": "BE",
     "primary": true,
+    "bic": "MPSNBE92",
+    "bank_code": "128",
+    "name": "Mobile Payment Solutions nv",
+    "short_name": "Mobile Payment Solutions nv"
+  },
+  {
+    "country_code": "BE",
+    "primary": true,
     "bic": "CTBKBEBX",
     "bank_code": "129",
     "name": "Beobank",

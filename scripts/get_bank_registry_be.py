@@ -17,7 +17,7 @@ def process():
 
     with tempfile.NamedTemporaryFile(delete_on_close=False) as fp:
         fp.write(r.content)
-        datas = pandas.read_excel(fp.name, skiprows=1, sheet_name=0, dtype=str, engine="openpyxl")
+        datas = pandas.read_excel(fp, skiprows=1, sheet_name=0, dtype=str, engine="openpyxl")
 
     datas.fillna("", inplace=True)
 
