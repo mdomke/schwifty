@@ -22,7 +22,7 @@ classifiers = [
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
 ]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 authors = [
     { name = "Martin Domke", email = "mail@martindomke.net" },
 ]
@@ -104,5 +104,13 @@ exclude = ["docs"]
 
 [dependency-groups]
 dev = [
-    "pytest >=8.1.1,<9",
+    "coverage==7.13.*",
+    "freezegun==1.5.*",
+    "pytest==9.0.*",
+    "ruff==0.15.*",
+    "mypy==1.19.*",
+]
+doc = [
+    "doc8==2.0.*",
+    "pygments==2.16.*",
 ]
