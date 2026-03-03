@@ -2,18 +2,33 @@ import json
 import sys
 from pathlib import Path
 from typing import Any
+from typing import Literal
+from typing import TypedDict
 
 from boltons.iterutils import bucketize
 
 
+class EntryV1(TypedDict):
+    name: str
+    short_name: str
+    bic: str
+    bank_code: str
+    primary: bool
+    checksum_algo: str
+
+
 def convert_to_v2(
-    data: list[dict[str, Any]],
+    data: list[EntryV1],
     expand_from: str = "bank_codes",
     expand_into: str = "bank_code",
+    groupby: list[Literal["name", "short_name", "bic", "bank_code"]] | None = None,
 ) -> dict[str, Any]:
-    buckets = bucketize(
-        data, lambda b: f"{b['bic']}::{b['name'].upper()}::{b.get('checksum_algo', '')}"
-    )
+    groupby = groupby or ["bic", "name"]
+
+    def make_key(e: EntryV1) -> str:
+        return "::".join(e[group] for group in groupby) + "::" + e.get("checksum_algo", "")
+
+    buckets = bucketize(data, make_key)
 
     entries: list[dict[str, Any]] = []
     for _, banks in buckets.items():
