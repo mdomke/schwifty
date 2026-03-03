@@ -19,8 +19,8 @@ def convert_to_v2(
     for _, banks in buckets.items():
         pivot = banks[0]
         pivot["bank_codes"] = [pivot.pop("bank_code")]
-        pivot["name"] = pivot["name"].upper()
-        pivot["short_name"] = pivot["short_name"].upper()
+        pivot["name"] = pivot["name"]
+        pivot["short_name"] = pivot["short_name"]
         for bank in banks[1:]:
             pivot["bank_codes"].append(bank["bank_code"])
         entries.append(pivot)

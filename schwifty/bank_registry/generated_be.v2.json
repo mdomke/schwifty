@@ -4,8 +4,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "GEBABEBB",
-      "name": "BNP PARIBAS FORTIS",
-      "short_name": "BNP PARIBAS FORTIS",
+      "name": "BNP Paribas Fortis",
+      "short_name": "BNP Paribas Fortis",
       "bank_codes": [
         "000",
         "001",
@@ -291,8 +291,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "NBBEBEBB203",
-      "name": "NATIONALE BANK VAN BELGI\u00cb",
-      "short_name": "NATIONALE BANK VAN BELGI\u00cb",
+      "name": "Nationale Bank van Belgi\u00eb",
+      "short_name": "Nationale Bank van Belgi\u00eb",
       "bank_codes": [
         "100"
       ]
@@ -301,8 +301,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "NBBEBEBBHCC",
-      "name": "NATIONALE BANK VAN BELGI\u00cb (HOOFDKAS)",
-      "short_name": "NATIONALE BANK VAN BELGI\u00cb (HOOFDKAS)",
+      "name": "Nationale Bank van Belgi\u00eb (Hoofdkas)",
+      "short_name": "Nationale Bank van Belgi\u00eb (Hoofdkas)",
       "bank_codes": [
         "101"
       ]
@@ -311,8 +311,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "",
-      "name": "UITWISSELINGSCENTRUM EN VERREKENING (U.C.V.)",
-      "short_name": "UITWISSELINGSCENTRUM EN VERREKENING (U.C.V.)",
+      "name": "Uitwisselingscentrum en Verrekening (U.C.V.)",
+      "short_name": "Uitwisselingscentrum en Verrekening (U.C.V.)",
       "bank_codes": [
         "102"
       ]
@@ -321,8 +321,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "NICABEBB",
-      "name": "CRELAN",
-      "short_name": "CRELAN",
+      "name": "Crelan",
+      "short_name": "Crelan",
       "bank_codes": [
         "103",
         "104",
@@ -346,8 +346,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "CTBKBEBX",
-      "name": "BEOBANK",
-      "short_name": "BEOBANK",
+      "name": "Beobank",
+      "short_name": "Beobank",
       "bank_codes": [
         "109",
         "110",
@@ -387,8 +387,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "ABERBE22",
-      "name": "BANK J. VAN BREDA & C\u00b0",
-      "short_name": "BANK J. VAN BREDA & C\u00b0",
+      "name": "Bank J. Van Breda & C\u00b0",
+      "short_name": "Bank J. Van Breda & C\u00b0",
       "bank_codes": [
         "111"
       ]
@@ -397,8 +397,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "PAUIBE22",
-      "name": "HR PAY SOLUTIONS",
-      "short_name": "HR PAY SOLUTIONS",
+      "name": "HR Pay Solutions",
+      "short_name": "HR Pay Solutions",
       "bank_codes": [
         "115"
       ]
@@ -407,8 +407,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "ATMNBE32XXX",
-      "name": "ATLANTIC MONEY NV/SA",
-      "short_name": "ATLANTIC MONEY NV/SA",
+      "name": "Atlantic Money NV/SA",
+      "short_name": "Atlantic Money NV/SA",
       "bank_codes": [
         "116"
       ]
@@ -417,8 +417,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "CPHBBE75",
-      "name": "BANQUE CPH",
-      "short_name": "BANQUE CPH",
+      "name": "Banque CPH",
+      "short_name": "Banque CPH",
       "bank_codes": [
         "125",
         "126",
@@ -429,8 +429,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "MPSNBE92",
-      "name": "MOBILE PAYMENT SOLUTIONS NV",
-      "short_name": "MOBILE PAYMENT SOLUTIONS NV",
+      "name": "Mobile Payment Solutions nv",
+      "short_name": "Mobile Payment Solutions nv",
       "bank_codes": [
         "128"
       ]
@@ -439,8 +439,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "DIGEBEB2",
-      "name": "DIGITEAL SA",
-      "short_name": "DIGITEAL SA",
+      "name": "Digiteal SA",
+      "short_name": "Digiteal SA",
       "bank_codes": [
         "130"
       ]
@@ -449,8 +449,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BNAGBEBB",
-      "name": "BANK NAGELMACKERS",
-      "short_name": "BANK NAGELMACKERS",
+      "name": "Bank Nagelmackers",
+      "short_name": "Bank Nagelmackers",
       "bank_codes": [
         "132",
         "634",
@@ -468,8 +468,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "",
-      "name": "ONBESCHIKBAAR",
-      "short_name": "ONBESCHIKBAAR",
+      "name": "Onbeschikbaar",
+      "short_name": "Onbeschikbaar",
       "bank_codes": [
         "138",
         "520",
@@ -485,8 +485,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BCMCBEBB",
-      "name": "BANCONTACT PAYCONIQ COMPANY",
-      "short_name": "BANCONTACT PAYCONIQ COMPANY",
+      "name": "Bancontact Payconiq Company",
+      "short_name": "Bancontact Payconiq Company",
       "bank_codes": [
         "150"
       ]
@@ -506,8 +506,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "",
-      "name": "SYST\u00c8MES TECHNOLOGIQUES D'ECHANGE ET DE TRAITEMENT - STET",
-      "short_name": "SYST\u00c8MES TECHNOLOGIQUES D'ECHANGE ET DE TRAITEMENT - STET",
+      "name": "Syst\u00e8mes Technologiques d'Echange et de Traitement - STET",
+      "short_name": "Syst\u00e8mes Technologiques d'Echange et de Traitement - STET",
       "bank_codes": [
         "175"
       ]
@@ -516,8 +516,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BSCHBEBBRET",
-      "name": "SANTANDER CONSUMER FINANCE \u2013 SUCCURSALE EN BELGIQUE/BIJKANTOOR IN BELGI\u00cb",
-      "short_name": "SANTANDER CONSUMER FINANCE \u2013 SUCCURSALE EN BELGIQUE/BIJKANTOOR IN BELGI\u00cb",
+      "name": "Santander Consumer Finance \u2013 Succursale en Belgique/Bijkantoor in Belgi\u00eb",
+      "short_name": "Santander Consumer Finance \u2013 Succursale en Belgique/Bijkantoor in Belgi\u00eb",
       "bank_codes": [
         "176"
       ]
@@ -526,8 +526,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BBRUBEBB",
-      "name": "ING BELGI\u00cb",
-      "short_name": "ING BELGI\u00cb",
+      "name": "ING Belgi\u00eb",
+      "short_name": "ING Belgi\u00eb",
       "bank_codes": [
         "185",
         "300",
@@ -660,8 +660,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "SMBCBEBB",
-      "name": "SUMITOMO MITSUI BANKING CORPORATION (SMBC)",
-      "short_name": "SUMITOMO MITSUI BANKING CORPORATION (SMBC)",
+      "name": "Sumitomo Mitsui Banking Corporation (SMBC)",
+      "short_name": "Sumitomo Mitsui Banking Corporation (SMBC)",
       "bank_codes": [
         "189"
       ]
@@ -670,8 +670,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "CREGBEBB",
-      "name": "CBC BANQUE ET ASSURANCES",
-      "short_name": "CBC BANQUE ET ASSURANCES",
+      "name": "CBC Banque et Assurances",
+      "short_name": "CBC Banque et Assurances",
       "bank_codes": [
         "190",
         "191",
@@ -693,8 +693,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "KREDBEBB",
-      "name": "KBC BANK",
-      "short_name": "KBC BANK",
+      "name": "KBC Bank",
+      "short_name": "KBC Bank",
       "bank_codes": [
         "400",
         "401",
@@ -825,8 +825,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "DHBNBEBB",
-      "name": "DEMIR-HALK BANK (NEDERLAND) (DHB)",
-      "short_name": "DEMIR-HALK BANK (NEDERLAND) (DHB)",
+      "name": "Demir-Halk Bank (Nederland) (DHB)",
+      "short_name": "Demir-Halk Bank (Nederland) (DHB)",
       "bank_codes": [
         "501"
       ]
@@ -835,8 +835,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "PANXBEB1",
-      "name": "UNIFIEDPOST PAYMENTS",
-      "short_name": "UNIFIEDPOST PAYMENTS",
+      "name": "Unifiedpost Payments",
+      "short_name": "Unifiedpost Payments",
       "bank_codes": [
         "504"
       ]
@@ -845,8 +845,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "DIERBE21",
-      "name": "DIERICKX, LEYS & CIE EFFECTENBANK",
-      "short_name": "DIERICKX, LEYS & CIE EFFECTENBANK",
+      "name": "Dierickx, Leys & Cie Effectenbank",
+      "short_name": "Dierickx, Leys & Cie Effectenbank",
       "bank_codes": [
         "507"
       ]
@@ -855,8 +855,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "PARBBEBZMDC",
-      "name": "BNP PARIBAS SA, BELGIUM BRANCH \u2013 SECURITIES SERVICES BUSINESS",
-      "short_name": "BNP PARIBAS SA, BELGIUM BRANCH \u2013 SECURITIES SERVICES BUSINESS",
+      "name": "BNP Paribas SA, Belgium Branch \u2013 Securities Services business",
+      "short_name": "BNP Paribas SA, Belgium Branch \u2013 Securities Services business",
       "bank_codes": [
         "508"
       ]
@@ -865,8 +865,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "ABNABE2AIPC",
-      "name": "ABN AMRO BANK N.V.",
-      "short_name": "ABN AMRO BANK N.V.",
+      "name": "ABN AMRO Bank N.V.",
+      "short_name": "ABN AMRO Bank N.V.",
       "bank_codes": [
         "509",
         "513",
@@ -878,8 +878,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "VAPEBE22",
-      "name": "VAN DE PUT & CO PRIVAATBANKIERS",
-      "short_name": "VAN DE PUT & CO PRIVAATBANKIERS",
+      "name": "VAN DE PUT & CO Privaatbankiers",
+      "short_name": "VAN DE PUT & CO Privaatbankiers",
       "bank_codes": [
         "510"
       ]
@@ -898,8 +898,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "PUILBEBB",
-      "name": "PUILAETCO BRANCH OF QUINTET PRIVATE BANK SA",
-      "short_name": "PUILAETCO BRANCH OF QUINTET PRIVATE BANK SA",
+      "name": "Puilaetco Branch of Quintet Private Bank SA",
+      "short_name": "Puilaetco Branch of Quintet Private Bank SA",
       "bank_codes": [
         "514",
         "942",
@@ -910,8 +910,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "IRVTBEBB",
-      "name": "THE BANK OF NEW YORK MELLON NV/SA",
-      "short_name": "THE BANK OF NEW YORK MELLON NV/SA",
+      "name": "The Bank of New York Mellon NV/SA",
+      "short_name": "The Bank of New York Mellon NV/SA",
       "bank_codes": [
         "515"
       ]
@@ -920,8 +920,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "FVLBBE22",
-      "name": "F. VAN LANSCHOT BANKIERS",
-      "short_name": "F. VAN LANSCHOT BANKIERS",
+      "name": "F. van Lanschot Bankiers",
+      "short_name": "F. van Lanschot Bankiers",
       "bank_codes": [
         "521",
         "525"
@@ -931,8 +931,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "UTWBBEBB",
-      "name": "UNITED TAIWAN BANK",
-      "short_name": "UNITED TAIWAN BANK",
+      "name": "United Taiwan Bank",
+      "short_name": "United Taiwan Bank",
       "bank_codes": [
         "522"
       ]
@@ -941,8 +941,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "TRIOBEBB",
-      "name": "TRIODOS BANK",
-      "short_name": "TRIODOS BANK",
+      "name": "Triodos Bank",
+      "short_name": "Triodos Bank",
       "bank_codes": [
         "523"
       ]
@@ -951,8 +951,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "WAFABEBB",
-      "name": "ATTIJARIWAFA BANK EUROPE",
-      "short_name": "ATTIJARIWAFA BANK EUROPE",
+      "name": "Attijariwafa bank Europe",
+      "short_name": "Attijariwafa bank Europe",
       "bank_codes": [
         "524",
         "546"
@@ -972,8 +972,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "LOCYBEBB",
-      "name": "LOMBARD ODIER (EUROPE)",
-      "short_name": "LOMBARD ODIER (EUROPE)",
+      "name": "Lombard Odier (Europe)",
+      "short_name": "Lombard Odier (Europe)",
       "bank_codes": [
         "548"
       ]
@@ -982,8 +982,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "CHASBEBX",
-      "name": "J.P. MORGAN SE -BRUSSELS BRANCH",
-      "short_name": "J.P. MORGAN SE -BRUSSELS BRANCH",
+      "name": "J.P. Morgan SE -Brussels Branch",
+      "short_name": "J.P. Morgan SE -Brussels Branch",
       "bank_codes": [
         "549"
       ]
@@ -992,8 +992,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "CITIBEBX",
-      "name": "CITIBANK EUROPE PLC - BELGIUM BRANCH",
-      "short_name": "CITIBANK EUROPE PLC - BELGIUM BRANCH",
+      "name": "Citibank Europe Plc - Belgium Branch",
+      "short_name": "Citibank Europe Plc - Belgium Branch",
       "bank_codes": [
         "570",
         "571",
@@ -1011,8 +1011,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "MHCBBEBB",
-      "name": "MIZUHO BANK EUROPE N.V. BRUSSELS BRANCH",
-      "short_name": "MIZUHO BANK EUROPE N.V. BRUSSELS BRANCH",
+      "name": "Mizuho Bank Europe N.V. Brussels Branch",
+      "short_name": "Mizuho Bank Europe N.V. Brussels Branch",
       "bank_codes": [
         "581"
       ]
@@ -1021,8 +1021,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "DEGRBEBB",
-      "name": "BANQUE DEGROOF PETERCAM LUXEMBOURG",
-      "short_name": "BANQUE DEGROOF PETERCAM LUXEMBOURG",
+      "name": "Banque Degroof Petercam Luxembourg",
+      "short_name": "Banque Degroof Petercam Luxembourg",
       "bank_codes": [
         "583",
         "941"
@@ -1032,8 +1032,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "RCBPBEBB",
-      "name": "ROTHSCHILD BELGIQUE SUCCURSALE ROTHSCHILD MARTIN MAUREL",
-      "short_name": "ROTHSCHILD BELGIQUE SUCCURSALE ROTHSCHILD MARTIN MAUREL",
+      "name": "Rothschild Belgique Succursale Rothschild Martin Maurel",
+      "short_name": "Rothschild Belgique Succursale Rothschild Martin Maurel",
       "bank_codes": [
         "585"
       ]
@@ -1042,8 +1042,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "CFFRBEB1",
-      "name": "CR\u00c9DIT FONCIER DE FRANCE",
-      "short_name": "CR\u00c9DIT FONCIER DE FRANCE",
+      "name": "Cr\u00e9dit Foncier de France",
+      "short_name": "Cr\u00e9dit Foncier de France",
       "bank_codes": [
         "586"
       ]
@@ -1052,8 +1052,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BIBLBE21",
-      "name": "BINCKBANK",
-      "short_name": "BINCKBANK",
+      "name": "BinckBank",
+      "short_name": "BinckBank",
       "bank_codes": [
         "587"
       ]
@@ -1062,8 +1062,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "CMCIBEB1BTB",
-      "name": "BANQUE TRANSATLANTIQUE BELGIUM",
-      "short_name": "BANQUE TRANSATLANTIQUE BELGIUM",
+      "name": "Banque Transatlantique Belgium",
+      "short_name": "Banque Transatlantique Belgium",
       "bank_codes": [
         "588"
       ]
@@ -1072,8 +1072,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BSCHBEBB",
-      "name": "SANTANDER CONSUMER FINANCE \u2013 SUCCURSALE EN BELGIQUE/BIJKANTOOR IN BELGI\u00cb",
-      "short_name": "SANTANDER CONSUMER FINANCE \u2013 SUCCURSALE EN BELGIQUE/BIJKANTOOR IN BELGI\u00cb",
+      "name": "Santander Consumer Finance \u2013 Succursale en Belgique/Bijkantoor in Belgi\u00eb",
+      "short_name": "Santander Consumer Finance \u2013 Succursale en Belgique/Bijkantoor in Belgi\u00eb",
       "bank_codes": [
         "590",
         "591",
@@ -1097,8 +1097,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BKCHBEBB",
-      "name": "BANK OF CHINA (EUROPE) SA BRUSSELS BRANCH",
-      "short_name": "BANK OF CHINA (EUROPE) SA BRUSSELS BRANCH",
+      "name": "Bank of China (Europe) SA Brussels Branch",
+      "short_name": "Bank of China (Europe) SA Brussels Branch",
       "bank_codes": [
         "605"
       ]
@@ -1107,8 +1107,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "ICBKBEBB",
-      "name": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (EUROPE)",
-      "short_name": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (EUROPE)",
+      "name": "Industrial and Commercial Bank of China (Europe)",
+      "short_name": "Industrial and Commercial Bank of China (Europe)",
       "bank_codes": [
         "607"
       ]
@@ -1117,8 +1117,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "DEUTBEBE",
-      "name": "DEUTSCHE BANK AG",
-      "short_name": "DEUTSCHE BANK AG",
+      "name": "Deutsche Bank AG",
+      "short_name": "Deutsche Bank AG",
       "bank_codes": [
         "610",
         "611",
@@ -1133,8 +1133,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BBVABEBB",
-      "name": "BANCO BILBAO VIZCAYA ARGENTARIA",
-      "short_name": "BANCO BILBAO VIZCAYA ARGENTARIA",
+      "name": "Banco Bilbao Vizcaya Argentaria",
+      "short_name": "Banco Bilbao Vizcaya Argentaria",
       "bank_codes": [
         "642"
       ]
@@ -1143,8 +1143,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BMPBBEBB",
-      "name": "UNICREDIT SA/NV",
-      "short_name": "UNICREDIT SA/NV",
+      "name": "UniCredit SA/NV",
+      "short_name": "UniCredit SA/NV",
       "bank_codes": [
         "643"
       ]
@@ -1153,8 +1153,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "",
-      "name": "FCA BANK S.P.A.",
-      "short_name": "FCA BANK S.P.A.",
+      "name": "FCA Bank S.p.A.",
+      "short_name": "FCA Bank S.p.A.",
       "bank_codes": [
         "644"
       ]
@@ -1163,8 +1163,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "JVBABE22",
-      "name": "BANK J. VAN BREDA & C\u00b0",
-      "short_name": "BANK J. VAN BREDA & C\u00b0",
+      "name": "Bank J. Van Breda & C\u00b0",
+      "short_name": "Bank J. Van Breda & C\u00b0",
       "bank_codes": [
         "645"
       ]
@@ -1173,8 +1173,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BMPBBEBBVOD",
-      "name": "UNICREDIT SA/NV",
-      "short_name": "UNICREDIT SA/NV",
+      "name": "UniCredit SA/NV",
+      "short_name": "UniCredit SA/NV",
       "bank_codes": [
         "648"
       ]
@@ -1183,8 +1183,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "CEPABEB2",
-      "name": "CAISSE D'EPARGNE ET DE PR\u00c9VOYANCE HAUTS DE FRANCE",
-      "short_name": "CAISSE D'EPARGNE ET DE PR\u00c9VOYANCE HAUTS DE FRANCE",
+      "name": "Caisse d'Epargne et de Pr\u00e9voyance Hauts de France",
+      "short_name": "Caisse d'Epargne et de Pr\u00e9voyance Hauts de France",
       "bank_codes": [
         "649"
       ]
@@ -1193,8 +1193,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "REVOBEB2XXX",
-      "name": "REVOLUT BANK UAB BELGIAN BRANCH",
-      "short_name": "REVOLUT BANK UAB BELGIAN BRANCH",
+      "name": "Revolut Bank UAB Belgian branch",
+      "short_name": "Revolut Bank UAB Belgian branch",
       "bank_codes": [
         "650"
       ]
@@ -1203,8 +1203,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "KEYTBEBB",
-      "name": "ARK\u00c9A DIRECT BANK (NOM COMMERCIAL / COMMERCI\u00cbLE NAAM: KEYTRADE BANK)",
-      "short_name": "ARK\u00c9A DIRECT BANK (NOM COMMERCIAL / COMMERCI\u00cbLE NAAM: KEYTRADE BANK)",
+      "name": "Ark\u00e9a Direct Bank (nom commercial / commerci\u00eble naam: Keytrade Bank)",
+      "short_name": "Ark\u00e9a Direct Bank (nom commercial / commerci\u00eble naam: Keytrade Bank)",
       "bank_codes": [
         "651"
       ]
@@ -1213,8 +1213,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BARCBEBB",
-      "name": "BARCLAYS BANK IRELAND PLC BRUSSELS BRANCH",
-      "short_name": "BARCLAYS BANK IRELAND PLC BRUSSELS BRANCH",
+      "name": "Barclays Bank Ireland Plc Brussels Branch",
+      "short_name": "Barclays Bank Ireland Plc Brussels Branch",
       "bank_codes": [
         "653"
       ]
@@ -1223,8 +1223,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "HABBBEBB",
-      "name": "HABIB BANK",
-      "short_name": "HABIB BANK",
+      "name": "Habib Bank",
+      "short_name": "Habib Bank",
       "bank_codes": [
         "658"
       ]
@@ -1233,8 +1233,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BMEUBEB1",
-      "name": "BMCE EURO SERVICES",
-      "short_name": "BMCE EURO SERVICES",
+      "name": "BMCE Euro Services",
+      "short_name": "BMCE Euro Services",
       "bank_codes": [
         "663"
       ]
@@ -1243,8 +1243,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BCDMBEBB",
-      "name": "BANQUE CHAABI DU MAROC",
-      "short_name": "BANQUE CHAABI DU MAROC",
+      "name": "Banque Chaabi du Maroc",
+      "short_name": "Banque Chaabi du Maroc",
       "bank_codes": [
         "664"
       ]
@@ -1264,8 +1264,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "CMCIBEB1CIC",
-      "name": "CR\u00c9DIT INDUSTRIEL ET COMMERCIAL - SUCCURSALE DE BRUXELLES",
-      "short_name": "CR\u00c9DIT INDUSTRIEL ET COMMERCIAL - SUCCURSALE DE BRUXELLES",
+      "name": "Cr\u00e9dit Industriel et Commercial - Succursale de Bruxelles",
+      "short_name": "Cr\u00e9dit Industriel et Commercial - Succursale de Bruxelles",
       "bank_codes": [
         "667"
       ]
@@ -1274,8 +1274,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "SBINBE2X",
-      "name": "STATE BANK OF INDIA",
-      "short_name": "STATE BANK OF INDIA",
+      "name": "State Bank of India",
+      "short_name": "State Bank of India",
       "bank_codes": [
         "668"
       ]
@@ -1284,8 +1284,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "EURBBE99",
-      "name": "EUROPABANK",
-      "short_name": "EUROPABANK",
+      "name": "Europabank",
+      "short_name": "Europabank",
       "bank_codes": [
         "671"
       ]
@@ -1294,8 +1294,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "ABNABE2AIDJ",
-      "name": "ABN AMRO BANK N.V.",
-      "short_name": "ABN AMRO BANK N.V.",
+      "name": "ABN AMRO Bank N.V.",
+      "short_name": "ABN AMRO Bank N.V.",
       "bank_codes": [
         "674"
       ]
@@ -1304,8 +1304,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BYBBBEBB",
-      "name": "BYBLOS BANK EUROPE",
-      "short_name": "BYBLOS BANK EUROPE",
+      "name": "Byblos Bank Europe",
+      "short_name": "Byblos Bank Europe",
       "bank_codes": [
         "675"
       ]
@@ -1314,8 +1314,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "DEGRBEBB",
-      "name": "BANK DEGROOF PETERCAM",
-      "short_name": "BANK DEGROOF PETERCAM",
+      "name": "Bank Degroof Petercam",
+      "short_name": "Bank Degroof Petercam",
       "bank_codes": [
         "676",
         "845"
@@ -1325,8 +1325,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "CBPXBE99",
-      "name": "INTESA SANPAOLO WEALTH MANAGEMENT",
-      "short_name": "INTESA SANPAOLO WEALTH MANAGEMENT",
+      "name": "Intesa Sanpaolo Wealth Management",
+      "short_name": "Intesa Sanpaolo Wealth Management",
       "bank_codes": [
         "677"
       ]
@@ -1335,8 +1335,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "DELEBE22",
-      "name": "DELEN PRIVATE BANK",
-      "short_name": "DELEN PRIVATE BANK",
+      "name": "Delen Private Bank",
+      "short_name": "Delen Private Bank",
       "bank_codes": [
         "678"
       ]
@@ -1345,8 +1345,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "SGABBEB2",
-      "name": "SOCI\u00c9T\u00c9 G\u00c9N\u00c9RALE",
-      "short_name": "SOCI\u00c9T\u00c9 G\u00c9N\u00c9RALE",
+      "name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+      "short_name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
       "bank_codes": [
         "684",
         "688"
@@ -1356,8 +1356,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BOFABE3X",
-      "name": "BANK OF AMERICA EUROPE DAC - BRUSSELS BRANCH",
-      "short_name": "BANK OF AMERICA EUROPE DAC - BRUSSELS BRANCH",
+      "name": "Bank of America Europe DAC - Brussels Branch",
+      "short_name": "Bank of America Europe DAC - Brussels Branch",
       "bank_codes": [
         "685",
         "686",
@@ -1368,8 +1368,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "MGTCBEBE",
-      "name": "EUROCLEAR BANK",
-      "short_name": "EUROCLEAR BANK",
+      "name": "Euroclear Bank",
+      "short_name": "Euroclear Bank",
       "bank_codes": [
         "687",
         "695",
@@ -1380,8 +1380,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BOTKBEBX",
-      "name": "MUFG BANK (EUROPE)",
-      "short_name": "MUFG BANK (EUROPE)",
+      "name": "MUFG Bank (Europe)",
+      "short_name": "MUFG Bank (Europe)",
       "bank_codes": [
         "693"
       ]
@@ -1390,8 +1390,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "CRLYBEBB",
-      "name": "CR\u00c9DIT AGRICOLE CORPORATE & INVESTMENT BANK",
-      "short_name": "CR\u00c9DIT AGRICOLE CORPORATE & INVESTMENT BANK",
+      "name": "Cr\u00e9dit Agricole Corporate & Investment Bank",
+      "short_name": "Cr\u00e9dit Agricole Corporate & Investment Bank",
       "bank_codes": [
         "696"
       ]
@@ -1400,8 +1400,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "AXABBE22",
-      "name": "CRELAN",
-      "short_name": "CRELAN",
+      "name": "Crelan",
+      "short_name": "Crelan",
       "bank_codes": [
         "700",
         "701",
@@ -1447,8 +1447,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "ABNABE2AXXX",
-      "name": "ABN AMRO BANK N.V.",
-      "short_name": "ABN AMRO BANK N.V.",
+      "name": "ABN AMRO Bank N.V.",
+      "short_name": "ABN AMRO Bank N.V.",
       "bank_codes": [
         "719"
       ]
@@ -1457,8 +1457,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "ISAEBEBB",
-      "name": "CACEIS BANK BELGIAN BRANCH",
-      "short_name": "CACEIS BANK BELGIAN BRANCH",
+      "name": "CACEIS Bank Belgian Branch",
+      "short_name": "CACEIS Bank Belgian Branch",
       "bank_codes": [
         "817"
       ]
@@ -1467,8 +1467,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "BLUXBEBB",
-      "name": "BANQUE DE LUXEMBOURG",
-      "short_name": "BANQUE DE LUXEMBOURG",
+      "name": "Banque de Luxembourg",
+      "short_name": "Banque de Luxembourg",
       "bank_codes": [
         "823"
       ]
@@ -1477,8 +1477,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "PRIBBEBB",
-      "name": "EDMOND DE ROTHSCHILD (EUROPE)",
-      "short_name": "EDMOND DE ROTHSCHILD (EUROPE)",
+      "name": "Edmond de Rothschild (Europe)",
+      "short_name": "Edmond de Rothschild (Europe)",
       "bank_codes": [
         "840"
       ]
@@ -1487,8 +1487,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "PCHQBEBB",
-      "name": "BPOST",
-      "short_name": "BPOST",
+      "name": "bpost",
+      "short_name": "bpost",
       "bank_codes": [
         "873",
         "981",
@@ -1501,8 +1501,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "MBWMBEBB",
-      "name": "MEDIRECT BANK S.A.",
-      "short_name": "MEDIRECT BANK S.A.",
+      "name": "MeDirect Bank S.A.",
+      "short_name": "MeDirect Bank S.A.",
       "bank_codes": [
         "876"
       ]
@@ -1511,8 +1511,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "VDSPBE91",
-      "name": "VDK BANK",
-      "short_name": "VDK BANK",
+      "name": "vdk bank",
+      "short_name": "vdk bank",
       "bank_codes": [
         "890",
         "891",
@@ -1530,8 +1530,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "TRWIBEB1",
-      "name": "WISE EUROPE SA",
-      "short_name": "WISE EUROPE SA",
+      "name": "Wise Europe SA",
+      "short_name": "Wise Europe SA",
       "bank_codes": [
         "903",
         "905",
@@ -1542,8 +1542,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "TRWIBEBB",
-      "name": "WISE EUROPE SA",
-      "short_name": "WISE EUROPE SA",
+      "name": "Wise Europe SA",
+      "short_name": "Wise Europe SA",
       "bank_codes": [
         "904"
       ]
@@ -1552,8 +1552,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "CEKVBE88",
-      "name": "CENTRALE KREDIETVERLENING (C.K.V.)",
-      "short_name": "CENTRALE KREDIETVERLENING (C.K.V.)",
+      "name": "Centrale Kredietverlening (C.K.V.)",
+      "short_name": "Centrale Kredietverlening (C.K.V.)",
       "bank_codes": [
         "906",
         "908"
@@ -1563,8 +1563,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "",
-      "name": "MOLLIE B.V.",
-      "short_name": "MOLLIE B.V.",
+      "name": "Mollie B.V.",
+      "short_name": "Mollie B.V.",
       "bank_codes": [
         "907"
       ]
@@ -1573,8 +1573,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "TUNZBEB1",
-      "name": "WORLDLINE FINANCIAL SOLUTIONS NV/SA",
-      "short_name": "WORLDLINE FINANCIAL SOLUTIONS NV/SA",
+      "name": "Worldline Financial Solutions nv/SA",
+      "short_name": "Worldline Financial Solutions nv/SA",
       "bank_codes": [
         "911"
       ]
@@ -1593,8 +1593,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "FXBBBEBB",
-      "name": "IBANFIRST",
-      "short_name": "IBANFIRST",
+      "name": "Ibanfirst",
+      "short_name": "Ibanfirst",
       "bank_codes": [
         "914"
       ]
@@ -1603,8 +1603,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "OONXBEBB",
-      "name": "EQUALS MONEY EUROPE SA",
-      "short_name": "EQUALS MONEY EUROPE SA",
+      "name": "Equals Money Europe SA",
+      "short_name": "Equals Money Europe SA",
       "bank_codes": [
         "915"
       ]
@@ -1623,8 +1623,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "FMMSBEB1",
-      "name": "FIMASER",
-      "short_name": "FIMASER",
+      "name": "Fimaser",
+      "short_name": "Fimaser",
       "bank_codes": [
         "924"
       ]
@@ -1633,8 +1633,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "EBPBBEB1",
-      "name": "EBURY PARTNERS BELGIUM",
-      "short_name": "EBURY PARTNERS BELGIUM",
+      "name": "Ebury Partners Belgium",
+      "short_name": "Ebury Partners Belgium",
       "bank_codes": [
         "926"
       ]
@@ -1643,8 +1643,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "CLIQBEB1",
-      "name": "BANQUE CENTRALE DE COMPENSATION (CLEARNET)",
-      "short_name": "BANQUE CENTRALE DE COMPENSATION (CLEARNET)",
+      "name": "Banque Centrale de Compensation (Clearnet)",
+      "short_name": "Banque Centrale de Compensation (Clearnet)",
       "bank_codes": [
         "940"
       ]
@@ -1653,8 +1653,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "",
-      "name": "IC FINANCIAL SERVICES SA \u2013 BELGIAN BRANCH",
-      "short_name": "IC FINANCIAL SERVICES SA \u2013 BELGIAN BRANCH",
+      "name": "IC Financial Services SA \u2013 Belgian Branch",
+      "short_name": "IC Financial Services SA \u2013 Belgian Branch",
       "bank_codes": [
         "943"
       ]
@@ -1663,8 +1663,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "JPMGBEBB",
-      "name": "J.P. MORGAN SE \u2013 BRUSSELS BRANCH",
-      "short_name": "J.P. MORGAN SE \u2013 BRUSSELS BRANCH",
+      "name": "J.P. Morgan SE \u2013 Brussels Branch",
+      "short_name": "J.P. Morgan SE \u2013 Brussels Branch",
       "bank_codes": [
         "945"
       ]
@@ -1673,8 +1673,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "HOMNBEB2",
-      "name": "MASTERCARD TRANSACTION SERVICES (EUROPE) NV/SA",
-      "short_name": "MASTERCARD TRANSACTION SERVICES (EUROPE) NV/SA",
+      "name": "Mastercard Transaction Services (Europe) NV/SA",
+      "short_name": "Mastercard Transaction Services (Europe) NV/SA",
       "bank_codes": [
         "948"
       ]
@@ -1683,8 +1683,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "HSBCBEBB",
-      "name": "HSBC CONTINENTAL EUROPE BELGIUM",
-      "short_name": "HSBC CONTINENTAL EUROPE BELGIUM",
+      "name": "HSBC Continental Europe Belgium",
+      "short_name": "HSBC Continental Europe Belgium",
       "bank_codes": [
         "949"
       ]
@@ -1703,8 +1703,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "ENIBBEBB",
-      "name": "BANQUE ENI",
-      "short_name": "BANQUE ENI",
+      "name": "Banque Eni",
+      "short_name": "Banque Eni",
       "bank_codes": [
         "968"
       ]
@@ -1713,8 +1713,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "ARSPBE22",
-      "name": "ARGENTA SPAARBANK (ASPA)",
-      "short_name": "ARGENTA SPAARBANK (ASPA)",
+      "name": "Argenta Spaarbank (ASPA)",
+      "short_name": "Argenta Spaarbank (ASPA)",
       "bank_codes": [
         "973",
         "978",
@@ -1736,8 +1736,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "PAYVBEB2",
-      "name": "PAYNOVATE",
-      "short_name": "PAYNOVATE",
+      "name": "Paynovate",
+      "short_name": "Paynovate",
       "bank_codes": [
         "977"
       ]
@@ -1746,8 +1746,8 @@
       "country_code": "BE",
       "primary": true,
       "bic": "",
-      "name": "BPOST",
-      "short_name": "BPOST",
+      "name": "bpost",
+      "short_name": "bpost",
       "bank_codes": [
         "989",
         "990",

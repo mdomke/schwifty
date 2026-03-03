@@ -4,8 +4,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "NABAATWWXXX",
-      "name": "OESTERREICHISCHE NATIONALBANK",
-      "short_name": "OESTERREICHISCHE NATIONALBANK",
+      "name": "Oesterreichische Nationalbank",
+      "short_name": "Oesterreichische Nationalbank",
       "bank_codes": [
         "00100"
       ]
@@ -14,8 +14,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "OEKOATWWXXX",
-      "name": "OESTERREICHISCHE KONTROLLBANK AKTIENGESELLSCHAFT",
-      "short_name": "OESTERREICHISCHE KONTROLLBANK AKTIENGESELLSCHAFT",
+      "name": "Oesterreichische Kontrollbank Aktiengesellschaft",
+      "short_name": "Oesterreichische Kontrollbank Aktiengesellschaft",
       "bank_codes": [
         "10000"
       ]
@@ -24,8 +24,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "BKAUATWWXXX",
-      "name": "UNICREDIT BANK AUSTRIA AG",
-      "short_name": "UNICREDIT BANK AUSTRIA AG",
+      "name": "UniCredit Bank Austria AG",
+      "short_name": "UniCredit Bank Austria AG",
       "bank_codes": [
         "11000",
         "12000",
@@ -38,8 +38,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "BAWAATWWXXX",
-      "name": "BAWAG P.S.K. BANK F\u00dcR ARBEIT UND WIRTSCHAFT UND \u00d6STERREICHISCHE POSTSPARKASSE AKTIENGESELLSCHAFT",
-      "short_name": "BAWAG P.S.K. BANK F\u00dcR ARBEIT UND WIRTSCHAFT UND \u00d6STERREICHISCHE POSTSPARKASSE AKTIENGESELLSCHAFT",
+      "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
+      "short_name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
       "bank_codes": [
         "14000",
         "14200",
@@ -55,8 +55,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "OBKLAT2LXXX",
-      "name": "OBERBANK AG",
-      "short_name": "OBERBANK AG",
+      "name": "Oberbank AG",
+      "short_name": "Oberbank AG",
       "bank_codes": [
         "15000",
         "15001",
@@ -115,8 +115,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "BTVAAT22XXX",
-      "name": "BTV VIER L\u00c4NDER BANK AG",
-      "short_name": "BTV VIER L\u00c4NDER BANK AG",
+      "name": "BTV Vier L\u00e4nder Bank AG",
+      "short_name": "BTV Vier L\u00e4nder Bank AG",
       "bank_codes": [
         "16000",
         "16300",
@@ -142,8 +142,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "BFKKAT2KXXX",
-      "name": "BKS BANK AG",
-      "short_name": "BKS BANK AG",
+      "name": "BKS Bank AG",
+      "short_name": "BKS Bank AG",
       "bank_codes": [
         "17000",
         "17100",
@@ -158,8 +158,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "GEBAATWWXXX",
-      "name": "BNP PARIBAS SA NIEDERLASSUNG \u00d6STERREICH",
-      "short_name": "BNP PARIBAS SA NIEDERLASSUNG \u00d6STERREICH",
+      "name": "BNP Paribas SA Niederlassung \u00d6sterreich",
+      "short_name": "BNP Paribas SA Niederlassung \u00d6sterreich",
       "bank_codes": [
         "18100"
       ]
@@ -168,8 +168,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "PABXATW1XXX",
-      "name": "A1 BANK AG",
-      "short_name": "A1 BANK AG",
+      "name": "A1 Bank AG",
+      "short_name": "A1 Bank AG",
       "bank_codes": [
         "18120"
       ]
@@ -178,8 +178,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "BWFBATW1XXX",
-      "name": "\u00d6STERREICHISCHE \u00c4RZTE- UND APOTHEKERBANK AG",
-      "short_name": "\u00d6STERREICHISCHE \u00c4RZTE- UND APOTHEKERBANK AG",
+      "name": "\u00d6sterreichische \u00c4rzte- und Apothekerbank AG",
+      "short_name": "\u00d6sterreichische \u00c4rzte- und Apothekerbank AG",
       "bank_codes": [
         "18130",
         "44220"
@@ -189,8 +189,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "CITIATWXXXX",
-      "name": "CITIBANK EUROPE PLC, AUSTRIA BRANCH",
-      "short_name": "CITIBANK EUROPE PLC, AUSTRIA BRANCH",
+      "name": "Citibank Europe plc, Austria Branch",
+      "short_name": "Citibank Europe plc, Austria Branch",
       "bank_codes": [
         "18140"
       ]
@@ -199,8 +199,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "SGABATWWXXX",
-      "name": "SOCI\u00c9T\u00c9 G\u00c9N\u00c9RALE ZWEIGNIEDERLASSUNG WIEN",
-      "short_name": "SOCI\u00c9T\u00c9 G\u00c9N\u00c9RALE ZWEIGNIEDERLASSUNG WIEN",
+      "name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale Zweigniederlassung Wien",
+      "short_name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale Zweigniederlassung Wien",
       "bank_codes": [
         "18150"
       ]
@@ -233,8 +233,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "BGENATWWXXX",
-      "name": "GENERALI BANK AG",
-      "short_name": "GENERALI BANK AG",
+      "name": "Generali Bank AG",
+      "short_name": "Generali Bank AG",
       "bank_codes": [
         "18400"
       ]
@@ -243,8 +243,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "VKBLAT2LXXX",
-      "name": "VOLKSKREDITBANK AG",
-      "short_name": "VOLKSKREDITBANK AG",
+      "name": "Volkskreditbank AG",
+      "short_name": "Volkskreditbank AG",
       "bank_codes": [
         "18600"
       ]
@@ -253,8 +253,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "TRBKATW2XXX",
-      "name": "TRADE REPUBLIC BANK GMBH, BRANCH AUSTRIA",
-      "short_name": "TRADE REPUBLIC BANK GMBH, BRANCH AUSTRIA",
+      "name": "Trade Republic Bank GmbH, Branch Austria",
+      "short_name": "Trade Republic Bank GmbH, Branch Austria",
       "bank_codes": [
         "19001"
       ]
@@ -263,8 +263,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "DEUTATWWXXX",
-      "name": "DEUTSCHE BANK AKTIENGESELLSCHAFT FILIALE WIEN",
-      "short_name": "DEUTSCHE BANK AKTIENGESELLSCHAFT FILIALE WIEN",
+      "name": "Deutsche Bank Aktiengesellschaft Filiale Wien",
+      "short_name": "Deutsche Bank Aktiengesellschaft Filiale Wien",
       "bank_codes": [
         "19100"
       ]
@@ -273,8 +273,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPBAATWWXXX",
-      "name": "BANK99 AG",
-      "short_name": "BANK99 AG",
+      "name": "bank99 AG",
+      "short_name": "bank99 AG",
       "bank_codes": [
         "19120"
       ]
@@ -283,8 +283,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "GUTBATWWXXX",
-      "name": "BANK GUTMANN AKTIENGESELLSCHAFT",
-      "short_name": "BANK GUTMANN AKTIENGESELLSCHAFT",
+      "name": "Bank Gutmann Aktiengesellschaft",
+      "short_name": "Bank Gutmann Aktiengesellschaft",
       "bank_codes": [
         "19140"
       ]
@@ -293,8 +293,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "KTBKATWWXXX",
-      "name": "KATHREIN PRIVATBANK AKTIENGESELLSCHAFT",
-      "short_name": "KATHREIN PRIVATBANK AKTIENGESELLSCHAFT",
+      "name": "Kathrein Privatbank Aktiengesellschaft",
+      "short_name": "Kathrein Privatbank Aktiengesellschaft",
       "bank_codes": [
         "19150"
       ]
@@ -303,8 +303,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "WIPBATWWXXX",
-      "name": "WIENER PRIVATBANK SE",
-      "short_name": "WIENER PRIVATBANK SE",
+      "name": "Wiener Privatbank SE",
+      "short_name": "Wiener Privatbank SE",
       "bank_codes": [
         "19160",
         "19440"
@@ -324,8 +324,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "BSSWATWWXXX",
-      "name": "SCHELHAMMER CAPITAL BANK AG",
-      "short_name": "SCHELHAMMER CAPITAL BANK AG",
+      "name": "Schelhammer Capital Bank AG",
+      "short_name": "Schelhammer Capital Bank AG",
       "bank_codes": [
         "19190",
         "19600"
@@ -335,8 +335,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SCHOATWWXXX",
-      "name": "SCHOELLERBANK AKTIENGESELLSCHAFT",
-      "short_name": "SCHOELLERBANK AKTIENGESELLSCHAFT",
+      "name": "Schoellerbank Aktiengesellschaft",
+      "short_name": "Schoellerbank Aktiengesellschaft",
       "bank_codes": [
         "19200"
       ]
@@ -345,8 +345,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "SPBAATWWB99",
-      "name": "BANK99 AG",
-      "short_name": "BANK99 AG",
+      "name": "bank99 AG",
+      "short_name": "bank99 AG",
       "bank_codes": [
         "19210"
       ]
@@ -355,8 +355,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "WISMATWWXXX",
-      "name": "BANK WINTER & CO. AG",
-      "short_name": "BANK WINTER & CO. AG",
+      "name": "Bank Winter & Co. AG",
+      "short_name": "Bank Winter & Co. AG",
       "bank_codes": [
         "19220"
       ]
@@ -365,8 +365,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "DIRAAT2SXXX",
-      "name": "BAWAG P.S.K. BANK F\u00dcR ARBEIT UND WIRTSCHAFT UND \u00d6STERREICHISCHE POSTSPARKASSE AKTIENGESELLSCHAFT",
-      "short_name": "BAWAG P.S.K. BANK F\u00dcR ARBEIT UND WIRTSCHAFT UND \u00d6STERREICHISCHE POSTSPARKASSE AKTIENGESELLSCHAFT",
+      "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
+      "short_name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
       "bank_codes": [
         "19250"
       ]
@@ -375,8 +375,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "INGBATWWXXX",
-      "name": "ING AUSTRIA BRANCH OF ING BANK N.V.",
-      "short_name": "ING AUSTRIA BRANCH OF ING BANK N.V.",
+      "name": "ING Austria Branch of ING Bank N.V.",
+      "short_name": "ING Austria Branch of ING Bank N.V.",
       "bank_codes": [
         "19360"
       ]
@@ -385,8 +385,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "DENEATW1XXX",
-      "name": "BANKHAUS DENZEL AKTIENGESELLSCHAFT",
-      "short_name": "BANKHAUS DENZEL AKTIENGESELLSCHAFT",
+      "name": "Bankhaus Denzel Aktiengesellschaft",
+      "short_name": "Bankhaus Denzel Aktiengesellschaft",
       "bank_codes": [
         "19380"
       ]
@@ -395,8 +395,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "BMASAT21XXX",
-      "name": "BMW AUSTRIA BANK GMBH",
-      "short_name": "BMW AUSTRIA BANK GMBH",
+      "name": "BMW Austria Bank GmbH",
+      "short_name": "BMW Austria Bank GmbH",
       "bank_codes": [
         "19390"
       ]
@@ -405,8 +405,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RCNOATW1XXX",
-      "name": "RCI BANQUE SA, NIEDERLASSUNG \u00d6STERREICH",
-      "short_name": "RCI BANQUE SA, NIEDERLASSUNG \u00d6STERREICH",
+      "name": "RCI Banque SA, Niederlassung \u00d6sterreich",
+      "short_name": "RCI Banque SA, Niederlassung \u00d6sterreich",
       "bank_codes": [
         "19420"
       ]
@@ -415,8 +415,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "COPRATWWXXX",
-      "name": "LIECHTENSTEINISCHE LANDESBANK (\u00d6STERREICH) AG",
-      "short_name": "LIECHTENSTEINISCHE LANDESBANK (\u00d6STERREICH) AG",
+      "name": "Liechtensteinische Landesbank (\u00d6sterreich) AG",
+      "short_name": "Liechtensteinische Landesbank (\u00d6sterreich) AG",
       "bank_codes": [
         "19450",
         "19510",
@@ -427,8 +427,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "BLFLATWWXXX",
-      "name": "LGT BANK AG, ZWEIGNIEDERLASSUNG \u00d6STERREICH",
-      "short_name": "LGT BANK AG, ZWEIGNIEDERLASSUNG \u00d6STERREICH",
+      "name": "LGT Bank AG, Zweigniederlassung \u00d6sterreich",
+      "short_name": "LGT Bank AG, Zweigniederlassung \u00d6sterreich",
       "bank_codes": [
         "19460"
       ]
@@ -437,8 +437,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "BIIWATWWXXX",
-      "name": "FLATEXDEGIRO BANK AG",
-      "short_name": "FLATEXDEGIRO BANK AG",
+      "name": "flatexDEGIRO Bank AG",
+      "short_name": "flatexDEGIRO Bank AG",
       "bank_codes": [
         "19480"
       ]
@@ -447,8 +447,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "OPBAATW2XXX",
-      "name": "STELLANTIS BANK SA NIEDERLASSUNG \u00d6STERREICH",
-      "short_name": "STELLANTIS BANK SA NIEDERLASSUNG \u00d6STERREICH",
+      "name": "Stellantis Bank SA Niederlassung \u00d6sterreich",
+      "short_name": "Stellantis Bank SA Niederlassung \u00d6sterreich",
       "bank_codes": [
         "19515",
         "75910"
@@ -458,8 +458,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "STSPAT2GXXX",
-      "name": "STEIERM\u00c4RKISCHE BANK UND SPARKASSEN AKTIENGESELLSCHAFT",
-      "short_name": "STEIERM\u00c4RKISCHE BANK UND SPARKASSEN AKTIENGESELLSCHAFT",
+      "name": "Steierm\u00e4rkische Bank und Sparkassen Aktiengesellschaft",
+      "short_name": "Steierm\u00e4rkische Bank und Sparkassen Aktiengesellschaft",
       "bank_codes": [
         "19520",
         "20815"
@@ -469,8 +469,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPAEAT2SXXX",
-      "name": "BANKHAUS CARL SP\u00c4NGLER & CO. AKTIENGESELLSCHAFT",
-      "short_name": "BANKHAUS CARL SP\u00c4NGLER & CO. AKTIENGESELLSCHAFT",
+      "name": "Bankhaus Carl Sp\u00e4ngler & Co. Aktiengesellschaft",
+      "short_name": "Bankhaus Carl Sp\u00e4ngler & Co. Aktiengesellschaft",
       "bank_codes": [
         "19530"
       ]
@@ -479,8 +479,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "BKCHATWWXXX",
-      "name": "BANK OF CHINA (CENTRAL AND EASTERN EUROPE) LIMITED VIENNA BRANCH",
-      "short_name": "BANK OF CHINA (CENTRAL AND EASTERN EUROPE) LIMITED VIENNA BRANCH",
+      "name": "Bank of China (Central and Eastern Europe) Limited Vienna Branch",
+      "short_name": "Bank of China (Central and Eastern Europe) Limited Vienna Branch",
       "bank_codes": [
         "19540"
       ]
@@ -489,8 +489,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "ESBKATWWXXX",
-      "name": "DENIZBANK AG",
-      "short_name": "DENIZBANK AG",
+      "name": "DenizBank AG",
+      "short_name": "DenizBank AG",
       "bank_codes": [
         "19650"
       ]
@@ -499,8 +499,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "INVOATWWXXX",
-      "name": "KOMMUNALKREDIT AUSTRIA AG",
-      "short_name": "KOMMUNALKREDIT AUSTRIA AG",
+      "name": "Kommunalkredit Austria AG",
+      "short_name": "Kommunalkredit Austria AG",
       "bank_codes": [
         "19660"
       ]
@@ -509,8 +509,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "COBAATWXXXX",
-      "name": "COMMERZBANK AG NIEDERLASSUNG WIEN",
-      "short_name": "COMMERZBANK AG NIEDERLASSUNG WIEN",
+      "name": "Commerzbank AG Niederlassung Wien",
+      "short_name": "Commerzbank AG Niederlassung Wien",
       "bank_codes": [
         "19675"
       ]
@@ -519,8 +519,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "TVBAATWWXXX",
-      "name": "VAKIFBANK INTERNATIONAL AG",
-      "short_name": "VAKIFBANK INTERNATIONAL AG",
+      "name": "VakifBank International AG",
+      "short_name": "VakifBank International AG",
       "bank_codes": [
         "19690"
       ]
@@ -529,8 +529,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SANTATWWXXX",
-      "name": "SANTANDER CONSUMER BANK GMBH",
-      "short_name": "SANTANDER CONSUMER BANK GMBH",
+      "name": "Santander Consumer Bank GmbH",
+      "short_name": "Santander Consumer Bank GmbH",
       "bank_codes": [
         "19810"
       ]
@@ -539,8 +539,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "WUSNATWWXXX",
-      "name": "W\u00dcSTENROT BANK AG",
-      "short_name": "W\u00dcSTENROT BANK AG",
+      "name": "W\u00fcstenrot Bank AG",
+      "short_name": "W\u00fcstenrot Bank AG",
       "bank_codes": [
         "19825"
       ]
@@ -549,8 +549,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "WUIBATWWXXX",
-      "name": "WESTERN UNION INTERNATIONAL BANK GMBH",
-      "short_name": "WESTERN UNION INTERNATIONAL BANK GMBH",
+      "name": "Western Union International Bank GmbH",
+      "short_name": "Western Union International Bank GmbH",
       "bank_codes": [
         "19880"
       ]
@@ -559,8 +559,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "ICBKATWWXXX",
-      "name": "ICBC AUSTRIA BANK GMBH",
-      "short_name": "ICBC AUSTRIA BANK GMBH",
+      "name": "ICBC Austria Bank GmbH",
+      "short_name": "ICBC Austria Bank GmbH",
       "bank_codes": [
         "19888"
       ]
@@ -569,8 +569,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "CENBATWWXXX",
-      "name": "RAIFFEISEN DIGITAL BANK AG",
-      "short_name": "RAIFFEISEN DIGITAL BANK AG",
+      "name": "Raiffeisen Digital Bank AG",
+      "short_name": "Raiffeisen Digital Bank AG",
       "bank_codes": [
         "19930"
       ]
@@ -579,8 +579,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "WUBUAT2SXXX",
-      "name": "BAUSPARKASSE W\u00dcSTENROT AKTIENGESELLSCHAFT",
-      "short_name": "BAUSPARKASSE W\u00dcSTENROT AKTIENGESELLSCHAFT",
+      "name": "Bausparkasse W\u00fcstenrot Aktiengesellschaft",
+      "short_name": "Bausparkasse W\u00fcstenrot Aktiengesellschaft",
       "bank_codes": [
         "19950"
       ]
@@ -589,8 +589,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "BRASATWWXXX",
-      "name": "BANCO DO BRASIL AKTIENGESELLSCHAFT",
-      "short_name": "BANCO DO BRASIL AKTIENGESELLSCHAFT",
+      "name": "Banco do Brasil Aktiengesellschaft",
+      "short_name": "Banco do Brasil Aktiengesellschaft",
       "bank_codes": [
         "19970"
       ]
@@ -599,8 +599,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "GIBAATWGXXX",
-      "name": "ERSTE GROUP BANK AG",
-      "short_name": "ERSTE GROUP BANK AG",
+      "name": "Erste Group Bank AG",
+      "short_name": "Erste Group Bank AG",
       "bank_codes": [
         "20100"
       ]
@@ -609,8 +609,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "GIBAATWWXXX",
-      "name": "ERSTE BANK DER OESTERREICHISCHEN SPARKASSEN AG",
-      "short_name": "ERSTE BANK DER OESTERREICHISCHEN SPARKASSEN AG",
+      "name": "Erste Bank der oesterreichischen Sparkassen AG",
+      "short_name": "Erste Bank der oesterreichischen Sparkassen AG",
       "bank_codes": [
         "20111"
       ]
@@ -619,8 +619,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "GIBAAT21XXX",
-      "name": "DIE ZWEITE WIENER VEREINS-SPARCASSE",
-      "short_name": "DIE ZWEITE WIENER VEREINS-SPARCASSE",
+      "name": "Die Zweite Wiener Vereins-Sparcasse",
+      "short_name": "Die Zweite Wiener Vereins-Sparcasse",
       "bank_codes": [
         "20112"
       ]
@@ -629,8 +629,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPAMAT21XXX",
-      "name": "SPARKASSE DER STADT AMSTETTEN AG",
-      "short_name": "SPARKASSE DER STADT AMSTETTEN AG",
+      "name": "Sparkasse der Stadt Amstetten AG",
+      "short_name": "Sparkasse der Stadt Amstetten AG",
       "bank_codes": [
         "20202"
       ]
@@ -639,8 +639,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPBDAT21XXX",
-      "name": "SPARKASSE BADEN",
-      "short_name": "SPARKASSE BADEN",
+      "name": "Sparkasse Baden",
+      "short_name": "Sparkasse Baden",
       "bank_codes": [
         "20205",
         "20225"
@@ -650,8 +650,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPHBAT21XXX",
-      "name": "SPARKASSE HAINBURG-BRUCK-NEUSIEDL AKTIENGESELLSCHAFT",
-      "short_name": "SPARKASSE HAINBURG-BRUCK-NEUSIEDL AKTIENGESELLSCHAFT",
+      "name": "Sparkasse Hainburg-Bruck-Neusiedl Aktiengesellschaft",
+      "short_name": "Sparkasse Hainburg-Bruck-Neusiedl Aktiengesellschaft",
       "bank_codes": [
         "20216"
       ]
@@ -660,8 +660,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPHAAT21XXX",
-      "name": "SPARKASSE HAUGSDORF AG",
-      "short_name": "SPARKASSE HAUGSDORF AG",
+      "name": "Sparkasse Haugsdorf AG",
+      "short_name": "Sparkasse Haugsdorf AG",
       "bank_codes": [
         "20218"
       ]
@@ -670,8 +670,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPHEAT21XXX",
-      "name": "SPARKASSE HERZOGENBURG-NEULENGBACH BANK AKTIENGESELLSCHAFT",
-      "short_name": "SPARKASSE HERZOGENBURG-NEULENGBACH BANK AKTIENGESELLSCHAFT",
+      "name": "Sparkasse Herzogenburg-Neulengbach Bank Aktiengesellschaft",
+      "short_name": "Sparkasse Herzogenburg-Neulengbach Bank Aktiengesellschaft",
       "bank_codes": [
         "20219"
       ]
@@ -680,8 +680,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPHNAT21XXX",
-      "name": "SPARKASSE HORN-RAVELSBACH-KIRCHBERG AKTIENGESELLSCHAFT",
-      "short_name": "SPARKASSE HORN-RAVELSBACH-KIRCHBERG AKTIENGESELLSCHAFT",
+      "name": "Sparkasse Horn-Ravelsbach-Kirchberg Aktiengesellschaft",
+      "short_name": "Sparkasse Horn-Ravelsbach-Kirchberg Aktiengesellschaft",
       "bank_codes": [
         "20221"
       ]
@@ -690,8 +690,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SSKOAT21XXX",
-      "name": "SPARKASSE KORNEUBURG AG",
-      "short_name": "SPARKASSE KORNEUBURG AG",
+      "name": "Sparkasse Korneuburg AG",
+      "short_name": "Sparkasse Korneuburg AG",
       "bank_codes": [
         "20227"
       ]
@@ -710,8 +710,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPLSAT21XXX",
-      "name": "SPARKASSE LANGENLOIS",
-      "short_name": "SPARKASSE LANGENLOIS",
+      "name": "Sparkasse Langenlois",
+      "short_name": "Sparkasse Langenlois",
       "bank_codes": [
         "20230"
       ]
@@ -720,8 +720,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPNGAT21XXX",
-      "name": "SPARKASSE NEUNKIRCHEN",
-      "short_name": "SPARKASSE NEUNKIRCHEN",
+      "name": "Sparkasse Neunkirchen",
+      "short_name": "Sparkasse Neunkirchen",
       "bank_codes": [
         "20241"
       ]
@@ -730,8 +730,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPPOAT21XXX",
-      "name": "SPARKASSE POTTENSTEIN N.\u00d6.",
-      "short_name": "SPARKASSE POTTENSTEIN N.\u00d6.",
+      "name": "Sparkasse Pottenstein N.\u00d6.",
+      "short_name": "Sparkasse Pottenstein N.\u00d6.",
       "bank_codes": [
         "20245"
       ]
@@ -740,8 +740,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPPDAT21XXX",
-      "name": "SPARKASSE POYSDORF AG",
-      "short_name": "SPARKASSE POYSDORF AG",
+      "name": "Sparkasse Poysdorf AG",
+      "short_name": "Sparkasse Poysdorf AG",
       "bank_codes": [
         "20246"
       ]
@@ -760,8 +760,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPSBAT21XXX",
-      "name": "SPARKASSE SCHEIBBS AG",
-      "short_name": "SPARKASSE SCHEIBBS AG",
+      "name": "Sparkasse Scheibbs AG",
+      "short_name": "Sparkasse Scheibbs AG",
       "bank_codes": [
         "20257"
       ]
@@ -770,8 +770,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "SPZWAT21XXX",
-      "name": "WALDVIERTLER SPARKASSE BANK AG",
-      "short_name": "WALDVIERTLER SPARKASSE BANK AG",
+      "name": "Waldviertler Sparkasse Bank AG",
+      "short_name": "Waldviertler Sparkasse Bank AG",
       "bank_codes": [
         "20263",
         "20272"
@@ -781,8 +781,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "WINSATWNXXX",
-      "name": "WIENER NEUST\u00c4DTER SPARKASSE",
-      "short_name": "WIENER NEUST\u00c4DTER SPARKASSE",
+      "name": "Wiener Neust\u00e4dter Sparkasse",
+      "short_name": "Wiener Neust\u00e4dter Sparkasse",
       "bank_codes": [
         "20267"
       ]
@@ -801,8 +801,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SKBIAT21XXX",
-      "name": "SPARKASSE SALZKAMMERGUT AG",
-      "short_name": "SPARKASSE SALZKAMMERGUT AG",
+      "name": "Sparkasse Salzkammergut AG",
+      "short_name": "Sparkasse Salzkammergut AG",
       "bank_codes": [
         "20314"
       ]
@@ -811,8 +811,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPLAAT21XXX",
-      "name": "SPARKASSE LAMBACH BANK AKTIENGESELLSCHAFT",
-      "short_name": "SPARKASSE LAMBACH BANK AKTIENGESELLSCHAFT",
+      "name": "Sparkasse Lambach Bank Aktiengesellschaft",
+      "short_name": "Sparkasse Lambach Bank Aktiengesellschaft",
       "bank_codes": [
         "20317"
       ]
@@ -821,8 +821,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "ASPKAT2LXXX",
-      "name": "SPARKASSE OBER\u00d6STERREICH BANK AG",
-      "short_name": "SPARKASSE OBER\u00d6STERREICH BANK AG",
+      "name": "Sparkasse Ober\u00f6sterreich Bank AG",
+      "short_name": "Sparkasse Ober\u00f6sterreich Bank AG",
       "bank_codes": [
         "20320"
       ]
@@ -831,8 +831,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPNKAT21XXX",
-      "name": "SPARKASSE NEUHOFEN BANK AKTIENGESELLSCHAFT",
-      "short_name": "SPARKASSE NEUHOFEN BANK AKTIENGESELLSCHAFT",
+      "name": "Sparkasse Neuhofen Bank Aktiengesellschaft",
+      "short_name": "Sparkasse Neuhofen Bank Aktiengesellschaft",
       "bank_codes": [
         "20326"
       ]
@@ -841,8 +841,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPPBAT21XXX",
-      "name": "SPARKASSE EFERDING-PEUERBACH-WAIZENKIRCHEN",
-      "short_name": "SPARKASSE EFERDING-PEUERBACH-WAIZENKIRCHEN",
+      "name": "Sparkasse Eferding-Peuerbach-Waizenkirchen",
+      "short_name": "Sparkasse Eferding-Peuerbach-Waizenkirchen",
       "bank_codes": [
         "20330"
       ]
@@ -851,8 +851,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPPRAT21XXX",
-      "name": "SPARKASSE PREGARTEN - UNTERWEISSENBACH AG",
-      "short_name": "SPARKASSE PREGARTEN - UNTERWEISSENBACH AG",
+      "name": "Sparkasse Pregarten - Unterwei\u00dfenbach AG",
+      "short_name": "Sparkasse Pregarten - Unterwei\u00dfenbach AG",
       "bank_codes": [
         "20331"
       ]
@@ -861,8 +861,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPRHAT21XXX",
-      "name": "SPARKASSE RIED IM INNKREIS-HAAG AM HAUSRUCK",
-      "short_name": "SPARKASSE RIED IM INNKREIS-HAAG AM HAUSRUCK",
+      "name": "Sparkasse Ried im Innkreis-Haag am Hausruck",
+      "short_name": "Sparkasse Ried im Innkreis-Haag am Hausruck",
       "bank_codes": [
         "20333"
       ]
@@ -871,8 +871,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SMWRAT21XXX",
-      "name": "SPARKASSE M\u00dcHLVIERTEL-WEST BANK AKTIENGESELLSCHAFT",
-      "short_name": "SPARKASSE M\u00dcHLVIERTEL-WEST BANK AKTIENGESELLSCHAFT",
+      "name": "Sparkasse M\u00fchlviertel-West Bank Aktiengesellschaft",
+      "short_name": "Sparkasse M\u00fchlviertel-West Bank Aktiengesellschaft",
       "bank_codes": [
         "20334"
       ]
@@ -881,8 +881,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPMIAT21XXX",
-      "name": "SPARKASSE MITTERSILL BANK AG",
-      "short_name": "SPARKASSE MITTERSILL BANK AG",
+      "name": "Sparkasse Mittersill Bank AG",
+      "short_name": "Sparkasse Mittersill Bank AG",
       "bank_codes": [
         "20402"
       ]
@@ -891,8 +891,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "SBGSAT2SXXX",
-      "name": "ERSTE BANK DER OESTERREICHISCHEN SPARKASSEN AG",
-      "short_name": "ERSTE BANK DER OESTERREICHISCHEN SPARKASSEN AG",
+      "name": "Erste Bank der oesterreichischen Sparkassen AG",
+      "short_name": "Erste Bank der oesterreichischen Sparkassen AG",
       "bank_codes": [
         "20404"
       ]
@@ -901,8 +901,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPIMAT21XXX",
-      "name": "SPARKASSE IMST AG",
-      "short_name": "SPARKASSE IMST AG",
+      "name": "Sparkasse Imst AG",
+      "short_name": "Sparkasse Imst AG",
       "bank_codes": [
         "20502"
       ]
@@ -911,8 +911,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPIHAT22XXX",
-      "name": "TIROLER SPARKASSE BANKAKTIENGESELLSCHAFT INNSBRUCK",
-      "short_name": "TIROLER SPARKASSE BANKAKTIENGESELLSCHAFT INNSBRUCK",
+      "name": "Tiroler Sparkasse Bankaktiengesellschaft Innsbruck",
+      "short_name": "Tiroler Sparkasse Bankaktiengesellschaft Innsbruck",
       "bank_codes": [
         "20503"
       ]
@@ -921,8 +921,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPKIAT2KXXX",
-      "name": "SPARKASSE DER STADT KITZB\u00dcHEL",
-      "short_name": "SPARKASSE DER STADT KITZB\u00dcHEL",
+      "name": "Sparkasse der Stadt Kitzb\u00fchel",
+      "short_name": "Sparkasse der Stadt Kitzb\u00fchel",
       "bank_codes": [
         "20505"
       ]
@@ -931,8 +931,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPKUAT22XXX",
-      "name": "SPARKASSE KUFSTEIN TIROLER SPARKASSE VON 1877",
-      "short_name": "SPARKASSE KUFSTEIN TIROLER SPARKASSE VON 1877",
+      "name": "Sparkasse Kufstein Tiroler Sparkasse von 1877",
+      "short_name": "Sparkasse Kufstein Tiroler Sparkasse von 1877",
       "bank_codes": [
         "20506"
       ]
@@ -941,8 +941,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "LISPAT21XXX",
-      "name": "LIENZER SPARKASSE AG",
-      "short_name": "LIENZER SPARKASSE AG",
+      "name": "Lienzer Sparkasse AG",
+      "short_name": "Lienzer Sparkasse AG",
       "bank_codes": [
         "20507"
       ]
@@ -951,8 +951,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPRTAT21XXX",
-      "name": "SPARKASSE RATTENBERG BANK AG",
-      "short_name": "SPARKASSE RATTENBERG BANK AG",
+      "name": "Sparkasse Rattenberg Bank AG",
+      "short_name": "Sparkasse Rattenberg Bank AG",
       "bank_codes": [
         "20508"
       ]
@@ -961,8 +961,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPREAT21XXX",
-      "name": "SPARKASSE REUTTE AG",
-      "short_name": "SPARKASSE REUTTE AG",
+      "name": "Sparkasse Reutte AG",
+      "short_name": "Sparkasse Reutte AG",
       "bank_codes": [
         "20509"
       ]
@@ -971,8 +971,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPSCAT22XXX",
-      "name": "SPARKASSE SCHWAZ AG",
-      "short_name": "SPARKASSE SCHWAZ AG",
+      "name": "Sparkasse Schwaz AG",
+      "short_name": "Sparkasse Schwaz AG",
       "bank_codes": [
         "20510"
       ]
@@ -981,8 +981,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPBRAT2BXXX",
-      "name": "SPARKASSE BREGENZ BANK AKTIENGESELLSCHAFT",
-      "short_name": "SPARKASSE BREGENZ BANK AKTIENGESELLSCHAFT",
+      "name": "Sparkasse Bregenz Bank Aktiengesellschaft",
+      "short_name": "Sparkasse Bregenz Bank Aktiengesellschaft",
       "bank_codes": [
         "20601"
       ]
@@ -991,8 +991,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "DOSPAT2DXXX",
-      "name": "DORNBIRNER SPARKASSE BANK AG",
-      "short_name": "DORNBIRNER SPARKASSE BANK AG",
+      "name": "Dornbirner Sparkasse Bank AG",
+      "short_name": "Dornbirner Sparkasse Bank AG",
       "bank_codes": [
         "20602"
       ]
@@ -1001,8 +1001,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPEGAT21XXX",
-      "name": "SPARKASSE DER GEMEINDE EGG",
-      "short_name": "SPARKASSE DER GEMEINDE EGG",
+      "name": "Sparkasse der Gemeinde Egg",
+      "short_name": "Sparkasse der Gemeinde Egg",
       "bank_codes": [
         "20603"
       ]
@@ -1011,8 +1011,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPFKAT2BXXX",
-      "name": "SPARKASSE DER STADT FELDKIRCH",
-      "short_name": "SPARKASSE DER STADT FELDKIRCH",
+      "name": "Sparkasse der Stadt Feldkirch",
+      "short_name": "Sparkasse der Stadt Feldkirch",
       "bank_codes": [
         "20604"
       ]
@@ -1021,8 +1021,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SSBLAT21XXX",
-      "name": "SPARKASSE BLUDENZ BANK AG",
-      "short_name": "SPARKASSE BLUDENZ BANK AG",
+      "name": "Sparkasse Bludenz Bank AG",
+      "short_name": "Sparkasse Bludenz Bank AG",
       "bank_codes": [
         "20607"
       ]
@@ -1031,8 +1031,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPFNAT21XXX",
-      "name": "SPARKASSE FELDKIRCHEN/K\u00c4RNTEN",
-      "short_name": "SPARKASSE FELDKIRCHEN/K\u00c4RNTEN",
+      "name": "Sparkasse Feldkirchen/K\u00e4rnten",
+      "short_name": "Sparkasse Feldkirchen/K\u00e4rnten",
       "bank_codes": [
         "20702"
       ]
@@ -1041,8 +1041,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "KSPKAT2KXXX",
-      "name": "K\u00c4RNTNER SPARKASSE AKTIENGESELLSCHAFT",
-      "short_name": "K\u00c4RNTNER SPARKASSE AKTIENGESELLSCHAFT",
+      "name": "K\u00e4rntner Sparkasse Aktiengesellschaft",
+      "short_name": "K\u00e4rntner Sparkasse Aktiengesellschaft",
       "bank_codes": [
         "20706"
       ]
@@ -1051,8 +1051,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPMZAT21XXX",
-      "name": "SPARKASSE M\u00dcRZZUSCHLAG AKTIENGESELLSCHAFT",
-      "short_name": "SPARKASSE M\u00dcRZZUSCHLAG AKTIENGESELLSCHAFT",
+      "name": "Sparkasse M\u00fcrzzuschlag Aktiengesellschaft",
+      "short_name": "Sparkasse M\u00fcrzzuschlag Aktiengesellschaft",
       "bank_codes": [
         "20828"
       ]
@@ -1061,8 +1061,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPPLAT21XXX",
-      "name": "SPARKASSE P\u00d6LLAU AG",
-      "short_name": "SPARKASSE P\u00d6LLAU AG",
+      "name": "Sparkasse P\u00f6llau AG",
+      "short_name": "Sparkasse P\u00f6llau AG",
       "bank_codes": [
         "20833"
       ]
@@ -1071,8 +1071,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "SPVOAT21XXX",
-      "name": "SPARKASSE VOITSBERG-K\u00d6FLACH BANKAKTIENGESELLSCHAFT",
-      "short_name": "SPARKASSE VOITSBERG-K\u00d6FLACH BANKAKTIENGESELLSCHAFT",
+      "name": "Sparkasse Voitsberg-K\u00f6flach Bankaktiengesellschaft",
+      "short_name": "Sparkasse Voitsberg-K\u00f6flach Bankaktiengesellschaft",
       "bank_codes": [
         "20839"
       ]
@@ -1081,8 +1081,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "BAOSATWWXXX",
-      "name": "BAUSPARKASSE DER \u00d6STERREICHISCHEN SPARKASSEN AKTIENGESELLSCHAFT",
-      "short_name": "BAUSPARKASSE DER \u00d6STERREICHISCHEN SPARKASSEN AKTIENGESELLSCHAFT",
+      "name": "Bausparkasse der \u00f6sterreichischen Sparkassen Aktiengesellschaft",
+      "short_name": "Bausparkasse der \u00f6sterreichischen Sparkassen Aktiengesellschaft",
       "bank_codes": [
         "24012"
       ]
@@ -1091,8 +1091,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZBAATWWXXX",
-      "name": "RAIFFEISEN BANK INTERNATIONAL AG",
-      "short_name": "RAIFFEISEN BANK INTERNATIONAL AG",
+      "name": "Raiffeisen Bank International AG",
+      "short_name": "Raiffeisen Bank International AG",
       "bank_codes": [
         "30000",
         "31000"
@@ -1102,8 +1102,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RBSKATW1XXX",
-      "name": "RAIFFEISEN BAUSPARKASSE GESELLSCHAFT M.B.H.",
-      "short_name": "RAIFFEISEN BAUSPARKASSE GESELLSCHAFT M.B.H.",
+      "name": "Raiffeisen Bausparkasse Gesellschaft m.b.H.",
+      "short_name": "Raiffeisen Bausparkasse Gesellschaft m.b.H.",
       "bank_codes": [
         "31303"
       ]
@@ -1132,8 +1132,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATW1002",
-      "name": "RAIFFEISENBANK WAGRAM-SCHMIDATAL EGEN",
-      "short_name": "RAIFFEISENBANK WAGRAM-SCHMIDATAL EGEN",
+      "name": "Raiffeisenbank Wagram-Schmidatal eGen",
+      "short_name": "Raiffeisenbank Wagram-Schmidatal eGen",
       "bank_codes": [
         "32002",
         "32242",
@@ -1144,8 +1144,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWAMS",
-      "name": "RAIFFEISENBANK REGION AMSTETTEN EGEN",
-      "short_name": "RAIFFEISENBANK REGION AMSTETTEN EGEN",
+      "name": "Raiffeisenbank Region Amstetten eGen",
+      "short_name": "Raiffeisenbank Region Amstetten eGen",
       "bank_codes": [
         "32025",
         "32033",
@@ -1157,8 +1157,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLNWATWWWDF",
-      "name": "RAIFFEISENBANK WOLKERSDORF - AUERSTHAL EGEN",
-      "short_name": "RAIFFEISENBANK WOLKERSDORF - AUERSTHAL EGEN",
+      "name": "Raiffeisenbank Wolkersdorf - Auersthal eGen",
+      "short_name": "Raiffeisenbank Wolkersdorf - Auersthal eGen",
       "bank_codes": [
         "32039",
         "32951"
@@ -1168,8 +1168,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWBAD",
-      "name": "RAIFFEISENBANK REGION BADEN EGEN",
-      "short_name": "RAIFFEISENBANK REGION BADEN EGEN",
+      "name": "Raiffeisenbank Region Baden eGen",
+      "short_name": "Raiffeisenbank Region Baden eGen",
       "bank_codes": [
         "32045",
         "32118",
@@ -1181,8 +1181,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATW1059",
-      "name": "RAIFFEISENKASSE BLINDENMARKT EGEN",
-      "short_name": "RAIFFEISENKASSE BLINDENMARKT EGEN",
+      "name": "Raiffeisenkasse Blindenmarkt eGen",
+      "short_name": "Raiffeisenkasse Blindenmarkt eGen",
       "bank_codes": [
         "32059"
       ]
@@ -1191,8 +1191,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWBRL",
-      "name": "RAIFFEISENBANK BRUCK-CARNUNTUM EGEN",
-      "short_name": "RAIFFEISENBANK BRUCK-CARNUNTUM EGEN",
+      "name": "Raiffeisenbank Bruck-Carnuntum eGen",
+      "short_name": "Raiffeisenbank Bruck-Carnuntum eGen",
       "bank_codes": [
         "32073"
       ]
@@ -1201,8 +1201,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWGAE",
-      "name": "RAIFFEISEN-REGIONALBANK G\u00c4NSERNDORF EGEN",
-      "short_name": "RAIFFEISEN-REGIONALBANK G\u00c4NSERNDORF EGEN",
+      "name": "Raiffeisen-Regionalbank G\u00e4nserndorf eGen",
+      "short_name": "Raiffeisen-Regionalbank G\u00e4nserndorf eGen",
       "bank_codes": [
         "32092"
       ]
@@ -1211,8 +1211,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATW1099",
-      "name": "RAIFFEISENKASSE DOBERSBERG-WALDKIRCHEN EGEN",
-      "short_name": "RAIFFEISENKASSE DOBERSBERG-WALDKIRCHEN EGEN",
+      "name": "Raiffeisenkasse Dobersberg-Waldkirchen eGen",
+      "short_name": "Raiffeisenkasse Dobersberg-Waldkirchen eGen",
       "bank_codes": [
         "32099"
       ]
@@ -1221,8 +1221,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWW123",
-      "name": "RAIFFEISENBANK EGGENBURG EGEN",
-      "short_name": "RAIFFEISENBANK EGGENBURG EGEN",
+      "name": "Raiffeisenbank Eggenburg eGen",
+      "short_name": "Raiffeisenbank Eggenburg eGen",
       "bank_codes": [
         "32123"
       ]
@@ -1231,8 +1231,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLNWATWWWTH",
-      "name": "RAIFFEISENBANK IM THAYATAL EGEN",
-      "short_name": "RAIFFEISENBANK IM THAYATAL EGEN",
+      "name": "Raiffeisenbank im Thayatal eGen",
+      "short_name": "Raiffeisenbank im Thayatal eGen",
       "bank_codes": [
         "32127",
         "32904"
@@ -1242,8 +1242,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATW1145",
-      "name": "RAIFFEISENKASSE ERNSTBRUNN EGEN",
-      "short_name": "RAIFFEISENKASSE ERNSTBRUNN EGEN",
+      "name": "Raiffeisenkasse Ernstbrunn eGen",
+      "short_name": "Raiffeisenkasse Ernstbrunn eGen",
       "bank_codes": [
         "32145"
       ]
@@ -1252,8 +1252,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWASP",
-      "name": "RAIFFEISENBANK REGION WIENER ALPEN EGEN",
-      "short_name": "RAIFFEISENBANK REGION WIENER ALPEN EGEN",
+      "name": "Raiffeisenbank Region Wiener Alpen eGen",
+      "short_name": "Raiffeisenbank Region Wiener Alpen eGen",
       "bank_codes": [
         "32195",
         "32374",
@@ -1266,8 +1266,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLNWATW1322",
-      "name": "RAIFFEISENBANK HOLLABRUNN EGEN",
-      "short_name": "RAIFFEISENBANK HOLLABRUNN EGEN",
+      "name": "Raiffeisenbank Hollabrunn eGen",
+      "short_name": "Raiffeisenbank Hollabrunn eGen",
       "bank_codes": [
         "32198",
         "32322",
@@ -1278,8 +1278,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLNWATWWZDF",
-      "name": "RAIFFEISENBANK WEINVIERTEL NORDOST EGEN",
-      "short_name": "RAIFFEISENBANK WEINVIERTEL NORDOST EGEN",
+      "name": "Raiffeisenbank Weinviertel Nordost eGen",
+      "short_name": "Raiffeisenbank Weinviertel Nordost eGen",
       "bank_codes": [
         "32227",
         "32985"
@@ -1289,8 +1289,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWGTD",
-      "name": "RAIFFEISEN REGIONALBANK M\u00d6DLING EGEN",
-      "short_name": "RAIFFEISEN REGIONALBANK M\u00d6DLING EGEN",
+      "name": "Raiffeisen Regionalbank M\u00f6dling eGen",
+      "short_name": "Raiffeisen Regionalbank M\u00f6dling eGen",
       "bank_codes": [
         "32250",
         "32633"
@@ -1300,8 +1300,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATW1275",
-      "name": "RAIFFEISENBANK SEEFELD-HADRES EGEN",
-      "short_name": "RAIFFEISENBANK SEEFELD-HADRES EGEN",
+      "name": "Raiffeisenbank Seefeld-Hadres eGen",
+      "short_name": "Raiffeisenbank Seefeld-Hadres eGen",
       "bank_codes": [
         "32275"
       ]
@@ -1310,8 +1310,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWW278",
-      "name": "RAIFFEISENKASSE HAIDERSHOFEN EGEN",
-      "short_name": "RAIFFEISENKASSE HAIDERSHOFEN EGEN",
+      "name": "Raiffeisenkasse Haidershofen eGen",
+      "short_name": "Raiffeisenkasse Haidershofen eGen",
       "bank_codes": [
         "32278"
       ]
@@ -1320,8 +1320,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATW1286",
-      "name": "RAIFFEISENKASSE HEILIGENEICH EGEN",
-      "short_name": "RAIFFEISENKASSE HEILIGENEICH EGEN",
+      "name": "Raiffeisenkasse Heiligeneich eGen",
+      "short_name": "Raiffeisenkasse Heiligeneich eGen",
       "bank_codes": [
         "32286"
       ]
@@ -1330,8 +1330,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLNWATWWOBG",
-      "name": "RAIFFEISENBANK REGION ST. P\u00d6LTEN EGEN",
-      "short_name": "RAIFFEISENBANK REGION ST. P\u00d6LTEN EGEN",
+      "name": "Raiffeisenbank Region St. P\u00f6lten eGen",
+      "short_name": "Raiffeisenbank Region St. P\u00f6lten eGen",
       "bank_codes": [
         "32356",
         "32585",
@@ -1342,8 +1342,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLNWATW1880",
-      "name": "RAIFFEISENBANK TULLN-KLOSTERNEUBURG EGEN",
-      "short_name": "RAIFFEISENBANK TULLN-KLOSTERNEUBURG EGEN",
+      "name": "Raiffeisenbank Tulln-Klosterneuburg eGen",
+      "short_name": "Raiffeisenbank Tulln-Klosterneuburg eGen",
       "bank_codes": [
         "32367",
         "32497",
@@ -1354,8 +1354,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLNWATW1477",
-      "name": "RAIFFEISENBANK REGION SCHALLABURG EGEN",
-      "short_name": "RAIFFEISENBANK REGION SCHALLABURG EGEN",
+      "name": "Raiffeisenbank Region Schallaburg eGen",
+      "short_name": "Raiffeisenbank Region Schallaburg eGen",
       "bank_codes": [
         "32368",
         "32455",
@@ -1367,8 +1367,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWKOR",
-      "name": "RAIFFEISENBANK KORNEUBURG EGEN",
-      "short_name": "RAIFFEISENBANK KORNEUBURG EGEN",
+      "name": "Raiffeisenbank Korneuburg eGen",
+      "short_name": "Raiffeisenbank Korneuburg eGen",
       "bank_codes": [
         "32395"
       ]
@@ -1377,8 +1377,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWKRE",
-      "name": "RAIFFEISENBANK KREMS EGEN",
-      "short_name": "RAIFFEISENBANK KREMS EGEN",
+      "name": "Raiffeisenbank Krems eGen",
+      "short_name": "Raiffeisenbank Krems eGen",
       "bank_codes": [
         "32397"
       ]
@@ -1387,8 +1387,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWLAA",
-      "name": "RAIFFEISENBANK LAA/THAYA EGEN",
-      "short_name": "RAIFFEISENBANK LAA/THAYA EGEN",
+      "name": "Raiffeisenbank Laa/Thaya eGen",
+      "short_name": "Raiffeisenbank Laa/Thaya eGen",
       "bank_codes": [
         "32413"
       ]
@@ -1397,8 +1397,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLNWATWWPRB",
-      "name": "RAIFFEISENBANK WIENERWALD EGEN",
-      "short_name": "RAIFFEISENBANK WIENERWALD EGEN",
+      "name": "Raiffeisenbank Wienerwald eGen",
+      "short_name": "Raiffeisenbank Wienerwald eGen",
       "bank_codes": [
         "32414",
         "32667"
@@ -1408,8 +1408,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWOWS",
-      "name": "RAIFFEISENBANK OBERES WALDVIERTEL EGEN",
-      "short_name": "RAIFFEISENBANK OBERES WALDVIERTEL EGEN",
+      "name": "Raiffeisenbank Oberes Waldviertel eGen",
+      "short_name": "Raiffeisenbank Oberes Waldviertel eGen",
       "bank_codes": [
         "32415",
         "32936"
@@ -1419,8 +1419,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWW426",
-      "name": "RAIFFEISENBANK LANGENLOIS EGEN",
-      "short_name": "RAIFFEISENBANK LANGENLOIS EGEN",
+      "name": "Raiffeisenbank Langenlois eGen",
+      "short_name": "Raiffeisenbank Langenlois eGen",
       "bank_codes": [
         "32426"
       ]
@@ -1429,8 +1429,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATW1438",
-      "name": "RAIFFEISENBANK KREUZENSTEIN EGEN",
-      "short_name": "RAIFFEISENBANK KREUZENSTEIN EGEN",
+      "name": "Raiffeisenbank Kreuzenstein eGen",
+      "short_name": "Raiffeisenbank Kreuzenstein eGen",
       "bank_codes": [
         "32438",
         "32731"
@@ -1440,8 +1440,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWLFD",
-      "name": "RAIFFEISENBANK TRAISEN-G\u00d6LSENTAL EGEN",
-      "short_name": "RAIFFEISENBANK TRAISEN-G\u00d6LSENTAL EGEN",
+      "name": "Raiffeisenbank Traisen-G\u00f6lsental eGen",
+      "short_name": "Raiffeisenbank Traisen-G\u00f6lsental eGen",
       "bank_codes": [
         "32447",
         "32944"
@@ -1451,8 +1451,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWMIB",
-      "name": "RAIFFEISENBANK IM WEINVIERTEL EGEN",
-      "short_name": "RAIFFEISENBANK IM WEINVIERTEL EGEN",
+      "name": "Raiffeisenbank im Weinviertel eGen",
+      "short_name": "Raiffeisenbank im Weinviertel eGen",
       "bank_codes": [
         "32501",
         "32663"
@@ -1462,8 +1462,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWNSD",
-      "name": "RAIFFEISENKASSE NEUSIEDL A.D.ZAYA EGEN",
-      "short_name": "RAIFFEISENKASSE NEUSIEDL A.D.ZAYA EGEN",
+      "name": "Raiffeisenkasse Neusiedl a.d.Zaya eGen",
+      "short_name": "Raiffeisenkasse Neusiedl a.d.Zaya eGen",
       "bank_codes": [
         "32551"
       ]
@@ -1472,8 +1472,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATW1589",
-      "name": "RAIFFEISENBANK GROSS GERUNGS EGEN",
-      "short_name": "RAIFFEISENBANK GROSS GERUNGS EGEN",
+      "name": "Raiffeisenbank Gross Gerungs eGen",
+      "short_name": "Raiffeisenbank Gross Gerungs eGen",
       "bank_codes": [
         "32589"
       ]
@@ -1482,8 +1482,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWODO",
-      "name": "RAIFFEISENKASSE ORTH A.D. DONAU EGEN",
-      "short_name": "RAIFFEISENKASSE ORTH A.D. DONAU EGEN",
+      "name": "Raiffeisenkasse Orth a.d. Donau eGen",
+      "short_name": "Raiffeisenkasse Orth a.d. Donau eGen",
       "bank_codes": [
         "32614"
       ]
@@ -1492,8 +1492,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLNWATWWZWE",
-      "name": "RAIFFEISENBANK REGION WALDVIERTEL MITTE EGEN",
-      "short_name": "RAIFFEISENBANK REGION WALDVIERTEL MITTE EGEN",
+      "name": "Raiffeisenbank Region Waldviertel Mitte eGen",
+      "short_name": "Raiffeisenbank Region Waldviertel Mitte eGen",
       "bank_codes": [
         "32615",
         "32990"
@@ -1503,8 +1503,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLNWATWWWRN",
-      "name": "RAIFFEISENBANK WR. NEUSTADT-SCHNEEBERGLAND EGEN",
-      "short_name": "RAIFFEISENBANK WR. NEUSTADT-SCHNEEBERGLAND EGEN",
+      "name": "Raiffeisenbank Wr. Neustadt-Schneebergland eGen",
+      "short_name": "Raiffeisenbank Wr. Neustadt-Schneebergland eGen",
       "bank_codes": [
         "32642",
         "32865",
@@ -1516,8 +1516,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLNWATWW939",
-      "name": "RAIFFEISENBANK MITTLERES MOSTVIERTEL EGEN",
-      "short_name": "RAIFFEISENBANK MITTLERES MOSTVIERTEL EGEN",
+      "name": "Raiffeisenbank Mittleres Mostviertel eGen",
+      "short_name": "Raiffeisenbank Mittleres Mostviertel eGen",
       "bank_codes": [
         "32651",
         "32939"
@@ -1527,8 +1527,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATW1715",
-      "name": "RAIFFEISENKASSE RETZ-PULKAUTAL EGEN",
-      "short_name": "RAIFFEISENKASSE RETZ-PULKAUTAL EGEN",
+      "name": "Raiffeisenkasse Retz-Pulkautal eGen",
+      "short_name": "Raiffeisenkasse Retz-Pulkautal eGen",
       "bank_codes": [
         "32715"
       ]
@@ -1537,8 +1537,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWW823",
-      "name": "RAIFFEISENBANK REGION SCHWECHAT EGEN",
-      "short_name": "RAIFFEISENBANK REGION SCHWECHAT EGEN",
+      "name": "Raiffeisenbank Region Schwechat eGen",
+      "short_name": "Raiffeisenbank Region Schwechat eGen",
       "bank_codes": [
         "32823"
       ]
@@ -1547,8 +1547,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWSTO",
-      "name": "RAIFFEISENBANK STOCKERAU EGEN",
-      "short_name": "RAIFFEISENBANK STOCKERAU EGEN",
+      "name": "Raiffeisenbank Stockerau eGen",
+      "short_name": "Raiffeisenbank Stockerau eGen",
       "bank_codes": [
         "32842"
       ]
@@ -1557,8 +1557,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATW1901",
-      "name": "RAIFFEISENBANK VITIS EGEN",
-      "short_name": "RAIFFEISENBANK VITIS EGEN",
+      "name": "Raiffeisenbank Vitis eGen",
+      "short_name": "Raiffeisenbank Vitis eGen",
       "bank_codes": [
         "32901"
       ]
@@ -1567,8 +1567,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLNWATWWWHY",
-      "name": "RAIFFEISENBANK YBBSTAL EGEN",
-      "short_name": "RAIFFEISENBANK YBBSTAL EGEN",
+      "name": "Raiffeisenbank Ybbstal eGen",
+      "short_name": "Raiffeisenbank Ybbstal eGen",
       "bank_codes": [
         "32906"
       ]
@@ -1577,8 +1577,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLBBAT2EXXX",
-      "name": "RAIFFEISENLANDESBANK BURGENLAND UND REVISIONSVERBAND EGEN",
-      "short_name": "RAIFFEISENLANDESBANK BURGENLAND UND REVISIONSVERBAND EGEN",
+      "name": "Raiffeisenlandesbank Burgenland und Revisionsverband eGen",
+      "short_name": "Raiffeisenlandesbank Burgenland und Revisionsverband eGen",
       "bank_codes": [
         "33000",
         "33035",
@@ -1589,8 +1589,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLBBAT2E038",
-      "name": "RAIFFEISEN BEZIRKSBANK NEUSIEDL OST EGEN",
-      "short_name": "RAIFFEISEN BEZIRKSBANK NEUSIEDL OST EGEN",
+      "name": "Raiffeisen Bezirksbank Neusiedl Ost eGen",
+      "short_name": "Raiffeisen Bezirksbank Neusiedl Ost eGen",
       "bank_codes": [
         "33002",
         "33004",
@@ -1609,8 +1609,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLBBAT2E010",
-      "name": "RAIFFEISENBANK REGION DEUTSCHKREUTZ-HORITSCHON EGEN",
-      "short_name": "RAIFFEISENBANK REGION DEUTSCHKREUTZ-HORITSCHON EGEN",
+      "name": "Raiffeisenbank Region Deutschkreutz-Horitschon eGen",
+      "short_name": "Raiffeisenbank Region Deutschkreutz-Horitschon eGen",
       "bank_codes": [
         "33010",
         "33031",
@@ -1622,8 +1622,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLBBAT2E012",
-      "name": "RAIFFEISENBANK NEUSIEDLERSEE-H\u00dcGELLAND EGEN",
-      "short_name": "RAIFFEISENBANK NEUSIEDLERSEE-H\u00dcGELLAND EGEN",
+      "name": "Raiffeisenbank Neusiedlersee-H\u00fcgelland eGen",
+      "short_name": "Raiffeisenbank Neusiedlersee-H\u00fcgelland eGen",
       "bank_codes": [
         "33012",
         "33055",
@@ -1635,8 +1635,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLBBAT2E014",
-      "name": "RAIFFEISENBANK DRASSMARKT-KOBERSDORF-ST. MARTIN EGEN",
-      "short_name": "RAIFFEISENBANK DRASSMARKT-KOBERSDORF-ST. MARTIN EGEN",
+      "name": "Raiffeisenbank Dra\u00dfmarkt-Kobersdorf-St. Martin eGen",
+      "short_name": "Raiffeisenbank Dra\u00dfmarkt-Kobersdorf-St. Martin eGen",
       "bank_codes": [
         "33014"
       ]
@@ -1645,8 +1645,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLBBAT2E027",
-      "name": "RAIFFEISEN REGIONALBANK G\u00dcSSING-JENNERSDORF EGEN",
-      "short_name": "RAIFFEISEN REGIONALBANK G\u00dcSSING-JENNERSDORF EGEN",
+      "name": "Raiffeisen Regionalbank G\u00fcssing-Jennersdorf eGen",
+      "short_name": "Raiffeisen Regionalbank G\u00fcssing-Jennersdorf eGen",
       "bank_codes": [
         "33027",
         "33034",
@@ -1657,8 +1657,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLBBAT2E065",
-      "name": "RAIFFEISENBANK BURGENLAND MITTE EGEN",
-      "short_name": "RAIFFEISENBANK BURGENLAND MITTE EGEN",
+      "name": "Raiffeisenbank Burgenland Mitte eGen",
+      "short_name": "Raiffeisenbank Burgenland Mitte eGen",
       "bank_codes": [
         "33046",
         "33065",
@@ -1669,8 +1669,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLBBAT2E116",
-      "name": "RAIFFEISENBANK FRAUENKIRCHEN-M\u00d6NCHHOF-PODERSDORF AM SEE EGEN",
-      "short_name": "RAIFFEISENBANK FRAUENKIRCHEN-M\u00d6NCHHOF-PODERSDORF AM SEE EGEN",
+      "name": "Raiffeisenbank Frauenkirchen-M\u00f6nchhof-Podersdorf am See eGen",
+      "short_name": "Raiffeisenbank Frauenkirchen-M\u00f6nchhof-Podersdorf am See eGen",
       "bank_codes": [
         "33054",
         "33074",
@@ -1681,8 +1681,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RLBBAT2E125",
-      "name": "RAIFFEISENBEZIRKSBANK OBERWART EGEN",
-      "short_name": "RAIFFEISENBEZIRKSBANK OBERWART EGEN",
+      "name": "Raiffeisenbezirksbank Oberwart eGen",
+      "short_name": "Raiffeisenbezirksbank Oberwart eGen",
       "bank_codes": [
         "33067",
         "33125"
@@ -1692,8 +1692,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLBBAT2E072",
-      "name": "RAIFFEISENBANK REGION PARNDORF - WEIDEN AM SEE EGEN",
-      "short_name": "RAIFFEISENBANK REGION PARNDORF - WEIDEN AM SEE EGEN",
+      "name": "Raiffeisenbank Region Parndorf - Weiden am See eGen",
+      "short_name": "Raiffeisenbank Region Parndorf - Weiden am See eGen",
       "bank_codes": [
         "33072",
         "33106"
@@ -1703,8 +1703,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RLBBAT2E078",
-      "name": "RAIFFEISENBANK PURBACH EGEN",
-      "short_name": "RAIFFEISENBANK PURBACH EGEN",
+      "name": "Raiffeisenbank Purbach eGen",
+      "short_name": "Raiffeisenbank Purbach eGen",
       "bank_codes": [
         "33078"
       ]
@@ -1713,8 +1713,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2LXXX",
-      "name": "RAIFFEISENLANDESBANK OBER\u00d6STERREICH AKTIENGESELLSCHAFT",
-      "short_name": "RAIFFEISENLANDESBANK OBER\u00d6STERREICH AKTIENGESELLSCHAFT",
+      "name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
+      "short_name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
       "bank_codes": [
         "34000",
         "34796",
@@ -1730,8 +1730,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L016",
-      "name": "RAIFFEISENBANK ASPACH-WILDENAU EGEN",
-      "short_name": "RAIFFEISENBANK ASPACH-WILDENAU EGEN",
+      "name": "Raiffeisenbank Aspach-Wildenau eGen",
+      "short_name": "Raiffeisenbank Aspach-Wildenau eGen",
       "bank_codes": [
         "34016"
       ]
@@ -1740,8 +1740,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L030",
-      "name": "RAIFFEISENBANK REGION ALTHEIM EGEN",
-      "short_name": "RAIFFEISENBANK REGION ALTHEIM EGEN",
+      "name": "Raiffeisenbank Region Altheim eGen",
+      "short_name": "Raiffeisenbank Region Altheim eGen",
       "bank_codes": [
         "34030"
       ]
@@ -1750,8 +1750,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L060",
-      "name": "RAIFFEISENBANK REGION BRAUNAU EGEN",
-      "short_name": "RAIFFEISENBANK REGION BRAUNAU EGEN",
+      "name": "Raiffeisenbank Region Braunau eGen",
+      "short_name": "Raiffeisenbank Region Braunau eGen",
       "bank_codes": [
         "34060",
         "34661"
@@ -1761,8 +1761,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L068",
-      "name": "RAIFFEISENBANK GREIN EGEN",
-      "short_name": "RAIFFEISENBANK GREIN EGEN",
+      "name": "Raiffeisenbank Grein eGen",
+      "short_name": "Raiffeisenbank Grein eGen",
       "bank_codes": [
         "34068"
       ]
@@ -1771,8 +1771,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L075",
-      "name": "RAIFFEISENBANK DONAU-AMEISBERG EGEN",
-      "short_name": "RAIFFEISENBANK DONAU-AMEISBERG EGEN",
+      "name": "Raiffeisenbank Donau-Ameisberg eGen",
+      "short_name": "Raiffeisenbank Donau-Ameisberg eGen",
       "bank_codes": [
         "34075"
       ]
@@ -1781,8 +1781,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L080",
-      "name": "RAIFFEISENBANK ENNSTAL EGEN",
-      "short_name": "RAIFFEISENBANK ENNSTAL EGEN",
+      "name": "Raiffeisenbank Ennstal eGen",
+      "short_name": "Raiffeisenbank Ennstal eGen",
       "bank_codes": [
         "34080",
         "34126"
@@ -1792,8 +1792,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L081",
-      "name": "RAIFFEISENBANK EBERSCHWANG-PRAMET EGEN",
-      "short_name": "RAIFFEISENBANK EBERSCHWANG-PRAMET EGEN",
+      "name": "Raiffeisenbank Eberschwang-Pramet eGen",
+      "short_name": "Raiffeisenbank Eberschwang-Pramet eGen",
       "bank_codes": [
         "34081",
         "34438"
@@ -1803,8 +1803,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L083",
-      "name": "RAIFFEISENBANK REGION TRAUN-ALM EGEN",
-      "short_name": "RAIFFEISENBANK REGION TRAUN-ALM EGEN",
+      "name": "Raiffeisenbank Region Traun-Alm eGen",
+      "short_name": "Raiffeisenbank Region Traun-Alm eGen",
       "bank_codes": [
         "34083",
         "34750"
@@ -1814,8 +1814,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L100",
-      "name": "RAIFFEISENBANK FELDKIRCHEN-GOLDW\u00d6RTH EGEN",
-      "short_name": "RAIFFEISENBANK FELDKIRCHEN-GOLDW\u00d6RTH EGEN",
+      "name": "Raiffeisenbank Feldkirchen-Goldw\u00f6rth eGen",
+      "short_name": "Raiffeisenbank Feldkirchen-Goldw\u00f6rth eGen",
       "bank_codes": [
         "34100"
       ]
@@ -1824,8 +1824,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L110",
-      "name": "RAIFFEISENBANK REGION FREISTADT EGEN",
-      "short_name": "RAIFFEISENBANK REGION FREISTADT EGEN",
+      "name": "Raiffeisenbank Region Freistadt eGen",
+      "short_name": "Raiffeisenbank Region Freistadt eGen",
       "bank_codes": [
         "34110"
       ]
@@ -1834,8 +1834,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L111",
-      "name": "RAIFFEISENBANK REGION GALLNEUKIRCHEN EGEN",
-      "short_name": "RAIFFEISENBANK REGION GALLNEUKIRCHEN EGEN",
+      "name": "Raiffeisenbank Region Gallneukirchen eGen",
+      "short_name": "Raiffeisenbank Region Gallneukirchen eGen",
       "bank_codes": [
         "34111",
         "34161",
@@ -1846,8 +1846,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L113",
-      "name": "RAIFFEISENBANK GAMPERN EGEN",
-      "short_name": "RAIFFEISENBANK GAMPERN EGEN",
+      "name": "Raiffeisenbank Gampern eGen",
+      "short_name": "Raiffeisenbank Gampern eGen",
       "bank_codes": [
         "34113"
       ]
@@ -1856,8 +1856,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L114",
-      "name": "RAIFFEISENBANK STEYR EGEN",
-      "short_name": "RAIFFEISENBANK STEYR EGEN",
+      "name": "Raiffeisenbank Steyr eGen",
+      "short_name": "Raiffeisenbank Steyr eGen",
       "bank_codes": [
         "34114",
         "34543"
@@ -1867,8 +1867,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L118",
-      "name": "RAIFFEISENBANK GERETSBERG EGEN",
-      "short_name": "RAIFFEISENBANK GERETSBERG EGEN",
+      "name": "Raiffeisenbank Geretsberg eGen",
+      "short_name": "Raiffeisenbank Geretsberg eGen",
       "bank_codes": [
         "34118"
       ]
@@ -1877,8 +1877,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L127",
-      "name": "RAIFFEISENBANK ALMTAL EGEN",
-      "short_name": "RAIFFEISENBANK ALMTAL EGEN",
+      "name": "Raiffeisenbank Almtal eGen",
+      "short_name": "Raiffeisenbank Almtal eGen",
       "bank_codes": [
         "34127"
       ]
@@ -1887,8 +1887,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L129",
-      "name": "RAIFFEISENBANK GUNSKIRCHEN EGEN",
-      "short_name": "RAIFFEISENBANK GUNSKIRCHEN EGEN",
+      "name": "Raiffeisenbank Gunskirchen eGen",
+      "short_name": "Raiffeisenbank Gunskirchen eGen",
       "bank_codes": [
         "34129",
         "34430"
@@ -1898,8 +1898,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L135",
-      "name": "RAIFFEISENBANK GRAMASTETTEN RODLTAL EGEN",
-      "short_name": "RAIFFEISENBANK GRAMASTETTEN RODLTAL EGEN",
+      "name": "Raiffeisenbank Gramastetten Rodltal eGen",
+      "short_name": "Raiffeisenbank Gramastetten Rodltal eGen",
       "bank_codes": [
         "34135",
         "34383"
@@ -1909,8 +1909,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L155",
-      "name": "RAIFFEISENBANK HANDENBERG - ST. GEORGEN A. F. EGEN",
-      "short_name": "RAIFFEISENBANK HANDENBERG - ST. GEORGEN A. F. EGEN",
+      "name": "Raiffeisenbank Handenberg - St. Georgen a. F. eGen",
+      "short_name": "Raiffeisenbank Handenberg - St. Georgen a. F. eGen",
       "bank_codes": [
         "34155"
       ]
@@ -1919,8 +1919,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZOOAT2L560",
-      "name": "RAIFFEISENBANK REGION SIERNING-ENNS EGEN",
-      "short_name": "RAIFFEISENBANK REGION SIERNING-ENNS EGEN",
+      "name": "Raiffeisenbank Region Sierning-Enns eGen",
+      "short_name": "Raiffeisenbank Region Sierning-Enns eGen",
       "bank_codes": [
         "34157",
         "34560"
@@ -1930,8 +1930,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZOOAT2L410",
-      "name": "RAIFFEISENBANK REGION ROHRBACH EGEN",
-      "short_name": "RAIFFEISENBANK REGION ROHRBACH EGEN",
+      "name": "Raiffeisenbank Region Rohrbach eGen",
+      "short_name": "Raiffeisenbank Region Rohrbach eGen",
       "bank_codes": [
         "34160",
         "34410"
@@ -1941,8 +1941,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZOOAT2L491",
-      "name": "RAIFFEISENBANK PYHRN-PRIEL EGEN",
-      "short_name": "RAIFFEISENBANK PYHRN-PRIEL EGEN",
+      "name": "Raiffeisenbank Pyhrn-Priel eGen",
+      "short_name": "Raiffeisenbank Pyhrn-Priel eGen",
       "bank_codes": [
         "34165",
         "34491"
@@ -1952,8 +1952,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZOOAT2L276",
-      "name": "RAIFFEISENBANK LINZ-LAND WEST EGEN",
-      "short_name": "RAIFFEISENBANK LINZ-LAND WEST EGEN",
+      "name": "Raiffeisenbank Linz-Land West eGen",
+      "short_name": "Raiffeisenbank Linz-Land West eGen",
       "bank_codes": [
         "34170",
         "34276"
@@ -1963,8 +1963,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L180",
-      "name": "RAIFFEISENBANK REGION EFERDING EGEN",
-      "short_name": "RAIFFEISENBANK REGION EFERDING EGEN",
+      "name": "Raiffeisenbank Region Eferding eGen",
+      "short_name": "Raiffeisenbank Region Eferding eGen",
       "bank_codes": [
         "34180"
       ]
@@ -1973,8 +1973,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L200",
-      "name": "RAIFFEISENBANK INNKREIS MITTE EGEN",
-      "short_name": "RAIFFEISENBANK INNKREIS MITTE EGEN",
+      "name": "Raiffeisenbank Innkreis Mitte eGen",
+      "short_name": "Raiffeisenbank Innkreis Mitte eGen",
       "bank_codes": [
         "34200"
       ]
@@ -1983,8 +1983,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L214",
-      "name": "RAIFFEISENBANK KEMATEN-NEUHOFEN EGEN",
-      "short_name": "RAIFFEISENBANK KEMATEN-NEUHOFEN EGEN",
+      "name": "Raiffeisenbank Kematen-Neuhofen eGen",
+      "short_name": "Raiffeisenbank Kematen-Neuhofen eGen",
       "bank_codes": [
         "34214"
       ]
@@ -1993,8 +1993,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L226",
-      "name": "RAIFFEISENBANK KLEINM\u00dcNCHEN/LINZ EGEN",
-      "short_name": "RAIFFEISENBANK KLEINM\u00dcNCHEN/LINZ EGEN",
+      "name": "Raiffeisenbank Kleinm\u00fcnchen/Linz eGen",
+      "short_name": "Raiffeisenbank Kleinm\u00fcnchen/Linz eGen",
       "bank_codes": [
         "34226"
       ]
@@ -2003,8 +2003,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L231",
-      "name": "RAIFFEISENBANK KOLLERSCHLAG EGEN",
-      "short_name": "RAIFFEISENBANK KOLLERSCHLAG EGEN",
+      "name": "Raiffeisenbank Kollerschlag eGen",
+      "short_name": "Raiffeisenbank Kollerschlag eGen",
       "bank_codes": [
         "34231"
       ]
@@ -2013,8 +2013,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZOOAT2L380",
-      "name": "RAIFFEISENBANK REGION KIRCHDORF EGEN",
-      "short_name": "RAIFFEISENBANK REGION KIRCHDORF EGEN",
+      "name": "Raiffeisenbank Region Kirchdorf eGen",
+      "short_name": "Raiffeisenbank Region Kirchdorf eGen",
       "bank_codes": [
         "34233",
         "34318",
@@ -2030,8 +2030,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZOOAT2L680",
-      "name": "RAIFFEISENBANK WELS EGEN",
-      "short_name": "RAIFFEISENBANK WELS EGEN",
+      "name": "Raiffeisenbank Wels eGen",
+      "short_name": "Raiffeisenbank Wels eGen",
       "bank_codes": [
         "34234",
         "34680"
@@ -2041,8 +2041,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L250",
-      "name": "RAIFFEISENBANK REGION HAUSRUCK EGEN",
-      "short_name": "RAIFFEISENBANK REGION HAUSRUCK EGEN",
+      "name": "Raiffeisenbank Region Hausruck eGen",
+      "short_name": "Raiffeisenbank Region Hausruck eGen",
       "bank_codes": [
         "34250"
       ]
@@ -2051,8 +2051,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L277",
-      "name": "RAIFFEISENBANK REGION BAD LEONFELDEN EGEN",
-      "short_name": "RAIFFEISENBANK REGION BAD LEONFELDEN EGEN",
+      "name": "Raiffeisenbank Region Bad Leonfelden eGen",
+      "short_name": "Raiffeisenbank Region Bad Leonfelden eGen",
       "bank_codes": [
         "34277"
       ]
@@ -2061,8 +2061,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZOOAT2L450",
-      "name": "RAIFFEISENBANK REGION RIED I.I. EGEN",
-      "short_name": "RAIFFEISENBANK REGION RIED I.I. EGEN",
+      "name": "Raiffeisenbank Region Ried i.I. eGen",
+      "short_name": "Raiffeisenbank Region Ried i.I. eGen",
       "bank_codes": [
         "34284",
         "34450",
@@ -2073,8 +2073,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L290",
-      "name": "RAIFFEISENBANK LOCHEN AM SEE EGEN",
-      "short_name": "RAIFFEISENBANK LOCHEN AM SEE EGEN",
+      "name": "Raiffeisenbank Lochen am See eGen",
+      "short_name": "Raiffeisenbank Lochen am See eGen",
       "bank_codes": [
         "34290"
       ]
@@ -2083,8 +2083,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L300",
-      "name": "RAIFFEISENBANK REGION NEUFELDEN EGEN",
-      "short_name": "RAIFFEISENBANK REGION NEUFELDEN EGEN",
+      "name": "Raiffeisenbank Region Neufelden eGen",
+      "short_name": "Raiffeisenbank Region Neufelden eGen",
       "bank_codes": [
         "34300",
         "34361",
@@ -2095,8 +2095,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L303",
-      "name": "RAIFFEISENBANK MATTIGTAL EGEN",
-      "short_name": "RAIFFEISENBANK MATTIGTAL EGEN",
+      "name": "Raiffeisenbank Mattigtal eGen",
+      "short_name": "Raiffeisenbank Mattigtal eGen",
       "bank_codes": [
         "34303"
       ]
@@ -2105,8 +2105,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L312",
-      "name": "RAIFFEISENBANK MARIA SCHMOLLN-ST. JOHANN EGEN",
-      "short_name": "RAIFFEISENBANK MARIA SCHMOLLN-ST. JOHANN EGEN",
+      "name": "Raiffeisenbank Maria Schmolln-St. Johann eGen",
+      "short_name": "Raiffeisenbank Maria Schmolln-St. Johann eGen",
       "bank_codes": [
         "34312"
       ]
@@ -2115,8 +2115,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZOOAT2L736",
-      "name": "RAIFFEISENBANK REGION GRIESKIRCHEN EGEN",
-      "short_name": "RAIFFEISENBANK REGION GRIESKIRCHEN EGEN",
+      "name": "Raiffeisenbank Region Grieskirchen eGen",
+      "short_name": "Raiffeisenbank Region Grieskirchen eGen",
       "bank_codes": [
         "34313",
         "34736"
@@ -2126,8 +2126,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L322",
-      "name": "RAIFFEISENBANK MONDSEELAND EGEN",
-      "short_name": "RAIFFEISENBANK MONDSEELAND EGEN",
+      "name": "Raiffeisenbank Mondseeland eGen",
+      "short_name": "Raiffeisenbank Mondseeland eGen",
       "bank_codes": [
         "34322"
       ]
@@ -2136,8 +2136,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L330",
-      "name": "RAIFFEISENBANK M\u00dcHLVIERTLER ALM EGEN",
-      "short_name": "RAIFFEISENBANK M\u00dcHLVIERTLER ALM EGEN",
+      "name": "Raiffeisenbank M\u00fchlviertler Alm eGen",
+      "short_name": "Raiffeisenbank M\u00fchlviertler Alm eGen",
       "bank_codes": [
         "34330",
         "34420"
@@ -2147,8 +2147,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZOOAT2L523",
-      "name": "RAIFFEISENBANK ATTERGAU EGEN",
-      "short_name": "RAIFFEISENBANK ATTERGAU EGEN",
+      "name": "Raiffeisenbank Attergau eGen",
+      "short_name": "Raiffeisenbank Attergau eGen",
       "bank_codes": [
         "34356",
         "34523"
@@ -2158,8 +2158,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L363",
-      "name": "RAIFFEISENBANK ATTERSEE-S\u00dcD EGEN",
-      "short_name": "RAIFFEISENBANK ATTERSEE-S\u00dcD EGEN",
+      "name": "Raiffeisenbank Attersee-S\u00fcd eGen",
+      "short_name": "Raiffeisenbank Attersee-S\u00fcd eGen",
       "bank_codes": [
         "34363"
       ]
@@ -2168,8 +2168,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L370",
-      "name": "RAIFFEISENBANK OBERES INNVIERTEL EGEN",
-      "short_name": "RAIFFEISENBANK OBERES INNVIERTEL EGEN",
+      "name": "Raiffeisenbank Oberes Innviertel eGen",
+      "short_name": "Raiffeisenbank Oberes Innviertel eGen",
       "bank_codes": [
         "34370"
       ]
@@ -2178,8 +2178,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L390",
-      "name": "RAIFFEISENBANK OHLSDORF EGEN",
-      "short_name": "RAIFFEISENBANK OHLSDORF EGEN",
+      "name": "Raiffeisenbank Ohlsdorf eGen",
+      "short_name": "Raiffeisenbank Ohlsdorf eGen",
       "bank_codes": [
         "34390"
       ]
@@ -2188,8 +2188,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZOOAT2L630",
-      "name": "RAIFFEISENBANK REGION SCHWANENSTADT EGEN",
-      "short_name": "RAIFFEISENBANK REGION SCHWANENSTADT EGEN",
+      "name": "Raiffeisenbank Region Schwanenstadt eGen",
+      "short_name": "Raiffeisenbank Region Schwanenstadt eGen",
       "bank_codes": [
         "34400",
         "34630"
@@ -2199,8 +2199,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L434",
-      "name": "RAIFFEISENBANK P\u00d6NDORF - FRANKENMARKT EGEN",
-      "short_name": "RAIFFEISENBANK P\u00d6NDORF - FRANKENMARKT EGEN",
+      "name": "Raiffeisenbank P\u00f6ndorf - Frankenmarkt eGen",
+      "short_name": "Raiffeisenbank P\u00f6ndorf - Frankenmarkt eGen",
       "bank_codes": [
         "34434"
       ]
@@ -2209,8 +2209,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L437",
-      "name": "RAIFFEISENBANK PRAMBACHKIRCHEN EGEN",
-      "short_name": "RAIFFEISENBANK PRAMBACHKIRCHEN EGEN",
+      "name": "Raiffeisenbank Prambachkirchen eGen",
+      "short_name": "Raiffeisenbank Prambachkirchen eGen",
       "bank_codes": [
         "34437"
       ]
@@ -2219,8 +2219,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L442",
-      "name": "RAIFFEISENBANK REGION PEUERBACH EGEN",
-      "short_name": "RAIFFEISENBANK REGION PEUERBACH EGEN",
+      "name": "Raiffeisenbank Region Peuerbach eGen",
+      "short_name": "Raiffeisenbank Region Peuerbach eGen",
       "bank_codes": [
         "34442",
         "34521"
@@ -2230,8 +2230,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L455",
-      "name": "RAIFFEISENBANK REGION SCH\u00c4RDING EGEN",
-      "short_name": "RAIFFEISENBANK REGION SCH\u00c4RDING EGEN",
+      "name": "Raiffeisenbank Region Sch\u00e4rding eGen",
+      "short_name": "Raiffeisenbank Region Sch\u00e4rding eGen",
       "bank_codes": [
         "34455"
       ]
@@ -2240,8 +2240,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L460",
-      "name": "RAIFFEISENBANK AIST EGEN",
-      "short_name": "RAIFFEISENBANK AIST EGEN",
+      "name": "Raiffeisenbank Aist eGen",
+      "short_name": "Raiffeisenbank Aist eGen",
       "bank_codes": [
         "34460",
         "34613"
@@ -2251,8 +2251,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L510",
-      "name": "RAIFFEISENBANK SALZKAMMERGUT EGEN",
-      "short_name": "RAIFFEISENBANK SALZKAMMERGUT EGEN",
+      "name": "Raiffeisenbank Salzkammergut eGen",
+      "short_name": "Raiffeisenbank Salzkammergut eGen",
       "bank_codes": [
         "34510"
       ]
@@ -2261,8 +2261,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L522",
-      "name": "RAIFFEISENBANK ST.FLORIAN AM INN EGEN",
-      "short_name": "RAIFFEISENBANK ST.FLORIAN AM INN EGEN",
+      "name": "Raiffeisenbank St.Florian am Inn eGen",
+      "short_name": "Raiffeisenbank St.Florian am Inn eGen",
       "bank_codes": [
         "34522"
       ]
@@ -2271,8 +2271,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L530",
-      "name": "RAIFFEISENBANK ST. MARIEN EGEN",
-      "short_name": "RAIFFEISENBANK ST. MARIEN EGEN",
+      "name": "Raiffeisenbank St. Marien eGen",
+      "short_name": "Raiffeisenbank St. Marien eGen",
       "bank_codes": [
         "34530"
       ]
@@ -2281,8 +2281,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L540",
-      "name": "RAIFFEISENBANK ST. ROMAN EGEN",
-      "short_name": "RAIFFEISENBANK ST. ROMAN EGEN",
+      "name": "Raiffeisenbank St. Roman eGen",
+      "short_name": "Raiffeisenbank St. Roman eGen",
       "bank_codes": [
         "34540"
       ]
@@ -2291,8 +2291,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L545",
-      "name": "RAIFFEISENBANK INNERES SALZKAMMERGUT EGEN",
-      "short_name": "RAIFFEISENBANK INNERES SALZKAMMERGUT EGEN",
+      "name": "Raiffeisenbank Inneres Salzkammergut eGen",
+      "short_name": "Raiffeisenbank Inneres Salzkammergut eGen",
       "bank_codes": [
         "34545"
       ]
@@ -2301,8 +2301,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L608",
-      "name": "RAIFFEISENBANK ATTERSEE-NORD EGEN",
-      "short_name": "RAIFFEISENBANK ATTERSEE-NORD EGEN",
+      "name": "Raiffeisenbank Attersee-Nord eGen",
+      "short_name": "Raiffeisenbank Attersee-Nord eGen",
       "bank_codes": [
         "34608"
       ]
@@ -2311,8 +2311,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L633",
-      "name": "RAIFFEISENBANK STEINBACH-GR\u00dcNBURG EGEN",
-      "short_name": "RAIFFEISENBANK STEINBACH-GR\u00dcNBURG EGEN",
+      "name": "Raiffeisenbank Steinbach-Gr\u00fcnburg eGen",
+      "short_name": "Raiffeisenbank Steinbach-Gr\u00fcnburg eGen",
       "bank_codes": [
         "34633"
       ]
@@ -2321,8 +2321,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZOOAT2L777",
-      "name": "RAIFFEISENBANK PERG EGEN",
-      "short_name": "RAIFFEISENBANK PERG EGEN",
+      "name": "Raiffeisenbank Perg eGen",
+      "short_name": "Raiffeisenbank Perg eGen",
       "bank_codes": [
         "34637",
         "34777"
@@ -2332,8 +2332,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L669",
-      "name": "RAIFFEISENBANK TIMELKAM-LENZING-PUCHKIRCHEN EGEN",
-      "short_name": "RAIFFEISENBANK TIMELKAM-LENZING-PUCHKIRCHEN EGEN",
+      "name": "Raiffeisenbank Timelkam-Lenzing-Puchkirchen eGen",
+      "short_name": "Raiffeisenbank Timelkam-Lenzing-Puchkirchen eGen",
       "bank_codes": [
         "34669"
       ]
@@ -2342,8 +2342,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L710",
-      "name": "RAIFFEISENBANK REGION V\u00d6CKLABRUCK EGEN",
-      "short_name": "RAIFFEISENBANK REGION V\u00d6CKLABRUCK EGEN",
+      "name": "Raiffeisenbank Region V\u00f6cklabruck eGen",
+      "short_name": "Raiffeisenbank Region V\u00f6cklabruck eGen",
       "bank_codes": [
         "34710"
       ]
@@ -2352,8 +2352,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L732",
-      "name": "RAIFFEISENBANK WALDING-OTTENSHEIM EGEN",
-      "short_name": "RAIFFEISENBANK WALDING-OTTENSHEIM EGEN",
+      "name": "Raiffeisenbank Walding-Ottensheim eGen",
+      "short_name": "Raiffeisenbank Walding-Ottensheim eGen",
       "bank_codes": [
         "34732"
       ]
@@ -2362,8 +2362,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L738",
-      "name": "RAIFFEISENBANK WARTBERG AN DER KREMS EGEN",
-      "short_name": "RAIFFEISENBANK WARTBERG AN DER KREMS EGEN",
+      "name": "Raiffeisenbank Wartberg an der Krems eGen",
+      "short_name": "Raiffeisenbank Wartberg an der Krems eGen",
       "bank_codes": [
         "34738"
       ]
@@ -2372,8 +2372,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L741",
-      "name": "RAIFFEISENBANK WEISSKIRCHEN A.D. TRAUN EGEN",
-      "short_name": "RAIFFEISENBANK WEISSKIRCHEN A.D. TRAUN EGEN",
+      "name": "Raiffeisenbank Wei\u00dfkirchen a.d. Traun eGen",
+      "short_name": "Raiffeisenbank Wei\u00dfkirchen a.d. Traun eGen",
       "bank_codes": [
         "34741"
       ]
@@ -2382,8 +2382,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L747",
-      "name": "RAIFFEISENBANK WEYER EGEN",
-      "short_name": "RAIFFEISENBANK WEYER EGEN",
+      "name": "Raiffeisenbank Weyer eGen",
+      "short_name": "Raiffeisenbank Weyer eGen",
       "bank_codes": [
         "34747"
       ]
@@ -2392,8 +2392,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZOOAT2L770",
-      "name": "RAIFFEISENBANK WELS S\u00dcD EGEN",
-      "short_name": "RAIFFEISENBANK WELS S\u00dcD EGEN",
+      "name": "Raiffeisenbank Wels S\u00fcd eGen",
+      "short_name": "Raiffeisenbank Wels S\u00fcd eGen",
       "bank_codes": [
         "34770"
       ]
@@ -2402,8 +2402,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2SXXX",
-      "name": "RAIFFEISENVERBAND SALZBURG EGEN",
-      "short_name": "RAIFFEISENVERBAND SALZBURG EGEN",
+      "name": "Raiffeisenverband Salzburg eGen",
+      "short_name": "Raiffeisenverband Salzburg eGen",
       "bank_codes": [
         "35000"
       ]
@@ -2412,8 +2412,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S001",
-      "name": "RAIFFEISENBANK LAMMERTAL EGEN",
-      "short_name": "RAIFFEISENBANK LAMMERTAL EGEN",
+      "name": "Raiffeisenbank Lammertal eGen",
+      "short_name": "Raiffeisenbank Lammertal eGen",
       "bank_codes": [
         "35001",
         "35006",
@@ -2424,8 +2424,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVSAAT2S053",
-      "name": "RAIFFEISENBANK PINZGAU MITTE EGEN",
-      "short_name": "RAIFFEISENBANK PINZGAU MITTE EGEN",
+      "name": "Raiffeisenbank Pinzgau Mitte eGen",
+      "short_name": "Raiffeisenbank Pinzgau Mitte eGen",
       "bank_codes": [
         "35003",
         "35013",
@@ -2438,8 +2438,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S004",
-      "name": "RAIFFEISENBANK ALTENMARKT-FLACHAU-EBEN EGEN",
-      "short_name": "RAIFFEISENBANK ALTENMARKT-FLACHAU-EBEN EGEN",
+      "name": "Raiffeisenbank Altenmarkt-Flachau-Eben eGen",
+      "short_name": "Raiffeisenbank Altenmarkt-Flachau-Eben eGen",
       "bank_codes": [
         "35004",
         "35104",
@@ -2451,8 +2451,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVSAAT2S018",
-      "name": "RAIFFEISENBANK UNTERSBERG EGEN",
-      "short_name": "RAIFFEISENBANK UNTERSBERG EGEN",
+      "name": "Raiffeisenbank Untersberg eGen",
+      "short_name": "Raiffeisenbank Untersberg eGen",
       "bank_codes": [
         "35005",
         "35018",
@@ -2464,8 +2464,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S007",
-      "name": "RAIFFEISENBANK ANTHERING - ELIXHAUSEN EGEN",
-      "short_name": "RAIFFEISENBANK ANTHERING - ELIXHAUSEN EGEN",
+      "name": "Raiffeisenbank Anthering - Elixhausen eGen",
+      "short_name": "Raiffeisenbank Anthering - Elixhausen eGen",
       "bank_codes": [
         "35007",
         "35014"
@@ -2475,8 +2475,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVSAAT2S015",
-      "name": "RAIFFEISENBANK FLACHGAU MITTE EGEN",
-      "short_name": "RAIFFEISENBANK FLACHGAU MITTE EGEN",
+      "name": "Raiffeisenbank Flachgau Mitte eGen",
+      "short_name": "Raiffeisenbank Flachgau Mitte eGen",
       "bank_codes": [
         "35008",
         "35015",
@@ -2490,8 +2490,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVSAAT2S047",
-      "name": "RAIFFEISENBANK SALZBURGER SEENLAND EGEN",
-      "short_name": "RAIFFEISENBANK SALZBURGER SEENLAND EGEN",
+      "name": "Raiffeisenbank Salzburger Seenland eGen",
+      "short_name": "Raiffeisenbank Salzburger Seenland eGen",
       "bank_codes": [
         "35009",
         "35047",
@@ -2504,8 +2504,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVSAAT2S055",
-      "name": "RAIFFEISENBANK PONGAU MITTE EGEN",
-      "short_name": "RAIFFEISENBANK PONGAU MITTE EGEN",
+      "name": "Raiffeisenbank Pongau Mitte eGen",
+      "short_name": "Raiffeisenbank Pongau Mitte eGen",
       "bank_codes": [
         "35010",
         "35055",
@@ -2522,8 +2522,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVSAAT2S039",
-      "name": "RAIFFEISENBANK OBERPINZGAU EGEN",
-      "short_name": "RAIFFEISENBANK OBERPINZGAU EGEN",
+      "name": "Raiffeisenbank Oberpinzgau eGen",
+      "short_name": "Raiffeisenbank Oberpinzgau eGen",
       "bank_codes": [
         "35011",
         "35028",
@@ -2542,8 +2542,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S012",
-      "name": "RAIFFEISENBANK HOHE TAUERN EGEN",
-      "short_name": "RAIFFEISENBANK HOHE TAUERN EGEN",
+      "name": "Raiffeisenbank Hohe Tauern eGen",
+      "short_name": "Raiffeisenbank Hohe Tauern eGen",
       "bank_codes": [
         "35012",
         "35043",
@@ -2557,8 +2557,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S016",
-      "name": "RAIFFEISENBANK FAISTENAU-HINTERSEE EGEN",
-      "short_name": "RAIFFEISENBANK FAISTENAU-HINTERSEE EGEN",
+      "name": "Raiffeisenbank Faistenau-Hintersee eGen",
+      "short_name": "Raiffeisenbank Faistenau-Hintersee eGen",
       "bank_codes": [
         "35016"
       ]
@@ -2567,8 +2567,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S017",
-      "name": "RAIFFEISENBANK GOLLING-SCHEFFAU-KELLAU REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISENBANK GOLLING-SCHEFFAU-KELLAU REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisenbank Golling-Scheffau-Kellau registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisenbank Golling-Scheffau-Kellau registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "35017"
       ]
@@ -2577,8 +2577,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S019",
-      "name": "RAIFFEISENBANK GROSSARL-H\u00dcTTSCHLAG EGEN",
-      "short_name": "RAIFFEISENBANK GROSSARL-H\u00dcTTSCHLAG EGEN",
+      "name": "Raiffeisenbank Gro\u00dfarl-H\u00fcttschlag eGen",
+      "short_name": "Raiffeisenbank Gro\u00dfarl-H\u00fcttschlag eGen",
       "bank_codes": [
         "35019",
         "35119"
@@ -2588,8 +2588,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S020",
-      "name": "RAIFFEISENBANK GROSSGMAIN EGEN",
-      "short_name": "RAIFFEISENBANK GROSSGMAIN EGEN",
+      "name": "Raiffeisenbank Gro\u00dfgmain eGen",
+      "short_name": "Raiffeisenbank Gro\u00dfgmain eGen",
       "bank_codes": [
         "35020"
       ]
@@ -2598,8 +2598,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S021",
-      "name": "RAIFFEISENBANK WALLERSEE EGEN",
-      "short_name": "RAIFFEISENBANK WALLERSEE EGEN",
+      "name": "Raiffeisenbank Wallersee eGen",
+      "short_name": "Raiffeisenbank Wallersee eGen",
       "bank_codes": [
         "35021",
         "35024",
@@ -2611,8 +2611,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S022",
-      "name": "RAIFFEISENBANK HALLEIN-OBERALM EGEN",
-      "short_name": "RAIFFEISENBANK HALLEIN-OBERALM EGEN",
+      "name": "Raiffeisenbank Hallein-Oberalm eGen",
+      "short_name": "Raiffeisenbank Hallein-Oberalm eGen",
       "bank_codes": [
         "35022",
         "35045",
@@ -2626,8 +2626,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVSAAT2S065",
-      "name": "RAIFFEISENBANK FUSCHLSEE WEST EGEN",
-      "short_name": "RAIFFEISENBANK FUSCHLSEE WEST EGEN",
+      "name": "Raiffeisenbank Fuschlsee West eGen",
+      "short_name": "Raiffeisenbank Fuschlsee West eGen",
       "bank_codes": [
         "35025",
         "35065",
@@ -2639,8 +2639,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S026",
-      "name": "RAIFFEISENBANK GASTEIN EGEN",
-      "short_name": "RAIFFEISENBANK GASTEIN EGEN",
+      "name": "Raiffeisenbank Gastein eGen",
+      "short_name": "Raiffeisenbank Gastein eGen",
       "bank_codes": [
         "35026",
         "35126",
@@ -2651,8 +2651,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S027",
-      "name": "RAIFFEISENBANK H\u00dcTTAU-ST. MARTIN EGEN",
-      "short_name": "RAIFFEISENBANK H\u00dcTTAU-ST. MARTIN EGEN",
+      "name": "Raiffeisenbank H\u00fcttau-St. Martin eGen",
+      "short_name": "Raiffeisenbank H\u00fcttau-St. Martin eGen",
       "bank_codes": [
         "35027",
         "35127"
@@ -2662,8 +2662,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S029",
-      "name": "RAIFFEISENBANK KUCHL-ST. KOLOMAN EGEN",
-      "short_name": "RAIFFEISENBANK KUCHL-ST. KOLOMAN EGEN",
+      "name": "Raiffeisenbank Kuchl-St. Koloman eGen",
+      "short_name": "Raiffeisenbank Kuchl-St. Koloman eGen",
       "bank_codes": [
         "35029",
         "35058"
@@ -2673,8 +2673,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S030",
-      "name": "RAIFFEISENBANK FLACHGAU NORD EGEN",
-      "short_name": "RAIFFEISENBANK FLACHGAU NORD EGEN",
+      "name": "Raiffeisenbank Flachgau Nord eGen",
+      "short_name": "Raiffeisenbank Flachgau Nord eGen",
       "bank_codes": [
         "35030",
         "35038",
@@ -2687,8 +2687,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S034",
-      "name": "RAIFFEISENBANK SALZBURG LIEFERING-MAXGLAN-SIEZENHEIM EGEN",
-      "short_name": "RAIFFEISENBANK SALZBURG LIEFERING-MAXGLAN-SIEZENHEIM EGEN",
+      "name": "Raiffeisenbank Salzburg Liefering-Maxglan-Siezenheim eGen",
+      "short_name": "Raiffeisenbank Salzburg Liefering-Maxglan-Siezenheim eGen",
       "bank_codes": [
         "35034",
         "35054",
@@ -2699,8 +2699,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVSAAT2S063",
-      "name": "RAIFFEISENBANK LUNGAU EGEN",
-      "short_name": "RAIFFEISENBANK LUNGAU EGEN",
+      "name": "Raiffeisenbank Lungau eGen",
+      "short_name": "Raiffeisenbank Lungau eGen",
       "bank_codes": [
         "35036",
         "35037",
@@ -2718,8 +2718,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S049",
-      "name": "RAIFFEISENBANK RADSTADT-UNTERTAUERN-FILZMOOS-FORSTAU REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISENBANK RADSTADT-UNTERTAUERN-FILZMOOS-FORSTAU REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisenbank Radstadt-Untertauern-Filzmoos-Forstau registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisenbank Radstadt-Untertauern-Filzmoos-Forstau registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "35049",
         "35149",
@@ -2730,8 +2730,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S051",
-      "name": "RAIFFEISENBANK RAURIS-BUCHEBEN EGEN",
-      "short_name": "RAIFFEISENBANK RAURIS-BUCHEBEN EGEN",
+      "name": "Raiffeisenbank Rauris-Bucheben eGen",
+      "short_name": "Raiffeisenbank Rauris-Bucheben eGen",
       "bank_codes": [
         "35051"
       ]
@@ -2740,8 +2740,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S052",
-      "name": "RAIFFEISENBANK SAALBACH-HINTERGLEMM-VIEHHOFEN EGEN",
-      "short_name": "RAIFFEISENBANK SAALBACH-HINTERGLEMM-VIEHHOFEN EGEN",
+      "name": "Raiffeisenbank Saalbach-Hinterglemm-Viehhofen eGen",
+      "short_name": "Raiffeisenbank Saalbach-Hinterglemm-Viehhofen eGen",
       "bank_codes": [
         "35052",
         "35152",
@@ -2753,8 +2753,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S056",
-      "name": "RAIFFEISENBANK ST.GILGEN-FUSCHL-STROBL EGEN",
-      "short_name": "RAIFFEISENBANK ST.GILGEN-FUSCHL-STROBL EGEN",
+      "name": "Raiffeisenbank St.Gilgen-Fuschl-Strobl eGen",
+      "short_name": "Raiffeisenbank St.Gilgen-Fuschl-Strobl eGen",
       "bank_codes": [
         "35056",
         "35156",
@@ -2765,8 +2765,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVSAAT2S069",
-      "name": "RAIFFEISENBANK ST. JOHANN-WAGRAIN-KLEINARL EGEN",
-      "short_name": "RAIFFEISENBANK ST. JOHANN-WAGRAIN-KLEINARL EGEN",
+      "name": "Raiffeisenbank St. Johann-Wagrain-Kleinarl eGen",
+      "short_name": "Raiffeisenbank St. Johann-Wagrain-Kleinarl eGen",
       "bank_codes": [
         "35057",
         "35069",
@@ -2777,8 +2777,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S060",
-      "name": "RAIFFEISENBANK ST. MARTIN-LOFER-WEISSBACH EGEN",
-      "short_name": "RAIFFEISENBANK ST. MARTIN-LOFER-WEISSBACH EGEN",
+      "name": "Raiffeisenbank St. Martin-Lofer-Wei\u00dfbach eGen",
+      "short_name": "Raiffeisenbank St. Martin-Lofer-Wei\u00dfbach eGen",
       "bank_codes": [
         "35060",
         "35160"
@@ -2788,8 +2788,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S062",
-      "name": "RAIFFEISENBANK STRASSWALCHEN EGEN",
-      "short_name": "RAIFFEISENBANK STRASSWALCHEN EGEN",
+      "name": "Raiffeisenbank Stra\u00dfwalchen eGen",
+      "short_name": "Raiffeisenbank Stra\u00dfwalchen eGen",
       "bank_codes": [
         "35062"
       ]
@@ -2798,8 +2798,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S064",
-      "name": "RAIFFEISENBANK TAXENBACH EGEN",
-      "short_name": "RAIFFEISENBANK TAXENBACH EGEN",
+      "name": "Raiffeisenbank Taxenbach eGen",
+      "short_name": "Raiffeisenbank Taxenbach eGen",
       "bank_codes": [
         "35064",
         "35164"
@@ -2809,8 +2809,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S066",
-      "name": "RAIFFEISENBANK UNKEN EGEN",
-      "short_name": "RAIFFEISENBANK UNKEN EGEN",
+      "name": "Raiffeisenbank Unken eGen",
+      "short_name": "Raiffeisenbank Unken eGen",
       "bank_codes": [
         "35066"
       ]
@@ -2819,8 +2819,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S071",
-      "name": "RAIFFEISENBANK WALS-HIMMELREICH EGEN",
-      "short_name": "RAIFFEISENBANK WALS-HIMMELREICH EGEN",
+      "name": "Raiffeisenbank Wals-Himmelreich eGen",
+      "short_name": "Raiffeisenbank Wals-Himmelreich eGen",
       "bank_codes": [
         "35071",
         "35371"
@@ -2830,8 +2830,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22XXX",
-      "name": "RAIFFEISEN-LANDESBANK TIROL AG",
-      "short_name": "RAIFFEISEN-LANDESBANK TIROL AG",
+      "name": "Raiffeisen-Landesbank Tirol AG",
+      "short_name": "Raiffeisen-Landesbank Tirol AG",
       "bank_codes": [
         "36000"
       ]
@@ -2840,8 +2840,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22200",
-      "name": "RAIFFEISENBANK ABSAM-THAUR-VOLDERS EGEN",
-      "short_name": "RAIFFEISENBANK ABSAM-THAUR-VOLDERS EGEN",
+      "name": "Raiffeisenbank Absam-Thaur-Volders eGen",
+      "short_name": "Raiffeisenbank Absam-Thaur-Volders eGen",
       "bank_codes": [
         "36200",
         "36337",
@@ -2852,8 +2852,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22218",
-      "name": "RAIFFEISEN REGIONALBANK ACHENSEE EGEN",
-      "short_name": "RAIFFEISEN REGIONALBANK ACHENSEE EGEN",
+      "name": "Raiffeisen Regionalbank Achensee eGen",
+      "short_name": "Raiffeisen Regionalbank Achensee eGen",
       "bank_codes": [
         "36201",
         "36218",
@@ -2865,8 +2865,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22203",
-      "name": "RAIFFEISENBANK ALPBACHTAL EGEN",
-      "short_name": "RAIFFEISENBANK ALPBACHTAL EGEN",
+      "name": "Raiffeisenbank Alpbachtal eGen",
+      "short_name": "Raiffeisenbank Alpbachtal eGen",
       "bank_codes": [
         "36203",
         "36303"
@@ -2876,8 +2876,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22353",
-      "name": "RAIFFEISENBANK PITZTAL EGEN",
-      "short_name": "RAIFFEISENBANK PITZTAL EGEN",
+      "name": "Raiffeisenbank Pitztal eGen",
+      "short_name": "Raiffeisenbank Pitztal eGen",
       "bank_codes": [
         "36207",
         "36353"
@@ -2887,8 +2887,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22336",
-      "name": "RAIFFEISENBANK TIROL MITTE WEST EGEN",
-      "short_name": "RAIFFEISENBANK TIROL MITTE WEST EGEN",
+      "name": "Raiffeisenbank Tirol Mitte West eGen",
+      "short_name": "Raiffeisenbank Tirol Mitte West eGen",
       "bank_codes": [
         "36209",
         "36260",
@@ -2900,8 +2900,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22358",
-      "name": "RAIFFEISEN BEZIRKSBANK KUFSTEIN EGEN",
-      "short_name": "RAIFFEISEN BEZIRKSBANK KUFSTEIN EGEN",
+      "name": "Raiffeisen Bezirksbank Kufstein eGen",
+      "short_name": "Raiffeisen Bezirksbank Kufstein eGen",
       "bank_codes": [
         "36213",
         "36216",
@@ -2914,8 +2914,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22215",
-      "name": "RAIFFEISENBANK BRIXEN IM THALE EGEN",
-      "short_name": "RAIFFEISENBANK BRIXEN IM THALE EGEN",
+      "name": "Raiffeisenbank Brixen im Thale eGen",
+      "short_name": "Raiffeisenbank Brixen im Thale eGen",
       "bank_codes": [
         "36215"
       ]
@@ -2924,8 +2924,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22219",
-      "name": "RAIFFEISENBANK EHRWALD-LERMOOS-BIBERWIER EGEN",
-      "short_name": "RAIFFEISENBANK EHRWALD-LERMOOS-BIBERWIER EGEN",
+      "name": "Raiffeisenbank Ehrwald-Lermoos-Biberwier eGen",
+      "short_name": "Raiffeisenbank Ehrwald-Lermoos-Biberwier eGen",
       "bank_codes": [
         "36219"
       ]
@@ -2934,8 +2934,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RBRTAT22XXX",
-      "name": "RAIFFEISENBANK OBERLAND-REUTTE EGEN",
-      "short_name": "RAIFFEISENBANK OBERLAND-REUTTE EGEN",
+      "name": "Raiffeisenbank Oberland-Reutte eGen",
+      "short_name": "Raiffeisenbank Oberland-Reutte eGen",
       "bank_codes": [
         "36220",
         "36305",
@@ -2948,8 +2948,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22229",
-      "name": "RAIFFEISEN REGIONALBANK F\u00dcGEN-KALTENBACH-ZELL EGEN",
-      "short_name": "RAIFFEISEN REGIONALBANK F\u00dcGEN-KALTENBACH-ZELL EGEN",
+      "name": "Raiffeisen Regionalbank F\u00fcgen-Kaltenbach-Zell eGen",
+      "short_name": "Raiffeisen Regionalbank F\u00fcgen-Kaltenbach-Zell eGen",
       "bank_codes": [
         "36229",
         "36360"
@@ -2959,8 +2959,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22329",
-      "name": "RAIFFEISENBANK WIPPTAL - STUBAITAL MITTE EGEN",
-      "short_name": "RAIFFEISENBANK WIPPTAL - STUBAITAL MITTE EGEN",
+      "name": "Raiffeisenbank Wipptal - Stubaital Mitte eGen",
+      "short_name": "Raiffeisenbank Wipptal - Stubaital Mitte eGen",
       "bank_codes": [
         "36230",
         "36329"
@@ -2970,8 +2970,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22232",
-      "name": "RAIFFEISENBANK GOING EGEN",
-      "short_name": "RAIFFEISENBANK GOING EGEN",
+      "name": "RaiffeisenBank Going eGen",
+      "short_name": "RaiffeisenBank Going eGen",
       "bank_codes": [
         "36232"
       ]
@@ -2980,8 +2980,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22241",
-      "name": "RAIFFEISENBANK HIPPACH-HART EGEN",
-      "short_name": "RAIFFEISENBANK HIPPACH-HART EGEN",
+      "name": "Raiffeisenbank Hippach-Hart eGen",
+      "short_name": "Raiffeisenbank Hippach-Hart eGen",
       "bank_codes": [
         "36240",
         "36241"
@@ -2991,8 +2991,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22245",
-      "name": "RAIFFEISENBANK WILDER KAISER - BRIXENTAL WEST EGEN",
-      "short_name": "RAIFFEISENBANK WILDER KAISER - BRIXENTAL WEST EGEN",
+      "name": "Raiffeisenbank Wilder Kaiser - Brixental West eGen",
+      "short_name": "Raiffeisenbank Wilder Kaiser - Brixental West eGen",
       "bank_codes": [
         "36245",
         "36318",
@@ -3003,8 +3003,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22248",
-      "name": "RAIFFEISENBANK ARLBERG SILVRETTA EGEN",
-      "short_name": "RAIFFEISENBANK ARLBERG SILVRETTA EGEN",
+      "name": "Raiffeisenbank Arlberg Silvretta eGen",
+      "short_name": "Raiffeisenbank Arlberg Silvretta eGen",
       "bank_codes": [
         "36248",
         "36252"
@@ -3014,8 +3014,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22263",
-      "name": "RAIFFEISENBANK KITZB\u00dcHEL - ST. JOHANN EGEN",
-      "short_name": "RAIFFEISENBANK KITZB\u00dcHEL - ST. JOHANN EGEN",
+      "name": "Raiffeisenbank Kitzb\u00fchel - St. Johann eGen",
+      "short_name": "Raiffeisenbank Kitzb\u00fchel - St. Johann eGen",
       "bank_codes": [
         "36254",
         "36263"
@@ -3025,8 +3025,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22264",
-      "name": "RAIFFEISENBANK K\u00d6SSEN-KIRCHDORF EGEN",
-      "short_name": "RAIFFEISENBANK K\u00d6SSEN-KIRCHDORF EGEN",
+      "name": "Raiffeisenbank K\u00f6ssen-Kirchdorf eGen",
+      "short_name": "Raiffeisenbank K\u00f6ssen-Kirchdorf eGen",
       "bank_codes": [
         "36262",
         "36264"
@@ -3036,8 +3036,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22322",
-      "name": "RAIFFEISEN REGIONALBANK SCHWAZ-WATTENS EGEN",
-      "short_name": "RAIFFEISEN REGIONALBANK SCHWAZ-WATTENS EGEN",
+      "name": "Raiffeisen Regionalbank Schwaz-Wattens eGen",
+      "short_name": "Raiffeisen Regionalbank Schwaz-Wattens eGen",
       "bank_codes": [
         "36265",
         "36272",
@@ -3049,8 +3049,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22267",
-      "name": "RAIFFEISENBANK KUNDL-M\u00dcNSTER EGEN",
-      "short_name": "RAIFFEISENBANK KUNDL-M\u00dcNSTER EGEN",
+      "name": "Raiffeisenbank Kundl-M\u00fcnster eGen",
+      "short_name": "Raiffeisenbank Kundl-M\u00fcnster eGen",
       "bank_codes": [
         "36267",
         "36279"
@@ -3060,8 +3060,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22268",
-      "name": "RAIFFEISENBANK IM \u00d6TZTAL UND UMGEBUNG EGEN",
-      "short_name": "RAIFFEISENBANK IM \u00d6TZTAL UND UMGEBUNG EGEN",
+      "name": "Raiffeisenbank im \u00d6tztal und Umgebung eGen",
+      "short_name": "Raiffeisenbank im \u00d6tztal und Umgebung eGen",
       "bank_codes": [
         "36268",
         "36291",
@@ -3072,8 +3072,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22339",
-      "name": "RAIFFEISENBANK LANGKAMPFEN-THIERSEE EGEN",
-      "short_name": "RAIFFEISENBANK LANGKAMPFEN-THIERSEE EGEN",
+      "name": "Raiffeisenbank Langkampfen-Thiersee eGen",
+      "short_name": "Raiffeisenbank Langkampfen-Thiersee eGen",
       "bank_codes": [
         "36269",
         "36339"
@@ -3083,8 +3083,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22273",
-      "name": "RAIFFEISENBANK MATREI AM BRENNER UND UMGEBUNG EGEN",
-      "short_name": "RAIFFEISENBANK MATREI AM BRENNER UND UMGEBUNG EGEN",
+      "name": "Raiffeisenbank Matrei am Brenner und Umgebung eGen",
+      "short_name": "Raiffeisenbank Matrei am Brenner und Umgebung eGen",
       "bank_codes": [
         "36273"
       ]
@@ -3093,8 +3093,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22274",
-      "name": "RAIFFEISENBANK MAYRHOFEN UND UMGEBUNG EGEN",
-      "short_name": "RAIFFEISENBANK MAYRHOFEN UND UMGEBUNG EGEN",
+      "name": "Raiffeisenbank Mayrhofen und Umgebung eGen",
+      "short_name": "Raiffeisenbank Mayrhofen und Umgebung eGen",
       "bank_codes": [
         "36274"
       ]
@@ -3103,8 +3103,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22285",
-      "name": "RAIFFEISENBANK NEUSTIFT-MIEDERS-SCH\u00d6NBERG IM STUBAITAL EGEN",
-      "short_name": "RAIFFEISENBANK NEUSTIFT-MIEDERS-SCH\u00d6NBERG IM STUBAITAL EGEN",
+      "name": "Raiffeisenbank Neustift-Mieders-Sch\u00f6nberg im Stubaital eGen",
+      "short_name": "Raiffeisenbank Neustift-Mieders-Sch\u00f6nberg im Stubaital eGen",
       "bank_codes": [
         "36275",
         "36285"
@@ -3114,8 +3114,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22281",
-      "name": "RAIFFEISENKASSE F\u00dcR MUTTERS, NATTERS UND KREITH REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISENKASSE F\u00dcR MUTTERS, NATTERS UND KREITH REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisenkasse f\u00fcr Mutters, Natters und Kreith registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisenkasse f\u00fcr Mutters, Natters und Kreith registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "36281"
       ]
@@ -3124,8 +3124,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22283",
-      "name": "RAIFFEISENBANK SERFAUS-FISS-RIED-NAUDERS EGEN",
-      "short_name": "RAIFFEISENBANK SERFAUS-FISS-RIED-NAUDERS EGEN",
+      "name": "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen",
+      "short_name": "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen",
       "bank_codes": [
         "36283"
       ]
@@ -3134,8 +3134,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22315",
-      "name": "RAIFFEISENBANK SERFAUS-FISS-RIED-NAUDERS EGEN",
-      "short_name": "RAIFFEISENBANK SERFAUS-FISS-RIED-NAUDERS EGEN",
+      "name": "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen",
+      "short_name": "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen",
       "bank_codes": [
         "36306",
         "36315"
@@ -3145,8 +3145,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22310",
-      "name": "RAIFFEISENKASSE RUM-INNSBRUCK/ARZL EGEN",
-      "short_name": "RAIFFEISENKASSE RUM-INNSBRUCK/ARZL EGEN",
+      "name": "Raiffeisenkasse Rum-Innsbruck/Arzl eGen",
+      "short_name": "Raiffeisenkasse Rum-Innsbruck/Arzl eGen",
       "bank_codes": [
         "36310"
       ]
@@ -3155,8 +3155,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22314",
-      "name": "RAIFFEISENBANK SEEFELD-LEUTASCH-REITH-SCHARNITZ REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISENBANK SEEFELD-LEUTASCH-REITH-SCHARNITZ REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisenbank Seefeld-Leutasch-Reith-Scharnitz registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisenbank Seefeld-Leutasch-Reith-Scharnitz registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "36314"
       ]
@@ -3165,8 +3165,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22320",
-      "name": "RAIFFEISENKASSE SCHLITTERS, BRUCK UND STRASS REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISENKASSE SCHLITTERS, BRUCK UND STRASS REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisenkasse Schlitters, Bruck und Strass registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisenkasse Schlitters, Bruck und Strass registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "36320"
       ]
@@ -3175,8 +3175,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22324",
-      "name": "RAIFFEISENBANK S\u00d6LDEN EGEN",
-      "short_name": "RAIFFEISENBANK S\u00d6LDEN EGEN",
+      "name": "Raiffeisenbank S\u00f6lden eGen",
+      "short_name": "Raiffeisenbank S\u00f6lden eGen",
       "bank_codes": [
         "36324"
       ]
@@ -3185,8 +3185,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22332",
-      "name": "RAIFFEISENKASSE STUMM, STUMMERBERG UND UMGEBUNG REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISENKASSE STUMM, STUMMERBERG UND UMGEBUNG REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisenkasse Stumm, Stummerberg und Umgebung registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisenkasse Stumm, Stummerberg und Umgebung registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "36332"
       ]
@@ -3195,8 +3195,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22333",
-      "name": "RAIFFEISENBANK TANNHEIMERTAL EGEN",
-      "short_name": "RAIFFEISENBANK TANNHEIMERTAL EGEN",
+      "name": "Raiffeisenbank Tannheimertal eGen",
+      "short_name": "Raiffeisenbank Tannheimertal eGen",
       "bank_codes": [
         "36333"
       ]
@@ -3205,8 +3205,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22342",
-      "name": "RAIFFEISENBANK TUX EGEN",
-      "short_name": "RAIFFEISENBANK TUX EGEN",
+      "name": "Raiffeisenbank Tux eGen",
+      "short_name": "Raiffeisenbank Tux eGen",
       "bank_codes": [
         "36342"
       ]
@@ -3215,8 +3215,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22349",
-      "name": "RAIFFEISENBANK ST. ULRICH - WAIDRING EGEN",
-      "short_name": "RAIFFEISENBANK ST. ULRICH - WAIDRING EGEN",
+      "name": "RaiffeisenBank St. Ulrich - Waidring eGen",
+      "short_name": "RaiffeisenBank St. Ulrich - Waidring eGen",
       "bank_codes": [
         "36349"
       ]
@@ -3225,8 +3225,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22357",
-      "name": "RAIFFEISENBANK WILDSCH\u00d6NAU EGEN",
-      "short_name": "RAIFFEISENBANK WILDSCH\u00d6NAU EGEN",
+      "name": "Raiffeisenbank Wildsch\u00f6nau eGen",
+      "short_name": "Raiffeisenbank Wildsch\u00f6nau eGen",
       "bank_codes": [
         "36357"
       ]
@@ -3235,8 +3235,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22362",
-      "name": "RAIFFEISEN REGIONALBANK HALL IN TIROL EGEN",
-      "short_name": "RAIFFEISEN REGIONALBANK HALL IN TIROL EGEN",
+      "name": "Raiffeisen Regionalbank Hall in Tirol eGen",
+      "short_name": "Raiffeisen Regionalbank Hall in Tirol eGen",
       "bank_codes": [
         "36362"
       ]
@@ -3245,8 +3245,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZTIAT22378",
-      "name": "RAIFFEISEN REGIONALBANK MATREI I.O. EGEN",
-      "short_name": "RAIFFEISEN REGIONALBANK MATREI I.O. EGEN",
+      "name": "Raiffeisen Regionalbank Matrei i.O. eGen",
+      "short_name": "Raiffeisen Regionalbank Matrei i.O. eGen",
       "bank_codes": [
         "36367",
         "36378"
@@ -3256,8 +3256,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22368",
-      "name": "RAIFFEISENBANK SILLIAN - LIENZER TALBODEN EGEN",
-      "short_name": "RAIFFEISENBANK SILLIAN - LIENZER TALBODEN EGEN",
+      "name": "Raiffeisenbank Sillian - Lienzer Talboden eGen",
+      "short_name": "Raiffeisenbank Sillian - Lienzer Talboden eGen",
       "bank_codes": [
         "36368",
         "36373",
@@ -3269,8 +3269,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZTIAT22386",
-      "name": "RAIFFEISENKASSE VILLGRATENTAL EGEN",
-      "short_name": "RAIFFEISENKASSE VILLGRATENTAL EGEN",
+      "name": "Raiffeisenkasse Villgratental eGen",
+      "short_name": "Raiffeisenkasse Villgratental eGen",
       "bank_codes": [
         "36386"
       ]
@@ -3279,8 +3279,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "ALPEAT22XXX",
-      "name": "ALPEN PRIVATBANK AKTIENGESELLSCHAFT",
-      "short_name": "ALPEN PRIVATBANK AKTIENGESELLSCHAFT",
+      "name": "Alpen Privatbank Aktiengesellschaft",
+      "short_name": "Alpen Privatbank Aktiengesellschaft",
       "bank_codes": [
         "36791"
       ]
@@ -3289,8 +3289,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVVGAT2BXXX",
-      "name": "RAIFFEISEN LANDESBANK VORARLBERG MIT REVISIONSVERBAND EGEN",
-      "short_name": "RAIFFEISEN LANDESBANK VORARLBERG MIT REVISIONSVERBAND EGEN",
+      "name": "Raiffeisen Landesbank Vorarlberg mit Revisionsverband eGen",
+      "short_name": "Raiffeisen Landesbank Vorarlberg mit Revisionsverband eGen",
       "bank_codes": [
         "37000"
       ]
@@ -3299,8 +3299,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVVGAT2B401",
-      "name": "RAIFFEISENBANK ALBERSCHWENDE EGEN",
-      "short_name": "RAIFFEISENBANK ALBERSCHWENDE EGEN",
+      "name": "Raiffeisenbank Alberschwende eGen",
+      "short_name": "Raiffeisenbank Alberschwende eGen",
       "bank_codes": [
         "37401"
       ]
@@ -3309,8 +3309,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVVGAT2B422",
-      "name": "RAIFFEISENBANK MONTFORT EGEN",
-      "short_name": "RAIFFEISENBANK MONTFORT EGEN",
+      "name": "Raiffeisenbank Montfort eGen",
+      "short_name": "Raiffeisenbank Montfort eGen",
       "bank_codes": [
         "37402",
         "37422",
@@ -3322,8 +3322,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVVGAT2B423",
-      "name": "RAIFFEISENBANK MITTEL- UND HINTERBREGENZERWALD EGEN",
-      "short_name": "RAIFFEISENBANK MITTEL- UND HINTERBREGENZERWALD EGEN",
+      "name": "Raiffeisenbank Mittel- und Hinterbregenzerwald eGen",
+      "short_name": "Raiffeisenbank Mittel- und Hinterbregenzerwald eGen",
       "bank_codes": [
         "37405",
         "37423"
@@ -3333,8 +3333,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVVGAT2B406",
-      "name": "RAIFFEISENBANK BEZAU-MELLAU-BIZAU EGEN",
-      "short_name": "RAIFFEISENBANK BEZAU-MELLAU-BIZAU EGEN",
+      "name": "Raiffeisenbank Bezau-Mellau-Bizau eGen",
+      "short_name": "Raiffeisenbank Bezau-Mellau-Bizau eGen",
       "bank_codes": [
         "37406"
       ]
@@ -3343,8 +3343,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVVGAT2B468",
-      "name": "RAIFFEISENBANK BLUDENZ-MONTAFON EGEN",
-      "short_name": "RAIFFEISENBANK BLUDENZ-MONTAFON EGEN",
+      "name": "Raiffeisenbank Bludenz-Montafon eGen",
+      "short_name": "Raiffeisenbank Bludenz-Montafon eGen",
       "bank_codes": [
         "37410",
         "37468"
@@ -3354,8 +3354,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVVGAT2B420",
-      "name": "RAIFFEISENBANK IM RHEINTAL EGEN",
-      "short_name": "RAIFFEISENBANK IM RHEINTAL EGEN",
+      "name": "Raiffeisenbank Im Rheintal eGen",
+      "short_name": "Raiffeisenbank Im Rheintal eGen",
       "bank_codes": [
         "37420",
         "37453"
@@ -3365,8 +3365,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVVGAT2B458",
-      "name": "RAIFFEISENBANK IM WALGAU EGEN",
-      "short_name": "RAIFFEISENBANK IM WALGAU EGEN",
+      "name": "RAIFFEISENBANK im Walgau eGen",
+      "short_name": "RAIFFEISENBANK im Walgau eGen",
       "bank_codes": [
         "37424",
         "37458"
@@ -3376,8 +3376,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVVGAT2B431",
-      "name": "RAIFFEISENBANK BODENSEE-LEIBLACHTAL EGEN",
-      "short_name": "RAIFFEISENBANK BODENSEE-LEIBLACHTAL EGEN",
+      "name": "Raiffeisenbank Bodensee-Leiblachtal eGen",
+      "short_name": "Raiffeisenbank Bodensee-Leiblachtal eGen",
       "bank_codes": [
         "37431",
         "37439"
@@ -3387,8 +3387,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RANJAT2BXXX",
-      "name": "WALSER RAIFFEISEN BANK AKTIENGESELLSCHAFT",
-      "short_name": "WALSER RAIFFEISEN BANK AKTIENGESELLSCHAFT",
+      "name": "Walser Raiffeisen Bank Aktiengesellschaft",
+      "short_name": "Walser Raiffeisen Bank Aktiengesellschaft",
       "bank_codes": [
         "37434"
       ]
@@ -3397,8 +3397,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVVGAT2B435",
-      "name": "RAIFFEISENBANK VORDERBREGENZERWALD EGEN",
-      "short_name": "RAIFFEISENBANK VORDERBREGENZERWALD EGEN",
+      "name": "Raiffeisenbank Vorderbregenzerwald eGen",
+      "short_name": "Raiffeisenbank Vorderbregenzerwald eGen",
       "bank_codes": [
         "37435"
       ]
@@ -3407,8 +3407,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RANMAT21XXX",
-      "name": "RAIFFEISENBANK HOHENEMS EGEN",
-      "short_name": "RAIFFEISENBANK HOHENEMS EGEN",
+      "name": "RAIFFEISENBANK HOHENEMS eGen",
+      "short_name": "RAIFFEISENBANK HOHENEMS eGen",
       "bank_codes": [
         "37438"
       ]
@@ -3417,8 +3417,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RVVGAT2B474",
-      "name": "RAIFFEISENBANK WEISSACHTAL EGEN",
-      "short_name": "RAIFFEISENBANK WEISSACHTAL EGEN",
+      "name": "Raiffeisenbank Weissachtal eGen",
+      "short_name": "Raiffeisenbank Weissachtal eGen",
       "bank_codes": [
         "37445",
         "37474"
@@ -3428,8 +3428,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVVGAT2B449",
-      "name": "RAIFFEISENBANK LECH AM ARLBERG EGEN",
-      "short_name": "RAIFFEISENBANK LECH AM ARLBERG EGEN",
+      "name": "Raiffeisenbank Lech am Arlberg eGen",
+      "short_name": "Raiffeisenbank Lech am Arlberg eGen",
       "bank_codes": [
         "37449"
       ]
@@ -3438,8 +3438,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVVGAT2B475",
-      "name": "RAIFFEISENBANK VORDERLAND EGEN",
-      "short_name": "RAIFFEISENBANK VORDERLAND EGEN",
+      "name": "Raiffeisenbank Vorderland eGen",
+      "short_name": "Raiffeisenbank Vorderland eGen",
       "bank_codes": [
         "37475"
       ]
@@ -3448,8 +3448,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVVGAT2B482",
-      "name": "RAIFFEISENBANK AM HOFSTEIG EGEN",
-      "short_name": "RAIFFEISENBANK AM HOFSTEIG EGEN",
+      "name": "Raiffeisenbank am Hofsteig eGen",
+      "short_name": "Raiffeisenbank am Hofsteig eGen",
       "bank_codes": [
         "37482"
       ]
@@ -3458,8 +3458,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2GXXX",
-      "name": "RAIFFEISEN-LANDESBANK STEIERMARK AG",
-      "short_name": "RAIFFEISEN-LANDESBANK STEIERMARK AG",
+      "name": "Raiffeisen-Landesbank Steiermark AG",
+      "short_name": "Raiffeisen-Landesbank Steiermark AG",
       "bank_codes": [
         "38000",
         "56000"
@@ -3469,8 +3469,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G215",
-      "name": "RAIFFEISENBANK REGION LIEZEN EGEN",
-      "short_name": "RAIFFEISENBANK REGION LIEZEN EGEN",
+      "name": "Raiffeisenbank Region Liezen eGen",
+      "short_name": "Raiffeisenbank Region Liezen eGen",
       "bank_codes": [
         "38001",
         "38215",
@@ -3481,8 +3481,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G187",
-      "name": "RAIFFEISENBANK WEIZ-ANGER EGEN",
-      "short_name": "RAIFFEISENBANK WEIZ-ANGER EGEN",
+      "name": "Raiffeisenbank Weiz-Anger eGen",
+      "short_name": "Raiffeisenbank Weiz-Anger eGen",
       "bank_codes": [
         "38010",
         "38187"
@@ -3492,8 +3492,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G023",
-      "name": "RAIFFEISENBANK OSTSTEIERMARK NORD EGEN",
-      "short_name": "RAIFFEISENBANK OSTSTEIERMARK NORD EGEN",
+      "name": "Raiffeisenbank Oststeiermark Nord eGen",
+      "short_name": "Raiffeisenbank Oststeiermark Nord eGen",
       "bank_codes": [
         "38023",
         "38041",
@@ -3505,8 +3505,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G282",
-      "name": "RAIFFEISENBANK PASSAIL EGEN",
-      "short_name": "RAIFFEISENBANK PASSAIL EGEN",
+      "name": "Raiffeisenbank Passail eGen",
+      "short_name": "Raiffeisenbank Passail eGen",
       "bank_codes": [
         "38026",
         "38282"
@@ -3516,8 +3516,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G487",
-      "name": "RAIFFEISENBANK WESTSTEIERMARK EGEN",
-      "short_name": "RAIFFEISENBANK WESTSTEIERMARK EGEN",
+      "name": "Raiffeisenbank Weststeiermark eGen",
+      "short_name": "Raiffeisenbank Weststeiermark eGen",
       "bank_codes": [
         "38043",
         "38053",
@@ -3531,8 +3531,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G252",
-      "name": "RAIFFEISENBANK NESTELBACH-EGGERSDORF EGEN",
-      "short_name": "RAIFFEISENBANK NESTELBACH-EGGERSDORF EGEN",
+      "name": "Raiffeisenbank Nestelbach-Eggersdorf eGen",
+      "short_name": "Raiffeisenbank Nestelbach-Eggersdorf eGen",
       "bank_codes": [
         "38055",
         "38252"
@@ -3542,8 +3542,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G056",
-      "name": "RAIFFEISENBANK S\u00dcD-WESTSTEIERMARK EGEN",
-      "short_name": "RAIFFEISENBANK S\u00dcD-WESTSTEIERMARK EGEN",
+      "name": "Raiffeisenbank S\u00fcd-Weststeiermark eGen",
+      "short_name": "Raiffeisenbank S\u00fcd-Weststeiermark eGen",
       "bank_codes": [
         "38056",
         "38407",
@@ -3554,8 +3554,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G071",
-      "name": "RAIFFEISENBANK REGION FEHRING EGEN",
-      "short_name": "RAIFFEISENBANK REGION FEHRING EGEN",
+      "name": "Raiffeisenbank Region Fehring eGen",
+      "short_name": "Raiffeisenbank Region Fehring eGen",
       "bank_codes": [
         "38071",
         "38132"
@@ -3565,8 +3565,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G210",
-      "name": "RAIFFEISENBANK KALSDORF-LIEBOCH-STAINZ EGEN",
-      "short_name": "RAIFFEISENBANK KALSDORF-LIEBOCH-STAINZ EGEN",
+      "name": "Raiffeisenbank Kalsdorf-Lieboch-Stainz eGen",
+      "short_name": "Raiffeisenbank Kalsdorf-Lieboch-Stainz eGen",
       "bank_codes": [
         "38072",
         "38210",
@@ -3577,8 +3577,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G075",
-      "name": "RAIFFEISENBANK MITTLERE S\u00dcDOSTSTEIERMARK EGEN",
-      "short_name": "RAIFFEISENBANK MITTLERE S\u00dcDOSTSTEIERMARK EGEN",
+      "name": "Raiffeisenbank Mittlere S\u00fcdoststeiermark eGen",
+      "short_name": "Raiffeisenbank Mittlere S\u00fcdoststeiermark eGen",
       "bank_codes": [
         "38075",
         "38171",
@@ -3589,8 +3589,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G346",
-      "name": "RAIFFEISENBANK AICHFELD EGEN",
-      "short_name": "RAIFFEISENBANK AICHFELD EGEN",
+      "name": "Raiffeisenbank Aichfeld eGen",
+      "short_name": "Raiffeisenbank Aichfeld eGen",
       "bank_codes": [
         "38076",
         "38346"
@@ -3600,8 +3600,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G077",
-      "name": "RAIFFEISENBANK REGION F\u00dcRSTENFELD EGEN",
-      "short_name": "RAIFFEISENBANK REGION F\u00dcRSTENFELD EGEN",
+      "name": "Raiffeisenbank Region F\u00fcrstenfeld eGen",
+      "short_name": "Raiffeisenbank Region F\u00fcrstenfeld eGen",
       "bank_codes": [
         "38077",
         "38122"
@@ -3611,8 +3611,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G094",
-      "name": "RAIFFEISENBANK GAMLITZ EGEN",
-      "short_name": "RAIFFEISENBANK GAMLITZ EGEN",
+      "name": "Raiffeisenbank Gamlitz eGen",
+      "short_name": "Raiffeisenbank Gamlitz eGen",
       "bank_codes": [
         "38094"
       ]
@@ -3621,8 +3621,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G102",
-      "name": "RAIFFEISENBANK GLEINST\u00c4TTEN-LEUTSCHACH-WILDON EGEN",
-      "short_name": "RAIFFEISENBANK GLEINST\u00c4TTEN-LEUTSCHACH-WILDON EGEN",
+      "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen",
+      "short_name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen",
       "bank_codes": [
         "38102",
         "38118",
@@ -3635,8 +3635,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G103",
-      "name": "RAIFFEISENBANK REGION GLEISDORF-PISCHELSDORF EGEN",
-      "short_name": "RAIFFEISENBANK REGION GLEISDORF-PISCHELSDORF EGEN",
+      "name": "Raiffeisenbank Region Gleisdorf-Pischelsdorf eGen",
+      "short_name": "Raiffeisenbank Region Gleisdorf-Pischelsdorf eGen",
       "bank_codes": [
         "38103",
         "38285",
@@ -3647,8 +3647,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G497",
-      "name": "RAIFFEISENBANK REGION FELDBACH EGEN",
-      "short_name": "RAIFFEISENBANK REGION FELDBACH EGEN",
+      "name": "Raiffeisenbank Region Feldbach eGen",
+      "short_name": "Raiffeisenbank Region Feldbach eGen",
       "bank_codes": [
         "38104",
         "38131",
@@ -3659,8 +3659,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G111",
-      "name": "RAIFFEISENBANK GRATKORN EGEN",
-      "short_name": "RAIFFEISENBANK GRATKORN EGEN",
+      "name": "Raiffeisenbank Gratkorn eGen",
+      "short_name": "Raiffeisenbank Gratkorn eGen",
       "bank_codes": [
         "38111"
       ]
@@ -3669,8 +3669,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G138",
-      "name": "RAIFFEISENBANK GRATWEIN-HITZENDORF EGEN",
-      "short_name": "RAIFFEISENBANK GRATWEIN-HITZENDORF EGEN",
+      "name": "Raiffeisenbank Gratwein-Hitzendorf eGen",
+      "short_name": "Raiffeisenbank Gratwein-Hitzendorf eGen",
       "bank_codes": [
         "38112",
         "38138",
@@ -3681,8 +3681,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G113",
-      "name": "RAIFFEISENBANK SCHLADMING-GR\u00d6BMING EGEN",
-      "short_name": "RAIFFEISENBANK SCHLADMING-GR\u00d6BMING EGEN",
+      "name": "Raiffeisenbank Schladming-Gr\u00f6bming eGen",
+      "short_name": "Raiffeisenbank Schladming-Gr\u00f6bming eGen",
       "bank_codes": [
         "38113",
         "38481"
@@ -3692,8 +3692,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G151",
-      "name": "RAIFFEISENBANK ILZ-GROSSSTEINBACH-RIEGERSBURG EGEN",
-      "short_name": "RAIFFEISENBANK ILZ-GROSSSTEINBACH-RIEGERSBURG EGEN",
+      "name": "Raiffeisenbank Ilz-Gro\u00dfsteinbach-Riegersburg eGen",
+      "short_name": "Raiffeisenbank Ilz-Gro\u00dfsteinbach-Riegersburg eGen",
       "bank_codes": [
         "38120",
         "38151",
@@ -3704,8 +3704,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G312",
-      "name": "RAIFFEISENBANK REGION RADKERSBURG EGEN",
-      "short_name": "RAIFFEISENBANK REGION RADKERSBURG EGEN",
+      "name": "Raiffeisenbank Region Radkersburg eGen",
+      "short_name": "Raiffeisenbank Region Radkersburg eGen",
       "bank_codes": [
         "38128",
         "38312",
@@ -3716,8 +3716,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G129",
-      "name": "RAIFFEISENBANK MARIAZELLERLAND EGEN",
-      "short_name": "RAIFFEISENBANK MARIAZELLERLAND EGEN",
+      "name": "Raiffeisenbank Mariazellerland eGen",
+      "short_name": "Raiffeisenbank Mariazellerland eGen",
       "bank_codes": [
         "38129"
       ]
@@ -3726,8 +3726,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G133",
-      "name": "RAIFFEISENBANK HAUSMANNST\u00c4TTEN EGEN",
-      "short_name": "RAIFFEISENBANK HAUSMANNST\u00c4TTEN EGEN",
+      "name": "Raiffeisenbank Hausmannst\u00e4tten eGen",
+      "short_name": "Raiffeisenbank Hausmannst\u00e4tten eGen",
       "bank_codes": [
         "38133"
       ]
@@ -3736,8 +3736,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G170",
-      "name": "RAIFFEISENBANK HEILIGENKREUZ-KIRCHBACH -ST. GEORGEN EGEN",
-      "short_name": "RAIFFEISENBANK HEILIGENKREUZ-KIRCHBACH -ST. GEORGEN EGEN",
+      "name": "Raiffeisenbank Heiligenkreuz-Kirchbach -St. Georgen eGen",
+      "short_name": "Raiffeisenbank Heiligenkreuz-Kirchbach -St. Georgen eGen",
       "bank_codes": [
         "38170",
         "38335"
@@ -3747,8 +3747,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G186",
-      "name": "RAIFFEISENBANK M\u00dcRZTAL EGEN",
-      "short_name": "RAIFFEISENBANK M\u00dcRZTAL EGEN",
+      "name": "Raiffeisenbank M\u00fcrztal eGen",
+      "short_name": "Raiffeisenbank M\u00fcrztal eGen",
       "bank_codes": [
         "38186",
         "38240"
@@ -3758,8 +3758,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G206",
-      "name": "RAIFFEISENBANK LEIBNITZ EGEN",
-      "short_name": "RAIFFEISENBANK LEIBNITZ EGEN",
+      "name": "Raiffeisenbank Leibnitz eGen",
+      "short_name": "Raiffeisenbank Leibnitz eGen",
       "bank_codes": [
         "38206"
       ]
@@ -3768,8 +3768,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G377",
-      "name": "RAIFFEISENBANK REGION GRAZ NORD EGEN",
-      "short_name": "RAIFFEISENBANK REGION GRAZ NORD EGEN",
+      "name": "Raiffeisenbank Region Graz Nord eGen",
+      "short_name": "Raiffeisenbank Region Graz Nord eGen",
       "bank_codes": [
         "38223",
         "38377"
@@ -3779,8 +3779,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G227",
-      "name": "RAIFFEISENBANK LIESINGTAL-ST. STEFAN EGEN",
-      "short_name": "RAIFFEISENBANK LIESINGTAL-ST. STEFAN EGEN",
+      "name": "Raiffeisenbank Liesingtal-St. Stefan eGen",
+      "short_name": "Raiffeisenbank Liesingtal-St. Stefan eGen",
       "bank_codes": [
         "38227",
         "38373"
@@ -3790,8 +3790,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G402",
-      "name": "RAIFFEISENBANK MURAU EGEN",
-      "short_name": "RAIFFEISENBANK MURAU EGEN",
+      "name": "Raiffeisenbank Murau eGen",
+      "short_name": "Raiffeisenbank Murau eGen",
       "bank_codes": [
         "38238",
         "38402",
@@ -3802,8 +3802,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G249",
-      "name": "RAIFFEISENBANK STEIRISCHES SALZKAMMERGUT-\u00d6BLARN EGEN",
-      "short_name": "RAIFFEISENBANK STEIRISCHES SALZKAMMERGUT-\u00d6BLARN EGEN",
+      "name": "Raiffeisenbank Steirisches Salzkammergut-\u00d6blarn eGen",
+      "short_name": "Raiffeisenbank Steirisches Salzkammergut-\u00d6blarn eGen",
       "bank_codes": [
         "38249",
         "38266"
@@ -3813,8 +3813,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZSTAT2G368",
-      "name": "RAIFFEISENBANK ZIRBENLAND EGEN",
-      "short_name": "RAIFFEISENBANK ZIRBENLAND EGEN",
+      "name": "Raiffeisenbank Zirbenland eGen",
+      "short_name": "Raiffeisenbank Zirbenland eGen",
       "bank_codes": [
         "38261",
         "38368"
@@ -3824,8 +3824,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G347",
-      "name": "RAIFFEISENBANK TURNAU-ST. LORENZEN EGEN",
-      "short_name": "RAIFFEISENBANK TURNAU-ST. LORENZEN EGEN",
+      "name": "Raiffeisenbank Turnau-St. Lorenzen eGen",
+      "short_name": "Raiffeisenbank Turnau-St. Lorenzen eGen",
       "bank_codes": [
         "38347",
         "38462"
@@ -3835,8 +3835,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G367",
-      "name": "RAIFFEISENBANK GRAZ-ST. PETER EGEN",
-      "short_name": "RAIFFEISENBANK GRAZ-ST. PETER EGEN",
+      "name": "Raiffeisenbank Graz-St. Peter eGen",
+      "short_name": "Raiffeisenbank Graz-St. Peter eGen",
       "bank_codes": [
         "38367"
       ]
@@ -3845,8 +3845,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G370",
-      "name": "RAIFFEISENBANK MURECK EGEN",
-      "short_name": "RAIFFEISENBANK MURECK EGEN",
+      "name": "Raiffeisenbank Mureck eGen",
+      "short_name": "Raiffeisenbank Mureck eGen",
       "bank_codes": [
         "38370"
       ]
@@ -3855,8 +3855,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G403",
-      "name": "RAIFFEISENBANK REGION HARTBERG EGEN",
-      "short_name": "RAIFFEISENBANK REGION HARTBERG EGEN",
+      "name": "Raiffeisenbank Region Hartberg eGen",
+      "short_name": "Raiffeisenbank Region Hartberg eGen",
       "bank_codes": [
         "38403",
         "38411"
@@ -3866,8 +3866,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G420",
-      "name": "RAIFFEISENBANK STRASS-SPIELFELD EGEN",
-      "short_name": "RAIFFEISENBANK STRASS-SPIELFELD EGEN",
+      "name": "Raiffeisenbank Stra\u00df-Spielfeld eGen",
+      "short_name": "Raiffeisenbank Stra\u00df-Spielfeld eGen",
       "bank_codes": [
         "38420"
       ]
@@ -3876,8 +3876,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G433",
-      "name": "RAIFFEISENBANK STALLHOFEN EGEN",
-      "short_name": "RAIFFEISENBANK STALLHOFEN EGEN",
+      "name": "Raiffeisenbank Stallhofen eGen",
+      "short_name": "Raiffeisenbank Stallhofen eGen",
       "bank_codes": [
         "38433"
       ]
@@ -3886,8 +3886,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G439",
-      "name": "RAIFFEISENBANK GRAZ-STRASSGANG EGEN",
-      "short_name": "RAIFFEISENBANK GRAZ-STRASSGANG EGEN",
+      "name": "Raiffeisenbank Graz-Stra\u00dfgang eGen",
+      "short_name": "Raiffeisenbank Graz-Stra\u00dfgang eGen",
       "bank_codes": [
         "38439"
       ]
@@ -3896,8 +3896,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZSTAT2G460",
-      "name": "RAIFFEISENBANK LEOBEN-BRUCK EGEN",
-      "short_name": "RAIFFEISENBANK LEOBEN-BRUCK EGEN",
+      "name": "Raiffeisenbank Leoben-Bruck eGen",
+      "short_name": "Raiffeisenbank Leoben-Bruck eGen",
       "bank_codes": [
         "38460"
       ]
@@ -3906,8 +3906,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2KXXX",
-      "name": "RAIFFEISEN LANDESBANK K\u00c4RNTEN UND REVISIONSVERBAND EGEN",
-      "short_name": "RAIFFEISEN LANDESBANK K\u00c4RNTEN UND REVISIONSVERBAND EGEN",
+      "name": "Raiffeisen Landesbank K\u00e4rnten und Revisionsverband eGen",
+      "short_name": "Raiffeisen Landesbank K\u00e4rnten und Revisionsverband eGen",
       "bank_codes": [
         "39000",
         "39358"
@@ -3917,8 +3917,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "VSGKAT2KXXX",
-      "name": "POSOJILNICA BANK EGEN",
-      "short_name": "POSOJILNICA BANK EGEN",
+      "name": "Posojilnica Bank eGen",
+      "short_name": "Posojilnica Bank eGen",
       "bank_codes": [
         "39100",
         "39101",
@@ -3934,8 +3934,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZKTAT2K475",
-      "name": "RAIFFEISENBANK MITTELK\u00c4RNTEN EG",
-      "short_name": "RAIFFEISENBANK MITTELK\u00c4RNTEN EG",
+      "name": "Raiffeisenbank Mittelk\u00e4rnten eG",
+      "short_name": "Raiffeisenbank Mittelk\u00e4rnten eG",
       "bank_codes": [
         "39254",
         "39255",
@@ -3951,8 +3951,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZKTAT2K496",
-      "name": "RAIFFEISENBANK REGION VILLACH EG",
-      "short_name": "RAIFFEISENBANK REGION VILLACH EG",
+      "name": "Raiffeisenbank Region Villach eG",
+      "short_name": "Raiffeisenbank Region Villach eG",
       "bank_codes": [
         "39257",
         "39305",
@@ -3965,8 +3965,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K267",
-      "name": "RAIFFEISEN-BEZIRKSBANK SPITTAL/DRAU, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISEN-BEZIRKSBANK SPITTAL/DRAU, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisen-Bezirksbank Spittal/Drau, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisen-Bezirksbank Spittal/Drau, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "39267"
       ]
@@ -3975,8 +3975,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZKTAT2K546",
-      "name": "RAIFFEISENBANK V\u00d6LKERMARKT-BLEIBURG-BR\u00dcCKL EGEN",
-      "short_name": "RAIFFEISENBANK V\u00d6LKERMARKT-BLEIBURG-BR\u00dcCKL EGEN",
+      "name": "Raiffeisenbank V\u00f6lkermarkt-Bleiburg-Br\u00fcckl eGen",
+      "short_name": "Raiffeisenbank V\u00f6lkermarkt-Bleiburg-Br\u00fcckl eGen",
       "bank_codes": [
         "39271",
         "39272",
@@ -3987,8 +3987,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K288",
-      "name": "RAIFFEISENBANK EBERNDORF REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISENBANK EBERNDORF REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisenbank Eberndorf registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisenbank Eberndorf registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "39288"
       ]
@@ -3997,8 +3997,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K292",
-      "name": "RAIFFEISENBANK UNTERES LAVANTTAL EGEN",
-      "short_name": "RAIFFEISENBANK UNTERES LAVANTTAL EGEN",
+      "name": "Raiffeisenbank Unteres Lavanttal eGen",
+      "short_name": "Raiffeisenbank Unteres Lavanttal eGen",
       "bank_codes": [
         "39292"
       ]
@@ -4007,8 +4007,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K320",
-      "name": "RAIFFEISENBANK GRAFENSTEIN-MAGDALENSBERG UND UMGEBUNG, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISENBANK GRAFENSTEIN-MAGDALENSBERG UND UMGEBUNG, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisenbank Grafenstein-Magdalensberg und Umgebung, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisenbank Grafenstein-Magdalensberg und Umgebung, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "39320"
       ]
@@ -4017,8 +4017,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZKTAT2K561",
-      "name": "RAIFFEISENBANK GROSSGLOCKNER-WEISSENSEE EG",
-      "short_name": "RAIFFEISENBANK GROSSGLOCKNER-WEISSENSEE EG",
+      "name": "Raiffeisenbank Gro\u00dfglockner-Weissensee eG",
+      "short_name": "Raiffeisenbank Gro\u00dfglockner-Weissensee eG",
       "bank_codes": [
         "39322",
         "39431",
@@ -4029,8 +4029,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZKTAT2K390",
-      "name": "RAIFFEISENBANK W\u00d6RTHERSEE-LANDSKRON-GEGENDTAL EG",
-      "short_name": "RAIFFEISENBANK W\u00d6RTHERSEE-LANDSKRON-GEGENDTAL EG",
+      "name": "Raiffeisenbank W\u00f6rthersee-Landskron-Gegendtal eG",
+      "short_name": "Raiffeisenbank W\u00f6rthersee-Landskron-Gegendtal eG",
       "bank_codes": [
         "39355",
         "39381",
@@ -4041,8 +4041,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K364",
-      "name": "RAIFFEISENBANK KARNISCHE REGION EG",
-      "short_name": "RAIFFEISENBANK KARNISCHE REGION EG",
+      "name": "Raiffeisenbank Karnische Region eG",
+      "short_name": "Raiffeisenbank Karnische Region eG",
       "bank_codes": [
         "39364",
         "39543"
@@ -4052,8 +4052,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZKTAT2K464",
-      "name": "RAIFFEISENBANK LIESER-MALTATAL EG",
-      "short_name": "RAIFFEISENBANK LIESER-MALTATAL EG",
+      "name": "Raiffeisenbank Lieser-Maltatal eG",
+      "short_name": "Raiffeisenbank Lieser-Maltatal eG",
       "bank_codes": [
         "39400",
         "39464"
@@ -4063,8 +4063,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZKTAT2K442",
-      "name": "RAIFFEISENBANK DRAUTAL REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISENBANK DRAUTAL REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisenbank Drautal registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisenbank Drautal registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "39404",
         "39442"
@@ -4074,8 +4074,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K411",
-      "name": "RAIFFEISENBANK MOOSBURG-TIGRING, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISENBANK MOOSBURG-TIGRING, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisenbank Moosburg-Tigring, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisenbank Moosburg-Tigring, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "39411"
       ]
@@ -4084,8 +4084,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K412",
-      "name": "RAIFFEISEN BANK LURNFELD-M\u00d6LLTAL EGEN",
-      "short_name": "RAIFFEISEN BANK LURNFELD-M\u00d6LLTAL EGEN",
+      "name": "Raiffeisen Bank Lurnfeld-M\u00f6lltal eGen",
+      "short_name": "Raiffeisen Bank Lurnfeld-M\u00f6lltal eGen",
       "bank_codes": [
         "39412",
         "39436"
@@ -4095,8 +4095,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K457",
-      "name": "RAIFFEISENBANK NOCKBERGE EGEN",
-      "short_name": "RAIFFEISENBANK NOCKBERGE EGEN",
+      "name": "Raiffeisenbank Nockberge eGen",
+      "short_name": "Raiffeisenbank Nockberge eGen",
       "bank_codes": [
         "39457",
         "39461"
@@ -4106,8 +4106,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZKTAT2K481",
-      "name": "RAIFFEISENBANK MITTLERES LAVANTTAL EGEN",
-      "short_name": "RAIFFEISENBANK MITTLERES LAVANTTAL EGEN",
+      "name": "Raiffeisenbank Mittleres Lavanttal eGen",
+      "short_name": "Raiffeisenbank Mittleres Lavanttal eGen",
       "bank_codes": [
         "39465",
         "39481"
@@ -4117,8 +4117,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K479",
-      "name": "RAIFFEISENBANK MILLST\u00c4TTERSEE EG",
-      "short_name": "RAIFFEISENBANK MILLST\u00c4TTERSEE EG",
+      "name": "Raiffeisenbank Millst\u00e4ttersee eG",
+      "short_name": "Raiffeisenbank Millst\u00e4ttersee eG",
       "bank_codes": [
         "39479"
       ]
@@ -4127,8 +4127,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K487",
-      "name": "RAIFFEISENBANK ROSENTAL, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISENBANK ROSENTAL, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisenbank Rosental, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisenbank Rosental, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "39487"
       ]
@@ -4137,8 +4137,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K491",
-      "name": "RAIFFEISENBANK OBERES LAVANTTAL - ST. PAUL EG",
-      "short_name": "RAIFFEISENBANK OBERES LAVANTTAL - ST. PAUL EG",
+      "name": "Raiffeisenbank Oberes Lavanttal - St. Paul eG",
+      "short_name": "Raiffeisenbank Oberes Lavanttal - St. Paul eG",
       "bank_codes": [
         "39491",
         "39500"
@@ -4148,8 +4148,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K501",
-      "name": "RAIFFEISENBANK FRIESACH-METNITZTAL, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISENBANK FRIESACH-METNITZTAL, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisenbank Friesach-Metnitztal, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisenbank Friesach-Metnitztal, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "39501"
       ]
@@ -4158,8 +4158,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K510",
-      "name": "RAIFFEISENBANK OSSIACHER SEE EG",
-      "short_name": "RAIFFEISENBANK OSSIACHER SEE EG",
+      "name": "Raiffeisenbank Ossiacher See eG",
+      "short_name": "Raiffeisenbank Ossiacher See eG",
       "bank_codes": [
         "39510"
       ]
@@ -4168,8 +4168,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RZKTAT2K559",
-      "name": "RAIFFEISENBANK WERNBERG, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
-      "short_name": "RAIFFEISENBANK WERNBERG, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "name": "Raiffeisenbank Wernberg, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "short_name": "Raiffeisenbank Wernberg, registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
       "bank_codes": [
         "39559"
       ]
@@ -4178,8 +4178,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "VBOEATWWNOM",
-      "name": "VOLKSBANK NIEDER\u00d6STERREICH AG",
-      "short_name": "VOLKSBANK NIEDER\u00d6STERREICH AG",
+      "name": "Volksbank Nieder\u00f6sterreich AG",
+      "short_name": "Volksbank Nieder\u00f6sterreich AG",
       "bank_codes": [
         "40170",
         "40630",
@@ -4196,8 +4196,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "VBOEATWWSAL",
-      "name": "VOLKSBANK SALZBURG EG",
-      "short_name": "VOLKSBANK SALZBURG EG",
+      "name": "Volksbank Salzburg eG",
+      "short_name": "Volksbank Salzburg eG",
       "bank_codes": [
         "40720",
         "42740",
@@ -4211,8 +4211,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "OVLIAT21XXX",
-      "name": "DOLOMITENBANK OSTTIROL-WESTK\u00c4RNTEN EG",
-      "short_name": "DOLOMITENBANK OSTTIROL-WESTK\u00c4RNTEN EG",
+      "name": "DolomitenBank Osttirol-Westk\u00e4rnten eG",
+      "short_name": "DolomitenBank Osttirol-Westk\u00e4rnten eG",
       "bank_codes": [
         "40730",
         "43380",
@@ -4223,8 +4223,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "MVOGAT22XXX",
-      "name": "MARCHFELDER BANK EG",
-      "short_name": "MARCHFELDER BANK EG",
+      "name": "Marchfelder Bank eG",
+      "short_name": "Marchfelder Bank eG",
       "bank_codes": [
         "42110"
       ]
@@ -4233,8 +4233,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "VBOEATWWKLA",
-      "name": "VOLKSBANK K\u00c4RNTEN EG",
-      "short_name": "VOLKSBANK K\u00c4RNTEN EG",
+      "name": "Volksbank K\u00e4rnten eG",
+      "short_name": "Volksbank K\u00e4rnten eG",
       "bank_codes": [
         "42130",
         "42600",
@@ -4246,8 +4246,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "VBOEATWWGRA",
-      "name": "VOLKSBANK STEIERMARK AG",
-      "short_name": "VOLKSBANK STEIERMARK AG",
+      "name": "Volksbank Steiermark AG",
+      "short_name": "Volksbank Steiermark AG",
       "bank_codes": [
         "42320",
         "43030",
@@ -4262,8 +4262,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "VBOEATWWINN",
-      "name": "VOLKSBANK TIROL AG",
-      "short_name": "VOLKSBANK TIROL AG",
+      "name": "Volksbank Tirol AG",
+      "short_name": "Volksbank Tirol AG",
       "bank_codes": [
         "42390",
         "43770",
@@ -4274,8 +4274,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "VBOEATWWOOE",
-      "name": "VOLKSBANK OBER\u00d6STERREICH AG",
-      "short_name": "VOLKSBANK OBER\u00d6STERREICH AG",
+      "name": "Volksbank Ober\u00f6sterreich AG",
+      "short_name": "Volksbank Ober\u00f6sterreich AG",
       "bank_codes": [
         "42550",
         "42630",
@@ -4292,8 +4292,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "ABVRATW1XXX",
-      "name": "START:BAUSPARKASSE AG",
-      "short_name": "START:BAUSPARKASSE AG",
+      "name": "start:bausparkasse AG",
+      "short_name": "start:bausparkasse AG",
       "bank_codes": [
         "43510"
       ]
@@ -4302,8 +4302,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "WSPKATW1XXX",
-      "name": "WSK BANK AG",
-      "short_name": "WSK BANK AG",
+      "name": "WSK Bank AG",
+      "short_name": "WSK Bank AG",
       "bank_codes": [
         "44960"
       ]
@@ -4312,8 +4312,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "VBOEATWWVBG",
-      "name": "VOLKSBANK VORARLBERG E. GEN.",
-      "short_name": "VOLKSBANK VORARLBERG E. GEN.",
+      "name": "VOLKSBANK VORARLBERG e. Gen.",
+      "short_name": "VOLKSBANK VORARLBERG e. Gen.",
       "bank_codes": [
         "45710"
       ]
@@ -4322,8 +4322,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "EHBBAT2EXXX",
-      "name": "HYPO-BANK BURGENLAND AKTIENGESELLSCHAFT",
-      "short_name": "HYPO-BANK BURGENLAND AKTIENGESELLSCHAFT",
+      "name": "HYPO-BANK BURGENLAND Aktiengesellschaft",
+      "short_name": "HYPO-BANK BURGENLAND Aktiengesellschaft",
       "bank_codes": [
         "51000"
       ]
@@ -4332,8 +4332,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "HAABAT2KXXX",
-      "name": "AUSTRIAN ANADI BANK AG",
-      "short_name": "AUSTRIAN ANADI BANK AG",
+      "name": "Austrian Anadi Bank AG",
+      "short_name": "Austrian Anadi Bank AG",
       "bank_codes": [
         "52000"
       ]
@@ -4342,8 +4342,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "HSEEAT2KXXX",
-      "name": "ADDIKO BANK AG",
-      "short_name": "ADDIKO BANK AG",
+      "name": "Addiko Bank AG",
+      "short_name": "Addiko Bank AG",
       "bank_codes": [
         "52300"
       ]
@@ -4352,8 +4352,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "HYPNATWWXXX",
-      "name": "HYPO NOE LANDESBANK F\u00dcR NIEDER\u00d6STERREICH UND WIEN AG",
-      "short_name": "HYPO NOE LANDESBANK F\u00dcR NIEDER\u00d6STERREICH UND WIEN AG",
+      "name": "HYPO NOE Landesbank f\u00fcr Nieder\u00f6sterreich und Wien AG",
+      "short_name": "HYPO NOE Landesbank f\u00fcr Nieder\u00f6sterreich und Wien AG",
       "bank_codes": [
         "53000"
       ]
@@ -4362,8 +4362,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "HYPNATWWLDS",
-      "name": "HYPO NOE LANDESBANK F\u00dcR NIEDER\u00d6STERREICH UND WIEN AG",
-      "short_name": "HYPO NOE LANDESBANK F\u00dcR NIEDER\u00d6STERREICH UND WIEN AG",
+      "name": "HYPO NOE Landesbank f\u00fcr Nieder\u00f6sterreich und Wien AG",
+      "short_name": "HYPO NOE Landesbank f\u00fcr Nieder\u00f6sterreich und Wien AG",
       "bank_codes": [
         "53100"
       ]
@@ -4372,8 +4372,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "OBLAAT2LXXX",
-      "name": "OBER\u00d6STERREICHISCHE LANDESBANK AKTIENGESELLSCHAFT",
-      "short_name": "OBER\u00d6STERREICHISCHE LANDESBANK AKTIENGESELLSCHAFT",
+      "name": "Ober\u00f6sterreichische Landesbank Aktiengesellschaft",
+      "short_name": "Ober\u00f6sterreichische Landesbank Aktiengesellschaft",
       "bank_codes": [
         "54000"
       ]
@@ -4382,8 +4382,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "SLHYAT2SXXX",
-      "name": "RAIFFEISENLANDESBANK OBER\u00d6STERREICH AKTIENGESELLSCHAFT",
-      "short_name": "RAIFFEISENLANDESBANK OBER\u00d6STERREICH AKTIENGESELLSCHAFT",
+      "name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
+      "short_name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
       "bank_codes": [
         "55000"
       ]
@@ -4392,8 +4392,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "SLHYAT2S500",
-      "name": "RAIFFEISENLANDESBANK OBER\u00d6STERREICH AKTIENGESELLSCHAFT",
-      "short_name": "RAIFFEISENLANDESBANK OBER\u00d6STERREICH AKTIENGESELLSCHAFT",
+      "name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
+      "short_name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
       "bank_codes": [
         "55500"
       ]
@@ -4413,8 +4413,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "HYPVAT2BXXX",
-      "name": "HYPO VORARLBERG BANK AG",
-      "short_name": "HYPO VORARLBERG BANK AG",
+      "name": "Hypo Vorarlberg Bank AG",
+      "short_name": "Hypo Vorarlberg Bank AG",
       "bank_codes": [
         "58000"
       ]
@@ -4433,8 +4433,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "PORCAT21XXX",
-      "name": "PORSCHE BANK AKTIENGESELLSCHAFT",
-      "short_name": "PORSCHE BANK AKTIENGESELLSCHAFT",
+      "name": "Porsche Bank Aktiengesellschaft",
+      "short_name": "Porsche Bank Aktiengesellschaft",
       "bank_codes": [
         "76000"
       ]
@@ -4443,8 +4443,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "VIAUATW1XXX",
-      "name": "CARD COMPLETE SERVICE BANK AG",
-      "short_name": "CARD COMPLETE SERVICE BANK AG",
+      "name": "card complete Service Bank AG",
+      "short_name": "card complete Service Bank AG",
       "bank_codes": [
         "76022",
         "76040"
@@ -4454,8 +4454,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "TEAMDE71TAT",
-      "name": "TEAMBANK \u00d6STERREICH - NIEDERLASSUNG DER TEAMBANK AG N\u00dcRNBERG",
-      "short_name": "TEAMBANK \u00d6STERREICH - NIEDERLASSUNG DER TEAMBANK AG N\u00dcRNBERG",
+      "name": "TeamBank \u00d6sterreich - Niederlassung der TeamBank AG N\u00fcrnberg",
+      "short_name": "TeamBank \u00d6sterreich - Niederlassung der TeamBank AG N\u00fcrnberg",
       "bank_codes": [
         "76032"
       ]
@@ -4464,8 +4464,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "BUNDATWWXXX",
-      "name": "REPUBLIK \u00d6STERREICH",
-      "short_name": "REPUBLIK \u00d6STERREICH",
+      "name": "Republik \u00d6sterreich",
+      "short_name": "Republik \u00d6sterreich",
       "bank_codes": [
         "01000"
       ]
@@ -4474,8 +4474,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "CENBATWWRDB",
-      "name": "RAIFFEISEN DIGITAL BANK AG",
-      "short_name": "RAIFFEISEN DIGITAL BANK AG",
+      "name": "Raiffeisen Digital Bank AG",
+      "short_name": "Raiffeisen Digital Bank AG",
       "bank_codes": [
         "19931"
       ]
@@ -4484,8 +4484,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZBAATWWVAM",
-      "name": "RAIFFEISEN BANK INTERNATIONAL AG",
-      "short_name": "RAIFFEISEN BANK INTERNATIONAL AG",
+      "name": "Raiffeisen Bank International AG",
+      "short_name": "Raiffeisen Bank International AG",
       "bank_codes": [
         "31111"
       ]
@@ -4494,8 +4494,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "RZBAATWWREC",
-      "name": "RAIFFEISEN BANK INTERNATIONAL AG",
-      "short_name": "RAIFFEISEN BANK INTERNATIONAL AG",
+      "name": "Raiffeisen Bank International AG",
+      "short_name": "Raiffeisen Bank International AG",
       "bank_codes": [
         "31112"
       ]
