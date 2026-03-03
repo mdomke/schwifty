@@ -3,6 +3,8 @@ from typing import Any
 
 import requests
 
+from scripts.remap import convert_to_v2
+
 
 URL = "https://api.six-group.com/api/epcd/bankmaster/v3/bankmaster.json"
 
@@ -11,7 +13,7 @@ def fetch() -> list[dict[str, Any]]:
     return requests.get(URL).json()["entries"]
 
 
-def process(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def process(records: list[dict[str, Any]]) -> dict[str, Any]:
     registry: list[dict[str, Any]] = []
 
     for record in records:
@@ -30,9 +32,9 @@ def process(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 "primary": record["iidType"] == "HEADQUARTERS",
             }
         )
-    return registry
+    return convert_to_v2(registry)
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_ch.json", "w") as fp:
+    with open("schwifty/bank_registry/generated_ch.v2.json", "w") as fp:
         json.dump(process(fetch()), fp, indent=2)

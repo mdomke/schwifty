@@ -1,0 +1,6413 @@
+{
+  "entries": [
+    {
+      "name": "Schweizerische Nationalbank",
+      "short_name": "Schweizerische Nationalbank",
+      "bic": "SNBZCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00100",
+        "00110",
+        "00115"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Uster 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH86N",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00202"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Arbon",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH93A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00203"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Arosa",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH70E",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00204"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH80V",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00206"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - B\u00fclach",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH81M",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00207"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Chur",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH70A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00208"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Davos Platz 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH72D",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00209"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Brugg AG",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH52A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00210"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - D\u00fcdingen",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH31A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00211"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Altst\u00e4tten SG",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH94N",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00213"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Horgen 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH88A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00214"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Gen\u00e8ve 2",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH12C",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00215"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Lachen SZ",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH88B",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00216"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Kreuzlingen 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH82P",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00217"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Weinfelden",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH85B",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00219"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Buchs SG 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH94P",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00220"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - St. Moritz 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH75A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00221"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Wallisellen",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH83B",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00222"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Dietikon 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH89D",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00223"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH80G",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00225"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Porrentruy 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH29A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00226"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Thun",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH36A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00227"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Nyon 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH12T",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00228"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH80A",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00230",
+        "00271",
+        "00286",
+        "00298",
+        "30005",
+        "30308"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Aarau",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH50A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00231"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Baden",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH54A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00232"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Basel",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH40A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00233"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Bellinzona",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH65A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00234"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Bern 94",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH30A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00235"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Chiasso 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH68B",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00236"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Meilen",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH87C",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00238"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Frauenfeld",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH85A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00239"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Gen\u00e8ve 2",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH12A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00240"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Interlaken",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH38A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00241"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Chaux-de-Fonds, La",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH23A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00242"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Lausanne",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH10A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00243"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Lichtensteig",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH96C",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00244"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Liestal",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH44A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00245"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Locarno 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH66A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00246"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Lugano",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH69A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00247"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Luzern",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH60A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00248"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Montreux 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH18D",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00249"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Rapperswil SG",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH86M",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00250"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH80H",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00251"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Rorschach",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH94A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00252"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - R\u00fcti ZH",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH86P",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00253"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - St. Gallen",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH90A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00254"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Vevey 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH18A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00255"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Wil SG 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH95A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00256"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Winterthur",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH84A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00257"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Wohlen AG 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH56B",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00258"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Zollikon",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH87B",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00259"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Fribourg",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH17A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00260"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Olten",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH46A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00261"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Solothurn",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH45A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00262"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Brig/Brigue",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH39A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00263"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Martigny 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH19B",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00264"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Sion/Sitten",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH19E",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00265"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Bulle",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH16C",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00266"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH80K",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00267"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Sierre/Siders",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH39L",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00268"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH80M",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00269"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH80N",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00270"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Biel/Bienne",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH25A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00272"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Zug",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH63A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00273"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH80Q",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00274"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH80R",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00275"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Affoltern am Albis",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH89E",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00276"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Monthey 2",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH18L",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00277"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Kloten",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH83A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00278"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Gen\u00e8ve 2",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH12B",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00279"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Glattbrugg",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH81H",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00283"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Glarus",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH87D",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00284"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH80P",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00285"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Schaffhausen",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH82A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00287"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Emmenbr\u00fccke 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH60G",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00288"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Neuch\u00e2tel",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH20A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00290"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Regensdorf 1",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH81A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00291"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Basel",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH40M",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00292"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - R\u00fcschlikon",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH88C",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00293"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Visp/Vi\u00e8ge",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH39G",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00294"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - St. Margrethen SG",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH94F",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00295"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Wetzikon ZH 2",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH86Q",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00296"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Yverdon-les-Bains",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH14A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00297"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZHW03",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00303"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZHW04",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00304"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZHW05",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00305"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZHW06",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00306"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZHW08",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "00308"
+      ]
+    },
+    {
+      "name": "UBS AG",
+      "short_name": "UBS AG",
+      "bic": "UBSBCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00315"
+      ]
+    },
+    {
+      "name": "Z\u00fcrcher Kantonalbank",
+      "short_name": "Z\u00fcrcher Kantonalbank",
+      "bic": "ZKBKCHZZ80A",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00700",
+        "00702",
+        "00703",
+        "00704",
+        "00705",
+        "00706",
+        "00708",
+        "00709",
+        "00710",
+        "00711",
+        "00712",
+        "00713",
+        "00714",
+        "00715",
+        "00716",
+        "00717",
+        "00718",
+        "00719",
+        "00720",
+        "00721",
+        "00722",
+        "00723",
+        "00724",
+        "00725",
+        "00726",
+        "00727",
+        "00728",
+        "00729",
+        "00730",
+        "00731",
+        "00732",
+        "00733",
+        "00734",
+        "00735",
+        "00736",
+        "00737",
+        "00738",
+        "00739",
+        "00740",
+        "00741",
+        "00742",
+        "00743",
+        "00744",
+        "00745",
+        "00746",
+        "00747",
+        "00748",
+        "00749",
+        "00750",
+        "00751",
+        "00752",
+        "00753",
+        "00754",
+        "00755",
+        "00756",
+        "00757",
+        "00758",
+        "00759",
+        "30700"
+      ]
+    },
+    {
+      "name": "Aargauische Kantonalbank",
+      "short_name": "Aargauische Kantonalbank",
+      "bic": "KBAGCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00761",
+        "30761"
+      ]
+    },
+    {
+      "name": "Appenzeller Kantonalbank",
+      "short_name": "Appenzeller Kantonalbank",
+      "bic": "AIKACH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00763",
+        "30763"
+      ]
+    },
+    {
+      "name": "Banca dello Stato del Cantone Ticino",
+      "short_name": "Banca dello Stato del Cantone Ticino",
+      "bic": "BSCTCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00764",
+        "30764",
+        "76411",
+        "76412",
+        "76440",
+        "76450",
+        "76460",
+        "76470"
+      ]
+    },
+    {
+      "name": "Banque Cantonale du Valais",
+      "short_name": "Banque Cantonale du Valais",
+      "bic": "BCVSCH2LXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00765",
+        "30765"
+      ]
+    },
+    {
+      "name": "Banque Cantonale Neuch\u00e2teloise",
+      "short_name": "Banque Cantonale Neuch\u00e2teloise",
+      "bic": "BCNNCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00766",
+        "30766"
+      ]
+    },
+    {
+      "name": "Banque Cantonale Vaudoise",
+      "short_name": "Banque Cantonale Vaudoise",
+      "bic": "BCVLCH2LXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00767",
+        "30767",
+        "76711",
+        "76712",
+        "76713",
+        "76714",
+        "76715",
+        "76716",
+        "76717",
+        "76718",
+        "76719",
+        "76720",
+        "76721",
+        "76722",
+        "76723",
+        "76724",
+        "76725",
+        "76726",
+        "76727",
+        "76728",
+        "76729",
+        "76730",
+        "76731",
+        "76732",
+        "76733",
+        "76734",
+        "76735",
+        "76736",
+        "76737",
+        "76738",
+        "76739",
+        "76740",
+        "76741",
+        "76742",
+        "76743",
+        "76744",
+        "76745",
+        "76746",
+        "76747",
+        "76748",
+        "76749",
+        "76750",
+        "76751",
+        "76752",
+        "76753",
+        "76754",
+        "76755",
+        "76756",
+        "76758",
+        "76761",
+        "76762",
+        "76763",
+        "76764",
+        "76765",
+        "76766"
+      ]
+    },
+    {
+      "name": "Banque Cantonale de Fribourg",
+      "short_name": "Banque Cantonale de Fribourg",
+      "bic": "BEFRCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00768",
+        "30768",
+        "76822",
+        "76823",
+        "76824",
+        "76826",
+        "76827",
+        "76828",
+        "76830",
+        "76833",
+        "76834",
+        "76835",
+        "76837",
+        "76838",
+        "76839",
+        "76840",
+        "76841",
+        "76842",
+        "76843"
+      ]
+    },
+    {
+      "name": "Basellandschaftliche Kantonalbank",
+      "short_name": "Basellandschaftliche Kantonalbank",
+      "bic": "BLKBCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00769",
+        "30769"
+      ]
+    },
+    {
+      "name": "Basler Kantonalbank",
+      "short_name": "Basler Kantonalbank",
+      "bic": "BKBBCHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00770",
+        "30770"
+      ]
+    },
+    {
+      "name": "Glarner Kantonalbank",
+      "short_name": "Glarner Kantonalbank",
+      "bic": "GLKBCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00773",
+        "30773"
+      ]
+    },
+    {
+      "name": "Graub\u00fcndner Kantonalbank",
+      "short_name": "Graub\u00fcndner Kantonalbank",
+      "bic": "GRKBCH2270A",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00774",
+        "30774"
+      ]
+    },
+    {
+      "name": "Schwyzer Kantonalbank",
+      "short_name": "Schwyzer Kantonalbank",
+      "bic": "KBSZCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00777",
+        "30777",
+        "77711",
+        "77712",
+        "77713",
+        "77714",
+        "77715",
+        "77716",
+        "77717",
+        "77718",
+        "77719",
+        "77720",
+        "77721",
+        "77722",
+        "77723",
+        "77724",
+        "77725",
+        "77726",
+        "77727",
+        "77728",
+        "77729",
+        "77730",
+        "77731",
+        "77732",
+        "77733",
+        "77734"
+      ]
+    },
+    {
+      "name": "Luzerner Kantonalbank AG",
+      "short_name": "Luzerner Kantonalbank AG",
+      "bic": "LUKBCH2260A",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00778",
+        "30778",
+        "77811",
+        "77812",
+        "77813",
+        "77814",
+        "77815",
+        "77816",
+        "77817",
+        "77818",
+        "77819",
+        "77820",
+        "77821",
+        "77823",
+        "77824",
+        "77825",
+        "77828",
+        "77829",
+        "77860"
+      ]
+    },
+    {
+      "name": "Nidwaldner Kantonalbank",
+      "short_name": "Nidwaldner Kantonalbank",
+      "bic": "NIKACH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00779",
+        "30779"
+      ]
+    },
+    {
+      "name": "Obwaldner Kantonalbank",
+      "short_name": "Obwaldner Kantonalbank",
+      "bic": "OBWKCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00780",
+        "30780"
+      ]
+    },
+    {
+      "name": "St. Galler Kantonalbank AG",
+      "short_name": "St. Galler Kantonalbank AG",
+      "bic": "KBSGCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00781",
+        "30781",
+        "78102",
+        "78103",
+        "78111",
+        "78112",
+        "78113",
+        "78114",
+        "78115",
+        "78116",
+        "78117",
+        "78118",
+        "78119",
+        "78120",
+        "78121",
+        "78122",
+        "78123",
+        "78124",
+        "78125",
+        "78126",
+        "78127",
+        "78128",
+        "78129",
+        "78130",
+        "78131",
+        "78132",
+        "78158"
+      ]
+    },
+    {
+      "name": "Schaffhauser Kantonalbank",
+      "short_name": "Schaffhauser Kantonalbank",
+      "bic": "SHKBCH2SXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00782",
+        "30782",
+        "78213"
+      ]
+    },
+    {
+      "name": "Thurgauer Kantonalbank",
+      "short_name": "Thurgauer Kantonalbank",
+      "bic": "KBTGCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00784",
+        "30784"
+      ]
+    },
+    {
+      "name": "Urner Kantonalbank",
+      "short_name": "Urner Kantonalbank",
+      "bic": "URKNCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00785",
+        "30785"
+      ]
+    },
+    {
+      "name": "Zuger Kantonalbank",
+      "short_name": "Zuger Kantonalbank",
+      "bic": "KBZGCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00787",
+        "30787"
+      ]
+    },
+    {
+      "name": "Banque Cantonale de Gen\u00e8ve",
+      "short_name": "Banque Cantonale de Gen\u00e8ve",
+      "bic": "BCGECHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00788",
+        "30788"
+      ]
+    },
+    {
+      "name": "Banque Cantonale du Jura SA",
+      "short_name": "Banque Cantonale du Jura SA",
+      "bic": "BCJUCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00789",
+        "30789",
+        "78910",
+        "78920"
+      ]
+    },
+    {
+      "name": "Berner Kantonalbank AG",
+      "short_name": "Berner Kantonalbank AG",
+      "bic": "KBBECH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00790",
+        "30790"
+      ]
+    },
+    {
+      "name": "Schweizerische Nationalbank Transit wCBDC",
+      "short_name": "Schweizerische Nationalbank Transit wCBDC",
+      "bic": "SNBZCHZZDX2",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "01007"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG (formerly Credit Suisse)",
+      "short_name": "UBS Switzerland AG (formerly Credit Suisse)",
+      "bic": "CRESCHZZ80A",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "04835",
+        "31000"
+      ]
+    },
+    {
+      "name": "UBS AG (formerly Credit Suisse)",
+      "short_name": "UBS AG (formerly Credit Suisse)",
+      "bic": "CRESCHZHXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "04866",
+        "31866"
+      ]
+    },
+    {
+      "name": "Cr\u00e9dit Mutuel de la Vall\u00e9e SA",
+      "short_name": "Cr\u00e9dit Mutuel de la Vall\u00e9e SA",
+      "bic": "RBABCH22180",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06180",
+        "30020"
+      ]
+    },
+    {
+      "name": "Caisse d'Epargne de Cossonay soci\u00e9t\u00e9 coop\u00e9rative",
+      "short_name": "Caisse d'Epargne de Cossonay soci\u00e9t\u00e9 coop\u00e9rative",
+      "bic": "RBABCH22182",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06182",
+        "30021"
+      ]
+    },
+    {
+      "name": "Sparkasse Sense",
+      "short_name": "Sparkasse Sense",
+      "bic": "RBABCH22186",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06186",
+        "30022",
+        "61861"
+      ]
+    },
+    {
+      "name": "Caisse d'Epargne Courtelary SA",
+      "short_name": "Caisse d'Epargne Courtelary SA",
+      "bic": "RBABCH22240",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06240",
+        "30023",
+        "62401",
+        "62402",
+        "62403"
+      ]
+    },
+    {
+      "name": "Valiant Bank AG",
+      "short_name": "Valiant Bank AG",
+      "bic": "VABECH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06300",
+        "30024"
+      ]
+    },
+    {
+      "name": "Bernerland Bank AG",
+      "short_name": "Bernerland Bank AG",
+      "bic": "RBABCH22313",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06313",
+        "30026"
+      ]
+    },
+    {
+      "name": "Clientis AG",
+      "short_name": "Clientis AG",
+      "bic": "RBABCH22CLI",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06336"
+      ]
+    },
+    {
+      "name": "SB Saanen Bank AG",
+      "short_name": "SB Saanen Bank AG",
+      "bic": "RBABCH22342",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06342",
+        "30027"
+      ]
+    },
+    {
+      "name": "Bank SLM AG",
+      "short_name": "Bank SLM AG",
+      "bic": "RBABCH22363",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06363",
+        "30028"
+      ]
+    },
+    {
+      "name": "Spar+Leihkasse Riggisberg AG",
+      "short_name": "Spar+Leihkasse Riggisberg AG",
+      "bic": "RBABCH22374",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06374",
+        "30029"
+      ]
+    },
+    {
+      "name": "Burgerliche Ersparniskasse Bern Genossenschaft",
+      "short_name": "Burgerliche Ersparniskasse Bern Genossenschaft",
+      "bic": "RBABCH22382",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06382",
+        "30030"
+      ]
+    },
+    {
+      "name": "Ersparniskasse Affoltern i. E. AG",
+      "short_name": "Ersparniskasse Affoltern i. E. AG",
+      "bic": "RBABCH22387",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06387",
+        "30031"
+      ]
+    },
+    {
+      "name": "Entris Banking AG",
+      "short_name": "Entris Banking AG",
+      "bic": "RBABCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06395",
+        "30032"
+      ]
+    },
+    {
+      "name": "Clientis Sparkasse Oftringen Genossenschaft",
+      "short_name": "Clientis Sparkasse Oftringen Genossenschaft",
+      "bic": "RBABCH22428",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06428",
+        "30033"
+      ]
+    },
+    {
+      "name": "Clientis Bank im Thal AG",
+      "short_name": "Clientis Bank im Thal AG",
+      "bic": "RBABCH22434",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06434",
+        "30034"
+      ]
+    },
+    {
+      "name": "Bank Oberaargau AG",
+      "short_name": "Bank Oberaargau AG",
+      "bic": "RBABCH22450",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06450",
+        "30035"
+      ]
+    },
+    {
+      "name": "Clientis Bank Aareland AG",
+      "short_name": "Clientis Bank Aareland AG",
+      "bic": "RBABCH22575",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06575",
+        "30036"
+      ]
+    },
+    {
+      "name": "Bank Leerau Genossenschaft",
+      "short_name": "Bank Leerau Genossenschaft",
+      "bic": "RBABCH22588",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06588",
+        "30037"
+      ]
+    },
+    {
+      "name": "Sparkasse Schwyz AG",
+      "short_name": "Sparkasse Schwyz AG",
+      "bic": "RBABCH22633",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06633",
+        "30038"
+      ]
+    },
+    {
+      "name": "Clientis Entlebucher Bank AG",
+      "short_name": "Clientis Entlebucher Bank AG",
+      "bic": "RBABCH22670",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06670",
+        "30040",
+        "66701",
+        "66702"
+      ]
+    },
+    {
+      "name": "GRB Glarner Regionalbank Genossenschaft",
+      "short_name": "GRB Glarner Regionalbank Genossenschaft",
+      "bic": "RBABCH22807",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06807",
+        "30042"
+      ]
+    },
+    {
+      "name": "Sparhafen Bank AG",
+      "short_name": "Sparhafen Bank AG",
+      "bic": "BSZHCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06808",
+        "30043"
+      ]
+    },
+    {
+      "name": "Sparcassa 1816 Genossenschaft",
+      "short_name": "Sparcassa 1816 Genossenschaft",
+      "bic": "RBABCH22814",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06814",
+        "30044",
+        "68141",
+        "68142",
+        "68143",
+        "68144"
+      ]
+    },
+    {
+      "name": "BANK ZIMMERBERG AG",
+      "short_name": "BANK ZIMMERBERG AG",
+      "bic": "RBABCH22824",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06824",
+        "30045",
+        "68241",
+        "68242"
+      ]
+    },
+    {
+      "name": "Regiobank M\u00e4nnedorf AG",
+      "short_name": "Regiobank M\u00e4nnedorf AG",
+      "bic": "RBABCH22828",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06828",
+        "30046"
+      ]
+    },
+    {
+      "name": "Lienhardt & Partner Privatbank Z\u00fcrich AG",
+      "short_name": "Lienhardt & Partner Privatbank Z\u00fcrich AG",
+      "bic": "RBABCH22830",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06830",
+        "30047"
+      ]
+    },
+    {
+      "name": "Ersparniskasse Schaffhausen AG",
+      "short_name": "Ersparniskasse Schaffhausen AG",
+      "bic": "RBABCH22835",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06835",
+        "30048"
+      ]
+    },
+    {
+      "name": "Bank Avera Genossenschaft",
+      "short_name": "Bank Avera Genossenschaft",
+      "bic": "RBABCH22850",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06850",
+        "30049"
+      ]
+    },
+    {
+      "name": "BS Bank Schaffhausen AG",
+      "short_name": "BS Bank Schaffhausen AG",
+      "bic": "RBABCH22858",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06858",
+        "30050"
+      ]
+    },
+    {
+      "name": "Spar- und Leihkasse Thayngen AG",
+      "short_name": "Spar- und Leihkasse Thayngen AG",
+      "bic": "RBABCH22866",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06866",
+        "30051"
+      ]
+    },
+    {
+      "name": "Leihkasse Stammheim AG",
+      "short_name": "Leihkasse Stammheim AG",
+      "bic": "RBABCH22875",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06875",
+        "30053"
+      ]
+    },
+    {
+      "name": "Z\u00fcrcher Landbank AG",
+      "short_name": "Z\u00fcrcher Landbank AG",
+      "bic": "RBABCH22877",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06877",
+        "30054"
+      ]
+    },
+    {
+      "name": "Bank BSU Genossenschaft",
+      "short_name": "Bank BSU Genossenschaft",
+      "bic": "RBABCH22888",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06888",
+        "30055"
+      ]
+    },
+    {
+      "name": "acrevis Bank AG",
+      "short_name": "acrevis Bank AG",
+      "bic": "ACRGCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06900",
+        "30056"
+      ]
+    },
+    {
+      "name": "Alpha RHEINTAL Bank AG",
+      "short_name": "Alpha RHEINTAL Bank AG",
+      "bic": "ARBHCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06920",
+        "30057"
+      ]
+    },
+    {
+      "name": "Clientis Bank Oberuzwil AG",
+      "short_name": "Clientis Bank Oberuzwil AG",
+      "bic": "RBABCH22935",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06935",
+        "30058"
+      ]
+    },
+    {
+      "name": "Clientis Bank Toggenburg AG",
+      "short_name": "Clientis Bank Toggenburg AG",
+      "bic": "RBABCH22955",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06955",
+        "30060"
+      ]
+    },
+    {
+      "name": "Bank in Zuzwil",
+      "short_name": "Bank in Zuzwil",
+      "bic": "RBABCH22964",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06964",
+        "30061"
+      ]
+    },
+    {
+      "name": "Clientis Bank Thur Genossenschaft",
+      "short_name": "Clientis Bank Thur Genossenschaft",
+      "bic": "RBABCH22977",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06977",
+        "30062"
+      ]
+    },
+    {
+      "name": "Biene Bank im Rheintal Genossenschaft",
+      "short_name": "Biene Bank im Rheintal Genossenschaft",
+      "bic": "RBABCH22980",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "06980",
+        "30063"
+      ]
+    },
+    {
+      "name": "Banco Santander International SA",
+      "short_name": "Banco Santander International SA",
+      "bic": "BSCHCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08235",
+        "30180"
+      ]
+    },
+    {
+      "name": "Nexent Bank (Suisse) SA",
+      "short_name": "Nexent Bank (Suisse) SA",
+      "bic": "FSUICHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08236",
+        "30182"
+      ]
+    },
+    {
+      "name": "Investec Bank (Switzerland) AG",
+      "short_name": "Investec Bank (Switzerland) AG",
+      "bic": "IVESCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08238",
+        "30184"
+      ]
+    },
+    {
+      "name": "Cr\u00e9dit Agricole next Bank (Suisse) SA",
+      "short_name": "Cr\u00e9dit Agricole next Bank (Suisse) SA",
+      "bic": "AGRICHGXXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08243",
+        "30113"
+      ]
+    },
+    {
+      "name": "Banque Richelieu (Schweiz) AG",
+      "short_name": "Banque Richelieu (Schweiz) AG",
+      "bic": "ANPRCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08245",
+        "30186"
+      ]
+    },
+    {
+      "name": "Van Lanschot Kempen (Schweiz) AG",
+      "short_name": "Van Lanschot Kempen (Schweiz) AG",
+      "bic": "FVLBCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08248",
+        "30188"
+      ]
+    },
+    {
+      "name": "Banca Popolare di Sondrio (Suisse) SA",
+      "short_name": "Banca Popolare di Sondrio (Suisse) SA",
+      "bic": "POSOCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08252",
+        "30110"
+      ]
+    },
+    {
+      "name": "Banque Internationale \u00e0 Luxembourg (Suisse) SA",
+      "short_name": "Banque Internationale \u00e0 Luxembourg (Suisse) SA",
+      "bic": "BILSCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08268",
+        "30189"
+      ]
+    },
+    {
+      "name": "BBVA SA",
+      "short_name": "BBVA SA",
+      "bic": "BBVACHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08270",
+        "30190"
+      ]
+    },
+    {
+      "name": "Goldman Sachs Bank AG",
+      "short_name": "Goldman Sachs Bank AG",
+      "bic": "GOLDCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08278"
+      ]
+    },
+    {
+      "name": "Frankfurter Bankgesellschaft (Schweiz) AG",
+      "short_name": "Frankfurter Bankgesellschaft (Schweiz) AG",
+      "bic": "FBGSCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08288",
+        "30194"
+      ]
+    },
+    {
+      "name": "ODDO BHF (Schweiz) AG",
+      "short_name": "ODDO BHF (Schweiz) AG",
+      "bic": "BHFBCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08289",
+        "30002"
+      ]
+    },
+    {
+      "name": "Cembra Money Bank AG",
+      "short_name": "Cembra Money Bank AG",
+      "bic": "CMBNCHZHXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08296",
+        "30114",
+        "82963",
+        "82964",
+        "82965",
+        "82966",
+        "82967",
+        "82971",
+        "82973",
+        "82977",
+        "82979",
+        "82981",
+        "82983",
+        "82984",
+        "82998"
+      ]
+    },
+    {
+      "name": "Spar- und Leihkasse Wynigen AG",
+      "short_name": "Spar- und Leihkasse Wynigen AG",
+      "bic": "SLWYCH21XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08300",
+        "30115"
+      ]
+    },
+    {
+      "name": "Hypothekarbank Lenzburg AG",
+      "short_name": "Hypothekarbank Lenzburg AG",
+      "bic": "HYPLCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08307",
+        "30116"
+      ]
+    },
+    {
+      "name": "Banque SYZ SA",
+      "short_name": "Banque SYZ SA",
+      "bic": "SYCOCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08309",
+        "30197"
+      ]
+    },
+    {
+      "name": "Caisse d'Epargne de Nyon soci\u00e9t\u00e9 coop\u00e9rative",
+      "short_name": "Caisse d'Epargne de Nyon soci\u00e9t\u00e9 coop\u00e9rative",
+      "bic": "CAGYCH21XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08326",
+        "30198"
+      ]
+    },
+    {
+      "name": "Caisse d'Epargne d'Aubonne Soci\u00e9te coop\u00e9rative",
+      "short_name": "Caisse d'Epargne d'Aubonne Soci\u00e9te coop\u00e9rative",
+      "bic": "RBABCH22CEA",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08327",
+        "30199"
+      ]
+    },
+    {
+      "name": "Ersparniskasse Speicher",
+      "short_name": "Ersparniskasse Speicher",
+      "bic": "ERSCCH21XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08329",
+        "30117"
+      ]
+    },
+    {
+      "name": "Baloise Bank AG",
+      "short_name": "Baloise Bank AG",
+      "bic": "KBSOCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08334",
+        "30118"
+      ]
+    },
+    {
+      "name": "LGT Bank (Schweiz) AG",
+      "short_name": "LGT Bank (Schweiz) AG",
+      "bic": "BLFLCHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08335",
+        "30119"
+      ]
+    },
+    {
+      "name": "Banque Alg\u00e9rienne du Commerce Ext\u00e9rieur SA",
+      "short_name": "Banque Alg\u00e9rienne du Commerce Ext\u00e9rieur SA",
+      "bic": "AEXTCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08346",
+        "30201"
+      ]
+    },
+    {
+      "name": "Caisse d'Epargne et de Cr\u00e9dit Mutuel de Chermignon",
+      "short_name": "Caisse d'Epargne et de Cr\u00e9dit Mutuel de Chermignon",
+      "bic": "CDEMCH21XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08348",
+        "30202"
+      ]
+    },
+    {
+      "name": "Caisse d'Epargne Riviera, soci\u00e9t\u00e9 coop\u00e9rative",
+      "short_name": "Caisse d'Epargne Riviera, soci\u00e9t\u00e9 coop\u00e9rative",
+      "bic": "CDDVCH21XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08349",
+        "30121"
+      ]
+    },
+    {
+      "name": "SOS Cash & Value SA",
+      "short_name": "SOS Cash & Value SA",
+      "bic": null,
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08351"
+      ]
+    },
+    {
+      "name": "Loomis Schweiz SA",
+      "short_name": "Loomis Schweiz SA",
+      "bic": "VIMMCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08352"
+      ]
+    },
+    {
+      "name": "China Construction Bank Corporation, Beijing, Swiss Branch",
+      "short_name": "China Construction Bank Corporation, Beijing, Swiss Branch",
+      "bic": "PCBCCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08373"
+      ]
+    },
+    {
+      "name": "CACEIS Bank, Montrouge, succursale de Nyon / Suisse",
+      "short_name": "CACEIS Bank, Montrouge, succursale de Nyon / Suisse",
+      "bic": "ISAECH2NXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08374",
+        "30203"
+      ]
+    },
+    {
+      "name": "Vontobel Swiss Financial Advisers AG",
+      "short_name": "Vontobel Swiss Financial Advisers AG",
+      "bic": "VSFACHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08377"
+      ]
+    },
+    {
+      "name": "NPB Neue Privat Bank AG",
+      "short_name": "NPB Neue Privat Bank AG",
+      "bic": "NEPICHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08378",
+        "30206"
+      ]
+    },
+    {
+      "name": "QNB (Suisse) SA",
+      "short_name": "QNB (Suisse) SA",
+      "bic": "QNBACHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08379",
+        "30207"
+      ]
+    },
+    {
+      "name": "J.P. Morgan (Suisse) SA",
+      "short_name": "J.P. Morgan (Suisse) SA",
+      "bic": "MGTCCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08380",
+        "30208"
+      ]
+    },
+    {
+      "name": "Reyl & Cie S.A.",
+      "short_name": "Reyl & Cie S.A.",
+      "bic": "REYLCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08384",
+        "30209"
+      ]
+    },
+    {
+      "name": "NBK Banque Priv\u00e9e (Suisse) SA",
+      "short_name": "NBK Banque Priv\u00e9e (Suisse) SA",
+      "bic": "NBOKCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08385",
+        "30210"
+      ]
+    },
+    {
+      "name": "ING Bank N.V., Amsterdam, succursale de Lancy/Gen\u00e8ve",
+      "short_name": "ING Bank N.V., Amsterdam, succursale de Lancy/Gen\u00e8ve",
+      "bic": "BBRUCHGTXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08387",
+        "30211"
+      ]
+    },
+    {
+      "name": "Banque Eric Sturdza SA",
+      "short_name": "Banque Eric Sturdza SA",
+      "bic": "BABRCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08388",
+        "30212"
+      ]
+    },
+    {
+      "name": "Bezirks-Sparkasse Dielsdorf Genossenschaft",
+      "short_name": "Bezirks-Sparkasse Dielsdorf Genossenschaft",
+      "bic": "BZSDCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08389",
+        "30122"
+      ]
+    },
+    {
+      "name": "Alternative Bank Schweiz AG",
+      "short_name": "Alternative Bank Schweiz AG",
+      "bic": "ABSOCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08390",
+        "30123"
+      ]
+    },
+    {
+      "name": "WIR Bank Genossenschaft",
+      "short_name": "WIR Bank Genossenschaft",
+      "bic": "WIRBCHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08391",
+        "30124"
+      ]
+    },
+    {
+      "name": "Freie Gemeinschaftsbank Genossenschaft",
+      "short_name": "Freie Gemeinschaftsbank Genossenschaft",
+      "bic": "FRGGCHB1XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08392",
+        "30125"
+      ]
+    },
+    {
+      "name": "Bank EKI Genossenschaft",
+      "short_name": "Bank EKI Genossenschaft",
+      "bic": "EKIICH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08393",
+        "30126"
+      ]
+    },
+    {
+      "name": "Bank EEK AG",
+      "short_name": "Bank EEK AG",
+      "bic": "EEKBCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08394",
+        "30127"
+      ]
+    },
+    {
+      "name": "Spar- und Leihkasse Bucheggberg",
+      "short_name": "Spar- und Leihkasse Bucheggberg",
+      "bic": "SLBUCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08395",
+        "30128"
+      ]
+    },
+    {
+      "name": "Spar + Leihkasse G\u00fcrbetal AG",
+      "short_name": "Spar + Leihkasse G\u00fcrbetal AG",
+      "bic": "SLGUCH2MXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08396",
+        "30129"
+      ]
+    },
+    {
+      "name": "DC Bank Deposito-Cassa der Stadt Bern",
+      "short_name": "DC Bank Deposito-Cassa der Stadt Bern",
+      "bic": "RBABCH22DCB",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08397",
+        "30130"
+      ]
+    },
+    {
+      "name": "VZ Depotbank AG",
+      "short_name": "VZ Depotbank AG",
+      "bic": "VZDBCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08398",
+        "30131"
+      ]
+    },
+    {
+      "name": "Migros Bank AG",
+      "short_name": "Migros Bank AG",
+      "bic": "MIGRCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08401",
+        "30132"
+      ]
+    },
+    {
+      "name": "Bank Cler AG",
+      "short_name": "Bank Cler AG",
+      "bic": "BCLRCHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08440",
+        "08441",
+        "08442",
+        "08443",
+        "08444",
+        "08445",
+        "08446",
+        "08447",
+        "08448",
+        "08449",
+        "08450",
+        "08451",
+        "08452",
+        "08453",
+        "08454",
+        "08455",
+        "08456",
+        "08457",
+        "30133"
+      ]
+    },
+    {
+      "name": "Corn\u00e8r Banca SA",
+      "short_name": "Corn\u00e8r Banca SA",
+      "bic": "CBLUCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08490",
+        "30141"
+      ]
+    },
+    {
+      "name": "Banca Credinvest SA",
+      "short_name": "Banca Credinvest SA",
+      "bic": "BCRECH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08495",
+        "30213"
+      ]
+    },
+    {
+      "name": "Banca Aletti & C. (Suisse) SA",
+      "short_name": "Banca Aletti & C. (Suisse) SA",
+      "bic": "VRBPCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08496",
+        "30214"
+      ]
+    },
+    {
+      "name": "SAXO BANK (SCHWEIZ) AG",
+      "short_name": "SAXO BANK (SCHWEIZ) AG",
+      "bic": "SAXOCHZHXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08497"
+      ]
+    },
+    {
+      "name": "Axion SWISS Bank SA",
+      "short_name": "Axion SWISS Bank SA",
+      "bic": "UNCECH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08498",
+        "30216"
+      ]
+    },
+    {
+      "name": "FAB Private Bank (Suisse) SA",
+      "short_name": "FAB Private Bank (Suisse) SA",
+      "bic": "NBPSCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08499",
+        "30217"
+      ]
+    },
+    {
+      "name": "Mercantil Bank (Schweiz) AG",
+      "short_name": "Mercantil Bank (Schweiz) AG",
+      "bic": "BAMRCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08509",
+        "30218"
+      ]
+    },
+    {
+      "name": "Bank Julius B\u00e4r & Co AG",
+      "short_name": "Bank Julius B\u00e4r & Co AG",
+      "bic": "BAERCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08515"
+      ]
+    },
+    {
+      "name": "Bank Gantrisch Genossenschaft",
+      "short_name": "Bank Gantrisch Genossenschaft",
+      "bic": "BGAGCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08518",
+        "30143"
+      ]
+    },
+    {
+      "name": "Ersparniskasse R\u00fceggisberg Genossenschaft",
+      "short_name": "Ersparniskasse R\u00fceggisberg Genossenschaft",
+      "bic": "EKRUCH21XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08519",
+        "30144"
+      ]
+    },
+    {
+      "name": "BBO Bank Brienz Oberhasli AG",
+      "short_name": "BBO Bank Brienz Oberhasli AG",
+      "bic": "BBOBCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08521",
+        "30145"
+      ]
+    },
+    {
+      "name": "Societ\u00e0 Bancaria Ticinese",
+      "short_name": "Societ\u00e0 Bancaria Ticinese",
+      "bic": "SBTICH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08522",
+        "30146"
+      ]
+    },
+    {
+      "name": "BTV Vier L\u00e4nder Bank AG Innsbruck, Zweigniederlassung Staad",
+      "short_name": "BTV Vier L\u00e4nder Bank AG Innsbruck, Zweigniederlassung Staad",
+      "bic": "BTVACH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08525",
+        "30147"
+      ]
+    },
+    {
+      "name": "SELVI & Cie SA",
+      "short_name": "SELVI & Cie SA",
+      "bic": "SELVCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08533",
+        "30221"
+      ]
+    },
+    {
+      "name": "VP Bank (Schweiz) AG",
+      "short_name": "VP Bank (Schweiz) AG",
+      "bic": "VPBVCHZHXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08534",
+        "30220"
+      ]
+    },
+    {
+      "name": "Banque Internationale de Commerce-BRED (Suisse) SA",
+      "short_name": "Banque Internationale de Commerce-BRED (Suisse) SA",
+      "bic": "BICFCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08537"
+      ]
+    },
+    {
+      "name": "Bergos AG",
+      "short_name": "Bergos AG",
+      "bic": "BEGOCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08539",
+        "30223"
+      ]
+    },
+    {
+      "name": "BANQUE BANORIENT (SUISSE) SA",
+      "short_name": "BANQUE BANORIENT (SUISSE) SA",
+      "bic": "BLOMCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08540",
+        "30224"
+      ]
+    },
+    {
+      "name": "Scobag Privatbank AG",
+      "short_name": "Scobag Privatbank AG",
+      "bic": "SCOPCHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08543",
+        "30225"
+      ]
+    },
+    {
+      "name": "Hyposwiss Private Bank Gen\u00e8ve SA",
+      "short_name": "Hyposwiss Private Bank Gen\u00e8ve SA",
+      "bic": "CCIECHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08548",
+        "30226"
+      ]
+    },
+    {
+      "name": "BZ Bank Aktiengesellschaft",
+      "short_name": "BZ Bank Aktiengesellschaft",
+      "bic": "BZBKCH2WXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08553",
+        "30151"
+      ]
+    },
+    {
+      "name": "Privatbank Von Graffenried AG",
+      "short_name": "Privatbank Von Graffenried AG",
+      "bic": "GRAFCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08564",
+        "30228"
+      ]
+    },
+    {
+      "name": "Dreyfus S\u00f6hne & Cie AG, Banquiers",
+      "short_name": "Dreyfus S\u00f6hne & Cie AG, Banquiers",
+      "bic": "DREYCHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08565",
+        "30229"
+      ]
+    },
+    {
+      "name": "Banque Bonh\u00f4te & Cie SA",
+      "short_name": "Banque Bonh\u00f4te & Cie SA",
+      "bic": "BONHCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08570",
+        "30230"
+      ]
+    },
+    {
+      "name": "Edmond de Rothschild (Suisse) S.A",
+      "short_name": "Edmond de Rothschild (Suisse) S.A",
+      "bic": "PRIBCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08571",
+        "30231"
+      ]
+    },
+    {
+      "name": "Trafina Privatbank AG",
+      "short_name": "Trafina Privatbank AG",
+      "bic": "TRAPCHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08572",
+        "30232"
+      ]
+    },
+    {
+      "name": "Maerki, Baumann & Co. AG",
+      "short_name": "Maerki, Baumann & Co. AG",
+      "bic": "MAEBCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08573",
+        "30233"
+      ]
+    },
+    {
+      "name": "Banque Des Monts Blancs SA",
+      "short_name": "Banque Des Monts Blancs SA",
+      "bic": "MEDSCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08574",
+        "30234"
+      ]
+    },
+    {
+      "name": "Banca del Ceresio SA",
+      "short_name": "Banca del Ceresio SA",
+      "bic": "BACECH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08584",
+        "30237"
+      ]
+    },
+    {
+      "name": "Banca Zarattini & Co. SA",
+      "short_name": "Banca Zarattini & Co. SA",
+      "bic": "EUBACH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08609",
+        "30238"
+      ]
+    },
+    {
+      "name": "DZ PRIVATBANK (Schweiz) AG",
+      "short_name": "DZ PRIVATBANK (Schweiz) AG",
+      "bic": "GENOCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08615",
+        "30239"
+      ]
+    },
+    {
+      "name": "EFG Bank European Financial Group SA",
+      "short_name": "EFG Bank European Financial Group SA",
+      "bic": "EFGBCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08616",
+        "30240"
+      ]
+    },
+    {
+      "name": "Nomura Bank (Switzerland) Ltd",
+      "short_name": "Nomura Bank (Switzerland) Ltd",
+      "bic": "NBSZCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08619",
+        "30241"
+      ]
+    },
+    {
+      "name": "Banque Audi (Suisse) SA",
+      "short_name": "Banque Audi (Suisse) SA",
+      "bic": "AUDSCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08624",
+        "30243"
+      ]
+    },
+    {
+      "name": "Banque de Commerce et de Placements SA",
+      "short_name": "Banque de Commerce et de Placements SA",
+      "bic": "BPCPCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08629",
+        "30244"
+      ]
+    },
+    {
+      "name": "Schroder & Co Bank AG",
+      "short_name": "Schroder & Co Bank AG",
+      "bic": "BJHSCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08634",
+        "30245"
+      ]
+    },
+    {
+      "name": "JPMorgan Chase Bank, National Association, Columbus",
+      "short_name": "JPMorgan Chase Bank, National Association, Columbus",
+      "bic": "CHASCHGXXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08635",
+        "30152"
+      ]
+    },
+    {
+      "name": "Citibank (Switzerland) AG",
+      "short_name": "Citibank (Switzerland) AG",
+      "bic": "CBSWCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08638",
+        "30246"
+      ]
+    },
+    {
+      "name": "Union Bancaire Priv\u00e9e, UBP SA",
+      "short_name": "Union Bancaire Priv\u00e9e, UBP SA",
+      "bic": "UBPGCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08657",
+        "30248"
+      ]
+    },
+    {
+      "name": "Deutsche Bank (Suisse) S.A.",
+      "short_name": "Deutsche Bank (Suisse) S.A.",
+      "bic": "DEUTCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08659",
+        "30249"
+      ]
+    },
+    {
+      "name": "GPB (Schweiz) AG",
+      "short_name": "GPB (Schweiz) AG",
+      "bic": "RKBZCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08660",
+        "30250"
+      ]
+    },
+    {
+      "name": "Rothschild & Co Bank AG",
+      "short_name": "Rothschild & Co Bank AG",
+      "bic": "ROTACHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08661",
+        "30251"
+      ]
+    },
+    {
+      "name": "PKB PRIVATE BANK SA",
+      "short_name": "PKB PRIVATE BANK SA",
+      "bic": "PKBSCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08663",
+        "30252"
+      ]
+    },
+    {
+      "name": "PKB PRIVATBANK AG",
+      "short_name": "PKB PRIVATBANK AG",
+      "bic": "PKBSCH2269A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "08664"
+      ]
+    },
+    {
+      "name": "PKB PRIVATBANK SA",
+      "short_name": "PKB PRIVATBANK SA",
+      "bic": "PKBSCH2212A",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "08665"
+      ]
+    },
+    {
+      "name": "Banca del Sempione SA",
+      "short_name": "Banca del Sempione SA",
+      "bic": "BASECH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08666",
+        "30153"
+      ]
+    },
+    {
+      "name": "EFG Bank AG",
+      "short_name": "EFG Bank AG",
+      "bic": "EFGBCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08667",
+        "30253"
+      ]
+    },
+    {
+      "name": "BNP PARIBAS, Paris, succursale de Lancy/Gen\u00e8ve",
+      "short_name": "BNP PARIBAS, Paris, succursale de Lancy/Gen\u00e8ve",
+      "bic": "BPPBCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08686",
+        "30154"
+      ]
+    },
+    {
+      "name": "HSBC Private Bank (Suisse) SA",
+      "short_name": "HSBC Private Bank (Suisse) SA",
+      "bic": "BLICCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08689",
+        "30254"
+      ]
+    },
+    {
+      "name": "Citibank N.A., Sioux Falls",
+      "short_name": "Citibank N.A., Sioux Falls",
+      "bic": "CITICHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08700",
+        "30256"
+      ]
+    },
+    {
+      "name": "HSBC Bank plc, London, Zweigniederlassung Z\u00fcrich",
+      "short_name": "HSBC Bank plc, London, Zweigniederlassung Z\u00fcrich",
+      "bic": "HSBCCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08701",
+        "30156"
+      ]
+    },
+    {
+      "name": "Leonteq Securities AG",
+      "short_name": "Leonteq Securities AG",
+      "bic": "EFGFCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08702"
+      ]
+    },
+    {
+      "name": "bank zweiplus ag",
+      "short_name": "bank zweiplus ag",
+      "bic": "BZPLCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08703"
+      ]
+    },
+    {
+      "name": "AEK BANK 1826 Genossenschaft",
+      "short_name": "AEK BANK 1826 Genossenschaft",
+      "bic": "AEKTCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08704",
+        "30157"
+      ]
+    },
+    {
+      "name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+      "short_name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+      "bic": "SGABCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08705",
+        "30259"
+      ]
+    },
+    {
+      "name": "Bank CIC (SCHWEIZ) AG",
+      "short_name": "Bank CIC (SCHWEIZ) AG",
+      "bic": "CIALCHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08710",
+        "30159",
+        "87105"
+      ]
+    },
+    {
+      "name": "Arab Bank (Switzerland) Ltd.",
+      "short_name": "Arab Bank (Switzerland) Ltd.",
+      "bic": "ARBSCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08719",
+        "30260"
+      ]
+    },
+    {
+      "name": "Gonet & Cie SA",
+      "short_name": "Gonet & Cie SA",
+      "bic": "GONECHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08721",
+        "30261"
+      ]
+    },
+    {
+      "name": "Bank of America Europe DAC, Dublin, Zurich Branch",
+      "short_name": "Bank of America Europe DAC, Dublin, Zurich Branch",
+      "bic": "BOFACH2XXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08726",
+        "30262"
+      ]
+    },
+    {
+      "name": "Banque Cramer & Cie SA",
+      "short_name": "Banque Cramer & Cie SA",
+      "bic": "CRAMCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08727",
+        "30263"
+      ]
+    },
+    {
+      "name": "LLB (Schweiz) AG",
+      "short_name": "LLB (Schweiz) AG",
+      "bic": "LINSCH23XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08731",
+        "30162"
+      ]
+    },
+    {
+      "name": "Bank Thalwil Genossenschaft",
+      "short_name": "Bank Thalwil Genossenschaft",
+      "bic": "BKTHCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08733",
+        "30163"
+      ]
+    },
+    {
+      "name": "Barclays Bank (Suisse) SA",
+      "short_name": "Barclays Bank (Suisse) SA",
+      "bic": "BARCCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08735",
+        "30264"
+      ]
+    },
+    {
+      "name": "CA Indosuez (Switzerland) SA",
+      "short_name": "CA Indosuez (Switzerland) SA",
+      "bic": "AGRICHGGXXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "08740",
+        "08741",
+        "08742",
+        "08743",
+        "30164"
+      ]
+    },
+    {
+      "name": "Bank J. Safra Sarasin AG",
+      "short_name": "Bank J. Safra Sarasin AG",
+      "bic": "SARACHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08750",
+        "08751",
+        "08752",
+        "30165"
+      ]
+    },
+    {
+      "name": "Banque Pictet & Cie SA",
+      "short_name": "Banque Pictet & Cie SA",
+      "bic": "PICTCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08755"
+      ]
+    },
+    {
+      "name": "Baumann & Cie KmG",
+      "short_name": "Baumann & Cie KmG",
+      "bic": "BAUMCHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08756",
+        "30269"
+      ]
+    },
+    {
+      "name": "Bank Vontobel AG",
+      "short_name": "Bank Vontobel AG",
+      "bic": "VONTCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08757",
+        "30270"
+      ]
+    },
+    {
+      "name": "Banque Lombard Odier & Cie SA",
+      "short_name": "Banque Lombard Odier & Cie SA",
+      "bic": "LOCYCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08760"
+      ]
+    },
+    {
+      "name": "Reichmuth & Co.",
+      "short_name": "Reichmuth & Co.",
+      "bic": "REICCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08761",
+        "30272"
+      ]
+    },
+    {
+      "name": "CBH - Compagnie Bancaire Helv\u00e9tique SA",
+      "short_name": "CBH - Compagnie Bancaire Helv\u00e9tique SA",
+      "bic": "BSSACHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08762",
+        "30166"
+      ]
+    },
+    {
+      "name": "Bordier & Cie SCmA",
+      "short_name": "Bordier & Cie SCmA",
+      "bic": "BORDCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08767",
+        "30273"
+      ]
+    },
+    {
+      "name": "Mirabaud & Cie SA",
+      "short_name": "Mirabaud & Cie SA",
+      "bic": "MIRACHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08770",
+        "30275"
+      ]
+    },
+    {
+      "name": "E. Gutzwiller & Cie Banquiers",
+      "short_name": "E. Gutzwiller & Cie Banquiers",
+      "bic": "GUTZCHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08775"
+      ]
+    },
+    {
+      "name": "Piguet Galland & Cie SA",
+      "short_name": "Piguet Galland & Cie SA",
+      "bic": "PIGUCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08777",
+        "30277"
+      ]
+    },
+    {
+      "name": "Rahn+Bodmer Co.",
+      "short_name": "Rahn+Bodmer Co.",
+      "bic": "RAHNCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08779"
+      ]
+    },
+    {
+      "name": "Deutsche Bank AG Z\u00fcrich Branch",
+      "short_name": "Deutsche Bank AG Z\u00fcrich Branch",
+      "bic": "DEUTCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08780",
+        "30167",
+        "87801",
+        "87802"
+      ]
+    },
+    {
+      "name": "Swissquote Bank SA",
+      "short_name": "Swissquote Bank SA",
+      "bic": "SWQBCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08781",
+        "30168"
+      ]
+    },
+    {
+      "name": "Spar- und Leihkasse Frutigen AG",
+      "short_name": "Spar- und Leihkasse Frutigen AG",
+      "bic": "SLFFCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08784",
+        "30169"
+      ]
+    },
+    {
+      "name": "Regiobank Solothurn AG",
+      "short_name": "Regiobank Solothurn AG",
+      "bic": "RSOSCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08785",
+        "30170"
+      ]
+    },
+    {
+      "name": "Pfandbriefbank schweizerischer Hypothekarinstitute AG",
+      "short_name": "Pfandbriefbank schweizerischer Hypothekarinstitute AG",
+      "bic": null,
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08787",
+        "30281"
+      ]
+    },
+    {
+      "name": "BANQUE HERITAGE SA",
+      "short_name": "BANQUE HERITAGE SA",
+      "bic": "HFTCCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08788"
+      ]
+    },
+    {
+      "name": "Habib Bank AG Z\u00fcrich",
+      "short_name": "Habib Bank AG Z\u00fcrich",
+      "bic": "HBZUCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08789",
+        "30283"
+      ]
+    },
+    {
+      "name": "IBKR Financial Services AG",
+      "short_name": "IBKR Financial Services AG",
+      "bic": "TMBECH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08797",
+        "30285"
+      ]
+    },
+    {
+      "name": "InCore Bank AG",
+      "short_name": "InCore Bank AG",
+      "bic": "INCOCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08799",
+        "30286"
+      ]
+    },
+    {
+      "name": "Tellco Bank AG",
+      "short_name": "Tellco Bank AG",
+      "bic": "DOMICHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08820",
+        "30295"
+      ]
+    },
+    {
+      "name": "Hypo Vorarlberg Bank AG, Bregenz, Zweigniederl., St. Gallen",
+      "short_name": "Hypo Vorarlberg Bank AG, Bregenz, Zweigniederl., St. Gallen",
+      "bic": "RBABCH22VLH",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08821",
+        "30176"
+      ]
+    },
+    {
+      "name": "CIM Banque SA",
+      "short_name": "CIM Banque SA",
+      "bic": "CIMMCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08822",
+        "30296"
+      ]
+    },
+    {
+      "name": "TradeXBank AG",
+      "short_name": "TradeXBank AG",
+      "bic": "TXBZCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08825",
+        "30297"
+      ]
+    },
+    {
+      "name": "S.P. Hinduja Banque Priv\u00e9e SA",
+      "short_name": "S.P. Hinduja Banque Priv\u00e9e SA",
+      "bic": "ABSGCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08827",
+        "30299"
+      ]
+    },
+    {
+      "name": "ABANCA CORPORACION BANCARIA S.A., BETANZOS",
+      "short_name": "ABANCA CORPORACION BANCARIA S.A., BETANZOS",
+      "bic": "CAGLCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08831",
+        "30311"
+      ]
+    },
+    {
+      "name": "COMMERZBANK AG FF, Zweigniederlassung Z\u00fcrich",
+      "short_name": "COMMERZBANK AG FF, Zweigniederlassung Z\u00fcrich",
+      "bic": "COBACHZHXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08836",
+        "30177"
+      ]
+    },
+    {
+      "name": "Banque du L\u00e9man SA",
+      "short_name": "Banque du L\u00e9man SA",
+      "bic": "BLEMCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08838",
+        "30313"
+      ]
+    },
+    {
+      "name": "Quilvest (Switzerland) Ltd.",
+      "short_name": "Quilvest (Switzerland) Ltd.",
+      "bic": "QVCHCHZHXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08839",
+        "30314"
+      ]
+    },
+    {
+      "name": "Banco Ita\u00fa (Suisse) SA",
+      "short_name": "Banco Ita\u00fa (Suisse) SA",
+      "bic": "ITAUCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08841",
+        "30315"
+      ]
+    },
+    {
+      "name": "Globalance Bank AG",
+      "short_name": "Globalance Bank AG",
+      "bic": "GLBNCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08842",
+        "30316"
+      ]
+    },
+    {
+      "name": "Dukascopy Bank SA",
+      "short_name": "Dukascopy Bank SA",
+      "bic": "DUBACHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08843",
+        "30317"
+      ]
+    },
+    {
+      "name": "Helvetische Bank AG",
+      "short_name": "Helvetische Bank AG",
+      "bic": "SFBFCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08845",
+        "30318"
+      ]
+    },
+    {
+      "name": "Aquila AG",
+      "short_name": "Aquila AG",
+      "bic": "AQULCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08846",
+        "30319"
+      ]
+    },
+    {
+      "name": "IG Bank S.A.",
+      "short_name": "IG Bank S.A.",
+      "bic": "IGBKCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08848"
+      ]
+    },
+    {
+      "name": "compenswiss (Fonds de compensation AVS/AI/APG)",
+      "short_name": "compenswiss (Fonds de compensation AVS/AI/APG)",
+      "bic": "FAVSCHGAXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08850"
+      ]
+    },
+    {
+      "name": "SUVA",
+      "short_name": "SUVA",
+      "bic": "SUAACH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08851"
+      ]
+    },
+    {
+      "name": "Swiss Life AG (KV, geb. Verm\u00f6gen)",
+      "short_name": "Swiss Life AG (KV, geb. Verm\u00f6gen)",
+      "bic": "SLAMCHZZKV0",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08852"
+      ]
+    },
+    {
+      "name": "Schweizerische R\u00fcckversicherungs-Gesellschaft AG",
+      "short_name": "Schweizerische R\u00fcckversicherungs-Gesellschaft AG",
+      "bic": "SWRECHZHXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08853"
+      ]
+    },
+    {
+      "name": "AXA Leben AG",
+      "short_name": "AXA Leben AG",
+      "bic": "AXIPCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08854"
+      ]
+    },
+    {
+      "name": "Zurich Insurance Company Ltd",
+      "short_name": "Zurich Insurance Company Ltd",
+      "bic": "ZURICHZFXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08855"
+      ]
+    },
+    {
+      "name": "Baloise Leben AG",
+      "short_name": "Baloise Leben AG",
+      "bic": "BAAMCHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08856"
+      ]
+    },
+    {
+      "name": "Baloise Versicherung AG",
+      "short_name": "Baloise Versicherung AG",
+      "bic": "BAAMCHBBBVG",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08858"
+      ]
+    },
+    {
+      "name": "Schweizerische Mobiliar Versicherungsgesellschaft AG",
+      "short_name": "Schweizerische Mobiliar Versicherungsgesellschaft AG",
+      "bic": null,
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08859"
+      ]
+    },
+    {
+      "name": "Remaco Asset Management AG",
+      "short_name": "Remaco Asset Management AG",
+      "bic": "RMCOCHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08865",
+        "30324"
+      ]
+    },
+    {
+      "name": "LF Finance (Suisse) SA",
+      "short_name": "LF Finance (Suisse) SA",
+      "bic": "LFFSCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08866",
+        "30325"
+      ]
+    },
+    {
+      "name": "State Street Bank International GmbH, M\u00fcnchen, ZN Z\u00fcrich",
+      "short_name": "State Street Bank International GmbH, M\u00fcnchen, ZN Z\u00fcrich",
+      "bic": "SSBECHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08867",
+        "30326"
+      ]
+    },
+    {
+      "name": "Delen (Suisse) SA",
+      "short_name": "Delen (Suisse) SA",
+      "bic": "DELECHG2XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08868"
+      ]
+    },
+    {
+      "name": "Z\u00e4hringer Privatbank AG",
+      "short_name": "Z\u00e4hringer Privatbank AG",
+      "bic": "ZAPRCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08871",
+        "30327"
+      ]
+    },
+    {
+      "name": "SIX SIS AG",
+      "short_name": "SIX SIS AG",
+      "bic": "INSECHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08880",
+        "08881",
+        "08887"
+      ]
+    },
+    {
+      "name": "Sparkasse Bundespersonal",
+      "short_name": "Sparkasse Bundespersonal",
+      "bic": "SKBPCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08890",
+        "30178"
+      ]
+    },
+    {
+      "name": "BIZ Bank f\u00fcr Internationalen Zahlungsausgleich",
+      "short_name": "BIZ Bank f\u00fcr Internationalen Zahlungsausgleich",
+      "bic": "BISBCHBBXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08899",
+        "30328"
+      ]
+    },
+    {
+      "name": "PostFinance AG",
+      "short_name": "PostFinance AG",
+      "bic": "POFICHBEXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "09000",
+        "30000"
+      ]
+    },
+    {
+      "name": "Z\u00fcrich Lebensvers.-Ges. AG Individual Life geb. Verm\u00f6gen",
+      "short_name": "Z\u00fcrich Lebensvers.-Ges. AG Individual Life geb. Verm\u00f6gen",
+      "bic": "ZURICHZFZLT",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "30003",
+        "83034"
+      ]
+    },
+    {
+      "name": "Z\u00fcrich Lebensvers.-Ges. AG Group Life geb. Verm\u00f6gen",
+      "short_name": "Z\u00fcrich Lebensvers.-Ges. AG Group Life geb. Verm\u00f6gen",
+      "bic": "ZURICHZFZKT",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "30004",
+        "83033"
+      ]
+    },
+    {
+      "name": "Z\u00fcrich Versicherungs.-Ges. AG gebundenes Verm\u00f6gen",
+      "short_name": "Z\u00fcrich Versicherungs.-Ges. AG gebundenes Verm\u00f6gen",
+      "bic": "ZURICHZFZNT",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "30006",
+        "83032"
+      ]
+    },
+    {
+      "name": "Bank von Roll AG",
+      "short_name": "Bank von Roll AG",
+      "bic": "VRLLCHZZXXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "30196",
+        "83002"
+      ]
+    },
+    {
+      "name": "Sygnum Bank AG",
+      "short_name": "Sygnum Bank AG",
+      "bic": "SYGNCHZZXXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "30321",
+        "83014"
+      ]
+    },
+    {
+      "name": "AMINA Bank AG",
+      "short_name": "AMINA Bank AG",
+      "bic": "SCRYCH22XXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "30322",
+        "83018"
+      ]
+    },
+    {
+      "name": "Industrial and Commercial Bank of China Limited",
+      "short_name": "Industrial and Commercial Bank of China Limited",
+      "bic": "ICBKCHZZXXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "30329",
+        "83006"
+      ]
+    },
+    {
+      "name": "JL Securities SA",
+      "short_name": "JL Securities SA",
+      "bic": "JLSECHGGXXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "30330",
+        "83007"
+      ]
+    },
+    {
+      "name": "Fidurh\u00f4ne SA",
+      "short_name": "Fidurh\u00f4ne SA",
+      "bic": "FIDHCHGGXXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "30331",
+        "83008"
+      ]
+    },
+    {
+      "name": "Privatbank Bellerive AG",
+      "short_name": "Privatbank Bellerive AG",
+      "bic": "PRBECHZZXXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "30333",
+        "83011"
+      ]
+    },
+    {
+      "name": "Yapeal AG",
+      "short_name": "Yapeal AG",
+      "bic": null,
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "30334"
+      ]
+    },
+    {
+      "name": "Raiffeisen",
+      "short_name": "Raiffeisen",
+      "bic": "RAIFCH22XXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "30808",
+        "80808"
+      ]
+    },
+    {
+      "name": "radicant bank ag",
+      "short_name": "radicant bank ag",
+      "bic": "RDCTCHZHXXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "31100",
+        "83036"
+      ]
+    },
+    {
+      "name": "Bivial AG",
+      "short_name": "Bivial AG",
+      "bic": "KLARCH22XXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "31101",
+        "83041"
+      ]
+    },
+    {
+      "name": "Banca dello Stato del Cantone Ticino",
+      "short_name": "Banca dello Stato del Cantone Ticino",
+      "bic": "BSCTCH22LUG",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "76410"
+      ]
+    },
+    {
+      "name": "Banca dello Stato del Cantone Ticino",
+      "short_name": "Banca dello Stato del Cantone Ticino",
+      "bic": "BSCTCH22LOC",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "76420"
+      ]
+    },
+    {
+      "name": "Banca dello Stato del Cantone Ticino",
+      "short_name": "Banca dello Stato del Cantone Ticino",
+      "bic": "BSCTCH22CHI",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "76430"
+      ]
+    },
+    {
+      "name": "Freiburger Kantonalbank",
+      "short_name": "Freiburger Kantonalbank",
+      "bic": "BEFRCH22XXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "76825",
+        "76829",
+        "76831",
+        "76832",
+        "76836"
+      ]
+    },
+    {
+      "name": "Raiffeisen Schweiz",
+      "short_name": "Raiffeisen Schweiz",
+      "bic": "RAIFCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "80000"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen R\u00e9gion Del\u00e9mont",
+      "short_name": "Banque Raiffeisen R\u00e9gion Del\u00e9mont",
+      "bic": "RAIFCH22002",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80002"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank St.Gallen",
+      "short_name": "Raiffeisenbank St.Gallen",
+      "bic": "RAIFCH22005",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80005"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen  Ajoie",
+      "short_name": "Banque Raiffeisen  Ajoie",
+      "bic": "RAIFCH22027",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80027"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Clos du Doubs et Haute-Ajoie",
+      "short_name": "Banque Raiffeisen Clos du Doubs et Haute-Ajoie",
+      "bic": "RAIFCH22037",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80037"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Grand Chasseral",
+      "short_name": "Banque Raiffeisen Grand Chasseral",
+      "bic": "RAIFCH22051",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80051"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Franches-Montagnes",
+      "short_name": "Banque Raiffeisen Franches-Montagnes",
+      "bic": "RAIFCH22059",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80059"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen du Val-Terbi",
+      "short_name": "Banque Raiffeisen du Val-Terbi",
+      "bic": "RAIFCH22073",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80073"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Worblen-Emmental",
+      "short_name": "Raiffeisenbank Worblen-Emmental",
+      "bic": "RAIFCH22094",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80094"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Laufental-Thierstein",
+      "short_name": "Raiffeisenbank Laufental-Thierstein",
+      "bic": "RAIFCH22097",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80097"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank G\u00fcrbe",
+      "short_name": "Raiffeisenbank G\u00fcrbe",
+      "bic": "RAIFCH22098",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80098"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Sarine-Ouest",
+      "short_name": "Banque Raiffeisen Sarine-Ouest",
+      "bic": "RAIFCH22102",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80102"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen R\u00e9gion Marly-Cousimbert",
+      "short_name": "Banque Raiffeisen R\u00e9gion Marly-Cousimbert",
+      "bic": "RAIFCH22105",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80105"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Mol\u00e9son",
+      "short_name": "Banque Raiffeisen Mol\u00e9son",
+      "bic": "RAIFCH22129",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80129"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Broye Vully Lac",
+      "short_name": "Banque Raiffeisen Broye Vully Lac",
+      "bic": "RAIFCH22139",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80139"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Fribourg-Ouest",
+      "short_name": "Banque Raiffeisen Fribourg-Ouest",
+      "bic": "RAIFCH22159",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80159"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen R\u00e9gion Gen\u00e8ve Rh\u00f4ne",
+      "short_name": "Banque Raiffeisen R\u00e9gion Gen\u00e8ve Rh\u00f4ne",
+      "bic": "RAIFCH22181",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80181"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Gen\u00e8ve Lac",
+      "short_name": "Banque Raiffeisen Gen\u00e8ve Lac",
+      "bic": "RAIFCH22187",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80187"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Villes et Vignobles genevois",
+      "short_name": "Banque Raiffeisen Villes et Vignobles genevois",
+      "bic": "RAIFCH22210",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80210"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen des Montagnes Neuch\u00e2teloises",
+      "short_name": "Banque Raiffeisen des Montagnes Neuch\u00e2teloises",
+      "bic": "RAIFCH22237",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80237"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Neuch\u00e2tel et Vall\u00e9es",
+      "short_name": "Banque Raiffeisen Neuch\u00e2tel et Vall\u00e9es",
+      "bic": "RAIFCH22241",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80241"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen del Basso Mendrisiotto",
+      "short_name": "Banca Raiffeisen del Basso Mendrisiotto",
+      "bic": "RAIFCH22272",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80272"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen Piano di Magadino",
+      "short_name": "Banca Raiffeisen Piano di Magadino",
+      "bic": "RAIFCH22280",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80280"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen Vedeggio Cassarate",
+      "short_name": "Banca Raiffeisen Vedeggio Cassarate",
+      "bic": "RAIFCH22283",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80283"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen Basso Ceresio",
+      "short_name": "Banca Raiffeisen Basso Ceresio",
+      "bic": "RAIFCH22287",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80287"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen Morbio-Vacallo",
+      "short_name": "Banca Raiffeisen Morbio-Vacallo",
+      "bic": "RAIFCH22290",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80290"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen del Malcantone",
+      "short_name": "Banca Raiffeisen del Malcantone",
+      "bic": "RAIFCH22317",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80317"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen Losone Pedemonte Vallemaggia",
+      "short_name": "Banca Raiffeisen Losone Pedemonte Vallemaggia",
+      "bic": "RAIFCH22333",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80333"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen Mendrisio e Valle di Muggio",
+      "short_name": "Banca Raiffeisen Mendrisio e Valle di Muggio",
+      "bic": "RAIFCH22340",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80340"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen del Camogh\u00e8",
+      "short_name": "Banca Raiffeisen del Camogh\u00e8",
+      "bic": "RAIFCH22344",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80344"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen Tre Valli",
+      "short_name": "Banca Raiffeisen Tre Valli",
+      "bic": "RAIFCH22350",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80350"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen Colline del Ceresio",
+      "short_name": "Banca Raiffeisen Colline del Ceresio",
+      "bic": "RAIFCH22362",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80362"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen della Campagnadorna",
+      "short_name": "Banca Raiffeisen della Campagnadorna",
+      "bic": "RAIFCH22365",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80365"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen Lugano",
+      "short_name": "Banca Raiffeisen Lugano",
+      "bic": "RAIFCH22375",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80375"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen Locarno",
+      "short_name": "Banca Raiffeisen Locarno",
+      "bic": "RAIFCH22379",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80379"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen Bellinzonese e Visagno",
+      "short_name": "Banca Raiffeisen Bellinzonese e Visagno",
+      "bic": "RAIFCH22387",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80387"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Mont-Aubert Orbe",
+      "short_name": "Banque Raiffeisen Mont-Aubert Orbe",
+      "bic": "RAIFCH22401",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80401"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen d'Assens",
+      "short_name": "Banque Raiffeisen d'Assens",
+      "bic": "RAIFCH22414",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80414"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Alpes Riviera Chablais Vaudois",
+      "short_name": "Banque Raiffeisen Alpes Riviera Chablais Vaudois",
+      "bic": "RAIFCH22430",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80430"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen du Gros-de-Vaud",
+      "short_name": "Banque Raiffeisen du Gros-de-Vaud",
+      "bic": "RAIFCH22434",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80434"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Nyon-La Vall\u00e9e",
+      "short_name": "Banque Raiffeisen Nyon-La Vall\u00e9e",
+      "bic": "RAIFCH22442",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80442"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen du Mont-Tendre",
+      "short_name": "Banque Raiffeisen du Mont-Tendre",
+      "bic": "RAIFCH22445",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80445"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Lausanne Haute-Broye-Jorat",
+      "short_name": "Banque Raiffeisen Lausanne Haute-Broye-Jorat",
+      "bic": "RAIFCH22451",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80451"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen de Lavaux",
+      "short_name": "Banque Raiffeisen de Lavaux",
+      "bic": "RAIFCH22454",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80454"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Morges Venoge",
+      "short_name": "Banque Raiffeisen Morges Venoge",
+      "bic": "RAIFCH22460",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80460"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen d'Yverdon-les-Bains",
+      "short_name": "Banque Raiffeisen d'Yverdon-les-Bains",
+      "bic": "RAIFCH22472",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80472"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen de la Broye",
+      "short_name": "Banque Raiffeisen de la Broye",
+      "bic": "RAIFCH22479",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80479"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen de Gimel",
+      "short_name": "Banque Raiffeisen de Gimel",
+      "bic": "RAIFCH22485",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80485"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Mischabel-Matterhorn",
+      "short_name": "Raiffeisenbank Mischabel-Matterhorn",
+      "bic": "RAIFCH22496",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80496"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Gampel-Raron",
+      "short_name": "Raiffeisenbank Gampel-Raron",
+      "bic": "RAIFCH22521",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80521"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Region Leuk",
+      "short_name": "Raiffeisenbank Region Leuk",
+      "bic": "RAIFCH22527",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80527"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Belalp-Simplon",
+      "short_name": "Raiffeisenbank Belalp-Simplon",
+      "bic": "RAIFCH22532",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80532"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Aletsch-Goms",
+      "short_name": "Raiffeisenbank Aletsch-Goms",
+      "bic": "RAIFCH22539",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80539"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Region Visp",
+      "short_name": "Raiffeisenbank Region Visp",
+      "bic": "RAIFCH22553",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80553"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Sion et R\u00e9gion",
+      "short_name": "Banque Raiffeisen Sion et R\u00e9gion",
+      "bic": "RAIFCH22572",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80572"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Entremont",
+      "short_name": "Banque Raiffeisen Entremont",
+      "bic": "RAIFCH22581",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80581"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen du Haut-L\u00e9man",
+      "short_name": "Banque Raiffeisen du Haut-L\u00e9man",
+      "bic": "RAIFCH22588",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80588"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Martigny et R\u00e9gion",
+      "short_name": "Banque Raiffeisen Martigny et R\u00e9gion",
+      "bic": "RAIFCH22595",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80595"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen de Sierre & R\u00e9gion",
+      "short_name": "Banque Raiffeisen de Sierre & R\u00e9gion",
+      "bic": "RAIFCH22598",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80598"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen de Massongex-St-Maurice-V\u00e9rossaz",
+      "short_name": "Banque Raiffeisen de Massongex-St-Maurice-V\u00e9rossaz",
+      "bic": "RAIFCH22606",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80606"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen de Monthey",
+      "short_name": "Banque Raiffeisen de Monthey",
+      "bic": "RAIFCH22611",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80611"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen des Communes du Haut Plateau",
+      "short_name": "Banque Raiffeisen des Communes du Haut Plateau",
+      "bic": "RAIFCH22615",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80615"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Vall\u00e9e d'Illiez",
+      "short_name": "Banque Raiffeisen Vall\u00e9e d'Illiez",
+      "bic": "RAIFCH22626",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80626"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank B\u00f6ttstein",
+      "short_name": "Raiffeisenbank B\u00f6ttstein",
+      "bic": "RAIFCH22652",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80652"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank an der Limmat",
+      "short_name": "Raiffeisenbank an der Limmat",
+      "bic": "RAIFCH22666",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80666"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Wasserschloss",
+      "short_name": "Raiffeisenbank Wasserschloss",
+      "bic": "RAIFCH22690",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80690"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Regio Frick-Mettauertal",
+      "short_name": "Raiffeisenbank Regio Frick-Mettauertal",
+      "bic": "RAIFCH22691",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80691"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Regio Laufenburg",
+      "short_name": "Raiffeisenbank Regio Laufenburg",
+      "bic": "RAIFCH22696",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80696"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Aarau-Lenzburg",
+      "short_name": "Raiffeisenbank Aarau-Lenzburg",
+      "bic": "RAIFCH22698",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80698"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Surbtal-Wehntal",
+      "short_name": "Raiffeisenbank Surbtal-Wehntal",
+      "bic": "RAIFCH22700",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80700"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Aare-Rhein",
+      "short_name": "Raiffeisenbank Aare-Rhein",
+      "bic": "RAIFCH22701",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80701"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Kelleramt-Albis",
+      "short_name": "Raiffeisenbank Kelleramt-Albis",
+      "bic": "RAIFCH22702",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80702"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Aare-Reuss",
+      "short_name": "Raiffeisenbank Aare-Reuss",
+      "bic": "RAIFCH22704",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80704"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Reuss-Lindenberg",
+      "short_name": "Raiffeisenbank Reuss-Lindenberg",
+      "bic": "RAIFCH22705",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80705"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank M\u00f6hlin",
+      "short_name": "Raiffeisenbank M\u00f6hlin",
+      "bic": "RAIFCH22706",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80706"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Mutschellen",
+      "short_name": "Raiffeisenbank Mutschellen",
+      "bic": "RAIFCH22719",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80719"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Region Zofingen",
+      "short_name": "Raiffeisenbank Region Zofingen",
+      "bic": "RAIFCH22721",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80721"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Reitnau-Rued",
+      "short_name": "Raiffeisenbank Reitnau-Rued",
+      "bic": "RAIFCH22723",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80723"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Oberfreiamt",
+      "short_name": "Raiffeisenbank Oberfreiamt",
+      "bic": "RAIFCH22728",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80728"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Villmergen",
+      "short_name": "Raiffeisenbank Villmergen",
+      "bic": "RAIFCH22736",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80736"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank L\u00e4gern-Baregg",
+      "short_name": "Raiffeisenbank L\u00e4gern-Baregg",
+      "bic": "RAIFCH22740",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80740"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Wohlen",
+      "short_name": "Raiffeisenbank Wohlen",
+      "bic": "RAIFCH22744",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80744"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Siggenthal-W\u00fcrenlingen",
+      "short_name": "Raiffeisenbank Siggenthal-W\u00fcrenlingen",
+      "bic": "RAIFCH22746",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80746"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank W\u00fcrenlos",
+      "short_name": "Raiffeisenbank W\u00fcrenlos",
+      "bic": "RAIFCH22747",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80747"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Wegenstettertal",
+      "short_name": "Raiffeisenbank Wegenstettertal",
+      "bic": "RAIFCH22748",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80748"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Liestal-Oberbaselbiet",
+      "short_name": "Raiffeisenbank Liestal-Oberbaselbiet",
+      "bic": "RAIFCH22773",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80773"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Leimental",
+      "short_name": "Raiffeisenbank Leimental",
+      "bic": "RAIFCH22774",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80774"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Allschwil-Sch\u00f6nenbuch",
+      "short_name": "Raiffeisenbank Allschwil-Sch\u00f6nenbuch",
+      "bic": "RAIFCH22775",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80775"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Regio Muttenz",
+      "short_name": "Raiffeisenbank Regio Muttenz",
+      "bic": "RAIFCH22776",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80776"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Aesch-Pfeffingen",
+      "short_name": "Raiffeisenbank Aesch-Pfeffingen",
+      "bic": "RAIFCH22779",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80779"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Reinach BL",
+      "short_name": "Raiffeisenbank Reinach BL",
+      "bic": "RAIFCH22780",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80780"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Niedersimmental",
+      "short_name": "Raiffeisenbank Niedersimmental",
+      "bic": "RAIFCH22816",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80816"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Steffisburg",
+      "short_name": "Raiffeisenbank Steffisburg",
+      "bic": "RAIFCH22817",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80817"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Grauholz",
+      "short_name": "Raiffeisenbank Grauholz",
+      "bic": "RAIFCH22819",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80819"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Frutigland",
+      "short_name": "Raiffeisenbank Frutigland",
+      "bic": "RAIFCH22820",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80820"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Jungfrau",
+      "short_name": "Raiffeisenbank Jungfrau",
+      "bic": "RAIFCH22842",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80842"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Region Haslital-Brienz",
+      "short_name": "Raiffeisenbank Region Haslital-Brienz",
+      "bic": "RAIFCH22843",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80843"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Obersimmental-Saanenland",
+      "short_name": "Raiffeisenbank Obersimmental-Saanenland",
+      "bic": "RAIFCH22856",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80856"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Schwarzwasser",
+      "short_name": "Raiffeisenbank Schwarzwasser",
+      "bic": "RAIFCH22860",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80860"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Seeland",
+      "short_name": "Raiffeisenbank Seeland",
+      "bic": "RAIFCH22862",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80862"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Thunersee-Kiesental",
+      "short_name": "Raiffeisenbank Thunersee-Kiesental",
+      "bic": "RAIFCH22867",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80867"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Unteremmental",
+      "short_name": "Raiffeisenbank Unteremmental",
+      "bic": "RAIFCH22875",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80875"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Oberes Emmental",
+      "short_name": "Raiffeisenbank Oberes Emmental",
+      "bic": "RAIFCH22882",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80882"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Region Burgdorf",
+      "short_name": "Raiffeisenbank Region Burgdorf",
+      "bic": "RAIFCH22888",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80888"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Sense-Oberland",
+      "short_name": "Raiffeisenbank Sense-Oberland",
+      "bic": "RAIFCH22895",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80895"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank See-Lac",
+      "short_name": "Raiffeisenbank See-Lac",
+      "bic": "RAIFCH22896",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80896"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Sensetal Freiburg-Ost / Sensetal Fribourg-Est",
+      "short_name": "Raiffeisenbank Sensetal Freiburg-Ost / Sensetal Fribourg-Est",
+      "bic": "RAIFCH22905",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80905"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Dulliken-Starrkirch",
+      "short_name": "Raiffeisenbank Dulliken-Starrkirch",
+      "bic": "RAIFCH22911",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80911"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank G\u00e4u-Bipperamt",
+      "short_name": "Raiffeisenbank G\u00e4u-Bipperamt",
+      "bic": "RAIFCH22912",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80912"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Aare-Langete",
+      "short_name": "Raiffeisenbank Aare-Langete",
+      "bic": "RAIFCH22914",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80914"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Mittelg\u00f6sgen-Staffelegg",
+      "short_name": "Raiffeisenbank Mittelg\u00f6sgen-Staffelegg",
+      "bic": "RAIFCH22918",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80918"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Balsthal-Laupersdorf",
+      "short_name": "Raiffeisenbank Balsthal-Laupersdorf",
+      "bic": "RAIFCH22930",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80930"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Wasseramt-Buchsi",
+      "short_name": "Raiffeisenbank Wasseramt-Buchsi",
+      "bic": "RAIFCH22938",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80938"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Dornach",
+      "short_name": "Raiffeisenbank Dornach",
+      "bic": "RAIFCH22939",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80939"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Unterg\u00e4u",
+      "short_name": "Raiffeisenbank Unterg\u00e4u",
+      "bic": "RAIFCH22947",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80947"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank D\u00fcnnerntal-Guldental",
+      "short_name": "Raiffeisenbank D\u00fcnnerntal-Guldental",
+      "bic": "RAIFCH22962",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80962"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank am Eppenberg",
+      "short_name": "Raiffeisenbank am Eppenberg",
+      "bic": "RAIFCH22965",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80965"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Olten",
+      "short_name": "Raiffeisenbank Olten",
+      "bic": "RAIFCH22970",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80970"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Untere Emme",
+      "short_name": "Raiffeisenbank Untere Emme",
+      "bic": "RAIFCH22971",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80971"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Weissenstein",
+      "short_name": "Raiffeisenbank Weissenstein",
+      "bic": "RAIFCH22976",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "80976"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Appenzeller Hinterland",
+      "short_name": "Raiffeisenbank Appenzeller Hinterland",
+      "bic": "RAIFCH22A11",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81011"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Heiden",
+      "short_name": "Raiffeisenbank Heiden",
+      "bic": "RAIFCH22A12",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81012"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Appenzell",
+      "short_name": "Raiffeisenbank Appenzell",
+      "bic": "RAIFCH22A23",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81023"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Glarnerland",
+      "short_name": "Raiffeisenbank Glarnerland",
+      "bic": "RAIFCH22A31",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81031"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank B\u00fcndner Rheintal",
+      "short_name": "Raiffeisenbank B\u00fcndner Rheintal",
+      "bic": "RAIFCH22A45",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81045"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen del Moesano",
+      "short_name": "Banca Raiffeisen del Moesano",
+      "bic": "RAIFCH22A54",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81054"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Mittelb\u00fcnden",
+      "short_name": "Raiffeisenbank Mittelb\u00fcnden",
+      "bic": "RAIFCH22A63",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81063"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Cadi",
+      "short_name": "Raiffeisenbank Cadi",
+      "bic": "RAIFCH22A72",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81072"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Surselva",
+      "short_name": "Raiffeisenbank Surselva",
+      "bic": "RAIFCH22A73",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81073"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Pr\u00e4ttigau-Davos",
+      "short_name": "Raiffeisenbank Pr\u00e4ttigau-Davos",
+      "bic": "RAIFCH22A84",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81084"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen Valposchiavo",
+      "short_name": "Banca Raiffeisen Valposchiavo",
+      "bic": "RAIFCH22B03",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81103"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Engiadina Val M\u00fcstair",
+      "short_name": "Raiffeisenbank Engiadina Val M\u00fcstair",
+      "bic": "RAIFCH22B44",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81144"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Pilatus",
+      "short_name": "Raiffeisenbank Pilatus",
+      "bic": "RAIFCH22B65",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81165"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Adligenswil-Udligenswil-Meggen",
+      "short_name": "Raiffeisenbank Adligenswil-Udligenswil-Meggen",
+      "bic": "RAIFCH22B68",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81168"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Hitzkirchertal",
+      "short_name": "Raiffeisenbank Hitzkirchertal",
+      "bic": "RAIFCH22B69",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81169"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Berom\u00fcnster",
+      "short_name": "Raiffeisenbank Berom\u00fcnster",
+      "bic": "RAIFCH22B70",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81170"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Emmen",
+      "short_name": "Raiffeisenbank Emmen",
+      "bic": "RAIFCH22B77",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81177"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank im Entlebuch",
+      "short_name": "Raiffeisenbank im Entlebuch",
+      "bic": "RAIFCH22B79",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81179"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Horw",
+      "short_name": "Raiffeisenbank Horw",
+      "bic": "RAIFCH22B86",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81186"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Oberseetal",
+      "short_name": "Raiffeisenbank Oberseetal",
+      "bic": "RAIFCH22B87",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81187"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Menznau-Wolhusen",
+      "short_name": "Raiffeisenbank Menznau-Wolhusen",
+      "bic": "RAIFCH22B94",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81194"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Sempachersee-Rottal S\u00fcd",
+      "short_name": "Raiffeisenbank Sempachersee-Rottal S\u00fcd",
+      "bic": "RAIFCH22B96",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81196"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Luzern",
+      "short_name": "Raiffeisenbank Luzern",
+      "bic": "RAIFCH22C03",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81203"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Rothenburg",
+      "short_name": "Raiffeisenbank Rothenburg",
+      "bic": "RAIFCH22C04",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81204"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Luzerner Hinterland",
+      "short_name": "Raiffeisenbank Luzerner Hinterland",
+      "bic": "RAIFCH22C11",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81211"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Ettiswil",
+      "short_name": "Raiffeisenbank Ettiswil",
+      "bic": "RAIFCH22C12",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81212"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Luzerner Landschaft Nordwest",
+      "short_name": "Raiffeisenbank Luzerner Landschaft Nordwest",
+      "bic": "RAIFCH22C14",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81214"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Nidwalden",
+      "short_name": "Raiffeisenbank Nidwalden",
+      "bic": "RAIFCH22C23",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81223"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Obwalden",
+      "short_name": "Raiffeisenbank Obwalden",
+      "bic": "RAIFCH22C32",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81232"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Regio St. Gallen West",
+      "short_name": "Raiffeisenbank Regio St. Gallen West",
+      "bic": "RAIFCH22C41",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81241"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Werdenberg",
+      "short_name": "Raiffeisenbank Werdenberg",
+      "bic": "RAIFCH22C51",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81251"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Benken",
+      "short_name": "Raiffeisenbank Benken",
+      "bic": "RAIFCH22C56",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81256"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Bernhardzell",
+      "short_name": "Raiffeisenbank Bernhardzell",
+      "bic": "RAIFCH22C59",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81259"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Regio Unteres Toggenburg & Neckertal",
+      "short_name": "Raiffeisenbank Regio Unteres Toggenburg & Neckertal",
+      "bic": "RAIFCH22C61",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81261"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Diepoldsau-Schmitter",
+      "short_name": "Raiffeisenbank Diepoldsau-Schmitter",
+      "bic": "RAIFCH22C62",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81262"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Gossau-Andwil-Niederwil",
+      "short_name": "Raiffeisenbank Gossau-Andwil-Niederwil",
+      "bic": "RAIFCH22C71",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81271"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Rapperswil-Jona",
+      "short_name": "Raiffeisenbank Rapperswil-Jona",
+      "bic": "RAIFCH22C74",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81274"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Sarganserland",
+      "short_name": "Raiffeisenbank Sarganserland",
+      "bic": "RAIFCH22C81",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81281"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank M\u00f6rschwil",
+      "short_name": "Raiffeisenbank M\u00f6rschwil",
+      "bic": "RAIFCH22C84",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81284"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Obertoggenburg",
+      "short_name": "Raiffeisenbank Obertoggenburg",
+      "bic": "RAIFCH22C87",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81287"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Niederhelfenschwil",
+      "short_name": "Raiffeisenbank Niederhelfenschwil",
+      "bic": "RAIFCH22C89",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81289"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Regio Uzwil",
+      "short_name": "Raiffeisenbank Regio Uzwil",
+      "bic": "RAIFCH22C91",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81291"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Unteres Rheintal",
+      "short_name": "Raiffeisenbank Unteres Rheintal",
+      "bic": "RAIFCH22C95",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81295"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Region Rorschach",
+      "short_name": "Raiffeisenbank Region Rorschach",
+      "bic": "RAIFCH22C96",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81296"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Oberes Rheintal",
+      "short_name": "Raiffeisenbank Oberes Rheintal",
+      "bic": "RAIFCH22C97",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81297"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank am Ricken",
+      "short_name": "Raiffeisenbank am Ricken",
+      "bic": "RAIFCH22C98",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81298"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Sch\u00e4nis-Amden",
+      "short_name": "Raiffeisenbank Sch\u00e4nis-Amden",
+      "bic": "RAIFCH22D02",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81302"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Sennwald",
+      "short_name": "Raiffeisenbank Sennwald",
+      "bic": "RAIFCH22D04",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81304"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Regio Arbon",
+      "short_name": "Raiffeisenbank Regio Arbon",
+      "bic": "RAIFCH22D07",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81307"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Waldkirch",
+      "short_name": "Raiffeisenbank Waldkirch",
+      "bic": "RAIFCH22D13",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81313"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Walenstadt",
+      "short_name": "Raiffeisenbank Walenstadt",
+      "bic": "RAIFCH22D14",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81314"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Mittleres Toggenburg",
+      "short_name": "Raiffeisenbank Mittleres Toggenburg",
+      "bic": "RAIFCH22D17",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81317"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Mittelrheintal",
+      "short_name": "Raiffeisenbank Mittelrheintal",
+      "bic": "RAIFCH22D19",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81319"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Wil und Umgebung",
+      "short_name": "Raiffeisenbank Wil und Umgebung",
+      "bic": "RAIFCH22D20",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81320"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Wittenbach-H\u00e4ggenschwil",
+      "short_name": "Raiffeisenbank Wittenbach-H\u00e4ggenschwil",
+      "bic": "RAIFCH22D23",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81323"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Marbach-Rebstein",
+      "short_name": "Raiffeisenbank Marbach-Rebstein",
+      "bic": "RAIFCH22D24",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81324"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Flawil-Degersheim-Mogelsberg-Oberuzwil",
+      "short_name": "Raiffeisenbank Flawil-Degersheim-Mogelsberg-Oberuzwil",
+      "bic": "RAIFCH22D25",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81325"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Schaffhausen",
+      "short_name": "Raiffeisenbank Schaffhausen",
+      "bic": "RAIFCH22D44",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81344"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Rigi",
+      "short_name": "Raiffeisenbank Rigi",
+      "bic": "RAIFCH22D51",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81351"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Region linker Z\u00fcrichsee",
+      "short_name": "Raiffeisenbank Region linker Z\u00fcrichsee",
+      "bic": "RAIFCH22D56",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81356"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Muotathal",
+      "short_name": "Raiffeisenbank Muotathal",
+      "bic": "RAIFCH22D60",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81360"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Einsiedeln-Ybrig",
+      "short_name": "Raiffeisenbank Einsiedeln-Ybrig",
+      "bic": "RAIFCH22D61",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81361"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Regio Altnau",
+      "short_name": "Raiffeisenbank Regio Altnau",
+      "bic": "RAIFCH22D71",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81371"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Aadorf",
+      "short_name": "Raiffeisenbank Aadorf",
+      "bic": "RAIFCH22D77",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81377"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank am Bichelsee",
+      "short_name": "Raiffeisenbank am Bichelsee",
+      "bic": "RAIFCH22D78",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81378"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Mittelthurgau",
+      "short_name": "Raiffeisenbank Mittelthurgau",
+      "bic": "RAIFCH22D80",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81380"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Untersee-Rhein",
+      "short_name": "Raiffeisenbank Untersee-Rhein",
+      "bic": "RAIFCH22D82",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81382"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Frauenfeld",
+      "short_name": "Raiffeisenbank Frauenfeld",
+      "bic": "RAIFCH22D84",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81384"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Neukirch-Romanshorn",
+      "short_name": "Raiffeisenbank Neukirch-Romanshorn",
+      "bic": "RAIFCH22D98",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81398"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Seer\u00fccken",
+      "short_name": "Raiffeisenbank Seer\u00fccken",
+      "bic": "RAIFCH22E01",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81401"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Regio Sirnach",
+      "short_name": "Raiffeisenbank Regio Sirnach",
+      "bic": "RAIFCH22E02",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81402"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank T\u00e4gerwilen",
+      "short_name": "Raiffeisenbank T\u00e4gerwilen",
+      "bic": "RAIFCH22E12",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81412"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank M\u00fcnchwilen-Tobel",
+      "short_name": "Raiffeisenbank M\u00fcnchwilen-Tobel",
+      "bic": "RAIFCH22E14",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81414"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank W\u00e4ngi-Matzingen",
+      "short_name": "Raiffeisenbank W\u00e4ngi-Matzingen",
+      "bic": "RAIFCH22E16",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81416"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Amriswil Bischofszell",
+      "short_name": "Raiffeisenbank Amriswil Bischofszell",
+      "bic": "RAIFCH22E17",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81417"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Urnerland",
+      "short_name": "Raiffeisenbank Urnerland",
+      "bic": "RAIFCH22E31",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81431"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Sch\u00e4chental",
+      "short_name": "Raiffeisenbank Sch\u00e4chental",
+      "bic": "RAIFCH22E32",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81432"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Zug",
+      "short_name": "Raiffeisenbank Zug",
+      "bic": "RAIFCH22E54",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81454"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Cham-Steinhausen",
+      "short_name": "Raiffeisenbank Cham-Steinhausen",
+      "bic": "RAIFCH22E55",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81455"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank H\u00fcnenberg-Risch",
+      "short_name": "Raiffeisenbank H\u00fcnenberg-Risch",
+      "bic": "RAIFCH22E56",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81456"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Menzingen-Neuheim",
+      "short_name": "Raiffeisenbank Menzingen-Neuheim",
+      "bic": "RAIFCH22E57",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81457"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Region \u00c4gerital-Sattel",
+      "short_name": "Raiffeisenbank Region \u00c4gerital-Sattel",
+      "bic": "RAIFCH22E59",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81459"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Z\u00fcrcher Oberland",
+      "short_name": "Raiffeisenbank Z\u00fcrcher Oberland",
+      "bic": "RAIFCH22E71",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81471"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Z\u00fcrich Flughafen",
+      "short_name": "Raiffeisenbank Z\u00fcrich Flughafen",
+      "bic": "RAIFCH22E74",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81474"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Z\u00fcri-Unterland",
+      "short_name": "Raiffeisenbank Z\u00fcri-Unterland",
+      "bic": "RAIFCH22E75",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81475"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Region Glatt",
+      "short_name": "Raiffeisenbank Region Glatt",
+      "bic": "RAIFCH22E77",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81477"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Weinland",
+      "short_name": "Raiffeisenbank Weinland",
+      "bic": "RAIFCH22E79",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81479"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank rechter Z\u00fcrichsee",
+      "short_name": "Raiffeisenbank rechter Z\u00fcrichsee",
+      "bic": "RAIFCH22E81",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81481"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Winterthur",
+      "short_name": "Raiffeisenbank Winterthur",
+      "bic": "RAIFCH22E85",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81485"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Basel",
+      "short_name": "Raiffeisenbank Basel",
+      "bic": "RAIFCH22E86",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81486"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Z\u00fcrich",
+      "short_name": "Raiffeisenbank Z\u00fcrich",
+      "bic": "RAIFCH22E87",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81487"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Bern",
+      "short_name": "Raiffeisenbank Bern",
+      "bic": "RAIFCH22E88",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81488"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Thalwil",
+      "short_name": "Raiffeisenbank Thalwil",
+      "bic": "RAIFCH22E90",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81490"
+      ]
+    },
+    {
+      "name": "RAIFFEISEN SCHWEIZ, FIRMENKUNDEN",
+      "short_name": "RAIFFEISEN SCHWEIZ, FIRMENKUNDEN",
+      "bic": "RAIFCH22E91",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "81491"
+      ]
+    },
+    {
+      "name": "Cembra Money Bank SA",
+      "short_name": "Cembra Money Bank SA",
+      "bic": "CMBNCHZHXXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "82961",
+        "82962",
+        "82968",
+        "82969",
+        "82972",
+        "82975",
+        "82976",
+        "82986"
+      ]
+    },
+    {
+      "name": "SIX x-clear AG",
+      "short_name": "SIX x-clear AG",
+      "bic": "CLRXCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83003"
+      ]
+    },
+    {
+      "name": "Allianz Suisse Versicherungs-Ges. AG (geb. Verm\u00f6gen)",
+      "short_name": "Allianz Suisse Versicherungs-Ges. AG (geb. Verm\u00f6gen)",
+      "bic": null,
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83004"
+      ]
+    },
+    {
+      "name": "Helvetia Schweizerische Versicherungsgesellschaft AG",
+      "short_name": "Helvetia Schweizerische Versicherungsgesellschaft AG",
+      "bic": "HELNCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83009"
+      ]
+    },
+    {
+      "name": "Allianz Suisse Lebensvers.-Ges. AG (geb. Verm\u00f6gen KL)",
+      "short_name": "Allianz Suisse Lebensvers.-Ges. AG (geb. Verm\u00f6gen KL)",
+      "bic": null,
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83010"
+      ]
+    },
+    {
+      "name": "Hottinger AG",
+      "short_name": "Hottinger AG",
+      "bic": "JHOTCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83013"
+      ]
+    },
+    {
+      "name": "MBaer Merchant Bank AG",
+      "short_name": "MBaer Merchant Bank AG",
+      "bic": "MBMECHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83015"
+      ]
+    },
+    {
+      "name": "AXA Versicherungen AG",
+      "short_name": "AXA Versicherungen AG",
+      "bic": "AXIPCHZZWIN",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83016"
+      ]
+    },
+    {
+      "name": "SIX Digital Exchange AG",
+      "short_name": "SIX Digital Exchange AG",
+      "bic": "SDXXCHZHXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83017"
+      ]
+    },
+    {
+      "name": "Yapeal AG",
+      "short_name": "Yapeal AG",
+      "bic": "YAPECHZ2XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83019"
+      ]
+    },
+    {
+      "name": "Barclays Capital, Zurich Branch of Barclays Bank PLC, London",
+      "short_name": "Barclays Capital, Zurich Branch of Barclays Bank PLC, London",
+      "bic": null,
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83020"
+      ]
+    },
+    {
+      "name": "Cit\u00e9 Gestion SA",
+      "short_name": "Cit\u00e9 Gestion SA",
+      "bic": "CITECHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83021"
+      ]
+    },
+    {
+      "name": "ISP Securities Ltd",
+      "short_name": "ISP Securities Ltd",
+      "bic": "PLESCHZZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83022"
+      ]
+    },
+    {
+      "name": "Swiss Life AG (EV, geb. Verm\u00f6gen)",
+      "short_name": "Swiss Life AG (EV, geb. Verm\u00f6gen)",
+      "bic": "SLAMCHZZEV0",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83024"
+      ]
+    },
+    {
+      "name": "Swiss Life AG (freies Verm\u00f6gen)",
+      "short_name": "Swiss Life AG (freies Verm\u00f6gen)",
+      "bic": "SLAMCHZZNZ0",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83025"
+      ]
+    },
+    {
+      "name": "AXA Leben AG (Einzel, geb. Verm\u00f6gen)",
+      "short_name": "AXA Leben AG (Einzel, geb. Verm\u00f6gen)",
+      "bic": "AXIPCHZZWLE",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83026"
+      ]
+    },
+    {
+      "name": "Baloise Leben AG (Kollektiv, geb. Verm\u00f6gen)",
+      "short_name": "Baloise Leben AG (Kollektiv, geb. Verm\u00f6gen)",
+      "bic": "BAAMCHBBBKL",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83027"
+      ]
+    },
+    {
+      "name": "Baloise Leben AG (Einzel, geb. Verm\u00f6gen)",
+      "short_name": "Baloise Leben AG (Einzel, geb. Verm\u00f6gen)",
+      "bic": "BAAMCHBBBEL",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83028"
+      ]
+    },
+    {
+      "name": "Allianz Suisse Lebensvers.-Ges. AG (geb. Verm\u00f6gen EL)",
+      "short_name": "Allianz Suisse Lebensvers.-Ges. AG (geb. Verm\u00f6gen EL)",
+      "bic": null,
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83030"
+      ]
+    },
+    {
+      "name": "Swisscanto Fondsleitung AG, handelnd f\u00fcr SUVA EAF",
+      "short_name": "Swisscanto Fondsleitung AG, handelnd f\u00fcr SUVA EAF",
+      "bic": "SWIPCHZHXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83031"
+      ]
+    },
+    {
+      "name": "Taurus SA",
+      "short_name": "Taurus SA",
+      "bic": "TARSCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83035"
+      ]
+    },
+    {
+      "name": "Vaudoise G\u00e9n\u00e9rale, Compagnie d'Assurances SA (geb. Verm\u00f6gen)",
+      "short_name": "Vaudoise G\u00e9n\u00e9rale, Compagnie d'Assurances SA (geb. Verm\u00f6gen)",
+      "bic": null,
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83037"
+      ]
+    },
+    {
+      "name": "Alpian SA",
+      "short_name": "Alpian SA",
+      "bic": "APNACHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83039"
+      ]
+    },
+    {
+      "name": "Kendra Securities House SA",
+      "short_name": "Kendra Securities House SA",
+      "bic": "KSEHCHGGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83040"
+      ]
+    },
+    {
+      "name": "MG Finance SA",
+      "short_name": "MG Finance SA",
+      "bic": null,
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83042"
+      ]
+    },
+    {
+      "name": "Private Client Bank AG",
+      "short_name": "Private Client Bank AG",
+      "bic": "PICLCHZ2XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83043"
+      ]
+    },
+    {
+      "name": "Bank of China Limited, GenevaBranch",
+      "short_name": "Bank of China Limited, GenevaBranch",
+      "bic": "BKCHCHGEXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83045"
+      ]
+    },
+    {
+      "name": "BG (Suisse) Private Bank SA",
+      "short_name": "BG (Suisse) Private Bank SA",
+      "bic": "BGPBCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83046"
+      ]
+    },
+    {
+      "name": "Relio AG",
+      "short_name": "Relio AG",
+      "bic": null,
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83050"
+      ]
+    },
+    {
+      "name": "SR Saphirstein AG",
+      "short_name": "SR Saphirstein AG",
+      "bic": "SAHHCHZ2XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83051"
+      ]
+    },
+    {
+      "name": "Helvetia Schweizerische Vers.- Ges. AG (EL, geb. Verm\u00f6gen)",
+      "short_name": "Helvetia Schweizerische Vers.- Ges. AG (EL, geb. Verm\u00f6gen)",
+      "bic": "HELNCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83054"
+      ]
+    },
+    {
+      "name": "Helvetia Schweizerische Vers.- Ges. AG (KL, geb. Verm\u00f6gen)",
+      "short_name": "Helvetia Schweizerische Vers.- Ges. AG (KL, geb. Verm\u00f6gen)",
+      "bic": "HELNCH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83055"
+      ]
+    },
+    {
+      "name": "Helveticor AG",
+      "short_name": "Helveticor AG",
+      "bic": null,
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83056"
+      ]
+    },
+    {
+      "name": "Union Securities Switzerland SA",
+      "short_name": "Union Securities Switzerland SA",
+      "bic": null,
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83057"
+      ]
+    },
+    {
+      "name": "Swiss Life Asset Management AG, handelnd f\u00fcr SLF (CH) MM CHF",
+      "short_name": "Swiss Life Asset Management AG, handelnd f\u00fcr SLF (CH) MM CHF",
+      "bic": "SLAMCHZZFMM",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83058"
+      ]
+    },
+    {
+      "name": "finpension AG",
+      "short_name": "finpension AG",
+      "bic": "FNPICH22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83059"
+      ]
+    }
+  ],
+  "expand_from": "bank_codes",
+  "expand_into": "bank_code"
+}
