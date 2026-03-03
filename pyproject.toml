@@ -114,3 +114,12 @@ doc = [
     "doc8==2.0.*",
     "pygments==2.16.*",
 ]
+scripts = [
+    "beautifulsoup4",
+    "camelot-py",
+    "requests",
+    "xlrd>=2.0.1",
+    "pandas",
+    "openpyxl",
+    "lxml",
+]
