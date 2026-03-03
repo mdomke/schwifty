@@ -5,6 +5,12 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Added
+~~~~~
+* Added bank registry for Moldova (MD) with 10 commercial banks.
+
 `2026.01.0`_ - 2026/01/23
 -------------------------
 Changed
