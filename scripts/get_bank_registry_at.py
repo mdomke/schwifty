@@ -1,13 +1,16 @@
 #!/usr/bin/env python
 import json
+from typing import Any
 
 import pandas
+
+from scripts.remap import convert_to_v2
 
 
 URL = "https://www.oenb.at/docroot/downloads_observ/sepa-zv-vz_gesamt.csv"
 
 
-def process():
+def process() -> dict[str, Any]:
     datas = pandas.read_csv(
         URL,
         skiprows=5,
@@ -34,9 +37,9 @@ def process():
         )
 
     print(f"Fetched {len(registry)} bank records")
-    return registry
+    return convert_to_v2(registry)
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_at.json", "w") as fp:
+    with open("schwifty/bank_registry/generated_at.v2.json", "w") as fp:
         json.dump(process(), fp, indent=2)

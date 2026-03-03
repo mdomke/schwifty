@@ -1,0 +1,4506 @@
+{
+  "entries": [
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "NABAATWWXXX",
+      "name": "OESTERREICHISCHE NATIONALBANK",
+      "short_name": "OESTERREICHISCHE NATIONALBANK",
+      "bank_codes": [
+        "00100"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "OEKOATWWXXX",
+      "name": "OESTERREICHISCHE KONTROLLBANK AKTIENGESELLSCHAFT",
+      "short_name": "OESTERREICHISCHE KONTROLLBANK AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "10000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "BKAUATWWXXX",
+      "name": "UNICREDIT BANK AUSTRIA AG",
+      "short_name": "UNICREDIT BANK AUSTRIA AG",
+      "bank_codes": [
+        "11000",
+        "12000",
+        "12002",
+        "12004",
+        "12005"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "BAWAATWWXXX",
+      "name": "BAWAG P.S.K. BANK F\u00dcR ARBEIT UND WIRTSCHAFT UND \u00d6STERREICHISCHE POSTSPARKASSE AKTIENGESELLSCHAFT",
+      "short_name": "BAWAG P.S.K. BANK F\u00dcR ARBEIT UND WIRTSCHAFT UND \u00d6STERREICHISCHE POSTSPARKASSE AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "14000",
+        "14200",
+        "14210",
+        "14900",
+        "18190",
+        "60000",
+        "14001",
+        "14002"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "OBKLAT2LXXX",
+      "name": "OBERBANK AG",
+      "short_name": "OBERBANK AG",
+      "bank_codes": [
+        "15000",
+        "15001",
+        "15002",
+        "15003",
+        "15004",
+        "15005",
+        "15006",
+        "15007",
+        "15008",
+        "15009",
+        "15010",
+        "15011",
+        "15012",
+        "15013",
+        "15021",
+        "15022",
+        "15023",
+        "15024",
+        "15025",
+        "15030",
+        "15031",
+        "15040",
+        "15041",
+        "15042",
+        "15060",
+        "15061",
+        "15062",
+        "15080",
+        "15081",
+        "15090",
+        "15091",
+        "15092",
+        "15093",
+        "15094",
+        "15095",
+        "15096",
+        "15097",
+        "15110",
+        "15120",
+        "15121",
+        "15122",
+        "15123",
+        "15130",
+        "15131",
+        "15132",
+        "15133",
+        "15134",
+        "15135",
+        "15150",
+        "15151",
+        "15899"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "BTVAAT22XXX",
+      "name": "BTV VIER L\u00c4NDER BANK AG",
+      "short_name": "BTV VIER L\u00c4NDER BANK AG",
+      "bank_codes": [
+        "16000",
+        "16300",
+        "16310",
+        "16320",
+        "16330",
+        "16340",
+        "16350",
+        "16360",
+        "16370",
+        "16380",
+        "16390",
+        "16400",
+        "16410",
+        "16420",
+        "16430",
+        "16440",
+        "16450",
+        "16460"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "BFKKAT2KXXX",
+      "name": "BKS BANK AG",
+      "short_name": "BKS BANK AG",
+      "bank_codes": [
+        "17000",
+        "17100",
+        "17200",
+        "17300",
+        "17400",
+        "17500",
+        "17899"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "GEBAATWWXXX",
+      "name": "BNP PARIBAS SA NIEDERLASSUNG \u00d6STERREICH",
+      "short_name": "BNP PARIBAS SA NIEDERLASSUNG \u00d6STERREICH",
+      "bank_codes": [
+        "18100"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "PABXATW1XXX",
+      "name": "A1 BANK AG",
+      "short_name": "A1 BANK AG",
+      "bank_codes": [
+        "18120"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "BWFBATW1XXX",
+      "name": "\u00d6STERREICHISCHE \u00c4RZTE- UND APOTHEKERBANK AG",
+      "short_name": "\u00d6STERREICHISCHE \u00c4RZTE- UND APOTHEKERBANK AG",
+      "bank_codes": [
+        "18130",
+        "44220"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "CITIATWXXXX",
+      "name": "CITIBANK EUROPE PLC, AUSTRIA BRANCH",
+      "short_name": "CITIBANK EUROPE PLC, AUSTRIA BRANCH",
+      "bank_codes": [
+        "18140"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "SGABATWWXXX",
+      "name": "SOCI\u00c9T\u00c9 G\u00c9N\u00c9RALE ZWEIGNIEDERLASSUNG WIEN",
+      "short_name": "SOCI\u00c9T\u00c9 G\u00c9N\u00c9RALE ZWEIGNIEDERLASSUNG WIEN",
+      "bank_codes": [
+        "18150"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "VBOEATWWXXX",
+      "name": "VOLKSBANK WIEN AG",
+      "short_name": "VOLKSBANK WIEN AG",
+      "bank_codes": [
+        "18160",
+        "40000",
+        "40100",
+        "40430",
+        "41600",
+        "42750",
+        "43000",
+        "43600",
+        "43610",
+        "43690",
+        "44430",
+        "44570",
+        "46660",
+        "49220",
+        "49460"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "BGENATWWXXX",
+      "name": "GENERALI BANK AG",
+      "short_name": "GENERALI BANK AG",
+      "bank_codes": [
+        "18400"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "VKBLAT2LXXX",
+      "name": "VOLKSKREDITBANK AG",
+      "short_name": "VOLKSKREDITBANK AG",
+      "bank_codes": [
+        "18600"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "TRBKATW2XXX",
+      "name": "TRADE REPUBLIC BANK GMBH, BRANCH AUSTRIA",
+      "short_name": "TRADE REPUBLIC BANK GMBH, BRANCH AUSTRIA",
+      "bank_codes": [
+        "19001"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "DEUTATWWXXX",
+      "name": "DEUTSCHE BANK AKTIENGESELLSCHAFT FILIALE WIEN",
+      "short_name": "DEUTSCHE BANK AKTIENGESELLSCHAFT FILIALE WIEN",
+      "bank_codes": [
+        "19100"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPBAATWWXXX",
+      "name": "BANK99 AG",
+      "short_name": "BANK99 AG",
+      "bank_codes": [
+        "19120"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "GUTBATWWXXX",
+      "name": "BANK GUTMANN AKTIENGESELLSCHAFT",
+      "short_name": "BANK GUTMANN AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "19140"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "KTBKATWWXXX",
+      "name": "KATHREIN PRIVATBANK AKTIENGESELLSCHAFT",
+      "short_name": "KATHREIN PRIVATBANK AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "19150"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "WIPBATWWXXX",
+      "name": "WIENER PRIVATBANK SE",
+      "short_name": "WIENER PRIVATBANK SE",
+      "bank_codes": [
+        "19160",
+        "19440"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "PABAAT2LXXX",
+      "name": "PARTNER BANK AKTIENGESELLSCHAFT",
+      "short_name": "PARTNER BANK AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "19170"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "BSSWATWWXXX",
+      "name": "SCHELHAMMER CAPITAL BANK AG",
+      "short_name": "SCHELHAMMER CAPITAL BANK AG",
+      "bank_codes": [
+        "19190",
+        "19600"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SCHOATWWXXX",
+      "name": "SCHOELLERBANK AKTIENGESELLSCHAFT",
+      "short_name": "SCHOELLERBANK AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "19200"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "SPBAATWWB99",
+      "name": "BANK99 AG",
+      "short_name": "BANK99 AG",
+      "bank_codes": [
+        "19210"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "WISMATWWXXX",
+      "name": "BANK WINTER & CO. AG",
+      "short_name": "BANK WINTER & CO. AG",
+      "bank_codes": [
+        "19220"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "DIRAAT2SXXX",
+      "name": "BAWAG P.S.K. BANK F\u00dcR ARBEIT UND WIRTSCHAFT UND \u00d6STERREICHISCHE POSTSPARKASSE AKTIENGESELLSCHAFT",
+      "short_name": "BAWAG P.S.K. BANK F\u00dcR ARBEIT UND WIRTSCHAFT UND \u00d6STERREICHISCHE POSTSPARKASSE AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "19250"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "INGBATWWXXX",
+      "name": "ING AUSTRIA BRANCH OF ING BANK N.V.",
+      "short_name": "ING AUSTRIA BRANCH OF ING BANK N.V.",
+      "bank_codes": [
+        "19360"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "DENEATW1XXX",
+      "name": "BANKHAUS DENZEL AKTIENGESELLSCHAFT",
+      "short_name": "BANKHAUS DENZEL AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "19380"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "BMASAT21XXX",
+      "name": "BMW AUSTRIA BANK GMBH",
+      "short_name": "BMW AUSTRIA BANK GMBH",
+      "bank_codes": [
+        "19390"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RCNOATW1XXX",
+      "name": "RCI BANQUE SA, NIEDERLASSUNG \u00d6STERREICH",
+      "short_name": "RCI BANQUE SA, NIEDERLASSUNG \u00d6STERREICH",
+      "bank_codes": [
+        "19420"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "COPRATWWXXX",
+      "name": "LIECHTENSTEINISCHE LANDESBANK (\u00d6STERREICH) AG",
+      "short_name": "LIECHTENSTEINISCHE LANDESBANK (\u00d6STERREICH) AG",
+      "bank_codes": [
+        "19450",
+        "19510",
+        "76520"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "BLFLATWWXXX",
+      "name": "LGT BANK AG, ZWEIGNIEDERLASSUNG \u00d6STERREICH",
+      "short_name": "LGT BANK AG, ZWEIGNIEDERLASSUNG \u00d6STERREICH",
+      "bank_codes": [
+        "19460"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "BIIWATWWXXX",
+      "name": "FLATEXDEGIRO BANK AG",
+      "short_name": "FLATEXDEGIRO BANK AG",
+      "bank_codes": [
+        "19480"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "OPBAATW2XXX",
+      "name": "STELLANTIS BANK SA NIEDERLASSUNG \u00d6STERREICH",
+      "short_name": "STELLANTIS BANK SA NIEDERLASSUNG \u00d6STERREICH",
+      "bank_codes": [
+        "19515",
+        "75910"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "STSPAT2GXXX",
+      "name": "STEIERM\u00c4RKISCHE BANK UND SPARKASSEN AKTIENGESELLSCHAFT",
+      "short_name": "STEIERM\u00c4RKISCHE BANK UND SPARKASSEN AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "19520",
+        "20815"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPAEAT2SXXX",
+      "name": "BANKHAUS CARL SP\u00c4NGLER & CO. AKTIENGESELLSCHAFT",
+      "short_name": "BANKHAUS CARL SP\u00c4NGLER & CO. AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "19530"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "BKCHATWWXXX",
+      "name": "BANK OF CHINA (CENTRAL AND EASTERN EUROPE) LIMITED VIENNA BRANCH",
+      "short_name": "BANK OF CHINA (CENTRAL AND EASTERN EUROPE) LIMITED VIENNA BRANCH",
+      "bank_codes": [
+        "19540"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "ESBKATWWXXX",
+      "name": "DENIZBANK AG",
+      "short_name": "DENIZBANK AG",
+      "bank_codes": [
+        "19650"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "INVOATWWXXX",
+      "name": "KOMMUNALKREDIT AUSTRIA AG",
+      "short_name": "KOMMUNALKREDIT AUSTRIA AG",
+      "bank_codes": [
+        "19660"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "COBAATWXXXX",
+      "name": "COMMERZBANK AG NIEDERLASSUNG WIEN",
+      "short_name": "COMMERZBANK AG NIEDERLASSUNG WIEN",
+      "bank_codes": [
+        "19675"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "TVBAATWWXXX",
+      "name": "VAKIFBANK INTERNATIONAL AG",
+      "short_name": "VAKIFBANK INTERNATIONAL AG",
+      "bank_codes": [
+        "19690"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SANTATWWXXX",
+      "name": "SANTANDER CONSUMER BANK GMBH",
+      "short_name": "SANTANDER CONSUMER BANK GMBH",
+      "bank_codes": [
+        "19810"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "WUSNATWWXXX",
+      "name": "W\u00dcSTENROT BANK AG",
+      "short_name": "W\u00dcSTENROT BANK AG",
+      "bank_codes": [
+        "19825"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "WUIBATWWXXX",
+      "name": "WESTERN UNION INTERNATIONAL BANK GMBH",
+      "short_name": "WESTERN UNION INTERNATIONAL BANK GMBH",
+      "bank_codes": [
+        "19880"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "ICBKATWWXXX",
+      "name": "ICBC AUSTRIA BANK GMBH",
+      "short_name": "ICBC AUSTRIA BANK GMBH",
+      "bank_codes": [
+        "19888"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "CENBATWWXXX",
+      "name": "RAIFFEISEN DIGITAL BANK AG",
+      "short_name": "RAIFFEISEN DIGITAL BANK AG",
+      "bank_codes": [
+        "19930"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "WUBUAT2SXXX",
+      "name": "BAUSPARKASSE W\u00dcSTENROT AKTIENGESELLSCHAFT",
+      "short_name": "BAUSPARKASSE W\u00dcSTENROT AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "19950"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "BRASATWWXXX",
+      "name": "BANCO DO BRASIL AKTIENGESELLSCHAFT",
+      "short_name": "BANCO DO BRASIL AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "19970"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "GIBAATWGXXX",
+      "name": "ERSTE GROUP BANK AG",
+      "short_name": "ERSTE GROUP BANK AG",
+      "bank_codes": [
+        "20100"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "GIBAATWWXXX",
+      "name": "ERSTE BANK DER OESTERREICHISCHEN SPARKASSEN AG",
+      "short_name": "ERSTE BANK DER OESTERREICHISCHEN SPARKASSEN AG",
+      "bank_codes": [
+        "20111"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "GIBAAT21XXX",
+      "name": "DIE ZWEITE WIENER VEREINS-SPARCASSE",
+      "short_name": "DIE ZWEITE WIENER VEREINS-SPARCASSE",
+      "bank_codes": [
+        "20112"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPAMAT21XXX",
+      "name": "SPARKASSE DER STADT AMSTETTEN AG",
+      "short_name": "SPARKASSE DER STADT AMSTETTEN AG",
+      "bank_codes": [
+        "20202"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPBDAT21XXX",
+      "name": "SPARKASSE BADEN",
+      "short_name": "SPARKASSE BADEN",
+      "bank_codes": [
+        "20205",
+        "20225"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPHBAT21XXX",
+      "name": "SPARKASSE HAINBURG-BRUCK-NEUSIEDL AKTIENGESELLSCHAFT",
+      "short_name": "SPARKASSE HAINBURG-BRUCK-NEUSIEDL AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "20216"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPHAAT21XXX",
+      "name": "SPARKASSE HAUGSDORF AG",
+      "short_name": "SPARKASSE HAUGSDORF AG",
+      "bank_codes": [
+        "20218"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPHEAT21XXX",
+      "name": "SPARKASSE HERZOGENBURG-NEULENGBACH BANK AKTIENGESELLSCHAFT",
+      "short_name": "SPARKASSE HERZOGENBURG-NEULENGBACH BANK AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "20219"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPHNAT21XXX",
+      "name": "SPARKASSE HORN-RAVELSBACH-KIRCHBERG AKTIENGESELLSCHAFT",
+      "short_name": "SPARKASSE HORN-RAVELSBACH-KIRCHBERG AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "20221"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SSKOAT21XXX",
+      "name": "SPARKASSE KORNEUBURG AG",
+      "short_name": "SPARKASSE KORNEUBURG AG",
+      "bank_codes": [
+        "20227"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPKDAT21XXX",
+      "name": "KREMSER BANK UND SPARKASSEN AKTIENGESELLSCHAFT",
+      "short_name": "KREMSER BANK UND SPARKASSEN AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "20228"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPLSAT21XXX",
+      "name": "SPARKASSE LANGENLOIS",
+      "short_name": "SPARKASSE LANGENLOIS",
+      "bank_codes": [
+        "20230"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPNGAT21XXX",
+      "name": "SPARKASSE NEUNKIRCHEN",
+      "short_name": "SPARKASSE NEUNKIRCHEN",
+      "bank_codes": [
+        "20241"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPPOAT21XXX",
+      "name": "SPARKASSE POTTENSTEIN N.\u00d6.",
+      "short_name": "SPARKASSE POTTENSTEIN N.\u00d6.",
+      "bank_codes": [
+        "20245"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPPDAT21XXX",
+      "name": "SPARKASSE POYSDORF AG",
+      "short_name": "SPARKASSE POYSDORF AG",
+      "bank_codes": [
+        "20246"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPSPAT21XXX",
+      "name": "SPARKASSE NIEDER\u00d6STERREICH MITTE WEST AKTIENGESELLSCHAFT",
+      "short_name": "SPARKASSE NIEDER\u00d6STERREICH MITTE WEST AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "20256"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPSBAT21XXX",
+      "name": "SPARKASSE SCHEIBBS AG",
+      "short_name": "SPARKASSE SCHEIBBS AG",
+      "bank_codes": [
+        "20257"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "SPZWAT21XXX",
+      "name": "WALDVIERTLER SPARKASSE BANK AG",
+      "short_name": "WALDVIERTLER SPARKASSE BANK AG",
+      "bank_codes": [
+        "20263",
+        "20272"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "WINSATWNXXX",
+      "name": "WIENER NEUST\u00c4DTER SPARKASSE",
+      "short_name": "WIENER NEUST\u00c4DTER SPARKASSE",
+      "bank_codes": [
+        "20267"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPFRAT21XXX",
+      "name": "SPARKASSE FRANKENMARKT AKTIENGESELLSCHAFT",
+      "short_name": "SPARKASSE FRANKENMARKT AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "20306"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SKBIAT21XXX",
+      "name": "SPARKASSE SALZKAMMERGUT AG",
+      "short_name": "SPARKASSE SALZKAMMERGUT AG",
+      "bank_codes": [
+        "20314"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPLAAT21XXX",
+      "name": "SPARKASSE LAMBACH BANK AKTIENGESELLSCHAFT",
+      "short_name": "SPARKASSE LAMBACH BANK AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "20317"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "ASPKAT2LXXX",
+      "name": "SPARKASSE OBER\u00d6STERREICH BANK AG",
+      "short_name": "SPARKASSE OBER\u00d6STERREICH BANK AG",
+      "bank_codes": [
+        "20320"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPNKAT21XXX",
+      "name": "SPARKASSE NEUHOFEN BANK AKTIENGESELLSCHAFT",
+      "short_name": "SPARKASSE NEUHOFEN BANK AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "20326"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPPBAT21XXX",
+      "name": "SPARKASSE EFERDING-PEUERBACH-WAIZENKIRCHEN",
+      "short_name": "SPARKASSE EFERDING-PEUERBACH-WAIZENKIRCHEN",
+      "bank_codes": [
+        "20330"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPPRAT21XXX",
+      "name": "SPARKASSE PREGARTEN - UNTERWEISSENBACH AG",
+      "short_name": "SPARKASSE PREGARTEN - UNTERWEISSENBACH AG",
+      "bank_codes": [
+        "20331"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPRHAT21XXX",
+      "name": "SPARKASSE RIED IM INNKREIS-HAAG AM HAUSRUCK",
+      "short_name": "SPARKASSE RIED IM INNKREIS-HAAG AM HAUSRUCK",
+      "bank_codes": [
+        "20333"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SMWRAT21XXX",
+      "name": "SPARKASSE M\u00dcHLVIERTEL-WEST BANK AKTIENGESELLSCHAFT",
+      "short_name": "SPARKASSE M\u00dcHLVIERTEL-WEST BANK AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "20334"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPMIAT21XXX",
+      "name": "SPARKASSE MITTERSILL BANK AG",
+      "short_name": "SPARKASSE MITTERSILL BANK AG",
+      "bank_codes": [
+        "20402"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "SBGSAT2SXXX",
+      "name": "ERSTE BANK DER OESTERREICHISCHEN SPARKASSEN AG",
+      "short_name": "ERSTE BANK DER OESTERREICHISCHEN SPARKASSEN AG",
+      "bank_codes": [
+        "20404"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPIMAT21XXX",
+      "name": "SPARKASSE IMST AG",
+      "short_name": "SPARKASSE IMST AG",
+      "bank_codes": [
+        "20502"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPIHAT22XXX",
+      "name": "TIROLER SPARKASSE BANKAKTIENGESELLSCHAFT INNSBRUCK",
+      "short_name": "TIROLER SPARKASSE BANKAKTIENGESELLSCHAFT INNSBRUCK",
+      "bank_codes": [
+        "20503"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPKIAT2KXXX",
+      "name": "SPARKASSE DER STADT KITZB\u00dcHEL",
+      "short_name": "SPARKASSE DER STADT KITZB\u00dcHEL",
+      "bank_codes": [
+        "20505"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPKUAT22XXX",
+      "name": "SPARKASSE KUFSTEIN TIROLER SPARKASSE VON 1877",
+      "short_name": "SPARKASSE KUFSTEIN TIROLER SPARKASSE VON 1877",
+      "bank_codes": [
+        "20506"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "LISPAT21XXX",
+      "name": "LIENZER SPARKASSE AG",
+      "short_name": "LIENZER SPARKASSE AG",
+      "bank_codes": [
+        "20507"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPRTAT21XXX",
+      "name": "SPARKASSE RATTENBERG BANK AG",
+      "short_name": "SPARKASSE RATTENBERG BANK AG",
+      "bank_codes": [
+        "20508"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPREAT21XXX",
+      "name": "SPARKASSE REUTTE AG",
+      "short_name": "SPARKASSE REUTTE AG",
+      "bank_codes": [
+        "20509"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPSCAT22XXX",
+      "name": "SPARKASSE SCHWAZ AG",
+      "short_name": "SPARKASSE SCHWAZ AG",
+      "bank_codes": [
+        "20510"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPBRAT2BXXX",
+      "name": "SPARKASSE BREGENZ BANK AKTIENGESELLSCHAFT",
+      "short_name": "SPARKASSE BREGENZ BANK AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "20601"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "DOSPAT2DXXX",
+      "name": "DORNBIRNER SPARKASSE BANK AG",
+      "short_name": "DORNBIRNER SPARKASSE BANK AG",
+      "bank_codes": [
+        "20602"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPEGAT21XXX",
+      "name": "SPARKASSE DER GEMEINDE EGG",
+      "short_name": "SPARKASSE DER GEMEINDE EGG",
+      "bank_codes": [
+        "20603"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPFKAT2BXXX",
+      "name": "SPARKASSE DER STADT FELDKIRCH",
+      "short_name": "SPARKASSE DER STADT FELDKIRCH",
+      "bank_codes": [
+        "20604"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SSBLAT21XXX",
+      "name": "SPARKASSE BLUDENZ BANK AG",
+      "short_name": "SPARKASSE BLUDENZ BANK AG",
+      "bank_codes": [
+        "20607"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPFNAT21XXX",
+      "name": "SPARKASSE FELDKIRCHEN/K\u00c4RNTEN",
+      "short_name": "SPARKASSE FELDKIRCHEN/K\u00c4RNTEN",
+      "bank_codes": [
+        "20702"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "KSPKAT2KXXX",
+      "name": "K\u00c4RNTNER SPARKASSE AKTIENGESELLSCHAFT",
+      "short_name": "K\u00c4RNTNER SPARKASSE AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "20706"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPMZAT21XXX",
+      "name": "SPARKASSE M\u00dcRZZUSCHLAG AKTIENGESELLSCHAFT",
+      "short_name": "SPARKASSE M\u00dcRZZUSCHLAG AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "20828"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPPLAT21XXX",
+      "name": "SPARKASSE P\u00d6LLAU AG",
+      "short_name": "SPARKASSE P\u00d6LLAU AG",
+      "bank_codes": [
+        "20833"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SPVOAT21XXX",
+      "name": "SPARKASSE VOITSBERG-K\u00d6FLACH BANKAKTIENGESELLSCHAFT",
+      "short_name": "SPARKASSE VOITSBERG-K\u00d6FLACH BANKAKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "20839"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "BAOSATWWXXX",
+      "name": "BAUSPARKASSE DER \u00d6STERREICHISCHEN SPARKASSEN AKTIENGESELLSCHAFT",
+      "short_name": "BAUSPARKASSE DER \u00d6STERREICHISCHEN SPARKASSEN AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "24012"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZBAATWWXXX",
+      "name": "RAIFFEISEN BANK INTERNATIONAL AG",
+      "short_name": "RAIFFEISEN BANK INTERNATIONAL AG",
+      "bank_codes": [
+        "30000",
+        "31000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RBSKATW1XXX",
+      "name": "RAIFFEISEN BAUSPARKASSE GESELLSCHAFT M.B.H.",
+      "short_name": "RAIFFEISEN BAUSPARKASSE GESELLSCHAFT M.B.H.",
+      "bank_codes": [
+        "31303"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "NTBAATWWXXX",
+      "name": "NOTARTREUHANDBANK AG",
+      "short_name": "NOTARTREUHANDBANK AG",
+      "bank_codes": [
+        "31500"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWXXX",
+      "name": "RAIFFEISENLANDESBANK NIEDER\u00d6STERREICH-WIEN AG",
+      "short_name": "RAIFFEISENLANDESBANK NIEDER\u00d6STERREICH-WIEN AG",
+      "bank_codes": [
+        "32000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATW1002",
+      "name": "RAIFFEISENBANK WAGRAM-SCHMIDATAL EGEN",
+      "short_name": "RAIFFEISENBANK WAGRAM-SCHMIDATAL EGEN",
+      "bank_codes": [
+        "32002",
+        "32242",
+        "32291"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWAMS",
+      "name": "RAIFFEISENBANK REGION AMSTETTEN EGEN",
+      "short_name": "RAIFFEISENBANK REGION AMSTETTEN EGEN",
+      "bank_codes": [
+        "32025",
+        "32033",
+        "32778",
+        "32789"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLNWATWWWDF",
+      "name": "RAIFFEISENBANK WOLKERSDORF - AUERSTHAL EGEN",
+      "short_name": "RAIFFEISENBANK WOLKERSDORF - AUERSTHAL EGEN",
+      "bank_codes": [
+        "32039",
+        "32951"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWBAD",
+      "name": "RAIFFEISENBANK REGION BADEN EGEN",
+      "short_name": "RAIFFEISENBANK REGION BADEN EGEN",
+      "bank_codes": [
+        "32045",
+        "32118",
+        "32247",
+        "32930"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATW1059",
+      "name": "RAIFFEISENKASSE BLINDENMARKT EGEN",
+      "short_name": "RAIFFEISENKASSE BLINDENMARKT EGEN",
+      "bank_codes": [
+        "32059"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWBRL",
+      "name": "RAIFFEISENBANK BRUCK-CARNUNTUM EGEN",
+      "short_name": "RAIFFEISENBANK BRUCK-CARNUNTUM EGEN",
+      "bank_codes": [
+        "32073"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWGAE",
+      "name": "RAIFFEISEN-REGIONALBANK G\u00c4NSERNDORF EGEN",
+      "short_name": "RAIFFEISEN-REGIONALBANK G\u00c4NSERNDORF EGEN",
+      "bank_codes": [
+        "32092"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATW1099",
+      "name": "RAIFFEISENKASSE DOBERSBERG-WALDKIRCHEN EGEN",
+      "short_name": "RAIFFEISENKASSE DOBERSBERG-WALDKIRCHEN EGEN",
+      "bank_codes": [
+        "32099"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWW123",
+      "name": "RAIFFEISENBANK EGGENBURG EGEN",
+      "short_name": "RAIFFEISENBANK EGGENBURG EGEN",
+      "bank_codes": [
+        "32123"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLNWATWWWTH",
+      "name": "RAIFFEISENBANK IM THAYATAL EGEN",
+      "short_name": "RAIFFEISENBANK IM THAYATAL EGEN",
+      "bank_codes": [
+        "32127",
+        "32904"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATW1145",
+      "name": "RAIFFEISENKASSE ERNSTBRUNN EGEN",
+      "short_name": "RAIFFEISENKASSE ERNSTBRUNN EGEN",
+      "bank_codes": [
+        "32145"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWASP",
+      "name": "RAIFFEISENBANK REGION WIENER ALPEN EGEN",
+      "short_name": "RAIFFEISENBANK REGION WIENER ALPEN EGEN",
+      "bank_codes": [
+        "32195",
+        "32374",
+        "32631",
+        "32647",
+        "32660"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLNWATW1322",
+      "name": "RAIFFEISENBANK HOLLABRUNN EGEN",
+      "short_name": "RAIFFEISENBANK HOLLABRUNN EGEN",
+      "bank_codes": [
+        "32198",
+        "32322",
+        "32982"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLNWATWWZDF",
+      "name": "RAIFFEISENBANK WEINVIERTEL NORDOST EGEN",
+      "short_name": "RAIFFEISENBANK WEINVIERTEL NORDOST EGEN",
+      "bank_codes": [
+        "32227",
+        "32985"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWGTD",
+      "name": "RAIFFEISEN REGIONALBANK M\u00d6DLING EGEN",
+      "short_name": "RAIFFEISEN REGIONALBANK M\u00d6DLING EGEN",
+      "bank_codes": [
+        "32250",
+        "32633"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATW1275",
+      "name": "RAIFFEISENBANK SEEFELD-HADRES EGEN",
+      "short_name": "RAIFFEISENBANK SEEFELD-HADRES EGEN",
+      "bank_codes": [
+        "32275"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWW278",
+      "name": "RAIFFEISENKASSE HAIDERSHOFEN EGEN",
+      "short_name": "RAIFFEISENKASSE HAIDERSHOFEN EGEN",
+      "bank_codes": [
+        "32278"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATW1286",
+      "name": "RAIFFEISENKASSE HEILIGENEICH EGEN",
+      "short_name": "RAIFFEISENKASSE HEILIGENEICH EGEN",
+      "bank_codes": [
+        "32286"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLNWATWWOBG",
+      "name": "RAIFFEISENBANK REGION ST. P\u00d6LTEN EGEN",
+      "short_name": "RAIFFEISENBANK REGION ST. P\u00d6LTEN EGEN",
+      "bank_codes": [
+        "32356",
+        "32585",
+        "32769"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLNWATW1880",
+      "name": "RAIFFEISENBANK TULLN-KLOSTERNEUBURG EGEN",
+      "short_name": "RAIFFEISENBANK TULLN-KLOSTERNEUBURG EGEN",
+      "bank_codes": [
+        "32367",
+        "32497",
+        "32880"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLNWATW1477",
+      "name": "RAIFFEISENBANK REGION SCHALLABURG EGEN",
+      "short_name": "RAIFFEISENBANK REGION SCHALLABURG EGEN",
+      "bank_codes": [
+        "32368",
+        "32455",
+        "32477",
+        "32679"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWKOR",
+      "name": "RAIFFEISENBANK KORNEUBURG EGEN",
+      "short_name": "RAIFFEISENBANK KORNEUBURG EGEN",
+      "bank_codes": [
+        "32395"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWKRE",
+      "name": "RAIFFEISENBANK KREMS EGEN",
+      "short_name": "RAIFFEISENBANK KREMS EGEN",
+      "bank_codes": [
+        "32397"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWLAA",
+      "name": "RAIFFEISENBANK LAA/THAYA EGEN",
+      "short_name": "RAIFFEISENBANK LAA/THAYA EGEN",
+      "bank_codes": [
+        "32413"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLNWATWWPRB",
+      "name": "RAIFFEISENBANK WIENERWALD EGEN",
+      "short_name": "RAIFFEISENBANK WIENERWALD EGEN",
+      "bank_codes": [
+        "32414",
+        "32667"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWOWS",
+      "name": "RAIFFEISENBANK OBERES WALDVIERTEL EGEN",
+      "short_name": "RAIFFEISENBANK OBERES WALDVIERTEL EGEN",
+      "bank_codes": [
+        "32415",
+        "32936"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWW426",
+      "name": "RAIFFEISENBANK LANGENLOIS EGEN",
+      "short_name": "RAIFFEISENBANK LANGENLOIS EGEN",
+      "bank_codes": [
+        "32426"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATW1438",
+      "name": "RAIFFEISENBANK KREUZENSTEIN EGEN",
+      "short_name": "RAIFFEISENBANK KREUZENSTEIN EGEN",
+      "bank_codes": [
+        "32438",
+        "32731"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWLFD",
+      "name": "RAIFFEISENBANK TRAISEN-G\u00d6LSENTAL EGEN",
+      "short_name": "RAIFFEISENBANK TRAISEN-G\u00d6LSENTAL EGEN",
+      "bank_codes": [
+        "32447",
+        "32944"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWMIB",
+      "name": "RAIFFEISENBANK IM WEINVIERTEL EGEN",
+      "short_name": "RAIFFEISENBANK IM WEINVIERTEL EGEN",
+      "bank_codes": [
+        "32501",
+        "32663"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWNSD",
+      "name": "RAIFFEISENKASSE NEUSIEDL A.D.ZAYA EGEN",
+      "short_name": "RAIFFEISENKASSE NEUSIEDL A.D.ZAYA EGEN",
+      "bank_codes": [
+        "32551"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATW1589",
+      "name": "RAIFFEISENBANK GROSS GERUNGS EGEN",
+      "short_name": "RAIFFEISENBANK GROSS GERUNGS EGEN",
+      "bank_codes": [
+        "32589"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWODO",
+      "name": "RAIFFEISENKASSE ORTH A.D. DONAU EGEN",
+      "short_name": "RAIFFEISENKASSE ORTH A.D. DONAU EGEN",
+      "bank_codes": [
+        "32614"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLNWATWWZWE",
+      "name": "RAIFFEISENBANK REGION WALDVIERTEL MITTE EGEN",
+      "short_name": "RAIFFEISENBANK REGION WALDVIERTEL MITTE EGEN",
+      "bank_codes": [
+        "32615",
+        "32990"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLNWATWWWRN",
+      "name": "RAIFFEISENBANK WR. NEUSTADT-SCHNEEBERGLAND EGEN",
+      "short_name": "RAIFFEISENBANK WR. NEUSTADT-SCHNEEBERGLAND EGEN",
+      "bank_codes": [
+        "32642",
+        "32865",
+        "32937",
+        "32940"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLNWATWW939",
+      "name": "RAIFFEISENBANK MITTLERES MOSTVIERTEL EGEN",
+      "short_name": "RAIFFEISENBANK MITTLERES MOSTVIERTEL EGEN",
+      "bank_codes": [
+        "32651",
+        "32939"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATW1715",
+      "name": "RAIFFEISENKASSE RETZ-PULKAUTAL EGEN",
+      "short_name": "RAIFFEISENKASSE RETZ-PULKAUTAL EGEN",
+      "bank_codes": [
+        "32715"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWW823",
+      "name": "RAIFFEISENBANK REGION SCHWECHAT EGEN",
+      "short_name": "RAIFFEISENBANK REGION SCHWECHAT EGEN",
+      "bank_codes": [
+        "32823"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWSTO",
+      "name": "RAIFFEISENBANK STOCKERAU EGEN",
+      "short_name": "RAIFFEISENBANK STOCKERAU EGEN",
+      "bank_codes": [
+        "32842"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATW1901",
+      "name": "RAIFFEISENBANK VITIS EGEN",
+      "short_name": "RAIFFEISENBANK VITIS EGEN",
+      "bank_codes": [
+        "32901"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLNWATWWWHY",
+      "name": "RAIFFEISENBANK YBBSTAL EGEN",
+      "short_name": "RAIFFEISENBANK YBBSTAL EGEN",
+      "bank_codes": [
+        "32906"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLBBAT2EXXX",
+      "name": "RAIFFEISENLANDESBANK BURGENLAND UND REVISIONSVERBAND EGEN",
+      "short_name": "RAIFFEISENLANDESBANK BURGENLAND UND REVISIONSVERBAND EGEN",
+      "bank_codes": [
+        "33000",
+        "33035",
+        "33135"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLBBAT2E038",
+      "name": "RAIFFEISEN BEZIRKSBANK NEUSIEDL OST EGEN",
+      "short_name": "RAIFFEISEN BEZIRKSBANK NEUSIEDL OST EGEN",
+      "bank_codes": [
+        "33002",
+        "33004",
+        "33028",
+        "33033",
+        "33038",
+        "33063",
+        "33071",
+        "33090",
+        "33104",
+        "33114",
+        "33118"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLBBAT2E010",
+      "name": "RAIFFEISENBANK REGION DEUTSCHKREUTZ-HORITSCHON EGEN",
+      "short_name": "RAIFFEISENBANK REGION DEUTSCHKREUTZ-HORITSCHON EGEN",
+      "bank_codes": [
+        "33010",
+        "33031",
+        "33048",
+        "33058"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLBBAT2E012",
+      "name": "RAIFFEISENBANK NEUSIEDLERSEE-H\u00dcGELLAND EGEN",
+      "short_name": "RAIFFEISENBANK NEUSIEDLERSEE-H\u00dcGELLAND EGEN",
+      "bank_codes": [
+        "33012",
+        "33055",
+        "33085",
+        "33092"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLBBAT2E014",
+      "name": "RAIFFEISENBANK DRASSMARKT-KOBERSDORF-ST. MARTIN EGEN",
+      "short_name": "RAIFFEISENBANK DRASSMARKT-KOBERSDORF-ST. MARTIN EGEN",
+      "bank_codes": [
+        "33014"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLBBAT2E027",
+      "name": "RAIFFEISEN REGIONALBANK G\u00dcSSING-JENNERSDORF EGEN",
+      "short_name": "RAIFFEISEN REGIONALBANK G\u00dcSSING-JENNERSDORF EGEN",
+      "bank_codes": [
+        "33027",
+        "33034",
+        "33041"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLBBAT2E065",
+      "name": "RAIFFEISENBANK BURGENLAND MITTE EGEN",
+      "short_name": "RAIFFEISENBANK BURGENLAND MITTE EGEN",
+      "bank_codes": [
+        "33046",
+        "33065",
+        "33124"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLBBAT2E116",
+      "name": "RAIFFEISENBANK FRAUENKIRCHEN-M\u00d6NCHHOF-PODERSDORF AM SEE EGEN",
+      "short_name": "RAIFFEISENBANK FRAUENKIRCHEN-M\u00d6NCHHOF-PODERSDORF AM SEE EGEN",
+      "bank_codes": [
+        "33054",
+        "33074",
+        "33116"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLBBAT2E125",
+      "name": "RAIFFEISENBEZIRKSBANK OBERWART EGEN",
+      "short_name": "RAIFFEISENBEZIRKSBANK OBERWART EGEN",
+      "bank_codes": [
+        "33067",
+        "33125"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLBBAT2E072",
+      "name": "RAIFFEISENBANK REGION PARNDORF - WEIDEN AM SEE EGEN",
+      "short_name": "RAIFFEISENBANK REGION PARNDORF - WEIDEN AM SEE EGEN",
+      "bank_codes": [
+        "33072",
+        "33106"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RLBBAT2E078",
+      "name": "RAIFFEISENBANK PURBACH EGEN",
+      "short_name": "RAIFFEISENBANK PURBACH EGEN",
+      "bank_codes": [
+        "33078"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2LXXX",
+      "name": "RAIFFEISENLANDESBANK OBER\u00d6STERREICH AKTIENGESELLSCHAFT",
+      "short_name": "RAIFFEISENLANDESBANK OBER\u00d6STERREICH AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "34000",
+        "34796",
+        "34920",
+        "34921",
+        "34922",
+        "34923",
+        "34950",
+        "34955"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L016",
+      "name": "RAIFFEISENBANK ASPACH-WILDENAU EGEN",
+      "short_name": "RAIFFEISENBANK ASPACH-WILDENAU EGEN",
+      "bank_codes": [
+        "34016"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L030",
+      "name": "RAIFFEISENBANK REGION ALTHEIM EGEN",
+      "short_name": "RAIFFEISENBANK REGION ALTHEIM EGEN",
+      "bank_codes": [
+        "34030"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L060",
+      "name": "RAIFFEISENBANK REGION BRAUNAU EGEN",
+      "short_name": "RAIFFEISENBANK REGION BRAUNAU EGEN",
+      "bank_codes": [
+        "34060",
+        "34661"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L068",
+      "name": "RAIFFEISENBANK GREIN EGEN",
+      "short_name": "RAIFFEISENBANK GREIN EGEN",
+      "bank_codes": [
+        "34068"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L075",
+      "name": "RAIFFEISENBANK DONAU-AMEISBERG EGEN",
+      "short_name": "RAIFFEISENBANK DONAU-AMEISBERG EGEN",
+      "bank_codes": [
+        "34075"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L080",
+      "name": "RAIFFEISENBANK ENNSTAL EGEN",
+      "short_name": "RAIFFEISENBANK ENNSTAL EGEN",
+      "bank_codes": [
+        "34080",
+        "34126"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L081",
+      "name": "RAIFFEISENBANK EBERSCHWANG-PRAMET EGEN",
+      "short_name": "RAIFFEISENBANK EBERSCHWANG-PRAMET EGEN",
+      "bank_codes": [
+        "34081",
+        "34438"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L083",
+      "name": "RAIFFEISENBANK REGION TRAUN-ALM EGEN",
+      "short_name": "RAIFFEISENBANK REGION TRAUN-ALM EGEN",
+      "bank_codes": [
+        "34083",
+        "34750"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L100",
+      "name": "RAIFFEISENBANK FELDKIRCHEN-GOLDW\u00d6RTH EGEN",
+      "short_name": "RAIFFEISENBANK FELDKIRCHEN-GOLDW\u00d6RTH EGEN",
+      "bank_codes": [
+        "34100"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L110",
+      "name": "RAIFFEISENBANK REGION FREISTADT EGEN",
+      "short_name": "RAIFFEISENBANK REGION FREISTADT EGEN",
+      "bank_codes": [
+        "34110"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L111",
+      "name": "RAIFFEISENBANK REGION GALLNEUKIRCHEN EGEN",
+      "short_name": "RAIFFEISENBANK REGION GALLNEUKIRCHEN EGEN",
+      "bank_codes": [
+        "34111",
+        "34161",
+        "34475"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L113",
+      "name": "RAIFFEISENBANK GAMPERN EGEN",
+      "short_name": "RAIFFEISENBANK GAMPERN EGEN",
+      "bank_codes": [
+        "34113"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L114",
+      "name": "RAIFFEISENBANK STEYR EGEN",
+      "short_name": "RAIFFEISENBANK STEYR EGEN",
+      "bank_codes": [
+        "34114",
+        "34543"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L118",
+      "name": "RAIFFEISENBANK GERETSBERG EGEN",
+      "short_name": "RAIFFEISENBANK GERETSBERG EGEN",
+      "bank_codes": [
+        "34118"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L127",
+      "name": "RAIFFEISENBANK ALMTAL EGEN",
+      "short_name": "RAIFFEISENBANK ALMTAL EGEN",
+      "bank_codes": [
+        "34127"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L129",
+      "name": "RAIFFEISENBANK GUNSKIRCHEN EGEN",
+      "short_name": "RAIFFEISENBANK GUNSKIRCHEN EGEN",
+      "bank_codes": [
+        "34129",
+        "34430"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L135",
+      "name": "RAIFFEISENBANK GRAMASTETTEN RODLTAL EGEN",
+      "short_name": "RAIFFEISENBANK GRAMASTETTEN RODLTAL EGEN",
+      "bank_codes": [
+        "34135",
+        "34383"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L155",
+      "name": "RAIFFEISENBANK HANDENBERG - ST. GEORGEN A. F. EGEN",
+      "short_name": "RAIFFEISENBANK HANDENBERG - ST. GEORGEN A. F. EGEN",
+      "bank_codes": [
+        "34155"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZOOAT2L560",
+      "name": "RAIFFEISENBANK REGION SIERNING-ENNS EGEN",
+      "short_name": "RAIFFEISENBANK REGION SIERNING-ENNS EGEN",
+      "bank_codes": [
+        "34157",
+        "34560"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZOOAT2L410",
+      "name": "RAIFFEISENBANK REGION ROHRBACH EGEN",
+      "short_name": "RAIFFEISENBANK REGION ROHRBACH EGEN",
+      "bank_codes": [
+        "34160",
+        "34410"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZOOAT2L491",
+      "name": "RAIFFEISENBANK PYHRN-PRIEL EGEN",
+      "short_name": "RAIFFEISENBANK PYHRN-PRIEL EGEN",
+      "bank_codes": [
+        "34165",
+        "34491"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZOOAT2L276",
+      "name": "RAIFFEISENBANK LINZ-LAND WEST EGEN",
+      "short_name": "RAIFFEISENBANK LINZ-LAND WEST EGEN",
+      "bank_codes": [
+        "34170",
+        "34276"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L180",
+      "name": "RAIFFEISENBANK REGION EFERDING EGEN",
+      "short_name": "RAIFFEISENBANK REGION EFERDING EGEN",
+      "bank_codes": [
+        "34180"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L200",
+      "name": "RAIFFEISENBANK INNKREIS MITTE EGEN",
+      "short_name": "RAIFFEISENBANK INNKREIS MITTE EGEN",
+      "bank_codes": [
+        "34200"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L214",
+      "name": "RAIFFEISENBANK KEMATEN-NEUHOFEN EGEN",
+      "short_name": "RAIFFEISENBANK KEMATEN-NEUHOFEN EGEN",
+      "bank_codes": [
+        "34214"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L226",
+      "name": "RAIFFEISENBANK KLEINM\u00dcNCHEN/LINZ EGEN",
+      "short_name": "RAIFFEISENBANK KLEINM\u00dcNCHEN/LINZ EGEN",
+      "bank_codes": [
+        "34226"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L231",
+      "name": "RAIFFEISENBANK KOLLERSCHLAG EGEN",
+      "short_name": "RAIFFEISENBANK KOLLERSCHLAG EGEN",
+      "bank_codes": [
+        "34231"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZOOAT2L380",
+      "name": "RAIFFEISENBANK REGION KIRCHDORF EGEN",
+      "short_name": "RAIFFEISENBANK REGION KIRCHDORF EGEN",
+      "bank_codes": [
+        "34233",
+        "34318",
+        "34321",
+        "34362",
+        "34380",
+        "34427",
+        "34481",
+        "34606"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZOOAT2L680",
+      "name": "RAIFFEISENBANK WELS EGEN",
+      "short_name": "RAIFFEISENBANK WELS EGEN",
+      "bank_codes": [
+        "34234",
+        "34680"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L250",
+      "name": "RAIFFEISENBANK REGION HAUSRUCK EGEN",
+      "short_name": "RAIFFEISENBANK REGION HAUSRUCK EGEN",
+      "bank_codes": [
+        "34250"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L277",
+      "name": "RAIFFEISENBANK REGION BAD LEONFELDEN EGEN",
+      "short_name": "RAIFFEISENBANK REGION BAD LEONFELDEN EGEN",
+      "bank_codes": [
+        "34277"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZOOAT2L450",
+      "name": "RAIFFEISENBANK REGION RIED I.I. EGEN",
+      "short_name": "RAIFFEISENBANK REGION RIED I.I. EGEN",
+      "bank_codes": [
+        "34284",
+        "34450",
+        "34735"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L290",
+      "name": "RAIFFEISENBANK LOCHEN AM SEE EGEN",
+      "short_name": "RAIFFEISENBANK LOCHEN AM SEE EGEN",
+      "bank_codes": [
+        "34290"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L300",
+      "name": "RAIFFEISENBANK REGION NEUFELDEN EGEN",
+      "short_name": "RAIFFEISENBANK REGION NEUFELDEN EGEN",
+      "bank_codes": [
+        "34300",
+        "34361",
+        "34535"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L303",
+      "name": "RAIFFEISENBANK MATTIGTAL EGEN",
+      "short_name": "RAIFFEISENBANK MATTIGTAL EGEN",
+      "bank_codes": [
+        "34303"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L312",
+      "name": "RAIFFEISENBANK MARIA SCHMOLLN-ST. JOHANN EGEN",
+      "short_name": "RAIFFEISENBANK MARIA SCHMOLLN-ST. JOHANN EGEN",
+      "bank_codes": [
+        "34312"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZOOAT2L736",
+      "name": "RAIFFEISENBANK REGION GRIESKIRCHEN EGEN",
+      "short_name": "RAIFFEISENBANK REGION GRIESKIRCHEN EGEN",
+      "bank_codes": [
+        "34313",
+        "34736"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L322",
+      "name": "RAIFFEISENBANK MONDSEELAND EGEN",
+      "short_name": "RAIFFEISENBANK MONDSEELAND EGEN",
+      "bank_codes": [
+        "34322"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L330",
+      "name": "RAIFFEISENBANK M\u00dcHLVIERTLER ALM EGEN",
+      "short_name": "RAIFFEISENBANK M\u00dcHLVIERTLER ALM EGEN",
+      "bank_codes": [
+        "34330",
+        "34420"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZOOAT2L523",
+      "name": "RAIFFEISENBANK ATTERGAU EGEN",
+      "short_name": "RAIFFEISENBANK ATTERGAU EGEN",
+      "bank_codes": [
+        "34356",
+        "34523"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L363",
+      "name": "RAIFFEISENBANK ATTERSEE-S\u00dcD EGEN",
+      "short_name": "RAIFFEISENBANK ATTERSEE-S\u00dcD EGEN",
+      "bank_codes": [
+        "34363"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L370",
+      "name": "RAIFFEISENBANK OBERES INNVIERTEL EGEN",
+      "short_name": "RAIFFEISENBANK OBERES INNVIERTEL EGEN",
+      "bank_codes": [
+        "34370"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L390",
+      "name": "RAIFFEISENBANK OHLSDORF EGEN",
+      "short_name": "RAIFFEISENBANK OHLSDORF EGEN",
+      "bank_codes": [
+        "34390"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZOOAT2L630",
+      "name": "RAIFFEISENBANK REGION SCHWANENSTADT EGEN",
+      "short_name": "RAIFFEISENBANK REGION SCHWANENSTADT EGEN",
+      "bank_codes": [
+        "34400",
+        "34630"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L434",
+      "name": "RAIFFEISENBANK P\u00d6NDORF - FRANKENMARKT EGEN",
+      "short_name": "RAIFFEISENBANK P\u00d6NDORF - FRANKENMARKT EGEN",
+      "bank_codes": [
+        "34434"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L437",
+      "name": "RAIFFEISENBANK PRAMBACHKIRCHEN EGEN",
+      "short_name": "RAIFFEISENBANK PRAMBACHKIRCHEN EGEN",
+      "bank_codes": [
+        "34437"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L442",
+      "name": "RAIFFEISENBANK REGION PEUERBACH EGEN",
+      "short_name": "RAIFFEISENBANK REGION PEUERBACH EGEN",
+      "bank_codes": [
+        "34442",
+        "34521"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L455",
+      "name": "RAIFFEISENBANK REGION SCH\u00c4RDING EGEN",
+      "short_name": "RAIFFEISENBANK REGION SCH\u00c4RDING EGEN",
+      "bank_codes": [
+        "34455"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L460",
+      "name": "RAIFFEISENBANK AIST EGEN",
+      "short_name": "RAIFFEISENBANK AIST EGEN",
+      "bank_codes": [
+        "34460",
+        "34613"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L510",
+      "name": "RAIFFEISENBANK SALZKAMMERGUT EGEN",
+      "short_name": "RAIFFEISENBANK SALZKAMMERGUT EGEN",
+      "bank_codes": [
+        "34510"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L522",
+      "name": "RAIFFEISENBANK ST.FLORIAN AM INN EGEN",
+      "short_name": "RAIFFEISENBANK ST.FLORIAN AM INN EGEN",
+      "bank_codes": [
+        "34522"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L530",
+      "name": "RAIFFEISENBANK ST. MARIEN EGEN",
+      "short_name": "RAIFFEISENBANK ST. MARIEN EGEN",
+      "bank_codes": [
+        "34530"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L540",
+      "name": "RAIFFEISENBANK ST. ROMAN EGEN",
+      "short_name": "RAIFFEISENBANK ST. ROMAN EGEN",
+      "bank_codes": [
+        "34540"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L545",
+      "name": "RAIFFEISENBANK INNERES SALZKAMMERGUT EGEN",
+      "short_name": "RAIFFEISENBANK INNERES SALZKAMMERGUT EGEN",
+      "bank_codes": [
+        "34545"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L608",
+      "name": "RAIFFEISENBANK ATTERSEE-NORD EGEN",
+      "short_name": "RAIFFEISENBANK ATTERSEE-NORD EGEN",
+      "bank_codes": [
+        "34608"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L633",
+      "name": "RAIFFEISENBANK STEINBACH-GR\u00dcNBURG EGEN",
+      "short_name": "RAIFFEISENBANK STEINBACH-GR\u00dcNBURG EGEN",
+      "bank_codes": [
+        "34633"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZOOAT2L777",
+      "name": "RAIFFEISENBANK PERG EGEN",
+      "short_name": "RAIFFEISENBANK PERG EGEN",
+      "bank_codes": [
+        "34637",
+        "34777"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L669",
+      "name": "RAIFFEISENBANK TIMELKAM-LENZING-PUCHKIRCHEN EGEN",
+      "short_name": "RAIFFEISENBANK TIMELKAM-LENZING-PUCHKIRCHEN EGEN",
+      "bank_codes": [
+        "34669"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L710",
+      "name": "RAIFFEISENBANK REGION V\u00d6CKLABRUCK EGEN",
+      "short_name": "RAIFFEISENBANK REGION V\u00d6CKLABRUCK EGEN",
+      "bank_codes": [
+        "34710"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L732",
+      "name": "RAIFFEISENBANK WALDING-OTTENSHEIM EGEN",
+      "short_name": "RAIFFEISENBANK WALDING-OTTENSHEIM EGEN",
+      "bank_codes": [
+        "34732"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L738",
+      "name": "RAIFFEISENBANK WARTBERG AN DER KREMS EGEN",
+      "short_name": "RAIFFEISENBANK WARTBERG AN DER KREMS EGEN",
+      "bank_codes": [
+        "34738"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L741",
+      "name": "RAIFFEISENBANK WEISSKIRCHEN A.D. TRAUN EGEN",
+      "short_name": "RAIFFEISENBANK WEISSKIRCHEN A.D. TRAUN EGEN",
+      "bank_codes": [
+        "34741"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L747",
+      "name": "RAIFFEISENBANK WEYER EGEN",
+      "short_name": "RAIFFEISENBANK WEYER EGEN",
+      "bank_codes": [
+        "34747"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZOOAT2L770",
+      "name": "RAIFFEISENBANK WELS S\u00dcD EGEN",
+      "short_name": "RAIFFEISENBANK WELS S\u00dcD EGEN",
+      "bank_codes": [
+        "34770"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2SXXX",
+      "name": "RAIFFEISENVERBAND SALZBURG EGEN",
+      "short_name": "RAIFFEISENVERBAND SALZBURG EGEN",
+      "bank_codes": [
+        "35000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S001",
+      "name": "RAIFFEISENBANK LAMMERTAL EGEN",
+      "short_name": "RAIFFEISENBANK LAMMERTAL EGEN",
+      "bank_codes": [
+        "35001",
+        "35006",
+        "35101"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVSAAT2S053",
+      "name": "RAIFFEISENBANK PINZGAU MITTE EGEN",
+      "short_name": "RAIFFEISENBANK PINZGAU MITTE EGEN",
+      "bank_codes": [
+        "35003",
+        "35013",
+        "35031",
+        "35035",
+        "35053"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S004",
+      "name": "RAIFFEISENBANK ALTENMARKT-FLACHAU-EBEN EGEN",
+      "short_name": "RAIFFEISENBANK ALTENMARKT-FLACHAU-EBEN EGEN",
+      "bank_codes": [
+        "35004",
+        "35104",
+        "35204",
+        "35404"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVSAAT2S018",
+      "name": "RAIFFEISENBANK UNTERSBERG EGEN",
+      "short_name": "RAIFFEISENBANK UNTERSBERG EGEN",
+      "bank_codes": [
+        "35005",
+        "35018",
+        "35105",
+        "35118"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S007",
+      "name": "RAIFFEISENBANK ANTHERING - ELIXHAUSEN EGEN",
+      "short_name": "RAIFFEISENBANK ANTHERING - ELIXHAUSEN EGEN",
+      "bank_codes": [
+        "35007",
+        "35014"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVSAAT2S015",
+      "name": "RAIFFEISENBANK FLACHGAU MITTE EGEN",
+      "short_name": "RAIFFEISENBANK FLACHGAU MITTE EGEN",
+      "bank_codes": [
+        "35008",
+        "35015",
+        "35023",
+        "35108",
+        "35115",
+        "35215"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVSAAT2S047",
+      "name": "RAIFFEISENBANK SALZBURGER SEENLAND EGEN",
+      "short_name": "RAIFFEISENBANK SALZBURGER SEENLAND EGEN",
+      "bank_codes": [
+        "35009",
+        "35047",
+        "35075",
+        "35109",
+        "35147"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVSAAT2S055",
+      "name": "RAIFFEISENBANK PONGAU MITTE EGEN",
+      "short_name": "RAIFFEISENBANK PONGAU MITTE EGEN",
+      "bank_codes": [
+        "35010",
+        "35055",
+        "35072",
+        "35110",
+        "35155",
+        "35172",
+        "35255",
+        "35272",
+        "35310"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVSAAT2S039",
+      "name": "RAIFFEISENBANK OBERPINZGAU EGEN",
+      "short_name": "RAIFFEISENBANK OBERPINZGAU EGEN",
+      "bank_codes": [
+        "35011",
+        "35028",
+        "35039",
+        "35042",
+        "35068",
+        "35070",
+        "35111",
+        "35139",
+        "35170",
+        "35239",
+        "35339"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S012",
+      "name": "RAIFFEISENBANK HOHE TAUERN EGEN",
+      "short_name": "RAIFFEISENBANK HOHE TAUERN EGEN",
+      "bank_codes": [
+        "35012",
+        "35043",
+        "35048",
+        "35112",
+        "35212",
+        "35312"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S016",
+      "name": "RAIFFEISENBANK FAISTENAU-HINTERSEE EGEN",
+      "short_name": "RAIFFEISENBANK FAISTENAU-HINTERSEE EGEN",
+      "bank_codes": [
+        "35016"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S017",
+      "name": "RAIFFEISENBANK GOLLING-SCHEFFAU-KELLAU REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISENBANK GOLLING-SCHEFFAU-KELLAU REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "35017"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S019",
+      "name": "RAIFFEISENBANK GROSSARL-H\u00dcTTSCHLAG EGEN",
+      "short_name": "RAIFFEISENBANK GROSSARL-H\u00dcTTSCHLAG EGEN",
+      "bank_codes": [
+        "35019",
+        "35119"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S020",
+      "name": "RAIFFEISENBANK GROSSGMAIN EGEN",
+      "short_name": "RAIFFEISENBANK GROSSGMAIN EGEN",
+      "bank_codes": [
+        "35020"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S021",
+      "name": "RAIFFEISENBANK WALLERSEE EGEN",
+      "short_name": "RAIFFEISENBANK WALLERSEE EGEN",
+      "bank_codes": [
+        "35021",
+        "35024",
+        "35121",
+        "35221"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S022",
+      "name": "RAIFFEISENBANK HALLEIN-OBERALM EGEN",
+      "short_name": "RAIFFEISENBANK HALLEIN-OBERALM EGEN",
+      "bank_codes": [
+        "35022",
+        "35045",
+        "35122",
+        "35322",
+        "35422",
+        "35522"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVSAAT2S065",
+      "name": "RAIFFEISENBANK FUSCHLSEE WEST EGEN",
+      "short_name": "RAIFFEISENBANK FUSCHLSEE WEST EGEN",
+      "bank_codes": [
+        "35025",
+        "35065",
+        "35125",
+        "35225"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S026",
+      "name": "RAIFFEISENBANK GASTEIN EGEN",
+      "short_name": "RAIFFEISENBANK GASTEIN EGEN",
+      "bank_codes": [
+        "35026",
+        "35126",
+        "35226"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S027",
+      "name": "RAIFFEISENBANK H\u00dcTTAU-ST. MARTIN EGEN",
+      "short_name": "RAIFFEISENBANK H\u00dcTTAU-ST. MARTIN EGEN",
+      "bank_codes": [
+        "35027",
+        "35127"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S029",
+      "name": "RAIFFEISENBANK KUCHL-ST. KOLOMAN EGEN",
+      "short_name": "RAIFFEISENBANK KUCHL-ST. KOLOMAN EGEN",
+      "bank_codes": [
+        "35029",
+        "35058"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S030",
+      "name": "RAIFFEISENBANK FLACHGAU NORD EGEN",
+      "short_name": "RAIFFEISENBANK FLACHGAU NORD EGEN",
+      "bank_codes": [
+        "35030",
+        "35038",
+        "35044",
+        "35046",
+        "35130"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S034",
+      "name": "RAIFFEISENBANK SALZBURG LIEFERING-MAXGLAN-SIEZENHEIM EGEN",
+      "short_name": "RAIFFEISENBANK SALZBURG LIEFERING-MAXGLAN-SIEZENHEIM EGEN",
+      "bank_codes": [
+        "35034",
+        "35054",
+        "35154"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVSAAT2S063",
+      "name": "RAIFFEISENBANK LUNGAU EGEN",
+      "short_name": "RAIFFEISENBANK LUNGAU EGEN",
+      "bank_codes": [
+        "35036",
+        "35037",
+        "35050",
+        "35061",
+        "35063",
+        "35161",
+        "35163",
+        "35261",
+        "35263",
+        "35361"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S049",
+      "name": "RAIFFEISENBANK RADSTADT-UNTERTAUERN-FILZMOOS-FORSTAU REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISENBANK RADSTADT-UNTERTAUERN-FILZMOOS-FORSTAU REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "35049",
+        "35149",
+        "35249"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S051",
+      "name": "RAIFFEISENBANK RAURIS-BUCHEBEN EGEN",
+      "short_name": "RAIFFEISENBANK RAURIS-BUCHEBEN EGEN",
+      "bank_codes": [
+        "35051"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S052",
+      "name": "RAIFFEISENBANK SAALBACH-HINTERGLEMM-VIEHHOFEN EGEN",
+      "short_name": "RAIFFEISENBANK SAALBACH-HINTERGLEMM-VIEHHOFEN EGEN",
+      "bank_codes": [
+        "35052",
+        "35152",
+        "35352",
+        "35452"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S056",
+      "name": "RAIFFEISENBANK ST.GILGEN-FUSCHL-STROBL EGEN",
+      "short_name": "RAIFFEISENBANK ST.GILGEN-FUSCHL-STROBL EGEN",
+      "bank_codes": [
+        "35056",
+        "35156",
+        "35256"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVSAAT2S069",
+      "name": "RAIFFEISENBANK ST. JOHANN-WAGRAIN-KLEINARL EGEN",
+      "short_name": "RAIFFEISENBANK ST. JOHANN-WAGRAIN-KLEINARL EGEN",
+      "bank_codes": [
+        "35057",
+        "35069",
+        "35169"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S060",
+      "name": "RAIFFEISENBANK ST. MARTIN-LOFER-WEISSBACH EGEN",
+      "short_name": "RAIFFEISENBANK ST. MARTIN-LOFER-WEISSBACH EGEN",
+      "bank_codes": [
+        "35060",
+        "35160"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S062",
+      "name": "RAIFFEISENBANK STRASSWALCHEN EGEN",
+      "short_name": "RAIFFEISENBANK STRASSWALCHEN EGEN",
+      "bank_codes": [
+        "35062"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S064",
+      "name": "RAIFFEISENBANK TAXENBACH EGEN",
+      "short_name": "RAIFFEISENBANK TAXENBACH EGEN",
+      "bank_codes": [
+        "35064",
+        "35164"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S066",
+      "name": "RAIFFEISENBANK UNKEN EGEN",
+      "short_name": "RAIFFEISENBANK UNKEN EGEN",
+      "bank_codes": [
+        "35066"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVSAAT2S071",
+      "name": "RAIFFEISENBANK WALS-HIMMELREICH EGEN",
+      "short_name": "RAIFFEISENBANK WALS-HIMMELREICH EGEN",
+      "bank_codes": [
+        "35071",
+        "35371"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22XXX",
+      "name": "RAIFFEISEN-LANDESBANK TIROL AG",
+      "short_name": "RAIFFEISEN-LANDESBANK TIROL AG",
+      "bank_codes": [
+        "36000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22200",
+      "name": "RAIFFEISENBANK ABSAM-THAUR-VOLDERS EGEN",
+      "short_name": "RAIFFEISENBANK ABSAM-THAUR-VOLDERS EGEN",
+      "bank_codes": [
+        "36200",
+        "36337",
+        "36347"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22218",
+      "name": "RAIFFEISEN REGIONALBANK ACHENSEE EGEN",
+      "short_name": "RAIFFEISEN REGIONALBANK ACHENSEE EGEN",
+      "bank_codes": [
+        "36201",
+        "36218",
+        "36249",
+        "36352"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22203",
+      "name": "RAIFFEISENBANK ALPBACHTAL EGEN",
+      "short_name": "RAIFFEISENBANK ALPBACHTAL EGEN",
+      "bank_codes": [
+        "36203",
+        "36303"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22353",
+      "name": "RAIFFEISENBANK PITZTAL EGEN",
+      "short_name": "RAIFFEISENBANK PITZTAL EGEN",
+      "bank_codes": [
+        "36207",
+        "36353"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22336",
+      "name": "RAIFFEISENBANK TIROL MITTE WEST EGEN",
+      "short_name": "RAIFFEISENBANK TIROL MITTE WEST EGEN",
+      "bank_codes": [
+        "36209",
+        "36260",
+        "36276",
+        "36336"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22358",
+      "name": "RAIFFEISEN BEZIRKSBANK KUFSTEIN EGEN",
+      "short_name": "RAIFFEISEN BEZIRKSBANK KUFSTEIN EGEN",
+      "bank_codes": [
+        "36213",
+        "36216",
+        "36223",
+        "36236",
+        "36358"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22215",
+      "name": "RAIFFEISENBANK BRIXEN IM THALE EGEN",
+      "short_name": "RAIFFEISENBANK BRIXEN IM THALE EGEN",
+      "bank_codes": [
+        "36215"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22219",
+      "name": "RAIFFEISENBANK EHRWALD-LERMOOS-BIBERWIER EGEN",
+      "short_name": "RAIFFEISENBANK EHRWALD-LERMOOS-BIBERWIER EGEN",
+      "bank_codes": [
+        "36219"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RBRTAT22XXX",
+      "name": "RAIFFEISENBANK OBERLAND-REUTTE EGEN",
+      "short_name": "RAIFFEISENBANK OBERLAND-REUTTE EGEN",
+      "bank_codes": [
+        "36220",
+        "36305",
+        "36345",
+        "36359",
+        "36990"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22229",
+      "name": "RAIFFEISEN REGIONALBANK F\u00dcGEN-KALTENBACH-ZELL EGEN",
+      "short_name": "RAIFFEISEN REGIONALBANK F\u00dcGEN-KALTENBACH-ZELL EGEN",
+      "bank_codes": [
+        "36229",
+        "36360"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22329",
+      "name": "RAIFFEISENBANK WIPPTAL - STUBAITAL MITTE EGEN",
+      "short_name": "RAIFFEISENBANK WIPPTAL - STUBAITAL MITTE EGEN",
+      "bank_codes": [
+        "36230",
+        "36329"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22232",
+      "name": "RAIFFEISENBANK GOING EGEN",
+      "short_name": "RAIFFEISENBANK GOING EGEN",
+      "bank_codes": [
+        "36232"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22241",
+      "name": "RAIFFEISENBANK HIPPACH-HART EGEN",
+      "short_name": "RAIFFEISENBANK HIPPACH-HART EGEN",
+      "bank_codes": [
+        "36240",
+        "36241"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22245",
+      "name": "RAIFFEISENBANK WILDER KAISER - BRIXENTAL WEST EGEN",
+      "short_name": "RAIFFEISENBANK WILDER KAISER - BRIXENTAL WEST EGEN",
+      "bank_codes": [
+        "36245",
+        "36318",
+        "36354"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22248",
+      "name": "RAIFFEISENBANK ARLBERG SILVRETTA EGEN",
+      "short_name": "RAIFFEISENBANK ARLBERG SILVRETTA EGEN",
+      "bank_codes": [
+        "36248",
+        "36252"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22263",
+      "name": "RAIFFEISENBANK KITZB\u00dcHEL - ST. JOHANN EGEN",
+      "short_name": "RAIFFEISENBANK KITZB\u00dcHEL - ST. JOHANN EGEN",
+      "bank_codes": [
+        "36254",
+        "36263"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22264",
+      "name": "RAIFFEISENBANK K\u00d6SSEN-KIRCHDORF EGEN",
+      "short_name": "RAIFFEISENBANK K\u00d6SSEN-KIRCHDORF EGEN",
+      "bank_codes": [
+        "36262",
+        "36264"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22322",
+      "name": "RAIFFEISEN REGIONALBANK SCHWAZ-WATTENS EGEN",
+      "short_name": "RAIFFEISEN REGIONALBANK SCHWAZ-WATTENS EGEN",
+      "bank_codes": [
+        "36265",
+        "36272",
+        "36322",
+        "36351"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22267",
+      "name": "RAIFFEISENBANK KUNDL-M\u00dcNSTER EGEN",
+      "short_name": "RAIFFEISENBANK KUNDL-M\u00dcNSTER EGEN",
+      "bank_codes": [
+        "36267",
+        "36279"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22268",
+      "name": "RAIFFEISENBANK IM \u00d6TZTAL UND UMGEBUNG EGEN",
+      "short_name": "RAIFFEISENBANK IM \u00d6TZTAL UND UMGEBUNG EGEN",
+      "bank_codes": [
+        "36268",
+        "36291",
+        "36316"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22339",
+      "name": "RAIFFEISENBANK LANGKAMPFEN-THIERSEE EGEN",
+      "short_name": "RAIFFEISENBANK LANGKAMPFEN-THIERSEE EGEN",
+      "bank_codes": [
+        "36269",
+        "36339"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22273",
+      "name": "RAIFFEISENBANK MATREI AM BRENNER UND UMGEBUNG EGEN",
+      "short_name": "RAIFFEISENBANK MATREI AM BRENNER UND UMGEBUNG EGEN",
+      "bank_codes": [
+        "36273"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22274",
+      "name": "RAIFFEISENBANK MAYRHOFEN UND UMGEBUNG EGEN",
+      "short_name": "RAIFFEISENBANK MAYRHOFEN UND UMGEBUNG EGEN",
+      "bank_codes": [
+        "36274"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22285",
+      "name": "RAIFFEISENBANK NEUSTIFT-MIEDERS-SCH\u00d6NBERG IM STUBAITAL EGEN",
+      "short_name": "RAIFFEISENBANK NEUSTIFT-MIEDERS-SCH\u00d6NBERG IM STUBAITAL EGEN",
+      "bank_codes": [
+        "36275",
+        "36285"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22281",
+      "name": "RAIFFEISENKASSE F\u00dcR MUTTERS, NATTERS UND KREITH REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISENKASSE F\u00dcR MUTTERS, NATTERS UND KREITH REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "36281"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22283",
+      "name": "RAIFFEISENBANK SERFAUS-FISS-RIED-NAUDERS EGEN",
+      "short_name": "RAIFFEISENBANK SERFAUS-FISS-RIED-NAUDERS EGEN",
+      "bank_codes": [
+        "36283"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22315",
+      "name": "RAIFFEISENBANK SERFAUS-FISS-RIED-NAUDERS EGEN",
+      "short_name": "RAIFFEISENBANK SERFAUS-FISS-RIED-NAUDERS EGEN",
+      "bank_codes": [
+        "36306",
+        "36315"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22310",
+      "name": "RAIFFEISENKASSE RUM-INNSBRUCK/ARZL EGEN",
+      "short_name": "RAIFFEISENKASSE RUM-INNSBRUCK/ARZL EGEN",
+      "bank_codes": [
+        "36310"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22314",
+      "name": "RAIFFEISENBANK SEEFELD-LEUTASCH-REITH-SCHARNITZ REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISENBANK SEEFELD-LEUTASCH-REITH-SCHARNITZ REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "36314"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22320",
+      "name": "RAIFFEISENKASSE SCHLITTERS, BRUCK UND STRASS REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISENKASSE SCHLITTERS, BRUCK UND STRASS REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "36320"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22324",
+      "name": "RAIFFEISENBANK S\u00d6LDEN EGEN",
+      "short_name": "RAIFFEISENBANK S\u00d6LDEN EGEN",
+      "bank_codes": [
+        "36324"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22332",
+      "name": "RAIFFEISENKASSE STUMM, STUMMERBERG UND UMGEBUNG REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISENKASSE STUMM, STUMMERBERG UND UMGEBUNG REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "36332"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22333",
+      "name": "RAIFFEISENBANK TANNHEIMERTAL EGEN",
+      "short_name": "RAIFFEISENBANK TANNHEIMERTAL EGEN",
+      "bank_codes": [
+        "36333"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22342",
+      "name": "RAIFFEISENBANK TUX EGEN",
+      "short_name": "RAIFFEISENBANK TUX EGEN",
+      "bank_codes": [
+        "36342"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22349",
+      "name": "RAIFFEISENBANK ST. ULRICH - WAIDRING EGEN",
+      "short_name": "RAIFFEISENBANK ST. ULRICH - WAIDRING EGEN",
+      "bank_codes": [
+        "36349"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22357",
+      "name": "RAIFFEISENBANK WILDSCH\u00d6NAU EGEN",
+      "short_name": "RAIFFEISENBANK WILDSCH\u00d6NAU EGEN",
+      "bank_codes": [
+        "36357"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22362",
+      "name": "RAIFFEISEN REGIONALBANK HALL IN TIROL EGEN",
+      "short_name": "RAIFFEISEN REGIONALBANK HALL IN TIROL EGEN",
+      "bank_codes": [
+        "36362"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZTIAT22378",
+      "name": "RAIFFEISEN REGIONALBANK MATREI I.O. EGEN",
+      "short_name": "RAIFFEISEN REGIONALBANK MATREI I.O. EGEN",
+      "bank_codes": [
+        "36367",
+        "36378"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22368",
+      "name": "RAIFFEISENBANK SILLIAN - LIENZER TALBODEN EGEN",
+      "short_name": "RAIFFEISENBANK SILLIAN - LIENZER TALBODEN EGEN",
+      "bank_codes": [
+        "36368",
+        "36373",
+        "36374",
+        "36387"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZTIAT22386",
+      "name": "RAIFFEISENKASSE VILLGRATENTAL EGEN",
+      "short_name": "RAIFFEISENKASSE VILLGRATENTAL EGEN",
+      "bank_codes": [
+        "36386"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "ALPEAT22XXX",
+      "name": "ALPEN PRIVATBANK AKTIENGESELLSCHAFT",
+      "short_name": "ALPEN PRIVATBANK AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "36791"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVVGAT2BXXX",
+      "name": "RAIFFEISEN LANDESBANK VORARLBERG MIT REVISIONSVERBAND EGEN",
+      "short_name": "RAIFFEISEN LANDESBANK VORARLBERG MIT REVISIONSVERBAND EGEN",
+      "bank_codes": [
+        "37000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVVGAT2B401",
+      "name": "RAIFFEISENBANK ALBERSCHWENDE EGEN",
+      "short_name": "RAIFFEISENBANK ALBERSCHWENDE EGEN",
+      "bank_codes": [
+        "37401"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVVGAT2B422",
+      "name": "RAIFFEISENBANK MONTFORT EGEN",
+      "short_name": "RAIFFEISENBANK MONTFORT EGEN",
+      "bank_codes": [
+        "37402",
+        "37422",
+        "37429",
+        "37461"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVVGAT2B423",
+      "name": "RAIFFEISENBANK MITTEL- UND HINTERBREGENZERWALD EGEN",
+      "short_name": "RAIFFEISENBANK MITTEL- UND HINTERBREGENZERWALD EGEN",
+      "bank_codes": [
+        "37405",
+        "37423"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVVGAT2B406",
+      "name": "RAIFFEISENBANK BEZAU-MELLAU-BIZAU EGEN",
+      "short_name": "RAIFFEISENBANK BEZAU-MELLAU-BIZAU EGEN",
+      "bank_codes": [
+        "37406"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVVGAT2B468",
+      "name": "RAIFFEISENBANK BLUDENZ-MONTAFON EGEN",
+      "short_name": "RAIFFEISENBANK BLUDENZ-MONTAFON EGEN",
+      "bank_codes": [
+        "37410",
+        "37468"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVVGAT2B420",
+      "name": "RAIFFEISENBANK IM RHEINTAL EGEN",
+      "short_name": "RAIFFEISENBANK IM RHEINTAL EGEN",
+      "bank_codes": [
+        "37420",
+        "37453"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVVGAT2B458",
+      "name": "RAIFFEISENBANK IM WALGAU EGEN",
+      "short_name": "RAIFFEISENBANK IM WALGAU EGEN",
+      "bank_codes": [
+        "37424",
+        "37458"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVVGAT2B431",
+      "name": "RAIFFEISENBANK BODENSEE-LEIBLACHTAL EGEN",
+      "short_name": "RAIFFEISENBANK BODENSEE-LEIBLACHTAL EGEN",
+      "bank_codes": [
+        "37431",
+        "37439"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RANJAT2BXXX",
+      "name": "WALSER RAIFFEISEN BANK AKTIENGESELLSCHAFT",
+      "short_name": "WALSER RAIFFEISEN BANK AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "37434"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVVGAT2B435",
+      "name": "RAIFFEISENBANK VORDERBREGENZERWALD EGEN",
+      "short_name": "RAIFFEISENBANK VORDERBREGENZERWALD EGEN",
+      "bank_codes": [
+        "37435"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RANMAT21XXX",
+      "name": "RAIFFEISENBANK HOHENEMS EGEN",
+      "short_name": "RAIFFEISENBANK HOHENEMS EGEN",
+      "bank_codes": [
+        "37438"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RVVGAT2B474",
+      "name": "RAIFFEISENBANK WEISSACHTAL EGEN",
+      "short_name": "RAIFFEISENBANK WEISSACHTAL EGEN",
+      "bank_codes": [
+        "37445",
+        "37474"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVVGAT2B449",
+      "name": "RAIFFEISENBANK LECH AM ARLBERG EGEN",
+      "short_name": "RAIFFEISENBANK LECH AM ARLBERG EGEN",
+      "bank_codes": [
+        "37449"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVVGAT2B475",
+      "name": "RAIFFEISENBANK VORDERLAND EGEN",
+      "short_name": "RAIFFEISENBANK VORDERLAND EGEN",
+      "bank_codes": [
+        "37475"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RVVGAT2B482",
+      "name": "RAIFFEISENBANK AM HOFSTEIG EGEN",
+      "short_name": "RAIFFEISENBANK AM HOFSTEIG EGEN",
+      "bank_codes": [
+        "37482"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2GXXX",
+      "name": "RAIFFEISEN-LANDESBANK STEIERMARK AG",
+      "short_name": "RAIFFEISEN-LANDESBANK STEIERMARK AG",
+      "bank_codes": [
+        "38000",
+        "56000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G215",
+      "name": "RAIFFEISENBANK REGION LIEZEN EGEN",
+      "short_name": "RAIFFEISENBANK REGION LIEZEN EGEN",
+      "bank_codes": [
+        "38001",
+        "38215",
+        "38348"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G187",
+      "name": "RAIFFEISENBANK WEIZ-ANGER EGEN",
+      "short_name": "RAIFFEISENBANK WEIZ-ANGER EGEN",
+      "bank_codes": [
+        "38010",
+        "38187"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G023",
+      "name": "RAIFFEISENBANK OSTSTEIERMARK NORD EGEN",
+      "short_name": "RAIFFEISENBANK OSTSTEIERMARK NORD EGEN",
+      "bank_codes": [
+        "38023",
+        "38041",
+        "38108",
+        "38311"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G282",
+      "name": "RAIFFEISENBANK PASSAIL EGEN",
+      "short_name": "RAIFFEISENBANK PASSAIL EGEN",
+      "bank_codes": [
+        "38026",
+        "38282"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G487",
+      "name": "RAIFFEISENBANK WESTSTEIERMARK EGEN",
+      "short_name": "RAIFFEISENBANK WESTSTEIERMARK EGEN",
+      "bank_codes": [
+        "38043",
+        "38053",
+        "38211",
+        "38235",
+        "38375",
+        "38487"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G252",
+      "name": "RAIFFEISENBANK NESTELBACH-EGGERSDORF EGEN",
+      "short_name": "RAIFFEISENBANK NESTELBACH-EGGERSDORF EGEN",
+      "bank_codes": [
+        "38055",
+        "38252"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G056",
+      "name": "RAIFFEISENBANK S\u00dcD-WESTSTEIERMARK EGEN",
+      "short_name": "RAIFFEISENBANK S\u00dcD-WESTSTEIERMARK EGEN",
+      "bank_codes": [
+        "38056",
+        "38407",
+        "38503"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G071",
+      "name": "RAIFFEISENBANK REGION FEHRING EGEN",
+      "short_name": "RAIFFEISENBANK REGION FEHRING EGEN",
+      "bank_codes": [
+        "38071",
+        "38132"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G210",
+      "name": "RAIFFEISENBANK KALSDORF-LIEBOCH-STAINZ EGEN",
+      "short_name": "RAIFFEISENBANK KALSDORF-LIEBOCH-STAINZ EGEN",
+      "bank_codes": [
+        "38072",
+        "38210",
+        "38477"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G075",
+      "name": "RAIFFEISENBANK MITTLERE S\u00dcDOSTSTEIERMARK EGEN",
+      "short_name": "RAIFFEISENBANK MITTLERE S\u00dcDOSTSTEIERMARK EGEN",
+      "bank_codes": [
+        "38075",
+        "38171",
+        "38374"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G346",
+      "name": "RAIFFEISENBANK AICHFELD EGEN",
+      "short_name": "RAIFFEISENBANK AICHFELD EGEN",
+      "bank_codes": [
+        "38076",
+        "38346"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G077",
+      "name": "RAIFFEISENBANK REGION F\u00dcRSTENFELD EGEN",
+      "short_name": "RAIFFEISENBANK REGION F\u00dcRSTENFELD EGEN",
+      "bank_codes": [
+        "38077",
+        "38122"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G094",
+      "name": "RAIFFEISENBANK GAMLITZ EGEN",
+      "short_name": "RAIFFEISENBANK GAMLITZ EGEN",
+      "bank_codes": [
+        "38094"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G102",
+      "name": "RAIFFEISENBANK GLEINST\u00c4TTEN-LEUTSCHACH-WILDON EGEN",
+      "short_name": "RAIFFEISENBANK GLEINST\u00c4TTEN-LEUTSCHACH-WILDON EGEN",
+      "bank_codes": [
+        "38102",
+        "38118",
+        "38262",
+        "38292",
+        "38499"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G103",
+      "name": "RAIFFEISENBANK REGION GLEISDORF-PISCHELSDORF EGEN",
+      "short_name": "RAIFFEISENBANK REGION GLEISDORF-PISCHELSDORF EGEN",
+      "bank_codes": [
+        "38103",
+        "38285",
+        "38372"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G497",
+      "name": "RAIFFEISENBANK REGION FELDBACH EGEN",
+      "short_name": "RAIFFEISENBANK REGION FELDBACH EGEN",
+      "bank_codes": [
+        "38104",
+        "38131",
+        "38497"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G111",
+      "name": "RAIFFEISENBANK GRATKORN EGEN",
+      "short_name": "RAIFFEISENBANK GRATKORN EGEN",
+      "bank_codes": [
+        "38111"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G138",
+      "name": "RAIFFEISENBANK GRATWEIN-HITZENDORF EGEN",
+      "short_name": "RAIFFEISENBANK GRATWEIN-HITZENDORF EGEN",
+      "bank_codes": [
+        "38112",
+        "38138",
+        "38333"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G113",
+      "name": "RAIFFEISENBANK SCHLADMING-GR\u00d6BMING EGEN",
+      "short_name": "RAIFFEISENBANK SCHLADMING-GR\u00d6BMING EGEN",
+      "bank_codes": [
+        "38113",
+        "38481"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G151",
+      "name": "RAIFFEISENBANK ILZ-GROSSSTEINBACH-RIEGERSBURG EGEN",
+      "short_name": "RAIFFEISENBANK ILZ-GROSSSTEINBACH-RIEGERSBURG EGEN",
+      "bank_codes": [
+        "38120",
+        "38151",
+        "38326"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G312",
+      "name": "RAIFFEISENBANK REGION RADKERSBURG EGEN",
+      "short_name": "RAIFFEISENBANK REGION RADKERSBURG EGEN",
+      "bank_codes": [
+        "38128",
+        "38312",
+        "38436"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G129",
+      "name": "RAIFFEISENBANK MARIAZELLERLAND EGEN",
+      "short_name": "RAIFFEISENBANK MARIAZELLERLAND EGEN",
+      "bank_codes": [
+        "38129"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G133",
+      "name": "RAIFFEISENBANK HAUSMANNST\u00c4TTEN EGEN",
+      "short_name": "RAIFFEISENBANK HAUSMANNST\u00c4TTEN EGEN",
+      "bank_codes": [
+        "38133"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G170",
+      "name": "RAIFFEISENBANK HEILIGENKREUZ-KIRCHBACH -ST. GEORGEN EGEN",
+      "short_name": "RAIFFEISENBANK HEILIGENKREUZ-KIRCHBACH -ST. GEORGEN EGEN",
+      "bank_codes": [
+        "38170",
+        "38335"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G186",
+      "name": "RAIFFEISENBANK M\u00dcRZTAL EGEN",
+      "short_name": "RAIFFEISENBANK M\u00dcRZTAL EGEN",
+      "bank_codes": [
+        "38186",
+        "38240"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G206",
+      "name": "RAIFFEISENBANK LEIBNITZ EGEN",
+      "short_name": "RAIFFEISENBANK LEIBNITZ EGEN",
+      "bank_codes": [
+        "38206"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G377",
+      "name": "RAIFFEISENBANK REGION GRAZ NORD EGEN",
+      "short_name": "RAIFFEISENBANK REGION GRAZ NORD EGEN",
+      "bank_codes": [
+        "38223",
+        "38377"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G227",
+      "name": "RAIFFEISENBANK LIESINGTAL-ST. STEFAN EGEN",
+      "short_name": "RAIFFEISENBANK LIESINGTAL-ST. STEFAN EGEN",
+      "bank_codes": [
+        "38227",
+        "38373"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G402",
+      "name": "RAIFFEISENBANK MURAU EGEN",
+      "short_name": "RAIFFEISENBANK MURAU EGEN",
+      "bank_codes": [
+        "38238",
+        "38402",
+        "38452"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G249",
+      "name": "RAIFFEISENBANK STEIRISCHES SALZKAMMERGUT-\u00d6BLARN EGEN",
+      "short_name": "RAIFFEISENBANK STEIRISCHES SALZKAMMERGUT-\u00d6BLARN EGEN",
+      "bank_codes": [
+        "38249",
+        "38266"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZSTAT2G368",
+      "name": "RAIFFEISENBANK ZIRBENLAND EGEN",
+      "short_name": "RAIFFEISENBANK ZIRBENLAND EGEN",
+      "bank_codes": [
+        "38261",
+        "38368"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G347",
+      "name": "RAIFFEISENBANK TURNAU-ST. LORENZEN EGEN",
+      "short_name": "RAIFFEISENBANK TURNAU-ST. LORENZEN EGEN",
+      "bank_codes": [
+        "38347",
+        "38462"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G367",
+      "name": "RAIFFEISENBANK GRAZ-ST. PETER EGEN",
+      "short_name": "RAIFFEISENBANK GRAZ-ST. PETER EGEN",
+      "bank_codes": [
+        "38367"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G370",
+      "name": "RAIFFEISENBANK MURECK EGEN",
+      "short_name": "RAIFFEISENBANK MURECK EGEN",
+      "bank_codes": [
+        "38370"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G403",
+      "name": "RAIFFEISENBANK REGION HARTBERG EGEN",
+      "short_name": "RAIFFEISENBANK REGION HARTBERG EGEN",
+      "bank_codes": [
+        "38403",
+        "38411"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G420",
+      "name": "RAIFFEISENBANK STRASS-SPIELFELD EGEN",
+      "short_name": "RAIFFEISENBANK STRASS-SPIELFELD EGEN",
+      "bank_codes": [
+        "38420"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G433",
+      "name": "RAIFFEISENBANK STALLHOFEN EGEN",
+      "short_name": "RAIFFEISENBANK STALLHOFEN EGEN",
+      "bank_codes": [
+        "38433"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G439",
+      "name": "RAIFFEISENBANK GRAZ-STRASSGANG EGEN",
+      "short_name": "RAIFFEISENBANK GRAZ-STRASSGANG EGEN",
+      "bank_codes": [
+        "38439"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZSTAT2G460",
+      "name": "RAIFFEISENBANK LEOBEN-BRUCK EGEN",
+      "short_name": "RAIFFEISENBANK LEOBEN-BRUCK EGEN",
+      "bank_codes": [
+        "38460"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2KXXX",
+      "name": "RAIFFEISEN LANDESBANK K\u00c4RNTEN UND REVISIONSVERBAND EGEN",
+      "short_name": "RAIFFEISEN LANDESBANK K\u00c4RNTEN UND REVISIONSVERBAND EGEN",
+      "bank_codes": [
+        "39000",
+        "39358"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "VSGKAT2KXXX",
+      "name": "POSOJILNICA BANK EGEN",
+      "short_name": "POSOJILNICA BANK EGEN",
+      "bank_codes": [
+        "39100",
+        "39101",
+        "39102",
+        "39104",
+        "39109",
+        "39116",
+        "39117",
+        "39130"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZKTAT2K475",
+      "name": "RAIFFEISENBANK MITTELK\u00c4RNTEN EG",
+      "short_name": "RAIFFEISENBANK MITTELK\u00c4RNTEN EG",
+      "bank_codes": [
+        "39254",
+        "39255",
+        "39340",
+        "39384",
+        "39407",
+        "39475",
+        "39505",
+        "39511"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZKTAT2K496",
+      "name": "RAIFFEISENBANK REGION VILLACH EG",
+      "short_name": "RAIFFEISENBANK REGION VILLACH EG",
+      "bank_codes": [
+        "39257",
+        "39305",
+        "39383",
+        "39483",
+        "39496"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K267",
+      "name": "RAIFFEISEN-BEZIRKSBANK SPITTAL/DRAU, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISEN-BEZIRKSBANK SPITTAL/DRAU, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "39267"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZKTAT2K546",
+      "name": "RAIFFEISENBANK V\u00d6LKERMARKT-BLEIBURG-BR\u00dcCKL EGEN",
+      "short_name": "RAIFFEISENBANK V\u00d6LKERMARKT-BLEIBURG-BR\u00dcCKL EGEN",
+      "bank_codes": [
+        "39271",
+        "39272",
+        "39546"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K288",
+      "name": "RAIFFEISENBANK EBERNDORF REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISENBANK EBERNDORF REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "39288"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K292",
+      "name": "RAIFFEISENBANK UNTERES LAVANTTAL EGEN",
+      "short_name": "RAIFFEISENBANK UNTERES LAVANTTAL EGEN",
+      "bank_codes": [
+        "39292"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K320",
+      "name": "RAIFFEISENBANK GRAFENSTEIN-MAGDALENSBERG UND UMGEBUNG, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISENBANK GRAFENSTEIN-MAGDALENSBERG UND UMGEBUNG, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "39320"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZKTAT2K561",
+      "name": "RAIFFEISENBANK GROSSGLOCKNER-WEISSENSEE EG",
+      "short_name": "RAIFFEISENBANK GROSSGLOCKNER-WEISSENSEE EG",
+      "bank_codes": [
+        "39322",
+        "39431",
+        "39561"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZKTAT2K390",
+      "name": "RAIFFEISENBANK W\u00d6RTHERSEE-LANDSKRON-GEGENDTAL EG",
+      "short_name": "RAIFFEISENBANK W\u00d6RTHERSEE-LANDSKRON-GEGENDTAL EG",
+      "bank_codes": [
+        "39355",
+        "39381",
+        "39390"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K364",
+      "name": "RAIFFEISENBANK KARNISCHE REGION EG",
+      "short_name": "RAIFFEISENBANK KARNISCHE REGION EG",
+      "bank_codes": [
+        "39364",
+        "39543"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZKTAT2K464",
+      "name": "RAIFFEISENBANK LIESER-MALTATAL EG",
+      "short_name": "RAIFFEISENBANK LIESER-MALTATAL EG",
+      "bank_codes": [
+        "39400",
+        "39464"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZKTAT2K442",
+      "name": "RAIFFEISENBANK DRAUTAL REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISENBANK DRAUTAL REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "39404",
+        "39442"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K411",
+      "name": "RAIFFEISENBANK MOOSBURG-TIGRING, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISENBANK MOOSBURG-TIGRING, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "39411"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K412",
+      "name": "RAIFFEISEN BANK LURNFELD-M\u00d6LLTAL EGEN",
+      "short_name": "RAIFFEISEN BANK LURNFELD-M\u00d6LLTAL EGEN",
+      "bank_codes": [
+        "39412",
+        "39436"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K457",
+      "name": "RAIFFEISENBANK NOCKBERGE EGEN",
+      "short_name": "RAIFFEISENBANK NOCKBERGE EGEN",
+      "bank_codes": [
+        "39457",
+        "39461"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZKTAT2K481",
+      "name": "RAIFFEISENBANK MITTLERES LAVANTTAL EGEN",
+      "short_name": "RAIFFEISENBANK MITTLERES LAVANTTAL EGEN",
+      "bank_codes": [
+        "39465",
+        "39481"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K479",
+      "name": "RAIFFEISENBANK MILLST\u00c4TTERSEE EG",
+      "short_name": "RAIFFEISENBANK MILLST\u00c4TTERSEE EG",
+      "bank_codes": [
+        "39479"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K487",
+      "name": "RAIFFEISENBANK ROSENTAL, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISENBANK ROSENTAL, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "39487"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K491",
+      "name": "RAIFFEISENBANK OBERES LAVANTTAL - ST. PAUL EG",
+      "short_name": "RAIFFEISENBANK OBERES LAVANTTAL - ST. PAUL EG",
+      "bank_codes": [
+        "39491",
+        "39500"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K501",
+      "name": "RAIFFEISENBANK FRIESACH-METNITZTAL, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISENBANK FRIESACH-METNITZTAL, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "39501"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K510",
+      "name": "RAIFFEISENBANK OSSIACHER SEE EG",
+      "short_name": "RAIFFEISENBANK OSSIACHER SEE EG",
+      "bank_codes": [
+        "39510"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "RZKTAT2K559",
+      "name": "RAIFFEISENBANK WERNBERG, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "short_name": "RAIFFEISENBANK WERNBERG, REGISTRIERTE GENOSSENSCHAFT MIT BESCHR\u00c4NKTER HAFTUNG",
+      "bank_codes": [
+        "39559"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "VBOEATWWNOM",
+      "name": "VOLKSBANK NIEDER\u00d6STERREICH AG",
+      "short_name": "VOLKSBANK NIEDER\u00d6STERREICH AG",
+      "bank_codes": [
+        "40170",
+        "40630",
+        "40850",
+        "41050",
+        "41210",
+        "43530",
+        "43920",
+        "44820",
+        "47150"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "VBOEATWWSAL",
+      "name": "VOLKSBANK SALZBURG EG",
+      "short_name": "VOLKSBANK SALZBURG EG",
+      "bank_codes": [
+        "40720",
+        "42740",
+        "44020",
+        "44300",
+        "44480",
+        "45010"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "OVLIAT21XXX",
+      "name": "DOLOMITENBANK OSTTIROL-WESTK\u00c4RNTEN EG",
+      "short_name": "DOLOMITENBANK OSTTIROL-WESTK\u00c4RNTEN EG",
+      "bank_codes": [
+        "40730",
+        "43380",
+        "44400"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "MVOGAT22XXX",
+      "name": "MARCHFELDER BANK EG",
+      "short_name": "MARCHFELDER BANK EG",
+      "bank_codes": [
+        "42110"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "VBOEATWWKLA",
+      "name": "VOLKSBANK K\u00c4RNTEN EG",
+      "short_name": "VOLKSBANK K\u00c4RNTEN EG",
+      "bank_codes": [
+        "42130",
+        "42600",
+        "42820",
+        "46900"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "VBOEATWWGRA",
+      "name": "VOLKSBANK STEIERMARK AG",
+      "short_name": "VOLKSBANK STEIERMARK AG",
+      "bank_codes": [
+        "42320",
+        "43030",
+        "44770",
+        "44780",
+        "44810",
+        "46590",
+        "48150"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "VBOEATWWINN",
+      "name": "VOLKSBANK TIROL AG",
+      "short_name": "VOLKSBANK TIROL AG",
+      "bank_codes": [
+        "42390",
+        "43770",
+        "45850"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "VBOEATWWOOE",
+      "name": "VOLKSBANK OBER\u00d6STERREICH AG",
+      "short_name": "VOLKSBANK OBER\u00d6STERREICH AG",
+      "bank_codes": [
+        "42550",
+        "42630",
+        "42830",
+        "43180",
+        "43210",
+        "43830",
+        "44790",
+        "44800",
+        "45330"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "ABVRATW1XXX",
+      "name": "START:BAUSPARKASSE AG",
+      "short_name": "START:BAUSPARKASSE AG",
+      "bank_codes": [
+        "43510"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "WSPKATW1XXX",
+      "name": "WSK BANK AG",
+      "short_name": "WSK BANK AG",
+      "bank_codes": [
+        "44960"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "VBOEATWWVBG",
+      "name": "VOLKSBANK VORARLBERG E. GEN.",
+      "short_name": "VOLKSBANK VORARLBERG E. GEN.",
+      "bank_codes": [
+        "45710"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "EHBBAT2EXXX",
+      "name": "HYPO-BANK BURGENLAND AKTIENGESELLSCHAFT",
+      "short_name": "HYPO-BANK BURGENLAND AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "51000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "HAABAT2KXXX",
+      "name": "AUSTRIAN ANADI BANK AG",
+      "short_name": "AUSTRIAN ANADI BANK AG",
+      "bank_codes": [
+        "52000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "HSEEAT2KXXX",
+      "name": "ADDIKO BANK AG",
+      "short_name": "ADDIKO BANK AG",
+      "bank_codes": [
+        "52300"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "HYPNATWWXXX",
+      "name": "HYPO NOE LANDESBANK F\u00dcR NIEDER\u00d6STERREICH UND WIEN AG",
+      "short_name": "HYPO NOE LANDESBANK F\u00dcR NIEDER\u00d6STERREICH UND WIEN AG",
+      "bank_codes": [
+        "53000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "HYPNATWWLDS",
+      "name": "HYPO NOE LANDESBANK F\u00dcR NIEDER\u00d6STERREICH UND WIEN AG",
+      "short_name": "HYPO NOE LANDESBANK F\u00dcR NIEDER\u00d6STERREICH UND WIEN AG",
+      "bank_codes": [
+        "53100"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "OBLAAT2LXXX",
+      "name": "OBER\u00d6STERREICHISCHE LANDESBANK AKTIENGESELLSCHAFT",
+      "short_name": "OBER\u00d6STERREICHISCHE LANDESBANK AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "54000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "SLHYAT2SXXX",
+      "name": "RAIFFEISENLANDESBANK OBER\u00d6STERREICH AKTIENGESELLSCHAFT",
+      "short_name": "RAIFFEISENLANDESBANK OBER\u00d6STERREICH AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "55000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "SLHYAT2S500",
+      "name": "RAIFFEISENLANDESBANK OBER\u00d6STERREICH AKTIENGESELLSCHAFT",
+      "short_name": "RAIFFEISENLANDESBANK OBER\u00d6STERREICH AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "55500"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "HYPTAT22XXX",
+      "name": "HYPO TIROL BANK AG",
+      "short_name": "HYPO TIROL BANK AG",
+      "bank_codes": [
+        "57000",
+        "57100"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "HYPVAT2BXXX",
+      "name": "HYPO VORARLBERG BANK AG",
+      "short_name": "HYPO VORARLBERG BANK AG",
+      "bank_codes": [
+        "58000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "SFIVATW1XXX",
+      "name": "SPAR-FINANZ BANK AG",
+      "short_name": "SPAR-FINANZ BANK AG",
+      "bank_codes": [
+        "74200"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": true,
+      "bic": "PORCAT21XXX",
+      "name": "PORSCHE BANK AKTIENGESELLSCHAFT",
+      "short_name": "PORSCHE BANK AKTIENGESELLSCHAFT",
+      "bank_codes": [
+        "76000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "VIAUATW1XXX",
+      "name": "CARD COMPLETE SERVICE BANK AG",
+      "short_name": "CARD COMPLETE SERVICE BANK AG",
+      "bank_codes": [
+        "76022",
+        "76040"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "TEAMDE71TAT",
+      "name": "TEAMBANK \u00d6STERREICH - NIEDERLASSUNG DER TEAMBANK AG N\u00dcRNBERG",
+      "short_name": "TEAMBANK \u00d6STERREICH - NIEDERLASSUNG DER TEAMBANK AG N\u00dcRNBERG",
+      "bank_codes": [
+        "76032"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "BUNDATWWXXX",
+      "name": "REPUBLIK \u00d6STERREICH",
+      "short_name": "REPUBLIK \u00d6STERREICH",
+      "bank_codes": [
+        "01000"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "CENBATWWRDB",
+      "name": "RAIFFEISEN DIGITAL BANK AG",
+      "short_name": "RAIFFEISEN DIGITAL BANK AG",
+      "bank_codes": [
+        "19931"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZBAATWWVAM",
+      "name": "RAIFFEISEN BANK INTERNATIONAL AG",
+      "short_name": "RAIFFEISEN BANK INTERNATIONAL AG",
+      "bank_codes": [
+        "31111"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RZBAATWWREC",
+      "name": "RAIFFEISEN BANK INTERNATIONAL AG",
+      "short_name": "RAIFFEISEN BANK INTERNATIONAL AG",
+      "bank_codes": [
+        "31112"
+      ]
+    }
+  ],
+  "expand_from": "bank_codes",
+  "expand_into": "bank_code"
+}

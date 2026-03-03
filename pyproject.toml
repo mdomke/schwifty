@@ -115,6 +115,7 @@ doc = [
 ]
 scripts = [
     "beautifulsoup4",
+    "boltons",
     "camelot-py",
     "requests",
     "xlrd>=2.0.1",
