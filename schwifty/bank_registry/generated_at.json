@@ -17,7 +17,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BKAUATWWXXX",
     "bank_code": "11000",
     "name": "UniCredit Bank Austria AG",
@@ -41,7 +41,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BAWAATWWXXX",
     "bank_code": "14200",
     "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
@@ -49,7 +49,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BAWAATWWXXX",
     "bank_code": "14210",
     "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
@@ -57,7 +57,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BAWAATWWXXX",
     "bank_code": "14900",
     "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
@@ -73,7 +73,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15001",
     "name": "Oberbank AG",
@@ -81,7 +81,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15002",
     "name": "Oberbank AG",
@@ -89,7 +89,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15003",
     "name": "Oberbank AG",
@@ -97,7 +97,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15004",
     "name": "Oberbank AG",
@@ -105,7 +105,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15005",
     "name": "Oberbank AG",
@@ -113,7 +113,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15006",
     "name": "Oberbank AG",
@@ -121,7 +121,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15007",
     "name": "Oberbank AG",
@@ -129,7 +129,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15008",
     "name": "Oberbank AG",
@@ -137,7 +137,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15009",
     "name": "Oberbank AG",
@@ -145,7 +145,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15010",
     "name": "Oberbank AG",
@@ -153,7 +153,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15011",
     "name": "Oberbank AG",
@@ -161,7 +161,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15012",
     "name": "Oberbank AG",
@@ -169,7 +169,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15013",
     "name": "Oberbank AG",
@@ -177,7 +177,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15021",
     "name": "Oberbank AG",
@@ -185,7 +185,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15022",
     "name": "Oberbank AG",
@@ -193,7 +193,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15023",
     "name": "Oberbank AG",
@@ -201,7 +201,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15024",
     "name": "Oberbank AG",
@@ -209,7 +209,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15025",
     "name": "Oberbank AG",
@@ -217,7 +217,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15030",
     "name": "Oberbank AG",
@@ -225,7 +225,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15031",
     "name": "Oberbank AG",
@@ -233,7 +233,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15040",
     "name": "Oberbank AG",
@@ -241,7 +241,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15041",
     "name": "Oberbank AG",
@@ -249,7 +249,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15042",
     "name": "Oberbank AG",
@@ -257,7 +257,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15060",
     "name": "Oberbank AG",
@@ -265,7 +265,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15061",
     "name": "Oberbank AG",
@@ -273,7 +273,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15062",
     "name": "Oberbank AG",
@@ -281,7 +281,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15080",
     "name": "Oberbank AG",
@@ -289,7 +289,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15081",
     "name": "Oberbank AG",
@@ -297,7 +297,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15090",
     "name": "Oberbank AG",
@@ -305,7 +305,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15091",
     "name": "Oberbank AG",
@@ -313,7 +313,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15092",
     "name": "Oberbank AG",
@@ -321,7 +321,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15093",
     "name": "Oberbank AG",
@@ -329,7 +329,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15094",
     "name": "Oberbank AG",
@@ -337,7 +337,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15095",
     "name": "Oberbank AG",
@@ -345,7 +345,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15096",
     "name": "Oberbank AG",
@@ -353,7 +353,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15097",
     "name": "Oberbank AG",
@@ -361,7 +361,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15110",
     "name": "Oberbank AG",
@@ -369,7 +369,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15120",
     "name": "Oberbank AG",
@@ -377,7 +377,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15121",
     "name": "Oberbank AG",
@@ -385,7 +385,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15122",
     "name": "Oberbank AG",
@@ -393,7 +393,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15123",
     "name": "Oberbank AG",
@@ -401,7 +401,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15130",
     "name": "Oberbank AG",
@@ -409,7 +409,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15131",
     "name": "Oberbank AG",
@@ -417,7 +417,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15132",
     "name": "Oberbank AG",
@@ -425,7 +425,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15133",
     "name": "Oberbank AG",
@@ -433,7 +433,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15134",
     "name": "Oberbank AG",
@@ -441,7 +441,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15135",
     "name": "Oberbank AG",
@@ -449,7 +449,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15150",
     "name": "Oberbank AG",
@@ -457,7 +457,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15151",
     "name": "Oberbank AG",
@@ -473,7 +473,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16300",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -481,7 +481,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16310",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -489,7 +489,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16320",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -497,7 +497,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16330",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -505,7 +505,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16340",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -513,7 +513,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16350",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -521,7 +521,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16360",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -529,7 +529,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16370",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -537,7 +537,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16380",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -545,7 +545,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16390",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -553,7 +553,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16400",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -561,7 +561,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16410",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -569,7 +569,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16420",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -577,7 +577,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16430",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -585,7 +585,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16440",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -593,7 +593,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16450",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -601,7 +601,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BTVAAT22XXX",
     "bank_code": "16460",
     "name": "BTV Vier L\u00e4nder Bank AG",
@@ -617,7 +617,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BFKKAT2KXXX",
     "bank_code": "17100",
     "name": "BKS Bank AG",
@@ -625,7 +625,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BFKKAT2KXXX",
     "bank_code": "17200",
     "name": "BKS Bank AG",
@@ -633,7 +633,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BFKKAT2KXXX",
     "bank_code": "17300",
     "name": "BKS Bank AG",
@@ -641,7 +641,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BFKKAT2KXXX",
     "bank_code": "17400",
     "name": "BKS Bank AG",
@@ -649,7 +649,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BFKKAT2KXXX",
     "bank_code": "17500",
     "name": "BKS Bank AG",
@@ -657,7 +657,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "GEBAATWWXXX",
     "bank_code": "18100",
     "name": "BNP Paribas SA Niederlassung \u00d6sterreich",
@@ -681,7 +681,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "CITIATWXXXX",
     "bank_code": "18140",
     "name": "Citibank Europe plc, Austria Branch",
@@ -689,7 +689,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "SGABATWWXXX",
     "bank_code": "18150",
     "name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale Zweigniederlassung Wien",
@@ -697,7 +697,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "18160",
     "name": "VOLKSBANK WIEN AG",
@@ -705,15 +705,15 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
-    "bic": "",
+    "primary": false,
+    "bic": "NAN",
     "bank_code": "18170",
     "name": "KA Finanz AG i.A.",
     "short_name": "KA Finanz AG i.A."
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BAWAATWWXXX",
     "bank_code": "18190",
     "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
@@ -737,7 +737,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "TRBKATW2XXX",
     "bank_code": "19001",
     "name": "Trade Republic Bank GmbH, Branch Austria",
@@ -745,7 +745,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "DEUTATWWXXX",
     "bank_code": "19100",
     "name": "Deutsche Bank Aktiengesellschaft Filiale Wien",
@@ -777,7 +777,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "WIPBATWWXXX",
     "bank_code": "19160",
     "name": "Wiener Privatbank SE",
@@ -809,7 +809,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "SPBAATWWB99",
     "bank_code": "19210",
     "name": "bank99 AG",
@@ -825,7 +825,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "DIRAAT2SXXX",
     "bank_code": "19250",
     "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
@@ -833,15 +833,15 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
-    "bic": "",
+    "primary": false,
+    "bic": "NAN",
     "bank_code": "19325",
     "name": "ODDO BHF SCA, Niederlassung \u00d6sterreich",
     "short_name": "ODDO BHF SCA, Niederlassung \u00d6sterreich"
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "INGBATWWXXX",
     "bank_code": "19360",
     "name": "ING Austria Branch of ING Bank N.V.",
@@ -865,15 +865,15 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
-    "bic": "",
+    "primary": false,
+    "bic": "NAN",
     "bank_code": "19400",
     "name": "MUFG Bank (Europe) N.V. Vienna Branch",
     "short_name": "MUFG Bank (Europe) N.V. Vienna Branch"
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RCNOATW1XXX",
     "bank_code": "19420",
     "name": "RCI Banque SA, Niederlassung \u00d6sterreich",
@@ -889,7 +889,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "COPRATWWXXX",
     "bank_code": "19450",
     "name": "Liechtensteinische Landesbank (\u00d6sterreich) AG",
@@ -897,7 +897,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BLFLATWWXXX",
     "bank_code": "19460",
     "name": "LGT Bank AG, Zweigniederlassung \u00d6sterreich",
@@ -905,7 +905,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BIIWATWWXXX",
     "bank_code": "19480",
     "name": "flatexDEGIRO Bank AG",
@@ -913,7 +913,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "COPRATWWXXX",
     "bank_code": "19510",
     "name": "Liechtensteinische Landesbank (\u00d6sterreich) AG",
@@ -921,7 +921,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OPBAATW2XXX",
     "bank_code": "19515",
     "name": "Stellantis Bank SA Niederlassung \u00d6sterreich",
@@ -929,7 +929,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "STSPAT2GXXX",
     "bank_code": "19520",
     "name": "Steierm\u00e4rkische Bank und Sparkassen Aktiengesellschaft",
@@ -945,7 +945,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BKCHATWWXXX",
     "bank_code": "19540",
     "name": "Bank of China (Central and Eastern Europe) Limited Vienna Branch",
@@ -953,7 +953,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BSSWATWWXXX",
     "bank_code": "19600",
     "name": "Schelhammer Capital Bank AG",
@@ -961,8 +961,8 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
-    "bic": "",
+    "primary": false,
+    "bic": "NAN",
     "bank_code": "19610",
     "name": "BNP PARIBAS PERSONAL FINANCE SA Niederlassung \u00d6sterreich",
     "short_name": "BNP PARIBAS PERSONAL FINANCE SA Niederlassung \u00d6sterreich"
@@ -985,7 +985,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "COBAATWXXXX",
     "bank_code": "19675",
     "name": "Commerzbank AG Niederlassung Wien",
@@ -1129,7 +1129,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "SPBDAT21XXX",
     "bank_code": "20225",
     "name": "Sparkasse Baden",
@@ -1201,7 +1201,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "SPZWAT21XXX",
     "bank_code": "20263",
     "name": "Waldviertler Sparkasse Bank AG",
@@ -1305,7 +1305,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "SBGSAT2SXXX",
     "bank_code": "20404",
     "name": "Erste Bank der oesterreichischen Sparkassen AG",
@@ -1473,7 +1473,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZBAATWWXXX",
     "bank_code": "30000",
     "name": "Raiffeisen Bank International AG",
@@ -1529,7 +1529,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWAMS",
     "bank_code": "32033",
     "name": "Raiffeisenbank Region Amstetten eGen",
@@ -1537,7 +1537,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWWDF",
     "bank_code": "32039",
     "name": "Raiffeisenbank Wolkersdorf - Auersthal eGen",
@@ -1585,7 +1585,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWBAD",
     "bank_code": "32118",
     "name": "Raiffeisenbank Region Baden eGen",
@@ -1601,7 +1601,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWWTH",
     "bank_code": "32127",
     "name": "Raiffeisenbank im Thayatal eGen",
@@ -1625,7 +1625,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATW1322",
     "bank_code": "32198",
     "name": "Raiffeisenbank Hollabrunn eGen",
@@ -1633,7 +1633,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWZDF",
     "bank_code": "32227",
     "name": "Raiffeisenbank Weinviertel Nordost eGen",
@@ -1641,7 +1641,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATW1002",
     "bank_code": "32242",
     "name": "Raiffeisenbank Wagram-Schmidatal eGen",
@@ -1649,7 +1649,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWBAD",
     "bank_code": "32247",
     "name": "Raiffeisenbank Region Baden eGen",
@@ -1689,7 +1689,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATW1002",
     "bank_code": "32291",
     "name": "Raiffeisenbank Wagram-Schmidatal eGen",
@@ -1705,7 +1705,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWOBG",
     "bank_code": "32356",
     "name": "Raiffeisenbank Region St. P\u00f6lten eGen",
@@ -1713,7 +1713,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATW1880",
     "bank_code": "32367",
     "name": "Raiffeisenbank Tulln-Klosterneuburg eGen",
@@ -1721,7 +1721,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATW1477",
     "bank_code": "32368",
     "name": "Raiffeisenbank Region Schallaburg eGen",
@@ -1729,7 +1729,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWASP",
     "bank_code": "32374",
     "name": "Raiffeisenbank Region Wiener Alpen eGen",
@@ -1761,7 +1761,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWPRB",
     "bank_code": "32414",
     "name": "Raiffeisenbank Wienerwald eGen",
@@ -1801,7 +1801,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATW1477",
     "bank_code": "32455",
     "name": "Raiffeisenbank Region Schallaburg eGen",
@@ -1817,7 +1817,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATW1880",
     "bank_code": "32497",
     "name": "Raiffeisenbank Tulln-Klosterneuburg eGen",
@@ -1865,7 +1865,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWZWE",
     "bank_code": "32615",
     "name": "Raiffeisenbank Region Waldviertel Mitte eGen",
@@ -1873,7 +1873,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWASP",
     "bank_code": "32631",
     "name": "Raiffeisenbank Region Wiener Alpen eGen",
@@ -1881,7 +1881,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWGTD",
     "bank_code": "32633",
     "name": "Raiffeisen Regionalbank M\u00f6dling eGen",
@@ -1889,7 +1889,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWWRN",
     "bank_code": "32642",
     "name": "Raiffeisenbank Wr. Neustadt-Schneebergland eGen",
@@ -1897,7 +1897,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWASP",
     "bank_code": "32647",
     "name": "Raiffeisenbank Region Wiener Alpen eGen",
@@ -1905,7 +1905,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWW939",
     "bank_code": "32651",
     "name": "Raiffeisenbank Mittleres Mostviertel eGen",
@@ -1913,7 +1913,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWASP",
     "bank_code": "32660",
     "name": "Raiffeisenbank Region Wiener Alpen eGen",
@@ -1921,7 +1921,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWMIB",
     "bank_code": "32663",
     "name": "Raiffeisenbank im Weinviertel eGen",
@@ -1937,7 +1937,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATW1477",
     "bank_code": "32679",
     "name": "Raiffeisenbank Region Schallaburg eGen",
@@ -1953,7 +1953,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATW1438",
     "bank_code": "32731",
     "name": "Raiffeisenbank Kreuzenstein eGen",
@@ -1961,7 +1961,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWOBG",
     "bank_code": "32769",
     "name": "Raiffeisenbank Region St. P\u00f6lten eGen",
@@ -1969,7 +1969,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWAMS",
     "bank_code": "32778",
     "name": "Raiffeisenbank Region Amstetten eGen",
@@ -1977,7 +1977,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWAMS",
     "bank_code": "32789",
     "name": "Raiffeisenbank Region Amstetten eGen",
@@ -2001,7 +2001,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWWRN",
     "bank_code": "32865",
     "name": "Raiffeisenbank Wr. Neustadt-Schneebergland eGen",
@@ -2041,7 +2041,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWBAD",
     "bank_code": "32930",
     "name": "Raiffeisenbank Region Baden eGen",
@@ -2049,7 +2049,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWOWS",
     "bank_code": "32936",
     "name": "Raiffeisenbank Oberes Waldviertel eGen",
@@ -2073,7 +2073,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWWRN",
     "bank_code": "32940",
     "name": "Raiffeisenbank Wr. Neustadt-Schneebergland eGen",
@@ -2081,7 +2081,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATWWLFD",
     "bank_code": "32944",
     "name": "Raiffeisenbank Traisen-G\u00f6lsental eGen",
@@ -2097,7 +2097,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLNWATW1322",
     "bank_code": "32982",
     "name": "Raiffeisenbank Hollabrunn eGen",
@@ -2129,7 +2129,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E038",
     "bank_code": "33002",
     "name": "Raiffeisen Bezirksbank Neusiedl Ost eGen",
@@ -2137,7 +2137,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E038",
     "bank_code": "33004",
     "name": "Raiffeisen Bezirksbank Neusiedl Ost eGen",
@@ -2177,7 +2177,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E038",
     "bank_code": "33028",
     "name": "Raiffeisen Bezirksbank Neusiedl Ost eGen",
@@ -2185,7 +2185,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E010",
     "bank_code": "33031",
     "name": "Raiffeisenbank Region Deutschkreutz-Horitschon eGen",
@@ -2193,7 +2193,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E038",
     "bank_code": "33033",
     "name": "Raiffeisen Bezirksbank Neusiedl Ost eGen",
@@ -2201,7 +2201,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E027",
     "bank_code": "33034",
     "name": "Raiffeisen Regionalbank G\u00fcssing-Jennersdorf eGen",
@@ -2209,7 +2209,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2EXXX",
     "bank_code": "33035",
     "name": "Raiffeisenlandesbank Burgenland und Revisionsverband eGen",
@@ -2225,7 +2225,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E027",
     "bank_code": "33041",
     "name": "Raiffeisen Regionalbank G\u00fcssing-Jennersdorf eGen",
@@ -2233,7 +2233,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E065",
     "bank_code": "33046",
     "name": "Raiffeisenbank Burgenland Mitte eGen",
@@ -2241,7 +2241,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E010",
     "bank_code": "33048",
     "name": "Raiffeisenbank Region Deutschkreutz-Horitschon eGen",
@@ -2249,7 +2249,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E116",
     "bank_code": "33054",
     "name": "Raiffeisenbank Frauenkirchen-M\u00f6nchhof-Podersdorf am See eGen",
@@ -2257,7 +2257,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E012",
     "bank_code": "33055",
     "name": "Raiffeisenbank Neusiedlersee-H\u00fcgelland eGen",
@@ -2265,7 +2265,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E010",
     "bank_code": "33058",
     "name": "Raiffeisenbank Region Deutschkreutz-Horitschon eGen",
@@ -2273,7 +2273,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E038",
     "bank_code": "33063",
     "name": "Raiffeisen Bezirksbank Neusiedl Ost eGen",
@@ -2289,7 +2289,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E125",
     "bank_code": "33067",
     "name": "Raiffeisenbezirksbank Oberwart eGen",
@@ -2297,7 +2297,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E038",
     "bank_code": "33071",
     "name": "Raiffeisen Bezirksbank Neusiedl Ost eGen",
@@ -2313,7 +2313,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E116",
     "bank_code": "33074",
     "name": "Raiffeisenbank Frauenkirchen-M\u00f6nchhof-Podersdorf am See eGen",
@@ -2329,7 +2329,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E012",
     "bank_code": "33085",
     "name": "Raiffeisenbank Neusiedlersee-H\u00fcgelland eGen",
@@ -2337,7 +2337,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E038",
     "bank_code": "33090",
     "name": "Raiffeisen Bezirksbank Neusiedl Ost eGen",
@@ -2345,7 +2345,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E012",
     "bank_code": "33092",
     "name": "Raiffeisenbank Neusiedlersee-H\u00fcgelland eGen",
@@ -2353,7 +2353,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E038",
     "bank_code": "33104",
     "name": "Raiffeisen Bezirksbank Neusiedl Ost eGen",
@@ -2361,7 +2361,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E072",
     "bank_code": "33106",
     "name": "Raiffeisenbank Region Parndorf - Weiden am See eGen",
@@ -2369,7 +2369,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E038",
     "bank_code": "33114",
     "name": "Raiffeisen Bezirksbank Neusiedl Ost eGen",
@@ -2385,7 +2385,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E038",
     "bank_code": "33118",
     "name": "Raiffeisen Bezirksbank Neusiedl Ost eGen",
@@ -2393,7 +2393,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2E065",
     "bank_code": "33124",
     "name": "Raiffeisenbank Burgenland Mitte eGen",
@@ -2409,7 +2409,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RLBBAT2EXXX",
     "bank_code": "33135",
     "name": "Raiffeisenlandesbank Burgenland und Revisionsverband eGen",
@@ -2537,7 +2537,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L080",
     "bank_code": "34126",
     "name": "Raiffeisenbank Ennstal eGen",
@@ -2577,7 +2577,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L560",
     "bank_code": "34157",
     "name": "Raiffeisenbank Region Sierning-Enns eGen",
@@ -2585,7 +2585,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L410",
     "bank_code": "34160",
     "name": "Raiffeisenbank Region Rohrbach eGen",
@@ -2593,7 +2593,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L111",
     "bank_code": "34161",
     "name": "Raiffeisenbank Region Gallneukirchen eGen",
@@ -2601,7 +2601,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L491",
     "bank_code": "34165",
     "name": "Raiffeisenbank Pyhrn-Priel eGen",
@@ -2609,7 +2609,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L276",
     "bank_code": "34170",
     "name": "Raiffeisenbank Linz-Land West eGen",
@@ -2657,7 +2657,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L380",
     "bank_code": "34233",
     "name": "Raiffeisenbank Region Kirchdorf eGen",
@@ -2665,7 +2665,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L680",
     "bank_code": "34234",
     "name": "Raiffeisenbank Wels eGen",
@@ -2697,7 +2697,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L450",
     "bank_code": "34284",
     "name": "Raiffeisenbank Region Ried i.I. eGen",
@@ -2737,7 +2737,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L736",
     "bank_code": "34313",
     "name": "Raiffeisenbank Region Grieskirchen eGen",
@@ -2745,7 +2745,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L380",
     "bank_code": "34318",
     "name": "Raiffeisenbank Region Kirchdorf eGen",
@@ -2753,7 +2753,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L380",
     "bank_code": "34321",
     "name": "Raiffeisenbank Region Kirchdorf eGen",
@@ -2777,7 +2777,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L523",
     "bank_code": "34356",
     "name": "Raiffeisenbank Attergau eGen",
@@ -2785,7 +2785,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L300",
     "bank_code": "34361",
     "name": "Raiffeisenbank Region Neufelden eGen",
@@ -2793,7 +2793,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L380",
     "bank_code": "34362",
     "name": "Raiffeisenbank Region Kirchdorf eGen",
@@ -2825,7 +2825,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L135",
     "bank_code": "34383",
     "name": "Raiffeisenbank Gramastetten Rodltal eGen",
@@ -2841,7 +2841,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L630",
     "bank_code": "34400",
     "name": "Raiffeisenbank Region Schwanenstadt eGen",
@@ -2857,7 +2857,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L330",
     "bank_code": "34420",
     "name": "Raiffeisenbank M\u00fchlviertler Alm eGen",
@@ -2865,7 +2865,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L380",
     "bank_code": "34427",
     "name": "Raiffeisenbank Region Kirchdorf eGen",
@@ -2873,7 +2873,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L129",
     "bank_code": "34430",
     "name": "Raiffeisenbank Gunskirchen eGen",
@@ -2897,7 +2897,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L081",
     "bank_code": "34438",
     "name": "Raiffeisenbank Eberschwang-Pramet eGen",
@@ -2937,7 +2937,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L111",
     "bank_code": "34475",
     "name": "Raiffeisenbank Region Gallneukirchen eGen",
@@ -2945,7 +2945,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L380",
     "bank_code": "34481",
     "name": "Raiffeisenbank Region Kirchdorf eGen",
@@ -2969,7 +2969,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L442",
     "bank_code": "34521",
     "name": "Raiffeisenbank Region Peuerbach eGen",
@@ -3001,7 +3001,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L300",
     "bank_code": "34535",
     "name": "Raiffeisenbank Region Neufelden eGen",
@@ -3017,7 +3017,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L114",
     "bank_code": "34543",
     "name": "Raiffeisenbank Steyr eGen",
@@ -3041,7 +3041,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L380",
     "bank_code": "34606",
     "name": "Raiffeisenbank Region Kirchdorf eGen",
@@ -3057,7 +3057,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L460",
     "bank_code": "34613",
     "name": "Raiffeisenbank Aist eGen",
@@ -3081,7 +3081,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L777",
     "bank_code": "34637",
     "name": "Raiffeisenbank Perg eGen",
@@ -3089,7 +3089,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L060",
     "bank_code": "34661",
     "name": "Raiffeisenbank Region Braunau eGen",
@@ -3129,7 +3129,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L450",
     "bank_code": "34735",
     "name": "Raiffeisenbank Region Ried i.I. eGen",
@@ -3169,7 +3169,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2L083",
     "bank_code": "34750",
     "name": "Raiffeisenbank Region Traun-Alm eGen",
@@ -3193,7 +3193,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2LXXX",
     "bank_code": "34796",
     "name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
@@ -3201,7 +3201,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2LXXX",
     "bank_code": "34920",
     "name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
@@ -3209,7 +3209,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2LXXX",
     "bank_code": "34921",
     "name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
@@ -3217,7 +3217,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2LXXX",
     "bank_code": "34922",
     "name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
@@ -3241,7 +3241,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S053",
     "bank_code": "35003",
     "name": "Raiffeisenbank Pinzgau Mitte eGen",
@@ -3257,7 +3257,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S018",
     "bank_code": "35005",
     "name": "Raiffeisenbank Untersberg eGen",
@@ -3265,7 +3265,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S001",
     "bank_code": "35006",
     "name": "Raiffeisenbank Lammertal eGen",
@@ -3281,7 +3281,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S015",
     "bank_code": "35008",
     "name": "Raiffeisenbank Flachgau Mitte eGen",
@@ -3289,7 +3289,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S047",
     "bank_code": "35009",
     "name": "Raiffeisenbank Salzburger Seenland eGen",
@@ -3297,7 +3297,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S055",
     "bank_code": "35010",
     "name": "Raiffeisenbank Pongau Mitte eGen",
@@ -3305,7 +3305,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S039",
     "bank_code": "35011",
     "name": "Raiffeisenbank Oberpinzgau eGen",
@@ -3321,7 +3321,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S053",
     "bank_code": "35013",
     "name": "Raiffeisenbank Pinzgau Mitte eGen",
@@ -3329,7 +3329,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S007",
     "bank_code": "35014",
     "name": "Raiffeisenbank Anthering - Elixhausen eGen",
@@ -3401,7 +3401,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S015",
     "bank_code": "35023",
     "name": "Raiffeisenbank Flachgau Mitte eGen",
@@ -3409,7 +3409,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S021",
     "bank_code": "35024",
     "name": "Raiffeisenbank Wallersee eGen",
@@ -3417,7 +3417,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S065",
     "bank_code": "35025",
     "name": "Raiffeisenbank Fuschlsee West eGen",
@@ -3441,7 +3441,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S039",
     "bank_code": "35028",
     "name": "Raiffeisenbank Oberpinzgau eGen",
@@ -3465,7 +3465,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S053",
     "bank_code": "35031",
     "name": "Raiffeisenbank Pinzgau Mitte eGen",
@@ -3481,7 +3481,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S053",
     "bank_code": "35035",
     "name": "Raiffeisenbank Pinzgau Mitte eGen",
@@ -3489,7 +3489,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S063",
     "bank_code": "35036",
     "name": "Raiffeisenbank Lungau eGen",
@@ -3497,7 +3497,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S063",
     "bank_code": "35037",
     "name": "Raiffeisenbank Lungau eGen",
@@ -3505,7 +3505,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S030",
     "bank_code": "35038",
     "name": "Raiffeisenbank Flachgau Nord eGen",
@@ -3521,7 +3521,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S039",
     "bank_code": "35042",
     "name": "Raiffeisenbank Oberpinzgau eGen",
@@ -3529,7 +3529,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S012",
     "bank_code": "35043",
     "name": "Raiffeisenbank Hohe Tauern eGen",
@@ -3537,7 +3537,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S030",
     "bank_code": "35044",
     "name": "Raiffeisenbank Flachgau Nord eGen",
@@ -3545,7 +3545,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S022",
     "bank_code": "35045",
     "name": "Raiffeisenbank Hallein-Oberalm eGen",
@@ -3553,7 +3553,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S030",
     "bank_code": "35046",
     "name": "Raiffeisenbank Flachgau Nord eGen",
@@ -3569,7 +3569,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S012",
     "bank_code": "35048",
     "name": "Raiffeisenbank Hohe Tauern eGen",
@@ -3585,7 +3585,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S063",
     "bank_code": "35050",
     "name": "Raiffeisenbank Lungau eGen",
@@ -3617,7 +3617,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S034",
     "bank_code": "35054",
     "name": "Raiffeisenbank Salzburg Liefering-Maxglan-Siezenheim eGen",
@@ -3641,7 +3641,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S069",
     "bank_code": "35057",
     "name": "Raiffeisenbank St. Johann-Wagrain-Kleinarl eGen",
@@ -3649,7 +3649,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S029",
     "bank_code": "35058",
     "name": "Raiffeisenbank Kuchl-St. Koloman eGen",
@@ -3665,7 +3665,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S063",
     "bank_code": "35061",
     "name": "Raiffeisenbank Lungau eGen",
@@ -3713,7 +3713,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S039",
     "bank_code": "35068",
     "name": "Raiffeisenbank Oberpinzgau eGen",
@@ -3729,7 +3729,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S039",
     "bank_code": "35070",
     "name": "Raiffeisenbank Oberpinzgau eGen",
@@ -3745,7 +3745,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S055",
     "bank_code": "35072",
     "name": "Raiffeisenbank Pongau Mitte eGen",
@@ -3753,7 +3753,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S047",
     "bank_code": "35075",
     "name": "Raiffeisenbank Salzburger Seenland eGen",
@@ -3761,7 +3761,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S001",
     "bank_code": "35101",
     "name": "Raiffeisenbank Lammertal eGen",
@@ -3769,7 +3769,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S004",
     "bank_code": "35104",
     "name": "Raiffeisenbank Altenmarkt-Flachau-Eben eGen",
@@ -3777,7 +3777,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S018",
     "bank_code": "35105",
     "name": "Raiffeisenbank Untersberg eGen",
@@ -3785,7 +3785,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S015",
     "bank_code": "35108",
     "name": "Raiffeisenbank Flachgau Mitte eGen",
@@ -3793,7 +3793,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S047",
     "bank_code": "35109",
     "name": "Raiffeisenbank Salzburger Seenland eGen",
@@ -3801,7 +3801,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S055",
     "bank_code": "35110",
     "name": "Raiffeisenbank Pongau Mitte eGen",
@@ -3809,7 +3809,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S039",
     "bank_code": "35111",
     "name": "Raiffeisenbank Oberpinzgau eGen",
@@ -3817,7 +3817,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S012",
     "bank_code": "35112",
     "name": "Raiffeisenbank Hohe Tauern eGen",
@@ -3825,7 +3825,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S015",
     "bank_code": "35115",
     "name": "Raiffeisenbank Flachgau Mitte eGen",
@@ -3833,7 +3833,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S018",
     "bank_code": "35118",
     "name": "Raiffeisenbank Untersberg eGen",
@@ -3841,7 +3841,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S019",
     "bank_code": "35119",
     "name": "Raiffeisenbank Gro\u00dfarl-H\u00fcttschlag eGen",
@@ -3849,7 +3849,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S021",
     "bank_code": "35121",
     "name": "Raiffeisenbank Wallersee eGen",
@@ -3857,7 +3857,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S022",
     "bank_code": "35122",
     "name": "Raiffeisenbank Hallein-Oberalm eGen",
@@ -3865,7 +3865,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S065",
     "bank_code": "35125",
     "name": "Raiffeisenbank Fuschlsee West eGen",
@@ -3873,7 +3873,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S026",
     "bank_code": "35126",
     "name": "Raiffeisenbank Gastein eGen",
@@ -3881,7 +3881,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S027",
     "bank_code": "35127",
     "name": "Raiffeisenbank H\u00fcttau-St. Martin eGen",
@@ -3889,7 +3889,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S030",
     "bank_code": "35130",
     "name": "Raiffeisenbank Flachgau Nord eGen",
@@ -3897,7 +3897,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S039",
     "bank_code": "35139",
     "name": "Raiffeisenbank Oberpinzgau eGen",
@@ -3905,7 +3905,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S047",
     "bank_code": "35147",
     "name": "Raiffeisenbank Salzburger Seenland eGen",
@@ -3913,7 +3913,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S049",
     "bank_code": "35149",
     "name": "Raiffeisenbank Radstadt-Untertauern-Filzmoos-Forstau registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
@@ -3921,7 +3921,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S052",
     "bank_code": "35152",
     "name": "Raiffeisenbank Saalbach-Hinterglemm-Viehhofen eGen",
@@ -3929,7 +3929,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S034",
     "bank_code": "35154",
     "name": "Raiffeisenbank Salzburg Liefering-Maxglan-Siezenheim eGen",
@@ -3937,7 +3937,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S055",
     "bank_code": "35155",
     "name": "Raiffeisenbank Pongau Mitte eGen",
@@ -3945,7 +3945,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S056",
     "bank_code": "35156",
     "name": "Raiffeisenbank St.Gilgen-Fuschl-Strobl eGen",
@@ -3953,7 +3953,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S060",
     "bank_code": "35160",
     "name": "Raiffeisenbank St. Martin-Lofer-Wei\u00dfbach eGen",
@@ -3961,7 +3961,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S063",
     "bank_code": "35161",
     "name": "Raiffeisenbank Lungau eGen",
@@ -3969,7 +3969,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S063",
     "bank_code": "35163",
     "name": "Raiffeisenbank Lungau eGen",
@@ -3977,7 +3977,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S064",
     "bank_code": "35164",
     "name": "Raiffeisenbank Taxenbach eGen",
@@ -3985,7 +3985,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S069",
     "bank_code": "35169",
     "name": "Raiffeisenbank St. Johann-Wagrain-Kleinarl eGen",
@@ -3993,7 +3993,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S039",
     "bank_code": "35170",
     "name": "Raiffeisenbank Oberpinzgau eGen",
@@ -4001,7 +4001,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S055",
     "bank_code": "35172",
     "name": "Raiffeisenbank Pongau Mitte eGen",
@@ -4009,7 +4009,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S004",
     "bank_code": "35204",
     "name": "Raiffeisenbank Altenmarkt-Flachau-Eben eGen",
@@ -4017,7 +4017,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S012",
     "bank_code": "35212",
     "name": "Raiffeisenbank Hohe Tauern eGen",
@@ -4025,7 +4025,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S015",
     "bank_code": "35215",
     "name": "Raiffeisenbank Flachgau Mitte eGen",
@@ -4033,7 +4033,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S021",
     "bank_code": "35221",
     "name": "Raiffeisenbank Wallersee eGen",
@@ -4041,7 +4041,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S065",
     "bank_code": "35225",
     "name": "Raiffeisenbank Fuschlsee West eGen",
@@ -4049,7 +4049,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S026",
     "bank_code": "35226",
     "name": "Raiffeisenbank Gastein eGen",
@@ -4057,7 +4057,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S039",
     "bank_code": "35239",
     "name": "Raiffeisenbank Oberpinzgau eGen",
@@ -4065,7 +4065,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S049",
     "bank_code": "35249",
     "name": "Raiffeisenbank Radstadt-Untertauern-Filzmoos-Forstau registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
@@ -4073,7 +4073,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S055",
     "bank_code": "35255",
     "name": "Raiffeisenbank Pongau Mitte eGen",
@@ -4081,7 +4081,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S056",
     "bank_code": "35256",
     "name": "Raiffeisenbank St.Gilgen-Fuschl-Strobl eGen",
@@ -4089,7 +4089,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S063",
     "bank_code": "35261",
     "name": "Raiffeisenbank Lungau eGen",
@@ -4097,7 +4097,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S063",
     "bank_code": "35263",
     "name": "Raiffeisenbank Lungau eGen",
@@ -4105,7 +4105,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S055",
     "bank_code": "35272",
     "name": "Raiffeisenbank Pongau Mitte eGen",
@@ -4113,7 +4113,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S055",
     "bank_code": "35310",
     "name": "Raiffeisenbank Pongau Mitte eGen",
@@ -4121,7 +4121,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S012",
     "bank_code": "35312",
     "name": "Raiffeisenbank Hohe Tauern eGen",
@@ -4129,7 +4129,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S022",
     "bank_code": "35322",
     "name": "Raiffeisenbank Hallein-Oberalm eGen",
@@ -4137,7 +4137,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S039",
     "bank_code": "35339",
     "name": "Raiffeisenbank Oberpinzgau eGen",
@@ -4145,7 +4145,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S052",
     "bank_code": "35352",
     "name": "Raiffeisenbank Saalbach-Hinterglemm-Viehhofen eGen",
@@ -4153,7 +4153,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S063",
     "bank_code": "35361",
     "name": "Raiffeisenbank Lungau eGen",
@@ -4161,7 +4161,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S071",
     "bank_code": "35371",
     "name": "Raiffeisenbank Wals-Himmelreich eGen",
@@ -4169,7 +4169,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S004",
     "bank_code": "35404",
     "name": "Raiffeisenbank Altenmarkt-Flachau-Eben eGen",
@@ -4177,7 +4177,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S022",
     "bank_code": "35422",
     "name": "Raiffeisenbank Hallein-Oberalm eGen",
@@ -4185,7 +4185,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S052",
     "bank_code": "35452",
     "name": "Raiffeisenbank Saalbach-Hinterglemm-Viehhofen eGen",
@@ -4193,7 +4193,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVSAAT2S022",
     "bank_code": "35522",
     "name": "Raiffeisenbank Hallein-Oberalm eGen",
@@ -4217,7 +4217,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22218",
     "bank_code": "36201",
     "name": "Raiffeisen Regionalbank Achensee eGen",
@@ -4233,7 +4233,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22353",
     "bank_code": "36207",
     "name": "Raiffeisenbank Pitztal eGen",
@@ -4241,7 +4241,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22336",
     "bank_code": "36209",
     "name": "Raiffeisenbank Tirol Mitte West eGen",
@@ -4249,7 +4249,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22358",
     "bank_code": "36213",
     "name": "Raiffeisen Bezirksbank Kufstein eGen",
@@ -4265,7 +4265,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22358",
     "bank_code": "36216",
     "name": "Raiffeisen Bezirksbank Kufstein eGen",
@@ -4289,7 +4289,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RBRTAT22XXX",
     "bank_code": "36220",
     "name": "Raiffeisenbank Oberland-Reutte eGen",
@@ -4297,7 +4297,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22358",
     "bank_code": "36223",
     "name": "Raiffeisen Bezirksbank Kufstein eGen",
@@ -4313,7 +4313,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22329",
     "bank_code": "36230",
     "name": "Raiffeisenbank Wipptal - Stubaital Mitte eGen",
@@ -4329,7 +4329,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22358",
     "bank_code": "36236",
     "name": "Raiffeisen Bezirksbank Kufstein eGen",
@@ -4337,7 +4337,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22241",
     "bank_code": "36240",
     "name": "Raiffeisenbank Hippach-Hart eGen",
@@ -4369,7 +4369,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22218",
     "bank_code": "36249",
     "name": "Raiffeisen Regionalbank Achensee eGen",
@@ -4377,7 +4377,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22248",
     "bank_code": "36252",
     "name": "Raiffeisenbank Arlberg Silvretta eGen",
@@ -4385,7 +4385,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22263",
     "bank_code": "36254",
     "name": "Raiffeisenbank Kitzb\u00fchel - St. Johann eGen",
@@ -4393,7 +4393,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22336",
     "bank_code": "36260",
     "name": "Raiffeisenbank Tirol Mitte West eGen",
@@ -4401,7 +4401,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22264",
     "bank_code": "36262",
     "name": "Raiffeisenbank K\u00f6ssen-Kirchdorf eGen",
@@ -4425,7 +4425,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22322",
     "bank_code": "36265",
     "name": "Raiffeisen Regionalbank Schwaz-Wattens eGen",
@@ -4449,7 +4449,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22339",
     "bank_code": "36269",
     "name": "Raiffeisenbank Langkampfen-Thiersee eGen",
@@ -4457,7 +4457,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22322",
     "bank_code": "36272",
     "name": "Raiffeisen Regionalbank Schwaz-Wattens eGen",
@@ -4481,7 +4481,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22285",
     "bank_code": "36275",
     "name": "Raiffeisenbank Neustift-Mieders-Sch\u00f6nberg im Stubaital eGen",
@@ -4489,7 +4489,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22336",
     "bank_code": "36276",
     "name": "Raiffeisenbank Tirol Mitte West eGen",
@@ -4497,7 +4497,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22267",
     "bank_code": "36279",
     "name": "Raiffeisenbank Kundl-M\u00fcnster eGen",
@@ -4513,7 +4513,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22283",
     "bank_code": "36283",
     "name": "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen",
@@ -4529,7 +4529,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22268",
     "bank_code": "36291",
     "name": "Raiffeisenbank im \u00d6tztal und Umgebung eGen",
@@ -4537,7 +4537,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22203",
     "bank_code": "36303",
     "name": "Raiffeisenbank Alpbachtal eGen",
@@ -4545,7 +4545,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RBRTAT22XXX",
     "bank_code": "36305",
     "name": "Raiffeisenbank Oberland-Reutte eGen",
@@ -4553,7 +4553,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22315",
     "bank_code": "36306",
     "name": "Raiffeisenbank Serfaus-Fiss-Ried-Nauders eGen",
@@ -4585,7 +4585,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22268",
     "bank_code": "36316",
     "name": "Raiffeisenbank im \u00d6tztal und Umgebung eGen",
@@ -4593,7 +4593,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22245",
     "bank_code": "36318",
     "name": "Raiffeisenbank Wilder Kaiser - Brixental West eGen",
@@ -4657,7 +4657,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22200",
     "bank_code": "36337",
     "name": "Raiffeisenbank Absam-Thaur-Volders eGen",
@@ -4681,7 +4681,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RBRTAT22XXX",
     "bank_code": "36345",
     "name": "Raiffeisenbank Oberland-Reutte eGen",
@@ -4689,7 +4689,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22200",
     "bank_code": "36347",
     "name": "Raiffeisenbank Absam-Thaur-Volders eGen",
@@ -4705,7 +4705,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22322",
     "bank_code": "36351",
     "name": "Raiffeisen Regionalbank Schwaz-Wattens eGen",
@@ -4713,7 +4713,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22218",
     "bank_code": "36352",
     "name": "Raiffeisen Regionalbank Achensee eGen",
@@ -4729,7 +4729,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22245",
     "bank_code": "36354",
     "name": "Raiffeisenbank Wilder Kaiser - Brixental West eGen",
@@ -4753,7 +4753,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RBRTAT22XXX",
     "bank_code": "36359",
     "name": "Raiffeisenbank Oberland-Reutte eGen",
@@ -4761,7 +4761,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22229",
     "bank_code": "36360",
     "name": "Raiffeisen Regionalbank F\u00fcgen-Kaltenbach-Zell eGen",
@@ -4777,7 +4777,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22378",
     "bank_code": "36367",
     "name": "Raiffeisen Regionalbank Matrei i.O. eGen",
@@ -4793,7 +4793,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22368",
     "bank_code": "36373",
     "name": "Raiffeisenbank Sillian - Lienzer Talboden eGen",
@@ -4801,7 +4801,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22368",
     "bank_code": "36374",
     "name": "Raiffeisenbank Sillian - Lienzer Talboden eGen",
@@ -4825,7 +4825,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZTIAT22368",
     "bank_code": "36387",
     "name": "Raiffeisenbank Sillian - Lienzer Talboden eGen",
@@ -4865,7 +4865,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVVGAT2B422",
     "bank_code": "37402",
     "name": "Raiffeisenbank Montfort eGen",
@@ -4873,7 +4873,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVVGAT2B423",
     "bank_code": "37405",
     "name": "Raiffeisenbank Mittel- und Hinterbregenzerwald eGen",
@@ -4889,7 +4889,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVVGAT2B468",
     "bank_code": "37410",
     "name": "Raiffeisenbank Bludenz-Montafon eGen",
@@ -4921,7 +4921,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVVGAT2B458",
     "bank_code": "37424",
     "name": "RAIFFEISENBANK im Walgau eGen",
@@ -4929,7 +4929,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVVGAT2B422",
     "bank_code": "37429",
     "name": "Raiffeisenbank Montfort eGen",
@@ -4969,7 +4969,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVVGAT2B431",
     "bank_code": "37439",
     "name": "Raiffeisenbank Bodensee-Leiblachtal eGen",
@@ -4977,7 +4977,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVVGAT2B474",
     "bank_code": "37445",
     "name": "Raiffeisenbank Weissachtal eGen",
@@ -4993,7 +4993,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVVGAT2B420",
     "bank_code": "37453",
     "name": "Raiffeisenbank Im Rheintal eGen",
@@ -5009,7 +5009,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RVVGAT2B422",
     "bank_code": "37461",
     "name": "Raiffeisenbank Montfort eGen",
@@ -5057,7 +5057,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G215",
     "bank_code": "38001",
     "name": "Raiffeisenbank Region Liezen eGen",
@@ -5065,7 +5065,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G187",
     "bank_code": "38010",
     "name": "Raiffeisenbank Weiz-Anger eGen",
@@ -5081,7 +5081,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G282",
     "bank_code": "38026",
     "name": "Raiffeisenbank Passail eGen",
@@ -5089,7 +5089,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G023",
     "bank_code": "38041",
     "name": "Raiffeisenbank Oststeiermark Nord eGen",
@@ -5097,7 +5097,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G487",
     "bank_code": "38043",
     "name": "Raiffeisenbank Weststeiermark eGen",
@@ -5105,7 +5105,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G487",
     "bank_code": "38053",
     "name": "Raiffeisenbank Weststeiermark eGen",
@@ -5113,7 +5113,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G252",
     "bank_code": "38055",
     "name": "Raiffeisenbank Nestelbach-Eggersdorf eGen",
@@ -5137,7 +5137,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G210",
     "bank_code": "38072",
     "name": "Raiffeisenbank Kalsdorf-Lieboch-Stainz eGen",
@@ -5153,7 +5153,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G346",
     "bank_code": "38076",
     "name": "Raiffeisenbank Aichfeld eGen",
@@ -5193,7 +5193,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G497",
     "bank_code": "38104",
     "name": "Raiffeisenbank Region Feldbach eGen",
@@ -5201,7 +5201,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G023",
     "bank_code": "38108",
     "name": "Raiffeisenbank Oststeiermark Nord eGen",
@@ -5217,7 +5217,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G138",
     "bank_code": "38112",
     "name": "Raiffeisenbank Gratwein-Hitzendorf eGen",
@@ -5233,7 +5233,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G102",
     "bank_code": "38118",
     "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen",
@@ -5241,7 +5241,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G151",
     "bank_code": "38120",
     "name": "Raiffeisenbank Ilz-Gro\u00dfsteinbach-Riegersburg eGen",
@@ -5249,7 +5249,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G077",
     "bank_code": "38122",
     "name": "Raiffeisenbank Region F\u00fcrstenfeld eGen",
@@ -5257,7 +5257,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G312",
     "bank_code": "38128",
     "name": "Raiffeisenbank Region Radkersburg eGen",
@@ -5273,7 +5273,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G497",
     "bank_code": "38131",
     "name": "Raiffeisenbank Region Feldbach eGen",
@@ -5281,7 +5281,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G071",
     "bank_code": "38132",
     "name": "Raiffeisenbank Region Fehring eGen",
@@ -5321,7 +5321,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G075",
     "bank_code": "38171",
     "name": "Raiffeisenbank Mittlere S\u00fcdoststeiermark eGen",
@@ -5361,7 +5361,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G487",
     "bank_code": "38211",
     "name": "Raiffeisenbank Weststeiermark eGen",
@@ -5377,7 +5377,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G377",
     "bank_code": "38223",
     "name": "Raiffeisenbank Region Graz Nord eGen",
@@ -5393,7 +5393,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G487",
     "bank_code": "38235",
     "name": "Raiffeisenbank Weststeiermark eGen",
@@ -5401,7 +5401,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G402",
     "bank_code": "38238",
     "name": "Raiffeisenbank Murau eGen",
@@ -5409,7 +5409,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G186",
     "bank_code": "38240",
     "name": "Raiffeisenbank M\u00fcrztal eGen",
@@ -5433,7 +5433,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G368",
     "bank_code": "38261",
     "name": "Raiffeisenbank Zirbenland eGen",
@@ -5441,7 +5441,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G102",
     "bank_code": "38262",
     "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen",
@@ -5449,7 +5449,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G249",
     "bank_code": "38266",
     "name": "Raiffeisenbank Steirisches Salzkammergut-\u00d6blarn eGen",
@@ -5465,7 +5465,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G103",
     "bank_code": "38285",
     "name": "Raiffeisenbank Region Gleisdorf-Pischelsdorf eGen",
@@ -5473,7 +5473,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G102",
     "bank_code": "38292",
     "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen",
@@ -5481,7 +5481,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G023",
     "bank_code": "38311",
     "name": "Raiffeisenbank Oststeiermark Nord eGen",
@@ -5497,7 +5497,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G151",
     "bank_code": "38326",
     "name": "Raiffeisenbank Ilz-Gro\u00dfsteinbach-Riegersburg eGen",
@@ -5505,7 +5505,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G138",
     "bank_code": "38333",
     "name": "Raiffeisenbank Gratwein-Hitzendorf eGen",
@@ -5513,7 +5513,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G170",
     "bank_code": "38335",
     "name": "Raiffeisenbank Heiligenkreuz-Kirchbach -St. Georgen eGen",
@@ -5537,7 +5537,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G215",
     "bank_code": "38348",
     "name": "Raiffeisenbank Region Liezen eGen",
@@ -5569,7 +5569,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G103",
     "bank_code": "38372",
     "name": "Raiffeisenbank Region Gleisdorf-Pischelsdorf eGen",
@@ -5577,7 +5577,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G227",
     "bank_code": "38373",
     "name": "Raiffeisenbank Liesingtal-St. Stefan eGen",
@@ -5585,7 +5585,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G075",
     "bank_code": "38374",
     "name": "Raiffeisenbank Mittlere S\u00fcdoststeiermark eGen",
@@ -5593,7 +5593,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G487",
     "bank_code": "38375",
     "name": "Raiffeisenbank Weststeiermark eGen",
@@ -5625,7 +5625,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G056",
     "bank_code": "38407",
     "name": "Raiffeisenbank S\u00fcd-Weststeiermark eGen",
@@ -5633,7 +5633,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G403",
     "bank_code": "38411",
     "name": "Raiffeisenbank Region Hartberg eGen",
@@ -5657,7 +5657,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G312",
     "bank_code": "38436",
     "name": "Raiffeisenbank Region Radkersburg eGen",
@@ -5673,7 +5673,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G402",
     "bank_code": "38452",
     "name": "Raiffeisenbank Murau eGen",
@@ -5689,7 +5689,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G347",
     "bank_code": "38462",
     "name": "Raiffeisenbank Turnau-St. Lorenzen eGen",
@@ -5697,7 +5697,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G210",
     "bank_code": "38477",
     "name": "Raiffeisenbank Kalsdorf-Lieboch-Stainz eGen",
@@ -5705,7 +5705,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G113",
     "bank_code": "38481",
     "name": "Raiffeisenbank Schladming-Gr\u00f6bming eGen",
@@ -5729,7 +5729,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G102",
     "bank_code": "38499",
     "name": "Raiffeisenbank Gleinst\u00e4tten-Leutschach-Wildon eGen",
@@ -5737,7 +5737,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2G056",
     "bank_code": "38503",
     "name": "Raiffeisenbank S\u00fcd-Weststeiermark eGen",
@@ -5761,7 +5761,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VSGKAT2KXXX",
     "bank_code": "39101",
     "name": "Posojilnica Bank eGen",
@@ -5769,7 +5769,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VSGKAT2KXXX",
     "bank_code": "39102",
     "name": "Posojilnica Bank eGen",
@@ -5777,7 +5777,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VSGKAT2KXXX",
     "bank_code": "39104",
     "name": "Posojilnica Bank eGen",
@@ -5785,7 +5785,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VSGKAT2KXXX",
     "bank_code": "39109",
     "name": "Posojilnica Bank eGen",
@@ -5793,7 +5793,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VSGKAT2KXXX",
     "bank_code": "39116",
     "name": "Posojilnica Bank eGen",
@@ -5801,7 +5801,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VSGKAT2KXXX",
     "bank_code": "39117",
     "name": "Posojilnica Bank eGen",
@@ -5809,7 +5809,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VSGKAT2KXXX",
     "bank_code": "39130",
     "name": "Posojilnica Bank eGen",
@@ -5817,7 +5817,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K475",
     "bank_code": "39254",
     "name": "Raiffeisenbank Mittelk\u00e4rnten eG",
@@ -5825,7 +5825,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K475",
     "bank_code": "39255",
     "name": "Raiffeisenbank Mittelk\u00e4rnten eG",
@@ -5833,7 +5833,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K496",
     "bank_code": "39257",
     "name": "Raiffeisenbank Region Villach eG",
@@ -5849,7 +5849,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K546",
     "bank_code": "39271",
     "name": "Raiffeisenbank V\u00f6lkermarkt-Bleiburg-Br\u00fcckl eGen",
@@ -5857,7 +5857,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K546",
     "bank_code": "39272",
     "name": "Raiffeisenbank V\u00f6lkermarkt-Bleiburg-Br\u00fcckl eGen",
@@ -5881,7 +5881,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K496",
     "bank_code": "39305",
     "name": "Raiffeisenbank Region Villach eG",
@@ -5897,7 +5897,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K561",
     "bank_code": "39322",
     "name": "Raiffeisenbank Gro\u00dfglockner-Weissensee eG",
@@ -5905,7 +5905,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K475",
     "bank_code": "39340",
     "name": "Raiffeisenbank Mittelk\u00e4rnten eG",
@@ -5913,7 +5913,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K390",
     "bank_code": "39355",
     "name": "Raiffeisenbank W\u00f6rthersee-Landskron-Gegendtal eG",
@@ -5921,7 +5921,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2KXXX",
     "bank_code": "39358",
     "name": "Raiffeisen Landesbank K\u00e4rnten und Revisionsverband eGen",
@@ -5937,7 +5937,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K390",
     "bank_code": "39381",
     "name": "Raiffeisenbank W\u00f6rthersee-Landskron-Gegendtal eG",
@@ -5945,7 +5945,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K496",
     "bank_code": "39383",
     "name": "Raiffeisenbank Region Villach eG",
@@ -5953,7 +5953,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K475",
     "bank_code": "39384",
     "name": "Raiffeisenbank Mittelk\u00e4rnten eG",
@@ -5969,7 +5969,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K464",
     "bank_code": "39400",
     "name": "Raiffeisenbank Lieser-Maltatal eG",
@@ -5977,7 +5977,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K442",
     "bank_code": "39404",
     "name": "Raiffeisenbank Drautal registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
@@ -5985,7 +5985,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K475",
     "bank_code": "39407",
     "name": "Raiffeisenbank Mittelk\u00e4rnten eG",
@@ -6009,7 +6009,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K561",
     "bank_code": "39431",
     "name": "Raiffeisenbank Gro\u00dfglockner-Weissensee eG",
@@ -6017,7 +6017,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K412",
     "bank_code": "39436",
     "name": "Raiffeisen Bank Lurnfeld-M\u00f6lltal eGen",
@@ -6041,7 +6041,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K457",
     "bank_code": "39461",
     "name": "Raiffeisenbank Nockberge eGen",
@@ -6057,7 +6057,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K481",
     "bank_code": "39465",
     "name": "Raiffeisenbank Mittleres Lavanttal eGen",
@@ -6089,7 +6089,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K496",
     "bank_code": "39483",
     "name": "Raiffeisenbank Region Villach eG",
@@ -6121,7 +6121,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K491",
     "bank_code": "39500",
     "name": "Raiffeisenbank Oberes Lavanttal - St. Paul eG",
@@ -6137,7 +6137,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K475",
     "bank_code": "39505",
     "name": "Raiffeisenbank Mittelk\u00e4rnten eG",
@@ -6153,7 +6153,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K475",
     "bank_code": "39511",
     "name": "Raiffeisenbank Mittelk\u00e4rnten eG",
@@ -6161,7 +6161,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZKTAT2K364",
     "bank_code": "39543",
     "name": "Raiffeisenbank Karnische Region eG",
@@ -6193,7 +6193,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "40000",
     "name": "VOLKSBANK WIEN AG",
@@ -6201,15 +6201,15 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
-    "bic": "",
+    "primary": false,
+    "bic": "NAN",
     "bank_code": "40074",
     "name": "immigon portfolioabbau ag i.A.",
     "short_name": "immigon portfolioabbau ag i.A."
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "40100",
     "name": "VOLKSBANK WIEN AG",
@@ -6217,7 +6217,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWNOM",
     "bank_code": "40170",
     "name": "Volksbank Nieder\u00f6sterreich AG",
@@ -6225,7 +6225,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "40430",
     "name": "VOLKSBANK WIEN AG",
@@ -6233,7 +6233,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWNOM",
     "bank_code": "40630",
     "name": "Volksbank Nieder\u00f6sterreich AG",
@@ -6241,7 +6241,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWSAL",
     "bank_code": "40720",
     "name": "Volksbank Salzburg eG",
@@ -6257,7 +6257,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWNOM",
     "bank_code": "40850",
     "name": "Volksbank Nieder\u00f6sterreich AG",
@@ -6265,7 +6265,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWNOM",
     "bank_code": "41050",
     "name": "Volksbank Nieder\u00f6sterreich AG",
@@ -6273,7 +6273,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWNOM",
     "bank_code": "41210",
     "name": "Volksbank Nieder\u00f6sterreich AG",
@@ -6281,7 +6281,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "41600",
     "name": "VOLKSBANK WIEN AG",
@@ -6305,7 +6305,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWGRA",
     "bank_code": "42320",
     "name": "Volksbank Steiermark AG",
@@ -6321,7 +6321,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWOOE",
     "bank_code": "42550",
     "name": "Volksbank Ober\u00f6sterreich AG",
@@ -6329,7 +6329,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWKLA",
     "bank_code": "42600",
     "name": "Volksbank K\u00e4rnten eG",
@@ -6337,7 +6337,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWOOE",
     "bank_code": "42630",
     "name": "Volksbank Ober\u00f6sterreich AG",
@@ -6345,7 +6345,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWSAL",
     "bank_code": "42740",
     "name": "Volksbank Salzburg eG",
@@ -6353,7 +6353,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "42750",
     "name": "VOLKSBANK WIEN AG",
@@ -6361,7 +6361,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWKLA",
     "bank_code": "42820",
     "name": "Volksbank K\u00e4rnten eG",
@@ -6369,7 +6369,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWOOE",
     "bank_code": "42830",
     "name": "Volksbank Ober\u00f6sterreich AG",
@@ -6385,7 +6385,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWGRA",
     "bank_code": "43030",
     "name": "Volksbank Steiermark AG",
@@ -6393,7 +6393,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWOOE",
     "bank_code": "43180",
     "name": "Volksbank Ober\u00f6sterreich AG",
@@ -6401,7 +6401,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWOOE",
     "bank_code": "43210",
     "name": "Volksbank Ober\u00f6sterreich AG",
@@ -6409,7 +6409,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OVLIAT21XXX",
     "bank_code": "43380",
     "name": "DolomitenBank Osttirol-Westk\u00e4rnten eG",
@@ -6425,7 +6425,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWNOM",
     "bank_code": "43530",
     "name": "Volksbank Nieder\u00f6sterreich AG",
@@ -6433,7 +6433,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "43600",
     "name": "VOLKSBANK WIEN AG",
@@ -6441,7 +6441,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "43610",
     "name": "VOLKSBANK WIEN AG",
@@ -6449,7 +6449,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "43690",
     "name": "VOLKSBANK WIEN AG",
@@ -6457,7 +6457,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWINN",
     "bank_code": "43770",
     "name": "Volksbank Tirol AG",
@@ -6465,7 +6465,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWOOE",
     "bank_code": "43830",
     "name": "Volksbank Ober\u00f6sterreich AG",
@@ -6473,7 +6473,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWNOM",
     "bank_code": "43920",
     "name": "Volksbank Nieder\u00f6sterreich AG",
@@ -6481,7 +6481,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWSAL",
     "bank_code": "44020",
     "name": "Volksbank Salzburg eG",
@@ -6489,7 +6489,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BWFBATW1XXX",
     "bank_code": "44220",
     "name": "\u00d6sterreichische \u00c4rzte- und Apothekerbank AG",
@@ -6497,7 +6497,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWSAL",
     "bank_code": "44300",
     "name": "Volksbank Salzburg eG",
@@ -6505,7 +6505,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OVLIAT21XXX",
     "bank_code": "44400",
     "name": "DolomitenBank Osttirol-Westk\u00e4rnten eG",
@@ -6513,7 +6513,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "44430",
     "name": "VOLKSBANK WIEN AG",
@@ -6521,7 +6521,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWSAL",
     "bank_code": "44480",
     "name": "Volksbank Salzburg eG",
@@ -6529,7 +6529,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "44570",
     "name": "VOLKSBANK WIEN AG",
@@ -6545,7 +6545,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWGRA",
     "bank_code": "44780",
     "name": "Volksbank Steiermark AG",
@@ -6553,7 +6553,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWOOE",
     "bank_code": "44790",
     "name": "Volksbank Ober\u00f6sterreich AG",
@@ -6569,7 +6569,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWGRA",
     "bank_code": "44810",
     "name": "Volksbank Steiermark AG",
@@ -6577,7 +6577,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWNOM",
     "bank_code": "44820",
     "name": "Volksbank Nieder\u00f6sterreich AG",
@@ -6601,7 +6601,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWOOE",
     "bank_code": "45330",
     "name": "Volksbank Ober\u00f6sterreich AG",
@@ -6617,7 +6617,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWINN",
     "bank_code": "45850",
     "name": "Volksbank Tirol AG",
@@ -6625,7 +6625,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWGRA",
     "bank_code": "46590",
     "name": "Volksbank Steiermark AG",
@@ -6633,7 +6633,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "46660",
     "name": "VOLKSBANK WIEN AG",
@@ -6641,7 +6641,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWKLA",
     "bank_code": "46900",
     "name": "Volksbank K\u00e4rnten eG",
@@ -6657,7 +6657,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWGRA",
     "bank_code": "48150",
     "name": "Volksbank Steiermark AG",
@@ -6665,7 +6665,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "49220",
     "name": "VOLKSBANK WIEN AG",
@@ -6673,7 +6673,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VBOEATWWXXX",
     "bank_code": "49460",
     "name": "VOLKSBANK WIEN AG",
@@ -6713,7 +6713,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "HYPNATWWLDS",
     "bank_code": "53100",
     "name": "HYPO NOE Landesbank f\u00fcr Nieder\u00f6sterreich und Wien AG",
@@ -6729,7 +6729,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "SLHYAT2SXXX",
     "bank_code": "55000",
     "name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
@@ -6737,7 +6737,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "SLHYAT2S500",
     "bank_code": "55500",
     "name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
@@ -6745,7 +6745,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZSTAT2GXXX",
     "bank_code": "56000",
     "name": "Raiffeisen-Landesbank Steiermark AG",
@@ -6769,7 +6769,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BAWAATWWXXX",
     "bank_code": "60000",
     "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
@@ -6778,7 +6778,7 @@
   {
     "country_code": "AT",
     "primary": true,
-    "bic": "",
+    "bic": "NAN",
     "bank_code": "73700",
     "name": "\u00d6sterreichische Hotel- und Tourismusbank Gesellschaft m.b.H.",
     "short_name": "\u00d6sterreichische Hotel- und Tourismusbank Gesellschaft m.b.H."
@@ -6793,7 +6793,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OPBAATW2XXX",
     "bank_code": "75910",
     "name": "Stellantis Bank SA Niederlassung \u00d6sterreich",
@@ -6809,7 +6809,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "VIAUATW1XXX",
     "bank_code": "76022",
     "name": "card complete Service Bank AG",
@@ -6817,7 +6817,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "TEAMDE71TAT",
     "bank_code": "76032",
     "name": "TeamBank \u00d6sterreich - Niederlassung der TeamBank AG N\u00fcrnberg",
@@ -6841,7 +6841,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BUNDATWWXXX",
     "bank_code": "01000",
     "name": "Republik \u00d6sterreich",
@@ -6849,7 +6849,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BKAUATWWXXX",
     "bank_code": "12002",
     "name": "UniCredit Bank Austria AG",
@@ -6857,7 +6857,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BKAUATWWXXX",
     "bank_code": "12004",
     "name": "UniCredit Bank Austria AG",
@@ -6865,7 +6865,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BKAUATWWXXX",
     "bank_code": "12005",
     "name": "UniCredit Bank Austria AG",
@@ -6873,7 +6873,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BAWAATWWXXX",
     "bank_code": "14001",
     "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
@@ -6881,7 +6881,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BAWAATWWXXX",
     "bank_code": "14002",
     "name": "BAWAG P.S.K. Bank f\u00fcr Arbeit und Wirtschaft und \u00d6sterreichische Postsparkasse Aktiengesellschaft",
@@ -6889,7 +6889,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "OBKLAT2LXXX",
     "bank_code": "15899",
     "name": "Oberbank AG",
@@ -6897,7 +6897,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "BFKKAT2KXXX",
     "bank_code": "17899",
     "name": "BKS Bank AG",
@@ -6905,7 +6905,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "CENBATWWRDB",
     "bank_code": "19931",
     "name": "Raiffeisen Digital Bank AG",
@@ -6913,7 +6913,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZBAATWWVAM",
     "bank_code": "31111",
     "name": "Raiffeisen Bank International AG",
@@ -6921,7 +6921,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZBAATWWREC",
     "bank_code": "31112",
     "name": "Raiffeisen Bank International AG",
@@ -6929,7 +6929,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2LXXX",
     "bank_code": "34923",
     "name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
@@ -6937,7 +6937,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2LXXX",
     "bank_code": "34950",
     "name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
@@ -6945,7 +6945,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "RZOOAT2LXXX",
     "bank_code": "34955",
     "name": "Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft",
@@ -6953,7 +6953,7 @@
   },
   {
     "country_code": "AT",
-    "primary": true,
+    "primary": false,
     "bic": "HYPTAT22XXX",
     "bank_code": "57100",
     "name": "HYPO TIROL BANK AG",

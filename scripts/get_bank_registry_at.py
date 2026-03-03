@@ -8,20 +8,25 @@ URL = "https://www.oenb.at/docroot/downloads_observ/sepa-zv-vz_gesamt.csv"
 
 
 def process():
-    datas = pandas.read_csv(URL, skiprows=5, encoding="latin1", delimiter=";")
+    datas = pandas.read_csv(
+        URL,
+        skiprows=5,
+        skip_blank_lines=True,
+        encoding="latin1",
+        delimiter=";",
+    )
     datas = datas.dropna(how="all")
-    datas.fillna("", inplace=True)
 
     registry = []
-    for row in datas.itertuples(index=False):
+    for _, row in datas.iterrows():
         registry.append(
             {
                 "country_code": "AT",
-                "primary": True,
-                "bic": str(row[18]).strip().upper(),
-                "bank_code": str(row[2]).strip().rjust(5, "0"),
-                "name": str(row[6]).strip(),
-                "short_name": str(row[6]).strip(),
+                "primary": row["Institutsart"] == "KI",
+                "bic": str(row["SWIFT-Code"]).strip().upper(),
+                "bank_code": str(row["Bankleitzahl"]).strip().rjust(5, "0"),
+                "name": str(row["Bankenname"]).strip(),
+                "short_name": str(row["Bankenname"]).strip(),
             }
         )
 
