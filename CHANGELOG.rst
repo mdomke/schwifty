@@ -5,11 +5,26 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
-Unreleased
-----------
+`2026.03.0`_ - 2026/03/03
+-------------------------
 Added
 ~~~~~
 * Added bank registry for Moldova (MD) with 10 commercial banks.
+* Extended bank registries for Great Britain, Spain and Romania.
+* Added Revolut and Trade Republic to Spanish bank registry.
+
+Changed
+~~~~~~~
+* Updated bank registries and updated them to format v2 for Switzerland, Poland,
+  Austria and Finnland.
+  The v2-format groups entries that have the same name and BIC and aggregates the
+  matching bank codes. This reduces the file-size by up to 75%.
+
+Internal
+~~~~~~~~
+* Update tooling and switch to PEP-735 compliant dependency groups.
+* Use `uv` to manage Python versions instead of `flox`.
+
 
 `2026.01.0`_ - 2026/01/23
 -------------------------
@@ -774,6 +789,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2026.03.0: https://github.com/mdomke/schwifty/compare/2026.01.0...2026.03.0
 .. _2026.01.0: https://github.com/mdomke/schwifty/compare/2025.09.0...2026.01.0
 .. _2025.09.0: https://github.com/mdomke/schwifty/compare/2025.07.0...2025.09.0
 .. _2025.07.0: https://github.com/mdomke/schwifty/compare/2025.06.0...2025.07.0
