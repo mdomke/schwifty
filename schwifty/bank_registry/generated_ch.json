@@ -1800,14 +1800,6 @@
     "primary": true
   },
   {
-    "name": "Gonet & Cie SA (ex. ONE swiss bank SA)",
-    "short_name": "Gonet & Cie SA (ex. ONE swiss bank SA)",
-    "bank_code": "08246",
-    "bic": "BQBHCHGGXXX",
-    "country_code": "CH",
-    "primary": true
-  },
-  {
     "name": "Van Lanschot Kempen (Schweiz) AG",
     "short_name": "Van Lanschot Kempen (Schweiz) AG",
     "bank_code": "08248",
@@ -1956,14 +1948,6 @@
     "short_name": "Caisse d'Epargne Riviera, soci\u00e9t\u00e9 coop\u00e9rative",
     "bank_code": "08349",
     "bic": "CDDVCH21XXX",
-    "country_code": "CH",
-    "primary": true
-  },
-  {
-    "name": "Loomis Schweiz AG",
-    "short_name": "Loomis Schweiz AG",
-    "bank_code": "08350",
-    "bic": "SEPOCH22XXX",
     "country_code": "CH",
     "primary": true
   },
@@ -2796,14 +2780,6 @@
     "short_name": "Barclays Bank (Suisse) SA",
     "bank_code": "08735",
     "bic": "BARCCHGGXXX",
-    "country_code": "CH",
-    "primary": true
-  },
-  {
-    "name": "CA Indosuez (Switzerland) SA (ex Banque Thaler SA)",
-    "short_name": "CA Indosuez (Switzerland) SA (ex Banque Thaler SA)",
-    "bank_code": "08737",
-    "bic": "THALCHGGXXX",
     "country_code": "CH",
     "primary": true
   },
@@ -4060,14 +4036,6 @@
     "short_name": "Banque Richelieu (Schweiz) AG",
     "bank_code": "30186",
     "bic": "ANPRCH22XXX",
-    "country_code": "CH",
-    "primary": false
-  },
-  {
-    "name": "Gonet & Cie SA (ex. ONE swiss bank SA)",
-    "short_name": "Gonet & Cie SA (ex. ONE swiss bank SA)",
-    "bank_code": "30187",
-    "bic": "BQBHCHGGXXX",
     "country_code": "CH",
     "primary": false
   },
