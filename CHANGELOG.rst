@@ -5,7 +5,7 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
-`2026.03.0`_ - 2026/03/03
+`2026.03.0`_ - 2026/03/04
 -------------------------
 Added
 ~~~~~
