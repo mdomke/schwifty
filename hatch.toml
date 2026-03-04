@@ -11,7 +11,7 @@ config-path = ".ruff_defaults.toml"
 features = ["pydantic"]
 
 [envs.coverage]
-detached = true
+skip-install = true
 
 [envs.coverage.scripts]
 combine = "coverage combine {args}"
