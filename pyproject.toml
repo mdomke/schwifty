@@ -111,7 +111,7 @@ dev = [
 ]
 doc = [
     "doc8==2.0.*",
-    "pygments==2.16.*",
+    "pygments>=2.16,<2.21",
 ]
 scripts = [
     "beautifulsoup4",
