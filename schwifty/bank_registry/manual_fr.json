@@ -2622,5 +2622,13 @@
         "name": "FINOM PAYMENTS B.V.",
         "short_name": "FINOM",
         "primary": true
-    }
+    },
+    {
+        "country_code": "FR",
+        "bic": "BAMYFR22",
+        "bank_code": "17959",
+        "name": "BANQUE MICHEL INCHAUSPE",
+        "short_name": "BAMI",
+        "primary": true
+    },
 ]
