@@ -222,5 +222,13 @@
     "name": "Revolut Bank UAB",
     "short_name": "Revolut Bank UAB",
     "primary": true
+  },
+  {
+    "country_code": "IE",
+    "bic": "PPSEIE22XXX",
+    "bank_code": "PPSE",
+    "name": "Paysafe Prepaid Services Limited",
+    "short_name": "Paysafe Prepaid Services",
+    "primary": true
   }
 ]
