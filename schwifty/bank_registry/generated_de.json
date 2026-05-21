@@ -234,24 +234,6 @@
     "checksum_algo": "09"
   },
   {
-    "bank_code": "10030700",
-    "name": "Eurocity Bank",
-    "short_name": "Eurocity Bank",
-    "bic": "DLGHDEB1XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "16"
-  },
-  {
-    "bank_code": "10030730",
-    "name": "Eurocity Bank Gf GAA",
-    "short_name": "Eurocity Bank Gf GAA",
-    "bic": "DLGHDEB1XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "16"
-  },
-  {
     "bank_code": "10033300",
     "name": "Santander Consumer Bank",
     "short_name": "Santander Bank Berlin",
@@ -5167,8 +5149,8 @@
   },
   {
     "bank_code": "21050055",
-    "name": "Hamburg Commercial Bank, GF Retail",
-    "short_name": "Hamburg Commercial Bank",
+    "name": "Hamburg Commercial Bank, Gf Hamburg Direct Bank",
+    "short_name": "HCOB - Hamburg Direct Bank",
     "bic": "HHDBDEH2XXX",
     "primary": true,
     "country_code": "DE",
@@ -6319,7 +6301,7 @@
   },
   {
     "bank_code": "25055500",
-    "name": "LBS-Norddeutsche Landesbausparkasse",
+    "name": "LBS Landesbausparkasse NordWest",
     "short_name": "LBS-Nord, Hannover",
     "bic": "NOLADE21LBS",
     "primary": true,
@@ -6661,8 +6643,8 @@
   },
   {
     "bank_code": "25151371",
-    "name": "Stadtsparkasse Burgdorf",
-    "short_name": "Stadtsparkasse Burgdorf",
+    "name": "Stadtsparkasse Burgdorf -alt-",
+    "short_name": "Stadtspk Burgdorf -alt-",
     "bic": "NOLADE21BUF",
     "primary": true,
     "country_code": "DE",
@@ -9490,15 +9472,6 @@
     "name": "Bankhaus Neelmeyer",
     "short_name": "Bankhaus Neelmeyer Bremen",
     "bic": "NEELDE22XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
-    "bank_code": "29020200",
-    "name": "Greensill Bank",
-    "short_name": "Greensill Bank Bremen",
-    "bic": "NFHBDE21XXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -19774,8 +19747,8 @@
   },
   {
     "bank_code": "50060414",
-    "name": "DZ BANK f\u00fcr Bausparkasse Schw\u00e4bisch Hall",
-    "short_name": "DZ BANK f\u00fcr BSH",
+    "name": "DZ BANK GF BSH",
+    "short_name": "DZ BANK GF BSH",
     "bic": "GENODEF1VK3",
     "primary": true,
     "country_code": "DE",
@@ -19783,8 +19756,8 @@
   },
   {
     "bank_code": "50060415",
-    "name": "DZ BANK f\u00fcr Bausparkasse Schw\u00e4bisch Hall",
-    "short_name": "DZ BANK f\u00fcr BSH",
+    "name": "DZ BANK GF BSH",
+    "short_name": "DZ BANK GF BSH",
     "bic": "GENODEF1VK4",
     "primary": true,
     "country_code": "DE",
@@ -19792,8 +19765,8 @@
   },
   {
     "bank_code": "50060416",
-    "name": "DZ BANK GF TSG",
-    "short_name": "DZ BANK GF TSG",
+    "name": "DZ BANK GF VK6",
+    "short_name": "DZ BANK GF VK6",
     "bic": "GENODEF1VK6",
     "primary": true,
     "country_code": "DE",
@@ -19828,8 +19801,8 @@
   },
   {
     "bank_code": "50060420",
-    "name": "DZ BANK GF BSH",
-    "short_name": "DZ BANK GF BSH",
+    "name": "DZ BANK GF V20",
+    "short_name": "DZ BANK GF V20",
     "bic": "GENODEF1V20",
     "primary": true,
     "country_code": "DE",
@@ -19837,8 +19810,8 @@
   },
   {
     "bank_code": "50060421",
-    "name": "DZ BANK GF BSH",
-    "short_name": "DZ BANK GF BSH",
+    "name": "DZ BANK GF AIS",
+    "short_name": "DZ BANK GF AIS",
     "bic": "GENODEF1V21",
     "primary": true,
     "country_code": "DE",
@@ -19846,8 +19819,8 @@
   },
   {
     "bank_code": "50060422",
-    "name": "DZ BANK GF GRX",
-    "short_name": "DZ BANK GF GRX",
+    "name": "DZ BANK GF V22",
+    "short_name": "DZ BANK GF V22",
     "bic": "GENODEF1V22",
     "primary": true,
     "country_code": "DE",
@@ -19855,8 +19828,8 @@
   },
   {
     "bank_code": "50060423",
-    "name": "DZ BANK GF GRX",
-    "short_name": "DZ BANK GF GRX",
+    "name": "DZ BANK GF V23",
+    "short_name": "DZ BANK GF V23",
     "bic": "GENODEF1V23",
     "primary": true,
     "country_code": "DE",
@@ -19864,8 +19837,8 @@
   },
   {
     "bank_code": "50060424",
-    "name": "DZ BANK GF DEV",
-    "short_name": "DZ BANK GF DEV",
+    "name": "DZ BANK GF V24",
+    "short_name": "DZ BANK GF V24",
     "bic": "GENODEF1V24",
     "primary": true,
     "country_code": "DE",
@@ -20907,6 +20880,15 @@
     "checksum_algo": "06"
   },
   {
+    "bank_code": "50215500",
+    "name": "Hauck Aufh\u00e4user Lampe Privatbank",
+    "short_name": "Hauck Aufh\u00e4user Lampe",
+    "bic": "ABASDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
     "bank_code": "50220085",
     "name": "UBS Europe",
     "short_name": "UBS Europe",
@@ -21727,8 +21709,8 @@
   },
   {
     "bank_code": "50850150",
-    "name": "Stadt- und Kreis-Sparkasse Darmstadt",
-    "short_name": "St u Kr Spk Darmstadt",
+    "name": "Sparkasse Darmstadt und Dieburg",
+    "short_name": "Spk Darmstadt und Dieburg",
     "bic": "HELADEF1DAS",
     "primary": true,
     "country_code": "DE",
@@ -21754,8 +21736,8 @@
   },
   {
     "bank_code": "50852651",
-    "name": "Sparkasse Dieburg",
-    "short_name": "Sparkasse Dieburg",
+    "name": "Sparkasse Dieburg -alt-",
+    "short_name": "Sparkasse Dieburg -alt-",
     "bic": "HELADEF1DIE",
     "primary": true,
     "country_code": "DE",
@@ -22576,15 +22558,6 @@
     "name": "Bank of China",
     "short_name": "Bank of China Frankfurt",
     "bic": "BKCHDEFFXXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
-    "bank_code": "51410800",
-    "name": "Commerzbank - GF onvista",
-    "short_name": "Commerzbank - GF onvista",
-    "bic": "BOURDEFFXXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -33804,15 +33777,6 @@
     "checksum_algo": "09"
   },
   {
-    "bank_code": "70110570",
-    "name": "M\u00fcnchener Hypothekenbank",
-    "short_name": "M\u00fcnch Hypoth Bank M\u00fcnchen",
-    "bic": "MHYPDEMMSCA",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
     "bank_code": "70120100",
     "name": "State Street Bank International",
     "short_name": "State Street Bk Int.M\u00fcnchen",
@@ -36280,8 +36244,8 @@
   },
   {
     "bank_code": "74020100",
-    "name": "Raiffeisenlandesbank O\u00d6 Zndl S\u00fcddeutschland",
-    "short_name": "RLB O\u00d6 Zndl S\u00fcddeutschland",
+    "name": "Raiffeisenlandesbank O\u00d6 Niederlassung Deutschland",
+    "short_name": "RLB O\u00d6 Ndl Deutschland",
     "bic": "RZOODE77XXX",
     "primary": true,
     "country_code": "DE",
@@ -36289,9 +36253,9 @@
   },
   {
     "bank_code": "74020150",
-    "name": "Raiffeisenlandesbank O\u00d6 Zndl S\u00fcdde - f\u00fcr interne Zwecke",
-    "short_name": "RLB O\u00d6 Zndl S\u00fcddeutschland",
-    "bic": "RZOODE77050",
+    "name": "Raiffeisenlandesbank O\u00d6 Ndl  Deutschl.- f\u00fcr interne Zwecke",
+    "short_name": "RLB O\u00d6 Ndl Deutschland",
+    "bic": "RZOODE77XXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "60"
@@ -37560,15 +37524,6 @@
     "bank_code": "76060618",
     "name": "Volksbank Raiffeisenbank -alt-",
     "short_name": "VR Bank N\u00fcrnberg -alt-",
-    "bic": "GENODEF1N02",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
-  },
-  {
-    "bank_code": "76060620",
-    "name": "Volksbank Raiffeisenbank N\u00fcrnberg (Gf GAA)",
-    "short_name": "VR Bank Nbg (Gf GAA)",
     "bic": "GENODEF1N02",
     "primary": true,
     "country_code": "DE",
