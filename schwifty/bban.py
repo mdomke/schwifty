@@ -90,6 +90,12 @@ class BBAN(common.Base):
     def __init__(self, country_code: str, value: str) -> None:
         self.country_code = country_code
 
+    def __getnewargs__(self) -> tuple[str, str]:
+        return (self.country_code, self.compact)
+
+    def __deepcopy__(self, memo: dict[str, Any] | None = None) -> Self:
+        return self.__class__(self.country_code, self.compact)
+
     @classmethod
     def from_components(cls, country_code: str, **values: str) -> BBAN:
         """Generate a BBAN from its national components.
