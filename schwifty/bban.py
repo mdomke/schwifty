@@ -251,7 +251,7 @@ class BBAN(common.Base):
         components = [self._get_component(component) for component in algo.accepts]
         if not algo.validate(components, self.national_checksum_digits):
             raise exceptions.InvalidBBANChecksum("Invalid national checksum")
-        return False
+        return True
 
     def _get_component(self, component_type: Component) -> str:
         position = _get_position_range(self.spec, component_type)
