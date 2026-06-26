@@ -90,7 +90,8 @@ class BBAN(common.Base):
     def __init__(self, country_code: str, value: str) -> None:
         self.country_code = country_code
 
-    def __getnewargs__(self) -> tuple[str, str]:
+    # BBAN.__new__ needs both values when pickle reconstructs the object.
+    def __getnewargs__(self) -> tuple[str, str]:  # type: ignore[override]
         return (self.country_code, self.compact)
 
     def __deepcopy__(self, memo: dict[str, Any] | None = None) -> Self:
