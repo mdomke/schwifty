@@ -15,6 +15,13 @@ def test_validate_national_checksum() -> None:
     with pytest.raises(InvalidBBANChecksum):
         BBAN("BE", "539007547035").validate_national_checksum()
 
+    # Bosnia and Herzegovina (BA) uses ISO 7064 mod 97-10; it was previously
+    # registered under the wrong country code "BT" (#264), so the national
+    # checksum was never validated.
+    assert BBAN("BA", "1290079401028494").validate_national_checksum() is True
+    with pytest.raises(InvalidBBANChecksum):
+        BBAN("BA", "1290079401028400").validate_national_checksum()
+
 
 @pytest.mark.parametrize("country_code", ["DE", "ES", "GB", "FR", "PL"])
 def test_random(country_code: str) -> None:
