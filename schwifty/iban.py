@@ -226,7 +226,11 @@ class IBAN(common.Base):
         return True
 
     def _validate_characters(self) -> None:
-        if not re.match(r"[A-Z]{2}\d{2}[A-Z]*", self):
+        # ``re.match`` only anchors the start, and ``[A-Z]*`` excludes the
+        # digits that appear in most BBANs, so invalid characters after the
+        # country/check-digit prefix slipped through. ``fullmatch`` over the
+        # alphanumeric BBAN catches them.
+        if not re.fullmatch(r"[A-Z]{2}\d{2}[A-Z0-9]+", self):
             raise exceptions.InvalidStructure(f"Invalid characters in IBAN {self!s}")
 
     def _validate_length(self) -> None:
