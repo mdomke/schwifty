@@ -5,6 +5,14 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Fixed
+~~~~~
+* Registered the ISO 7064 mod 97-10 national checksum algorithm for Bosnia and
+  Herzegovina (``BA``) instead of ``BT`` (Bhutan, which has no IBAN), so the
+  national checksum of ``BA`` IBANs is now validated (#264).
+
 `2026.03.0`_ - 2026/03/04
 -------------------------
 Added
