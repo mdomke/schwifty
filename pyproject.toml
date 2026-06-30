@@ -78,6 +78,9 @@ extend-ignore = [
 "scripts/get_*_registry*.py" = [
     "S113",   # Allow requests call without timeout
 ]
+"tests/test_bban.py" = [
+    "S301",   # pickle is safe when used with trusted own objects
+]
 
 [tool.ruff.lint.mccabe]
 max-complexity = 15
