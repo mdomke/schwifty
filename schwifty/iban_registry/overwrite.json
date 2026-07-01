@@ -1142,5 +1142,27 @@
         23
       ]
     }
+  },
+  "YE": {
+    "country": "YE",
+    "bban_spec": "4!a4!n18!c",
+    "bban_length": 26,
+    "iban_spec": "YE2!n4!a4!n18!c",
+    "iban_length": 30,
+    "positions": {
+      "account_code": [
+        8,
+        26
+      ],
+      "bank_code": [
+        0,
+        4
+      ],
+      "branch_code": [
+        4,
+        8
+      ]
+    },
+    "in_sepa_zone": false
   }
 }

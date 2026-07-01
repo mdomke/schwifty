@@ -7,6 +7,11 @@ Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro
 
 Unreleased
 ----------
+Added
+~~~~~
+* Added Yemen (``YE``) to the IBAN registry so Yemeni IBANs can be parsed and
+  validated (#294).
+
 Fixed
 ~~~~~
 * Registered the ISO 7064 mod 97-10 national checksum algorithm for Bosnia and
