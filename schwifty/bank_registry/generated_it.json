@@ -170,6 +170,814 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "HAABIT2UXXX",
+    "bank_code": "03011",
+    "name": "HYPO ALPE-ADRIA-BANK S.P.A.",
+    "short_name": "HYPO ALPE-ADRIA-BANK S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "BNLIITR1B7Z",
+    "bank_code": "100503252",
+    "name": "BANCA NAZIONALE DEL LAVORO S.P.A.",
+    "short_name": "BANCA NAZIONALE DEL LAVORO S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "BNLIITRRXXX",
+    "bank_code": "100568600",
+    "name": "BANCA NAZIONALE DEL LAVORO SPA",
+    "short_name": "BANCA NAZIONALE DEL LAVORO SPA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101001038",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101001060",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101001061",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101001126",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101001151",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101001182",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101001407",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101001500",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101001617",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101001680",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101001753",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101002404",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003261",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003409",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003413",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003418",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003420",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003421",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003426",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003440",
+    "name": "BANCO DI NAPOLI SPA",
+    "short_name": "BANCO DI NAPOLI SPA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003441",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003449",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003461",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003462",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003463",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003473",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003474",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003477",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003484",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003489",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003507",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003513",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003522",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003530",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003548",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101003566",
+    "name": "BANCO DI NAPOLI SPA",
+    "short_name": "BANCO DI NAPOLI SPA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101004001",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101004003",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101004007",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101004013",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101004027",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101004030",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101004031",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNA197",
+    "bank_code": "101004047",
+    "name": "BANCO DI NAPOLI SPA",
+    "short_name": "BANCO DI NAPOLI SPA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101004201",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101004411",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101004831",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101005001",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101010802",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101011138",
+    "name": "BANCO DI NAPOLI SPA",
+    "short_name": "BANCO DI NAPOLI SPA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101011203",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101011801",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNA789",
+    "bank_code": "101012011",
+    "name": "BANCO DI NAPOLI SPA",
+    "short_name": "BANCO DI NAPOLI SPA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101012105",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101012166",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101012299",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101012397",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101012702",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101014912",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101014913",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101014915",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015004",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015005",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015010",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015107",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015205",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015210",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015212",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015219",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015399",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNA279",
+    "bank_code": "101015700",
+    "name": "BANCO DI NAPOLI SPA",
+    "short_name": "BANCO DI NAPOLI SPA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015702",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015704",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015799",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015801",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015810",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015811",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015816",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015901",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101015910",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101016002",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNA162",
+    "bank_code": "101016010",
+    "name": "BANCO DI NAPOLI SPA",
+    "short_name": "BANCO DI NAPOLI SPA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101016101",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNA006",
+    "bank_code": "101016102",
+    "name": "BANCO DI NAPOLI SPA",
+    "short_name": "BANCO DI NAPOLI SPA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101016201",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101016204",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101016210",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAK85",
+    "bank_code": "101016290",
+    "name": "BANCO DI NAPOLI SPA",
+    "short_name": "BANCO DI NAPOLI SPA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101016303",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101016311",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101016322",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101016323",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101016498",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101020005",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101020009",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101020016",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101020091",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "IBSPITNAXXX",
+    "bank_code": "101020092",
+    "name": "BANCO DI NAPOLI S.P.A.",
+    "short_name": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "ALLFITMM",
     "bank_code": "03271",
     "name": "ALLFUNDS BANK S.A.",
@@ -206,22 +1014,6 @@
     "bank_code": "03250",
     "name": "CREDEM EUROMOBILIARE PRIVATE BANKING S.P.A.",
     "short_name": "CREDEM EUROMOBILIARE PRIVATE BANKING S.P.A."
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "CASRIT22",
-    "bank_code": "06085",
-    "name": "CASSA DI RISPARMIO DI ASTI S.P.A.",
-    "short_name": "BANCA C.R. ASTI S.P.A."
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "CIMTITR1",
-    "bank_code": "36000",
-    "name": "Cartalis Imel Spa, Roma Sede Centrale",
-    "short_name": "Cartalis Imel Spa, Roma Sede Centrale"
   },
   {
     "country_code": "IT",
@@ -266,22 +1058,6 @@
   {
     "country_code": "IT",
     "primary": true,
-    "bic": "ICRAITRRQF0",
-    "bank_code": "08951",
-    "name": "\"BANCA DI CREDITO COOPERATIVO \"GIUSEPPE TONIOLO\" DI GENZANO SOCIETA' COOPERATIVA\"",
-    "short_name": "\"BANCA DI CREDITO COOPERATIVO \"GIUSEPPE TONIOLO\" DI GENZANO SOCIETA' COOPERATIVA\""
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "CCRTIT2T",
-    "bank_code": "08982",
-    "name": "BANCA ADRIA COLLI EUGANEI - CREDITO COOPERATIVO SOCIETA' COOPERATIVA",
-    "short_name": "BANCA ADRIA COLLI EUGANEI - CREDITO COOPERATIVO SOCIETA' COOPERATIVA"
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
     "bic": "CCRTIT2T06A",
     "bank_code": "08026",
     "name": "CASSA RURALE DI LEDRO - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA",
@@ -294,6 +1070,22 @@
     "bank_code": "08016",
     "name": "CASSA RURALE ALTOGARDA - ROVERETO - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA",
     "short_name": "CASSA RURALE ALTOGARDA - ROVERETO - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "ICRAITRRQF0",
+    "bank_code": "08951",
+    "name": "\"BANCA DI CREDITO COOPERATIVO \"GIUSEPPE TONIOLO\" DI GENZANO SOCIETA' COOPERATIVA\"",
+    "short_name": "\"BANCA DI CREDITO COOPERATIVO \"GIUSEPPE TONIOLO\" DI GENZANO SOCIETA' COOPERATIVA\""
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "CCRTIT2T",
+    "bank_code": "08982",
+    "name": "BANCA ADRIA COLLI EUGANEI - CREDITO COOPERATIVO SOCIETA' COOPERATIVA",
+    "short_name": "BANCA ADRIA COLLI EUGANEI - CREDITO COOPERATIVO SOCIETA' COOPERATIVA"
   },
   {
     "country_code": "IT",
@@ -434,6 +1226,14 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "PSANIT3P",
+    "bank_code": "05772",
+    "name": "Banca Agricola Popolare di Ragusa",
+    "short_name": "Banca Agricola Popolare di Ragusa"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "AIDEITM2",
     "bank_code": "03625",
     "name": "BANCA AIDEXA S.P.A.",
@@ -476,8 +1276,8 @@
     "primary": true,
     "bic": "ALETITMM",
     "bank_code": "03102",
-    "name": "ALETTI & C. BANCA DI INVESTIMENTO MOBILIARE S.P.A.",
-    "short_name": "ALETTI & C. BANCA DI INVESTIMENTO MOBILIARE S.P.A."
+    "name": "BANCA ALETTI S.P.A.",
+    "short_name": "BANCA ALETTI S.P.A."
   },
   {
     "country_code": "IT",
@@ -610,6 +1410,14 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "CASRIT22",
+    "bank_code": "06085",
+    "name": "CASSA DI RISPARMIO DI ASTI S.P.A.",
+    "short_name": "BANCA C.R. ASTI S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "BCITITMM",
     "bank_code": "06315",
     "name": "CASSE DI RISPARMIO DELL'UMBRIA S.P.A.",
@@ -638,54 +1446,6 @@
     "bank_code": "03084",
     "name": "BANCA CESARE PONTI S.P.A.",
     "short_name": "BANCA CESARE PONTI S.P.A."
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "BCITITMM",
-    "bank_code": "06160",
-    "name": "Intesa Sanpaolo S.p.A.",
-    "short_name": "Intesa Sanpaolo S.p.A."
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "SELBIT22",
-    "bank_code": "03311",
-    "name": "SELLA HOLDING BANCA S.P.A.",
-    "short_name": "SELLA HOLDING BANCA S.P.A."
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "POSOIT21",
-    "bank_code": "05696",
-    "name": "BANCA POPOLARE DI SONDRIO SOCIETA' PER AZIONI",
-    "short_name": "BANCA POPOLARE DI SONDRIO SOCIETA' PER AZIONI"
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "BCITITMM",
-    "bank_code": "06010",
-    "name": "Intesa Sanpaolo S.p.A.",
-    "short_name": "Intesa Sanpaolo S.p.A."
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "BCITITMM",
-    "bank_code": "06385",
-    "name": "Intesa Sanpaolo S.p.A.",
-    "short_name": "Intesa Sanpaolo S.p.A."
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "BLOPIT22",
-    "bank_code": "05428",
-    "name": "Unione Di Banche Italiane SpA",
-    "short_name": "Unione Di Banche Italiane SpA"
   },
   {
     "country_code": "IT",
@@ -794,6 +1554,14 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "BCITITMM",
+    "bank_code": "06160",
+    "name": "Intesa Sanpaolo S.p.A.",
+    "short_name": "Intesa Sanpaolo S.p.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "CCRTIT21",
     "bank_code": "08986",
     "name": "BANCA DEL VENETO CENTRALE - CREDITO COOPERATIVO SOC. COOP",
@@ -854,6 +1622,14 @@
     "bank_code": "03269",
     "name": "BANCA DELLA NUOVA TERRA S.P.A.",
     "short_name": "BANCA DELLA NUOVA TERRA S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "BCITITMM",
+    "bank_code": "06010",
+    "name": "Intesa Sanpaolo S.p.A.",
+    "short_name": "Intesa Sanpaolo S.p.A."
   },
   {
     "country_code": "IT",
@@ -1106,6 +1882,14 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "ICRAITRRCAR",
+    "bank_code": "08440",
+    "name": "BANCA DI CREDITO COOPERATIVO CARATE BRIANZA E TREVIGLIO - SOCIETA COOPERATIVA",
+    "short_name": "BANCA DI CREDITO COOPERATIVO CARATE BRIANZA E TREVIGLIO - SOCIETA COOPERATIVA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "BPMOIT22",
     "bank_code": "05550",
     "name": "BANCA POPOLARE DI LANCIANO E SULMONA SOCIETA' PER AZIONI",
@@ -1174,6 +1958,14 @@
     "bank_code": "07010",
     "name": "BANCA DI CREDITO COOPERATIVO DI MAIERATO",
     "short_name": "BANCA DI CREDITO COOPERATIVO DI MAIERATO"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "BCITITMM",
+    "bank_code": "06385",
+    "name": "Intesa Sanpaolo S.p.A.",
+    "short_name": "Intesa Sanpaolo S.p.A."
   },
   {
     "country_code": "IT",
@@ -1522,14 +2314,6 @@
   {
     "country_code": "IT",
     "primary": true,
-    "bic": "BCVAIT2V",
-    "bank_code": "03245",
-    "name": "CREVERBANCA S.P.A O CREDITO VERONESE S.P.A.",
-    "short_name": "CREVERBANCA S.P.A O CREDITO VERONESE S.P.A."
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
     "bic": "CCRTIT2TALB",
     "bank_code": "08071",
     "name": "Banca di Credito Cooperativo\nSan Giuseppe di Petralia Sottana ",
@@ -1606,6 +2390,14 @@
     "bank_code": "07074",
     "name": "Banca di Credito Cooperativo Pordenonese",
     "short_name": "Banca di Credito Cooperativo Pordenonese"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "SELBIT22",
+    "bank_code": "03311",
+    "name": "SELLA HOLDING BANCA S.P.A.",
+    "short_name": "SELLA HOLDING BANCA S.P.A."
   },
   {
     "country_code": "IT",
@@ -1698,6 +2490,14 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "INPIITM1",
+    "bank_code": "03159",
+    "name": "Finint Private Bank S.p.A",
+    "short_name": "Finint Private Bank S.p.A"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "CSRFITR1",
     "bank_code": "03209",
     "name": "BANCA BSI ITALIA S.P.A.",
@@ -1778,6 +2578,14 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "BLOPIT22",
+    "bank_code": "05428",
+    "name": "Unione Di Banche Italiane SpA",
+    "short_name": "Unione Di Banche Italiane SpA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "BAPPIT22",
     "bank_code": "05584",
     "name": "BANCO BPM SPA",
@@ -1854,6 +2662,14 @@
     "bank_code": "05296",
     "name": "BANCA POPOLARE DI FONDI - SOCIETA' COOPERATIVA",
     "short_name": "BANCA POPOLARE DI FONDI - SOCIETA' COOPERATIVA"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "POSOIT21",
+    "bank_code": "05696",
+    "name": "BANCA POPOLARE DI SONDRIO SOCIETA' PER AZIONI",
+    "short_name": "BANCA POPOLARE DI SONDRIO SOCIETA' PER AZIONI"
   },
   {
     "country_code": "IT",
@@ -2018,6 +2834,22 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "BCVAIT2V",
+    "bank_code": "03245",
+    "name": "CREVERBANCA S.P.A O CREDITO VERONESE S.P.A.",
+    "short_name": "CREVERBANCA S.P.A O CREDITO VERONESE S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "BBVAITM2XXX",
+    "bank_code": "03576",
+    "name": "BANCO BILBAO VIZCAYA ARGENTARIA S.A",
+    "short_name": "BANCO BILBAO VIZCAYA ARGENTARIA S.A"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "BLUCIT31",
     "bank_code": "03242",
     "name": "BANCO DI LUCCA E DEL TIRRENO S.P.A.",
@@ -2126,6 +2958,22 @@
     "bank_code": "03407",
     "name": "EDMOND DE ROTHSCHILD",
     "short_name": "EDMOND DE ROTHSCHILD"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "AIDEITM2",
+    "bank_code": "03201",
+    "name": "BANCA MB S.P.A.",
+    "short_name": "BMB S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "BAPPIT22",
+    "bank_code": "05630",
+    "name": "BANCA NETWORK INVESTIMENTI - SOCIETA' PER AZIONI",
+    "short_name": "BNI S.P.A."
   },
   {
     "country_code": "IT",
@@ -2482,14 +3330,6 @@
   {
     "country_code": "IT",
     "primary": true,
-    "bic": "RZSBIT2B",
-    "bank_code": "08295",
-    "name": "CASSA RAIFFEISEN DI VANDOIES SOCIETA' COOPERATIVA",
-    "short_name": "CASSA RAIFFEISEN DI VANDOIES SOCIETA' COOPERATIVA"
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
     "bic": "CCRTIT2T50A",
     "bank_code": "08057",
     "name": "Cassa Rurale di Fiemme",
@@ -2498,18 +3338,18 @@
   {
     "country_code": "IT",
     "primary": true,
-    "bic": "RZSBIT21",
-    "bank_code": "08010",
-    "name": "CASSA RAIFFEISEN VAL BADIA SOCIETA' COOPERATIVA - GENOSSENSCHAFT",
-    "short_name": "CASSA RAIFFEISEN VAL BADIA SOCIETA' COOPERATIVA - GENOSSENSCHAFT"
+    "bic": "RZSBIT2B",
+    "bank_code": "08295",
+    "name": "CASSA RAIFFEISEN DI VANDOIES SOCIETA' COOPERATIVA",
+    "short_name": "CASSA RAIFFEISEN DI VANDOIES SOCIETA' COOPERATIVA"
   },
   {
     "country_code": "IT",
     "primary": true,
-    "bic": "ICRAITRRTR0",
-    "bank_code": "08899",
-    "name": "CASSA RURALE - BANCA DI CREDITO COOPERATIVO DI TREVIGLIO - SOCIETA' COOPERATIVA",
-    "short_name": "CASSA RURALE - BANCA DI CREDITO COOPERATIVO DI TREVIGLIO - SOCIETA' COOPERATIVA"
+    "bic": "RZSBIT21",
+    "bank_code": "08010",
+    "name": "CASSA RAIFFEISEN VAL BADIA SOCIETA' COOPERATIVA - GENOSSENSCHAFT",
+    "short_name": "CASSA RAIFFEISEN VAL BADIA SOCIETA' COOPERATIVA - GENOSSENSCHAFT"
   },
   {
     "country_code": "IT",
@@ -2658,6 +3498,14 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "CIMTITR1XXX",
+    "bank_code": "36000",
+    "name": "LIS PAY S.p.A.",
+    "short_name": "LIS PAY S.p.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "ZURIITM2",
     "bank_code": "03667",
     "name": "ZURICH ITALY BANK S.P.A.",
@@ -2702,14 +3550,6 @@
     "bank_code": "03430",
     "name": "CREDITO LOMBARDO VENETO S.P.A.",
     "short_name": "CREDITO LOMBARDO VENETO S.P.A."
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
-    "bic": "BAPPIT22",
-    "bank_code": "05630",
-    "name": "BANCA NETWORK INVESTIMENTI - SOCIETA' PER AZIONI",
-    "short_name": "BNI S.P.A."
   },
   {
     "country_code": "IT",
@@ -2906,6 +3746,14 @@
   {
     "country_code": "IT",
     "primary": true,
+    "bic": "SOGEITMMXXX",
+    "bank_code": "03676",
+    "name": "SOCIETE GENERALE FACTORING",
+    "short_name": "SOCIETE GENERALE FACTORING"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
     "bic": "UNCRITMM",
     "bank_code": "03131",
     "name": "UNICREDIT BANCA MOBILIARE S.P.A.",
@@ -2922,7 +3770,7 @@
   {
     "country_code": "IT",
     "primary": true,
-    "bic": "CRDRIT2F",
+    "bic": "CRDRIT2FXXX",
     "bank_code": "03273",
     "name": "SOLUTION BANK S.P.A.",
     "short_name": "SOLUTION BANK S.P.A."
