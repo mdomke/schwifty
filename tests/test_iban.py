@@ -6,6 +6,7 @@ import pytest
 from pycountry import countries  # type: ignore
 
 from schwifty import IBAN
+from schwifty.exceptions import InvalidStructure
 from schwifty.exceptions import SchwiftyException
 from schwifty.iban import convert_bban_spec_to_regex
 
@@ -202,6 +203,15 @@ def test_parse_iban_allow_invalid(value: str) -> None:
 def test_invalid_iban(value: str) -> None:
     with pytest.raises(SchwiftyException):
         IBAN(value)
+
+
+def test_invalid_characters_in_bban_are_rejected() -> None:
+    # Regression for #266: ``_validate_characters`` used ``re.match`` (anchored
+    # only at the start) with ``[A-Z]*``, so an invalid character inside the
+    # BBAN slipped past character validation. ``fullmatch`` over the
+    # alphanumeric BBAN now catches it.
+    with pytest.raises(InvalidStructure):
+        IBAN("GB82WEST1234£698765432")  # '£' where a digit is expected
 
 
 def test_iban_properties_de() -> None:
