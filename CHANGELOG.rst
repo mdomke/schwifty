@@ -7,16 +7,26 @@ Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro
 
 Unreleased
 ----------
+
+`2026.07.0`_ - 2026/07/02
+-------------------------
 Added
 ~~~~~
 * Added Yemen (``YE``) to the IBAN registry so Yemeni IBANs can be parsed and
-  validated (#294).
+  validated (#294) `@CedricConday <https://github.com/CedricConday>`_.
 
 Fixed
 ~~~~~
 * Registered the ISO 7064 mod 97-10 national checksum algorithm for Bosnia and
   Herzegovina (``BA``) instead of ``BT`` (Bhutan, which has no IBAN), so the
-  national checksum of ``BA`` IBANs is now validated (#264).
+  national checksum of ``BA`` IBANs is now validated (#264) `@CedricConday <https://github.com/CedricConday>`_.
+* Fix BBAN pickle and deepcopy failures `@gaoflow <https://github.com/gaoflow>`_.
+* Return ``True`` from ``validate_national_checksum`` on success `@gaoflow <https://github.com/gaoflow>`_.
+
+Updated
+~~~~~~~
+* Update bank registries for Germany, Italy and Poland.
+
 
 `2026.03.0`_ - 2026/03/04
 -------------------------
@@ -802,6 +812,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2026.07.0: https://github.com/mdomke/schwifty/compare/2026.03.0...2026.07.0
 .. _2026.03.0: https://github.com/mdomke/schwifty/compare/2026.01.0...2026.03.0
 .. _2026.01.0: https://github.com/mdomke/schwifty/compare/2025.09.0...2026.01.0
 .. _2025.09.0: https://github.com/mdomke/schwifty/compare/2025.07.0...2025.09.0
