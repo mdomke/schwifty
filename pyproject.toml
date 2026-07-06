@@ -173,9 +173,9 @@ sequence = [
 
 [dependency-groups]
 dev = [
-    "coverage==7.13.*",
+    "coverage==7.15.*",
     "freezegun==1.5.*",
-    "pytest==9.0.*",
+    "pytest==9.1.*",
     "ruff==0.15.*",
     "poethepoet==0.38.*",
     "prek==0.4.*",
@@ -183,7 +183,7 @@ dev = [
 ]
 doc = [
     "doc8==2.0.*",
-    "pygments==2.16.*",
+    "pygments==2.20.*",
 ]
 scripts = [
     "beautifulsoup4",
