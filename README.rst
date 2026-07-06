@@ -79,7 +79,8 @@ to avoid long feedback-cycles.
    $ uv run prek install
 
 You can also run ``uv run poe fmt`` to format the code or use one of the available `editor
-integrations`_.
+integrations`_. See the `contributing guide`_ for the full list of development commands and the
+contribution workflow.
 
 
 Project Information
@@ -99,6 +100,7 @@ to point out the connection to SWIFT, Rick and Morty came up with the idea to na
 
 
 .. _uv: https://docs.astral.sh/uv/
+.. _contributing guide: https://github.com/mdomke/schwifty/blob/main/CONTRIBUTING.rst
 .. _ruff: https://docs.astral.sh/ruff/
 .. _prek: https://prek.j178.dev
 .. _editor integrations:  https://docs.astral.sh/ruff/editors/
