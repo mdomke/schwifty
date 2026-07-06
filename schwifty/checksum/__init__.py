@@ -8,6 +8,7 @@ from importlib import import_module
 from pathlib import Path
 from typing import ClassVar
 
+from schwifty._compat import override
 from schwifty.domain import Component
 
 
@@ -64,6 +65,7 @@ class ISO7064_mod97_10(Algorithm):  # noqa: N801
     def pre_process(self, components: list[str]) -> int:
         return numerify("".join(components)) * 100
 
+    @override
     def compute(self, components: list[str]) -> str:
         return iso7064(self.pre_process(components), 97, self.post_process)
 
@@ -71,7 +73,7 @@ class ISO7064_mod97_10(Algorithm):  # noqa: N801
 algorithms: dict[str, Algorithm] = {}
 
 
-def register(*prefixes) -> Callable[[type[Algorithm]], type[Algorithm]]:
+def register(*prefixes: str) -> Callable[[type[Algorithm]], type[Algorithm]]:
     def wrapper(algorithm_cls: type[Algorithm]) -> type[Algorithm]:
         key = algorithm_cls.name
         for prefix in prefixes:

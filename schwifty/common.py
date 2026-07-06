@@ -4,6 +4,8 @@ import re
 from functools import total_ordering
 from typing import Any
 
+from schwifty._compat import override
+
 
 try:
     from typing import Self
@@ -25,9 +27,11 @@ class Base(str):
     def __hash__(self) -> int:
         return hash(str(self))
 
+    @override
     def __eq__(self, other: Any) -> bool:
         return str(self) == str(other)
 
+    @override
     def __lt__(self, other: Any) -> bool:
         return str(self) < str(other)
 

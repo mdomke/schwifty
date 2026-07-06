@@ -3,6 +3,7 @@ from __future__ import annotations
 import string
 
 from schwifty import checksum
+from schwifty._compat import override
 
 
 def get_index(char: str) -> int:
@@ -18,6 +19,7 @@ def get_index(char: str) -> int:
 class DefaultAlgorithm(checksum.Algorithm):
     name = "default"
 
+    @override
     def compute(self, components: list[str]) -> str:
         value = "".join(components)
         odds = (

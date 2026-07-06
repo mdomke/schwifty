@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import ClassVar
 
 from schwifty import checksum
+from schwifty._compat import override
 from schwifty.domain import Component
 from schwifty.exceptions import InvalidAccountCode
 
@@ -15,6 +16,7 @@ class DefaultAlgorithm(checksum.Algorithm):
         Component.ACCOUNT_CODE,
     ]
 
+    @override
     def compute(self, components: list[str]) -> str:
         _, account_code = components
         value = account_code[2:] if account_code[:2] == "00" else "".join(components)

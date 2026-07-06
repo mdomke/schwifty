@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from schwifty import checksum
+from schwifty._compat import override
 
 
 numerics = {
@@ -53,9 +54,11 @@ def numerify(value: str) -> int:
 class DefaultAlgorithm(checksum.ISO7064_mod97_10):
     name = "default"
 
+    @override
     def pre_process(self, components: list[str]) -> int:
         bank_code, branch_code, account_code = components
         return 89 * numerify(bank_code) + 15 * numerify(branch_code) + 3 * numerify(account_code)
 
+    @override
     def post_process(self, r: int) -> int:
         return 97 - r

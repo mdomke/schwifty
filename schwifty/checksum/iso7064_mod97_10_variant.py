@@ -1,4 +1,5 @@
 from schwifty import checksum
+from schwifty._compat import override
 
 
 # Mauretania (MR)
@@ -7,5 +8,6 @@ from schwifty import checksum
 class DefaultAlgorithm(checksum.ISO7064_mod97_10):
     name = "default"
 
+    @override
     def post_process(self, r: int) -> int:
         return 97 - r

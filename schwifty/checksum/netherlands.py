@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import ClassVar
 
 from schwifty import checksum
+from schwifty._compat import override
 from schwifty.domain import Component
 
 
@@ -16,10 +17,12 @@ class DefaultAlgorithm(checksum.Algorithm):
     name = "default"
     accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
 
+    @override
     def compute(self, components: list[str]) -> str:
         # There is no actual check digit as part of the BBAN.
         return ""
 
+    @override
     def validate(self, components: list[str], expected: str) -> bool:
         [account_code] = components
         return sum(int(digit) * (10 - i) for i, digit in enumerate(account_code)) % 11 == 0

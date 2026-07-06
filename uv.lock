@@ -1547,7 +1547,7 @@ dependencies = [
     { name = "importlib-resources", marker = "python_full_version < '3.12'" },
     { name = "pycountry" },
     { name = "rstr" },
-    { name = "typing-extensions", marker = "python_full_version < '3.11'" },
+    { name = "typing-extensions", marker = "python_full_version < '3.12'" },
 ]
 
 [package.optional-dependencies]
@@ -1586,7 +1586,7 @@ requires-dist = [
     { name = "pycountry" },
     { name = "pydantic", marker = "extra == 'pydantic'", specifier = ">=2.0" },
     { name = "rstr" },
-    { name = "typing-extensions", marker = "python_full_version < '3.11'", specifier = ">=4.0.1" },
+    { name = "typing-extensions", marker = "python_full_version < '3.12'", specifier = ">=4.4.0" },
 ]
 provides-extras = ["pydantic"]
 

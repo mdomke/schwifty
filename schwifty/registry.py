@@ -14,7 +14,7 @@ except ImportError:
     from importlib_resources import files  # type: ignore
 
 
-Key = str | tuple
+Key = str | tuple[str, ...]
 Value = dict[Key, Any] | list[dict[Key, Any]]
 
 _registry: dict[Key, Value] = {}
@@ -90,7 +90,7 @@ def build_index(
     accumulate: bool = False,
     **predicate: Any,
 ) -> None:
-    def make_key(entry: dict[Key, Any]) -> tuple | str:
+    def make_key(entry: dict[Key, Any]) -> tuple[str, ...] | str:
         return tuple(entry[k] for k in key) if isinstance(key, tuple) else entry[key]
 
     def match(entry: dict[Key, Any]) -> bool:
@@ -116,7 +116,7 @@ def build_index(
         save(index_name, entries)
 
 
-def manipulate(name: Key, func: Callable) -> None:
+def manipulate(name: Key, func: Callable[..., Any]) -> None:
     registry = get(name)
     if isinstance(registry, dict):
         for key, value in registry.items():

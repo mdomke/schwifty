@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import ClassVar
 
 from schwifty import checksum
+from schwifty._compat import override
 from schwifty.domain import Component
 
 
@@ -13,12 +14,14 @@ class DefaultAlgorithm(checksum.Algorithm):
         Component.ACCOUNT_HOLDER_ID,
     ]
 
+    @override
     def compute(self, components: list[str]) -> str:
         [account_holder_id] = components
         weights = [3, 2, 7, 6, 5, 4, 3, 2]
         remainder = checksum.weighted(account_holder_id, 11, weights)
         return str(remainder) if remainder == 0 else str(11 - remainder)
 
+    @override
     def validate(self, components: list[str], expected: str) -> bool:
         [account_holder_id] = components
         return self.compute(components) == account_holder_id[8]

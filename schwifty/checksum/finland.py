@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import ClassVar
 
 from schwifty import checksum
+from schwifty._compat import override
 from schwifty.domain import Component
 
 
@@ -14,5 +15,6 @@ class DefaultAlgorithm(checksum.Algorithm):
         Component.ACCOUNT_CODE,
     ]
 
+    @override
     def compute(self, components: list[str]) -> str:
         return checksum.luhn("".join(components))

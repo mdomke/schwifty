@@ -381,7 +381,7 @@ class IBAN(common.Base):
         return self.bban.currency_code
 
     @property
-    def bank(self) -> dict | None:
+    def bank(self) -> dict[str, Any] | None:
         """dict or None: The information of the bank related to the bank code as part of the BBAN"""
         return self.bban.bank
 
@@ -470,7 +470,7 @@ class IBAN(common.Base):
         return validate
 
 
-def add_bban_regex(country: str, spec: dict) -> dict:
+def add_bban_regex(country: str, spec: dict[str, Any]) -> dict[str, Any]:
     if "regex" not in spec:
         spec["regex"] = re.compile(convert_bban_spec_to_regex(spec["bban_spec"]))
     return spec
@@ -479,7 +479,7 @@ def add_bban_regex(country: str, spec: dict) -> dict:
 def convert_bban_spec_to_regex(spec: str) -> str:
     spec_re = rf"(\d+)(!)?([{''.join(_spec_to_re.keys())}])"
 
-    def convert(match: re.Match) -> str:
+    def convert(match: re.Match[str]) -> str:
         quantifier = ("{{{}}}" if match.group(2) else "{{1,{}}}").format(match.group(1))
         return _spec_to_re[match.group(3)] + quantifier
 

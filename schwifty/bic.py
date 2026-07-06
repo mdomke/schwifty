@@ -328,7 +328,7 @@ class BIC(common.Base):
         try:
             bic = cls(value)
         except exceptions.SchwiftyException as err:
-            raise PydanticCustomError("bic_format", str(err)) from err
+            raise PydanticCustomError("bic_format", "{err}", {"err": str(err)}) from err
         return handler(bic)
 
     @property
@@ -363,7 +363,7 @@ class BIC(common.Base):
             formatted += " " + self.branch_code
         return formatted
 
-    def _lookup_values(self, key: str) -> list:
+    def _lookup_values(self, key: str) -> list[str]:
         spec = registry.get("bic")
         assert isinstance(spec, dict)
         entries = spec.get(str(self), [])

@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import ClassVar
 
 from schwifty import checksum
+from schwifty._compat import override
 from schwifty.domain import Component
 
 
@@ -14,6 +15,7 @@ class DefaultAlgorithm(checksum.Algorithm):
         Component.BRANCH_CODE,
     ]
 
+    @override
     def compute(self, components: list[str]) -> str:
         weights = [3, 9, 7, 1, 3, 9, 7]
         digit = checksum.weighted("".join(components), 10, weights)

@@ -12,6 +12,7 @@ from itertools import cycle
 from typing import ClassVar
 
 from schwifty import checksum
+from schwifty._compat import override
 from schwifty.domain import Component
 from schwifty.exceptions import InvalidBBANChecksum
 
@@ -44,6 +45,7 @@ class WeightedModulus(checksum.Algorithm):
         self.weighted_sum: int = 0
         self.remainder: int = 0
 
+    @override
     def compute(self, components: list[str]) -> str:
         [account_code] = components
         digits = self.get_digits(self.adjust_input(account_code))
@@ -86,6 +88,7 @@ class WeightedModulus(checksum.Algorithm):
     def reconcile(self, checksum: int) -> int:
         return 0 if checksum >= 10 else checksum
 
+    @override
     def validate(self, components: list[str], expected: str) -> bool:
         account_code = self.adjust_input(components[0])
         check_digit = self.compute(components)
@@ -109,6 +112,7 @@ class Algorithm00(WeightedMod10):
     positions: ClassVar[Positions] = Positions(start=1, end=9, check_digit=10)
     weights: ClassVar[list[int]] = [2, 1]
 
+    @override
     def compute_summand(self, digit: int, weight: int) -> int:
         return digit_sum(super().compute_summand(digit, weight))
 
@@ -126,6 +130,7 @@ class Algorithm02(WeightedMod11):
     positions: ClassVar[Positions] = Positions(start=1, end=9, check_digit=10)
     weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7, 8, 9]
 
+    @override
     def reconcile(self, checksum: int) -> int:
         if self.remainder == 0:
             return 0
@@ -170,12 +175,14 @@ class Algorithm08(Algorithm00):
     name = "08"
     min_account_code = 6000
 
+    @override
     def compute(self, components: list[str]) -> str:
         [account_code] = components
         if int(account_code) < self.min_account_code:
             return ""
         return super().compute(components)
 
+    @override
     def validate(self, components: list[str], expected: str) -> bool:
         [account_code] = components
         if int(account_code) < self.min_account_code:
@@ -188,9 +195,11 @@ class Algorithm09(checksum.Algorithm):
     name = "09"
     accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
 
+    @override
     def compute(self, components: list[str]) -> str:
         return ""
 
+    @override
     def validate(self, components: list[str], expected: str) -> bool:
         return True
 
@@ -205,6 +214,7 @@ class Algorithm10(Algorithm06):
 class Algorithm11(Algorithm10):
     name = "11"
 
+    @override
     def reconcile(self, checksum: int) -> int:
         if checksum == 10:
             return 9
@@ -238,6 +248,7 @@ class Algorithm16(Algorithm06):
     positions = Positions(start=6, end=9, check_digit=10)
     weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7]
 
+    @override
     def validate(self, components: list[str], expected: str) -> bool:
         [account_code] = components
         check_digit = self.compute(components)
@@ -254,9 +265,11 @@ class Algorithm17(WeightedMod11):
     reverse: ClassVar[bool] = False
     weights: ClassVar[list[int]] = [1, 2]
 
+    @override
     def compute_weighted_sum(self, digits: str) -> int:
         return super().compute_weighted_sum(digits) - 1
 
+    @override
     def compute_summand(self, digit: int, weight: int) -> int:
         return digit_sum(super().compute_summand(digit, weight))
 
@@ -284,6 +297,7 @@ class Algorithm21(Algorithm00):
     name = "21"
     weights: ClassVar[list[int]] = [2, 1]
 
+    @override
     def compute_remainder(self, number: int) -> int:
         while number >= 10:
             number = digit_sum(number)
@@ -295,6 +309,7 @@ class Algorithm22(Algorithm01):
     name = "22"
     weights: ClassVar[list[int]] = [3, 1]
 
+    @override
     def compute_summand(self, digit: int, weight: int) -> int:
         return super().compute_summand(digit, weight) % 10
 
@@ -314,6 +329,7 @@ class Algorithm24(WeightedMod10):
     reverse = False
     weights: ClassVar[list[int]] = [1, 2, 3]
 
+    @override
     def get_digits(self, account_code: str) -> str:
         digits = super().get_digits(account_code)
         if int(digits[0]) in {3, 4, 5, 6}:
@@ -322,6 +338,7 @@ class Algorithm24(WeightedMod10):
             digits = digits[3:]
         return digits.lstrip("0")
 
+    @override
     def compute_summand(self, digit: int, weight: int) -> int:
         return (super().compute_summand(digit, weight) + weight) % 11
 
@@ -332,7 +349,8 @@ class Algorithm25(WeightedMod11):
     positions = Positions(start=2, end=9, check_digit=10)
     weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7, 8, 9]
 
-    def validate(self, components: list[str], expected) -> bool:
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
         result = super().validate(components, expected)
         [account_code] = components
         if self.remainder == 1 and account_code[1] not in {"8", "9"}:
@@ -346,6 +364,7 @@ class Algorithm26(Algorithm06):
     positions = Positions(start=1, end=7, check_digit=8)
     weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7]
 
+    @override
     def adjust_input(self, account_code: str) -> str:
         if account_code.startswith("00"):
             account_code = account_code[2:] + "00"
@@ -399,6 +418,7 @@ class Algorithm61(Algorithm00):
     positions = Positions(start=1, end=7, check_digit=8)
     weights: ClassVar[list[int]] = [2, 1]
 
+    @override
     def get_digits(self, account_code: str) -> str:
         digits = super().get_digits(account_code)
         if account_code[8] == "8":
@@ -412,9 +432,11 @@ class Algorithm63(WeightedMod10):
     positions = Positions(start=2, end=7, check_digit=8)
     weights: ClassVar[list[int]] = [2, 1]
 
+    @override
     def compute_summand(self, digit: int, weight: int) -> int:
         return digit_sum(super().compute_summand(digit, weight))
 
+    @override
     def validate(self, components: list[str], expected: str) -> bool:
         [account_code] = components
         if account_code[0] != "0":
@@ -428,6 +450,7 @@ class Algorithm68(Algorithm00):
     positions = Positions(start=1, end=9, check_digit=10)
     weights: ClassVar[list[int]] = [2, 1]
 
+    @override
     def get_digits(self, account_code: str) -> str:
         digits = super().get_digits(account_code)
         # The digits are already reversed at this point. The algorithm counts the positions from
@@ -442,6 +465,7 @@ class Algorithm68(Algorithm00):
             digits = digits[:6]
         return digits
 
+    @override
     def validate(self, components: list[str], expected: str) -> bool:
         [account_code] = components
         if 400_000_000 <= int(account_code) <= 499_999_999:
@@ -462,10 +486,12 @@ class Algorithm76(WeightedMod11):
     positions = Positions(start=2, end=7, check_digit=8)
     weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7, 8]
 
+    @override
     def get_digits(self, account_code: str) -> str:
         digits = super().get_digits(account_code)
         return digits.rstrip("0")
 
+    @override
     def validate(self, components: list[str], expected: str) -> bool:
         [account_code] = components
         if int(account_code[0]) not in {0, 4, 6, 7, 8, 9}:
@@ -479,6 +505,7 @@ class Algorithm88(Algorithm06):
     positions = Positions(start=4, end=9, check_digit=10)
     weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7, 8]
 
+    @override
     def get_positions(self, account_code: str) -> Positions:
         if account_code[2] == "9":
             return Positions(start=3, end=9, check_digit=10)
@@ -504,9 +531,11 @@ class Algorithm91(checksum.Algorithm):
     class Variant4(Variant1):
         weights: ClassVar[list[int]] = [2, 4, 8, 5, 10, 9]
 
+    @override
     def compute(self, components: list[str]) -> str:
         return self.Variant1().compute(components)
 
+    @override
     def validate(self, components: list[str], expected: str) -> bool:
         for algo_cls in [self.Variant1, self.Variant2, self.Variant3, self.Variant4]:
             if algo_cls().validate(components, expected):
@@ -518,6 +547,7 @@ class Algorithm91(checksum.Algorithm):
 class Algorithm99(Algorithm06):
     name = "99"
 
+    @override
     def validate(self, components: list[str], expected: str) -> bool:
         [account_code] = components
         if account_code in {"0499999999", "0396000000"}:

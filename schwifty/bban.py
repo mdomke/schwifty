@@ -10,6 +10,7 @@ from rstr import Rstr
 from schwifty import common
 from schwifty import exceptions
 from schwifty import registry
+from schwifty._compat import override
 from schwifty.bic import BIC
 from schwifty.checksum import algorithms
 from schwifty.domain import Component
@@ -94,6 +95,7 @@ class BBAN(common.Base):
     def __getnewargs__(self) -> tuple[str, str]:  # type: ignore[override]
         return (self.country_code, self.compact)
 
+    @override
     def __deepcopy__(self, memo: dict[str, Any] | None = None) -> Self:
         return self.__class__(self.country_code, self.compact)
 
@@ -335,7 +337,7 @@ class BBAN(common.Base):
         return self._get_component(Component.CURRENCY_CODE)
 
     @property
-    def bank(self) -> dict | None:
+    def bank(self) -> dict[str, Any] | None:
         """dict | None: The information of bank related to this BBANs bank code."""
         bank_registry = registry.get("bank_code")
         assert isinstance(bank_registry, dict)

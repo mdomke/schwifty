@@ -4,6 +4,7 @@ from itertools import cycle
 from typing import ClassVar
 
 from schwifty import checksum
+from schwifty._compat import override
 from schwifty.domain import Component
 
 
@@ -15,6 +16,7 @@ class DefaultAlgorithm(checksum.Algorithm):
         Component.ACCOUNT_CODE,
     ]
 
+    @override
     def compute(self, components: list[str]) -> str:
         weights = cycle([7, 3, 1])
         digit = checksum.weighted(reversed("".join(components)), 10, weights)

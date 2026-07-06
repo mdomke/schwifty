@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import ClassVar
 
 from schwifty import checksum
+from schwifty._compat import override
 from schwifty.domain import Component
 
 
@@ -23,6 +24,7 @@ class DefaultAlgorithm(checksum.Algorithm):
         Component.ACCOUNT_CODE,
     ]
 
+    @override
     def compute(self, components: list[str]) -> str:
         bank_code, branch_code, account_code = components
         weights = [1, 2, 4, 8, 5, 10, 9, 7, 3, 6]
