@@ -13,9 +13,9 @@ jobs:
         with:
           fetch-depth: 0
       - name: Install uv
-        uses: astral-sh/setup-uv@8
+        uses: astral-sh/setup-uv@v8
         with:
-          python-version: "3.13"
+          python-version: "3.14"
       - name: Build
         run: uv build
       - name: Publish
