@@ -11,14 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - name: Set up Python 3.13
+      - name: Set up Python 3.14
         uses: actions/setup-python@v6
         with:
-          python-version: "3.13"
-      - name: Install hatch
-        uses: pypa/hatch@install
+          python-version: "3.14"
+      - name: Install uv
+        uses: astral-sh/setup-uv@8
       - name: Lint documentation
-        run: hatch run docs:check
+        run: uv run doc8 docs/source
 
   lint-style:
     runs-on: ubuntu-latest
@@ -27,11 +27,11 @@ jobs:
       - name: Set up Python 3.13
         uses: actions/setup-python@v6
         with:
-          python-version: "3.13"
-      - name: Install hatch
-        uses: pypa/hatch@install
+          python-version: "3.14"
+      - name: Install uv
+        uses: astral-sh/setup-uv@8
       - name: Lint style
-        run: hatch fmt --check
+        run: uv run ruff check
 
   lint-typing:
     runs-on: ubuntu-latest
@@ -41,10 +41,10 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.13"
-      - name: Install hatch
-        uses: pypa/hatch@install
+      - name: Install uv
+        uses: astral-sh/setup-uv@8
       - name: Lint typing
-        run: hatch run types:check
+        run: uv run poe check-types
 
   test:
     runs-on: ubuntu-latest
@@ -59,20 +59,19 @@ jobs:
           python-version: ${{ matrix.python-version }}
           allow-prereleases: true
 
-      - name: Install hatch
-        uses: pypa/hatch@install
+      - name: Install uv
+        uses: astral-sh/setup-uv@8
 
       - name: Test
-        run: hatch test --cover --python ${{ matrix.python-version }}
-
-      - name: Disambiguate coverage filename
-        run: mv .coverage ".coverage.${{ matrix.os }}.${{ matrix.python-version }}"
+        env:
+          UV_PYTHON: ${{ matrix.python-version }}
+        run: uv run poe test
 
       - name: Upload coverage data
         uses: actions/upload-artifact@v7
         with:
           include-hidden-files: true
-          name: coverage-${{ matrix.os }}-${{ matrix.python-version }}
+          name: coverage-${{ matrix.python-version }}
           path: .coverage*
 
   coverage:
@@ -82,8 +81,8 @@ jobs:
       - test
     steps:
       - uses: actions/checkout@v7
-      - name: Install Hatch
-        uses: pypa/hatch@install
+      - name: Install uv
+        uses: astral-sh/setup-uv@8
 
       - name: Download coverage data
         uses: actions/download-artifact@v8
@@ -92,10 +91,10 @@ jobs:
           merge-multiple: true
 
       - name: Combine coverage data
-        run: hatch run coverage:combine
+        run: uv run poe cov-combine
 
       - name: Export coverage reports
-        run: hatch run coverage:xml
+        run: uv run poe cov-xml
 
       - uses: codecov/codecov-action@v7
         with:

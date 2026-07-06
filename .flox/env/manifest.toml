@@ -1,12 +1,4 @@
-## Flox Environment Manifest -----------------------------------------
-##
-##   _Everything_ you need to know about the _manifest_ is here:
-##
-##   https://flox.dev/docs/reference/command-reference/manifest.toml/
-##
-## -------------------------------------------------------------------
-# Flox manifest version managed by Flox CLI
-version = 1
+schema-version = "1.12.0"
 
 
 ## Install Packages --------------------------------------------------
@@ -16,7 +8,7 @@ version = 1
 ## -------------------------------------------------------------------
 [install]
 uv.pkg-path = "uv"
-pre-commit.pkg-path = "pre-commit"
+prek.pkg-path = "prek"
 
 
 ## Environment Variables ---------------------------------------------
@@ -48,7 +40,7 @@ on-activate = """
     uv sync --managed-python --all-groups --all-extras --active
 
     if [ ! -e "$FLOX_ENV_PROJECT/.git/hooks/pre-commit" ]; then
-      pre-commit install
+      prek install
     fi
   )
 """

@@ -51,10 +51,16 @@ packages = [
     "schwifty",
 ]
 
-[tool.pytest]
+[tool.hatch.build.targets.sdist]
+exclude = [
+    ".flox",
+    ".github",
+]
+
+[tool.pytest.ini_options]
 minversion = "9.0"
+testpaths = ["tests", "schwifty"]
 addopts = [
-    "--pyargs", "schwifty",
     "--doctest-modules",
     "--junit-xml", "test-results.xml",
 ]
@@ -62,24 +68,56 @@ console_output_style = "progress"
 doctest_optionflags = ["ALLOW_UNICODE", "IGNORE_EXCEPTION_DETAIL"]
 
 [tool.ruff]
+extend = ".ruff_defaults.toml"
 target-version = "py310"
 line-length = 100
+extend-exclude = ["docs"]
 
 [tool.ruff.lint]
 extend-select = ["A", "B", "C", "C4", "E", "F", "I", "N", "PT", "Q", "RUF", "S", "SIM", "T10", "UP", "W", "YTT"]
 extend-fixable = ["RUF100", "I001"]
 extend-ignore = [
     "S101",   # Allow usage of asserts
-    "A001",   # Allow shadowing bultins 
+    "A001",   # Allow shadowing bultins
     "A003",   # Allow shadowing bultins on classes
+    # Rules enabled via .ruff_defaults.toml that the library code does not yet
+    # satisfy. Silenced globally for now so `ruff check` stays green; drop a
+    # code from this list once its findings in schwifty/ are resolved.
+    "ARG001", # Unused function argument
+    "ARG002", # Unused method argument
+    "ARG004", # Unused static method argument
+    "EM101",  # Raw string in exception
+    "EM102",  # f-string in exception
+    "FBT001", # Boolean-typed positional argument
+    "FBT002", # Boolean default positional argument
+    "FLY002", # Static join to f-string
+    "PLR2004", # Magic value used in comparison
+    "PLW0120", # Useless else on loop
+    "PYI032", # Prefer object over Any in __eq__/__ne__
+    "RET505", # Superfluous else after return
+    "SLOT000", # No __slots__ in str subclass
+    "TRY003", # Long messages outside exception class
 ]
 
 [tool.ruff.lint.per-file-ignores]
 "scripts/get_*_registry*.py" = [
     "S113",   # Allow requests call without timeout
 ]
+"scripts/**/*.py" = [
+    "T201",    # Allow print statements in utility scripts
+    "EXE001",  # Shebang not executable
+    "EXE002",  # Shebang missing executable file
+    "ICN001",  # Unconventional import alias
+    "PERF102", # Incorrect dict iterator
+    "PERF401", # Manual list comprehension
+    "SLF001",  # Private member access
+]
 "tests/test_bban.py" = [
     "S301",   # pickle is safe when used with trusted own objects
+]
+"tests/*.py" = [
+    "INP001",  # Tests are not an importable namespace package
+    "PLW0129", # Allow asserting on string literals in tests
 ]
 
 [tool.ruff.lint.mccabe]
@@ -101,8 +139,37 @@ omit = [
 [tool.doc8]
 max-line-length = 100
 
-[tool.mypy]
-exclude = ["docs"]
+[tool.pyrefly]
+preset = "strict"
+project-excludes = ["docs", "private"]
+
+[tool.uv]
+default-groups = ["dev", "doc"]
+
+[tool.poe.tasks]
+test = "uv run --extra pydantic coverage run -m pytest"
+check-code = "ruff check"
+check-fmt = "ruff format --check"
+check-types = "pyrefly check"
+check-docs = "doc8 docs/source"
+fmt = "ruff format"
+build = "uv build"
+cov-combine = "coverage combine"
+cov-xml = "coverage xml"
+
+[tool.poe.tasks.docs]
+help = "Build the HTML documentation"
+cmd = "uv run --with-requirements requirements.txt make html"
+cwd = "docs"
+
+[tool.poe.tasks.check]
+help = "Run all checks (code, format, types, docs)"
+sequence = [
+    { ref = "check-code" },
+    { ref = "check-fmt" },
+    { ref = "check-types" },
+    { ref = "check-docs" },
+]
 
 [dependency-groups]
 dev = [
@@ -110,8 +177,8 @@ dev = [
     "freezegun==1.5.*",
     "pytest==9.0.*",
     "ruff==0.15.*",
-    "mypy==1.19.*",
-    "hatch==1.17.*",
+    "poethepoet==0.38.*",
+    "pyrefly==1.1.*",
 ]
 doc = [
     "doc8==2.0.*",

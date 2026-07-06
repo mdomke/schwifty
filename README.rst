@@ -6,8 +6,8 @@
     :target: https://pypi.python.org/pypi/schwifty
 .. image:: https://readthedocs.org/projects/schwifty/badge/?version=latest&style=flat-square
     :target: https://schwifty.readthedocs.io
-.. image:: https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square
-    :target: https://black.readthedocs.io/en/stable/index.html
+.. image:: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json&style=flat-square
+    :target: https://github.com/astral-sh/ruff
 .. image:: https://img.shields.io/codecov/c/gh/mdomke/schwifty?token=aJj1Yg0NUq&style=flat-square
     :target: https://codecov.io/gh/mdomke/schwifty
 
@@ -65,16 +65,16 @@ To install ``schwifty``, simply:
 Development
 -----------
 
-We use the `black`_ as code formatter. This avoids discussions about style preferences in the same
-way as ``gofmt`` does the job for Golang. The conformance to the formatting rules is checked in the
-CI pipeline, so that it is recommendable to install the configured `pre-commit`_-hook, in order to
-avoid long feedback-cycles.
+We use `ruff`_ as code formatter and linter. This avoids discussions about style preferences in the
+same way as ``gofmt`` does the job for Golang. The conformance to the formatting rules is checked in
+the CI pipeline, so that it is recommendable to install the configured `prek`_-hook, in order
+to avoid long feedback-cycles.
 
 .. code-block:: bash
 
-   $ pre-commit install
+   $ prek install
 
-You can also use the ``fmt`` Makefile-target to format the code or use one of the available `editor
+You can also run ``uv run poe fmt`` to format the code or use one of the available `editor
 integrations`_.
 
 
@@ -94,9 +94,9 @@ to point out the connection to SWIFT, Rick and Morty came up with the idea to na
 .. image:: https://i.cdn.turner.com/adultswim/big/video/get-schwifty-pt-2/rickandmorty_ep205_002_vbnuta15a755dvash8.jpg
 
 
-.. _black: https://black.readthedocs.io/en/stable/index.html
-.. _pre-commit: https://pre-commit.com
-.. _editor integrations:  https://black.readthedocs.io/en/stable/editor_integration.html
+.. _ruff: https://docs.astral.sh/ruff/
+.. _prek: https://prek.j178.dev
+.. _editor integrations:  https://docs.astral.sh/ruff/editors/
 .. _MIT: https://choosealicense.com/licenses/mit/
 .. _Read the Docs: https://schwifty.readthedocs.io
 .. _GitHub: https://github.com/mdomke/schwifty

@@ -93,10 +93,10 @@ class BIC(common.Base):
 
         Examples:
             >>> bic_codes = BIC.candidates_from_bank_code("FR", "30004")
-            >>> bic_codes # doctest: +ELLIPSIS
+            >>> bic_codes  # doctest: +ELLIPSIS
             [<BIC=BNPAFRPPIFN>, <BIC=BNPAFRPPPAA>, <BIC=BNPAFRPPMED>, ...]
 
-            >>> BIC.candidates_from_bank_code("DE", "20070024") # doctest: +ELLIPSIS
+            >>> BIC.candidates_from_bank_code("DE", "20070024")  # doctest: +ELLIPSIS
             [<BIC=DEUTDEDBHAM>, <BIC=DEUTDEDB200>, ...]
 
             >>> BIC.candidates_from_bank_code("DE", "01010101")
