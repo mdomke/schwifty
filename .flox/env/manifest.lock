@@ -3,9 +3,6 @@
   "manifest": {
     "schema-version": "1.12.0",
     "install": {
-      "prek": {
-        "pkg-path": "prek"
-      },
       "uv": {
         "pkg-path": "uv"
       }
@@ -22,126 +19,6 @@
     "options": {}
   },
   "packages": [
-    {
-      "attr_path": "prek",
-      "broken": false,
-      "derivation": "/nix/store/k1vkjvwnh5ix74zyimgvmhmgc95hxplm-prek-0.3.0.drv",
-      "description": "Better `pre-commit`, re-engineered in Rust ",
-      "install_id": "prek",
-      "license": "[ MIT ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=80bdc1e5ce51f56b19791b52b2901187931f5353",
-      "name": "prek-0.3.0",
-      "pname": "prek",
-      "rev": "80bdc1e5ce51f56b19791b52b2901187931f5353",
-      "rev_count": 958232,
-      "rev_date": "2026-03-04T11:34:51Z",
-      "scrape_date": "2026-03-06T04:40:42.404143Z",
-      "stabilities": [
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "0.3.0",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/227icwp3g1zpw31axsg8jcq0ldxwsmyn-prek-0.3.0"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "prek",
-      "broken": false,
-      "derivation": "/nix/store/ac214namh45256fgssd1al89p9zzcnv2-prek-0.3.0.drv",
-      "description": "Better `pre-commit`, re-engineered in Rust ",
-      "install_id": "prek",
-      "license": "[ MIT ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=80bdc1e5ce51f56b19791b52b2901187931f5353",
-      "name": "prek-0.3.0",
-      "pname": "prek",
-      "rev": "80bdc1e5ce51f56b19791b52b2901187931f5353",
-      "rev_count": 958232,
-      "rev_date": "2026-03-04T11:34:51Z",
-      "scrape_date": "2026-03-06T05:11:48.432535Z",
-      "stabilities": [
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "0.3.0",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/dpnyq93dp3sx0h2l4dxkcxin0266pw04-prek-0.3.0"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "prek",
-      "broken": false,
-      "derivation": "/nix/store/n66kbqly9ba1npbp8g9brabmnvp84f2q-prek-0.3.0.drv",
-      "description": "Better `pre-commit`, re-engineered in Rust ",
-      "install_id": "prek",
-      "license": "[ MIT ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=80bdc1e5ce51f56b19791b52b2901187931f5353",
-      "name": "prek-0.3.0",
-      "pname": "prek",
-      "rev": "80bdc1e5ce51f56b19791b52b2901187931f5353",
-      "rev_count": 958232,
-      "rev_date": "2026-03-04T11:34:51Z",
-      "scrape_date": "2026-03-06T05:40:20.309862Z",
-      "stabilities": [
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "0.3.0",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/d26lb1m8wdqsi6nnaz298yhzja5s17d1-prek-0.3.0"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "prek",
-      "broken": false,
-      "derivation": "/nix/store/k1mj23fm4w9ygv5as8s00i26klq8dsbn-prek-0.3.0.drv",
-      "description": "Better `pre-commit`, re-engineered in Rust ",
-      "install_id": "prek",
-      "license": "[ MIT ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=80bdc1e5ce51f56b19791b52b2901187931f5353",
-      "name": "prek-0.3.0",
-      "pname": "prek",
-      "rev": "80bdc1e5ce51f56b19791b52b2901187931f5353",
-      "rev_count": 958232,
-      "rev_date": "2026-03-04T11:34:51Z",
-      "scrape_date": "2026-03-06T06:14:32.048379Z",
-      "stabilities": [
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "0.3.0",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/lask94lpdm3lx3bnyw6cgnzkgmlxc5vc-prek-0.3.0"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
     {
       "attr_path": "uv",
       "broken": false,

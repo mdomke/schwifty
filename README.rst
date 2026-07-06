@@ -65,6 +65,9 @@ To install ``schwifty``, simply:
 Development
 -----------
 
+The only prerequisite to work on ``schwifty`` is `uv`_. Running ``uv sync`` creates a virtual
+environment with all development dependencies (including the tools mentioned below).
+
 We use `ruff`_ as code formatter and linter. This avoids discussions about style preferences in the
 same way as ``gofmt`` does the job for Golang. The conformance to the formatting rules is checked in
 the CI pipeline, so that it is recommendable to install the configured `prek`_-hook, in order
@@ -72,7 +75,8 @@ to avoid long feedback-cycles.
 
 .. code-block:: bash
 
-   $ prek install
+   $ uv sync
+   $ uv run prek install
 
 You can also run ``uv run poe fmt`` to format the code or use one of the available `editor
 integrations`_.
@@ -94,6 +98,7 @@ to point out the connection to SWIFT, Rick and Morty came up with the idea to na
 .. image:: https://i.cdn.turner.com/adultswim/big/video/get-schwifty-pt-2/rickandmorty_ep205_002_vbnuta15a755dvash8.jpg
 
 
+.. _uv: https://docs.astral.sh/uv/
 .. _ruff: https://docs.astral.sh/ruff/
 .. _prek: https://prek.j178.dev
 .. _editor integrations:  https://docs.astral.sh/ruff/editors/

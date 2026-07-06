@@ -178,6 +178,7 @@ dev = [
     "pytest==9.0.*",
     "ruff==0.15.*",
     "poethepoet==0.38.*",
+    "prek==0.4.*",
     "pyrefly==1.1.*",
 ]
 doc = [

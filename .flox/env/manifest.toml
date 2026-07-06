@@ -8,7 +8,6 @@ schema-version = "1.12.0"
 ## -------------------------------------------------------------------
 [install]
 uv.pkg-path = "uv"
-prek.pkg-path = "prek"
 
 
 ## Environment Variables ---------------------------------------------
