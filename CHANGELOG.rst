@@ -8,6 +8,14 @@ Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro
 Unreleased
 ----------
 
+
+`2026.07.1`_ - 2026/07/06
+-------------------------
+Fixed
+~~~~~
+* Reverted changes to Italian bank registry due to invalid bank codes being added.
+
+
 `2026.07.0`_ - 2026/07/02
 -------------------------
 Added
@@ -812,6 +820,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2026.07.1: https://github.com/mdomke/schwifty/compare/2026.07.0...2026.07.1
 .. _2026.07.0: https://github.com/mdomke/schwifty/compare/2026.03.0...2026.07.0
 .. _2026.03.0: https://github.com/mdomke/schwifty/compare/2026.01.0...2026.03.0
 .. _2026.01.0: https://github.com/mdomke/schwifty/compare/2025.09.0...2026.01.0
