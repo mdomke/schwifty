@@ -8,9 +8,11 @@ repos:
     rev: v2.0.0
     hooks:
       - id: doc8
-  - repo: https://github.com/facebook/pyrefly-pre-commit
-    rev: 1.1.1
+  - repo: local
     hooks:
       - id: pyrefly-check
-        pass_filenames: false
+        name: pyrefly
+        entry: uv run pyrefly check
         language: system
+        types: [python]
+        pass_filenames: false
