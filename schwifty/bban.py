@@ -214,7 +214,12 @@ class BBAN(common.Base):
             return cls(country_code, rstr.xeger(spec["regex"]).upper())
 
         ranges = _get_position_ranges(spec)
-        for _ in range(100):
+        # A random account code only satisfies a bank-specific national checksum with
+        # low probability (some German methods hit roughly 1-in-50), so allow enough
+        # attempts that a valid BBAN is found in practice. Countries without a checksum
+        # succeed on the first iteration, so the higher bound only affects the retry
+        # path.
+        for _ in range(2000):
             bban = rstr.xeger(spec["regex"]).upper()
             components: dict[Component, str] = {}
             for key, range_ in ranges.items():
@@ -238,13 +243,18 @@ class BBAN(common.Base):
                 components[key] = value[: ranges[key].length]
 
             try:
-                return cls.from_components(
+                bban = cls.from_components(
                     country_code, **{key.value: value for key, value in components.items()}
                 )
+                # A randomly generated account code will usually not satisfy the
+                # bank-specific national checksum (e.g. the many German methods), so
+                # reject and retry until the generated BBAN validates against its own
+                # checksum algorithm. Banks without a known algorithm validate trivially.
+                bban.validate_national_checksum()
             except exceptions.SchwiftyException:
-                pass
-        else:
-            raise exceptions.GenerateRandomOverflowError
+                continue
+            return bban
+        raise exceptions.GenerateRandomOverflowError
 
     def validate_national_checksum(self) -> bool:
         """bool: Validate the national checksum digits.

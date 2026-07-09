@@ -422,6 +422,16 @@ def test_random_iban() -> None:
         assert isinstance(iban, IBAN)
 
 
+@pytest.mark.parametrize("country_code", ["DE", "IT", "BE"])
+def test_random_passes_national_checksum(country_code: str) -> None:
+    # Regression test for #219: randomly generated IBANs for countries with a
+    # bank-specific national checksum (e.g. the German methods) must satisfy that
+    # checksum, i.e. ``validate(validate_bban=True)`` must not raise.
+    for _ in range(50):
+        iban = IBAN.random(country_code=country_code)
+        assert iban.validate(validate_bban=True) is True
+
+
 def test_random_special_cases() -> None:
     iban = IBAN.random(country_code="MU")
     assert iban.endswith("000MUR")
