@@ -7,6 +7,13 @@ Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro
 
 Unreleased
 ----------
+Fixed
+~~~~~
+* Validate the whole BIC string when checking its structure. Previously the
+  check was only anchored at the start, so an 11-character BIC with
+  non-alphanumeric characters in the branch code (e.g. ``GENODEM1@#%``) was
+  accepted and even exposed the garbage through ``BIC.branch_code``
+  `@gaoflow <https://github.com/gaoflow>`_.
 
 
 `2026.07.1`_ - 2026/07/06

@@ -100,12 +100,45 @@ def test_enforce_swift_compliance() -> None:
         ("AAAA", exceptions.InvalidLength),
         ("AAAADEM1GLSX", exceptions.InvalidLength),
         ("GENOD1M1GLS", exceptions.InvalidStructure),
+        ("GENODEM1@#%", exceptions.InvalidStructure),
         ("GENOXXM1GLS", exceptions.InvalidCountryCode),
     ],
 )
 def test_invalid_bic(code: str, exc: type[Exception]) -> None:
     with pytest.raises(exc):
         BIC(code)
+
+
+@pytest.mark.parametrize(
+    "code",
+    [
+        "GENODEM1@#%",  # symbols in the branch code
+        "GENODEM1G-S",  # dash in the branch code
+        "GENODEM1GL*",  # star in the branch code
+        "MARKDEF1$$$",  # dollar signs in the branch code
+        "GENODEM1..X",  # dots in the branch code
+    ],
+)
+def test_invalid_bic_branch_code_characters(code: str) -> None:
+    # An 11-character BIC whose branch code (positions 9-11) contains
+    # non-alphanumeric characters must be rejected. The structure check only
+    # anchored the start of the string, so with the branch-code group being
+    # optional the trailing garbage slipped through and was even exposed via
+    # ``BIC.branch_code``.
+    with pytest.raises(exceptions.InvalidStructure):
+        BIC(code)
+    with pytest.raises(exceptions.InvalidStructure):
+        BIC(code, enforce_swift_compliance=True)
+
+    invalid = BIC(code, allow_invalid=True)
+    assert not invalid.is_valid
+
+
+def test_bic_structure_is_validated_over_full_string() -> None:
+    # Regression guard for the full-string structure validation: genuinely valid
+    # 8- and 11-character BICs must keep validating after the fix.
+    for code in ("GENODEM1", "GENODEM1GLS", "MARKDEF1100", "1234DEWWXXX"):
+        assert BIC(code).validate()
 
 
 @pytest.mark.parametrize(
