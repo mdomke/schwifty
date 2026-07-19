@@ -19,6 +19,11 @@ Fixed
   specification method ``16`` is computed like method ``06`` over positions
   ``1-9``; only method ``15`` is restricted to positions ``6-9``. Valid IBANs
   for banks using method ``16`` (e.g. Hanseatic Bank) were wrongly rejected.
+* Fixed the German checksum method ``08`` threshold. Per the Bundesbank
+  specification the check digit is only applied from account number ``60000``
+  upward, but the threshold was set to ``6000``. Accounts in the
+  ``[6000, 60000)`` range for banks using method ``08`` (e.g. NRW.BANK,
+  Helaba) were wrongly rejected.
   `@chuenchen309 <https://github.com/chuenchen309>`_.
 
 
