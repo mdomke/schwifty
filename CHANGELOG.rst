@@ -9,6 +9,11 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* German checksum method 11 rejected valid account numbers whose check digit is
+  ``0``. ``Algorithm11.reconcile`` returned the raw value ``11`` for these
+  accounts instead of mapping it to ``0`` like the base method 06/10 do, so
+  ``validate`` compared against the impossible two-digit check digit ``"11"``
+  `@chuenchen309 <https://github.com/chuenchen309>`_.
 * Validate the whole BIC string when checking its structure. Previously the
   check was only anchored at the start, so an 11-character BIC with
   non-alphanumeric characters in the branch code (e.g. ``GENODEM1@#%``) was
