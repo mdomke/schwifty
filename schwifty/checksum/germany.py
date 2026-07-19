@@ -245,7 +245,7 @@ class Algorithm15(Algorithm06):
 @register
 class Algorithm16(Algorithm06):
     name = "16"
-    positions = Positions(start=6, end=9, check_digit=10)
+    positions = Positions(start=1, end=9, check_digit=10)
     weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7]
 
     @override
