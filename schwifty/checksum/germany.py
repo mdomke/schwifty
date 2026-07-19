@@ -218,7 +218,7 @@ class Algorithm11(Algorithm10):
     def reconcile(self, checksum: int) -> int:
         if checksum == 10:
             return 9
-        return checksum
+        return super().reconcile(checksum)
 
 
 @register
