@@ -14,6 +14,12 @@ Fixed
   non-alphanumeric characters in the branch code (e.g. ``GENODEM1@#%``) was
   accepted and even exposed the garbage through ``BIC.branch_code``
   `@gaoflow <https://github.com/gaoflow>`_.
+* Fixed the German checksum method ``08`` threshold. Per the Bundesbank
+  specification the check digit is only applied from account number ``60000``
+  upward, but the threshold was set to ``6000``. Accounts in the
+  ``[6000, 60000)`` range for banks using method ``08`` (e.g. NRW.BANK,
+  Helaba) were wrongly rejected.
+  `@chuenchen309 <https://github.com/chuenchen309>`_.
 
 
 `2026.07.1`_ - 2026/07/06
