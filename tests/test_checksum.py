@@ -66,6 +66,10 @@ from schwifty.checksum import algorithms
         ("0847321750", "DE:99"),
         ("0396000000", "DE:99"),
         ("0499999999", "DE:99"),
+        # Method 08 applies no check digit below account number 60000, so an
+        # account in [6000, 60000) is valid regardless of its check digit.
+        ("0000006000", "DE:08"),
+        ("0000059999", "DE:08"),
     ],
 )
 def test_german_checksum_success(account_code: str, algorithm_name: str) -> None:
@@ -85,6 +89,9 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("8840062000", "DE:91"),
         ("8840010000", "DE:91"),
         ("8840057000", "DE:91"),
+        # From account number 60000 upward method 08 does apply the check, so a
+        # wrong check digit must still be rejected.
+        ("0000060000", "DE:08"),
     ],
 )
 def test_german_checksum_failure(account_code: str, algorithm_name: str) -> None:

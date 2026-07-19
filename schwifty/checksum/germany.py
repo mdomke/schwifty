@@ -173,7 +173,7 @@ class Algorithm07(Algorithm02):
 @register
 class Algorithm08(Algorithm00):
     name = "08"
-    min_account_code = 6000
+    min_account_code = 60000
 
     @override
     def compute(self, components: list[str]) -> str:
