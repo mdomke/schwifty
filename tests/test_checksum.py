@@ -12,6 +12,10 @@ from schwifty.checksum import algorithms
         ("0001501832", "DE:00"),
         ("0094012341", "DE:06"),
         ("5073321010", "DE:06"),
+        # Method 16 computes like method 06 over positions 1-9 (only method 15
+        # is restricted to positions 6-9), so a valid method-06 account is valid
+        # for method 16 too.
+        ("0094012341", "DE:16"),
         ("0012345008", "DE:10"),
         ("0087654008", "DE:10"),
         ("0446786040", "DE:17"),

@@ -14,6 +14,11 @@ Fixed
   non-alphanumeric characters in the branch code (e.g. ``GENODEM1@#%``) was
   accepted and even exposed the garbage through ``BIC.branch_code``
   `@gaoflow <https://github.com/gaoflow>`_.
+* Fixed the German checksum method ``16``. It was computed over account
+  positions ``6-9`` (copied from method ``15``), but per the Bundesbank
+  specification method ``16`` is computed like method ``06`` over positions
+  ``1-9``; only method ``15`` is restricted to positions ``6-9``. Valid IBANs
+  for banks using method ``16`` (e.g. Hanseatic Bank) were wrongly rejected.
 * Fixed the German checksum method ``08`` threshold. Per the Bundesbank
   specification the check digit is only applied from account number ``60000``
   upward, but the threshold was set to ``6000``. Accounts in the
