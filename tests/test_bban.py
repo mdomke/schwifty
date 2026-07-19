@@ -4,6 +4,7 @@ import pickle
 import pytest
 
 from schwifty.bban import BBAN
+from schwifty.exceptions import GenerateRandomOverflowError
 from schwifty.exceptions import InvalidBBANChecksum
 
 
@@ -37,6 +38,18 @@ def test_random(country_code: str) -> None:
         bban.bank is None
         for bban in (BBAN.random(country_code, use_registry=False) for _ in range(n))
     )
+
+
+def test_random_national_checksum_overflow(monkeypatch: pytest.MonkeyPatch) -> None:
+    # When no generated candidate ever satisfies the national checksum, random()
+    # exhausts its retries and raises GenerateRandomOverflowError rather than
+    # returning a BBAN with an invalid checksum.
+    def always_invalid(self: BBAN) -> bool:
+        raise InvalidBBANChecksum
+
+    monkeypatch.setattr(BBAN, "validate_national_checksum", always_invalid)
+    with pytest.raises(GenerateRandomOverflowError):
+        BBAN.random("DE")
 
 
 def test_pickle_roundtrip() -> None:
