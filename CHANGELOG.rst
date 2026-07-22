@@ -23,6 +23,14 @@ Deprecated
   ``DeprecationWarning``. Use attribute access instead, e.g. ``bank.name`` instead of
   ``bank["name"]``.
 
+Removed
+~~~~~~~
+* Removed the untyped, undocumented registry helpers ``schwifty.registry.get``,
+  ``schwifty.registry.has`` and ``schwifty.registry.save``. These were never part of the
+  advertised public interface, but if you relied on them, use the typed query functions instead:
+  ``get_iban_spec``, ``get_banks_by_country``, ``get_banks_by_code``, ``get_banks_by_bic``,
+  ``get_countries`` and the new ``get_all_banks``.
+
 Fixed
 ~~~~~
 * The country-specific German checksum was silently skipped when validating a BBAN with
