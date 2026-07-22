@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import re
 import warnings
-from operator import itemgetter
 from typing import Any
 from typing import TYPE_CHECKING
 
@@ -163,17 +162,16 @@ class BIC(common.Base):
             * United Arab Emirates
             * United Kingdom
         """
-        try:
-            index = registry.get("bank_code")
-            assert isinstance(index, dict)
-            banks = sorted(
-                index[(country_code, bank_code)], key=itemgetter("primary"), reverse=True
-            )
-            return [cls(entry["bic"]) for entry in banks if entry["bic"]]
-        except KeyError as e:
+        banks = sorted(
+            registry.get_banks_by_code(country_code, bank_code),
+            key=lambda b: b.primary,
+            reverse=True,
+        )
+        if not banks:
             raise exceptions.InvalidBankCode(
                 f"Unknown bank code {bank_code!r} for country {country_code!r}"
-            ) from e
+            )
+        return [cls(entry.bic) for entry in banks if entry.bic]
 
     @classmethod
     def from_bank_code(cls, country_code: str, bank_code: str) -> BIC:
@@ -364,10 +362,8 @@ class BIC(common.Base):
         return formatted
 
     def _lookup_values(self, key: str) -> list[str]:
-        spec = registry.get("bic")
-        assert isinstance(spec, dict)
-        entries = spec.get(str(self), [])
-        return sorted({entry[key] for entry in entries})
+        entries = registry.get_banks_by_bic(str(self))
+        return sorted({entry[key] for entry in entries if entry[key]})
 
     @property
     def domestic_bank_codes(self) -> list[str]:
@@ -441,9 +437,7 @@ class BIC(common.Base):
     @property
     def exists(self) -> bool:
         """bool: Indicates if the BIC is available in Schwifty's registry."""
-        spec = registry.get("bic")
-        assert isinstance(spec, dict)
-        return bool(spec.get(str(self)))
+        return bool(registry.get_banks_by_bic(str(self)))
 
     @property
     def type(self) -> str:
@@ -491,12 +485,3 @@ class BIC(common.Base):
     def branch_code(self) -> str:
         """str: The branch-code part of the BIC (if available)"""
         return self._get_slice(start=8, end=11)
-
-
-registry.build_index("bank", index_name="bic", key="bic", accumulate=True)
-registry.build_index(
-    "bank",
-    index_name="bank_code",
-    key=("country_code", "bank_code"),
-    accumulate=True,
-)

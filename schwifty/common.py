@@ -5,12 +5,7 @@ from functools import total_ordering
 from typing import Any
 
 from schwifty._compat import override
-
-
-try:
-    from typing import Self
-except ImportError:
-    from typing_extensions import Self
+from schwifty._compat import Self
 
 
 _clean_regex = re.compile(r"\s+")

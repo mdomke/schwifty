@@ -8,7 +8,7 @@ from pycountry import countries  # type: ignore
 from schwifty import IBAN
 from schwifty.exceptions import InvalidStructure
 from schwifty.exceptions import SchwiftyException
-from schwifty.iban import convert_bban_spec_to_regex
+from schwifty.registry import convert_bban_spec_to_regex
 
 
 valid = [

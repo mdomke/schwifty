@@ -15,6 +15,8 @@ from schwifty.bban import BBAN
 from schwifty.bic import BIC
 from schwifty.checksum import ISO7064_mod97_10
 from schwifty.checksum import numerify
+from schwifty.domain import Bank
+from schwifty.domain import IBANSpec
 
 
 if TYPE_CHECKING:
@@ -24,9 +26,6 @@ if TYPE_CHECKING:
     from pydantic.json_schema import JsonSchemaValue
     from pydantic_core.core_schema import CoreSchema
     from pydantic_core.core_schema import NoInfoWrapValidatorFunction
-
-
-_spec_to_re: dict[str, str] = {"n": r"\d", "a": r"[A-Z]", "c": r"[A-Za-z0-9]", "e": r" "}
 
 
 class IBAN(common.Base):
@@ -234,13 +233,13 @@ class IBAN(common.Base):
             raise exceptions.InvalidStructure(f"Invalid characters in IBAN {self!s}")
 
     def _validate_length(self) -> None:
-        if self.spec["iban_length"] != len(self):
+        if self.spec.iban_length != len(self):
             raise exceptions.InvalidLength("Invalid IBAN length")
 
     def _validate_format(self) -> None:
-        if not self.spec["regex"].match(self.bban):
+        if not self.spec.regex.match(self.bban):
             raise exceptions.InvalidStructure(
-                f"Invalid BBAN structure: '{self.bban}' doesn't match '{self.spec['bban_spec']}'"
+                f"Invalid BBAN structure: '{self.bban}' doesn't match '{self.spec.bban_spec}'"
             )
 
     def _validate_iban_checksum(self) -> None:
@@ -280,16 +279,9 @@ class IBAN(common.Base):
         return " ".join(self[i : i + 4] for i in range(0, len(self), 4))
 
     @property
-    def spec(self) -> dict[str, Any]:
-        """dict: The country specific IBAN specification."""
-        try:
-            spec = registry.get("iban")
-            assert isinstance(spec, dict)
-            return spec[self.country_code]
-        except KeyError as e:
-            raise exceptions.InvalidCountryCode(
-                f"Unknown country-code '{self.country_code}'"
-            ) from e
+    def spec(self) -> IBANSpec:
+        """IBANSpec: The country specific IBAN specification."""
+        return registry.get_iban_spec(self.country_code)
 
     @property
     def bic(self) -> BIC | None:
@@ -313,7 +305,7 @@ class IBAN(common.Base):
 
         .. versionadded:: 2024.01.1
         """
-        return self.spec["in_sepa_zone"]
+        return self.spec.in_sepa_zone
 
     @property
     def country_code(self) -> str:
@@ -381,8 +373,8 @@ class IBAN(common.Base):
         return self.bban.currency_code
 
     @property
-    def bank(self) -> dict[str, Any] | None:
-        """dict or None: The information of the bank related to the bank code as part of the BBAN"""
+    def bank(self) -> Bank | None:
+        """Bank | None: The information of the bank related to the bank code as part of the BBAN"""
         return self.bban.bank
 
     @property
@@ -468,22 +460,3 @@ class IBAN(common.Base):
             return handler(iban)
 
         return validate
-
-
-def add_bban_regex(country: str, spec: dict[str, Any]) -> dict[str, Any]:
-    if "regex" not in spec:
-        spec["regex"] = re.compile(convert_bban_spec_to_regex(spec["bban_spec"]))
-    return spec
-
-
-def convert_bban_spec_to_regex(spec: str) -> str:
-    spec_re = rf"(\d+)(!)?([{''.join(_spec_to_re.keys())}])"
-
-    def convert(match: re.Match[str]) -> str:
-        quantifier = ("{{{}}}" if match.group(2) else "{{1,{}}}").format(match.group(1))
-        return _spec_to_re[match.group(3)] + quantifier
-
-    return rf"^{re.sub(spec_re, convert, spec)}$"
-
-
-registry.manipulate("iban", add_bban_regex)

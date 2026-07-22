@@ -5,8 +5,16 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
-Unreleased
-----------
+`2026.07.2`_ - 2026/07/22
+-------------------------
+Changed
+~~~~~~~
+* Refactored internal registry deserialization to construct and return strongly typed domain
+  objects (``IBANSpec`` and ``Bank``) instead of raw dictionaries.
+* Added a dictionary-compatibility mixin to ``IBANSpec`` and ``Bank``, supporting subscription
+  and ``get()`` lookups, to maintain backward compatibility for public attributes
+  like ``IBAN.spec``.
+
 Fixed
 ~~~~~
 * German checksum method 11 rejected valid account numbers whose check digit is
@@ -843,6 +851,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2026.07.2: https://github.com/mdomke/schwifty/compare/2026.07.1...2026.07.2
 .. _2026.07.1: https://github.com/mdomke/schwifty/compare/2026.07.0...2026.07.1
 .. _2026.07.0: https://github.com/mdomke/schwifty/compare/2026.03.0...2026.07.0
 .. _2026.03.0: https://github.com/mdomke/schwifty/compare/2026.01.0...2026.03.0
