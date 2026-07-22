@@ -20,6 +20,13 @@ It forms the core of an IBAN (excluding the country code and IBAN check digits).
 National or international algorithms (e.g., ISO 7064, Modulo-97, Luhn) used to verify the structural
 and mathematical correctness of IBANs and BBANs.
 
+### Checksum Method (`checksum_algo`)
+The identifier selecting *which* national checksum algorithm applies to a specific bank. Most
+countries use a single algorithm keyed as `<country>:default`, but Germany defines dozens of
+per-bank methods (e.g. `DE:13`). A `Bank` carries its `checksum_algo` so that
+`BBAN.validate_national_checksum` can pick the right algorithm; a bank without an explicit method
+falls back to `default`.
+
 ## Structural & System Concepts
 
 ### Registry
@@ -32,4 +39,6 @@ ranges of sub-components and compiled validation regular expressions.
 
 ### Bank Record
 The metadata representation of a specific bank branch, mapping national components
-(e.g., country code, bank code, branch code) to its name, short name, and associated BIC.
+(e.g., country code, bank code, branch code) to its name, short name, associated BIC, and
+[Checksum Method](#checksum-method-checksum_algo). Modelled as the strongly typed `Bank` domain
+object; dict-style access to it is deprecated in favour of attribute access.

@@ -363,7 +363,7 @@ class BIC(common.Base):
 
     def _lookup_values(self, key: str) -> list[str]:
         entries = registry.get_banks_by_bic(str(self))
-        return sorted({entry[key] for entry in entries if entry[key]})
+        return sorted({getattr(entry, key) for entry in entries if getattr(entry, key)})
 
     @property
     def domestic_bank_codes(self) -> list[str]:

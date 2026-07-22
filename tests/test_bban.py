@@ -24,6 +24,33 @@ def test_validate_national_checksum() -> None:
         BBAN("BA", "1290079401028400").validate_national_checksum()
 
 
+def test_validate_german_national_checksum() -> None:
+    # The per-bank German checksum method is selected via the bank's
+    # ``checksum_algo`` field. Commerzbank (bank code 37040044) uses method 13,
+    # whose check digit sits at account position 8. A matching account validates;
+    # a corrupted check digit raises. This path was silently skipped while
+    # ``checksum_algo`` was dropped during registry deserialization.
+    assert BBAN("DE", "370400440532013000").validate_national_checksum() is True
+    with pytest.raises(InvalidBBANChecksum):
+        BBAN("DE", "370400440532013100").validate_national_checksum()
+
+
+def test_dict_access_is_deprecated() -> None:
+    # ``IBAN.bank`` / ``IBAN.spec`` (and their BBAN counterparts) used to return
+    # dicts; subscription and ``.get()`` are kept working for backward
+    # compatibility but now emit a DeprecationWarning in favour of attribute
+    # access.
+    bban = BBAN("DE", "370400440532013000")
+    bank = bban.bank
+    assert bank is not None
+    with pytest.deprecated_call():
+        assert bank["name"] == bank.name
+    with pytest.deprecated_call():
+        assert bank.get("checksum_algo") == bank.checksum_algo
+    with pytest.deprecated_call():
+        assert bban.spec["bban_length"] == bban.spec.bban_length
+
+
 @pytest.mark.parametrize("country_code", ["DE", "ES", "GB", "FR", "PL"])
 def test_random(country_code: str) -> None:
     n = 100

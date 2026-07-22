@@ -2,13 +2,32 @@ from __future__ import annotations
 
 import enum
 import re
+import warnings
 from dataclasses import dataclass
 from dataclasses import field
 from typing import Any
 
 
+_DICT_ACCESS_DEPRECATION = (
+    "Dict-style access to {cls} objects is deprecated and will be removed in a future "
+    "release. Use attribute access instead (e.g. `bank.name` instead of `bank['name']`)."
+)
+
+
 class DictCompatMixin:
+    """Backward-compatibility shim: ``IBAN.spec`` and ``IBAN.bank`` used to return plain
+    dicts, so subscription and ``.get()`` are kept working but are now deprecated in favour
+    of attribute access."""
+
+    def _warn_dict_access(self) -> None:
+        warnings.warn(
+            _DICT_ACCESS_DEPRECATION.format(cls=type(self).__name__),
+            DeprecationWarning,
+            stacklevel=3,
+        )
+
     def __getitem__(self, key: Any) -> Any:
+        self._warn_dict_access()
         if hasattr(key, "value"):
             key = key.value
         try:
@@ -17,6 +36,7 @@ class DictCompatMixin:
             raise KeyError(key) from None
 
     def get(self, key: Any, default: Any = None) -> Any:
+        self._warn_dict_access()
         if hasattr(key, "value"):
             key = key.value
         return getattr(self, key, default)
@@ -72,3 +92,4 @@ class Bank(DictCompatMixin):
     name: str
     short_name: str | None = None
     primary: bool = False
+    checksum_algo: str = "default"

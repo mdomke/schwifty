@@ -78,15 +78,15 @@ class Registry:
     def __init__(self) -> None:
         self._registry: dict[Key, Value] = {}
 
-    def has(self, name: Key) -> bool:
+    def _has(self, name: Key) -> bool:
         return name in self._registry
 
-    def save(self, name: Key, data: Value) -> Value:
+    def _save(self, name: Key, data: Value) -> Value:
         self._registry[name] = data
         return data
 
-    def get(self, name: Key) -> Value:
-        if self.has(name):
+    def _get(self, name: Key) -> Value:
+        if self._has(name):
             return self._registry[name]
 
         if name == "country":
@@ -125,10 +125,10 @@ class Registry:
                 assert isinstance(country, str)
                 data[country] = add_bban_regex(country, spec)
 
-        return self.save(name, data)
+        return self._save(name, data)
 
     def get_iban_spec(self, country_code: str) -> IBANSpec:
-        spec = self.get("iban")
+        spec = self._get("iban")
         assert isinstance(spec, dict)
         try:
             raw_spec = spec[country_code]
@@ -188,38 +188,44 @@ class Registry:
             name=data["name"],
             short_name=data.get("short_name"),
             primary=data.get("primary", False),
+            checksum_algo=data.get("checksum_algo", "default"),
         )
 
     def get_banks_by_country(self, country_code: str) -> list[Bank]:
-        if not self.has("country"):
+        if not self._has("country"):
             self._build_country_index()
-        country_index = self.get("country")
+        country_index = self._get("country")
         assert isinstance(country_index, dict)
         return country_index.get(country_code, [])
 
     def get_banks_by_code(self, country_code: str, bank_code: str) -> list[Bank]:
-        if not self.has("bank_code"):
+        if not self._has("bank_code"):
             self._build_bank_code_index()
-        bank_code_index = self.get("bank_code")
+        bank_code_index = self._get("bank_code")
         assert isinstance(bank_code_index, dict)
         return bank_code_index.get((country_code, bank_code), [])
 
     def get_banks_by_bic(self, bic: str) -> list[Bank]:
-        if not self.has("bic"):
+        if not self._has("bic"):
             self._build_bic_index()
-        bic_index = self.get("bic")
+        bic_index = self._get("bic")
         assert isinstance(bic_index, dict)
         return bic_index.get(bic, [])
 
     def get_countries(self) -> list[str]:
-        if not self.has("country"):
+        if not self._has("country"):
             self._build_country_index()
-        country_index = self.get("country")
+        country_index = self._get("country")
         assert isinstance(country_index, dict)
         return [str(k) for k in country_index]
 
+    def get_all_banks(self) -> list[Bank]:
+        base = self._get("bank")
+        assert isinstance(base, list)
+        return [self._parse_bank(entry) for entry in base]
+
     def _build_country_index(self) -> None:
-        base = self.get("bank")
+        base = self._get("bank")
         assert isinstance(base, list)
         data = defaultdict(list)
         for entry in base:
@@ -227,10 +233,10 @@ class Registry:
             country_code = entry.get("country_code")
             if country_code:
                 data[country_code].append(self._parse_bank(entry))
-        self.save("country", dict(data))
+        self._save("country", dict(data))
 
     def _build_bank_code_index(self) -> None:
-        base = self.get("bank")
+        base = self._get("bank")
         assert isinstance(base, list)
         data = defaultdict(list)
         for entry in base:
@@ -239,10 +245,10 @@ class Registry:
             bank_code = entry.get("bank_code")
             if country_code and bank_code:
                 data[(country_code, bank_code)].append(self._parse_bank(entry))
-        self.save("bank_code", dict(data))
+        self._save("bank_code", dict(data))
 
     def _build_bic_index(self) -> None:
-        base = self.get("bank")
+        base = self._get("bank")
         assert isinstance(base, list)
         data = defaultdict(list)
         for entry in base:
@@ -250,7 +256,7 @@ class Registry:
             bic = entry.get("bic")
             if bic:
                 data[bic].append(self._parse_bank(entry))
-        self.save("bic", dict(data))
+        self._save("bic", dict(data))
 
 
 _default_registry = Registry()
@@ -276,14 +282,5 @@ def get_countries() -> list[str]:
     return _default_registry.get_countries()
 
 
-# Raw/legacy helpers for test backward compatibility
-def get(name: Key) -> Value:
-    return _default_registry.get(name)
-
-
-def has(name: Key) -> bool:
-    return _default_registry.has(name)
-
-
-def save(name: Key, data: Value) -> Value:
-    return _default_registry.save(name, data)
+def get_all_banks() -> list[Bank]:
+    return _default_registry.get_all_banks()

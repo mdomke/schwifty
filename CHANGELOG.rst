@@ -10,13 +10,26 @@ Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro
 Changed
 ~~~~~~~
 * Refactored internal registry deserialization to construct and return strongly typed domain
-  objects (``IBANSpec`` and ``Bank``) instead of raw dictionaries.
+  objects (``IBANSpec`` and ``Bank``) instead of raw dictionaries. ``Bank`` now also carries the
+  ``checksum_algo`` field that selects the national checksum method.
 * Added a dictionary-compatibility mixin to ``IBANSpec`` and ``Bank``, supporting subscription
   and ``get()`` lookups, to maintain backward compatibility for public attributes
-  like ``IBAN.spec``.
+  like ``IBAN.spec`` and ``IBAN.bank``.
+
+Deprecated
+~~~~~~~~~~
+* Dict-style access (subscription and ``.get()``) on the objects returned by ``IBAN.spec`` /
+  ``IBAN.bank`` (and their ``BBAN`` counterparts) is deprecated and now emits a
+  ``DeprecationWarning``. Use attribute access instead, e.g. ``bank.name`` instead of
+  ``bank["name"]``.
 
 Fixed
 ~~~~~
+* The country-specific German checksum was silently skipped when validating a BBAN with
+  ``validate_bban=True``. The per-bank ``checksum_algo`` was dropped during the switch to typed
+  registry objects, so ``BBAN.validate_national_checksum`` always resolved to a non-existent
+  ``DE:default`` algorithm and returned successfully without checking. The account-code checksum
+  is now validated again for German banks.
 * German checksum method 11 rejected valid account numbers whose check digit is
   ``0``. ``Algorithm11.reconcile`` returned the raw value ``11`` for these
   accounts instead of mapping it to ``0`` like the base method 06/10 do, so

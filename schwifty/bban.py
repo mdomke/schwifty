@@ -171,7 +171,7 @@ class BBAN(common.Base):
 
         rstr = Rstr(random)
         spec = _get_bban_spec(country_code)
-        bank: Bank | dict[str, Any] = {}
+        bank: Bank | None = None
         banks = registry.get_banks_by_country(country_code)
         if banks and use_registry:
             bank = random.choice(banks)
@@ -192,10 +192,9 @@ class BBAN(common.Base):
                 if (value := values.get(key)) is not None:
                     components[key] = value
                 else:
+                    bank_value = getattr(bank, key.value, None) if bank is not None else None
                     components[key] = (
-                        bank.get(key)
-                        or spec.defaults.get(f"default_{key.value}")
-                        or range_.cut(bban)
+                        bank_value or spec.defaults.get(f"default_{key.value}") or range_.cut(bban)
                     )
 
             bank_code = components[Component.BANK_CODE]
@@ -230,8 +229,8 @@ class BBAN(common.Base):
         Raises:
             InvalidBBANChecksum: If the country specific BBAN checksum is invalid.
         """
-        bank = self.bank or {}
-        algo_name = bank.get("checksum_algo", "default")
+        bank = self.bank
+        algo_name = bank.checksum_algo if bank is not None else "default"
         algo = algorithms.get(f"{self.country_code}:{algo_name}")
         if algo is None:
             return True
