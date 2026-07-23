@@ -7,6 +7,7 @@ https://www.bundesbank.de/resource/blob/603320/16a80c739bbbae592ca575905975c2d0/
 
 from __future__ import annotations
 
+import string
 from dataclasses import dataclass
 from itertools import cycle
 from typing import ClassVar
@@ -94,6 +95,26 @@ class WeightedModulus(checksum.Algorithm):
         check_digit = self.compute(components)
         positions = self.get_positions(account_code)
         return check_digit == account_code[positions.check_digit - 1]
+
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        # The check digit sits at a fixed position inside the 10-digit account
+        # code, so there is exactly one unknown to determine. Try every possible
+        # value at that position and keep the one the method accepts, using the
+        # existing ``validate`` as the oracle so per-method quirks (exception
+        # ranges, special-case reconciliations) are honoured without duplicating
+        # their logic. ``None`` signals that this random account body cannot be
+        # made valid (e.g. methods that reject a whole class of inputs).
+        [account_code] = components
+        index = self.get_positions(account_code).check_digit - 1
+        for digit in string.digits:
+            candidate = account_code[:index] + digit + account_code[index + 1 :]
+            try:
+                if self.validate([candidate], ""):
+                    return [candidate]
+            except InvalidBBANChecksum:
+                continue
+        return None
 
 
 class WeightedMod10(WeightedModulus):
@@ -443,6 +464,13 @@ class Algorithm63(WeightedMod10):
             return False
         return super().validate(components, expected)
 
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        # The method only accepts account codes with a leading zero, which the check
+        # digit alone cannot supply, so set it before solving for the check digit.
+        [account_code] = components
+        return super().solve(["0" + account_code[1:]])
+
 
 @register
 class Algorithm68(Algorithm00):
@@ -478,6 +506,16 @@ class Algorithm68(Algorithm00):
             return check_digit == account_code[self.positions.check_digit - 1]
         return True
 
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        # A 10-significant-digit account code (no leading zero) requires the 7th
+        # position -- index 3 -- to be 9, otherwise ``get_digits`` rejects it. Set it
+        # so the leading digit stays free, then solve for the check digit.
+        [account_code] = components
+        if account_code[0] != "0":
+            account_code = account_code[:3] + "9" + account_code[4:]
+        return super().solve([account_code])
+
 
 @register
 class Algorithm76(WeightedMod11):
@@ -497,6 +535,15 @@ class Algorithm76(WeightedMod11):
         if int(account_code[0]) not in {0, 4, 6, 7, 8, 9}:
             return False
         return super().validate(components, expected)
+
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        # The method only accepts certain leading digits, which the check digit alone
+        # cannot supply, so coerce it into the allowed set before solving.
+        [account_code] = components
+        if int(account_code[0]) not in {0, 4, 6, 7, 8, 9}:
+            account_code = "0" + account_code[1:]
+        return super().solve([account_code])
 
 
 @register
@@ -541,6 +588,14 @@ class Algorithm91(checksum.Algorithm):
             if algo_cls().validate(components, expected):
                 return True
         return False
+
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        for algo_cls in [self.Variant1, self.Variant2, self.Variant3, self.Variant4]:
+            solved = algo_cls().solve(components)
+            if solved is not None and self.validate(solved, ""):
+                return solved
+        return None
 
 
 @register

@@ -422,7 +422,7 @@ def test_random_iban() -> None:
         assert isinstance(iban, IBAN)
 
 
-@pytest.mark.parametrize("country_code", ["DE", "IT", "BE"])
+@pytest.mark.parametrize("country_code", ["DE", "IT", "BE", "CZ", "SK", "IS"])
 def test_random_passes_national_checksum(country_code: str) -> None:
     # Regression test for #219: randomly generated IBANs for countries with a
     # bank-specific national checksum (e.g. the German methods) must satisfy that

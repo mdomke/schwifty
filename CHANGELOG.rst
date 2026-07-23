@@ -5,6 +5,18 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+`2026.07.3`_ - 2026/07/23
+-------------------------
+Changed
+~~~~~~~
+* ``BBAN.random`` now constructs a valid national checksum instead of repeatedly
+  generating random BBANs until one happens to validate. Each checksum algorithm can now
+  ``solve`` the components it is responsible for: the German methods splice a valid check
+  digit into the account code, Iceland fixes its embedded check digit, and the Czech and
+  Slovak methods adjust the account and branch codes to satisfy their mod-11 constraints.
+  As a result random BBANs are produced on the first attempt for effectively every
+  country and bank, rather than after up to 2000 brute-force retries.
+
 `2026.07.2`_ - 2026/07/22
 -------------------------
 Changed
@@ -872,6 +884,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2026.07.3: https://github.com/mdomke/schwifty/compare/2026.07.2...2026.07.3
 .. _2026.07.2: https://github.com/mdomke/schwifty/compare/2026.07.1...2026.07.2
 .. _2026.07.1: https://github.com/mdomke/schwifty/compare/2026.07.0...2026.07.1
 .. _2026.07.0: https://github.com/mdomke/schwifty/compare/2026.03.0...2026.07.0

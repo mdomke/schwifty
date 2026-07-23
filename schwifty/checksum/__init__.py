@@ -57,6 +57,18 @@ class Algorithm(metaclass=abc.ABCMeta):
     def validate(self, components: list[str], expected: str) -> bool:
         return self.compute(components) == expected
 
+    def solve(self, components: list[str]) -> list[str] | None:
+        """Return ``components`` adjusted so that the checksum validates.
+
+        Algorithms whose checksum occupies its own BBAN field are fully
+        determined by their inputs, so there is nothing to adjust and the
+        components are returned unchanged (the caller writes the computed
+        checksum into the separate field). Algorithms that embed a check digit
+        inside one of the accepted components override this to splice in a valid
+        check digit, returning ``None`` when the given input admits no valid one.
+        """
+        return components
+
 
 class ISO7064_mod97_10(Algorithm):  # noqa: N801
     def post_process(self, r: int) -> int:

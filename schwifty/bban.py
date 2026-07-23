@@ -11,6 +11,7 @@ from schwifty import registry
 from schwifty._compat import override
 from schwifty._compat import Self
 from schwifty.bic import BIC
+from schwifty.checksum import Algorithm
 from schwifty.checksum import algorithms
 from schwifty.domain import Bank
 from schwifty.domain import Component
@@ -18,8 +19,23 @@ from schwifty.domain import IBANSpec
 from schwifty.domain import Range
 
 
+# The national checksum is now constructed rather than guessed, so a valid BBAN is
+# found on the first attempt for virtually every country and method. The only residual
+# regeneration is for the German mod-11 methods where roughly 1 in 11 random account
+# bodies admits no valid check digit at all (the computation lands on the reserved
+# remainder); those bodies are simply regenerated. This bound only backstops that
+# regeneration -- at that ~90% per-attempt success rate exhausting it is impossible in
+# practice (~0.1**200).
+_MAX_RANDOM_ATTEMPTS = 200
+
+
 def _get_bban_spec(country_code: str) -> IBANSpec:
     return registry.get_iban_spec(country_code)
+
+
+def _get_national_checksum_algorithm(country_code: str, bank: Bank | None) -> Algorithm | None:
+    algo_name = bank.checksum_algo if bank is not None else "default"
+    return algorithms.get(f"{country_code}:{algo_name}")
 
 
 def compute_national_checksum(country_code: str, components: dict[Component, str]) -> str:
@@ -180,12 +196,16 @@ class BBAN(common.Base):
             return cls(country_code, rstr.xeger(spec.regex).upper())
 
         ranges = spec.positions
-        # A random account code only satisfies a bank-specific national checksum with
-        # low probability (some German methods hit roughly 1-in-50), so allow enough
-        # attempts that a valid BBAN is found in practice. Countries without a checksum
-        # succeed on the first iteration, so the higher bound only affects the retry
-        # path.
-        for _ in range(2000):
+        algo = _get_national_checksum_algorithm(country_code, bank)
+
+        # Most countries carry the national checksum in its own BBAN field, which
+        # ``from_components`` fills in deterministically, so the first iteration
+        # already yields a valid BBAN. When the check digit is instead embedded
+        # inside the account code (e.g. the many German methods) we don't guess:
+        # ``algo.solve`` splices a valid check digit into the random account code.
+        # The loop only re-runs on the rare occasions where a particular random
+        # account body admits no valid check digit for the selected method.
+        for _ in range(_MAX_RANDOM_ATTEMPTS):
             bban = rstr.xeger(spec.regex).upper()
             components: dict[Component, str] = {}
             for key, range_ in ranges.items():
@@ -209,14 +229,22 @@ class BBAN(common.Base):
             for key, value in components.items():
                 components[key] = value[: ranges[key].length]
 
+            # Turn the randomly generated check digit(s) into a valid one instead of
+            # rejecting and retrying. Skipped when the caller pinned every component
+            # the algorithm consumes, since there is nothing left to adjust.
+            if algo is not None and not any(
+                component.value in values for component in algo.accepts
+            ):
+                solved = algo.solve([components[component] for component in algo.accepts])
+                if solved is None:
+                    continue
+                for component, value in zip(algo.accepts, solved, strict=True):
+                    components[component] = value
+
             try:
                 bban = cls.from_components(
                     country_code, **{key.value: value for key, value in components.items()}
                 )
-                # A randomly generated account code will usually not satisfy the
-                # bank-specific national checksum (e.g. the many German methods), so
-                # reject and retry until the generated BBAN validates against its own
-                # checksum algorithm. Banks without a known algorithm validate trivially.
                 bban.validate_national_checksum()
             except exceptions.SchwiftyException:
                 continue
@@ -229,9 +257,7 @@ class BBAN(common.Base):
         Raises:
             InvalidBBANChecksum: If the country specific BBAN checksum is invalid.
         """
-        bank = self.bank
-        algo_name = bank.checksum_algo if bank is not None else "default"
-        algo = algorithms.get(f"{self.country_code}:{algo_name}")
+        algo = _get_national_checksum_algorithm(self.country_code, self.bank)
         if algo is None:
             return True
         components = [self._get_component(component) for component in algo.accepts]
