@@ -75,7 +75,7 @@ to avoid long feedback-cycles.
 
 .. code-block:: bash
 
-   $ uv sync
+   $ uv sync --all-groups --all-extras
    $ uv run prek install
 
 You can also run ``uv run poe fmt`` to format the code or use one of the available `editor
