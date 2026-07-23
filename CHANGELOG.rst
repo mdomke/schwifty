@@ -5,6 +5,14 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Changed
+~~~~~~~
+* Simplified the IBAN checksum validation. The redundant ``self.numeric % 97 == 1`` test has
+  been dropped in favour of the stricter canonical ``ISO7064_mod97_10`` comparison, which it
+  always implied. Behaviour is unchanged.
+
 `2026.07.3`_ - 2026/07/23
 -------------------------
 Changed

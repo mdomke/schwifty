@@ -243,10 +243,13 @@ class IBAN(common.Base):
             )
 
     def _validate_iban_checksum(self) -> None:
+        # Validating against the canonically computed check digits is stricter than a bare
+        # ``self.numeric % 97 == 1`` test: the ISO 7064 mod-97-10 algorithm only ever yields
+        # check digits in the range 02..98, whereas the raw mod-97 test additionally accepts the
+        # aliases 00, 01 and 99 (which no genuine IBAN carries). A passing ``validate`` always
+        # implies ``self.numeric % 97 == 1``, so the latter check is redundant.
         checksum_algo = ISO7064_mod97_10()
-        if self.numeric % 97 != 1 or not checksum_algo.validate(
-            [self.bban, self.country_code], self.checksum_digits
-        ):
+        if not checksum_algo.validate([self.bban, self.country_code], self.checksum_digits):
             raise exceptions.InvalidChecksumDigits("Invalid checksum digits")
 
     @property
