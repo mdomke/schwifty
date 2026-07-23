@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: "3.14"
       - name: Lint documentation
-        run: uv run doc8 docs/source
+        run: uv run poe check-docs
 
   lint-style:
     runs-on: ubuntu-latest
@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.14"
       - name: Lint style
-        run: uv run ruff check
+        run: uv run poe check-code
 
   lint-typing:
     runs-on: ubuntu-latest
@@ -54,6 +54,8 @@ jobs:
 
       - name: Test
         run: uv run poe test
+        env:
+          COVERAGE_FILE: .coverage.${{ matrix.python-version }}
 
       - name: Upload coverage data
         uses: actions/upload-artifact@v7
