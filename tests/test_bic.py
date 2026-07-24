@@ -74,6 +74,27 @@ def test_unknown_bic_properties() -> None:
     assert bic.type == "default"
 
 
+def test_bic_with_branch_code_falls_back_to_institution() -> None:
+    # Some registries only list the 8-character institution BIC. An extended
+    # 11-character BIC denotes a branch of that same institution, so it should
+    # still resolve to the institution's data rather than returning nothing.
+    institution = BIC("BSABESBB")
+    assert institution.domestic_bank_codes
+    for extended in ("BSABESBBXXX", "BSABESBB001"):
+        bic = BIC(extended)
+        assert bic.branch_code
+        assert bic.domestic_bank_codes == institution.domestic_bank_codes
+        assert bic.bank_names == institution.bank_names
+        assert bic.bank_short_names == institution.bank_short_names
+
+
+def test_bic_prefers_branch_specific_registry_entry() -> None:
+    # Where the registry does hold branch-specific entries, those must still
+    # win over the institution-level fallback.
+    assert BIC("MARKDEF1100").domestic_bank_codes == ["10000000"]
+    assert BIC("GENODEM1GLS").domestic_bank_codes == ["43060967", "43060988"]
+
+
 @pytest.mark.parametrize(
     ("code", "type"),
     [
