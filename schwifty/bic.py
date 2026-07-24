@@ -363,6 +363,12 @@ class BIC(common.Base):
 
     def _lookup_values(self, key: str) -> list[str]:
         entries = registry.get_banks_by_bic(str(self))
+        if not entries and self.branch_code:
+            # An 11-character BIC denotes a branch of the institution that the
+            # first 8 characters identify. Not every national registry lists
+            # entries per branch, so fall back to the institution's BIC when
+            # the branch-specific lookup comes up empty.
+            entries = registry.get_banks_by_bic(str(self)[:8])
         return sorted({getattr(entry, key) for entry in entries if getattr(entry, key)})
 
     @property
