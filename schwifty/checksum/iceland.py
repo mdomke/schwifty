@@ -37,10 +37,12 @@ class DefaultAlgorithm(checksum.Algorithm):
         # the single valid one -- or none when the id requires a check digit of 10.
         [account_holder_id] = components
         for digit in string.digits:
-            candidate = (
-                account_holder_id[:CHECK_DIGIT_INDEX]
-                + digit
-                + account_holder_id[CHECK_DIGIT_INDEX + 1 :]
+            candidate = "".join(
+                [
+                    account_holder_id[:CHECK_DIGIT_INDEX],
+                    digit,
+                    account_holder_id[CHECK_DIGIT_INDEX + 1 :],
+                ]
             )
             if self.validate([candidate], ""):
                 return [candidate]

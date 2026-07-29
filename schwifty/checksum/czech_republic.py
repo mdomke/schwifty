@@ -38,9 +38,7 @@ class DefaultAlgorithm(checksum.Algorithm):
         branch_code, account_code = components
         branch = self._solve_code(branch_code, self.weights[4:])
         account = self._solve_code(account_code, self.weights)
-        if branch is None or account is None:
-            return None
-        return [branch, account]
+        return None if branch is None or account is None else [branch, account]
 
     @staticmethod
     def _solve_code(code: str, weights: list[int]) -> str | None:

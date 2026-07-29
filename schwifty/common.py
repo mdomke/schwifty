@@ -17,7 +17,7 @@ class Base(str):
         return super().__new__(cls, clean(value))
 
     def __repr__(self) -> str:
-        return f"<{self.__class__.__name__}={self!s}>"
+        return f"<{self.__class__.__name__}={self}>"
 
     def __hash__(self) -> int:
         return hash(str(self))
@@ -44,9 +44,13 @@ class Base(str):
         return len(self)
 
     def _get_slice(self, start: int, end: int | None = None) -> str:
-        if start < len(self) and (end is None or end <= len(self)):
-            return self.compact[start:end] if end is not None else self.compact[start:]
-        return ""
+        return (
+            self.compact[start:end]
+            if end is not None
+            else self.compact[start:]
+            if start < len(self) and (end is None or end <= len(self))
+            else ""
+        )
 
 
 def clean(s: str) -> str:

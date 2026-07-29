@@ -29,11 +29,11 @@ _spec_to_re: dict[str, str] = {"n": r"\d", "a": r"[A-Z]", "c": r"[A-Za-z0-9]", "
 
 
 def convert_bban_spec_to_regex(spec: str) -> str:
-    spec_re = rf"(\d+)(!)?([{''.join(_spec_to_re.keys())}])"
+    spec_re = rf"(\d+)(!)?([{''.join(_spec_to_re)}])"
 
     def convert(match: re.Match[str]) -> str:
-        quantifier = ("{{{}}}" if match.group(2) else "{{1,{}}}").format(match.group(1))
-        return _spec_to_re[match.group(3)] + quantifier
+        quantifier = ("{{{}}}" if match[2] else "{{1,{}}}").format(match[1])
+        return _spec_to_re[match[3]] + quantifier
 
     return rf"^{re.sub(spec_re, convert, spec)}$"
 

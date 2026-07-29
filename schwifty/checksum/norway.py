@@ -19,7 +19,7 @@ class DefaultAlgorithm(checksum.Algorithm):
     @override
     def compute(self, components: list[str]) -> str:
         _, account_code = components
-        value = account_code[2:] if account_code[:2] == "00" else "".join(components)
+        value = account_code[2:] if account_code.startswith("00") else "".join(components)
 
         weights = [5, 4, 3, 2, 7, 6, 5, 4, 3, 2]
         total: int = 0

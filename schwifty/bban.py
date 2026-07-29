@@ -40,10 +40,7 @@ def _get_national_checksum_algorithm(country_code: str, bank: Bank | None) -> Al
 
 def compute_national_checksum(country_code: str, components: dict[Component, str]) -> str:
     algo = algorithms.get(f"{country_code}:default")
-    if algo is None:
-        return ""
-
-    return algo.compute([components[key] for key in algo.accepts])
+    return "" if algo is None else algo.compute([components[key] for key in algo.accepts])
 
 
 class BBAN(common.Base):
@@ -144,7 +141,7 @@ class BBAN(common.Base):
             range_ = ranges[key]
             if range_.is_empty:
                 continue
-            bban = bban[: range_.start] + value + bban[range_.end :]
+            bban = "".join([bban[: range_.start], value, bban[range_.end :]])
 
         return cls(country_code, bban)
 
@@ -345,9 +342,7 @@ class BBAN(common.Base):
         lookup_by = self.spec.bic_lookup_components or [Component.BANK_CODE]
         key = "".join(self._get_component(component) for component in lookup_by)
         bank_entry = registry.get_banks_by_code(self.country_code, key)
-        if not bank_entry:
-            return None
-        return bank_entry[0]
+        return None if not bank_entry else bank_entry[0]
 
     @property
     def bank_name(self) -> str | None:

@@ -280,7 +280,7 @@ class BIC(common.Base):
     def _validate_structure(self, enforce_swift_compliance: bool = False) -> None:
         regex = _bic_swift_re if enforce_swift_compliance else _bic_iso9362_re
         if not regex.fullmatch(str(self)):
-            raise exceptions.InvalidStructure(f"Invalid structure '{self!s}'")
+            raise exceptions.InvalidStructure(f"Invalid structure '{self}'")
 
     def _validate_country_code(self) -> None:
         if self.country is None:

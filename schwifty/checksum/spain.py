@@ -8,11 +8,7 @@ from schwifty.domain import Component
 
 
 def reconcile(n: int) -> int:
-    if n == 11:
-        return 0
-    if n == 10:
-        return 1
-    return n
+    return 0 if n == 11 else 1 if n == 10 else n
 
 
 @checksum.register("ES")

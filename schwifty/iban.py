@@ -230,7 +230,7 @@ class IBAN(common.Base):
         # country/check-digit prefix slipped through. ``fullmatch`` over the
         # alphanumeric BBAN catches them.
         if not re.fullmatch(r"[A-Z]{2}\d{2}[A-Z0-9]+", self):
-            raise exceptions.InvalidStructure(f"Invalid characters in IBAN {self!s}")
+            raise exceptions.InvalidStructure(f"Invalid characters in IBAN {self}")
 
     def _validate_length(self) -> None:
         if self.spec.iban_length != len(self):

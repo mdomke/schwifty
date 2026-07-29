@@ -108,7 +108,7 @@ class WeightedModulus(checksum.Algorithm):
         [account_code] = components
         index = self.get_positions(account_code).check_digit - 1
         for digit in string.digits:
-            candidate = account_code[:index] + digit + account_code[index + 1 :]
+            candidate = "".join([account_code[:index], digit, account_code[index + 1 :]])
             try:
                 if self.validate([candidate], ""):
                     return [candidate]
@@ -199,16 +199,16 @@ class Algorithm08(Algorithm00):
     @override
     def compute(self, components: list[str]) -> str:
         [account_code] = components
-        if int(account_code) < self.min_account_code:
-            return ""
-        return super().compute(components)
+        return "" if int(account_code) < self.min_account_code else super().compute(components)
 
     @override
     def validate(self, components: list[str], expected: str) -> bool:
         [account_code] = components
-        if int(account_code) < self.min_account_code:
-            return True
-        return super().validate(components, expected)
+        return (
+            True
+            if int(account_code) < self.min_account_code
+            else super().validate(components, expected)
+        )
 
 
 @register
@@ -237,9 +237,7 @@ class Algorithm11(Algorithm10):
 
     @override
     def reconcile(self, checksum: int) -> int:
-        if checksum == 10:
-            return 9
-        return super().reconcile(checksum)
+        return 9 if checksum == 10 else super().reconcile(checksum)
 
 
 @register
@@ -460,9 +458,7 @@ class Algorithm63(WeightedMod10):
     @override
     def validate(self, components: list[str], expected: str) -> bool:
         [account_code] = components
-        if account_code[0] != "0":
-            return False
-        return super().validate(components, expected)
+        return False if account_code[0] != "0" else super().validate(components, expected)
 
     @override
     def solve(self, components: list[str]) -> list[str] | None:
@@ -502,7 +498,7 @@ class Algorithm68(Algorithm00):
             # If the checksum calculation fails, the algorithm should be executed again, with the
             # 7th and 8th position of the account code removed. Since the positions are counted from
             # right to left, they translate into indices 2 and 3 counting from left.
-            check_digit = self.compute([account_code[:2] + "00" + account_code[4:]])
+            check_digit = self.compute(["".join([account_code[:2], "00", account_code[4:]])])
             return check_digit == account_code[self.positions.check_digit - 1]
         return True
 
@@ -513,7 +509,7 @@ class Algorithm68(Algorithm00):
         # so the leading digit stays free, then solve for the check digit.
         [account_code] = components
         if account_code[0] != "0":
-            account_code = account_code[:3] + "9" + account_code[4:]
+            account_code = "".join([account_code[:3], "9", account_code[4:]])
         return super().solve([account_code])
 
 
@@ -532,9 +528,11 @@ class Algorithm76(WeightedMod11):
     @override
     def validate(self, components: list[str], expected: str) -> bool:
         [account_code] = components
-        if int(account_code[0]) not in {0, 4, 6, 7, 8, 9}:
-            return False
-        return super().validate(components, expected)
+        return (
+            False
+            if int(account_code[0]) not in {0, 4, 6, 7, 8, 9}
+            else super().validate(components, expected)
+        )
 
     @override
     def solve(self, components: list[str]) -> list[str] | None:
@@ -605,6 +603,8 @@ class Algorithm99(Algorithm06):
     @override
     def validate(self, components: list[str], expected: str) -> bool:
         [account_code] = components
-        if account_code in {"0499999999", "0396000000"}:
-            return True
-        return super().validate(components, expected)
+        return (
+            True
+            if account_code in {"0499999999", "0396000000"}
+            else super().validate(components, expected)
+        )
