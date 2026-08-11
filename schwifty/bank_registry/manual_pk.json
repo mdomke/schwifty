@@ -1,0 +1,18 @@
+[
+  {
+    "country_code": "PK",
+    "bic": "UNILPKKA",
+    "bank_code": "UNIL",
+    "name": "United Bank Limited",
+    "short_name": "UBL",
+    "primary": true
+  },
+  {
+    "country_code": "PK",
+    "bic": "ABPAPKKA",
+    "bank_code": "ABPA",
+    "name": "Allied Bank Limited",
+    "short_name": "Allied Bank",
+    "primary": true
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "country_code": "MT",
+    "bic": "CFTEMTM1",
+    "bank_code": "CFTE",
+    "name": "OpenPayd Financial Services Malta Ltd",
+    "short_name": "OpenPayd",
+    "primary": true
+  }
+]

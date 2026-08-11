@@ -2630,5 +2630,21 @@
     "name": "BANQUE MICHEL INCHAUSPE",
     "short_name": "BAMI",
     "primary": true
+  },
+  {
+    "country_code": "FR",
+    "bic": "SCSYFRP2",
+    "bank_code": "17238",
+    "name": "SCORE AND SECURE PAYMENT",
+    "short_name": "SCORE AND SECURE PAYMENT",
+    "primary": true
+  },
+  {
+    "country_code": "FR",
+    "bic": "DBLKFR22",
+    "bank_code": "17748",
+    "name": "DEBLOCK SAS",
+    "short_name": "DEBLOCK",
+    "primary": true
   }
 ]

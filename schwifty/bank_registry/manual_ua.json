@@ -1,0 +1,10 @@
+[
+  {
+    "country_code": "UA",
+    "bic": "PBANUA2X",
+    "bank_code": "305299",
+    "name": "JSC CB PrivatBank",
+    "short_name": "PrivatBank",
+    "primary": true
+  }
+]
