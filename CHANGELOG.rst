@@ -7,6 +7,14 @@ Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro
 
 Unreleased
 ----------
+Added
+~~~~~
+* Added e-money institutions and banks that were missing from the bank registries: OpenPayd
+  (MT — first Maltese registry), ClearBank and Bilderlings Pay (GB), Score and Secure Payment
+  and Deblock (FR), bunq, Pecunia Cards and Financière des Paiements Électroniques (ES),
+  Unlimit (CY), MyFin (BG), Revolut Bank (PT), Enpara Bank (TR), United Bank and Allied Bank
+  (PK — first Pakistani registry), and the BIC for PrivatBank (UA).
+
 Changed
 ~~~~~~~
 * Simplified the IBAN checksum validation. The redundant ``self.numeric % 97 == 1`` test has

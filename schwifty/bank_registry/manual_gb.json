@@ -382,5 +382,21 @@
     "name": "NORTHERN BANK LIMITED T/A DANSKE BA",
     "short_name": "NORTHERN BANK LIMITED T/A DANSKE BA",
     "primary": true
+  },
+  {
+    "country_code": "GB",
+    "bic": "CLRBGB22",
+    "bank_code": "CLRB",
+    "name": "CLEARBANK LIMITED",
+    "short_name": "CLEARBANK",
+    "primary": true
+  },
+  {
+    "country_code": "GB",
+    "bic": "BIYSGB2L",
+    "bank_code": "BIYS",
+    "name": "BILDERLINGS PAY LIMITED",
+    "short_name": "BILDERLINGS PAY",
+    "primary": true
   }
 ]

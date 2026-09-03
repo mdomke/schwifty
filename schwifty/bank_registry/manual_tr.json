@@ -406,5 +406,13 @@
     "bank_code": "00121",
     "bic": "SCBLTRIS",
     "primary": true
+  },
+  {
+    "country_code": "TR",
+    "name": "Enpara Bank A.\u015e.",
+    "short_name": "Enpara Bank A.\u015e.",
+    "bank_code": "00157",
+    "bic": "ENASTRIS",
+    "primary": true
   }
 ]

@@ -374,5 +374,13 @@
     "name": "ANCORIA BANK LTD, LIMASSOL BANKING CENTRE",
     "primary": true,
     "short_name": "ANCORIA BANK LTD"
+  },
+  {
+    "bank_code": "902",
+    "bic": "CARDCY2L",
+    "country_code": "CY",
+    "name": "UNLIMIT EU LTD",
+    "primary": true,
+    "short_name": "UNLIMIT EU LTD"
   }
 ]

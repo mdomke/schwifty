@@ -670,5 +670,13 @@
     "name": "SANTANDER TOTTA, SGPS, S.A.",
     "short_name": "SANTANDER TOTTA",
     "primary": true
+  },
+  {
+    "country_code": "PT",
+    "bank_code": "3560",
+    "bic": "REVOPTP2",
+    "name": "REVOLUT BANK UAB, SUCURSAL EM PORTUGAL",
+    "short_name": "REVOLUT BANK",
+    "primary": true
   }
 ]
