@@ -13,10 +13,11 @@ from schwifty.domain import Component
 
 
 _alphabet: str = string.digits + string.ascii_uppercase
+_NUMERIFY_MAP: dict[str, str] = {c: str(i) for i, c in enumerate(_alphabet)}
 
 
 def numerify(value: str) -> int:
-    return int("".join(str(_alphabet.index(c)) for c in value))
+    return int("".join(_NUMERIFY_MAP[c] for c in value))
 
 
 def iso7064(
@@ -37,7 +38,7 @@ def weighted(
 
 
 def luhn(value: str) -> str:
-    numerical = "".join(str(_alphabet.index(n)) for n in value)
+    numerical = "".join(_NUMERIFY_MAP[n] for n in value)
     processed = "".join(str((2 - i % 2) * int(n)) for i, n in enumerate(reversed(numerical)))
     return str((10 - sum(int(n) for n in processed)) % 10)
 
@@ -52,7 +53,7 @@ class Algorithm(metaclass=abc.ABCMeta):
 
     @abc.abstractmethod
     def compute(self, components: list[str]) -> str:
-        return ""
+        pass
 
     def validate(self, components: list[str], expected: str) -> bool:
         return self.compute(components) == expected

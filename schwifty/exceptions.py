@@ -3,11 +3,11 @@ class SchwiftyException(ValueError):  # noqa: N818
 
 
 class InvalidLength(SchwiftyException):
-    """Indicates that the length of the input does not match the specifcation."""
+    """Indicates that the length of the input does not match the specification."""
 
 
 class InvalidStructure(SchwiftyException):
-    """Indicates a strctural error of the input (e.g. invalid characters)."""
+    """Indicates a structural error of the input (e.g. invalid characters)."""
 
 
 class InvalidCountryCode(SchwiftyException):
@@ -19,11 +19,11 @@ class InvalidBankCode(SchwiftyException):
 
 
 class InvalidBranchCode(SchwiftyException):
-    """Indicates that the branch code has an invalid strucutre."""
+    """Indicates that the branch code has an invalid structure."""
 
 
 class InvalidAccountCode(SchwiftyException):
-    """Indicates that the account code has an invalid strucutre."""
+    """Indicates that the account code has an invalid structure."""
 
 
 class InvalidChecksumDigits(SchwiftyException):

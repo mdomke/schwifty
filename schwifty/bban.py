@@ -275,15 +275,18 @@ class BBAN(common.Base):
         return _get_bban_spec(self.country_code)
 
     @property
+    def _bank_lookup_key(self) -> str:
+        lookup_by = self.spec.bic_lookup_components or [Component.BANK_CODE]
+        return "".join(self._get_component(component) for component in lookup_by)
+
+    @property
     def bic(self) -> BIC | None:
         """BIC or None: The BIC associated to the BBAN's bank-code.
 
         If the bank code is not available in schwifty's registry ``None`` is returned.
         """
-        lookup_by = self.spec.bic_lookup_components or [Component.BANK_CODE]
-        key = "".join(self._get_component(component) for component in lookup_by)
         try:
-            return BIC.from_bank_code(self.country_code, key)
+            return BIC.from_bank_code(self.country_code, self._bank_lookup_key)
         except exceptions.SchwiftyException:
             return None
 
@@ -342,9 +345,7 @@ class BBAN(common.Base):
     @property
     def bank(self) -> Bank | None:
         """Bank | None: The information of bank related to this BBANs bank code."""
-        lookup_by = self.spec.bic_lookup_components or [Component.BANK_CODE]
-        key = "".join(self._get_component(component) for component in lookup_by)
-        bank_entry = registry.get_banks_by_code(self.country_code, key)
+        bank_entry = registry.get_banks_by_code(self.country_code, self._bank_lookup_key)
         if not bank_entry:
             return None
         return bank_entry[0]

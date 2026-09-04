@@ -45,7 +45,7 @@ class Base(str):
 
     def _get_slice(self, start: int, end: int | None = None) -> str:
         if start < len(self) and (end is None or end <= len(self)):
-            return self.compact[start:end] if end is not None else self.compact[start:]
+            return self[start:end]
         return ""
 
 
