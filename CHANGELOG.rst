@@ -17,6 +17,8 @@ Added
 
 Changed
 ~~~~~~~
+* Simplified internal registry caching, character lookups, checksum helpers, and validation routines
+  for improved efficiency and cleaner code structure while preserving exact behavior.
 * Simplified the IBAN checksum validation. The redundant ``self.numeric % 97 == 1`` test has
   been dropped in favour of the stricter canonical ``ISO7064_mod97_10`` comparison, which it
   always implied. Behaviour is unchanged.

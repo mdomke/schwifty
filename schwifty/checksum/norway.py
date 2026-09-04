@@ -22,11 +22,7 @@ class DefaultAlgorithm(checksum.Algorithm):
         value = account_code[2:] if account_code[:2] == "00" else "".join(components)
 
         weights = [5, 4, 3, 2, 7, 6, 5, 4, 3, 2]
-        total: int = 0
-        for n, c in zip(weights, value, strict=False):
-            total += n * int(c)
-
-        check_digit = 11 - (total % 11)
+        check_digit = 11 - checksum.weighted(value, 11, weights)
         if check_digit == 10:
             raise InvalidAccountCode("Check digit does not compute: Invalid account code.")
         return str(check_digit % 11)

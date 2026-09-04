@@ -162,16 +162,17 @@ class BIC(common.Base):
             * United Arab Emirates
             * United Kingdom
         """
-        banks = sorted(
-            registry.get_banks_by_code(country_code, bank_code),
-            key=lambda b: b.primary,
-            reverse=True,
-        )
+        banks = registry.get_banks_by_code(country_code, bank_code)
         if not banks:
             raise exceptions.InvalidBankCode(
                 f"Unknown bank code {bank_code!r} for country {country_code!r}"
             )
-        return [cls(entry.bic) for entry in banks if entry.bic]
+        sorted_banks = sorted(
+            banks,
+            key=lambda b: b.primary,
+            reverse=True,
+        )
+        return [cls(entry.bic) for entry in sorted_banks if entry.bic]
 
     @classmethod
     def from_bank_code(cls, country_code: str, bank_code: str) -> BIC:
@@ -235,13 +236,13 @@ class BIC(common.Base):
                 # one with no branch code which is the most generic one.
                 generic_codes = [c for c in candidates if not c.branch_code]
                 if generic_codes:
-                    return sorted(generic_codes)[-1]
+                    return max(generic_codes)
 
                 # If we don't have one, we try to pick the one with
                 # 'XXX' as a branch code
                 generic_codes = [c for c in candidates if c.branch_code == "XXX"]
                 if generic_codes:
-                    return sorted(generic_codes)[-1]
+                    return max(generic_codes)
             return candidates[0]
         except (KeyError, IndexError) as e:
             raise exceptions.InvalidBankCode(
@@ -369,7 +370,7 @@ class BIC(common.Base):
             # entries per branch, so fall back to the institution's BIC when
             # the branch-specific lookup comes up empty.
             entries = registry.get_banks_by_bic(str(self)[:8])
-        return sorted({getattr(entry, key) for entry in entries if getattr(entry, key)})
+        return sorted({val for entry in entries if (val := getattr(entry, key))})
 
     @property
     def domestic_bank_codes(self) -> list[str]:

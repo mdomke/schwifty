@@ -31,6 +31,10 @@ class Positions:
 
 
 def digit_sum(number: int) -> int:
+    if number < 10:
+        return number
+    if number < 100:
+        return number // 10 + number % 10
     return sum(int(d) for d in str(number))
 
 
@@ -43,7 +47,6 @@ class WeightedModulus(checksum.Algorithm):
     weights: ClassVar[list[int]]
 
     def __init__(self) -> None:
-        self.weighted_sum: int = 0
         self.remainder: int = 0
 
     @override
@@ -156,7 +159,7 @@ class Algorithm02(WeightedMod11):
         if self.remainder == 0:
             return 0
         if self.remainder == 1:
-            raise InvalidBBANChecksum(f"Invalid remaidner: {self.remainder}")
+            raise InvalidBBANChecksum(f"Invalid remainder: {self.remainder}")
         return checksum
 
 
@@ -584,10 +587,8 @@ class Algorithm91(checksum.Algorithm):
 
     @override
     def validate(self, components: list[str], expected: str) -> bool:
-        for algo_cls in [self.Variant1, self.Variant2, self.Variant3, self.Variant4]:
-            if algo_cls().validate(components, expected):
-                return True
-        return False
+        variants = (self.Variant1, self.Variant2, self.Variant3, self.Variant4)
+        return any(algo_cls().validate(components, expected) for algo_cls in variants)
 
     @override
     def solve(self, components: list[str]) -> list[str] | None:

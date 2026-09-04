@@ -19,6 +19,10 @@ from schwifty.domain import Bank
 from schwifty.domain import IBANSpec
 
 
+_IBAN_STRUCTURE_RE = re.compile(r"[A-Z]{2}\d{2}[A-Z0-9]+")
+_iso7064_mod97_10 = ISO7064_mod97_10()
+
+
 if TYPE_CHECKING:
     from pydantic import GetCoreSchemaHandler
     from pydantic import GetJsonSchemaHandler
@@ -99,9 +103,8 @@ class IBAN(common.Base):
 
         .. versionadded:: 2024.01.2
         """
-        checksum_algo = ISO7064_mod97_10()
         return cls(
-            country_code + checksum_algo.compute([bban, country_code]) + bban,
+            country_code + _iso7064_mod97_10.compute([bban, country_code]) + bban,
             allow_invalid=allow_invalid,
             validate_bban=validate_bban,
         )
@@ -229,7 +232,7 @@ class IBAN(common.Base):
         # digits that appear in most BBANs, so invalid characters after the
         # country/check-digit prefix slipped through. ``fullmatch`` over the
         # alphanumeric BBAN catches them.
-        if not re.fullmatch(r"[A-Z]{2}\d{2}[A-Z0-9]+", self):
+        if not _IBAN_STRUCTURE_RE.fullmatch(self):
             raise exceptions.InvalidStructure(f"Invalid characters in IBAN {self!s}")
 
     def _validate_length(self) -> None:
@@ -248,8 +251,7 @@ class IBAN(common.Base):
         # check digits in the range 02..98, whereas the raw mod-97 test additionally accepts the
         # aliases 00, 01 and 99 (which no genuine IBAN carries). A passing ``validate`` always
         # implies ``self.numeric % 97 == 1``, so the latter check is redundant.
-        checksum_algo = ISO7064_mod97_10()
-        if not checksum_algo.validate([self.bban, self.country_code], self.checksum_digits):
+        if not _iso7064_mod97_10.validate([self.bban, self.country_code], self.checksum_digits):
             raise exceptions.InvalidChecksumDigits("Invalid checksum digits")
 
     @property

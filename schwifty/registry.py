@@ -38,7 +38,7 @@ def convert_bban_spec_to_regex(spec: str) -> str:
     return rf"^{re.sub(spec_re, convert, spec)}$"
 
 
-def add_bban_regex(country: str, spec: dict[str, Any]) -> dict[str, Any]:
+def add_bban_regex(spec: dict[str, Any]) -> dict[str, Any]:
     if "regex" not in spec:
         spec["regex"] = re.compile(convert_bban_spec_to_regex(spec["bban_spec"]))
     return spec
@@ -46,7 +46,7 @@ def add_bban_regex(country: str, spec: dict[str, Any]) -> dict[str, Any]:
 
 def merge_dicts(left: dict[Key, Any], right: dict[Key, Any]) -> dict[Key, Any]:
     merged = {}
-    for key in frozenset(right) & frozenset(left):
+    for key in left.keys() & right:
         left_value, right_value = left[key], right[key]
         if isinstance(left_value, dict) and isinstance(right_value, dict):
             merged[key] = merge_dicts(left_value, right_value)
@@ -123,7 +123,7 @@ class Registry:
             assert isinstance(data, dict)
             for country, spec in data.items():
                 assert isinstance(country, str)
-                data[country] = add_bban_regex(country, spec)
+                data[country] = add_bban_regex(spec)
 
         return self._save(name, data)
 
@@ -178,7 +178,7 @@ class Registry:
             defaults=defaults,
         )
 
-    def _parse_bank(self, data: dict[Key, Any]) -> Bank:
+    def _parse_bank(self, data: dict[Key, Any] | Bank) -> Bank:
         if isinstance(data, Bank):
             return data
         return Bank(
@@ -192,29 +192,21 @@ class Registry:
         )
 
     def get_banks_by_country(self, country_code: str) -> list[Bank]:
-        if not self._has("country"):
-            self._build_country_index()
         country_index = self._get("country")
         assert isinstance(country_index, dict)
         return country_index.get(country_code, [])
 
     def get_banks_by_code(self, country_code: str, bank_code: str) -> list[Bank]:
-        if not self._has("bank_code"):
-            self._build_bank_code_index()
         bank_code_index = self._get("bank_code")
         assert isinstance(bank_code_index, dict)
         return bank_code_index.get((country_code, bank_code), [])
 
     def get_banks_by_bic(self, bic: str) -> list[Bank]:
-        if not self._has("bic"):
-            self._build_bic_index()
         bic_index = self._get("bic")
         assert isinstance(bic_index, dict)
         return bic_index.get(bic, [])
 
     def get_countries(self) -> list[str]:
-        if not self._has("country"):
-            self._build_country_index()
         country_index = self._get("country")
         assert isinstance(country_index, dict)
         return [str(k) for k in country_index]
@@ -227,7 +219,7 @@ class Registry:
     def _build_country_index(self) -> None:
         base = self._get("bank")
         assert isinstance(base, list)
-        data = defaultdict(list)
+        data: dict[Key, list[Bank]] = defaultdict(list)
         for entry in base:
             assert isinstance(entry, dict)
             country_code = entry.get("country_code")
@@ -238,7 +230,7 @@ class Registry:
     def _build_bank_code_index(self) -> None:
         base = self._get("bank")
         assert isinstance(base, list)
-        data = defaultdict(list)
+        data: dict[Key, list[Bank]] = defaultdict(list)
         for entry in base:
             assert isinstance(entry, dict)
             country_code = entry.get("country_code")
@@ -250,7 +242,7 @@ class Registry:
     def _build_bic_index(self) -> None:
         base = self._get("bank")
         assert isinstance(base, list)
-        data = defaultdict(list)
+        data: dict[Key, list[Bank]] = defaultdict(list)
         for entry in base:
             assert isinstance(entry, dict)
             bic = entry.get("bic")
