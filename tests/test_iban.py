@@ -527,3 +527,15 @@ def test_copy() -> None:
     iban_copy = copy.copy(iban)
     assert id(iban) != id(iban_copy)
     assert iban == iban_copy
+
+
+@pytest.mark.parametrize("value", ["DE99 3704 0044 0532 0130 00", "XX89 3704 0044 0532 0130 00"])
+def test_deepcopy_allow_invalid(value: str) -> None:
+    original = IBAN(value, allow_invalid=True)
+
+    copied = copy.deepcopy(original)
+
+    assert copied is not original
+    assert isinstance(copied, IBAN)
+    assert copied == original
+    assert not copied.is_valid
