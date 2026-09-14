@@ -437,8 +437,8 @@
       "country_code": "AT",
       "primary": false,
       "bic": "BIIWATWWXXX",
-      "name": "flatexDEGIRO Bank AG",
-      "short_name": "flatexDEGIRO Bank AG",
+      "name": "flatexDEGIRO Bank SE",
+      "short_name": "flatexDEGIRO Bank SE",
       "bank_codes": [
         "19480"
       ]
@@ -1125,7 +1125,8 @@
       "name": "RAIFFEISENLANDESBANK NIEDER\u00d6STERREICH-WIEN AG",
       "short_name": "RAIFFEISENLANDESBANK NIEDER\u00d6STERREICH-WIEN AG",
       "bank_codes": [
-        "32000"
+        "32000",
+        "32600"
       ]
     },
     {
@@ -2567,8 +2568,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "RVSAAT2S017",
-      "name": "Raiffeisenbank Golling-Scheffau-Kellau registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
-      "short_name": "Raiffeisenbank Golling-Scheffau-Kellau registrierte Genossenschaft mit beschr\u00e4nkter Haftung",
+      "name": "Raiffeisenbank Golling-Scheffau-Kellau eGen",
+      "short_name": "Raiffeisenbank Golling-Scheffau-Kellau eGen",
       "bank_codes": [
         "35017"
       ]
@@ -3917,8 +3918,8 @@
       "country_code": "AT",
       "primary": true,
       "bic": "VSGKAT2KXXX",
-      "name": "Posojilnica Bank eGen",
-      "short_name": "Posojilnica Bank eGen",
+      "name": "Poso Bank AG",
+      "short_name": "Poso Bank AG",
       "bank_codes": [
         "39100",
         "39101",
@@ -4458,6 +4459,16 @@
       "short_name": "TeamBank \u00d6sterreich - Niederlassung der TeamBank AG N\u00fcrnberg",
       "bank_codes": [
         "76032"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "BIPGATW3XXX",
+      "name": "Bitpanda Payments GmbH",
+      "short_name": "Bitpanda Payments GmbH",
+      "bank_codes": [
+        "94646"
       ]
     },
     {
