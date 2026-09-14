@@ -320,3 +320,15 @@ def test_deepcopy() -> None:
     bic_copy = copy.copy(bic)
     assert id(bic) != id(bic_copy)
     assert bic == bic_copy
+
+
+@pytest.mark.parametrize("value", ["GENODXM1GLS", "FOOBARBAZ"])
+def test_deepcopy_allow_invalid(value: str) -> None:
+    original = BIC(value, allow_invalid=True)
+
+    copied = copy.deepcopy(original)
+
+    assert copied is not original
+    assert isinstance(copied, BIC)
+    assert copied == original
+    assert not copied.is_valid

@@ -31,7 +31,7 @@ class Base(str):
         return str(self) < str(other)
 
     def __deepcopy__(self, memo: dict[str, Any] | None = None) -> Self:
-        return self.__class__(str(self))
+        return self.__class__(str(self), allow_invalid=True)
 
     @property
     def compact(self) -> str:

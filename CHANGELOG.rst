@@ -7,6 +7,11 @@ Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro
 
 Unreleased
 ----------
+Fixed
+~~~~~
+* Deep-copying an IBAN or BIC created with ``allow_invalid=True`` no longer raises a
+  validation error. The copy preserves the original value and validation status.
+
 Added
 ~~~~~
 * Added e-money institutions and banks that were missing from the bank registries: OpenPayd
