@@ -19,8 +19,8 @@
   },
   {
     "bank_code": "10010123",
-    "name": "OLINDA Zweigniederlassung Deutschland",
-    "short_name": "Olinda, Berlin",
+    "name": "Qonto Zweigniederlassung Deutschland",
+    "short_name": "Qonto, Berlin",
     "bic": "QNTODEB2XXX",
     "primary": true,
     "country_code": "DE",
@@ -145,8 +145,8 @@
   },
   {
     "bank_code": "10020200",
-    "name": "BHF-BANK",
-    "short_name": "BHF-BANK Berlin",
+    "name": "ODDO BHF",
+    "short_name": "ODDO BHF Berlin",
     "bic": "BHFBDEFF100",
     "primary": true,
     "country_code": "DE",
@@ -207,15 +207,6 @@
     "checksum_algo": "99"
   },
   {
-    "bank_code": "10030200",
-    "name": "Landesbank Baden-W\u00fcrttemberg",
-    "short_name": "LBBW Berlin",
-    "bic": "BHYPDEB2XXX",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "09"
-  },
-  {
     "bank_code": "10030400",
     "name": "ABK Allgemeine Beamten Bank",
     "short_name": "ABK Bank Berlin",
@@ -235,8 +226,8 @@
   },
   {
     "bank_code": "10033300",
-    "name": "Santander Consumer Bank",
-    "short_name": "Santander Bank Berlin",
+    "name": "Openbank Deutschland",
+    "short_name": "Openbank",
     "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -703,8 +694,8 @@
   },
   {
     "bank_code": "10220600",
-    "name": "Sydbank Filiale Berlin",
-    "short_name": "Sydbank Berlin",
+    "name": "AL Sydbank Filiale Berlin",
+    "short_name": "AL Sydbank Berlin",
     "bic": "SYBKDE22BER",
     "primary": true,
     "country_code": "DE",
@@ -766,9 +757,9 @@
   },
   {
     "bank_code": "12016836",
-    "name": "KfW Kreditanstalt f\u00fcr Wiederaufbau",
+    "name": "KfW Berlin",
     "short_name": "KfW Berlin",
-    "bic": "KFWIDEFF100",
+    "bic": "KFWIDEF2XXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
@@ -777,6 +768,15 @@
     "bank_code": "12030000",
     "name": "Deutsche Kreditbank Berlin",
     "short_name": "Deutsche Kreditbank Berlin",
+    "bic": "BYLADEM1001",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "00"
+  },
+  {
+    "bank_code": "12030030",
+    "name": "Deutsche Kreditbank (Gf WP)",
+    "short_name": "Deutsche Kreditbank (Gf WP)",
     "bic": "BYLADEM1001",
     "primary": true,
     "country_code": "DE",
@@ -3151,8 +3151,8 @@
   },
   {
     "bank_code": "20030133",
-    "name": "Varengold Bank",
-    "short_name": "Varengold Bank",
+    "name": "Ascory Bank",
+    "short_name": "Ascory Bank, Hamburg",
     "bic": "VGAGDEHHXXX",
     "primary": true,
     "country_code": "DE",
@@ -3187,8 +3187,8 @@
   },
   {
     "bank_code": "20030600",
-    "name": "Sydbank Fil Hamburg",
-    "short_name": "Sydbank Hamburg",
+    "name": "AL Sydbank Fil Hamburg",
+    "short_name": "AL Sydbank Hamburg",
     "bic": "SYBKDE22HAM",
     "primary": true,
     "country_code": "DE",
@@ -3422,7 +3422,7 @@
   {
     "bank_code": "20069177",
     "name": "Raiffeisenbank",
-    "short_name": "Raiffeisenbank, M\u00f6lln",
+    "short_name": "Raiffeisenbank, Hagenow",
     "bic": "GENODEF1GRS",
     "primary": true,
     "country_code": "DE",
@@ -4033,8 +4033,8 @@
   },
   {
     "bank_code": "20120200",
-    "name": "BHF-BANK",
-    "short_name": "BHF-BANK Hamburg",
+    "name": "ODDO BHF",
+    "short_name": "ODDO BHF Hamburg",
     "bic": "BHFBDEFF200",
     "primary": true,
     "country_code": "DE",
@@ -4096,8 +4096,8 @@
   },
   {
     "bank_code": "20133300",
-    "name": "Santander Consumer Bank",
-    "short_name": "Santander Bank Hamburg",
+    "name": "Openbank Deutschland",
+    "short_name": "Openbank",
     "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -5113,8 +5113,8 @@
   },
   {
     "bank_code": "21020600",
-    "name": "Sydbank Filiale Kiel",
-    "short_name": "Sydbank Fil. Kiel",
+    "name": "AL Sydbank Filiale Kiel",
+    "short_name": "AL Sydbank Fil. Kiel",
     "bic": "SYBKDE22KIE",
     "primary": true,
     "country_code": "DE",
@@ -5140,7 +5140,7 @@
   },
   {
     "bank_code": "21050000",
-    "name": "Hamburg Commercial Bank, ehemals HSH Nordbank Hamburg",
+    "name": "Hamburg Commercial Bank",
     "short_name": "Hamburg Commercial Bank",
     "bic": "HSHNDEHHXXX",
     "primary": true,
@@ -5437,8 +5437,8 @@
   },
   {
     "bank_code": "21510600",
-    "name": "Sydbank Filiale Flensburg",
-    "short_name": "Sydbank Fil. Flensburg",
+    "name": "AL Sydbank Filiale Flensburg",
+    "short_name": "AL Sydbank Fil. Flensburg",
     "bic": "SYBKDE22XXX",
     "primary": true,
     "country_code": "DE",
@@ -6220,8 +6220,8 @@
   },
   {
     "bank_code": "25020200",
-    "name": "BHF-BANK",
-    "short_name": "BHF-BANK Hannover",
+    "name": "ODDO BHF",
+    "short_name": "ODDO BHF Hannover",
     "bic": "BHFBDEFF250",
     "primary": true,
     "country_code": "DE",
@@ -6229,8 +6229,8 @@
   },
   {
     "bank_code": "25020600",
-    "name": "Santander Consumer Bank",
-    "short_name": "Santander Consumer Bank",
+    "name": "Openbank Deutschland",
+    "short_name": "Openbank",
     "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -6294,6 +6294,15 @@
     "bank_code": "25050180",
     "name": "Sparkasse Hannover",
     "short_name": "Sparkasse Hannover",
+    "bic": "SPKHDE2HXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "A3"
+  },
+  {
+    "bank_code": "25050299",
+    "name": "Kreissparkasse Hannover -alt-",
+    "short_name": "Kr Spk Hannover -alt-",
     "bic": "SPKHDE2HXXX",
     "primary": true,
     "country_code": "DE",
@@ -9379,8 +9388,8 @@
   },
   {
     "bank_code": "28563749",
-    "name": "Raiffeisenbank",
-    "short_name": "Raiffeisenbank Moormerland",
+    "name": "Fehntjer VR Bank",
+    "short_name": "Fehntjer VRBank Moormerland",
     "bic": "GENODEF1MML",
     "primary": true,
     "country_code": "DE",
@@ -9460,8 +9469,8 @@
   },
   {
     "bank_code": "28591654",
-    "name": "Volksbank Westrhauderfehn",
-    "short_name": "Volksbank Westrhauderfehn",
+    "name": "Volksbank Westrhauderfehn -alt-",
+    "short_name": "VB Westrhauderfehn -alt-",
     "bic": "GENODEF1WRH",
     "primary": true,
     "country_code": "DE",
@@ -9991,8 +10000,8 @@
   },
   {
     "bank_code": "30020500",
-    "name": "BHF-BANK",
-    "short_name": "BHF-BANK D\u00fcsseldorf",
+    "name": "ODDO BHF",
+    "short_name": "ODDO BHF D\u00fcsseldorf",
     "bic": "BHFBDEFF300",
     "primary": true,
     "country_code": "DE",
@@ -10783,8 +10792,8 @@
   },
   {
     "bank_code": "31010833",
-    "name": "Santander Consumer Bank",
-    "short_name": "Santander Consumer Bank MG",
+    "name": "Openbank Deutschland",
+    "short_name": "Openbank",
     "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -10837,8 +10846,8 @@
   },
   {
     "bank_code": "31060517",
-    "name": "Volksbank M\u00f6nchengladbach",
-    "short_name": "VB M\u00f6nchengladbach",
+    "name": "Volksbank im Rheinland",
+    "short_name": "Volksbank im Rheinland",
     "bic": "GENODED1MRB",
     "primary": true,
     "country_code": "DE",
@@ -12277,8 +12286,8 @@
   },
   {
     "bank_code": "36033300",
-    "name": "Santander Consumer Bank",
-    "short_name": "Santander Bank Essen",
+    "name": "Openbank Deutschland",
+    "short_name": "Openbank",
     "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -12600,6 +12609,15 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "37020411",
+    "name": "TOYOTA Kreditbank (GF EG)",
+    "short_name": "TOYOTA Kreditbank K\u00f6ln",
+    "bic": "TFSEDE31XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
     "bank_code": "37020500",
     "name": "SozialBank",
     "short_name": "SozialBank K\u00f6ln",
@@ -12610,8 +12628,8 @@
   },
   {
     "bank_code": "37020600",
-    "name": "Santander Consumer Bank",
-    "short_name": "Santander Consumer Bank",
+    "name": "Openbank Deutschland",
+    "short_name": "Openbank",
     "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -12637,8 +12655,8 @@
   },
   {
     "bank_code": "37027000",
-    "name": "Santander Consumer Bank",
-    "short_name": "Santander Consumer Bank",
+    "name": "Openbank Deutschland",
+    "short_name": "Openbank",
     "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -13069,8 +13087,8 @@
   },
   {
     "bank_code": "37069720",
-    "name": "VR-Bank Nordeifel",
-    "short_name": "VR-Bank Nordeifel Schleiden",
+    "name": "VR Bank EifelLand",
+    "short_name": "VR Bank EifelLand",
     "bic": "GENODED1SLE",
     "primary": true,
     "country_code": "DE",
@@ -14482,8 +14500,8 @@
   },
   {
     "bank_code": "39162980",
-    "name": "VR-Bank",
-    "short_name": "VR-Bank W\u00fcrselen",
+    "name": "VR-Bank -alt-",
+    "short_name": "VR-Bank W\u00fcrselen -alt-",
     "bic": "GENODED1WUR",
     "primary": true,
     "country_code": "DE",
@@ -14743,8 +14761,8 @@
   },
   {
     "bank_code": "40069546",
-    "name": "Volksbank Senden",
-    "short_name": "Volksbank Senden",
+    "name": "Volksbank Ascheberg-Senden",
+    "short_name": "Volksbank Ascheberg-Senden",
     "bic": "GENODEM1SDN",
     "primary": true,
     "country_code": "DE",
@@ -14761,8 +14779,8 @@
   },
   {
     "bank_code": "40069601",
-    "name": "Volksbank Ascheberg-Herbern",
-    "short_name": "Volksbank Ascheberg-Herbern",
+    "name": "Volksbank Ascheberg-Herbern -alt-",
+    "short_name": "VB Ascheberg-Herbern -alt-",
     "bic": "GENODEM1CAN",
     "primary": true,
     "country_code": "DE",
@@ -18478,8 +18496,8 @@
   },
   {
     "bank_code": "48020151",
-    "name": "Hauck Aufh\u00e4user Lampe Privatbank",
-    "short_name": "Hauck Aufh\u00e4user Lampe",
+    "name": "ABN AMRO Bank, Frankfurt Branch",
+    "short_name": "ABN AMRO Bank Ffm",
     "bic": "HAUKDEFFXXX",
     "primary": true,
     "country_code": "DE",
@@ -19324,8 +19342,8 @@
   },
   {
     "bank_code": "50033300",
-    "name": "Santander Consumer Bank",
-    "short_name": "Santander Bank Frankfurt",
+    "name": "Openbank Deutschland",
+    "short_name": "Openbank",
     "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -19334,7 +19352,7 @@
   {
     "bank_code": "50034200",
     "name": "OPEN BANK, Zweigniederlassung Deutschand",
-    "short_name": "OPEN BANK, Frankfurt",
+    "short_name": "OPEN BANK, Zndl. MG",
     "bic": "OPENDEFFXXX",
     "primary": true,
     "country_code": "DE",
@@ -20683,8 +20701,8 @@
   },
   {
     "bank_code": "50110808",
-    "name": "J.P. Morgan",
-    "short_name": "J.P. Morgan",
+    "name": "J.P. Morgan Gf Chase",
+    "short_name": "J.P. Morgan Gf Chase",
     "bic": "CHASDEF2XXX",
     "primary": true,
     "country_code": "DE",
@@ -20719,12 +20737,12 @@
   },
   {
     "bank_code": "50120383",
-    "name": "ABN AMRO Bank Frankfurt Branch - Bethmann Bank",
+    "name": "ABN AMRO Bank Frankfurt Branch",
     "short_name": "ABN AMRO Bank Ffm",
     "bic": "DELBDE33XXX",
     "primary": true,
     "country_code": "DE",
-    "checksum_algo": "D9"
+    "checksum_algo": "09"
   },
   {
     "bank_code": "50120600",
@@ -20739,6 +20757,15 @@
     "bank_code": "50120800",
     "name": "UniCredit German Branch",
     "short_name": "Unicredit Deutschland",
+    "bic": "BMPBDEF2XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "00"
+  },
+  {
+    "bank_code": "50120801",
+    "name": "UniCredit German Branch - Gf Mass settlements",
+    "short_name": "Unicredit Gf Mass Settlemen",
     "bic": "BMPBDEF2XXX",
     "primary": true,
     "country_code": "DE",
@@ -20881,8 +20908,8 @@
   },
   {
     "bank_code": "50215500",
-    "name": "Hauck Aufh\u00e4user Lampe Privatbank",
-    "short_name": "Hauck Aufh\u00e4user Lampe",
+    "name": "ABN AMRO Bank, Frankfurt Branch",
+    "short_name": "ABN AMRO Bank Ffm",
     "bic": "ABASDEFFXXX",
     "primary": true,
     "country_code": "DE",
@@ -20935,8 +20962,8 @@
   },
   {
     "bank_code": "50220900",
-    "name": "Hauck Aufh\u00e4user Lampe Privatbank",
-    "short_name": "Hauck Aufh\u00e4user Lampe Ffm",
+    "name": "ABN AMRO Bank, Frankfurt Branch",
+    "short_name": "ABN AMRO Bank Ffm",
     "bic": "HAUKDEFFXXX",
     "primary": true,
     "country_code": "DE",
@@ -22033,8 +22060,8 @@
   },
   {
     "bank_code": "51020000",
-    "name": "BHF-BANK",
-    "short_name": "BHF-BANK Wiesbaden",
+    "name": "ODDO BHF",
+    "short_name": "ODDO BHF Wiesbaden",
     "bic": "BHFBDEFF510",
     "primary": true,
     "country_code": "DE",
@@ -22765,15 +22792,6 @@
     "name": "Volksbank Ulrichstein",
     "short_name": "Volksbank Ulrichstein",
     "bic": "GENODE51ULR",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "32"
-  },
-  {
-    "bank_code": "51961515",
-    "name": "Spar- und Darlehnskasse Stockhausen -alt-",
-    "short_name": "Spar-u Darlehnskasse -alt-",
-    "bic": "GENODE51HSH",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "32"
@@ -24282,6 +24300,15 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "55010482",
+    "name": "Aareal Bank GF BDS New Markets + Products",
+    "short_name": "Aareal Bank GF BDS NMuP WI",
+    "bic": "AARBDE82XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "01"
+  },
+  {
     "bank_code": "55010625",
     "name": "Aareal Bank Clearing Wiesbaden",
     "short_name": "Aareal Clearing Wiesbaden",
@@ -24301,8 +24328,8 @@
   },
   {
     "bank_code": "55020000",
-    "name": "BHF-BANK",
-    "short_name": "BHF-BANK Mainz",
+    "name": "ODDO BHF",
+    "short_name": "ODDO BHF Mainz",
     "bic": "BHFBDEFF550",
     "primary": true,
     "country_code": "DE",
@@ -24373,8 +24400,8 @@
   },
   {
     "bank_code": "55033300",
-    "name": "Santander Consumer Bank",
-    "short_name": "Santander Bank Mainz",
+    "name": "Openbank Deutschland",
+    "short_name": "Openbank",
     "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -24994,8 +25021,8 @@
   },
   {
     "bank_code": "57069361",
-    "name": "Raiffeisenbank Welling",
-    "short_name": "Raiffeisenbank Welling",
+    "name": "Raiffeisenbank Welling -alt-",
+    "short_name": "Raiffeisenbank Welling-alt-",
     "bic": "GENODED1WLG",
     "primary": true,
     "country_code": "DE",
@@ -25174,8 +25201,8 @@
   },
   {
     "bank_code": "57090900",
-    "name": "PSD Bank Koblenz",
-    "short_name": "PSD Bank Koblenz",
+    "name": "PSD Bank Koblenz -alt-",
+    "short_name": "PSD Bank Koblenz -alt-",
     "bic": "GENODEF1P12",
     "primary": true,
     "country_code": "DE",
@@ -25597,8 +25624,8 @@
   },
   {
     "bank_code": "58661901",
-    "name": "Raiffeisenbank Westeifel",
-    "short_name": "Raiffeisenbank Westeifel",
+    "name": "Raiffeisenbank Westeifel -alt-",
+    "short_name": "Raiffbk Westeifel -alt-",
     "bic": "GENODED1WSC",
     "primary": true,
     "country_code": "DE",
@@ -26613,6 +26640,15 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "60030633",
+    "name": "CreditPlus Bank GF Credit Agricole Deutschland",
+    "short_name": "CreditPlus Bank GF CA",
+    "bic": "CPLUDES1633",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
+  },
+  {
     "bank_code": "60030666",
     "name": "CreditPlus Bank",
     "short_name": "CreditPlus Bank",
@@ -27128,7 +27164,7 @@
   {
     "bank_code": "60069457",
     "name": "Raiffeisenbank Ottenbach",
-    "short_name": "Raiffeisenbank Ottenbach",
+    "short_name": "Raiffbk Ottenbach",
     "bic": "GENODES1OTT",
     "primary": true,
     "country_code": "DE",
@@ -27766,8 +27802,8 @@
   },
   {
     "bank_code": "60120200",
-    "name": "BHF-BANK",
-    "short_name": "BHF-BANK Stuttgart",
+    "name": "ODDO BHF",
+    "short_name": "ODDO BHF Stuttgart",
     "bic": "BHFBDEFF600",
     "primary": true,
     "country_code": "DE",
@@ -27784,8 +27820,8 @@
   },
   {
     "bank_code": "60133300",
-    "name": "Santander Consumer Bank",
-    "short_name": "Santander Bank Stuttgart",
+    "name": "Openbank Deutschland",
+    "short_name": "Openbank",
     "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -30222,15 +30258,6 @@
     "checksum_algo": "01"
   },
   {
-    "bank_code": "65461878",
-    "name": "Raiffeisenbank Biberach -alt-",
-    "short_name": "Raiffbk Biberach -alt-",
-    "bic": "GENODES1WAR",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "10"
-  },
-  {
     "bank_code": "65462231",
     "name": "Raiffeisenbank Illertal -alt-",
     "short_name": "Raiffbk Illertal -alt-",
@@ -31998,7 +32025,7 @@
     "bank_code": "68351865",
     "name": "Sparkasse Markgr\u00e4flerland",
     "short_name": "Sparkasse Markgr\u00e4flerland",
-    "bic": "SOLADES1MGL",
+    "bic": "SPKMDE8WXXX",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
@@ -32401,8 +32428,8 @@
   },
   {
     "bank_code": "69291000",
-    "name": "Volksbank",
-    "short_name": "Volksbank Konstanz",
+    "name": "Volksbank -alt-",
+    "short_name": "Volksbank Konstanz -alt-",
     "bic": "GENODE61RAD",
     "primary": true,
     "country_code": "DE",
@@ -32758,6 +32785,15 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "67"
+  },
+  {
+    "bank_code": "70013300",
+    "name": "Raiffeisen-Landesbank Steiermark, Niederlassung M\u00fcnchen",
+    "short_name": "RLB Steiermark, M\u00fcnchen",
+    "bic": "RZSTDEM2XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09"
   },
   {
     "bank_code": "70013400",
@@ -33832,8 +33868,8 @@
   },
   {
     "bank_code": "70133300",
-    "name": "Santander Consumer Bank",
-    "short_name": "Santander Bank M\u00fcnchen",
+    "name": "Openbank Deutschland",
+    "short_name": "Openbank",
     "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -34345,8 +34381,8 @@
   },
   {
     "bank_code": "70220200",
-    "name": "BHF-BANK",
-    "short_name": "BHF-BANK M\u00fcnchen",
+    "name": "ODDO BHF",
+    "short_name": "ODDO BHF M\u00fcnchen",
     "bic": "BHFBDEFF700",
     "primary": true,
     "country_code": "DE",
@@ -35965,8 +36001,8 @@
   },
   {
     "bank_code": "73369859",
-    "name": "Raiffeisenbank Bidingen",
-    "short_name": "Raiffeisenbank Bidingen",
+    "name": "Raiffeisenbank Bidingen -alt-",
+    "short_name": "Raiffbk Bidingen -alt-",
     "bic": "GENODEF1BIN",
     "primary": true,
     "country_code": "DE",
@@ -36244,7 +36280,7 @@
   },
   {
     "bank_code": "74020100",
-    "name": "Raiffeisenlandesbank O\u00d6 Niederlassung Deutschland",
+    "name": "Raiffeisenlandesbank Ober\u00f6sterreich Ndl Deutschland",
     "short_name": "RLB O\u00d6 Ndl Deutschland",
     "bic": "RZOODE77XXX",
     "primary": true,
@@ -36253,8 +36289,8 @@
   },
   {
     "bank_code": "74020150",
-    "name": "Raiffeisenlandesbank O\u00d6 Ndl  Deutschl.- f\u00fcr interne Zwecke",
-    "short_name": "RLB O\u00d6 Ndl Deutschland",
+    "name": "Raiffeisenlandesbank Ober\u00f6sterreich - Gf  interne Zwecke",
+    "short_name": "RLB O\u00d6 - GF interne Zwecke",
     "bic": "RZOODE77XXX",
     "primary": true,
     "country_code": "DE",
@@ -36373,15 +36409,6 @@
     "name": "Raiffeisenbank S\u00fcdl. Bayerischer Wald -alt-",
     "short_name": "RB S\u00fcdl Bayer Wald -alt-",
     "bic": "GENODEF1HZN",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
-  },
-  {
-    "bank_code": "74067000",
-    "name": "Rottaler Raiffeisenbank -alt-",
-    "short_name": "Rottaler Raiffbk -alt-",
-    "bic": "GENODEF1POC",
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"
@@ -38194,15 +38221,6 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
-  },
-  {
-    "bank_code": "76260451",
-    "name": "Raiffeisen-Volksbank F\u00fcrth -alt-",
-    "short_name": "Raiffbk-Volksbank F\u00fcrth-alt",
-    "bic": "GENODEF1FUE",
-    "primary": true,
-    "country_code": "DE",
-    "checksum_algo": "88"
   },
   {
     "bank_code": "76320072",
@@ -41167,8 +41185,8 @@
   },
   {
     "bank_code": "84094754",
-    "name": "VR-Bank Bad Salzungen Schmalkalden",
-    "short_name": "VR-Bank Bad Salzungen",
+    "name": "VR-Bank in Nordhessen Westth\u00fcringen",
+    "short_name": "VR Nordhessen Westth\u00fcringen",
     "bic": "GENODEF1SAL",
     "primary": true,
     "country_code": "DE",
@@ -41518,8 +41536,8 @@
   },
   {
     "bank_code": "86033300",
-    "name": "Santander Consumer Bank",
-    "short_name": "Santander Bank Leipzig",
+    "name": "Openbank Deutschland",
+    "short_name": "Openbank",
     "bic": "SCFBDE33XXX",
     "primary": true,
     "country_code": "DE",
@@ -42229,8 +42247,8 @@
   },
   {
     "bank_code": "86095554",
-    "name": "Volksbank Delitzsch",
-    "short_name": "Volksbank Delitzsch",
+    "name": "Volksbank Delitzsch -alt-",
+    "short_name": "Volksbank Delitzsch -alt-",
     "bic": "GENODEF1DZ1",
     "primary": true,
     "country_code": "DE",
