@@ -505,6 +505,16 @@
     {
       "country_code": "BE",
       "primary": true,
+      "bic": "BUNQBEB2XXX",
+      "name": "BUNQ, Belgian Branch",
+      "short_name": "BUNQ, Belgian Branch",
+      "bank_codes": [
+        "167"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
       "bic": "",
       "name": "Syst\u00e8mes Technologiques d'Echange et de Traitement - STET",
       "short_name": "Syst\u00e8mes Technologiques d'Echange et de Traitement - STET",
@@ -1106,6 +1116,16 @@
     {
       "country_code": "BE",
       "primary": true,
+      "bic": "DLLUBE22",
+      "name": "Delen Private Bank Luxembourg \u2013 Belgian Branch",
+      "short_name": "Delen Private Bank Luxembourg \u2013 Belgian Branch",
+      "bank_codes": [
+        "606"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
       "bic": "ICBKBEBB",
       "name": "Industrial and Commercial Bank of China (Europe)",
       "short_name": "Industrial and Commercial Bank of China (Europe)",
@@ -1486,15 +1506,11 @@
     {
       "country_code": "BE",
       "primary": true,
-      "bic": "PCHQBEBB",
-      "name": "bpost",
-      "short_name": "bpost",
+      "bic": "BUXABE22",
+      "name": "ABN AMRO Bank N.V.",
+      "short_name": "ABN AMRO Bank N.V.",
       "bank_codes": [
-        "873",
-        "981",
-        "982",
-        "983",
-        "984"
+        "875"
       ]
     },
     {
@@ -1562,7 +1578,7 @@
     {
       "country_code": "BE",
       "primary": true,
-      "bic": "",
+      "bic": "MLLEBE92",
       "name": "Mollie B.V.",
       "short_name": "Mollie B.V.",
       "bank_codes": [
@@ -1617,6 +1633,16 @@
       "short_name": "GOLD COMMODITIES FOREX (G.C.F.)",
       "bank_codes": [
         "916"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "TRBKBEB2",
+      "name": "Trade Republic Bank GmbH, Belgian Branch",
+      "short_name": "Trade Republic Bank GmbH, Belgian Branch",
+      "bank_codes": [
+        "919"
       ]
     },
     {
@@ -1740,26 +1766,6 @@
       "short_name": "Paynovate",
       "bank_codes": [
         "977"
-      ]
-    },
-    {
-      "country_code": "BE",
-      "primary": true,
-      "bic": "",
-      "name": "bpost",
-      "short_name": "bpost",
-      "bank_codes": [
-        "989",
-        "990",
-        "991",
-        "992",
-        "993",
-        "994",
-        "995",
-        "996",
-        "997",
-        "998",
-        "999"
       ]
     }
   ],
