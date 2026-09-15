@@ -259,8 +259,6 @@
       "short_name": "Bank Handlowy w Warszawie Sp\u00f3\u0142ka Akcyjna",
       "bank_codes": [
         "10300006",
-        "10300019",
-        "10300022",
         "10301016",
         "10301029",
         "10301032",
@@ -2499,35 +2497,24 @@
         "13701011",
         "13701037",
         "13701040",
-        "13701053",
         "13701066",
         "13701079",
         "13701082",
         "13701095",
         "13701109",
-        "13701112",
         "13701125",
         "13701138",
-        "13701141",
         "13701154",
         "13701170",
         "13701183",
-        "13701196",
         "13701200",
         "13701213",
-        "13701226",
-        "13701242",
         "13701255",
-        "13701268",
         "13701271",
-        "13701284",
         "13701301",
         "13701314",
-        "13701327",
         "13701330",
         "13701343",
-        "13701356",
-        "13701369",
         "13701372",
         "13701385",
         "13701398",
@@ -2789,16 +2776,6 @@
       "country_code": "PL",
       "primary": true,
       "bic": "",
-      "name": "Western Union International Bank GmbH, Sp. z o.o. Oddzia\u0142 w Polsce",
-      "short_name": "Western Union International Bank GmbH, Sp. z o.o. Oddzia\u0142 w Polsce",
-      "bank_codes": [
-        "26700001"
-      ]
-    },
-    {
-      "country_code": "PL",
-      "primary": true,
-      "bic": "",
       "name": "PKO Bank Hipoteczny Sp\u00f3\u0142ka Akcyjna",
       "short_name": "PKO Bank Hipoteczny Sp\u00f3\u0142ka Akcyjna",
       "bank_codes": [
@@ -2819,8 +2796,8 @@
       "country_code": "PL",
       "primary": true,
       "bic": "",
-      "name": "TF BANK AB (Sp\u00f3\u0142ka Akcyjna) Oddzia\u0142 w Polsce",
-      "short_name": "TF BANK AB (Sp\u00f3\u0142ka Akcyjna) Oddzia\u0142 w Polsce",
+      "name": "Avarda Bank AB (Sp\u00f3\u0142ka Akcyjna) Oddzia\u0142 w Polsce",
+      "short_name": "Avarda Bank AB (Sp\u00f3\u0142ka Akcyjna) Oddzia\u0142 w Polsce",
       "bank_codes": [
         "27000001"
       ]
@@ -3024,6 +3001,17 @@
     {
       "country_code": "PL",
       "primary": true,
+      "bic": "GBGCPLPKXXX",
+      "name": "VeloBank Sp\u00f3\u0142ka Akcyjna",
+      "short_name": "VeloBank Sp\u00f3\u0142ka Akcyjna",
+      "bank_codes": [
+        "10300019",
+        "10300022"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
       "bic": "GBGCPLPK",
       "name": "VeloBank Sp\u00f3\u0142ka Akcyjna",
       "short_name": "VeloBank Sp\u00f3\u0142ka Akcyjna",
@@ -3069,6 +3057,16 @@
       "short_name": "Morgan Stanley Europe SE (Sp\u00f3\u0142ka Europejska) Oddzia\u0142 w Polsce",
       "bank_codes": [
         "29400005"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "KOEXPLPP",
+      "name": "KEB Hana Bank (D) AG Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce",
+      "short_name": "KEB Hana Bank (D) AG Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce",
+      "bank_codes": [
+        "29500008"
       ]
     },
     {
@@ -3168,7 +3166,8 @@
       "name": "SPEEDY AG sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105",
       "short_name": "SPEEDY AG sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105",
       "bank_codes": [
-        "63600003"
+        "63600003",
+        "63600016"
       ]
     },
     {
@@ -3214,6 +3213,16 @@
     {
       "country_code": "PL",
       "primary": true,
+      "bic": "",
+      "name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa \"Bo\u017ce Dary\"",
+      "short_name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa \"Bo\u017ce Dary\"",
+      "bank_codes": [
+        "70480003"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
       "bic": "SKOKPLPWXXX",
       "name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa im. Unii Lubelskiej w Lublinie",
       "short_name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa im. Unii Lubelskiej w Lublinie",
@@ -3239,16 +3248,6 @@
       "short_name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa PROGRES",
       "bank_codes": [
         "70560008"
-      ]
-    },
-    {
-      "country_code": "PL",
-      "primary": true,
-      "bic": "SKOKPLPWXXX",
-      "name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa \"\u015al\u0105sk\" z siedzib\u0105 w Rudzie \u015al\u0105skiej",
-      "short_name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa \"\u015al\u0105sk\" z siedzib\u0105 w Rudzie \u015al\u0105skiej",
-      "bank_codes": [
-        "70480003"
       ]
     },
     {
@@ -5133,16 +5132,6 @@
       "short_name": "Bank Sp\u00f3\u0142dzielczy w Pszczynie",
       "bank_codes": [
         "84480004"
-      ]
-    },
-    {
-      "country_code": "PL",
-      "primary": true,
-      "bic": "",
-      "name": "Bank Sp\u00f3\u0142dzielczy w Olkuszu w likwidacji",
-      "short_name": "Bank Sp\u00f3\u0142dzielczy w Olkuszu w likwidacji",
-      "bank_codes": [
-        "84490003"
       ]
     },
     {
