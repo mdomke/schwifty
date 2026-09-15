@@ -8,10 +8,10 @@ from typing import TypedDict
 from boltons.iterutils import bucketize
 
 
-class EntryV1(TypedDict):
+class EntryV1(TypedDict, total=False):
     name: str
     short_name: str
-    bic: str
+    bic: str | None
     bank_code: str
     primary: bool
     checksum_algo: str
@@ -26,7 +26,7 @@ def convert_to_v2(
     groupby = groupby or ["bic", "name"]
 
     def make_key(e: EntryV1) -> str:
-        return "::".join(e[group] for group in groupby) + "::" + e.get("checksum_algo", "")
+        return "::".join(str(e[group]) for group in groupby) + "::" + e.get("checksum_algo", "")
 
     buckets = bucketize(data, make_key)
 

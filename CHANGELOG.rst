@@ -11,6 +11,10 @@ Fixed
 ~~~~~
 * Deep-copying an IBAN or BIC created with ``allow_invalid=True`` no longer raises a
   validation error. The copy preserves the original value and validation status.
+* Updated the Swiss bank registry, which could no longer be generated since SIX started
+  emitting bank master records without a BIC. Retired IIDs of merged institutes (e.g. the
+  former Credit Suisse codes, now UBS) are now kept as aliases of their successor, so IBANs
+  still in circulation keep resolving.
 
 Added
 ~~~~~
