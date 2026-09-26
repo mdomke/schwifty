@@ -9,6 +9,11 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* Updated the Slovenian bank registry, which could no longer be generated because Banka
+  Slovenije moved its list of payment service provider identifiers. Bank codes added since
+  the last update (e.g. ``02188``, NLB) now resolve, names keep their Slovenian characters,
+  and the retired codes of SKB banka and Abanka are kept as aliases of OTP banka so IBANs
+  still in circulation continue to resolve.
 * Deep-copying an IBAN or BIC created with ``allow_invalid=True`` no longer raises a
   validation error. The copy preserves the original value and validation status.
 * Updated the Swiss bank registry, which could no longer be generated since SIX started
