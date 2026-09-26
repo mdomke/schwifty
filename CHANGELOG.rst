@@ -9,6 +9,10 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* ``BIC.from_bank_code`` now prefers BICs the registry marks as primary when a bank code
+  maps to several equally generic BICs, before falling back to the alphabetical tie-break.
+  For the French bank code 18719 this is the head office ``BFCORERXXXX`` rather than the
+  Mayotte branch ``BFCOYTYTXXX``, which is no longer flagged primary.
 * Deep-copying an IBAN or BIC created with ``allow_invalid=True`` no longer raises a
   validation error. The copy preserves the original value and validation status.
 * Updated the Swiss bank registry, which could no longer be generated since SIX started

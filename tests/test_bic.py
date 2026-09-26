@@ -177,7 +177,7 @@ def test_bic_structure_is_validated_over_full_string() -> None:
         ("FR", "30066", "CMCIFRPPXXX"),
         ("FR", "17469", "SOCBPFTXXXX"),
         ("FR", "10096", "CMCIFRPP"),
-        ("FR", "18719", "BFCOYTYTXXX"),
+        ("FR", "18719", "BFCORERXXXX"),  # head office, not the Mayotte branch
         ("FR", "30077", "SMCTFR2A"),
         ("FR", "13489", "NORDFRPP"),
         ("HU", "107", "CIBHHUHB"),
@@ -269,6 +269,16 @@ def test_bic_candidates_from_unknown_bank_code() -> None:
 def test_bic_is_from_primary_bank_code() -> None:
     bic = BIC.from_bank_code("DE", "20070024")
     assert bic.compact == "DEUTDEDBHAM"
+
+
+def test_bic_from_bank_code_prefers_registry_primary_among_generic_codes() -> None:
+    # Bank code 18719 has two 'XXX' BICs; the registry marks the head office primary and the
+    # Mayotte branch not. The primary must win over the alphabetical tie-break.
+    assert BIC.from_bank_code("FR", "18719").compact == "BFCORERXXXX"
+    assert [b.compact for b in BIC.candidates_from_bank_code("FR", "18719")] == [
+        "BFCORERXXXX",
+        "BFCOYTYTXXX",
+    ]
 
 
 def test_magic_methods() -> None:

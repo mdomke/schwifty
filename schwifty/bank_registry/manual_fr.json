@@ -2205,7 +2205,7 @@
     "bank_code": "18719",
     "name": "BANQUE FRANCAISE COMMERCIALE DE LOCEAN INDIEN",
     "short_name": "BANQUE FRANCAISE COMMERCIALE DE LOCEAN INDIEN",
-    "primary": true
+    "primary": false
   },
   {
     "country_code": "FR",
