@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import json
 
+import httpx2
 import pandas as pd
-import requests
 
 
 BRANCH_URL = "https://bank.gov.ua/NBU_BankInfo/get_data_branch?json"
@@ -17,10 +17,10 @@ def split_names(s) -> tuple[str, str]:
 
 def get_data(filter_insolvent: bool = True) -> pd.DataFrame:
     # Get raw dataframes for parent banks and branches
-    with requests.get(PARENT_URL) as r:
+    with httpx2.get(PARENT_URL, follow_redirects=True, timeout=None) as r:
         parents = pd.read_json(r.text)
 
-    with requests.get(BRANCH_URL) as r:
+    with httpx2.get(BRANCH_URL, follow_redirects=True, timeout=None) as r:
         branches = pd.read_json(r.text)
 
     # Filter out insolvent branches and branches of insolvent banks

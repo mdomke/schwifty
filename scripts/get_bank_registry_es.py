@@ -1,7 +1,7 @@
 import json
 from urllib.parse import urljoin
 
-import requests
+import httpx2
 from bs4 import BeautifulSoup
 
 
@@ -19,7 +19,9 @@ titles = {
 
 
 def get_bank_details(url):
-    soup = BeautifulSoup(requests.get(url).content, "html.parser")
+    soup = BeautifulSoup(
+        httpx2.get(url, follow_redirects=True, timeout=None).content, "html.parser"
+    )
     rows = soup.select("div.about-content-text table tr")
 
     record = {"country_code": "ES", "primary": True}
@@ -37,7 +39,9 @@ def get_bank_details(url):
 def process():
     result = []
     for url in BASE_URLS:
-        soup = BeautifulSoup(requests.get(url).content, "html.parser")
+        soup = BeautifulSoup(
+            httpx2.get(url, follow_redirects=True, timeout=None).content, "html.parser"
+        )
         paths = [str(a["href"]) for a in soup.select("h6.portfolio-title a")]
         print(f"Fetched {len(paths)} bank records")
         result.extend([get_bank_details(urljoin(url, path)) for path in paths])

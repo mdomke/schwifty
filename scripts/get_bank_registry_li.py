@@ -1,14 +1,14 @@
 import json
 from typing import Any
 
-import requests
+import httpx2
 
 
 URL = "https://api.six-group.com/api/epcd/bankmaster/v3/bankmaster.json"
 
 
 def fetch() -> list[dict[str, Any]]:
-    return requests.get(URL).json()["entries"]
+    return httpx2.get(URL, follow_redirects=True, timeout=None).json()["entries"]
 
 
 def process(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
