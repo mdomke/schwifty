@@ -32,8 +32,8 @@ the dev dependency group — this is how `test` and `check-types` already pull i
 - **Keep `schwifty/` strict.** Ruff relaxations are scoped by directory in
   `[tool.ruff.lint.per-file-ignores]` — `scripts/`, `tests/` and docs get exceptions; the
   library package does not. Don't widen ignores to cover `schwifty/`; fix the code instead.
-- **Python support.** Code must run on CPython 3.10 through 3.14. Avoid features newer than
-  3.10 (for example, `StrEnum` — see the commit history).
+- **Python support.** Code must run on CPython 3.11 through 3.14. Avoid features newer than
+  3.11 (for example, stdlib `typing.override` and PEP 695 type parameter syntax — both need 3.12).
 - **Update the changelog.** Add an entry to `CHANGELOG.rst` describing user-visible changes.
 
 ## Before you're done
