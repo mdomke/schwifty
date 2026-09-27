@@ -171,6 +171,7 @@ def test_bic_structure_is_validated_over_full_string() -> None:
         ("CH", "08390", "ABSOCH22XXX"),
         ("CZ", "0600", "AGBACZPP"),
         ("DE", "43060967", "GENODEM1GLS"),
+        ("DE", "48020151", "HAUKDEFFXXX"),  # primary record, not the secondary LAMPDEDDXXX
         ("ES", "0209", "BSABESBB"),
         ("FI", "101", "NDEAFIHH"),
         ("FR", "30004", "BNPAFRPP"),
