@@ -9,6 +9,10 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* ``IBAN.bank`` (and with it ``IBAN.bank_name`` and ``IBAN.bank_short_name``) now
+  resolve a bank code to the registry record flagged ``primary`` instead of whichever
+  record happened to be read first. National registries list one record per branch, so
+  the two could name a different institution than ``IBAN.bic`` does.
 * Deep-copying an IBAN or BIC created with ``allow_invalid=True`` no longer raises a
   validation error. The copy preserves the original value and validation status.
 * Updated the Swiss bank registry, which could no longer be generated since SIX started
