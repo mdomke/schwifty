@@ -15,6 +15,7 @@ from typing import ClassVar
 from schwifty import checksum
 from schwifty._compat import override
 from schwifty.domain import Component
+from schwifty.exceptions import InvalidAccountCode
 from schwifty.exceptions import InvalidBBANChecksum
 
 
@@ -68,7 +69,16 @@ class WeightedModulus(checksum.Algorithm):
         # The positions are provided as in the specification, which starts counting at 1
         start, end = positions.start - 1, positions.end
 
-        assert len(account_code) == ACCOUNT_CODE_LENGTH
+        if len(account_code) != ACCOUNT_CODE_LENGTH:
+            # ``_get_slice`` answers "" for a component that does not fit the
+            # value, so a BBAN shorter than the country spec reaches this point
+            # with an empty account code. Report it as the exception type the
+            # BBAN validation documents instead of letting a bare assert escape
+            # (which vanishes under ``python -O``).
+            raise InvalidAccountCode(
+                f"Account code must be {ACCOUNT_CODE_LENGTH} digits long, got {len(account_code)}"
+            )
+
         assert start >= 0 and start <= ACCOUNT_CODE_LENGTH  # noqa: PT018
         assert end >= start and end <= ACCOUNT_CODE_LENGTH  # noqa: PT018
 

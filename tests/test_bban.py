@@ -6,6 +6,7 @@ import pytest
 from schwifty.bban import BBAN
 from schwifty.exceptions import GenerateRandomOverflowError
 from schwifty.exceptions import InvalidBBANChecksum
+from schwifty.exceptions import SchwiftyException
 
 
 def test_validate_national_checksum() -> None:
@@ -33,6 +34,17 @@ def test_validate_german_national_checksum() -> None:
     assert BBAN("DE", "370400440532013000").validate_national_checksum() is True
     with pytest.raises(InvalidBBANChecksum):
         BBAN("DE", "370400440532013100").validate_national_checksum()
+
+
+def test_validate_national_checksum_on_truncated_bban() -> None:
+    # ``_get_slice`` answers "" for a component that does not fit the value, so a
+    # BBAN shorter than the country spec reaches the German methods with an empty
+    # account code. The bare ``assert`` in ``WeightedModulus.get_digits`` then
+    # fired, so callers saw an ``AssertionError`` - or an ``IndexError`` under
+    # ``python -O``, where the asserts are compiled out - instead of the
+    # documented ``InvalidBBANChecksum``.
+    with pytest.raises(SchwiftyException):
+        BBAN("DE", "3704004405320").validate_national_checksum()
 
 
 def test_dict_access_is_deprecated() -> None:
