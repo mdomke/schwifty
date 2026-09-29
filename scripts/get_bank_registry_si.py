@@ -2,8 +2,8 @@
 import io
 import json
 
+import httpx2
 import pandas
-import requests
 
 
 # Banka Slovenije, "Seznam identifikacijskih oznak ponudnikov plačilnih storitev"
@@ -19,7 +19,7 @@ RETIRED_PREFIXES = {"03": "04", "05": "04"}
 
 
 def process():
-    response = requests.get(URL, headers=HEADERS, timeout=60)
+    response = httpx2.get(URL, headers=HEADERS, follow_redirects=True, timeout=60)
     response.raise_for_status()
     datas = pandas.read_csv(
         io.StringIO(response.content.decode("cp1250")), delimiter=";", dtype=str
