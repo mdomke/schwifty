@@ -15,6 +15,7 @@ from typing import ClassVar
 from schwifty import checksum
 from schwifty._compat import override
 from schwifty.domain import Component
+from schwifty.exceptions import InvalidAccountCode
 from schwifty.exceptions import InvalidBBANChecksum
 
 
@@ -68,7 +69,11 @@ class WeightedModulus(checksum.Algorithm):
         # The positions are provided as in the specification, which starts counting at 1
         start, end = positions.start - 1, positions.end
 
-        assert len(account_code) == ACCOUNT_CODE_LENGTH
+        if len(account_code) != ACCOUNT_CODE_LENGTH:
+            raise InvalidAccountCode(
+                f"Account code must be {ACCOUNT_CODE_LENGTH} digits long, got {len(account_code)}"
+            )
+
         assert start >= 0 and start <= ACCOUNT_CODE_LENGTH  # noqa: PT018
         assert end >= start and end <= ACCOUNT_CODE_LENGTH  # noqa: PT018
 

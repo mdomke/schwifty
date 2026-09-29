@@ -26,6 +26,9 @@ Fixed
   still in circulation continue to resolve.
 * Deep-copying an IBAN or BIC created with ``allow_invalid=True`` no longer raises a
   validation error. The copy preserves the original value and validation status.
+* ``BBAN.validate_national_checksum`` no longer raises an ``AssertionError`` (or an
+  ``IndexError`` under ``python -O``) for a BBAN shorter than the country spec; it now
+  raises ``InvalidAccountCode``, as the other national methods already do.
 * Updated the Swiss bank registry, which could no longer be generated since SIX started
   emitting bank master records without a BIC. Retired IIDs of merged institutes (e.g. the
   former Credit Suisse codes, now UBS) are now kept as aliases of their successor, so IBANs

@@ -7,6 +7,7 @@ from schwifty import IBAN
 from schwifty import registry
 from schwifty.bban import BBAN
 from schwifty.exceptions import GenerateRandomOverflowError
+from schwifty.exceptions import InvalidAccountCode
 from schwifty.exceptions import InvalidBBANChecksum
 
 
@@ -68,6 +69,11 @@ def test_bank_prefers_the_primary_record_of_every_registered_bank_code() -> None
             if bban.bank is not None and not bban.bank.primary:
                 not_primary.append((country_code, bank_code, bban.bank.bic))
     assert not not_primary
+
+
+def test_validate_national_checksum_on_truncated_bban() -> None:
+    with pytest.raises(InvalidAccountCode):
+        BBAN("DE", "3704004405320").validate_national_checksum()
 
 
 def test_dict_access_is_deprecated() -> None:
