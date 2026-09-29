@@ -9,6 +9,12 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* ``BIC.from_bank_code`` now prefers BICs the registry marks as primary when a bank code
+  maps to several equally generic BICs, before falling back to the alphabetical tie-break.
+  For the French bank code 18719 this is the head office ``BFCORERXXXX`` rather than the
+  Mayotte branch ``BFCOYTYTXXX``, which is no longer flagged primary. The German bank code
+  48020151 now resolves to ``HAUKDEFFXXX``, the entry the Bundesbank file marks as the bank
+  code's primary record, instead of the secondary ``LAMPDEDDXXX``.
 * Updated the Slovenian bank registry, which could no longer be generated because Banka
   Slovenije moved its list of payment service provider identifiers. Bank codes added since
   the last update (e.g. ``02188``, NLB) now resolve, names keep their Slovenian characters,
