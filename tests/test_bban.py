@@ -5,6 +5,7 @@ import pytest
 
 from schwifty.bban import BBAN
 from schwifty.exceptions import GenerateRandomOverflowError
+from schwifty.exceptions import InvalidAccountCode
 from schwifty.exceptions import InvalidBBANChecksum
 
 
@@ -33,6 +34,11 @@ def test_validate_german_national_checksum() -> None:
     assert BBAN("DE", "370400440532013000").validate_national_checksum() is True
     with pytest.raises(InvalidBBANChecksum):
         BBAN("DE", "370400440532013100").validate_national_checksum()
+
+
+def test_validate_national_checksum_on_truncated_bban() -> None:
+    with pytest.raises(InvalidAccountCode):
+        BBAN("DE", "3704004405320").validate_national_checksum()
 
 
 def test_dict_access_is_deprecated() -> None:
