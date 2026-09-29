@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import json
 
+import httpx2
 import pandas
-import requests
 from bs4 import BeautifulSoup
 
 from scripts.remap import convert_to_v2
@@ -14,7 +14,9 @@ BASE_URL = (
 
 
 def process():
-    soup = BeautifulSoup(requests.get(BASE_URL).content, "html.parser")
+    soup = BeautifulSoup(
+        httpx2.get(BASE_URL, follow_redirects=True, timeout=None).content, "html.parser"
+    )
     url = next(
         a
         for a in soup.find_all("a")

@@ -13,6 +13,17 @@ Fixed
   resolve a bank code to the registry record flagged ``primary`` instead of whichever
   record happened to be read first. National registries list one record per branch, so
   the two could name a different institution than ``IBAN.bic`` does.
+* ``BIC.from_bank_code`` now prefers BICs the registry marks as primary when a bank code
+  maps to several equally generic BICs, before falling back to the alphabetical tie-break.
+  For the French bank code 18719 this is the head office ``BFCORERXXXX`` rather than the
+  Mayotte branch ``BFCOYTYTXXX``, which is no longer flagged primary. The German bank code
+  48020151 now resolves to ``HAUKDEFFXXX``, the entry the Bundesbank file marks as the bank
+  code's primary record, instead of the secondary ``LAMPDEDDXXX``.
+* Updated the Slovenian bank registry, which could no longer be generated because Banka
+  Slovenije moved its list of payment service provider identifiers. Bank codes added since
+  the last update (e.g. ``02188``, NLB) now resolve, names keep their Slovenian characters,
+  and the retired codes of SKB banka and Abanka are kept as aliases of OTP banka so IBANs
+  still in circulation continue to resolve.
 * Deep-copying an IBAN or BIC created with ``allow_invalid=True`` no longer raises a
   validation error. The copy preserves the original value and validation status.
 * Updated the Swiss bank registry, which could no longer be generated since SIX started
@@ -30,6 +41,8 @@ Added
 
 Changed
 ~~~~~~~
+* Registry generation scripts now use ``httpx2`` instead of ``requests`` for HTTP downloads.
+  The Slovenian generator, added after that switch, uses ``httpx2`` as well.
 * Simplified internal registry caching, character lookups, checksum helpers, and validation routines
   for improved efficiency and cleaner code structure while preserving exact behavior.
 * Simplified the IBAN checksum validation. The redundant ``self.numeric % 97 == 1`` test has

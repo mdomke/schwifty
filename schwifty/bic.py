@@ -232,17 +232,29 @@ class BIC(common.Base):
         try:
             candidates = cls.candidates_from_bank_code(country_code, bank_code)
             if len(candidates) > 1:
+                # Among equally generic codes, entries the registry marks as primary win
+                # over the rest before the alphabetical tie-break is applied.
+                primary = {
+                    entry.bic
+                    for entry in registry.get_banks_by_code(country_code, bank_code)
+                    if entry.primary and entry.bic
+                }
+
+                def prefer_primary(codes: list[BIC]) -> list[BIC]:
+                    flagged = [c for c in codes if c.compact in primary]
+                    return flagged or codes
+
                 # If we have multiple candidates, we try to pick the
                 # one with no branch code which is the most generic one.
                 generic_codes = [c for c in candidates if not c.branch_code]
                 if generic_codes:
-                    return max(generic_codes)
+                    return max(prefer_primary(generic_codes))
 
                 # If we don't have one, we try to pick the one with
                 # 'XXX' as a branch code
                 generic_codes = [c for c in candidates if c.branch_code == "XXX"]
                 if generic_codes:
-                    return max(generic_codes)
+                    return max(prefer_primary(generic_codes))
             return candidates[0]
         except (KeyError, IndexError) as e:
             raise exceptions.InvalidBankCode(

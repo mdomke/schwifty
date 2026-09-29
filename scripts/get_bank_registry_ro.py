@@ -1,6 +1,6 @@
 import json
 
-import requests
+import httpx2
 from bs4 import BeautifulSoup
 
 
@@ -9,7 +9,7 @@ BANK_CODES_URL = "https://internationalmoneytransfers.org/romania-swift-codes/"
 
 def process():
     yielded_bic_codes = set()
-    response = requests.get(BANK_CODES_URL)
+    response = httpx2.get(BANK_CODES_URL, follow_redirects=True, timeout=None)
     soup = BeautifulSoup(response.content, "html.parser")
 
     for table_row in soup.select("#tablepress-269 tr"):

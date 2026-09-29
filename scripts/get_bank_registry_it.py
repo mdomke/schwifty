@@ -2,7 +2,7 @@ import json
 import re
 from time import sleep
 
-import requests
+import httpx2
 from bs4 import BeautifulSoup
 
 
@@ -137,7 +137,7 @@ def get_banks_registry_data_from_bank_name(bank_name):
         "Action": "Search",
     }
 
-    response = requests.post(url, data=data)
+    response = httpx2.post(url, data=data, follow_redirects=True, timeout=None)
     soup = BeautifulSoup(response.content, "html.parser")
 
     results_tables = soup.select(".table")
@@ -160,57 +160,53 @@ def get_banks_registry_data_from_bank_name(bank_name):
 
 def get_italian_bank_names():
     base_url = "https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/"
-    session = requests.Session()
-    session.headers.update(
-        {
-            "Accept": "application/json, text/plain, */*",
-            "Content-Type": "application/json",
-            "Referer": base_url,
-            "Origin": "https://infostat.bancaditalia.it",
-        }
-    )
+    headers = {
+        "Accept": "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+        "Referer": base_url,
+        "Origin": "https://infostat.bancaditalia.it",
+    }
+    with httpx2.Client(headers=headers, follow_redirects=True, timeout=None) as client:
+        # Login requests, obtains jwt token and sets cookies required for subsequent requests
+        print("Logging in...")
+        client.get(base_url)
+        client.post(f"{base_url}api/getElements?domainId=INQ_INT_ALBI_SUB1")
 
-    # Login requests, obtains jwt token and sets cookies required for subsequent requests
-    print("Logging in...")
-    session.get(base_url, allow_redirects=True)
-    session.post(f"{base_url}api/getElements?domainId=INQ_INT_ALBI_SUB1")
-
-    # Get banks
-    print("Getting banks...")
-    response = session.post(
-        f"{base_url}api/searchAllIntermediaries",
-        data=json.dumps(
-            {
-                "searchElement": {
-                    "intermediaryBoards": [
+        # Get banks
+        print("Getting banks...")
+        response = client.post(
+            f"{base_url}api/searchAllIntermediaries",
+            content=json.dumps(
+                {
+                    "searchElement": {
+                        "intermediaryBoards": [
+                            {
+                                "boardType": {
+                                    "code": "001",
+                                    "description": "ALBO DELLE BANCHE",
+                                    "type": None,
+                                    "startDate": "1936-12-31",
+                                    "endDate": "9999-12-31",
+                                },
+                                "inscriptionProtocol": "",
+                            }
+                        ],
+                        "establishmentDate": "2023-08-24",
+                    },
+                    "endIndex": 30,
+                    "startIndex": 0,
+                    "rowCount": 30,
+                    "searchOrderItems": [
                         {
-                            "boardType": {
-                                "code": "001",
-                                "description": "ALBO DELLE BANCHE",
-                                "type": None,
-                                "startDate": "1936-12-31",
-                                "endDate": "9999-12-31",
-                            },
-                            "inscriptionProtocol": "",
+                            "columnIndex": 1,
+                            "insertedIndexColumn": 1,
+                            "dataField": "abiCode",
+                            "descending": False,
                         }
                     ],
-                    "establishmentDate": "2023-08-24",
-                },
-                "endIndex": 30,
-                "startIndex": 0,
-                "rowCount": 30,
-                "searchOrderItems": [
-                    {
-                        "columnIndex": 1,
-                        "insertedIndexColumn": 1,
-                        "dataField": "abiCode",
-                        "descending": False,
-                    }
-                ],
-            }
-        ),
-        allow_redirects=True,
-    )
+                }
+            ),
+        )
     response.raise_for_status()
     return [x["name"] for x in response.json()]
 

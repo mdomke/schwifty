@@ -2,7 +2,7 @@
 import json
 from urllib.parse import urljoin
 
-import requests
+import httpx2
 from bs4 import BeautifulSoup
 
 
@@ -26,16 +26,23 @@ URL = "https://www.bundesbank.de/de/aufgaben/unbarer-zahlungsverkehr/serviceange
 
 
 def get_download_url():
-    soup = BeautifulSoup(requests.get(URL).content, "html.parser")
+    soup = BeautifulSoup(
+        httpx2.get(URL, follow_redirects=True, timeout=None).content, "html.parser"
+    )
     atag = soup.find(href=lambda ref: ref and "download-bankleitzahlen" in ref)
 
-    soup = BeautifulSoup(requests.get(urljoin(URL, atag.get("href"))).content, "html.parser")
+    soup = BeautifulSoup(
+        httpx2.get(urljoin(URL, atag.get("href")), follow_redirects=True, timeout=None).content,
+        "html.parser",
+    )
     atag = soup.find(href=lambda ref: ref and "blz-aktuell-txt-data.txt" in ref)
     return urljoin(URL, atag.get("href"))
 
 
 def get_raw():
-    return requests.get(get_download_url()).content.decode(encoding="latin1")
+    return httpx2.get(get_download_url(), follow_redirects=True, timeout=None).content.decode(
+        encoding="latin1"
+    )
 
 
 def parse(raw):
