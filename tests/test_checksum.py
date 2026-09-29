@@ -128,10 +128,8 @@ def test_norway_checksum_invalid_check_digit() -> None:
 
 def test_german_checksum_68_solve() -> None:
     algo = algorithms["DE:68"]
-    solved = algo.solve(["1234567890"])
-    assert solved == ["1239567892"]
-    assert algo.validate(solved, "") is True
+    assert algo.solve(["1234567890"]) == ["1239567892"]
+    assert algo.validate(["1239567892"], "") is True
 
-    solved = algo.solve(["0987654321"])
-    assert solved == ["0987654324"]
-    assert algo.validate(solved, "") is True
+    assert algo.solve(["0987654321"]) == ["0987654324"]
+    assert algo.validate(["0987654324"], "") is True
