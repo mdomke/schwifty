@@ -70,11 +70,6 @@ class WeightedModulus(checksum.Algorithm):
         start, end = positions.start - 1, positions.end
 
         if len(account_code) != ACCOUNT_CODE_LENGTH:
-            # ``_get_slice`` answers "" for a component that does not fit the
-            # value, so a BBAN shorter than the country spec reaches this point
-            # with an empty account code. Report it as the exception type the
-            # BBAN validation documents instead of letting a bare assert escape
-            # (which vanishes under ``python -O``).
             raise InvalidAccountCode(
                 f"Account code must be {ACCOUNT_CODE_LENGTH} digits long, got {len(account_code)}"
             )
