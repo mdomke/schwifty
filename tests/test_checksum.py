@@ -1,6 +1,7 @@
 import pytest
 
 from schwifty.checksum import algorithms
+from schwifty.exceptions import InvalidAccountCode
 
 
 @pytest.mark.parametrize(
@@ -43,6 +44,7 @@ from schwifty.checksum import algorithms
         ("2063099200", "DE:61"),
         ("0260760481", "DE:61"),
         ("0123456600", "DE:63"),
+        ("1234567893", "DE:21"),
         ("8889654328", "DE:68"),
         ("0987654324", "DE:68"),
         ("0987654328", "DE:68"),
@@ -117,3 +119,19 @@ def test_belgium_checksum_checksum_edge_case() -> None:
 
 def test_norway_checksum_checksum_edge_case() -> None:
     assert algorithms["NO:default"].validate(["6042", "143964"], "0") is True
+
+
+def test_norway_checksum_invalid_check_digit() -> None:
+    with pytest.raises(InvalidAccountCode, match="Invalid account code"):
+        algorithms["NO:default"].validate(["6042", "100007"], "")
+
+
+def test_german_checksum_68_solve() -> None:
+    algo = algorithms["DE:68"]
+    solved = algo.solve(["1234567890"])
+    assert solved == ["1239567892"]
+    assert algo.validate(solved, "") is True
+
+    solved = algo.solve(["0987654321"])
+    assert solved == ["0987654324"]
+    assert algo.validate(solved, "") is True
