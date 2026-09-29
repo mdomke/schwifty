@@ -254,6 +254,8 @@ def test_bic_from_unknown_bank_code() -> None:
         ("RO", "BPOS", ["BPOSROBU"]),
         ("SE", "500", ["ESSESESS"]),
         ("SI", "01050", ["BSLJSI2XFNB"]),
+        ("SI", "02188", ["LJBASI2XXXX"]),
+        ("SI", "03100", ["KBMASI2XXXX"]),  # retired SKB code, alias of OTP banka
         ("SK", "0900", ["GIBASKBX"]),
     ],
 )
