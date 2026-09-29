@@ -100,9 +100,6 @@ extend-ignore = [
 ]
 
 [tool.ruff.lint.per-file-ignores]
-"scripts/get_*_registry*.py" = [
-    "S113",   # Allow requests call without timeout
-]
 "scripts/**/*.py" = [
     "T201",    # Allow print statements in utility scripts
     "EXE001",  # Shebang not executable
@@ -191,7 +188,7 @@ scripts = [
     "beautifulsoup4",
     "boltons",
     "camelot-py",
-    "requests",
+    "httpx2",
     "xlrd>=2.0.1",
     "pandas",
     "openpyxl",

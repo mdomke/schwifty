@@ -1,6 +1,6 @@
 beautifulsoup4
 camelot-py[base]
-requests
+httpx2
 xlrd>=2.0.1
 pandas
 openpyxl

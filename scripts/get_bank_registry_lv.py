@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import json
 
+import httpx2
 import pandas
-import requests
 
 
 URL = "https://www.bank.lv/images/stories/pielikumi/makssist/bic_saraksts_22.01.2020_eng.xls"
@@ -10,7 +10,7 @@ URL = "https://www.bank.lv/images/stories/pielikumi/makssist/bic_saraksts_22.01.
 
 def process():
     agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:104.0) Gecko/20100101 Firefox/104.0"
-    response = requests.get(URL, headers={"User-Agent": agent})
+    response = httpx2.get(URL, headers={"User-Agent": agent}, follow_redirects=True, timeout=None)
 
     datas = pandas.read_excel(response.content, skiprows=1, sheet_name=0, dtype="str")
     datas.fillna("", inplace=True)

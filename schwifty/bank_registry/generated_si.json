@@ -2267,6 +2267,46 @@
     "country_code": "SI",
     "primary": true,
     "bic": "LJBASI2XXXX",
+    "bank_code": "02165",
+    "name": "NLB D.D.",
+    "short_name": "NLB D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "LJBASI2XXXX",
+    "bank_code": "02166",
+    "name": "NLB D.D.",
+    "short_name": "NLB D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "LJBASI2XXXX",
+    "bank_code": "02167",
+    "name": "NLB D.D.",
+    "short_name": "NLB D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "LJBASI2XXXX",
+    "bank_code": "02168",
+    "name": "NLB D.D.",
+    "short_name": "NLB D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "LJBASI2XXXX",
+    "bank_code": "02169",
+    "name": "NLB D.D.",
+    "short_name": "NLB D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "LJBASI2XXXX",
     "bank_code": "02184",
     "name": "NLB D.D.",
     "short_name": "NLB D.D."
@@ -2292,6 +2332,14 @@
     "primary": true,
     "bic": "LJBASI2XXXX",
     "bank_code": "02187",
+    "name": "NLB D.D.",
+    "short_name": "NLB D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "LJBASI2XXXX",
+    "bank_code": "02188",
     "name": "NLB D.D.",
     "short_name": "NLB D.D."
   },
@@ -3131,6 +3179,14 @@
     "country_code": "SI",
     "primary": true,
     "bic": "LJBASI2XXXX",
+    "bank_code": "02439",
+    "name": "NLB D.D.",
+    "short_name": "NLB D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "LJBASI2XXXX",
     "bank_code": "02450",
     "name": "NLB D.D.",
     "short_name": "NLB D.D."
@@ -3276,6 +3332,22 @@
     "primary": true,
     "bic": "LJBASI2XXXX",
     "bank_code": "02499",
+    "name": "NLB D.D.",
+    "short_name": "NLB D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "LJBASI2XXXX",
+    "bank_code": "02502",
+    "name": "NLB D.D.",
+    "short_name": "NLB D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "LJBASI2XXXX",
+    "bank_code": "02503",
     "name": "NLB D.D.",
     "short_name": "NLB D.D."
   },
@@ -4298,1666 +4370,1090 @@
   {
     "country_code": "SI",
     "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03100",
-    "name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA CENTER",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA CENTER"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03102",
-    "name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA WTC",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA WTC"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03103",
-    "name": "SKB BANKA D.D. POSLOVALNICA KAMNIK",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA KAMNIK"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03104",
-    "name": "SKB BANKA D.D. POSLOVALNICA DOM\u008eALE",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA DOM\u008eALE"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03105",
-    "name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA CENTER",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA CENTER"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03106",
-    "name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA \u008aI\u008aKA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA \u008aI\u008aKA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03107",
-    "name": "SKB BANKA D.D. POSLOVALNICA TRZIN PIRAMIDA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA TRZIN PIRAMIDA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03108",
-    "name": "SKB BANKA D.D. POSLOVALNICA GROSUPLJE",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA GROSUPLJE"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03109",
-    "name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA ZALOG",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA ZALOG"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03110",
-    "name": "SKB BANKA D.D. POSLOVALNICA LITIJA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LITIJA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03111",
-    "name": "SKB BANKA D.D. POSLOVALNICA ZAGORJE OB SAVI",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA ZAGORJE OB SAVI"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03112",
-    "name": "SKB BANKA D.D. POSLOVALNICA VRHNIKA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA VRHNIKA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03113",
-    "name": "SKB BANKA D.D. POSLOVALNICA KO\u00c8EVJE",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA KO\u00c8EVJE"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03114",
-    "name": "SKB BANKA D.D. POSLOVALNICA KO\u00c8EVJE",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA KO\u00c8EVJE"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03115",
-    "name": "SKB BANKA D.D. POSLOVALNICA CERKNICA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA CERKNICA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03116",
-    "name": "SKB BANKA D.D. POSLOVALNICA \u008eALEC",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA \u008eALEC"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03117",
-    "name": "SKB BANKA D.D. POSLOVALNICA MOZIRJE",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA MOZIRJE"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03118",
-    "name": "SKB BANKA D.D. POSLOVALNICA CELJE",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA CELJE"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03119",
-    "name": "SKB BANKA D.D. POSLOVALNICA IDRIJA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA IDRIJA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03120",
-    "name": "SKB BANKA D.D. POSLOVALNICA MARIBOR I",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA MARIBOR I"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03121",
-    "name": "SKB BANKA D.D. POSLOVALNICA MARIBOR II",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA MARIBOR II"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03122",
-    "name": "SKB BANKA D.D. POSLOVALNICA GORNJA RADGONA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA GORNJA RADGONA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03123",
-    "name": "SKB BANKA D.D. POSLOVALNICA ORMO\u008e",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA ORMO\u008e"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03124",
-    "name": "SKB BANKA D.D. POSLOVALNICA MURSKA SOBOTA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA MURSKA SOBOTA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03125",
-    "name": "SKB BANKA D.D. POSLOVALNICA MURSKA SOBOTA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA MURSKA SOBOTA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03126",
-    "name": "SKB BANKA D.D. POSLOVALNICA KRANJ PRIMSKOVO",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA KRANJ PRIMSKOVO"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03127",
-    "name": "SKB BANKA D.D. POSLOVALNICA RADOVLJICA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA RADOVLJICA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03128",
-    "name": "SKB BANKA D.D. POSLOVALNICA \u008aKOFJA LOKA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA \u008aKOFJA LOKA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03130",
-    "name": "SKB BANKA D.D. POSLOVALNICA NOVA GORICA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA NOVA GORICA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03131",
-    "name": "SKB BANKA D.D. POSLOVALNICA TRZIN PIRAMIDA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA TRZIN PIRAMIDA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03132",
-    "name": "SKB BANKA D.D. POSLOVALNICA MARIBOR TABOR",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA MARIBOR TABOR"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03133",
-    "name": "SKB BANKA D.D. POSLOVALNICA POSTOJNA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA POSTOJNA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03134",
-    "name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA ZUPAN\u00c8I\u00c8EVA JAMA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA ZUPAN\u00c8I\u00c8EVA JAMA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03135",
-    "name": "SKB BANKA D.D. POSLOVALNICA KOPER",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA KOPER"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03136",
-    "name": "SKB BANKA D.D. POSLOVALNICA KOPER",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA KOPER"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03137",
-    "name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA CITY PARK (BTC)",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA CITY PARK (BTC)"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03138",
-    "name": "SKB BANKA D.D. POSLOVALNICA KRANJ CENTER",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA KRANJ CENTER"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03139",
-    "name": "SKB BANKA D.D. POSLOVALNICA BLED",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA BLED"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03150",
-    "name": "SKB BANKA D.D. POSLOVALNICA NOVO MESTO",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA NOVO MESTO"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03151",
-    "name": "SKB BANKA D.D. POSLOVALNICA NOVO MESTO",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA NOVO MESTO"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03152",
-    "name": "SKB BANKA D.D. POSLOVALNICA METLIKA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA METLIKA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03153",
-    "name": "SKB BANKA D.D. POSLOVALNICA TREBNJE",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA TREBNJE"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03154",
-    "name": "SKB BANKA D.D. POSLOVALNICA \u00c8RNOMELJ",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA \u00c8RNOMELJ"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03155",
-    "name": "SKB BANKA D.D. POSLOVALNICA KR\u008aKO",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA KR\u008aKO"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03156",
-    "name": "SKB BANKA D.D. POSLOVALNICA NOVO MESTO",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA NOVO MESTO"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03157",
-    "name": "SKB BANKA D.D. POSLOVALNICA BRE\u008eICE",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA BRE\u008eICE"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03158",
-    "name": "SKB BANKA D.D. POSLOVALNICA SEVNICA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA SEVNICA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03160",
-    "name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA VI\u00c8",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA VI\u00c8"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03161",
-    "name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA CITY PARK (BTC)",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA CITY PARK (BTC)"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03162",
-    "name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA VI\u00c8",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA VI\u00c8"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03163",
-    "name": "SKB BANKA D.D. POSLOVALNICA ROGA\u008aKA SLATINA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA ROGA\u008aKA SLATINA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03165",
-    "name": "SKB BANKA D.D. POSLOVALNICA CELJE",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA CELJE"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03168",
-    "name": "SKB BANKA D.D.",
-    "short_name": "SKB BANKA D.D."
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03169",
-    "name": "SKB BANKA D.D. PRIVATNO BAN\u00c8NI\u008aTVO",
-    "short_name": "SKB BANKA D.D. PRIVATNO BAN\u00c8NI\u008aTVO"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03170",
-    "name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA ZUPAN\u00c8I\u00c8EVA JAMA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA ZUPAN\u00c8I\u00c8EVA JAMA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03171",
-    "name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA CITY PARK (BTC)",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA CITY PARK (BTC)"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03173",
-    "name": "SKB BANKA D.D. POSLOVALNICA LJUTOMER",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA LJUTOMER"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03175",
-    "name": "SKB BANKA D.D. POSLOVALNICA SLOVENJ GRADEC",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA SLOVENJ GRADEC"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03176",
-    "name": "SKB BANKA D.D. POSLOVALNICA VELENJE",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA VELENJE"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03178",
-    "name": "SKB BANKA D.D. POSLOVALNICA JESENICE",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA JESENICE"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03179",
-    "name": "SKB BANKA D.D. POSLOVALNICA POSTOJNA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA POSTOJNA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03180",
-    "name": "SKB BANKA D.D. POSLOVALNICA NOVA GORICA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA NOVA GORICA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03181",
-    "name": "SKB BANKA D.D. POSLOVALNICA ILIRSKA BISTRICA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA ILIRSKA BISTRICA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03182",
-    "name": "SKB BANKA D.D. POSLOVALNICA PTUJ",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA PTUJ"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03185",
-    "name": "SKB BANKA D.D. POSLOVALNICA NOVA GORICA",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA NOVA GORICA"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03186",
-    "name": "SKB BANKA D.D. POSLOVALNICA JESENICE",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA JESENICE"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03188",
-    "name": "SKB BANKA D.D. POSLOVALNICA MARIBOR II",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA MARIBOR II"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03189",
-    "name": "SKB BANKA D.D. POSLOVALNICA MARIBOR II",
-    "short_name": "SKB BANKA D.D. POSLOVALNICA MARIBOR II"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03215",
-    "name": "SKB BANKA D.D. POSLOVANJE S PODJETJI",
-    "short_name": "SKB BANKA D.D. POSLOVANJE S PODJETJI"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03500",
-    "name": "SKB BANKA D.D. POSLOVANJE S PODJETJI",
-    "short_name": "SKB BANKA D.D. POSLOVANJE S PODJETJI"
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03721",
-    "name": "SKB BANKA D.D.",
-    "short_name": "SKB BANKA D.D."
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "SKBASI2XXXX",
-    "bank_code": "03770",
-    "name": "SKB BANKA D.D.",
-    "short_name": "SKB BANKA D.D."
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04000",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04001",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04101",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04102",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04103",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04104",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04105",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04106",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04107",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04108",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04109",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "04110",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04112",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04113",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04114",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04115",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04117",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04118",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04119",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04120",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04122",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04123",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04124",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04126",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04127",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04172",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04173",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04175",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04202",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04217",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04221",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04222",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04223",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04224",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04225",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04226",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04227",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04228",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04229",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04236",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04237",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04239",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04302",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04310",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04311",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04321",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04322",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04331",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04332",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04340",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04341",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04342",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04343",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04344",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04345",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04346",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04347",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04348",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04349",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04351",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04353",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04355",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04356",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04358",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04360",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04361",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04370",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04385",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04390",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04403",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04405",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04411",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04412",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04413",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04415",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04416",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04417",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04418",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04421",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04422",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04423",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04424",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04430",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04440",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04441",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04442",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04443",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04444",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04445",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04446",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04447",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04448",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04449",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04471",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04472",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04473",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04474",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04475",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04476",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04477",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04478",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04479",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04480",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04481",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04482",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04486",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04487",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04488",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04489",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04515",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04518",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04613",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04614",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04625",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04634",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04635",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04682",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04683",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04684",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04728",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04750",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04751",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04752",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04753",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04802",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04810",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04821",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04835",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04851",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04860",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04870",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04881",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04883",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04884",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04885",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "KBMASI2XXXX",
     "bank_code": "04888",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
-  },
-  {
-    "country_code": "SI",
-    "primary": true,
-    "bic": "KBMASI2XXXX",
-    "bank_code": "05100",
-    "name": "NOVA KBM D.D.",
-    "short_name": "NOVA KBM D.D."
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   },
   {
     "country_code": "SI",
@@ -6284,256 +5780,704 @@
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19000",
-    "name": "DBS D.D.",
-    "short_name": "DBS D.D."
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19002",
-    "name": "DBS D.D.",
-    "short_name": "DBS D.D."
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19005",
-    "name": "DBS D.D.",
-    "short_name": "DBS D.D."
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19008",
-    "name": "DBS D.D.",
-    "short_name": "DBS D.D."
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19100",
-    "name": "DBS .D.D., CENTRALA LJUBLJANA",
-    "short_name": "DBS .D.D., CENTRALA LJUBLJANA"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19130",
-    "name": "DBS .D.D., POSLOVALNICA II LITIJA",
-    "short_name": "DBS .D.D., POSLOVALNICA II LITIJA"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19132",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19133",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19134",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19140",
-    "name": "DBS .D.D., POSLOVALNICA I LJUBLJANA",
-    "short_name": "DBS .D.D., POSLOVALNICA I LJUBLJANA"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19143",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19145",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19146",
-    "name": "DBS .D.D., POSLOVALNICA I VRHNIKA",
-    "short_name": "DBS .D.D., POSLOVALNICA I VRHNIKA"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19147",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19148",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19149",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19150",
-    "name": "DBS .D.D., POSLOVALNICA I POSTOJNA",
-    "short_name": "DBS .D.D., POSLOVALNICA I POSTOJNA"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19151",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19153",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19154",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19155",
-    "name": "DBS .D.D., POSLOVALNICA I TOLMIN",
-    "short_name": "DBS .D.D., POSLOVALNICA I TOLMIN"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19157",
-    "name": "DBS .D.D., POSLOVALNICA I IDRIJA",
-    "short_name": "DBS .D.D., POSLOVALNICA I IDRIJA"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19158",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19160",
-    "name": "DBS .D.D., POSLOVALNICA I NOVA GORICA",
-    "short_name": "DBS .D.D., POSLOVALNICA I NOVA GORICA"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19161",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19163",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19170",
-    "name": "DBS .D.D., POSLOVALNICA I KRANJ",
-    "short_name": "DBS .D.D., POSLOVALNICA I KRANJ"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19172",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19174",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19175",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19180",
-    "name": "DBS .D.D., POSLOVALNICA II DOM\u008eALE",
-    "short_name": "DBS .D.D., POSLOVALNICA II DOM\u008eALE"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19181",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19182",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19183",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19190",
-    "name": "DBS .D.D., POSLOVALNICA II \u008aKOFJA LOKA",
-    "short_name": "DBS .D.D., POSLOVALNICA II \u008aKOFJA LOKA"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19191",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19200",
-    "name": "DBS .D.D., POSLOVALNICA I KO\u00c8EVJE",
-    "short_name": "DBS .D.D., POSLOVALNICA I KO\u00c8EVJE"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19210",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19211",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19340",
-    "name": "DBS .D.D., POSLOVALNICA I MARIBOR",
-    "short_name": "DBS .D.D., POSLOVALNICA I MARIBOR"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19342",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19345",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19346",
-    "name": "DBS .D.D., POSLOVALNICA I LENART",
-    "short_name": "DBS .D.D., POSLOVALNICA I LENART"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19350",
-    "name": "DBS .D.D., POSLOVALNICA I PTUJ",
-    "short_name": "DBS .D.D., POSLOVALNICA I PTUJ"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19352",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19352",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19354",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19357",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19490",
-    "name": "DBS .D.D., POSLOVALNICA I MURSKA SOBOTA",
-    "short_name": "DBS .D.D., POSLOVALNICA I MURSKA SOBOTA"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19491",
-    "name": "DBS .D.D., POSLOVALNICA I LJUTOMER",
-    "short_name": "DBS .D.D., POSLOVALNICA I LJUTOMER"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19492",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19494",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19495",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19496",
-    "name": "DBS .D.D., POSLOVALNICA I GORNJA RADGONA",
-    "short_name": "DBS .D.D., POSLOVALNICA I GORNJA RADGONA"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19497",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19498",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19540",
-    "name": "DBS .D.D., POSLOVALNICA I SL.GRADEC",
-    "short_name": "DBS .D.D., POSLOVALNICA I SL.GRADEC"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19541",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19542",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19543",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19640",
-    "name": "DBS .D.D., POSLOVALNICA I CELJE",
-    "short_name": "DBS .D.D., POSLOVALNICA I CELJE"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19643",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19644",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19645",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19650",
-    "name": "DBS .D.D., POSLOVALNICA II \u008eALEC",
-    "short_name": "DBS .D.D., POSLOVALNICA II \u008eALEC"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19651",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19654",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19660",
-    "name": "DBS .D.D., POSLOVALNICA I \u008aO\u008aTANJ",
-    "short_name": "DBS .D.D., POSLOVALNICA I \u008aO\u008aTANJ"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19661",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19663",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19664",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19666",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19670",
-    "name": "DBS .D.D., POSLOVALNICA I \u008aENTJUR",
-    "short_name": "DBS .D.D., POSLOVALNICA I \u008aENTJUR"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19671",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19674",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19700",
-    "name": "DBS .D.D., POSLOVALNICA I KOPER",
-    "short_name": "DBS .D.D., POSLOVALNICA I KOPER"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19710",
-    "name": "DBS .D.D., POSLOVALNICA I SE\u008eANA",
-    "short_name": "DBS .D.D., POSLOVALNICA I SE\u008eANA"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19713",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19714",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19715",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19900",
-    "name": "DBS .D.D., POSLOVALNICA I NOVO MESTO",
-    "short_name": "DBS .D.D., POSLOVALNICA I NOVO MESTO"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19901",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19902",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19904",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19905",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19906",
-    "name": "DBS .D.D., POSLOVALNICA I NOVO MESTO",
-    "short_name": "DBS .D.D., POSLOVALNICA I NOVO MESTO"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "SZKBSI2XXXX",
     "bank_code": "19920",
-    "name": "DBS .D.D., POSLOVALNICA I BRE\u008eICE",
-    "short_name": "DBS .D.D., POSLOVALNICA I BRE\u008eICE"
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": true,
+    "bic": "SZKBSI2XXXX",
+    "bank_code": "19921",
+    "name": "DEZELNA BANKA SLOVENIJE D.D.",
+    "short_name": "DEZELNA BANKA SLOVENIJE D.D."
   },
   {
     "country_code": "SI",
@@ -6580,8 +6524,8 @@
     "primary": true,
     "bic": "BFKKSI22XXX",
     "bank_code": "35001",
-    "name": "BKS BANK AG, BAN\u00c8NA PODRU\u008eNICA",
-    "short_name": "BKS BANK AG, BAN\u00c8NA PODRU\u008eNICA"
+    "name": "BKS BANK AG, BAN\u010cNA PODRU\u017dNICA",
+    "short_name": "BKS BANK AG, BAN\u010cNA PODRU\u017dNICA"
   },
   {
     "country_code": "SI",
@@ -6620,15 +6564,599 @@
     "primary": true,
     "bic": "KDDSSI22XXX",
     "bank_code": "79095",
-    "name": "KDD-CENTRALNA KLIRIN\u008aKO DEPOTNA DRU\u008eBA, D.O.O.",
-    "short_name": "KDD-CENTRALNA KLIRIN\u008aKO DEPOTNA DRU\u008eBA, D.O.O."
+    "name": "KDD-CENTRALNA KLIRIN\u0160KO DEPOTNA DRU\u017dBA, D.O.O.",
+    "short_name": "KDD-CENTRALNA KLIRIN\u0160KO DEPOTNA DRU\u017dBA, D.O.O."
   },
   {
     "country_code": "SI",
     "primary": true,
     "bic": "PWSRSI22XXX",
     "bank_code": "91002",
-    "name": "PAYWISER DRU\u008eBA ZA IZDAJO ELEKTRONSKEGA DENARJA IN PLA\u00c8ILNE STORITVE, D.O.O.",
-    "short_name": "PAYWISER DRU\u008eBA ZA IZDAJO ELEKTRONSKEGA DENARJA IN PLA\u00c8ILNE STORITVE, D.O.O."
+    "name": "DINARO D.O.O.",
+    "short_name": "DINARO D.O.O."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03100",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03102",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03103",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03104",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03105",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03106",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03107",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03108",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03109",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03110",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03111",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03112",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03113",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03114",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03115",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03116",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03117",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03118",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03119",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03120",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03121",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03122",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03123",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03124",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03125",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03126",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03127",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03128",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03130",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03131",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03132",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03133",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03134",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03135",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03136",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03137",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03138",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03139",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03150",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03151",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03152",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03153",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03154",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03155",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03156",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03157",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03158",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03160",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03161",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03162",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03163",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03165",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03168",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03169",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03170",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03171",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03173",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03175",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03176",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03178",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03179",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03180",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03181",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03182",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03185",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03186",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03188",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03189",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03215",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03500",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03721",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "03770",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
+  },
+  {
+    "country_code": "SI",
+    "primary": false,
+    "bic": "KBMASI2XXXX",
+    "bank_code": "05100",
+    "name": "OTP BANKA D.D.",
+    "short_name": "OTP BANKA D.D."
   }
 ]
