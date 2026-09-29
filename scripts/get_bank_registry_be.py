@@ -2,8 +2,8 @@
 import json
 import tempfile
 
+import httpx2
 import pandas
-import requests
 
 from scripts.remap import convert_to_v2
 
@@ -15,7 +15,7 @@ def process():
     registry = []
     skip_names = ["NAV", "VRIJ", "NAP", "NYA", "VRIJ - LIBRE", "-"]
 
-    r = requests.get(URL)
+    r = httpx2.get(URL, follow_redirects=True, timeout=None)
 
     with tempfile.NamedTemporaryFile(delete_on_close=False) as fp:
         fp.write(r.content)

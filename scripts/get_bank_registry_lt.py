@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import json
 
-import requests
+import httpx2
 from bs4 import BeautifulSoup
 
 
@@ -10,7 +10,7 @@ URL = "https://www.lb.lt/zinynai/branches.aspx"
 
 def process():
     registry = []
-    xml_content = requests.get(URL).text
+    xml_content = httpx2.get(URL, follow_redirects=True, timeout=None).text
     soup = BeautifulSoup(xml_content, "xml")
     participants = soup.find_all("participant")  # participants are primary bank names in LB list
 

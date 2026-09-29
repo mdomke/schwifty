@@ -37,6 +37,7 @@ Added
 
 Changed
 ~~~~~~~
+* Registry generation scripts now use ``httpx2`` instead of ``requests`` for HTTP downloads.
 * Simplified internal registry caching, character lookups, checksum helpers, and validation routines
   for improved efficiency and cleaner code structure while preserving exact behavior.
 * Simplified the IBAN checksum validation. The redundant ``self.numeric % 97 == 1`` test has

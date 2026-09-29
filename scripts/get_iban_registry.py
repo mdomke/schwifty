@@ -4,7 +4,7 @@ import re
 from typing import Any
 from urllib.parse import urljoin
 
-import requests
+import httpx2
 from bs4 import BeautifulSoup
 
 
@@ -16,9 +16,13 @@ Record = dict[str, Any]
 
 
 def get_raw() -> str:
-    soup = BeautifulSoup(requests.get(URL).content, "html.parser")
+    soup = BeautifulSoup(
+        httpx2.get(URL, follow_redirects=True, timeout=None).content, "html.parser"
+    )
     link = soup.find("a", attrs={"data-tracking-title": "IBAN Registry (TXT)"})
-    return requests.get(urljoin(URL, link["href"])).content.decode(encoding="latin1")
+    return httpx2.get(
+        urljoin(URL, link["href"]), follow_redirects=True, timeout=None
+    ).content.decode(encoding="latin1")
 
 
 def parse_int(raw: str) -> int:
