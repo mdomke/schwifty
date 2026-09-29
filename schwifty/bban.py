@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from random import Random
 from typing import Any
+from typing import Self
 
 from rstr import Rstr
 
@@ -9,7 +10,6 @@ from schwifty import common
 from schwifty import exceptions
 from schwifty import registry
 from schwifty._compat import override
-from schwifty._compat import Self
 from schwifty.bic import BIC
 from schwifty.checksum import Algorithm
 from schwifty.checksum import algorithms

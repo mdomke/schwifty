@@ -41,7 +41,7 @@ Added
 Changed
 ~~~~~~~
 * Registry generation scripts now use ``httpx2`` instead of ``requests`` for HTTP downloads.
-  The Slovenian generator, added after that switch, uses ``httpx2`` as well.
+* Removed support for deprecated Python version 3.10
 * Simplified internal registry caching, character lookups, checksum helpers, and validation routines
   for improved efficiency and cleaner code structure while preserving exact behavior.
 * Simplified the IBAN checksum validation. The redundant ``self.numeric % 97 == 1`` test has
