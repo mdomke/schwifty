@@ -1,0 +1,26 @@
+[
+  {
+    "country_code": "GB",
+    "bank_code": "89095",
+    "short_name": "Citibank N.A.",
+    "name": "Citibank N.A.",
+    "bic": "CITIGB2LXXX",
+    "primary": true
+  },
+  {
+    "country_code": "DE",
+    "bank_code": "89202",
+    "short_name": "Sparkasse Hochrhein",
+    "name": "Sparkasse Hochrhein",
+    "bic": "SKHRDE6WXXX",
+    "primary": true
+  },
+  {
+    "country_code": "DE",
+    "bank_code": "89214",
+    "short_name": "Sparkasse Lörrach-Rheinfelden",
+    "name": "Sparkasse Lörrach-Rheinfelden",
+    "bic": "SKLODE66XXX",
+    "primary": true
+  }
+]
