@@ -44,7 +44,7 @@ def test_bank_prefers_the_primary_registry_record() -> None:
     # ``IBAN.bank``/``IBAN.bank_name`` describe a different institution than
     # ``IBAN.bic`` does: for the Nord LB codes the branch record is listed before
     # the institution's own record.
-    iban = IBAN.from_bban("DE", BBAN("DE", "290500000000000000"))
+    iban = IBAN.generate("DE", "29050000", "0000000000")
     assert iban.bic == "BRLADE22XXX"
     assert iban.bank is not None
     assert iban.bank.bic == iban.bic
@@ -58,14 +58,13 @@ def test_bank_prefers_the_primary_record_of_every_registered_bank_code() -> None
     # whichever entry happened to be read first.
     not_primary = []
     for country_code in registry.get_countries():
-        spec = registry.get_iban_spec(country_code)
         for bank_code in sorted(
             {bank.bank_code for bank in registry.get_banks_by_country(country_code)}
         ):
             entries = registry.get_banks_by_code(country_code, bank_code)
             if not bank_code or not any(bank.primary for bank in entries):
                 continue
-            bban = BBAN(country_code, bank_code.ljust(spec.bban_length, "0")[: spec.bban_length])
+            bban = BBAN.from_components(country_code, bank_code=bank_code)
             if bban.bank is not None and not bban.bank.primary:
                 not_primary.append((country_code, bank_code, bban.bank.bic))
     assert not not_primary
