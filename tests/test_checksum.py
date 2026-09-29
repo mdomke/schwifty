@@ -1,12 +1,18 @@
 import pytest
 
 from schwifty.checksum import algorithms
+from schwifty.checksum.germany import Algorithm91
+from schwifty.checksum.germany import digit_sum
+from schwifty.checksum.germany import WeightedModulus
 from schwifty.exceptions import InvalidAccountCode
+from schwifty.exceptions import InvalidBBANChecksum
 
 
 @pytest.mark.parametrize(
     ("account_code", "algorithm_name"),
     [
+        # Method 02: remainder 0 reconciles to check digit 0.
+        ("0000000000", "DE:02"),
         ("0009290701", "DE:00"),
         ("0539290858", "DE:00"),
         ("0001501824", "DE:00"),
@@ -17,9 +23,13 @@ from schwifty.exceptions import InvalidAccountCode
         # is restricted to positions 6-9), so a valid method-06 account is valid
         # for method 16 too.
         ("0094012341", "DE:16"),
+        # Remainder 1 is accepted when the last two digits match.
+        ("0000000066", "DE:16"),
         ("0012345008", "DE:10"),
         ("0087654008", "DE:10"),
         ("1000000060", "DE:11"),
+        # Remainder 1 would be check digit 10; method 11 maps that to 9.
+        ("0000000069", "DE:11"),
         ("0446786040", "DE:17"),
         ("0240334000", "DE:19"),
         ("0200520016", "DE:19"),
@@ -45,9 +55,12 @@ from schwifty.exceptions import InvalidAccountCode
         ("0260760481", "DE:61"),
         ("0123456600", "DE:63"),
         ("1234567893", "DE:21"),
+        ("1234567895", "DE:22"),
         ("8889654328", "DE:68"),
         ("0987654324", "DE:68"),
         ("0987654328", "DE:68"),
+        # Accounts in [400000000, 499999999] skip the check digit.
+        ("0400000000", "DE:68"),
         ("0006543200", "DE:76"),
         ("9012345600", "DE:76"),
         ("7876543100", "DE:76"),
@@ -99,6 +112,14 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         # From account number 60000 upward method 08 does apply the check, so a
         # wrong check digit must still be rejected.
         ("0000060000", "DE:08"),
+        # Method 02 with a non-zero, non-one remainder: the computed digit is 9.
+        ("0000000010", "DE:02"),
+        # Remainder 1 and a second digit outside {8, 9} is rejected.
+        ("0000000060", "DE:25"),
+        # Method 63 only accepts a leading zero.
+        ("1123456600", "DE:63"),
+        # Method 76 only accepts leading digits 0, 4, 6, 7, 8 and 9.
+        ("1234567890", "DE:76"),
     ],
 )
 def test_german_checksum_failure(account_code: str, algorithm_name: str) -> None:
@@ -133,3 +154,51 @@ def test_german_checksum_68_solve() -> None:
 
     assert algo.solve(["0987654321"]) == ["0987654324"]
     assert algo.validate(["0987654324"], "") is True
+
+
+def test_german_digit_sum_above_99() -> None:
+    assert digit_sum(199) == 19
+
+
+def test_german_checksum_02_invalid_remainder() -> None:
+    with pytest.raises(InvalidBBANChecksum, match="Invalid remainder"):
+        algorithms["DE:02"].validate(["0000000060"], "")
+
+
+def test_german_checksum_08_skips_small_account() -> None:
+    assert algorithms["DE:08"].compute(["0000001000"]) == ""
+
+
+def test_german_checksum_09_has_no_check_digit() -> None:
+    assert algorithms["DE:09"].compute(["0000000000"]) == ""
+
+
+def test_german_checksum_63_solve_exhausted() -> None:
+    # The check digit is not the leading position, so no candidate can satisfy
+    # method 63 and the shared solver gives up.
+    algo = algorithms["DE:63"]
+    assert isinstance(algo, WeightedModulus)
+    assert WeightedModulus.solve(algo, ["1123456789"]) is None
+
+
+def test_german_checksum_91_compute_and_solve() -> None:
+    algo = algorithms["DE:91"]
+    assert algo.compute(["2974118000"]) == "8"
+    assert algo.solve(["2974118000"]) == ["2974118000"]
+
+
+def test_german_checksum_91_solve_exhausted(monkeypatch: pytest.MonkeyPatch) -> None:
+    # Each variant can always place a check digit, so the "none of them worked"
+    # result is only reached when every variant declines.
+    def no_solution(self: object, components: list[str]) -> None:
+        return None
+
+    for variant in (
+        Algorithm91.Variant1,
+        Algorithm91.Variant2,
+        Algorithm91.Variant3,
+        Algorithm91.Variant4,
+    ):
+        monkeypatch.setattr(variant, "solve", no_solution)
+
+    assert algorithms["DE:91"].solve(["2974118000"]) is None
