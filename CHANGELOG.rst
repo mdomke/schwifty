@@ -9,6 +9,8 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* Eight-character BICs now fall back to their equivalent ``XXX`` registry entry for
+  bank codes and names when an exact entry is absent. Exact matches still take priority.
 * ``BIC.from_bank_code`` now prefers BICs the registry marks as primary when a bank code
   maps to several equally generic BICs, before falling back to the alphabetical tie-break.
   For the French bank code 18719 this is the head office ``BFCORERXXXX`` rather than the

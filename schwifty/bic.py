@@ -382,6 +382,9 @@ class BIC(common.Base):
             # entries per branch, so fall back to the institution's BIC when
             # the branch-specific lookup comes up empty.
             entries = registry.get_banks_by_bic(str(self)[:8])
+        elif not entries and len(self) == 8:
+            # Some registries store only the equivalent 11-character XXX form.
+            entries = registry.get_banks_by_bic(f"{self}XXX")
         return sorted({val for entry in entries if (val := getattr(entry, key))})
 
     @property

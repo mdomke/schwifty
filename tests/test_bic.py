@@ -7,6 +7,8 @@ from pycountry import countries  # type: ignore
 
 from schwifty import BIC
 from schwifty import exceptions
+from schwifty import registry
+from schwifty.domain import Bank
 
 
 def test_bic() -> None:
@@ -93,6 +95,41 @@ def test_bic_prefers_branch_specific_registry_entry() -> None:
     # win over the institution-level fallback.
     assert BIC("MARKDEF1100").domestic_bank_codes == ["10000000"]
     assert BIC("GENODEM1GLS").domestic_bank_codes == ["43060967", "43060988"]
+
+
+@pytest.mark.parametrize("code", ["COBADEFF", "DEUTDEFF"])
+def test_bic_without_branch_code_falls_back_to_xxx_entry(code: str) -> None:
+    bic = BIC(code)
+    xxx_entry = BIC(f"{code}XXX")
+    assert xxx_entry.domestic_bank_codes
+    assert xxx_entry.bank_names
+    assert xxx_entry.bank_short_names
+    assert bic.domestic_bank_codes == xxx_entry.domestic_bank_codes
+    assert bic.bank_names == xxx_entry.bank_names
+    assert bic.bank_short_names == xxx_entry.bank_short_names
+    assert not bic.exists
+    assert xxx_entry.exists
+
+
+def test_bic_prefers_exact_institution_entry(monkeypatch: pytest.MonkeyPatch) -> None:
+    entries = {
+        "TESTDEFF": [Bank("DE", "TESTDEFF", "10000000", "Exact institution")],
+        "TESTDEFFXXX": [Bank("DE", "TESTDEFFXXX", "20000000", "XXX entry", "XXX")],
+    }
+    monkeypatch.setattr(registry, "get_banks_by_bic", lambda code: entries.get(code, []))
+    bic = BIC("TESTDEFF")
+    assert bic.domestic_bank_codes == ["10000000"]
+    assert bic.bank_names == ["Exact institution"]
+    assert bic.bank_short_names == []
+
+
+@pytest.mark.parametrize("code", ["MARKDEF1", "ABNAJPJT", "COBADEF"])
+def test_bic_without_institution_or_xxx_record(code: str) -> None:
+    bic = BIC(code, allow_invalid=True)
+    assert bic.domestic_bank_codes == []
+    assert bic.bank_names == []
+    assert bic.bank_short_names == []
+    assert not bic.exists
 
 
 @pytest.mark.parametrize(
