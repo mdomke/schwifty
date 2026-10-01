@@ -9,6 +9,7 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* Added the Cypriot BIC ``OROACY2LXXX`` (ORO PAY LTD) to the manual registry (#297).
 * ``BIC.from_bank_code`` now prefers BICs the registry marks as primary when a bank code
   maps to several equally generic BICs, before falling back to the alphabetical tie-break.
   For the French bank code 18719 this is the head office ``BFCORERXXXX`` rather than the
