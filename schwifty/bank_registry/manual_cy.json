@@ -273,6 +273,14 @@
   },
   {
     "bank_code": "",
+    "bic": "OROACY2LXXX",
+    "country_code": "CY",
+    "name": "ORO PAY LTD",
+    "primary": true,
+    "short_name": "ORO PAY"
+  },
+  {
+    "bank_code": "",
     "bic": "PBANCY2NXXX",
     "country_code": "CY",
     "name": "PRIVATBANK, CYPRUS BRANCH",
