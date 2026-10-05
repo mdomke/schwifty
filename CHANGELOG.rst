@@ -9,6 +9,8 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* Eight-character BICs now fall back to their equivalent ``XXX`` registry entry for
+  bank codes and names when an exact entry is absent. Exact matches still take priority.
 * ``IBAN.bank`` (and with it ``IBAN.bank_name`` and ``IBAN.bank_short_name``) now
   resolve a bank code to the registry record flagged ``primary`` instead of whichever
   record happened to be read first. National registries list one record per branch, so
