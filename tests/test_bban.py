@@ -3,6 +3,8 @@ import pickle
 
 import pytest
 
+from schwifty import IBAN
+from schwifty import registry
 from schwifty.bban import BBAN
 from schwifty.exceptions import GenerateRandomOverflowError
 from schwifty.exceptions import InvalidAccountCode
@@ -34,6 +36,39 @@ def test_validate_german_national_checksum() -> None:
     assert BBAN("DE", "370400440532013000").validate_national_checksum() is True
     with pytest.raises(InvalidBBANChecksum):
         BBAN("DE", "370400440532013100").validate_national_checksum()
+
+
+def test_bank_prefers_the_primary_registry_record() -> None:
+    # A national registry lists one record per branch, so a bank code maps to
+    # several entries and ``primary`` marks the institution's main record.
+    # ``BBAN.bank`` returned the first match in file order instead, which made
+    # ``IBAN.bank``/``IBAN.bank_name`` describe a different institution than
+    # ``IBAN.bic`` does: for the Nord LB codes the branch record is listed before
+    # the institution's own record.
+    iban = IBAN.generate("DE", "29050000", "0000000000")
+    assert iban.bic == "BRLADE22XXX"
+    assert iban.bank is not None
+    assert iban.bank.bic == iban.bic
+    assert iban.bank.primary is True
+    assert iban.bank_short_name == "Nord LB Bremen"
+
+
+def test_bank_prefers_the_primary_record_of_every_registered_bank_code() -> None:
+    # Whenever the registry marks a record of a bank code as the primary one, that
+    # is the record the bank code has to resolve to. ``BBAN.bank`` used to return
+    # whichever entry happened to be read first.
+    not_primary = []
+    for country_code in registry.get_countries():
+        for bank_code in sorted(
+            {bank.bank_code for bank in registry.get_banks_by_country(country_code)}
+        ):
+            entries = registry.get_banks_by_code(country_code, bank_code)
+            if not bank_code or not any(bank.primary for bank in entries):
+                continue
+            bban = BBAN.from_components(country_code, bank_code=bank_code)
+            if bban.bank is not None and not bban.bank.primary:
+                not_primary.append((country_code, bank_code, bban.bank.bic))
+    assert not not_primary
 
 
 def test_validate_national_checksum_on_truncated_bban() -> None:
