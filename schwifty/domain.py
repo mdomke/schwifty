@@ -83,6 +83,11 @@ class IBANSpec(DictCompatMixin):
     bic_lookup_components: list[Component] = field(default_factory=list)
     defaults: dict[str, str] = field(default_factory=dict)
 
+    @property
+    def has_positions(self) -> bool:
+        """Whether the position of at least one BBAN component is known."""
+        return any(not position.is_empty for position in self.positions.values())
+
 
 @dataclass
 class Bank(DictCompatMixin):

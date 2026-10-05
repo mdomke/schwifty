@@ -104,7 +104,7 @@ class BBAN(common.Base):
             InvalidAccountCode: If the account code does not meet the national requirements.
         """
         spec = _get_bban_spec(country_code)
-        if not spec.positions:  # pragma: no cover
+        if not spec.has_positions:
             raise exceptions.SchwiftyException(f"BBAN generation for {country_code} not supported")
 
         ranges = spec.positions
@@ -192,7 +192,7 @@ class BBAN(common.Base):
         if banks and use_registry:
             bank = random.choice(banks)
 
-        if not spec.positions:
+        if not spec.has_positions:
             return cls(country_code, rstr.xeger(spec.regex).upper())
 
         ranges = spec.positions
