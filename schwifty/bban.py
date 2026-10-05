@@ -345,10 +345,14 @@ class BBAN(common.Base):
     @property
     def bank(self) -> Bank | None:
         """Bank | None: The information of bank related to this BBANs bank code."""
-        bank_entry = registry.get_banks_by_code(self.country_code, self._bank_lookup_key)
-        if not bank_entry:
+        banks = registry.get_banks_by_code(self.country_code, self._bank_lookup_key)
+        if not banks:
             return None
-        return bank_entry[0]
+        # A national registry lists one record per branch, so a bank code can map to
+        # several entries. The registry flags the institution's own record with
+        # ``primary``; prefer it so that ``bank`` and ``bic`` describe the same
+        # institution, the way ``BIC.candidates_from_bank_code`` already does.
+        return max(banks, key=lambda bank: bank.primary)
 
     @property
     def bank_name(self) -> str | None:
