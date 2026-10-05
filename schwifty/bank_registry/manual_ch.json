@@ -1,6 +1,6 @@
 [
   {
-    "country_code": "GB",
+    "country_code": "CH",
     "bank_code": "89095",
     "short_name": "Citibank N.A.",
     "name": "Citibank N.A.",
@@ -8,7 +8,7 @@
     "primary": true
   },
   {
-    "country_code": "DE",
+    "country_code": "CH",
     "bank_code": "89202",
     "short_name": "Sparkasse Hochrhein",
     "name": "Sparkasse Hochrhein",
@@ -16,7 +16,7 @@
     "primary": true
   },
   {
-    "country_code": "DE",
+    "country_code": "CH",
     "bank_code": "89214",
     "short_name": "Sparkasse Lörrach-Rheinfelden",
     "name": "Sparkasse Lörrach-Rheinfelden",
