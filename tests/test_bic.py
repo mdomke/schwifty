@@ -90,6 +90,13 @@ def test_bic_with_branch_code_falls_back_to_institution() -> None:
         assert bic.bank_short_names == institution.bank_short_names
 
 
+def test_bic_oro_pay_cyprus() -> None:
+    bic = BIC("OROACY2LXXX")
+    assert bic.bank_names == ["ORO PAY LTD"]
+    assert bic.bank_short_names == ["ORO PAY"]
+    assert bic.country_code == "CY"
+
+
 def test_bic_prefers_branch_specific_registry_entry() -> None:
     # Where the registry does hold branch-specific entries, those must still
     # win over the institution-level fallback.

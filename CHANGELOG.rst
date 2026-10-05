@@ -9,6 +9,7 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* Added the Cypriot BIC ``OROACY2LXXX`` (ORO PAY LTD) to the manual registry (#297).
 * Eight-character BICs now fall back to their equivalent ``XXX`` registry entry for
   bank codes and names when an exact entry is absent. Exact matches still take priority.
 * ``IBAN.bank`` (and with it ``IBAN.bank_name`` and ``IBAN.bank_short_name``) now
