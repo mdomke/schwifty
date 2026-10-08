@@ -9,6 +9,10 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* The German checksum method ``99`` now accepts every account number from ``0396000000`` to
+  ``0499999999`` without a check, as the Bundesbank specification requires. Previously only the
+  two range boundaries were exempt, so valid account numbers in between (e.g. at UniCredit Bank -
+  HypoVereinsbank) could be rejected.
 * Added the Cypriot BIC ``OROACY2LXXX`` (ORO PAY LTD) to the manual registry (#297).
 * Eight-character BICs now fall back to their equivalent ``XXX`` registry entry for
   bank codes and names when an exact entry is absent. Exact matches still take priority.
