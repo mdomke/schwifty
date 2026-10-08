@@ -605,6 +605,25 @@ class Algorithm91(checksum.Algorithm):
 
 
 @register
+class Algorithm95(Algorithm06):
+    name = "95"
+
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        [account_code] = components
+        number = int(account_code)
+        if (
+            1 <= number <= 1_999_999
+            or 9_000_000 <= number <= 25_999_999
+            or 396_000_000 <= number <= 499_999_999
+            or 700_000_000 <= number <= 799_999_999
+            or 910_000_000 <= number <= 989_999_999
+        ):
+            return True
+        return super().validate(components, expected)
+
+
+@register
 class Algorithm99(Algorithm06):
     name = "99"
 

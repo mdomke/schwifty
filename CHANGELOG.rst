@@ -43,6 +43,9 @@ Fixed
 
 Added
 ~~~~~
+* Added the German checksum method ``95``, used by UniCredit Bank - HypoVereinsbank (bank code
+  ``70020270``). It computes like method ``06``, but treats the account ranges the Bundesbank
+  exempts from the check digit as valid. Account codes for this bank were not checked before.
 * Added the German checksum methods ``A2`` and ``A3``. Both check the account number with
   method ``00`` first and fall back to method ``04`` (``A2``) or ``10`` (``A3``). Banks using
   them (e.g. Nassauische Sparkasse, Sparkasse Hannover) previously had their national check
