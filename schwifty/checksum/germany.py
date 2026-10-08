@@ -614,3 +614,40 @@ class Algorithm99(Algorithm06):
         if account_code in {"0499999999", "0396000000"}:
             return True
         return super().validate(components, expected)
+
+
+class FallbackVariants(checksum.Algorithm):
+    """Check the account code with the second variant if the first one rejects it."""
+
+    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
+    variants: ClassVar[tuple[type[WeightedModulus], type[WeightedModulus]]]
+
+    @override
+    def compute(self, components: list[str]) -> str:
+        return self.variants[0]().compute(components)
+
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        return any(algo_cls().validate(components, expected) for algo_cls in self.variants)
+
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        return self.variants[0]().solve(components)
+
+
+@register
+class AlgorithmA2(FallbackVariants):
+    name = "A2"
+    variants: ClassVar[tuple[type[WeightedModulus], type[WeightedModulus]]] = (
+        Algorithm00,
+        Algorithm04,
+    )
+
+
+@register
+class AlgorithmA3(FallbackVariants):
+    name = "A3"
+    variants: ClassVar[tuple[type[WeightedModulus], type[WeightedModulus]]] = (
+        Algorithm00,
+        Algorithm10,
+    )

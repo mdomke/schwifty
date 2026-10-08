@@ -39,6 +39,10 @@ Fixed
 
 Added
 ~~~~~
+* Added the German checksum methods ``A2`` and ``A3``. Both check the account number with
+  method ``00`` first and fall back to method ``04`` (``A2``) or ``10`` (``A3``). Banks using
+  them (e.g. Nassauische Sparkasse, Sparkasse Hannover) previously had their national check
+  digit silently accepted without being verified.
 * Added e-money institutions and banks that were missing from the bank registries: OpenPayd
   (MT — first Maltese registry), ClearBank and Bilderlings Pay (GB), Score and Secure Payment
   and Deblock (FR), bunq, Pecunia Cards and Financière des Paiements Électroniques (ES),
