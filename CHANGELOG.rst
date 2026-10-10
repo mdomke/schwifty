@@ -9,6 +9,9 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* Validating a pydantic model whose ``BIC`` field is not a string now reports a
+  ``bic_format`` field error instead of letting the ``TypeError`` from ``BIC()`` escape,
+  which is what the ``IBAN`` validator in the same library already does.
 * Added the Cypriot BIC ``OROACY2LXXX`` (ORO PAY LTD) to the manual registry (#297).
 * Eight-character BICs now fall back to their equivalent ``XXX`` registry entry for
   bank codes and names when an exact entry is absent. Exact matches still take priority.
