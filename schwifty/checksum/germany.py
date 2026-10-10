@@ -39,6 +39,21 @@ def digit_sum(number: int) -> int:
     return sum(int(d) for d in str(number))
 
 
+def require_account_code(account_code: str) -> str:
+    """Return ``account_code`` if it has the length all German methods expect.
+
+    Methods that look at the account code themselves, before the shared check in
+    :meth:`WeightedModulus.get_digits` runs, have to call this first. Otherwise a
+    BBAN that is too short to carry an account code leaks a raw ``ValueError`` or
+    ``IndexError`` instead of :class:`~schwifty.exceptions.InvalidAccountCode`.
+    """
+    if len(account_code) != ACCOUNT_CODE_LENGTH:
+        raise InvalidAccountCode(
+            f"Account code must be {ACCOUNT_CODE_LENGTH} digits long, got {len(account_code)}"
+        )
+    return account_code
+
+
 class WeightedModulus(checksum.Algorithm):
     accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
     minuend: ClassVar[int | None] = None
@@ -65,14 +80,10 @@ class WeightedModulus(checksum.Algorithm):
         return account_code
 
     def get_digits(self, account_code: str) -> str:
+        require_account_code(account_code)
         positions = self.get_positions(account_code)
         # The positions are provided as in the specification, which starts counting at 1
         start, end = positions.start - 1, positions.end
-
-        if len(account_code) != ACCOUNT_CODE_LENGTH:
-            raise InvalidAccountCode(
-                f"Account code must be {ACCOUNT_CODE_LENGTH} digits long, got {len(account_code)}"
-            )
 
         assert start >= 0 and start <= ACCOUNT_CODE_LENGTH  # noqa: PT018
         assert end >= start and end <= ACCOUNT_CODE_LENGTH  # noqa: PT018
@@ -113,7 +124,7 @@ class WeightedModulus(checksum.Algorithm):
         # ranges, special-case reconciliations) are honoured without duplicating
         # their logic. ``None`` signals that this random account body cannot be
         # made valid (e.g. methods that reject a whole class of inputs).
-        [account_code] = components
+        account_code = require_account_code(components[0])
         index = self.get_positions(account_code).check_digit - 1
         for digit in string.digits:
             candidate = account_code[:index] + digit + account_code[index + 1 :]
@@ -206,14 +217,14 @@ class Algorithm08(Algorithm00):
 
     @override
     def compute(self, components: list[str]) -> str:
-        [account_code] = components
+        account_code = require_account_code(components[0])
         if int(account_code) < self.min_account_code:
             return ""
         return super().compute(components)
 
     @override
     def validate(self, components: list[str], expected: str) -> bool:
-        [account_code] = components
+        account_code = require_account_code(components[0])
         if int(account_code) < self.min_account_code:
             return True
         return super().validate(components, expected)
@@ -467,7 +478,7 @@ class Algorithm63(WeightedMod10):
 
     @override
     def validate(self, components: list[str], expected: str) -> bool:
-        [account_code] = components
+        account_code = require_account_code(components[0])
         if account_code[0] != "0":
             return False
         return super().validate(components, expected)
@@ -476,7 +487,7 @@ class Algorithm63(WeightedMod10):
     def solve(self, components: list[str]) -> list[str] | None:
         # The method only accepts account codes with a leading zero, which the check
         # digit alone cannot supply, so set it before solving for the check digit.
-        [account_code] = components
+        account_code = require_account_code(components[0])
         return super().solve(["0" + account_code[1:]])
 
 
@@ -503,7 +514,7 @@ class Algorithm68(Algorithm00):
 
     @override
     def validate(self, components: list[str], expected: str) -> bool:
-        [account_code] = components
+        account_code = require_account_code(components[0])
         if 400_000_000 <= int(account_code) <= 499_999_999:
             return True
         if super().validate(components, expected) is False:
@@ -519,7 +530,7 @@ class Algorithm68(Algorithm00):
         # A 10-significant-digit account code (no leading zero) requires the 7th
         # position -- index 3 -- to be 9, otherwise ``get_digits`` rejects it. Set it
         # so the leading digit stays free, then solve for the check digit.
-        [account_code] = components
+        account_code = require_account_code(components[0])
         if account_code[0] != "0":
             account_code = account_code[:3] + "9" + account_code[4:]
         return super().solve([account_code])
@@ -539,7 +550,7 @@ class Algorithm76(WeightedMod11):
 
     @override
     def validate(self, components: list[str], expected: str) -> bool:
-        [account_code] = components
+        account_code = require_account_code(components[0])
         if int(account_code[0]) not in {0, 4, 6, 7, 8, 9}:
             return False
         return super().validate(components, expected)
@@ -548,7 +559,7 @@ class Algorithm76(WeightedMod11):
     def solve(self, components: list[str]) -> list[str] | None:
         # The method only accepts certain leading digits, which the check digit alone
         # cannot supply, so coerce it into the allowed set before solving.
-        [account_code] = components
+        account_code = require_account_code(components[0])
         if int(account_code[0]) not in {0, 4, 6, 7, 8, 9}:
             account_code = "0" + account_code[1:]
         return super().solve([account_code])

@@ -1,5 +1,6 @@
 import copy
 import pickle
+from contextlib import suppress
 
 import pytest
 
@@ -9,6 +10,7 @@ from schwifty.bban import BBAN
 from schwifty.exceptions import GenerateRandomOverflowError
 from schwifty.exceptions import InvalidAccountCode
 from schwifty.exceptions import InvalidBBANChecksum
+from schwifty.exceptions import SchwiftyException
 
 
 def test_validate_national_checksum() -> None:
@@ -71,9 +73,33 @@ def test_bank_prefers_the_primary_record_of_every_registered_bank_code() -> None
     assert not not_primary
 
 
-def test_validate_national_checksum_on_truncated_bban() -> None:
+@pytest.mark.parametrize(
+    "bank_code",
+    [
+        "37040044",  # Commerzbank, method 13
+        "30022000",  # NRW.BANK, method 08
+        "10070000",  # Deutsche Bank, method 63
+        "20030000",  # UniCredit Bank - HypoVereinsbank, method 68
+        "10080000",  # Commerzbank vorm. Dresdner Bank, method 76
+        "70090100",  # Hausbank München, method 88
+    ],
+)
+def test_validate_national_checksum_on_truncated_bban(bank_code: str) -> None:
+    # A BBAN that is too short to carry the 10-digit German account code has to be
+    # rejected with InvalidAccountCode, no matter which method the bank uses. The
+    # methods that inspect the account code before delegating to the shared length
+    # check let a raw ValueError or IndexError escape instead.
     with pytest.raises(InvalidAccountCode):
-        BBAN("DE", "3704004405320").validate_national_checksum()
+        BBAN("DE", f"{bank_code}05320").validate_national_checksum()
+
+
+def test_validate_national_checksum_of_every_german_bank_does_not_crash() -> None:
+    # The same invariant across all methods the German registry refers to: a truncated
+    # BBAN is either rejected with a schwifty exception or carries no national checksum
+    # at all, but no raw ValueError or IndexError may escape.
+    for bank in registry.get_banks_by_country("DE"):
+        with suppress(SchwiftyException):
+            BBAN("DE", f"{bank.bank_code}05320").validate_national_checksum()
 
 
 def test_dict_access_is_deprecated() -> None:
