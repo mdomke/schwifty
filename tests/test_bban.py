@@ -1,5 +1,6 @@
 import copy
 import pickle
+from random import Random
 
 import pytest
 
@@ -9,6 +10,7 @@ from schwifty.bban import BBAN
 from schwifty.exceptions import GenerateRandomOverflowError
 from schwifty.exceptions import InvalidAccountCode
 from schwifty.exceptions import InvalidBBANChecksum
+from schwifty.exceptions import SchwiftyException
 
 
 def test_validate_national_checksum() -> None:
@@ -134,3 +136,30 @@ def test_deepcopy() -> None:
     assert bban_copy == bban
     assert bban_copy.country_code == bban.country_code
     assert id(bban_copy) != id(bban)
+
+
+@pytest.mark.parametrize("country_code", ["AO", "GW", "IR", "KM", "MG", "MZ"])
+def test_random_countries_without_positions(country_code: str) -> None:
+    # These registry entries define a BBAN regex but no component positions.
+    # random() must fall back to generating from the regex instead of
+    # degenerating to an all-zero BBAN through from_components().
+    iban = IBAN.random(country_code=country_code, random=Random(42), use_registry=False)  # noqa: S311
+    assert iban.is_valid
+    assert str(iban.bban) != "0" * len(iban.bban)
+
+
+def test_random_honduras() -> None:
+    # The Honduran BBAN spec (4!a20!n) has no component positions either, but
+    # unlike the all-digit specs above an all-zero BBAN can never satisfy the
+    # '4!a' part, so IBAN.random("HN") used to raise InvalidStructure.
+    iban = IBAN.random(country_code="HN", random=Random(42), use_registry=False)  # noqa: S311
+    assert iban.is_valid
+    assert str(iban.bban) != "0" * len(iban.bban)
+
+
+def test_from_components_unsupported_country() -> None:
+    # Without component positions a BBAN cannot be assembled from components.
+    # This raises the explicit "not supported" error rather than the misleading
+    # "Bank code exceeds maximum size 0".
+    with pytest.raises(SchwiftyException, match="BBAN generation for HN not supported"):
+        BBAN.from_components("HN", bank_code="BGAH", account_code="12345678901234567890")
