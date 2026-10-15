@@ -9,6 +9,9 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* Validating a pydantic model whose ``BIC`` field is not a string now reports a
+  ``bic_format`` field error instead of letting the ``TypeError`` from ``BIC()`` escape,
+  which is what the ``IBAN`` validator in the same library already does.
 * The German checksum method ``99`` now accepts every account number from ``0396000000`` to
   ``0499999999`` without a check, as the Bundesbank specification requires. Previously only the
   two range boundaries were exempt, so valid account numbers in between (e.g. at UniCredit Bank -
