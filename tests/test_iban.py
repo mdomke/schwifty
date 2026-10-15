@@ -338,6 +338,19 @@ def test_generate_iban_invalid(components: tuple[str, ...]) -> None:
         IBAN.generate(*components)
 
 
+@pytest.mark.parametrize(
+    ("country_code", "bban", "expected"),
+    [
+        ("DE", "370400440532013000", "DE89370400440532013000"),
+        ("DE", "3704 0044 0532 0130 00", "DE89370400440532013000"),
+        ("de", "370400440532013000", "DE89370400440532013000"),
+        ("BE", "5390 0754 7034", "BE68539007547034"),
+    ],
+)
+def test_from_bban_normalizes_text_input(country_code: str, bban: str, expected: str) -> None:
+    assert IBAN.from_bban(country_code, bban).compact == expected
+
+
 def test_magic_methods() -> None:
     iban = IBAN("DE42430609677000534100")
     assert iban == "DE42430609677000534100"
