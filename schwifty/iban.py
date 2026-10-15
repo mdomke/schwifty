@@ -103,6 +103,8 @@ class IBAN(common.Base):
 
         .. versionadded:: 2024.01.2
         """
+        country_code = common.clean(country_code)
+        bban = common.clean(bban)
         return cls(
             country_code + _iso7064_mod97_10.compute([bban, country_code]) + bban,
             allow_invalid=allow_invalid,
