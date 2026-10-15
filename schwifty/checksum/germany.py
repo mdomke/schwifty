@@ -611,6 +611,6 @@ class Algorithm99(Algorithm06):
     @override
     def validate(self, components: list[str], expected: str) -> bool:
         [account_code] = components
-        if account_code in {"0499999999", "0396000000"}:
+        if 396_000_000 <= int(account_code) <= 499_999_999:
             return True
         return super().validate(components, expected)
