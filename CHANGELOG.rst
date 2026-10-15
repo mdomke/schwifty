@@ -36,7 +36,7 @@ Fixed
 * ``BBAN.validate_national_checksum`` no longer raises an ``AssertionError`` (or an
   ``IndexError`` under ``python -O``) for a BBAN shorter than the country spec; it now
   raises ``InvalidAccountCode``, as the other national methods already do.
-* The German checksum methods that inspect the account code themselves (08, 63, 68, 76 and 88)
+* The German checksum methods that inspect the account code themselves (08, 63, 68, 76, 88 and 99)
   now also raise ``InvalidAccountCode`` for a BBAN that is too short to carry an account code,
   instead of leaking a raw ``ValueError`` or ``IndexError`` that ``except SchwiftyException``
   does not catch.
