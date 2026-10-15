@@ -95,6 +95,9 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("9876543210", "DE:A3"),
         ("1234567890", "DE:A3"),
         ("0123456789", "DE:A3"),
+        # Method 99 accepts the whole range 0396000000 to 0499999999 without a check.
+        ("0396000001", "DE:99"),
+        ("0412345678", "DE:99"),
         # Method 08 applies no check digit below account number 60000, so an
         # account in [6000, 60000) is valid regardless of its check digit.
         ("0000006000", "DE:08"),
@@ -133,6 +136,9 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0123456789", "DE:A2"),
         ("6543217890", "DE:A3"),
         ("0543216789", "DE:A3"),
+        # Just outside the exception range of method 99 the check digit applies again.
+        ("0395999999", "DE:99"),
+        ("0500000000", "DE:99"),
     ],
 )
 def test_german_checksum_failure(account_code: str, algorithm_name: str) -> None:
