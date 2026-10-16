@@ -7,8 +7,13 @@ Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro
 
 Unreleased
 ----------
+Changed
+~~~~~~~
+* Use Python 3.15 by default and in CI, with compatible Pydantic dependencies.
+
 Fixed
 ~~~~~
+* Registry update scripts report a missing download link instead of an attribute or lookup error.
 * The German checksum method ``99`` now accepts every account number from ``0396000000`` to
   ``0499999999`` without a check, as the Bundesbank specification requires. Previously only the
   two range boundaries were exempt, so valid account numbers in between (e.g. at UniCredit Bank -
