@@ -30,12 +30,16 @@ def get_download_url():
         httpx2.get(URL, follow_redirects=True, timeout=None).content, "html.parser"
     )
     atag = soup.find(href=lambda ref: ref and "download-bankleitzahlen" in ref)
+    if atag is None:
+        raise RuntimeError(f"download link not found on {URL}")
 
     soup = BeautifulSoup(
         httpx2.get(urljoin(URL, atag.get("href")), follow_redirects=True, timeout=None).content,
         "html.parser",
     )
     atag = soup.find(href=lambda ref: ref and "blz-aktuell-txt-data.txt" in ref)
+    if atag is None:
+        raise RuntimeError("bank data file link not found in the download page")
     return urljoin(URL, atag.get("href"))
 
 

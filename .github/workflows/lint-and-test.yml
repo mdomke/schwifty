@@ -8,45 +8,53 @@ on:
 
 jobs:
   lint-docs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - name: Install uv
         uses: astral-sh/setup-uv@v8.3.0
         with:
-          python-version: "3.14"
+          python-version: "3.15"
       - name: Lint documentation
         run: uv run poe check-docs
 
   lint-style:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - name: Install uv
         uses: astral-sh/setup-uv@v8.3.0
         with:
-          python-version: "3.14"
+          python-version: "3.15"
       - name: Lint style
         run: uv run poe check-code
 
   lint-typing:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - name: Install uv
         uses: astral-sh/setup-uv@v8.3.0
         with:
-          python-version: "3.13"
+          python-version: "3.15"
       - name: Lint typing
         run: uv run poe check-types
 
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
-        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14"]
+        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14", "3.15"]
     steps:
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - name: Install uv
         uses: astral-sh/setup-uv@v8.3.0
         with:
@@ -65,12 +73,14 @@ jobs:
           path: .coverage*
 
   coverage:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     name: Report coverage
     needs:
       - test
     steps:
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - name: Install uv
         uses: astral-sh/setup-uv@v8.3.0
 
@@ -92,7 +102,9 @@ jobs:
 
   package:
     name: Build & verify package
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - uses: hynek/build-and-inspect-python-package@2abe76da66d0a6a4a227101f9348ee855797cfa5 # v3.0.1
