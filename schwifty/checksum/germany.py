@@ -470,7 +470,14 @@ class Algorithm63(WeightedMod10):
         [account_code] = components
         if account_code[0] != "0":
             return False
-        return super().validate(components, expected)
+        if super().validate(components, expected):
+            return True
+        # The sub-account number "00" may be omitted and the account code padded with
+        # leading zeros instead. The check digit then sits at position 10, so shift the
+        # account code back into place and check it again.
+        if account_code.startswith("000"):
+            return super().validate([account_code[2:] + "00"], expected)
+        return False
 
     @override
     def solve(self, components: list[str]) -> list[str] | None:

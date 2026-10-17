@@ -9,6 +9,9 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* The German checksum method ``63`` (used by Deutsche Bank) now accepts account numbers whose
+  sub-account number ``00`` was left out and that were padded with leading zeros instead, so the
+  check digit sits at position 10 (e.g. ``0001234566``), as the Bundesbank specification requires.
 * The German checksum method ``99`` now accepts every account number from ``0396000000`` to
   ``0499999999`` without a check, as the Bundesbank specification requires. Previously only the
   two range boundaries were exempt, so valid account numbers in between (e.g. at UniCredit Bank -
