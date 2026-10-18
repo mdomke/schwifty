@@ -27,6 +27,11 @@ per-bank methods (e.g. `DE:13`). A `Bank` carries its `checksum_algo` so that
 `BBAN.validate_national_checksum` can pick the right algorithm; a bank without an explicit method
 falls back to `default`.
 
+Not every country that declares a national check digit in its BBAN specification has such an
+algorithm registered. Where none exists, `BBAN.validate_national_checksum` accepts the digits as
+they are and emits a `NationalChecksumNotVerified` warning, so the skip is neither silent nor an
+error.
+
 ## Structural & System Concepts
 
 ### Registry

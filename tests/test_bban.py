@@ -10,6 +10,7 @@ from schwifty.bban import BBAN
 from schwifty.exceptions import GenerateRandomOverflowError
 from schwifty.exceptions import InvalidAccountCode
 from schwifty.exceptions import InvalidBBANChecksum
+from schwifty.exceptions import NationalChecksumNotVerified
 from schwifty.exceptions import SchwiftyException
 
 
@@ -27,6 +28,36 @@ def test_validate_national_checksum() -> None:
     assert BBAN("BA", "1290079401028494").validate_national_checksum() is True
     with pytest.raises(InvalidBBANChecksum):
         BBAN("BA", "1290079401028400").validate_national_checksum()
+
+
+@pytest.mark.parametrize("country_code", ["HU", "SE"])
+def test_validate_national_checksum_reports_a_missing_algorithm(country_code: str) -> None:
+    # Both countries declare a national check-digit field (HU: 23-24, SE: 19-20) but have no
+    # algorithm registered for it, so their check digits were accepted without being looked
+    # at (#310). A missing algorithm must not reject an otherwise valid BBAN, but the pass is
+    # no longer silent.
+    iban = IBAN.random(country_code=country_code, random=Random(42), use_registry=False)  # noqa: S311
+    with pytest.warns(NationalChecksumNotVerified, match=country_code):
+        assert iban.bban.validate_national_checksum() is True
+    with pytest.warns(NationalChecksumNotVerified, match=country_code):
+        assert iban.validate(validate_bban=True) is True
+    with pytest.warns(NationalChecksumNotVerified, match=country_code):
+        IBAN(str(iban), validate_bban=True)
+
+
+@pytest.mark.filterwarnings("error")
+def test_validate_national_checksum_without_declared_check_digits_is_silent() -> None:
+    # Countries that declare no national check digits have nothing to verify, so there is
+    # nothing to report either.
+    assert BBAN("GB", "WEST12345698765432").validate_national_checksum() is True
+
+
+@pytest.mark.filterwarnings("error")
+def test_random_does_not_report_an_unverifiable_national_checksum() -> None:
+    # Generating a random BBAN is not a validation request: it neither reports a checksum it
+    # cannot verify nor exhausts its retries over it.
+    bban = BBAN.random("HU", random=Random(42))  # noqa: S311
+    assert bban.country_code == "HU"
 
 
 def test_validate_german_national_checksum() -> None:

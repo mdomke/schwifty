@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import warnings
 from random import Random
 from typing import Any
 
@@ -245,7 +246,11 @@ class BBAN(common.Base):
                 bban = cls.from_components(
                     country_code, **{key.value: value for key, value in components.items()}
                 )
-                bban.validate_national_checksum()
+                # Generating a value is not a validation request: where the national
+                # checksum cannot be verified there is nothing to retry for and nothing to
+                # report, so the check (and the warning it would emit) is left out.
+                if _get_national_checksum_algorithm(bban.country_code, bban.bank) is not None:
+                    bban.validate_national_checksum()
             except exceptions.SchwiftyException:
                 continue
             return bban
@@ -256,9 +261,25 @@ class BBAN(common.Base):
 
         Raises:
             InvalidBBANChecksum: If the country specific BBAN checksum is invalid.
+
+        Note:
+            Where the country's BBAN specification declares national check digits but no
+            algorithm is registered to verify them, the digits are accepted unchecked and a
+            :class:`.NationalChecksumNotVerified` warning is emitted, since a missing
+            algorithm must not reject an otherwise valid BBAN. Turn the warning into an error
+            with ``warnings.simplefilter("error", NationalChecksumNotVerified)`` to fail
+            instead of passing.
         """
         algo = _get_national_checksum_algorithm(self.country_code, self.bank)
         if algo is None:
+            position = self.spec.positions.get(Component.NATIONAL_CHECKSUM_DIGITS) or Range(0, 0)
+            if not position.is_empty:
+                warnings.warn(
+                    f"No national checksum algorithm is registered for {self.country_code}: "
+                    "the national check digits were not verified",
+                    exceptions.NationalChecksumNotVerified,
+                    stacklevel=2,
+                )
             return True
         components = [self._get_component(component) for component in algo.accepts]
         if not algo.validate(components, self.national_checksum_digits):
