@@ -82,14 +82,15 @@ code base at any time with:
 Testing against a specific Python version
 -----------------------------------------
 
-``schwifty`` supports CPython 3.10 through 3.15. The test suite runs against all of them in CI.
+
+``schwifty`` supports CPython 3.11 through 3.15. The test suite runs against all of them in CI.
 To reproduce a run for a single version
 locally, select it with ``uv``'s ``--python`` option — it will download the interpreter if
 necessary:
 
 .. code-block:: bash
 
-   $ uv run --python 3.10 poe test
+   $ uv run --python 3.11 poe test
 
 
 Submitting changes

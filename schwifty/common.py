@@ -3,9 +3,9 @@ from __future__ import annotations
 import re
 from functools import total_ordering
 from typing import Any
+from typing import Self
 
 from schwifty._compat import override
-from schwifty._compat import Self
 
 
 _clean_regex = re.compile(r"\s+")

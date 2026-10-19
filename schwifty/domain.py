@@ -42,7 +42,7 @@ class DictCompatMixin:
         return getattr(self, key, default)
 
 
-class Component(str, enum.Enum):
+class Component(enum.StrEnum):
     ACCOUNT_ID = "account_id"
     ACCOUNT_TYPE = "account_type"
     ACCOUNT_CODE = "account_code"
