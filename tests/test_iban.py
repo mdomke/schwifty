@@ -179,6 +179,7 @@ sepa_countries = {
 }
 
 
+@pytest.mark.filterwarnings("ignore:No national checksum algorithm is registered")
 @pytest.mark.parametrize("value", valid)
 def test_parse_iban(value: str) -> None:
     iban = IBAN(value, validate_bban=True)
@@ -187,6 +188,7 @@ def test_parse_iban(value: str) -> None:
     assert iban.in_sepa_zone is (iban.country_code in sepa_countries)
 
 
+@pytest.mark.filterwarnings("ignore:No national checksum algorithm is registered")
 @pytest.mark.parametrize("value", experimental)
 def test_experimental_iban(value: str) -> None:
     iban = IBAN(value, validate_bban=True)
