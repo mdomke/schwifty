@@ -14,7 +14,7 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v8.3.0
         with:
-          python-version: "3.14"
+          python-version: "3.15"
       - name: Lint documentation
         run: uv run poe check-docs
 
@@ -25,7 +25,7 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v8.3.0
         with:
-          python-version: "3.14"
+          python-version: "3.15"
       - name: Lint style
         run: uv run poe check-code
 
@@ -36,7 +36,7 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v8.3.0
         with:
-          python-version: "3.13"
+          python-version: "3.15"
       - name: Lint typing
         run: uv run poe check-types
 
@@ -44,7 +44,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14"]
+        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14", "3.15"]
     steps:
       - uses: actions/checkout@v7
       - name: Install uv

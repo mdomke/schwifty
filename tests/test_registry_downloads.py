@@ -1,0 +1,80 @@
+"""Offline checks for registry download link selection."""
+
+import importlib.util
+from pathlib import Path
+from types import ModuleType
+from types import SimpleNamespace
+from unittest.mock import patch
+
+import pytest
+
+
+pytest.importorskip("httpx2")
+pytest.importorskip("bs4")
+
+
+def load_script(name: str) -> ModuleType:
+    path = Path(__file__).parents[1] / "scripts" / f"{name}.py"
+    spec = importlib.util.spec_from_file_location(name, path)
+    assert spec is not None
+    assert spec.loader is not None
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def test_missing_bank_download_page():
+    script = load_script("get_bank_registry_de")
+    with (
+        patch.object(script.httpx2, "get", return_value=SimpleNamespace(content=b"<html></html>")),
+        pytest.raises(RuntimeError, match="download link not found on"),
+    ):
+        script.get_download_url()
+
+
+def test_missing_bank_data_file():
+    script = load_script("get_bank_registry_de")
+    pages = [b'<a href="/download-bankleitzahlen">Download</a>', b"<html></html>"]
+    with (
+        patch.object(
+            script.httpx2, "get", side_effect=[SimpleNamespace(content=page) for page in pages]
+        ),
+        pytest.raises(RuntimeError, match="bank data file link not found"),
+    ):
+        script.get_download_url()
+
+
+def test_bank_data_url():
+    script = load_script("get_bank_registry_de")
+    pages = [
+        b'<a href="/download-bankleitzahlen">Download</a>',
+        b'<a href="/blz-aktuell-txt-data.txt">Data</a>',
+    ]
+    with patch.object(
+        script.httpx2, "get", side_effect=[SimpleNamespace(content=page) for page in pages]
+    ) as request:
+        assert script.get_download_url() == "https://www.bundesbank.de/blz-aktuell-txt-data.txt"
+    assert request.call_count == 2
+
+
+def test_missing_iban_download():
+    script = load_script("get_iban_registry")
+    with (
+        patch.object(script.httpx2, "get", return_value=SimpleNamespace(content=b"<html></html>")),
+        pytest.raises(RuntimeError, match="IBAN Registry download link not found"),
+    ):
+        script.get_raw()
+
+
+def test_iban_download_bytes():
+    script = load_script("get_iban_registry")
+    pages = [
+        b'<a data-tracking-title="IBAN Registry (TXT)" href="/registry.txt">Data</a>',
+        b"example\xe9\r\n",
+    ]
+    with patch.object(
+        script.httpx2, "get", side_effect=[SimpleNamespace(content=page) for page in pages]
+    ) as request:
+        assert script.get_raw() == "example\u00e9\r\n"
+    assert request.call_count == 2
+    assert request.call_args.args[0] == "https://www.swift.com/registry.txt"

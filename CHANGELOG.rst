@@ -7,8 +7,13 @@ Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro
 
 Unreleased
 ----------
+Changed
+~~~~~~~
+* Use Python 3.15 by default and in CI, with compatible Pydantic dependencies.
+
 Fixed
 ~~~~~
+* Registry update scripts report a missing download link instead of an attribute or lookup error.
 * Validating a pydantic model whose ``BIC`` field is not a string now reports a
   ``bic_format`` field error instead of letting the ``TypeError`` from ``BIC()`` escape,
   which is what the ``IBAN`` validator in the same library already does.
