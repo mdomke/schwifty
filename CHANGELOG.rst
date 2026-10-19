@@ -5,11 +5,41 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
-Unreleased
-----------
+`2026.10.0`_ - 2026/10/19
+-------------------------
+Added
+~~~~~
+* Added the German checksum method ``95``, used by UniCredit Bank - HypoVereinsbank (bank code
+  ``70020270``). It computes like method ``06``, but treats the account ranges the Bundesbank
+  exempts from the check digit as valid. Account codes for this bank were not checked before.
+* Added the German checksum methods ``A2`` and ``A3``. Both check the account number with
+  method ``00`` first and fall back to method ``04`` (``A2``) or ``10`` (``A3``). Banks using
+  them (e.g. Nassauische Sparkasse, Sparkasse Hannover) previously had their national check
+  digit silently accepted without being verified.
+* Added e-money institutions and banks that were missing from the bank registries: OpenPayd
+  (MT — first Maltese registry), ClearBank and Bilderlings Pay (GB), Score and Secure Payment
+  and Deblock (FR), bunq, Pecunia Cards and Financière des Paiements Électroniques (ES),
+  Unlimit (CY), MyFin (BG), Revolut Bank (PT), Enpara Bank (TR), United Bank and Allied Bank
+  (PK — first Pakistani registry), and the BIC for PrivatBank (UA).
+
 Changed
 ~~~~~~~
+* ``validate_bban=True`` now emits a ``NationalChecksumNotVerified`` warning when the country's
+  BBAN specification declares national check digits but no algorithm is registered to verify them
+  (35 of the 54 countries that declare check digits, e.g. ``HU`` and ``SE``, which silently passed
+  before, #310). The digits are still accepted, since a missing algorithm must not reject an
+  otherwise valid IBAN, but the pass is no longer silent. Turn the warning into an error with
+  ``warnings.simplefilter("error", NationalChecksumNotVerified)`` to make the missing check fail
+  instead.
+* Removed support for deprecated Python version 3.10
 * Use Python 3.15 by default and in CI, with compatible Pydantic dependencies.
+* Registry generation scripts now use ``httpx2`` instead of ``requests`` for HTTP downloads.
+* Simplified internal registry caching, character lookups, checksum helpers, and validation routines
+  for improved efficiency and cleaner code structure while preserving exact behavior.
+* Simplified the IBAN checksum validation. The redundant ``self.numeric % 97 == 1`` test has
+  been dropped in favour of the stricter canonical ``ISO7064_mod97_10`` comparison, which it
+  always implied. Behaviour is unchanged.
+* Updated the bank registries for Germany, Austria, Belgium and Poland.
 
 Fixed
 ~~~~~
@@ -30,6 +60,10 @@ Fixed
 * Added the Cypriot BIC ``OROACY2LXXX`` (ORO PAY LTD) to the manual registry (#297).
 * Eight-character BICs now fall back to their equivalent ``XXX`` registry entry for
   bank codes and names when an exact entry is absent. Exact matches still take priority.
+* Eleven-character BICs now fall back to the eight-character institution entry when the
+  registry holds no branch-specific record. An 11-character BIC denotes a branch of the
+  institution its first eight characters identify, but not every national registry lists
+  entries per branch (#112).
 * ``IBAN.bank`` (and with it ``IBAN.bank_name`` and ``IBAN.bank_short_name``) now
   resolve a bank code to the registry record flagged ``primary`` instead of whichever
   record happened to be read first. National registries list one record per branch, so
@@ -58,38 +92,9 @@ Fixed
   emitting bank master records without a BIC. Retired IIDs of merged institutes (e.g. the
   former Credit Suisse codes, now UBS) are now kept as aliases of their successor, so IBANs
   still in circulation keep resolving.
-
-Added
-~~~~~
-* Added the German checksum method ``95``, used by UniCredit Bank - HypoVereinsbank (bank code
-  ``70020270``). It computes like method ``06``, but treats the account ranges the Bundesbank
-  exempts from the check digit as valid. Account codes for this bank were not checked before.
-* Added the German checksum methods ``A2`` and ``A3``. Both check the account number with
-  method ``00`` first and fall back to method ``04`` (``A2``) or ``10`` (``A3``). Banks using
-  them (e.g. Nassauische Sparkasse, Sparkasse Hannover) previously had their national check
-  digit silently accepted without being verified.
-* Added e-money institutions and banks that were missing from the bank registries: OpenPayd
-  (MT — first Maltese registry), ClearBank and Bilderlings Pay (GB), Score and Secure Payment
-  and Deblock (FR), bunq, Pecunia Cards and Financière des Paiements Électroniques (ES),
-  Unlimit (CY), MyFin (BG), Revolut Bank (PT), Enpara Bank (TR), United Bank and Allied Bank
-  (PK — first Pakistani registry), and the BIC for PrivatBank (UA).
-
-Changed
-~~~~~~~
-* ``validate_bban=True`` now emits a ``NationalChecksumNotVerified`` warning when the country's
-  BBAN specification declares national check digits but no algorithm is registered to verify them
-  (35 of the 54 countries that declare check digits, e.g. ``HU`` and ``SE``, which silently passed
-  before, #310). The digits are still accepted, since a missing algorithm must not reject an
-  otherwise valid IBAN, but the pass is no longer silent. Turn the warning into an error with
-  ``warnings.simplefilter("error", NationalChecksumNotVerified)`` to make the missing check fail
-  instead.
-* Registry generation scripts now use ``httpx2`` instead of ``requests`` for HTTP downloads.
-* Removed support for deprecated Python version 3.10
-* Simplified internal registry caching, character lookups, checksum helpers, and validation routines
-  for improved efficiency and cleaner code structure while preserving exact behavior.
-* Simplified the IBAN checksum validation. The redundant ``self.numeric % 97 == 1`` test has
-  been dropped in favour of the stricter canonical ``ISO7064_mod97_10`` comparison, which it
-  always implied. Behaviour is unchanged.
+* ``IBAN.generate`` and ``BBAN.random`` now work for countries whose BBAN specification has no
+  component positions (e.g. aspirational countries like Comoros or Burkina Faso), via the new
+  ``IBANSpec.has_positions`` check.
 
 `2026.07.3`_ - 2026/07/23
 -------------------------
@@ -970,6 +975,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2026.10.0: https://github.com/mdomke/schwifty/compare/2026.07.3...2026.10.0
 .. _2026.07.3: https://github.com/mdomke/schwifty/compare/2026.07.2...2026.07.3
 .. _2026.07.2: https://github.com/mdomke/schwifty/compare/2026.07.1...2026.07.2
 .. _2026.07.1: https://github.com/mdomke/schwifty/compare/2026.07.0...2026.07.1
