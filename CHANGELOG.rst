@@ -12,6 +12,9 @@ Fixed
 * Validating a pydantic model whose ``BIC`` field is not a string now reports a
   ``bic_format`` field error instead of letting the ``TypeError`` from ``BIC()`` escape,
   which is what the ``IBAN`` validator in the same library already does.
+* ``IBAN.from_bban`` now normalizes whitespace and case before computing the checksum, matching
+  the text constructors. Grouped BBANs and lowercase country codes no longer raise a raw
+  ``KeyError`` during checksum calculation.
 * The German checksum method ``99`` now accepts every account number from ``0396000000`` to
   ``0499999999`` without a check, as the Bundesbank specification requires. Previously only the
   two range boundaries were exempt, so valid account numbers in between (e.g. at UniCredit Bank -
@@ -39,6 +42,10 @@ Fixed
 * ``BBAN.validate_national_checksum`` no longer raises an ``AssertionError`` (or an
   ``IndexError`` under ``python -O``) for a BBAN shorter than the country spec; it now
   raises ``InvalidAccountCode``, as the other national methods already do.
+* The German checksum methods that inspect the account code themselves (08, 63, 68, 76, 88 and 99)
+  now also raise ``InvalidAccountCode`` for a BBAN that is too short to carry an account code,
+  instead of leaking a raw ``ValueError`` or ``IndexError`` that ``except SchwiftyException``
+  does not catch.
 * Updated the Swiss bank registry, which could no longer be generated since SIX started
   emitting bank master records without a BIC. Retired IIDs of merged institutes (e.g. the
   former Credit Suisse codes, now UBS) are now kept as aliases of their successor, so IBANs
