@@ -1,12 +1,18 @@
 import copy
 import pickle
+from contextlib import suppress
+from random import Random
 
 import pytest
 
+from schwifty import IBAN
+from schwifty import registry
 from schwifty.bban import BBAN
 from schwifty.exceptions import GenerateRandomOverflowError
 from schwifty.exceptions import InvalidAccountCode
 from schwifty.exceptions import InvalidBBANChecksum
+from schwifty.exceptions import NationalChecksumNotVerified
+from schwifty.exceptions import SchwiftyException
 
 
 def test_validate_national_checksum() -> None:
@@ -25,6 +31,36 @@ def test_validate_national_checksum() -> None:
         BBAN("BA", "1290079401028400").validate_national_checksum()
 
 
+@pytest.mark.parametrize("country_code", ["HU", "SE"])
+def test_validate_national_checksum_reports_a_missing_algorithm(country_code: str) -> None:
+    # Both countries declare a national check-digit field (HU: 23-24, SE: 19-20) but have no
+    # algorithm registered for it, so their check digits were accepted without being looked
+    # at (#310). A missing algorithm must not reject an otherwise valid BBAN, but the pass is
+    # no longer silent.
+    iban = IBAN.random(country_code=country_code, random=Random(42), use_registry=False)  # noqa: S311
+    with pytest.warns(NationalChecksumNotVerified, match=country_code):
+        assert iban.bban.validate_national_checksum() is True
+    with pytest.warns(NationalChecksumNotVerified, match=country_code):
+        assert iban.validate(validate_bban=True) is True
+    with pytest.warns(NationalChecksumNotVerified, match=country_code):
+        IBAN(str(iban), validate_bban=True)
+
+
+@pytest.mark.filterwarnings("error")
+def test_validate_national_checksum_without_declared_check_digits_is_silent() -> None:
+    # Countries that declare no national check digits have nothing to verify, so there is
+    # nothing to report either.
+    assert BBAN("GB", "WEST12345698765432").validate_national_checksum() is True
+
+
+@pytest.mark.filterwarnings("error")
+def test_random_does_not_report_an_unverifiable_national_checksum() -> None:
+    # Generating a random BBAN is not a validation request: it neither reports a checksum it
+    # cannot verify nor exhausts its retries over it.
+    bban = BBAN.random("HU", random=Random(42))  # noqa: S311
+    assert bban.country_code == "HU"
+
+
 def test_validate_german_national_checksum() -> None:
     # The per-bank German checksum method is selected via the bank's
     # ``checksum_algo`` field. Commerzbank (bank code 37040044) uses method 13,
@@ -36,9 +72,67 @@ def test_validate_german_national_checksum() -> None:
         BBAN("DE", "370400440532013100").validate_national_checksum()
 
 
-def test_validate_national_checksum_on_truncated_bban() -> None:
+def test_bank_prefers_the_primary_registry_record() -> None:
+    # A national registry lists one record per branch, so a bank code maps to
+    # several entries and ``primary`` marks the institution's main record.
+    # ``BBAN.bank`` returned the first match in file order instead, which made
+    # ``IBAN.bank``/``IBAN.bank_name`` describe a different institution than
+    # ``IBAN.bic`` does: for the Nord LB codes the branch record is listed before
+    # the institution's own record.
+    iban = IBAN.generate("DE", "29050000", "0000000000")
+    assert iban.bic == "BRLADE22XXX"
+    assert iban.bank is not None
+    assert iban.bank.bic == iban.bic
+    assert iban.bank.primary is True
+    assert iban.bank_short_name == "Nord LB Bremen"
+
+
+def test_bank_prefers_the_primary_record_of_every_registered_bank_code() -> None:
+    # Whenever the registry marks a record of a bank code as the primary one, that
+    # is the record the bank code has to resolve to. ``BBAN.bank`` used to return
+    # whichever entry happened to be read first.
+    not_primary = []
+    for country_code in registry.get_countries():
+        for bank_code in sorted(
+            {bank.bank_code for bank in registry.get_banks_by_country(country_code)}
+        ):
+            entries = registry.get_banks_by_code(country_code, bank_code)
+            if not bank_code or not any(bank.primary for bank in entries):
+                continue
+            bban = BBAN.from_components(country_code, bank_code=bank_code)
+            if bban.bank is not None and not bban.bank.primary:
+                not_primary.append((country_code, bank_code, bban.bank.bic))
+    assert not not_primary
+
+
+@pytest.mark.parametrize(
+    "bank_code",
+    [
+        "37040044",  # Commerzbank, method 13
+        "30022000",  # NRW.BANK, method 08
+        "10070000",  # Deutsche Bank, method 63
+        "20030000",  # UniCredit Bank - HypoVereinsbank, method 68
+        "10080000",  # Commerzbank vorm. Dresdner Bank, method 76
+        "70090100",  # Hausbank München, method 88
+        "10020890",  # UniCredit Bank - HypoVereinsbank, method 99
+    ],
+)
+def test_validate_national_checksum_on_truncated_bban(bank_code: str) -> None:
+    # A BBAN that is too short to carry the 10-digit German account code has to be
+    # rejected with InvalidAccountCode, no matter which method the bank uses. The
+    # methods that inspect the account code before delegating to the shared length
+    # check let a raw ValueError or IndexError escape instead.
     with pytest.raises(InvalidAccountCode):
-        BBAN("DE", "3704004405320").validate_national_checksum()
+        BBAN("DE", f"{bank_code}05320").validate_national_checksum()
+
+
+def test_validate_national_checksum_of_every_german_bank_does_not_crash() -> None:
+    # The same invariant across all methods the German registry refers to: a truncated
+    # BBAN is either rejected with a schwifty exception or carries no national checksum
+    # at all, but no raw ValueError or IndexError may escape.
+    for bank in registry.get_banks_by_country("DE"):
+        with suppress(SchwiftyException):
+            BBAN("DE", f"{bank.bank_code}05320").validate_national_checksum()
 
 
 def test_dict_access_is_deprecated() -> None:
@@ -99,3 +193,30 @@ def test_deepcopy() -> None:
     assert bban_copy == bban
     assert bban_copy.country_code == bban.country_code
     assert id(bban_copy) != id(bban)
+
+
+@pytest.mark.parametrize("country_code", ["AO", "GW", "IR", "KM", "MG", "MZ"])
+def test_random_countries_without_positions(country_code: str) -> None:
+    # These registry entries define a BBAN regex but no component positions.
+    # random() must fall back to generating from the regex instead of
+    # degenerating to an all-zero BBAN through from_components().
+    iban = IBAN.random(country_code=country_code, random=Random(42), use_registry=False)  # noqa: S311
+    assert iban.is_valid
+    assert str(iban.bban) != "0" * len(iban.bban)
+
+
+def test_random_honduras() -> None:
+    # The Honduran BBAN spec (4!a20!n) has no component positions either, but
+    # unlike the all-digit specs above an all-zero BBAN can never satisfy the
+    # '4!a' part, so IBAN.random("HN") used to raise InvalidStructure.
+    iban = IBAN.random(country_code="HN", random=Random(42), use_registry=False)  # noqa: S311
+    assert iban.is_valid
+    assert str(iban.bban) != "0" * len(iban.bban)
+
+
+def test_from_components_unsupported_country() -> None:
+    # Without component positions a BBAN cannot be assembled from components.
+    # This raises the explicit "not supported" error rather than the misleading
+    # "Bank code exceeds maximum size 0".
+    with pytest.raises(SchwiftyException, match="BBAN generation for HN not supported"):
+        BBAN.from_components("HN", bank_code="BGAH", account_code="12345678901234567890")

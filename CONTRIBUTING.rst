@@ -82,8 +82,9 @@ code base at any time with:
 Testing against a specific Python version
 -----------------------------------------
 
-``schwifty`` supports every CPython release that has not reached end-of-life (currently 3.11 through
-3.14). The test suite runs against all of them in CI. To reproduce a run for a single version
+
+``schwifty`` supports CPython 3.11 through 3.15. The test suite runs against all of them in CI.
+To reproduce a run for a single version
 locally, select it with ``uv``'s ``--python`` option — it will download the interpreter if
 necessary:
 

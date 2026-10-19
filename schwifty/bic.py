@@ -338,7 +338,7 @@ class BIC(common.Base):
 
         try:
             bic = cls(value)
-        except exceptions.SchwiftyException as err:
+        except (exceptions.SchwiftyException, TypeError) as err:
             raise PydanticCustomError("bic_format", "{err}", {"err": str(err)}) from err
         return handler(bic)
 
@@ -382,6 +382,9 @@ class BIC(common.Base):
             # entries per branch, so fall back to the institution's BIC when
             # the branch-specific lookup comes up empty.
             entries = registry.get_banks_by_bic(str(self)[:8])
+        elif not entries and len(self) == 8:
+            # Some registries store only the equivalent 11-character XXX form.
+            entries = registry.get_banks_by_bic(f"{self}XXX")
         return sorted({val for entry in entries if (val := getattr(entry, key))})
 
     @property

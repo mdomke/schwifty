@@ -179,6 +179,7 @@ sepa_countries = {
 }
 
 
+@pytest.mark.filterwarnings("ignore:No national checksum algorithm is registered")
 @pytest.mark.parametrize("value", valid)
 def test_parse_iban(value: str) -> None:
     iban = IBAN(value, validate_bban=True)
@@ -187,6 +188,7 @@ def test_parse_iban(value: str) -> None:
     assert iban.in_sepa_zone is (iban.country_code in sepa_countries)
 
 
+@pytest.mark.filterwarnings("ignore:No national checksum algorithm is registered")
 @pytest.mark.parametrize("value", experimental)
 def test_experimental_iban(value: str) -> None:
     iban = IBAN(value, validate_bban=True)
@@ -336,6 +338,19 @@ def test_generate_iban(components: tuple[str, ...], compact: str) -> None:
 def test_generate_iban_invalid(components: tuple[str, ...]) -> None:
     with pytest.raises(SchwiftyException):
         IBAN.generate(*components)
+
+
+@pytest.mark.parametrize(
+    ("country_code", "bban", "expected"),
+    [
+        ("DE", "370400440532013000", "DE89370400440532013000"),
+        ("DE", "3704 0044 0532 0130 00", "DE89370400440532013000"),
+        ("de", "370400440532013000", "DE89370400440532013000"),
+        ("BE", "5390 0754 7034", "BE68539007547034"),
+    ],
+)
+def test_from_bban_normalizes_text_input(country_code: str, bban: str, expected: str) -> None:
+    assert IBAN.from_bban(country_code, bban).compact == expected
 
 
 def test_magic_methods() -> None:

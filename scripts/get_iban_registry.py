@@ -20,6 +20,8 @@ def get_raw() -> str:
         httpx2.get(URL, follow_redirects=True, timeout=None).content, "html.parser"
     )
     link = soup.find("a", attrs={"data-tracking-title": "IBAN Registry (TXT)"})
+    if link is None:
+        raise RuntimeError("IBAN Registry download link not found")
     return httpx2.get(
         urljoin(URL, link["href"]), follow_redirects=True, timeout=None
     ).content.decode(encoding="latin1")
