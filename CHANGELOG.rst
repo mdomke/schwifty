@@ -9,6 +9,9 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* Validating a pydantic model whose ``BIC`` field is not a string now reports a
+  ``bic_format`` field error instead of letting the ``TypeError`` from ``BIC()`` escape,
+  which is what the ``IBAN`` validator in the same library already does.
 * The German checksum method ``63`` (used by Deutsche Bank) now accepts account numbers whose
   sub-account number ``00`` was left out and that were padded with leading zeros instead, so the
   check digit sits at position 10 (e.g. ``0001234566``), as the Bundesbank specification requires.

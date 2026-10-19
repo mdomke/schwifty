@@ -367,6 +367,24 @@ def test_pydantic_protocol() -> None:
     assert loaded == model
 
 
+@pytest.mark.parametrize("value", [None, 123, 12.5, True, ["GENODEM1GLS"]])
+def test_pydantic_protocol_non_string(value: object) -> None:
+    # ``BIC.__init__`` raises TypeError for anything that is not a string, and the IBAN
+    # validator turns that into a field error. The BIC one let it escape, so validating a
+    # model blew up instead of reporting the offending field.
+    from pydantic import BaseModel
+    from pydantic import ValidationError
+
+    class Model(BaseModel):
+        bic: BIC
+
+    with pytest.raises(ValidationError) as err:
+        Model(bic=value)  # type: ignore[arg-type]
+    error = err.value.errors()[0]
+    assert error["type"] == "bic_format"
+    assert error["input"] == value
+
+
 def test_deepcopy() -> None:
     bic = BIC("GENODEM1GLS")
 
