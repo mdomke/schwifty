@@ -338,7 +338,7 @@ class BIC(common.Base):
 
         try:
             bic = cls(value)
-        except exceptions.SchwiftyException as err:
+        except (exceptions.SchwiftyException, TypeError) as err:
             raise PydanticCustomError("bic_format", "{err}", {"err": str(err)}) from err
         return handler(bic)
 
