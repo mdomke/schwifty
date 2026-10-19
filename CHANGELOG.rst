@@ -9,6 +9,9 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* The German checksum method ``63`` (used by Deutsche Bank) now accepts account numbers whose
+  sub-account number ``00`` was left out and that were padded with leading zeros instead, so the
+  check digit sits at position 10 (e.g. ``0001234566``), as the Bundesbank specification requires.
 * ``IBAN.from_bban`` now normalizes whitespace and case before computing the checksum, matching
   the text constructors. Grouped BBANs and lowercase country codes no longer raise a raw
   ``KeyError`` during checksum calculation.
