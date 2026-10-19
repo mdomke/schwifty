@@ -34,6 +34,16 @@ class InvalidBBANChecksum(SchwiftyException):
     """Indicates that the BBAN's checksum is invalid."""
 
 
+class NationalChecksumNotVerified(UserWarning):
+    """Indicates that national check digits were accepted without being verified.
+
+    The country's BBAN specification declares a national check-digit field, but no algorithm is
+    registered to verify it. A missing algorithm must not reject an otherwise valid BBAN, so the
+    digits are taken as they are. Callers that require the check to fail instead can turn the
+    warning into an error with ``warnings.simplefilter("error", NationalChecksumNotVerified)``.
+    """
+
+
 class GenerateRandomOverflowError(SchwiftyException):
     """Indicates that during random entity generation no valid value could be found.
 

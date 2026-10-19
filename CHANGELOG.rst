@@ -12,6 +12,9 @@ Fixed
 * Validating a pydantic model whose ``BIC`` field is not a string now reports a
   ``bic_format`` field error instead of letting the ``TypeError`` from ``BIC()`` escape,
   which is what the ``IBAN`` validator in the same library already does.
+* The German checksum method ``63`` (used by Deutsche Bank) now accepts account numbers whose
+  sub-account number ``00`` was left out and that were padded with leading zeros instead, so the
+  check digit sits at position 10 (e.g. ``0001234566``), as the Bundesbank specification requires.
 * ``IBAN.from_bban`` now normalizes whitespace and case before computing the checksum, matching
   the text constructors. Grouped BBANs and lowercase country codes no longer raise a raw
   ``KeyError`` during checksum calculation.
@@ -53,6 +56,9 @@ Fixed
 
 Added
 ~~~~~
+* Added the German checksum method ``95``, used by UniCredit Bank - HypoVereinsbank (bank code
+  ``70020270``). It computes like method ``06``, but treats the account ranges the Bundesbank
+  exempts from the check digit as valid. Account codes for this bank were not checked before.
 * Added the German checksum methods ``A2`` and ``A3``. Both check the account number with
   method ``00`` first and fall back to method ``04`` (``A2``) or ``10`` (``A3``). Banks using
   them (e.g. Nassauische Sparkasse, Sparkasse Hannover) previously had their national check
@@ -65,6 +71,13 @@ Added
 
 Changed
 ~~~~~~~
+* ``validate_bban=True`` now emits a ``NationalChecksumNotVerified`` warning when the country's
+  BBAN specification declares national check digits but no algorithm is registered to verify them
+  (35 of the 54 countries that declare check digits, e.g. ``HU`` and ``SE``, which silently passed
+  before, #310). The digits are still accepted, since a missing algorithm must not reject an
+  otherwise valid IBAN, but the pass is no longer silent. Turn the warning into an error with
+  ``warnings.simplefilter("error", NationalChecksumNotVerified)`` to make the missing check fail
+  instead.
 * Registry generation scripts now use ``httpx2`` instead of ``requests`` for HTTP downloads.
   The Slovenian generator, added after that switch, uses ``httpx2`` as well.
 * Simplified internal registry caching, character lookups, checksum helpers, and validation routines

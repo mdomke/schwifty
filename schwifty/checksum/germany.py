@@ -481,7 +481,14 @@ class Algorithm63(WeightedMod10):
         account_code = validate_account_code(components[0])
         if account_code[0] != "0":
             return False
-        return super().validate(components, expected)
+        if super().validate(components, expected):
+            return True
+        # The sub-account number "00" may be omitted and the account code padded with
+        # leading zeros instead. The check digit then sits at position 10, so shift the
+        # account code back into place and check it again.
+        if account_code.startswith("000"):
+            return super().validate([account_code[2:] + "00"], expected)
+        return False
 
     @override
     def solve(self, components: list[str]) -> list[str] | None:
@@ -613,6 +620,25 @@ class Algorithm91(checksum.Algorithm):
             if solved is not None and self.validate(solved, ""):
                 return solved
         return None
+
+
+@register
+class Algorithm95(Algorithm06):
+    name = "95"
+
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        [account_code] = components
+        number = int(account_code)
+        if (
+            1 <= number <= 1_999_999
+            or 9_000_000 <= number <= 25_999_999
+            or 396_000_000 <= number <= 499_999_999
+            or 700_000_000 <= number <= 799_999_999
+            or 910_000_000 <= number <= 989_999_999
+        ):
+            return True
+        return super().validate(components, expected)
 
 
 @register
