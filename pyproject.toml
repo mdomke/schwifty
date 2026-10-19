@@ -10,7 +10,6 @@ readme = "README.rst"
 license = "MIT"
 classifiers = [
   "Development Status :: 5 - Production/Stable",
-  "License :: OSI Approved :: MIT License",
   "Intended Audience :: Developers",
   "Topic :: Office/Business :: Financial",
   "Operating System :: OS Independent",
