@@ -9,6 +9,9 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* ``IBAN.from_bban`` now normalizes whitespace and case before computing the checksum, matching
+  the text constructors. Grouped BBANs and lowercase country codes no longer raise a raw
+  ``KeyError`` during checksum calculation.
 * The German checksum method ``99`` now accepts every account number from ``0396000000`` to
   ``0499999999`` without a check, as the Bundesbank specification requires. Previously only the
   two range boundaries were exempt, so valid account numbers in between (e.g. at UniCredit Bank -
