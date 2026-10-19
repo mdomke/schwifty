@@ -167,6 +167,20 @@ checksum within the BBAN. This functionality is currently opt-in and can be used
    ...
    InvalidBBANChecksum: Invalid BBAN checksum
 
+Not every country's national checksum is implemented. Where a country's BBAN specification declares
+check digits but ``schwifty`` has no algorithm for them, the digits are accepted as they are -- a
+missing algorithm must not reject an otherwise valid IBAN -- and the check that did not happen is
+reported with the :class:`.NationalChecksumNotVerified` warning. If the check is mandatory for your
+use case, turn the warning into an error:
+
+.. code-block:: pycon
+
+   >>> import warnings
+   >>> warnings.simplefilter('error', NationalChecksumNotVerified)
+   >>> IBAN('HU42 1177 3016 1111 1018 0000 0000', validate_bban=True)
+   ...
+   NationalChecksumNotVerified: No national checksum algorithm is registered for HU ...
+
 For BICs it is checked if the country-code and the length is valid and if the structure matches the
 ISO 9362 specification.
 

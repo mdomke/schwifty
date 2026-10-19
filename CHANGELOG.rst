@@ -68,6 +68,13 @@ Added
 
 Changed
 ~~~~~~~
+* ``validate_bban=True`` now emits a ``NationalChecksumNotVerified`` warning when the country's
+  BBAN specification declares national check digits but no algorithm is registered to verify them
+  (35 of the 54 countries that declare check digits, e.g. ``HU`` and ``SE``, which silently passed
+  before, #310). The digits are still accepted, since a missing algorithm must not reject an
+  otherwise valid IBAN, but the pass is no longer silent. Turn the warning into an error with
+  ``warnings.simplefilter("error", NationalChecksumNotVerified)`` to make the missing check fail
+  instead.
 * Registry generation scripts now use ``httpx2`` instead of ``requests`` for HTTP downloads.
   The Slovenian generator, added after that switch, uses ``httpx2`` as well.
 * Simplified internal registry caching, character lookups, checksum helpers, and validation routines
