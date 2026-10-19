@@ -14,6 +14,12 @@ Changed
 Fixed
 ~~~~~
 * Registry update scripts report a missing download link instead of an attribute or lookup error.
+* The German checksum method ``63`` (used by Deutsche Bank) now accepts account numbers whose
+  sub-account number ``00`` was left out and that were padded with leading zeros instead, so the
+  check digit sits at position 10 (e.g. ``0001234566``), as the Bundesbank specification requires.
+* ``IBAN.from_bban`` now normalizes whitespace and case before computing the checksum, matching
+  the text constructors. Grouped BBANs and lowercase country codes no longer raise a raw
+  ``KeyError`` during checksum calculation.
 * The German checksum method ``99`` now accepts every account number from ``0396000000`` to
   ``0499999999`` without a check, as the Bundesbank specification requires. Previously only the
   two range boundaries were exempt, so valid account numbers in between (e.g. at UniCredit Bank -
@@ -41,6 +47,10 @@ Fixed
 * ``BBAN.validate_national_checksum`` no longer raises an ``AssertionError`` (or an
   ``IndexError`` under ``python -O``) for a BBAN shorter than the country spec; it now
   raises ``InvalidAccountCode``, as the other national methods already do.
+* The German checksum methods that inspect the account code themselves (08, 63, 68, 76, 88 and 99)
+  now also raise ``InvalidAccountCode`` for a BBAN that is too short to carry an account code,
+  instead of leaking a raw ``ValueError`` or ``IndexError`` that ``except SchwiftyException``
+  does not catch.
 * Updated the Swiss bank registry, which could no longer be generated since SIX started
   emitting bank master records without a BIC. Retired IIDs of merged institutes (e.g. the
   former Credit Suisse codes, now UBS) are now kept as aliases of their successor, so IBANs
@@ -48,6 +58,9 @@ Fixed
 
 Added
 ~~~~~
+* Added the German checksum method ``95``, used by UniCredit Bank - HypoVereinsbank (bank code
+  ``70020270``). It computes like method ``06``, but treats the account ranges the Bundesbank
+  exempts from the check digit as valid. Account codes for this bank were not checked before.
 * Added the German checksum methods ``A2`` and ``A3``. Both check the account number with
   method ``00`` first and fall back to method ``04`` (``A2``) or ``10`` (``A3``). Banks using
   them (e.g. Nassauische Sparkasse, Sparkasse Hannover) previously had their national check
@@ -60,6 +73,13 @@ Added
 
 Changed
 ~~~~~~~
+* ``validate_bban=True`` now emits a ``NationalChecksumNotVerified`` warning when the country's
+  BBAN specification declares national check digits but no algorithm is registered to verify them
+  (35 of the 54 countries that declare check digits, e.g. ``HU`` and ``SE``, which silently passed
+  before, #310). The digits are still accepted, since a missing algorithm must not reject an
+  otherwise valid IBAN, but the pass is no longer silent. Turn the warning into an error with
+  ``warnings.simplefilter("error", NationalChecksumNotVerified)`` to make the missing check fail
+  instead.
 * Registry generation scripts now use ``httpx2`` instead of ``requests`` for HTTP downloads.
   The Slovenian generator, added after that switch, uses ``httpx2`` as well.
 * Simplified internal registry caching, character lookups, checksum helpers, and validation routines

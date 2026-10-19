@@ -54,6 +54,8 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("2063099200", "DE:61"),
         ("0260760481", "DE:61"),
         ("0123456600", "DE:63"),
+        # The sub-account "00" may be omitted, moving the check digit to position 10.
+        ("0001234566", "DE:63"),
         ("1234567893", "DE:21"),
         ("1234567895", "DE:22"),
         ("8889654328", "DE:68"),
@@ -82,6 +84,21 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("8840012000", "DE:91"),
         ("8840055000", "DE:91"),
         ("8840080000", "DE:91"),
+        ("0068007003", "DE:95"),
+        ("0847321750", "DE:95"),
+        ("6450060494", "DE:95"),
+        ("6454000003", "DE:95"),
+        # Method 95 has no check digit for these account ranges.
+        ("0000000001", "DE:95"),
+        ("0001999999", "DE:95"),
+        ("0009000000", "DE:95"),
+        ("0025999999", "DE:95"),
+        ("0396000000", "DE:95"),
+        ("0499999999", "DE:95"),
+        ("0700000000", "DE:95"),
+        ("0799999999", "DE:95"),
+        ("0910000000", "DE:95"),
+        ("0989999999", "DE:95"),
         ("0068007003", "DE:99"),
         ("0847321750", "DE:99"),
         ("0396000000", "DE:99"),
@@ -130,6 +147,8 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0000000060", "DE:25"),
         # Method 63 only accepts a leading zero.
         ("1123456600", "DE:63"),
+        # Without the sub-account the check digit at position 10 still has to match.
+        ("0001234567", "DE:63"),
         # Method 76 only accepts leading digits 0, 4, 6, 7, 8 and 9.
         ("1234567890", "DE:76"),
         ("1234567890", "DE:A2"),
@@ -139,6 +158,19 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         # Just outside the exception range of method 99 the check digit applies again.
         ("0395999999", "DE:99"),
         ("0500000000", "DE:99"),
+        # Method 95 test account numbers with a wrong check digit.
+        ("0068007004", "DE:95"),
+        ("6454000004", "DE:95"),
+        # Just outside the exception ranges of method 95 the check digit applies.
+        ("0002000000", "DE:95"),
+        ("0008999999", "DE:95"),
+        ("0026000000", "DE:95"),
+        ("0395999999", "DE:95"),
+        ("0500000000", "DE:95"),
+        ("0699999999", "DE:95"),
+        ("0800000000", "DE:95"),
+        ("0909999999", "DE:95"),
+        ("0990000001", "DE:95"),
     ],
 )
 def test_german_checksum_failure(account_code: str, algorithm_name: str) -> None:
