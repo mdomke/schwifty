@@ -8,6 +8,7 @@ import pytest
 from schwifty import IBAN
 from schwifty import registry
 from schwifty.bban import BBAN
+from schwifty.domain import Bank
 from schwifty.exceptions import GenerateRandomOverflowError
 from schwifty.exceptions import InvalidAccountCode
 from schwifty.exceptions import InvalidBBANChecksum
@@ -175,6 +176,20 @@ def test_random_national_checksum_overflow(monkeypatch: pytest.MonkeyPatch) -> N
         raise InvalidBBANChecksum
 
     monkeypatch.setattr(BBAN, "validate_national_checksum", always_invalid)
+
+    # Pin the bank ``random`` picks to one whose checksum method schwifty
+    # implements. The validator is only consulted for those, so letting the
+    # choice stay random made this test flaky: 96 of the 4805 German records name
+    # a method we don't implement (e.g. "B8" or "C0"), and for those there is
+    # nothing to retry and no overflow to raise.
+    deutsche_bank = registry.get_banks_by_code("DE", "10070000")
+    assert [bank.checksum_algo for bank in deutsche_bank] == ["63"]
+
+    def only_deutsche_bank(country_code: str) -> list[Bank]:
+        return deutsche_bank
+
+    monkeypatch.setattr(registry, "get_banks_by_country", only_deutsche_bank)
+
     with pytest.raises(GenerateRandomOverflowError):
         BBAN.random("DE")
 
