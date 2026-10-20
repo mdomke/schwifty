@@ -116,6 +116,7 @@ def test_bank_prefers_the_primary_record_of_every_registered_bank_code() -> None
         "10080000",  # Commerzbank vorm. Dresdner Bank, method 76
         "70090100",  # Hausbank München, method 88
         "10020890",  # UniCredit Bank - HypoVereinsbank, method 99
+        "50010517",  # ING-DiBa, method C1
     ],
 )
 def test_validate_national_checksum_on_truncated_bban(bank_code: str) -> None:
