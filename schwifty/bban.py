@@ -34,6 +34,31 @@ def _get_bban_spec(country_code: str) -> IBANSpec:
     return registry.get_iban_spec(country_code)
 
 
+def _get_bank(country_code: str, bank_code: str) -> Bank | None:
+    banks = registry.get_banks_by_code(country_code, bank_code)
+    if not banks:
+        return None
+    # A national registry lists one record per branch, so a bank code can map to
+    # several entries. The registry flags the institution's own record with
+    # ``primary``; prefer it so that ``bank`` and ``bic`` describe the same
+    # institution, the way ``BIC.candidates_from_bank_code`` already does.
+    return max(banks, key=lambda bank: bank.primary)
+
+
+def _get_random_bank(
+    country_code: str, values: dict[str, str], random: Random, use_registry: bool
+) -> Bank | None:
+    # A requested bank code decides which bank the result belongs to, and with it the
+    # national checksum method the result is validated against. The check digit has to be
+    # solved for that method, not for the one of a randomly picked bank.
+    if (bank_code := values.get(Component.BANK_CODE)) is not None:
+        return _get_bank(country_code, bank_code)
+    banks = registry.get_banks_by_country(country_code)
+    if banks and use_registry:
+        return random.choice(banks)
+    return None
+
+
 def _get_national_checksum_algorithm(country_code: str, bank: Bank | None) -> Algorithm | None:
     algo_name = bank.checksum_algo if bank is not None else "default"
     return algorithms.get(f"{country_code}:{algo_name}")
@@ -188,10 +213,7 @@ class BBAN(common.Base):
 
         rstr = Rstr(random)
         spec = _get_bban_spec(country_code)
-        bank: Bank | None = None
-        banks = registry.get_banks_by_country(country_code)
-        if banks and use_registry:
-            bank = random.choice(banks)
+        bank = _get_random_bank(country_code, values, random, use_registry)
 
         if not spec.has_positions:
             return cls(country_code, rstr.xeger(spec.regex).upper())
@@ -366,14 +388,7 @@ class BBAN(common.Base):
     @property
     def bank(self) -> Bank | None:
         """Bank | None: The information of bank related to this BBANs bank code."""
-        banks = registry.get_banks_by_code(self.country_code, self._bank_lookup_key)
-        if not banks:
-            return None
-        # A national registry lists one record per branch, so a bank code can map to
-        # several entries. The registry flags the institution's own record with
-        # ``primary``; prefer it so that ``bank`` and ``bic`` describe the same
-        # institution, the way ``BIC.candidates_from_bank_code`` already does.
-        return max(banks, key=lambda bank: bank.primary)
+        return _get_bank(self.country_code, self._bank_lookup_key)
 
     @property
     def bank_name(self) -> str | None:

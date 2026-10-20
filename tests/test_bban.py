@@ -194,6 +194,36 @@ def test_random_national_checksum_overflow(monkeypatch: pytest.MonkeyPatch) -> N
         BBAN.random("DE")
 
 
+@pytest.mark.parametrize("use_registry", [True, False])
+@pytest.mark.parametrize(
+    ("bank_code", "checksum_algo"),
+    [
+        ("10070000", "63"),  # Deutsche Bank
+        ("10110600", "17"),  # Quirin Privatbank
+    ],
+)
+def test_random_with_bank_code_uses_the_banks_checksum_method(
+    bank_code: str, checksum_algo: str, use_registry: bool
+) -> None:
+    # The result is validated against the checksum method of the requested bank, so the
+    # check digit has to be solved for that method too. random() used the method of a
+    # randomly picked bank instead (or none at all without the registry), and for methods
+    # that rarely accept such an account code it ran out of retries and raised
+    # GenerateRandomOverflowError for several of these seeds.
+    assert [bank.checksum_algo for bank in registry.get_banks_by_code("DE", bank_code)] == [
+        checksum_algo
+    ]
+    for seed in range(50):
+        bban = BBAN.random(
+            "DE",
+            random=Random(seed),  # noqa: S311
+            use_registry=use_registry,
+            bank_code=bank_code,
+        )
+        assert bban.bank_code == bank_code
+        assert bban.validate_national_checksum() is True
+
+
 def test_pickle_roundtrip() -> None:
     bban = BBAN("CH", "04835012345678009")
     for proto in range(pickle.HIGHEST_PROTOCOL + 1):

@@ -5,6 +5,16 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Fixed
+~~~~~
+* ``BBAN.random`` and ``IBAN.random`` called with a ``bank_code`` now solve the national check
+  digit for the checksum method of that bank, which is the one the result is validated against,
+  instead of the method of a randomly picked bank. For German banks whose method rarely accepts
+  an account code built for another method (e.g. Deutsche Bank, method ``63``) generation could
+  run out of retries and raise ``GenerateRandomOverflowError``.
+
 `2026.10.0`_ - 2026/10/19
 -------------------------
 Added
