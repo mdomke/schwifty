@@ -5,6 +5,15 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Fixed
+~~~~~
+* The German checksum method ``76`` (used by Commerzbank vormals Dresdner Bank) now accepts
+  account numbers whose sub-account number ``00`` was left out and that were padded with leading
+  zeros instead, so the check digit sits at position 10 (e.g. ``0000123456``), as the Bundesbank
+  specification requires.
+
 `2026.10.0`_ - 2026/10/19
 -------------------------
 Added
