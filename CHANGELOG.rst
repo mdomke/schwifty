@@ -5,6 +5,18 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Fixed
+~~~~~
+* ``BIC.domestic_bank_codes``, ``BIC.bank_names`` and ``BIC.bank_short_names`` no longer return
+  another country's registry entry when the BIC's own country lists the institution under the
+  equivalent spelling. Some registries, notably the Lithuanian one, list foreign payment
+  institutions under their ``XXX`` BIC, which hid the domestic entry filed under the 8-character
+  BIC, or the other way round. ``BIC("REVOFRP2XXX").domestic_bank_codes`` returned the Lithuanian
+  ``32501`` instead of the French ``28233`` (#242). 20 BICs were affected, among them Wise's
+  ``TRWIGB22XXX`` and ``TRWIBEB1XXX``.
+
 `2026.10.0`_ - 2026/10/19
 -------------------------
 Added

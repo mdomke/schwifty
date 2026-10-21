@@ -20,6 +20,8 @@ if TYPE_CHECKING:
     from pydantic.json_schema import JsonSchemaValue
     from pydantic_core import CoreSchema
 
+    from schwifty.domain import Bank
+
 _bic_iso9362_re = re.compile(r"[A-Z0-9]{4}[A-Z]{2}[A-Z0-9]{2}(?:[A-Z0-9]{3})?")
 _bic_swift_re = re.compile(r"[A-Z]{4}[A-Z]{2}[A-Z0-9]{2}(?:[A-Z0-9]{3})?")
 
@@ -376,16 +378,28 @@ class BIC(common.Base):
 
     def _lookup_values(self, key: str) -> list[str]:
         entries = registry.get_banks_by_bic(str(self))
-        if not entries and self.branch_code:
+        if not self._has_domestic_entry(entries):
+            # Another country's registry may list the institution under this spelling while its
+            # own country uses the equivalent one. Only a domestic entry there replaces the match.
+            fallback = self._lookup_equivalent_entries()
+            if not entries or self._has_domestic_entry(fallback):
+                entries = fallback
+        return sorted({val for entry in entries if (val := getattr(entry, key))})
+
+    def _lookup_equivalent_entries(self) -> list[Bank]:
+        if self.branch_code:
             # An 11-character BIC denotes a branch of the institution that the
             # first 8 characters identify. Not every national registry lists
             # entries per branch, so fall back to the institution's BIC when
             # the branch-specific lookup comes up empty.
-            entries = registry.get_banks_by_bic(str(self)[:8])
-        elif not entries and len(self) == 8:
+            return registry.get_banks_by_bic(str(self)[:8])
+        if len(self) == 8:
             # Some registries store only the equivalent 11-character XXX form.
-            entries = registry.get_banks_by_bic(f"{self}XXX")
-        return sorted({val for entry in entries if (val := getattr(entry, key))})
+            return registry.get_banks_by_bic(f"{self}XXX")
+        return []
+
+    def _has_domestic_entry(self, entries: list[Bank]) -> bool:
+        return any(entry.country_code == self.country_code for entry in entries)
 
     @property
     def domestic_bank_codes(self) -> list[str]:

@@ -130,6 +130,43 @@ def test_bic_prefers_exact_institution_entry(monkeypatch: pytest.MonkeyPatch) ->
     assert bic.bank_short_names == []
 
 
+@pytest.mark.parametrize(
+    ("exact", "equivalent"), [("TESTFRPPXXX", "TESTFRPP"), ("TESTFRPP", "TESTFRPPXXX")]
+)
+def test_bic_prefers_domestic_entry_over_foreign_exact_match(
+    monkeypatch: pytest.MonkeyPatch, exact: str, equivalent: str
+) -> None:
+    # Another country's registry may list the institution under one spelling of its BIC, while
+    # its own country lists it under the equivalent one. The foreign entry must not hide the
+    # domestic one.
+    entries = {
+        exact: [Bank("LT", exact, "30000", "Foreign listing")],
+        equivalent: [Bank("FR", equivalent, "12345", "Domestic listing")],
+    }
+    monkeypatch.setattr(registry, "get_banks_by_bic", lambda code: entries.get(code, []))
+    bic = BIC(exact)
+    assert bic.domestic_bank_codes == ["12345"]
+    assert bic.bank_names == ["Domestic listing"]
+
+
+def test_bic_keeps_foreign_entry_without_domestic_entry(monkeypatch: pytest.MonkeyPatch) -> None:
+    entries = {"TESTFRPPXXX": [Bank("LT", "TESTFRPPXXX", "30000", "Foreign listing")]}
+    monkeypatch.setattr(registry, "get_banks_by_bic", lambda code: entries.get(code, []))
+    for code in ("TESTFRPPXXX", "TESTFRPP"):
+        assert BIC(code).domestic_bank_codes == ["30000"]
+
+
+@pytest.mark.parametrize(
+    ("code", "bank_codes"), [("REVOFRP2XXX", ["28233"]), ("TRWIGB22XXX", ["TRWI"])]
+)
+def test_bic_domestic_bank_codes_not_shadowed_by_foreign_registry(
+    code: str, bank_codes: list[str]
+) -> None:
+    # Both are also listed in the Lithuanian registry under a Lithuanian bank code (#242).
+    assert BIC(code).domestic_bank_codes == bank_codes
+    assert BIC(code[:8]).domestic_bank_codes == bank_codes
+
+
 @pytest.mark.parametrize("code", ["MARKDEF1", "ABNAJPJT", "COBADEF"])
 def test_bic_without_institution_or_xxx_record(code: str) -> None:
     bic = BIC(code, allow_invalid=True)
