@@ -18,7 +18,10 @@ def process(records: list[dict[str, Any]]) -> dict[str, Any]:
     by_iid: dict[int, dict[str, Any]] = {}
 
     for record in records:
-        if record["entryType"] != "BankMaster" or record["country"] != "CH":
+        # The bank master lists every participant in Swiss payments, including foreign-based
+        # banks (e.g. Deutsche Bank AG in Frankfurt), whose IIDs are valid in Swiss IBANs. Only
+        # Liechtenstein banks are left out, because they have their own registry.
+        if record["entryType"] != "BankMaster" or record["country"] == "LI":
             continue
         name = short_name = record["bankOrInstitutionName"]
         if name == "UBS Switzerland AG":

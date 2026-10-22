@@ -13,6 +13,10 @@ Fixed
   account numbers whose sub-account number ``00`` was left out and that were padded with leading
   zeros instead, so the check digit sits at position 10 (e.g. ``0000123456``), as the Bundesbank
   specification requires.
+* The Swiss bank registry now includes the foreign-based banks that take part in Swiss payments
+  (e.g. Deutsche Bank AG, Commerzbank AG, Citibank N.A., Sparkasse Hochrhein), so Swiss IBANs
+  with their bank codes resolve to a bank and BIC. The generator used to drop every bank that
+  is not domiciled in Switzerland.
 
 `2026.10.0`_ - 2026/10/19
 -------------------------
