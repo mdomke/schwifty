@@ -23,6 +23,16 @@
       ]
     },
     {
+      "name": "SECB Swiss Euro Clearing Bank",
+      "short_name": "SECB Swiss Euro Clearing Bank",
+      "bic": "SECGDEFFXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "00193"
+      ]
+    },
+    {
       "name": "UBS Switzerland AG - Uster 1",
       "short_name": "UBS Switzerland AG",
       "bic": "UBSWCHZH86N",
@@ -2725,8 +2735,8 @@
       ]
     },
     {
-      "name": "Tellco Bank AG",
-      "short_name": "Tellco Bank AG",
+      "name": "Founders Bank AG",
+      "short_name": "Founders Bank AG",
       "bic": "DOMICHZZXXX",
       "country_code": "CH",
       "primary": false,
@@ -2758,8 +2768,8 @@
       ]
     },
     {
-      "name": "S.P. Hinduja Banque Priv\u00e9e SA",
-      "short_name": "S.P. Hinduja Banque Priv\u00e9e SA",
+      "name": "Arya Banque Priv\u00e9e SA",
+      "short_name": "Arya Banque Priv\u00e9e SA",
       "bic": "ABSGCHGGXXX",
       "country_code": "CH",
       "primary": false,
@@ -3015,6 +3025,17 @@
       "primary": false,
       "bank_codes": [
         "00305"
+      ]
+    },
+    {
+      "name": "Citibank N.A.",
+      "short_name": "Citibank N.A.",
+      "bic": "CITIGB2LXXX",
+      "country_code": "CH",
+      "primary": false,
+      "bank_codes": [
+        "30520",
+        "89095"
       ]
     },
     {
@@ -5704,6 +5725,36 @@
       ]
     },
     {
+      "name": "Union Bancaire Priv\u00e9e (Europe) SA",
+      "short_name": "Union Bancaire Priv\u00e9e (Europe) SA",
+      "bic": "DBSALULLFND",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "82007"
+      ]
+    },
+    {
+      "name": "Mirabaud & Cie (Europe) SA",
+      "short_name": "Mirabaud & Cie (Europe) SA",
+      "bic": "MIRALULLXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "82008"
+      ]
+    },
+    {
+      "name": "Starling Bank Limited",
+      "short_name": "Starling Bank Limited",
+      "bic": "SRLGGB3LXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "82018"
+      ]
+    },
+    {
       "name": "Goldman Sachs Bank AG",
       "short_name": "Goldman Sachs Bank AG",
       "bic": "GOLDCHZZXXX",
@@ -5768,6 +5819,16 @@
       "primary": true,
       "bank_codes": [
         "83010"
+      ]
+    },
+    {
+      "name": "LGT Bank AG, Zweigniederlassung \u00d6sterreich",
+      "short_name": "LGT Bank AG, Zweigniederlassung \u00d6sterreich",
+      "bic": "BLFLATWWXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "83012"
       ]
     },
     {
@@ -6360,6 +6421,406 @@
         "08880",
         "08881",
         "08887"
+      ]
+    },
+    {
+      "name": "EUREX Clearing AG",
+      "short_name": "EUREX Clearing AG",
+      "bic": "EUXCDEFZXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08883"
+      ]
+    },
+    {
+      "name": "B. Metzler seel. Sohn & Co. AG",
+      "short_name": "B. Metzler seel. Sohn & Co. AG",
+      "bic": "METZDEFFXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89002"
+      ]
+    },
+    {
+      "name": "COMMERZBANK AG",
+      "short_name": "COMMERZBANK AG",
+      "bic": "COBADEFFXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89018"
+      ]
+    },
+    {
+      "name": "Deutsche Bank AG",
+      "short_name": "Deutsche Bank AG",
+      "bic": "DEUTDEFFXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89022"
+      ]
+    },
+    {
+      "name": "DZ Bank AG",
+      "short_name": "DZ Bank AG",
+      "bic": "GENODEFFXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89025"
+      ]
+    },
+    {
+      "name": "Merck Finck, a Quintet Private Bank (Europe) S.A. branch",
+      "short_name": "Merck Finck, a Quintet Private Bank (Europe) S.A. branch",
+      "bic": "MEFIDEMM501",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89042"
+      ]
+    },
+    {
+      "name": "Morgan Stanley Bank AG",
+      "short_name": "Morgan Stanley Bank AG",
+      "bic": "MSFFDEFXXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89045"
+      ]
+    },
+    {
+      "name": "Landesbank Baden-W\u00fcrttemberg",
+      "short_name": "Landesbank Baden-W\u00fcrttemberg",
+      "bic": "SOLADESTXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89058"
+      ]
+    },
+    {
+      "name": "HSBC Continental Europe S.A., Germany",
+      "short_name": "HSBC Continental Europe S.A., Germany",
+      "bic": "TUBDDEDDXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89059"
+      ]
+    },
+    {
+      "name": "Goldman Sachs Bank Europe SE",
+      "short_name": "Goldman Sachs Bank Europe SE",
+      "bic": "GOLDDEFAXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89070"
+      ]
+    },
+    {
+      "name": "Dornbirner Sparkasse Bank AG",
+      "short_name": "Dornbirner Sparkasse Bank AG",
+      "bic": "DOSPAT2DXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89081"
+      ]
+    },
+    {
+      "name": "Skandinaviska Enskilda Banken AB",
+      "short_name": "Skandinaviska Enskilda Banken AB",
+      "bic": "ESSESESSXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89088"
+      ]
+    },
+    {
+      "name": "DZ PRIVATBANK AG, Luxembourg Branch",
+      "short_name": "DZ PRIVATBANK AG, Luxembourg Branch",
+      "bic": "GENOLULLXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89091"
+      ]
+    },
+    {
+      "name": "Volksbank Dreil\u00e4ndereck EG",
+      "short_name": "Volksbank Dreil\u00e4ndereck EG",
+      "bic": "VOLODE66XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89093"
+      ]
+    },
+    {
+      "name": "Erste Group Bank AG",
+      "short_name": "Erste Group Bank AG",
+      "bic": "GIBAATWGXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89099"
+      ]
+    },
+    {
+      "name": "CLS Bank International",
+      "short_name": "CLS Bank International",
+      "bic": "CLSBUS33XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "08910"
+      ]
+    },
+    {
+      "name": "Co\u00f6peratieve Rabobank U.A.",
+      "short_name": "Co\u00f6peratieve Rabobank U.A.",
+      "bic": "RABONL2UXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89102"
+      ]
+    },
+    {
+      "name": "Raiffeisenlandesbank Ober\u00f6sterreich AG",
+      "short_name": "Raiffeisenlandesbank Ober\u00f6sterreich AG",
+      "bic": "RZOOAT2LXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89109"
+      ]
+    },
+    {
+      "name": "Clearstream Banking S.A.",
+      "short_name": "Clearstream Banking S.A.",
+      "bic": "CEDELULLXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89115"
+      ]
+    },
+    {
+      "name": "Intesa Sanpaolo S.P.A.",
+      "short_name": "Intesa Sanpaolo S.P.A.",
+      "bic": "BCITITMMXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89128"
+      ]
+    },
+    {
+      "name": "BTV Vier L\u00e4nder Bank AG",
+      "short_name": "BTV Vier L\u00e4nder Bank AG",
+      "bic": "BTVAAT22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89129"
+      ]
+    },
+    {
+      "name": "Banque Internationale \u00e0 Luxembourg SA",
+      "short_name": "Banque Internationale \u00e0 Luxembourg SA",
+      "bic": "BILLLULLXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89136"
+      ]
+    },
+    {
+      "name": "Raiffeisen Bank International AG",
+      "short_name": "Raiffeisen Bank International AG",
+      "bic": "RZBAATWWXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89139"
+      ]
+    },
+    {
+      "name": "European Investment Bank",
+      "short_name": "European Investment Bank",
+      "bic": "BEILLULLXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89142"
+      ]
+    },
+    {
+      "name": "ING Bank N.V.",
+      "short_name": "ING Bank N.V.",
+      "bic": "INGBNL2AXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89151"
+      ]
+    },
+    {
+      "name": "Sparkasse der Stadt Feldkirch",
+      "short_name": "Sparkasse der Stadt Feldkirch",
+      "bic": "SPFKAT2BXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89152"
+      ]
+    },
+    {
+      "name": "RBC Europe Limited",
+      "short_name": "RBC Europe Limited",
+      "bic": "ROYCGB22XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89158"
+      ]
+    },
+    {
+      "name": "Danske Bank A/S",
+      "short_name": "Danske Bank A/S",
+      "bic": "DABADKKKXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89162"
+      ]
+    },
+    {
+      "name": "Raiffeisen Landesbank Vorarlberg mit Revisionsverband eGen",
+      "short_name": "Raiffeisen Landesbank Vorarlberg mit Revisionsverband eGen",
+      "bic": "RVVGAT2BXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89165"
+      ]
+    },
+    {
+      "name": "CACEIS Bank S.A., Germany Branch",
+      "short_name": "CACEIS Bank S.A., Germany Branch",
+      "bic": "FMBKDEMMXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89169"
+      ]
+    },
+    {
+      "name": "Goldman Sachs International",
+      "short_name": "Goldman Sachs International",
+      "bic": "GSILGB2XXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89191"
+      ]
+    },
+    {
+      "name": "Nordea Bank Abp",
+      "short_name": "Nordea Bank Abp",
+      "bic": "NDEAFIHHXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89197"
+      ]
+    },
+    {
+      "name": "Volksbank Hochrhein eG",
+      "short_name": "Volksbank Hochrhein eG",
+      "bic": "GENODE61WT1",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89199"
+      ]
+    },
+    {
+      "name": "Sparkasse Hochrhein",
+      "short_name": "Sparkasse Hochrhein",
+      "bic": "SKHRDE6WXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89202"
+      ]
+    },
+    {
+      "name": "Oesterreichische Kontrollbank AG",
+      "short_name": "Oesterreichische Kontrollbank AG",
+      "bic": "OEKOATWWXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89207"
+      ]
+    },
+    {
+      "name": "Volksbank eG - Die Gestalterbank",
+      "short_name": "Volksbank eG - Die Gestalterbank",
+      "bic": "GENODE61OG1",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89208"
+      ]
+    },
+    {
+      "name": "Banque de Luxembourg S.A.",
+      "short_name": "Banque de Luxembourg S.A.",
+      "bic": "BLUXLULLXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89213"
+      ]
+    },
+    {
+      "name": "Sparkasse L\u00f6rrach-Rheinfelden",
+      "short_name": "Sparkasse L\u00f6rrach-Rheinfelden",
+      "bic": "SKLODE66XXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89214"
+      ]
+    },
+    {
+      "name": "LCH Limited",
+      "short_name": "LCH Limited",
+      "bic": "LCHLGB2LXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89215"
+      ]
+    },
+    {
+      "name": "ABN AMRO Clearing Bank N.V.",
+      "short_name": "ABN AMRO Clearing Bank N.V.",
+      "bic": "ABNCNL2AXXX",
+      "country_code": "CH",
+      "primary": true,
+      "bank_codes": [
+        "89216"
       ]
     }
   ],

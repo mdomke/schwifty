@@ -78,3 +78,48 @@ def test_iban_download_bytes():
         assert script.get_raw() == "example\u00e9\r\n"
     assert request.call_count == 2
     assert request.call_args.args[0] == "https://www.swift.com/registry.txt"
+
+
+def test_gleif_download_url() -> None:
+    script = load_script("get_bank_registry_gb")
+    files = {
+        "data": [
+            {
+                "attributes": {
+                    "uploadedAt": "2026-08-28T00:00:00Z",
+                    "valid": True,
+                    "downloadLink": "old",
+                }
+            },
+            {
+                "attributes": {
+                    "uploadedAt": "2026-10-23T00:00:00Z",
+                    "valid": False,
+                    "downloadLink": "bad",
+                }
+            },
+            {
+                "attributes": {
+                    "uploadedAt": "2026-09-25T00:00:00Z",
+                    "valid": True,
+                    "downloadLink": "new",
+                }
+            },
+        ]
+    }
+    with patch.object(script.httpx2, "get", return_value=SimpleNamespace(json=lambda: files)):
+        assert script.get_download_url() == "new"
+
+
+@pytest.mark.parametrize(
+    ("bics", "primary"),
+    [
+        (["PAYRGB21XXX", "PAYRGB2LXXX"], ["PAYRGB2LXXX"]),
+        (["HLFXGB21XXX", "HLFXGB22XXX"], ["HLFXGB22XXX"]),
+        (["MONZGB2LXXX"], ["MONZGB2LXXX"]),
+        (["ABBYGB2LXXX", "ABBYGB3EXXX"], []),
+    ],
+)
+def test_gleif_primary_bic(bics: list[str], primary: list[str]) -> None:
+    script = load_script("get_bank_registry_gb")
+    assert [bic for bic in bics if script.is_primary(bic, bics)] == primary
