@@ -560,7 +560,13 @@ class Algorithm76(WeightedMod11):
         account_code = validate_account_code(components[0])
         if int(account_code[0]) not in {0, 4, 6, 7, 8, 9}:
             return False
-        return super().validate(components, expected)
+        if super().validate(components, expected):
+            return True
+        # The sub-account number "00" may be omitted and the account code padded with
+        # leading zeros instead, which moves the check digit to position 10.
+        if account_code.startswith("00") and int(account_code[2]) in {0, 4, 6, 7, 8, 9}:
+            return super().validate([account_code[2:] + "00"], expected)
+        return False
 
     @override
     def solve(self, components: list[str]) -> list[str] | None:
