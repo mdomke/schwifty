@@ -7,8 +7,20 @@ Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro
 
 Unreleased
 ----------
+Added
+~~~~~
+* Added a generated bank registry for the United Kingdom, built from GLEIF's monthly BIC-to-LEI
+  mapping. It contains about 2,700 head-office BICs for more than 2,300 bank codes, compared to
+  the 50 manually maintained entries before. The manual registry now only holds the entries GLEIF
+  lacks and pins the preferred BIC where GLEIF lists several for one bank code.
+
 Fixed
 ~~~~~
+* Corrected UK bank code lookups: ``BOFS`` now resolves to Bank of Scotland (``BOFSGB21``)
+  instead of Lloyds, ``DABA`` to Northern Bank (``DABAGB2B``) instead of one of its branches, and
+  Halifax, Co-operative Bank, TSB, PayrNet, Paysend, Clear Junction and The Currency Cloud to
+  their current head-office BICs instead of branch, passive or retired ones. The German
+  ``DEUTDEFFXXX`` was removed from the UK registry.
 * The German checksum method ``76`` (used by Commerzbank vormals Dresdner Bank) now accepts
   account numbers whose sub-account number ``00`` was left out and that were padded with leading
   zeros instead, so the check digit sits at position 10 (e.g. ``0000123456``), as the Bundesbank
