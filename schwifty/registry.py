@@ -5,6 +5,8 @@ import json
 import re
 from collections import defaultdict
 from contextlib import suppress
+from dataclasses import dataclass
+from dataclasses import field
 from pathlib import Path
 from typing import Any
 
@@ -74,9 +76,25 @@ def parse_v2(data: dict[str, Any]) -> list[dict[str, Any]]:
     )
 
 
+def _registry_directory(name: str) -> Path:
+    package = __package__ or "schwifty"
+    directory = files(package) / f"{name}_registry"
+    assert isinstance(directory, Path)
+    return directory
+
+
+@dataclass(slots=True)
+class CountryBanks:
+    banks: list[Bank] = field(default_factory=list)
+    by_bank_code: defaultdict[str, list[Bank]] = field(default_factory=lambda: defaultdict(list))
+    by_bic: defaultdict[str, list[Bank]] = field(default_factory=lambda: defaultdict(list))
+
+
 class Registry:
     def __init__(self) -> None:
         self._registry: dict[Key, Value] = {}
+        self._banks: dict[str, CountryBanks] = {}
+        self._bank_file_index: dict[str, list[Path]] | None = None
 
     def _has(self, name: Key) -> bool:
         return name in self._registry
@@ -89,21 +107,9 @@ class Registry:
         if self._has(name):
             return self._registry[name]
 
-        if name == "country":
-            self._build_country_index()
-            return self._registry["country"]
-        if name == "bank_code":
-            self._build_bank_code_index()
-            return self._registry["bank_code"]
-        if name == "bic":
-            self._build_bic_index()
-            return self._registry["bic"]
-
         data: Value | None = None
-        package = __package__ or "schwifty"
-        directory = files(package) / f"{name}_registry"
-        assert isinstance(directory, Path)
-        for entry in sorted(directory.glob("*.json")):
+        assert isinstance(name, str)
+        for entry in sorted(_registry_directory(name).glob("*.json")):
             assert isinstance(entry, Path)
             with entry.open(encoding="utf-8") as fp:
                 chunk = json.load(fp)
@@ -178,7 +184,7 @@ class Registry:
             defaults=defaults,
         )
 
-    def _parse_bank(self, data: dict[Key, Any] | Bank) -> Bank:
+    def _parse_bank(self, data: dict[str, Any] | Bank) -> Bank:
         if isinstance(data, Bank):
             return data
         return Bank(
@@ -192,63 +198,57 @@ class Registry:
         )
 
     def get_banks_by_country(self, country_code: str) -> list[Bank]:
-        country_index = self._get("country")
-        assert isinstance(country_index, dict)
-        return country_index.get(country_code, [])
+        return self._get_country_banks(country_code).banks
 
     def get_banks_by_code(self, country_code: str, bank_code: str) -> list[Bank]:
-        bank_code_index = self._get("bank_code")
-        assert isinstance(bank_code_index, dict)
-        return bank_code_index.get((country_code, bank_code), [])
+        return self._get_country_banks(country_code).by_bank_code.get(bank_code, [])
 
     def get_banks_by_bic(self, bic: str) -> list[Bank]:
-        bic_index = self._get("bic")
-        assert isinstance(bic_index, dict)
-        return bic_index.get(bic, [])
+        # Only the registry of the BIC's own country is searched, so that a lookup doesn't
+        # require loading the banks of all countries.
+        return self._get_country_banks(bic[4:6].upper()).by_bic.get(bic, [])
 
     def get_countries(self) -> list[str]:
-        country_index = self._get("country")
-        assert isinstance(country_index, dict)
-        return [str(k) for k in country_index]
+        return list(self._bank_files())
 
     def get_all_banks(self) -> list[Bank]:
-        base = self._get("bank")
-        assert isinstance(base, list)
-        return [self._parse_bank(entry) for entry in base]
+        return [
+            bank
+            for country_code in self.get_countries()
+            for bank in self.get_banks_by_country(country_code)
+        ]
 
-    def _build_country_index(self) -> None:
-        base = self._get("bank")
-        assert isinstance(base, list)
-        data: dict[Key, list[Bank]] = defaultdict(list)
-        for entry in base:
-            assert isinstance(entry, dict)
-            country_code = entry.get("country_code")
-            if country_code:
-                data[country_code].append(self._parse_bank(entry))
-        self._save("country", dict(data))
+    def _bank_files(self) -> dict[str, list[Path]]:
+        if self._bank_file_index is None:
+            index: dict[str, list[Path]] = defaultdict(list)
+            for path in sorted(_registry_directory("bank").glob("*.json")):
+                # File names follow the pattern <source>_<country>[.v2].json
+                country_code = path.name.split(".")[0].rsplit("_", 1)[-1].upper()
+                index[country_code].append(path)
+            self._bank_file_index = dict(index)
+        return self._bank_file_index
 
-    def _build_bank_code_index(self) -> None:
-        base = self._get("bank")
-        assert isinstance(base, list)
-        data: dict[Key, list[Bank]] = defaultdict(list)
-        for entry in base:
-            assert isinstance(entry, dict)
-            country_code = entry.get("country_code")
-            bank_code = entry.get("bank_code")
-            if country_code and bank_code:
-                data[(country_code, bank_code)].append(self._parse_bank(entry))
-        self._save("bank_code", dict(data))
+    def _get_country_banks(self, country_code: str) -> CountryBanks:
+        if (banks := self._banks.get(country_code)) is not None:
+            return banks
 
-    def _build_bic_index(self) -> None:
-        base = self._get("bank")
-        assert isinstance(base, list)
-        data: dict[Key, list[Bank]] = defaultdict(list)
-        for entry in base:
-            assert isinstance(entry, dict)
-            bic = entry.get("bic")
-            if bic:
-                data[bic].append(self._parse_bank(entry))
-        self._save("bic", dict(data))
+        entries: list[dict[str, Any]] = []
+        for path in self._bank_files().get(country_code, []):
+            with path.open(encoding="utf-8") as fp:
+                chunk = json.load(fp)
+            entries.extend(parse_v2(chunk) if path.stem.endswith("v2") else chunk)
+
+        # The indexes share the same Bank instances to keep the memory footprint low.
+        banks = CountryBanks()
+        for entry in entries:
+            bank = self._parse_bank(entry)
+            banks.banks.append(bank)
+            if bank.bank_code:
+                banks.by_bank_code[bank.bank_code].append(bank)
+            if bank.bic:
+                banks.by_bic[bank.bic].append(bank)
+        self._banks[country_code] = banks
+        return banks
 
 
 _default_registry = Registry()
