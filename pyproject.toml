@@ -114,6 +114,7 @@ extend-ignore = [
 "tests/*.py" = [
     "INP001",  # Tests are not an importable namespace package
     "PLW0129", # Allow asserting on string literals in tests
+    "SLF001",  # Private member access
 ]
 
 [tool.ruff.lint.mccabe]

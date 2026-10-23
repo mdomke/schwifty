@@ -14,6 +14,17 @@ Added
   the 50 manually maintained entries before. The manual registry now only holds the entries GLEIF
   lacks and pins the preferred BIC where GLEIF lists several for one bank code.
 
+Changed
+~~~~~~~
+* The bank registry is now loaded per country on first use instead of all at once, and the
+  ``Bank`` objects are shared between the lookup indexes and use ``__slots__``. A first lookup of
+  a German IBAN now adds about 3 MB of memory instead of 26 MB, and a French one less than 1 MB
+  (#246). Thanks to `@UnknownPlatypus <https://github.com/UnknownPlatypus>`_ for the analysis.
+* A BIC lookup (e.g. ``BIC.domestic_bank_codes`` or ``BIC.bank_names``) only searches the bank
+  registry of the BIC's own country. Foreign-based banks listed in another country's registry,
+  such as Commerzbank (``COBADEFF``) with its Swiss bank codes, are no longer returned for their
+  BIC.
+
 Fixed
 ~~~~~
 * ``BBAN.random`` and ``IBAN.random`` called with a ``bank_code`` now solve the national check
