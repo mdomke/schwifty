@@ -45,18 +45,9 @@ def _get_bank(country_code: str, bank_code: str) -> Bank | None:
     return max(banks, key=lambda bank: bank.primary)
 
 
-def _get_random_bank(
-    country_code: str, values: dict[str, str], random: Random, use_registry: bool
-) -> Bank | None:
-    # A requested bank code decides which bank the result belongs to, and with it the
-    # national checksum method the result is validated against. The check digit has to be
-    # solved for that method, not for the one of a randomly picked bank.
-    if (bank_code := values.get(Component.BANK_CODE)) is not None:
-        return _get_bank(country_code, bank_code)
+def _get_random_bank(country_code: str, random: Random) -> Bank | None:
     banks = registry.get_banks_by_country(country_code)
-    if banks and use_registry:
-        return random.choice(banks)
-    return None
+    return random.choice(banks) if banks else None
 
 
 def _get_national_checksum_algorithm(country_code: str, bank: Bank | None) -> Algorithm | None:
@@ -213,7 +204,17 @@ class BBAN(common.Base):
 
         rstr = Rstr(random)
         spec = _get_bban_spec(country_code)
-        bank = _get_random_bank(country_code, values, random, use_registry)
+        bank: Bank | None
+        lookup_by = spec.bic_lookup_components or [Component.BANK_CODE]
+        if spec.has_positions and all(component in values for component in lookup_by):
+            # Resolve the bank the way validation does: from the pinned lookup components, cut
+            # to their length in the BBAN, so the check digit is solved for that bank's method.
+            lookup_key = "".join(
+                values[component][: spec.positions[component].length] for component in lookup_by
+            )
+            bank = _get_bank(country_code, lookup_key)
+        else:
+            bank = _get_random_bank(country_code, random) if use_registry else None
 
         if not spec.has_positions:
             return cls(country_code, rstr.xeger(spec.regex).upper())

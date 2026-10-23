@@ -224,6 +224,47 @@ def test_random_with_bank_code_uses_the_banks_checksum_method(
         assert bban.validate_national_checksum() is True
 
 
+@pytest.mark.parametrize("use_registry", [True, False])
+@pytest.mark.parametrize(
+    ("country_code", "values", "lookup_key"),
+    [
+        # Cut to the eight digits of the bank code field, so the result belongs to
+        # Deutsche Bank (method 63).
+        ("DE", {"bank_code": "100700001"}, "10070000"),
+        # Slovenian banks are looked up by bank and branch code together.
+        ("SI", {"bank_code": "01", "branch_code": "000"}, "01000"),
+    ],
+)
+def test_random_with_bank_code_looks_up_the_bank_like_validation(
+    monkeypatch: pytest.MonkeyPatch,
+    country_code: str,
+    values: dict[str, str],
+    lookup_key: str,
+    use_registry: bool,
+) -> None:
+    # The check digit has to be solved for the bank the result is validated against, so
+    # random() has to look the bank up with the same key validation uses later.
+    lookups: list[str] = []
+    get_banks_by_code = registry.get_banks_by_code
+
+    def record_lookup(country_code: str, bank_code: str) -> list[Bank]:
+        lookups.append(bank_code)
+        return get_banks_by_code(country_code, bank_code)
+
+    monkeypatch.setattr(registry, "get_banks_by_code", record_lookup)
+
+    for seed in range(20):
+        bban = BBAN.random(
+            country_code,
+            random=Random(seed),  # noqa: S311
+            use_registry=use_registry,
+            **values,
+        )
+        assert bban.bank is not None
+        assert bban.validate_national_checksum() is True
+    assert set(lookups) == {lookup_key}
+
+
 def test_pickle_roundtrip() -> None:
     bban = BBAN("CH", "04835012345678009")
     for proto in range(pickle.HIGHEST_PROTOCOL + 1):
