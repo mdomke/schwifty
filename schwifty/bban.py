@@ -183,8 +183,10 @@ class BBAN(common.Base):
         respective country. Additional components of the IBAN (e.g. the bank code) can be provided
         as keyword arguments to further narrow down the genreated values.
 
-        If ``use_regsitry`` is set to ``False`` the bank information from schwifty's registry will
-        be ignored and a completely random bank code will be generated.
+        If ``use_registry`` is set to ``False`` no bank is picked from schwifty's registry and a
+        completely random bank code will be generated instead. A bank code that is passed in is
+        still looked up in the registry either way, so that the national check digits are computed
+        with the checksum method of that bank.
 
         Args:
             country_code (str): The ISO 3166 alpha-2 country code.

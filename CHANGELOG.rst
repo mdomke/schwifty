@@ -20,7 +20,10 @@ Fixed
   digit for the checksum method of that bank, which is the one the result is validated against,
   instead of the method of a randomly picked bank. For German banks whose method rarely accepts
   an account code built for another method (e.g. Deutsche Bank, method ``63``) generation could
-  run out of retries and raise ``GenerateRandomOverflowError``.
+  run out of retries and raise ``GenerateRandomOverflowError``. The bank is now looked up the same
+  way validation does, even with ``use_registry=False``. Since no random bank is drawn anymore
+  when the bank code is given, the output for a seeded ``random`` changes in every country (e.g.
+  ``BBAN.random("FR", random=Random(1), bank_code="11425")``).
 * Corrected UK bank code lookups: ``BOFS`` now resolves to Bank of Scotland (``BOFSGB21``)
   instead of Lloyds, ``DABA`` to Northern Bank (``DABAGB2B``) instead of one of its branches, and
   Halifax, Co-operative Bank, TSB, PayrNet, Paysend, Clear Junction and The Currency Cloud to
