@@ -210,9 +210,9 @@ def test_random_with_bank_code_uses_the_banks_checksum_method(
     # randomly picked bank instead (or none at all without the registry), and for methods
     # that rarely accept such an account code it ran out of retries and raised
     # GenerateRandomOverflowError for several of these seeds.
-    assert [bank.checksum_algo for bank in registry.get_banks_by_code("DE", bank_code)] == [
+    assert {bank.checksum_algo for bank in registry.get_banks_by_code("DE", bank_code)} == {
         checksum_algo
-    ]
+    }
     for seed in range(50):
         bban = BBAN.random(
             "DE",
