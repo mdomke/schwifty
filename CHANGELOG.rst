@@ -23,7 +23,8 @@ Changed
 * A BIC lookup (e.g. ``BIC.domestic_bank_codes`` or ``BIC.bank_names``) only searches the bank
   registry of the BIC's own country. Foreign-based banks listed in another country's registry,
   such as Commerzbank (``COBADEFF``) with its Swiss bank codes, are no longer returned for their
-  BIC.
+  BIC. This also fixes ``BIC("REVOFRP2XXX").domestic_bank_codes`` returning the Lithuanian
+  ``32501`` instead of the French ``28233`` (#242).
 
 Fixed
 ~~~~~
