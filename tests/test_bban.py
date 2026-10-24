@@ -201,6 +201,7 @@ def test_random_national_checksum_overflow(monkeypatch: pytest.MonkeyPatch) -> N
     [
         ("10070000", "63"),  # Deutsche Bank
         ("10110600", "17"),  # Quirin Privatbank
+        ("50010517", "C1"),  # ING-DiBa
     ],
 )
 def test_random_with_bank_code_uses_the_banks_checksum_method(
