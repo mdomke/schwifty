@@ -113,6 +113,18 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("9876543210", "DE:A3"),
         ("1234567890", "DE:A3"),
         ("0123456789", "DE:A3"),
+        # Method C1, variant 1 (method 17) for account codes not starting with 5.
+        ("0446786040", "DE:C1"),
+        ("0478046940", "DE:C1"),
+        ("0701625830", "DE:C1"),
+        ("0701625840", "DE:C1"),
+        ("0882095630", "DE:C1"),
+        # Method C1, variant 2 for account codes starting with 5.
+        ("5432112349", "DE:C1"),
+        ("5543223456", "DE:C1"),
+        ("5654334563", "DE:C1"),
+        ("5765445670", "DE:C1"),
+        ("5876556788", "DE:C1"),
         # Method 99 accepts the whole range 0396000000 to 0499999999 without a check.
         ("0396000001", "DE:99"),
         ("0412345678", "DE:99"),
@@ -173,6 +185,23 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0800000000", "DE:95"),
         ("0909999999", "DE:95"),
         ("0990000001", "DE:95"),
+        # Method C1 test account numbers with a wrong check digit, variant 1.
+        ("0446786240", "DE:C1"),
+        ("0478046340", "DE:C1"),
+        ("0701625730", "DE:C1"),
+        ("0701625440", "DE:C1"),
+        ("0882095130", "DE:C1"),
+        # Method C1 test account numbers with a wrong check digit, variant 2.
+        ("5432112341", "DE:C1"),
+        ("5543223458", "DE:C1"),
+        ("5654334565", "DE:C1"),
+        ("5765445672", "DE:C1"),
+        ("5876556780", "DE:C1"),
+        # The leading digit picks the variant and the other one is never tried:
+        # 5478046940 passes method 17 but starts with 5, 0543223450 passes variant 2
+        # but does not.
+        ("5478046940", "DE:C1"),
+        ("0543223450", "DE:C1"),
     ],
 )
 def test_german_checksum_failure(account_code: str, algorithm_name: str) -> None:
@@ -246,6 +275,23 @@ def test_german_checksum_fallback_variants_compute_and_solve(algorithm_name: str
     algo = algorithms[algorithm_name]
     assert algo.compute(["3456789010"]) == "9"
     assert algo.solve(["3456789010"]) == ["3456789019"]
+
+
+@pytest.mark.parametrize(
+    ("account_code", "check_digit", "solved"),
+    [
+        # Variant 1 (method 17) places the check digit at position 8.
+        ("0446786940", "0", "0446786040"),
+        # Variant 2 places it at position 10.
+        ("5432112340", "9", "5432112349"),
+    ],
+)
+def test_german_checksum_c1_compute_and_solve(
+    account_code: str, check_digit: str, solved: str
+) -> None:
+    algo = algorithms["DE:C1"]
+    assert algo.compute([account_code]) == check_digit
+    assert algo.solve([account_code]) == [solved]
 
 
 def test_german_checksum_91_solve_exhausted(monkeypatch: pytest.MonkeyPatch) -> None:
