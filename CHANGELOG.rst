@@ -9,6 +9,8 @@ Unreleased
 ----------
 Added
 ~~~~~
+* Added :attr:`.IBAN.is_aspirational` and :attr:`.BBAN.is_aspirational` to tell whether a
+  country's IBAN format is only reserved and not yet part of the official IBAN registry (#248).
 * Added a generated bank registry for the United Kingdom, built from GLEIF's monthly BIC-to-LEI
   mapping. It contains about 2,700 head-office BICs for more than 2,300 bank codes, compared to
   the 50 manually maintained entries before. The manual registry now only holds the entries GLEIF
