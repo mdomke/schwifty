@@ -5,7 +5,8 @@
     "bban_length": 21,
     "iban_spec": "AO2!n21!n",
     "iban_length": 25,
-    "in_sepa_zone": false
+    "in_sepa_zone": false,
+    "aspirational": true
   },
   "AL": {
     "positions": {
@@ -62,6 +63,7 @@
     "iban_spec": "BF2!n2!c22!n",
     "iban_length": 28,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -116,6 +118,7 @@
     "iban_spec": "BJ2!n2!c22!n",
     "iban_length": 28,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -174,6 +177,7 @@
     "iban_spec": "CF2!n23!n",
     "iban_length": 27,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -200,6 +204,7 @@
     "iban_spec": "CG2!n23!n",
     "iban_length": 27,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -226,6 +231,7 @@
     "iban_spec": "CI2!n2!a22!n",
     "iban_length": 28,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -252,6 +258,7 @@
     "iban_spec": "CM2!n23!n",
     "iban_length": 27,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -278,6 +285,7 @@
     "iban_spec": "CV2!n21!n",
     "iban_length": 25,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -341,6 +349,7 @@
     "iban_spec": "DZ2!n22!n",
     "iban_length": 26,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -435,6 +444,7 @@
     "iban_spec": "GA2!n23!n",
     "iban_length": 27,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -520,7 +530,8 @@
     "bban_length": 21,
     "iban_spec": "GW2!n2!c19!n",
     "iban_length": 25,
-    "in_sepa_zone": false
+    "in_sepa_zone": false,
+    "aspirational": true
   },
   "GQ": {
     "country": "GQ",
@@ -529,6 +540,7 @@
     "iban_spec": "GQ2!n23!n",
     "iban_length": 27,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -554,7 +566,8 @@
     "bban_length": 24,
     "iban_spec": "HN2!n4!a20!n",
     "iban_length": 28,
-    "in_sepa_zone": false
+    "in_sepa_zone": false,
+    "aspirational": true
   },
   "HU": {
     "positions": {
@@ -574,7 +587,8 @@
     "bban_length": 22,
     "iban_spec": "IR2!n22!n",
     "iban_length": 26,
-    "in_sepa_zone": false
+    "in_sepa_zone": false,
+    "aspirational": true
   },
   "IS": {
     "positions": {
@@ -623,7 +637,8 @@
     "bban_length": 23,
     "iban_spec": "KM2!n23!n",
     "iban_length": 27,
-    "in_sepa_zone": false
+    "in_sepa_zone": false,
+    "aspirational": true
   },
   "MA": {
     "country": "MA",
@@ -632,6 +647,7 @@
     "iban_spec": "MA2!n24!n",
     "iban_length": 28,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -697,7 +713,8 @@
     "bban_length": 23,
     "iban_spec": "MG2!n23!n",
     "iban_length": 27,
-    "in_sepa_zone": false
+    "in_sepa_zone": false,
+    "aspirational": true
   },
   "MK": {
     "positions": {
@@ -718,6 +735,7 @@
     "iban_spec": "ML2!n2!c22!n",
     "iban_length": 28,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -784,7 +802,8 @@
     "bban_length": 21,
     "iban_spec": "MZ2!n21!n",
     "iban_length": 25,
-    "in_sepa_zone": false
+    "in_sepa_zone": false,
+    "aspirational": true
   },
   "NE": {
     "country": "NE",
@@ -793,6 +812,7 @@
     "iban_spec": "NE2!n22!n",
     "iban_length": 28,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -1008,6 +1028,7 @@
     "iban_spec": "SN2!n2!a22!n",
     "iban_length": 28,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -1034,6 +1055,7 @@
     "iban_spec": "TD2!n23!n",
     "iban_length": 27,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -1076,6 +1098,7 @@
     "iban_spec": "TG2!n2!a3!n5!n12!n2!n",
     "iban_length": 28,
     "in_sepa_zone": false,
+    "aspirational": true,
     "positions": {
       "bank_code": [
         0,
@@ -1163,6 +1186,7 @@
         8
       ]
     },
-    "in_sepa_zone": false
+    "in_sepa_zone": false,
+    "aspirational": true
   }
 }

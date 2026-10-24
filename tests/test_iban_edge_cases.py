@@ -7,6 +7,7 @@ import pytest
 from schwifty import BBAN
 from schwifty import exceptions
 from schwifty import IBAN
+from schwifty import registry
 
 
 @pytest.mark.parametrize(
@@ -158,3 +159,24 @@ def test_random_any_country() -> None:
     iban = IBAN.random(random=Random(11))  # noqa: S311
     assert iban.is_valid
     assert iban.country_code == iban.bban.country_code
+
+
+def test_is_aspirational() -> None:
+    assert IBAN("SN08SN0100152000048500003035").is_aspirational is True
+    assert IBAN("DE89370400440532013000").is_aspirational is False
+    assert BBAN("SN", "SN0100152000048500003035").is_aspirational is True
+    assert BBAN("DE", "370400440532013000").is_aspirational is False
+
+
+def test_aspirational_countries_are_not_in_official_registry() -> None:
+    # Once a country is added to the official SWIFT registry, its ``aspirational`` flag must be
+    # removed from ``overwrite.json``.
+    import json
+    from pathlib import Path
+
+    import schwifty
+
+    official = json.loads(
+        (Path(schwifty.__file__).parent / "iban_registry" / "generated.json").read_text()
+    )
+    assert not any(registry.get_iban_spec(country).aspirational for country in official)

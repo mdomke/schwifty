@@ -182,6 +182,7 @@ class Registry:
             positions=positions,
             bic_lookup_components=bic_lookup_components,
             defaults=defaults,
+            aspirational=data.get("aspirational", False),
         )
 
     def _parse_bank(self, data: dict[str, Any] | Bank) -> Bank:

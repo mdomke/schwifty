@@ -321,6 +321,16 @@ class BBAN(common.Base):
         return _get_bban_spec(self.country_code)
 
     @property
+    def is_aspirational(self) -> bool:
+        """bool: Is the country's IBAN format reserved but not yet in the official IBAN registry.
+
+        Aspirational IBANs are syntactically valid, but may be rejected by banking systems.
+
+        .. versionadded:: 2026.10.1
+        """
+        return self.spec.aspirational
+
+    @property
     def _bank_lookup_key(self) -> str:
         lookup_by = self.spec.bic_lookup_components or [Component.BANK_CODE]
         return "".join(self._get_component(component) for component in lookup_by)

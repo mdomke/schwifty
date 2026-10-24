@@ -84,6 +84,7 @@ class IBANSpec(DictCompatMixin):
     positions: dict[Component, Range] = field(default_factory=dict)
     bic_lookup_components: list[Component] = field(default_factory=list)
     defaults: dict[str, str] = field(default_factory=dict)
+    aspirational: bool = False
 
     @property
     def has_positions(self) -> bool:

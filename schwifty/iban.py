@@ -320,6 +320,16 @@ class IBAN(common.Base):
         return self.spec.in_sepa_zone
 
     @property
+    def is_aspirational(self) -> bool:
+        """bool: Is the country's IBAN format reserved but not yet in the official IBAN registry.
+
+        Aspirational IBANs are syntactically valid, but may be rejected by banking systems.
+
+        .. versionadded:: 2026.10.1
+        """
+        return self.spec.aspirational
+
+    @property
     def country_code(self) -> str:
         """str: ISO 3166 alpha-2 country code."""
         return self._get_slice(start=0, end=2)
