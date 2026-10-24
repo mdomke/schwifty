@@ -696,3 +696,35 @@ class AlgorithmA3(FallbackVariants):
         Algorithm00,
         Algorithm10,
     )
+
+
+@register
+class AlgorithmC1(checksum.Algorithm):
+    """Method 17, or a variant of it over positions 1-9 for account codes starting with 5.
+
+    Unlike :class:`FallbackVariants`, the leading digit selects the variant, so an account
+    code rejected by that variant is invalid and the other one is not tried.
+    """
+
+    name = "C1"
+    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
+
+    class Variant2(Algorithm17):
+        positions = Positions(start=1, end=9, check_digit=10)
+
+    def get_variant(self, account_code: str) -> WeightedModulus:
+        if validate_account_code(account_code)[0] == "5":
+            return self.Variant2()
+        return Algorithm17()
+
+    @override
+    def compute(self, components: list[str]) -> str:
+        return self.get_variant(components[0]).compute(components)
+
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        return self.get_variant(components[0]).validate(components, expected)
+
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        return self.get_variant(components[0]).solve(components)

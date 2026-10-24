@@ -13,6 +13,9 @@ Added
   mapping. It contains about 2,700 head-office BICs for more than 2,300 bank codes, compared to
   the 50 manually maintained entries before. The manual registry now only holds the entries GLEIF
   lacks and pins the preferred BIC where GLEIF lists several for one bank code.
+* Added the German checksum method ``C1``, used by ING-DiBa (bank code ``50010517``). Account
+  codes starting with ``5`` are checked with a variant of method ``17`` over positions 1 to 9,
+  all others with method ``17`` itself. Account codes for this bank were not checked before.
 
 Changed
 ~~~~~~~
