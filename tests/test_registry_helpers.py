@@ -1,6 +1,7 @@
 """Tests for the registry loading helpers and domain value objects."""
 
 import re
+from typing import Any
 
 import pytest
 
@@ -63,8 +64,8 @@ def test_merge_dicts_disjoint_and_overlapping_keys() -> None:
 
 
 def test_merge_dicts_merges_nested_dicts() -> None:
-    left = {"x": {"p": 1, "q": 2}}
-    right = {"x": {"q": 3, "r": 4}}
+    left: dict[registry.Key, Any] = {"x": {"p": 1, "q": 2}}
+    right: dict[registry.Key, Any] = {"x": {"q": 3, "r": 4}}
     assert merge_dicts(left, right) == {"x": {"p": 1, "q": 3, "r": 4}}
 
 
@@ -73,7 +74,7 @@ def test_merge_dicts_non_dict_overrides_dict() -> None:
 
 
 def test_merge_dicts_does_not_mutate_inputs() -> None:
-    left = {"a": {"n": 1}}
+    left: dict[registry.Key, Any] = {"a": {"n": 1}}
     merged = merge_dicts(left, {"a": {"m": 2}})
     assert left == {"a": {"n": 1}}
     assert merged == {"a": {"n": 1, "m": 2}}
