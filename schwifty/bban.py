@@ -34,6 +34,22 @@ def _get_bban_spec(country_code: str) -> IBANSpec:
     return registry.get_iban_spec(country_code)
 
 
+def _get_bank(country_code: str, bank_code: str) -> Bank | None:
+    banks = registry.get_banks_by_code(country_code, bank_code)
+    if not banks:
+        return None
+    # A national registry lists one record per branch, so a bank code can map to
+    # several entries. The registry flags the institution's own record with
+    # ``primary``; prefer it so that ``bank`` and ``bic`` describe the same
+    # institution, the way ``BIC.candidates_from_bank_code`` already does.
+    return max(banks, key=lambda bank: bank.primary)
+
+
+def _get_random_bank(country_code: str, random: Random) -> Bank | None:
+    banks = registry.get_banks_by_country(country_code)
+    return random.choice(banks) if banks else None
+
+
 def _get_national_checksum_algorithm(country_code: str, bank: Bank | None) -> Algorithm | None:
     algo_name = bank.checksum_algo if bank is not None else "default"
     return algorithms.get(f"{country_code}:{algo_name}")
@@ -167,8 +183,10 @@ class BBAN(common.Base):
         respective country. Additional components of the IBAN (e.g. the bank code) can be provided
         as keyword arguments to further narrow down the genreated values.
 
-        If ``use_regsitry`` is set to ``False`` the bank information from schwifty's registry will
-        be ignored and a completely random bank code will be generated.
+        If ``use_registry`` is set to ``False`` no bank is picked from schwifty's registry and a
+        completely random bank code will be generated instead. A bank code that is passed in is
+        still looked up in the registry either way, so that the national check digits are computed
+        with the checksum method of that bank.
 
         Args:
             country_code (str): The ISO 3166 alpha-2 country code.
@@ -188,10 +206,17 @@ class BBAN(common.Base):
 
         rstr = Rstr(random)
         spec = _get_bban_spec(country_code)
-        bank: Bank | None = None
-        banks = registry.get_banks_by_country(country_code)
-        if banks and use_registry:
-            bank = random.choice(banks)
+        bank: Bank | None
+        lookup_by = spec.bic_lookup_components or [Component.BANK_CODE]
+        if spec.has_positions and all(component in values for component in lookup_by):
+            # Resolve the bank the way validation does: from the pinned lookup components, cut
+            # to their length in the BBAN, so the check digit is solved for that bank's method.
+            lookup_key = "".join(
+                values[component][: spec.positions[component].length] for component in lookup_by
+            )
+            bank = _get_bank(country_code, lookup_key)
+        else:
+            bank = _get_random_bank(country_code, random) if use_registry else None
 
         if not spec.has_positions:
             return cls(country_code, rstr.xeger(spec.regex).upper())
@@ -366,14 +391,7 @@ class BBAN(common.Base):
     @property
     def bank(self) -> Bank | None:
         """Bank | None: The information of bank related to this BBANs bank code."""
-        banks = registry.get_banks_by_code(self.country_code, self._bank_lookup_key)
-        if not banks:
-            return None
-        # A national registry lists one record per branch, so a bank code can map to
-        # several entries. The registry flags the institution's own record with
-        # ``primary``; prefer it so that ``bank`` and ``bic`` describe the same
-        # institution, the way ``BIC.candidates_from_bank_code`` already does.
-        return max(banks, key=lambda bank: bank.primary)
+        return _get_bank(self.country_code, self._bank_lookup_key)
 
     @property
     def bank_name(self) -> str | None:

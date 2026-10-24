@@ -1,4 +1,7 @@
+import pytest
+
 from schwifty import BIC
+from schwifty import IBAN
 from schwifty import registry
 from schwifty.checksum.poland import DefaultAlgorithm
 from schwifty.domain import Component
@@ -62,3 +65,23 @@ def test_registry_domain_queries():
 
     matching_bic_banks = registry.get_banks_by_bic("DEUTDEDB200")
     assert len(matching_bic_banks) > 0
+
+
+def test_lookups_only_load_the_requested_country(monkeypatch: pytest.MonkeyPatch) -> None:
+    fresh = registry.Registry()
+    monkeypatch.setattr(registry, "_default_registry", fresh)
+
+    assert IBAN("DE89370400440532013000").bic == "COBADEFFXXX"
+    assert set(fresh._banks) == {"DE"}
+
+    assert BIC("POFICHBEXXX").bank_names
+    assert set(fresh._banks) == {"DE", "CH"}
+
+
+def test_bic_lookup_is_limited_to_its_country() -> None:
+    # The Swiss registry lists foreign-based banks such as Commerzbank, but their BICs are
+    # only resolved through the registry of the country the BIC belongs to.
+    assert any(
+        (bank.bic or "").startswith("COBADE") for bank in registry.get_banks_by_country("CH")
+    )
+    assert all(bank.country_code == "DE" for bank in registry.get_banks_by_bic("COBADEFFXXX"))

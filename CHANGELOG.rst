@@ -17,8 +17,28 @@ Added
   codes starting with ``5`` are checked with a variant of method ``17`` over positions 1 to 9,
   all others with method ``17`` itself. Account codes for this bank were not checked before.
 
+Changed
+~~~~~~~
+* The bank registry is now loaded per country on first use instead of all at once, and the
+  ``Bank`` objects are shared between the lookup indexes and use ``__slots__``. A first lookup of
+  a German IBAN now adds about 3 MB of memory instead of 26 MB, and a French one less than 1 MB
+  (#246). Thanks to `@UnknownPlatypus <https://github.com/UnknownPlatypus>`_ for the analysis.
+* A BIC lookup (e.g. ``BIC.domestic_bank_codes`` or ``BIC.bank_names``) only searches the bank
+  registry of the BIC's own country. Foreign-based banks listed in another country's registry,
+  such as Commerzbank (``COBADEFF``) with its Swiss bank codes, are no longer returned for their
+  BIC. This also fixes ``BIC("REVOFRP2XXX").domestic_bank_codes`` returning the Lithuanian
+  ``32501`` instead of the French ``28233`` (#242).
+
 Fixed
 ~~~~~
+* ``BBAN.random`` and ``IBAN.random`` called with a ``bank_code`` now solve the national check
+  digit for the checksum method of that bank, which is the one the result is validated against,
+  instead of the method of a randomly picked bank. For German banks whose method rarely accepts
+  an account code built for another method (e.g. Deutsche Bank, method ``63``) generation could
+  run out of retries and raise ``GenerateRandomOverflowError``. The bank is now looked up the same
+  way validation does, even with ``use_registry=False``. Since no random bank is drawn anymore
+  when the bank code is given, the output for a seeded ``random`` changes in every country (e.g.
+  ``BBAN.random("FR", random=Random(1), bank_code="11425")``).
 * Corrected UK bank code lookups: ``BOFS`` now resolves to Bank of Scotland (``BOFSGB21``)
   instead of Lloyds, ``DABA`` to Northern Bank (``DABAGB2B``) instead of one of its branches, and
   Halifax, Co-operative Bank, TSB, PayrNet, Paysend, Clear Junction and The Currency Cloud to

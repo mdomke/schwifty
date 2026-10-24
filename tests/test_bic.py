@@ -130,6 +130,17 @@ def test_bic_prefers_exact_institution_entry(monkeypatch: pytest.MonkeyPatch) ->
     assert bic.bank_short_names == []
 
 
+@pytest.mark.parametrize(
+    ("code", "bank_codes"), [("REVOFRP2XXX", ["28233"]), ("TRWIGB22XXX", ["TRWI"])]
+)
+def test_bic_domestic_bank_codes_not_shadowed_by_foreign_registry(
+    code: str, bank_codes: list[str]
+) -> None:
+    # Both are also listed in the Lithuanian registry under a Lithuanian bank code (#242).
+    assert BIC(code).domestic_bank_codes == bank_codes
+    assert BIC(code[:8]).domestic_bank_codes == bank_codes
+
+
 @pytest.mark.parametrize("code", ["MARKDEF1", "ABNAJPJT", "COBADEF"])
 def test_bic_without_institution_or_xxx_record(code: str) -> None:
     bic = BIC(code, allow_invalid=True)

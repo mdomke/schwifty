@@ -19,6 +19,8 @@ class DictCompatMixin:
     dicts, so subscription and ``.get()`` are kept working but are now deprecated in favour
     of attribute access."""
 
+    __slots__ = ()
+
     def _warn_dict_access(self) -> None:
         warnings.warn(
             _DICT_ACCESS_DEPRECATION.format(cls=type(self).__name__),
@@ -89,7 +91,7 @@ class IBANSpec(DictCompatMixin):
         return any(not position.is_empty for position in self.positions.values())
 
 
-@dataclass
+@dataclass(slots=True)
 class Bank(DictCompatMixin):
     country_code: str
     bic: str
