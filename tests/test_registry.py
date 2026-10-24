@@ -85,3 +85,10 @@ def test_bic_lookup_is_limited_to_its_country() -> None:
         (bank.bic or "").startswith("COBADE") for bank in registry.get_banks_by_country("CH")
     )
     assert all(bank.country_code == "DE" for bank in registry.get_banks_by_bic("COBADEFFXXX"))
+
+
+@pytest.mark.parametrize("bank_code", ["138", "154", "529", "539", "900"])
+def test_be_registry_skips_unassigned_bank_codes(bank_code: str) -> None:
+    # The NBB list marks unassigned identification numbers as "VRIJ" or "Onbeschikbaar"
+    # with a BIC of "N/A"; those are not banks.
+    assert registry.get_banks_by_code("BE", bank_code) == []

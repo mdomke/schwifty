@@ -52,6 +52,11 @@ Fixed
   (e.g. Deutsche Bank AG, Commerzbank AG, Citibank N.A., Sparkasse Hochrhein), so Swiss IBANs
   with their bank codes resolve to a bank and BIC. The generator used to drop every bank that
   is not domiciled in Switzerland.
+* The Belgian bank registry no longer lists the identification numbers that the National Bank of
+  Belgium marks as unassigned (``VRIJ``) or unavailable (``Onbeschikbaar``) as banks of that
+  name. Since the switch to the new NBB list their ``N/A`` BIC was read as empty, so the
+  generator kept them, e.g. ``BE68 5390 0754 7034`` resolved to a bank called
+  ``Onbeschikbaar`` and ``IBAN.random("BE")`` could pick those codes.
 
 `2026.10.0`_ - 2026/10/19
 -------------------------
