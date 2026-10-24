@@ -14,6 +14,7 @@ URL = "https://www.nbb.be/doc/be/be/protocol/full_list_current.xlsx"
 def process():
     registry = []
     skip_names = ["NAV", "VRIJ", "NAP", "NYA", "VRIJ - LIBRE", "-"]
+    unassigned_names = ["VRIJ", "ONBESCHIKBAAR"]
 
     r = httpx2.get(URL, follow_redirects=True, timeout=None)
 
@@ -25,7 +26,7 @@ def process():
 
     for row in datas.itertuples(index=False):
         bank_code, bic, name, second_name = row[:4]
-        if str(bic).upper() in skip_names:
+        if str(bic).upper() in skip_names or str(name).upper() in unassigned_names:
             continue
         registry.append(
             {

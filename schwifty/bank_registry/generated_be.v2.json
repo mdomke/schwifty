@@ -467,39 +467,11 @@
     {
       "country_code": "BE",
       "primary": true,
-      "bic": "",
-      "name": "Onbeschikbaar",
-      "short_name": "Onbeschikbaar",
-      "bank_codes": [
-        "138",
-        "520",
-        "539",
-        "545",
-        "900",
-        "901",
-        "902",
-        "972"
-      ]
-    },
-    {
-      "country_code": "BE",
-      "primary": true,
       "bic": "BCMCBEBB",
       "name": "Bancontact Payconiq Company",
       "short_name": "Bancontact Payconiq Company",
       "bank_codes": [
         "150"
-      ]
-    },
-    {
-      "country_code": "BE",
-      "primary": true,
-      "bic": "",
-      "name": "VRIJ",
-      "short_name": "VRIJ",
-      "bank_codes": [
-        "154",
-        "529"
       ]
     },
     {
