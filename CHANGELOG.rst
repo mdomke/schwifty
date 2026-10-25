@@ -36,6 +36,11 @@ Fixed
 * Fixed a typo in the JSON schema pattern that pydantic generates for ``BIC`` fields: the
   optional branch location used ``(:?`` instead of ``(?:``, so published schemas accepted
   strings containing a colon (e.g. ``GENODEM1:GLS``) that the actual validation rejects.
+* The supported-country lists of ``BIC.from_bank_code`` and ``BIC.candidates_from_bank_code`` no
+  longer mention South Africa, which has no bank registry data and always raised
+  ``InvalidBankCode``, and now include Georgia, Malta, Montenegro and Pakistan, which do have
+  registry data. The documentation's BIC validation example claimed an ``InvalidStructure`` error
+  for a 12-character input that actually raises ``InvalidLength``.
 * ``BBAN.random`` and ``IBAN.random`` called with a ``bank_code`` now solve the national check
   digit for the checksum method of that bank, which is the one the result is validated against,
   instead of the method of a randomly picked bank. For German banks whose method rarely accepts
