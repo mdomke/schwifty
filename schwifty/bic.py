@@ -130,6 +130,7 @@ class BIC(common.Base):
             * Estonia
             * Finland
             * France
+            * Georgia
             * Germany
             * Greece
             * Hungary
@@ -142,10 +143,13 @@ class BIC(common.Base):
             * Liechtenstein
             * Lithuania
             * Luxembourg
+            * Malta
             * Moldova
             * Monaco
+            * Montenegro
             * Netherlands
             * Norway
+            * Pakistan
             * Poland
             * Portugal
             * Romania
@@ -153,7 +157,6 @@ class BIC(common.Base):
             * Serbia
             * Slovakia
             * Slovenia
-            * South Africa
             * Spain
             * Sweden
             * Switzerland
@@ -213,6 +216,7 @@ class BIC(common.Base):
             * Czech Republic
             * Finland
             * France
+            * Georgia
             * Germany
             * Great Britan
             * Hungary

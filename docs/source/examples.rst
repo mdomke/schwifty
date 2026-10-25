@@ -78,6 +78,7 @@ and currently includes entries for the following countries:
 * Estonia
 * Finland
 * France
+* Georgia
 * Germany
 * Greece
 * Hungary
@@ -89,10 +90,13 @@ and currently includes entries for the following countries:
 * Latvia
 * Lithuania
 * Luxembourg
+* Malta
 * Moldova
 * Monaco
+* Montenegro
 * Netherlands
 * Norway
+* Pakistan
 * Poland
 * Portugal
 * Romania
@@ -100,7 +104,6 @@ and currently includes entries for the following countries:
 * Serbia
 * Slovakia
 * Slovenia
-* South Africa
 * Spain
 * Sweden
 * Switzerland
@@ -194,9 +197,9 @@ ISO 9362 specification.
   ...
   InvalidLength: Invalid length 12
 
-  >>> BIC('PBNKD1FFXXXX')
+  >>> BIC('PBNKD1FF')
   ...
-  InvalidStructure: Invalid structure PBN1DXFFXXXX
+  InvalidStructure: Invalid structure 'PBNKD1FF'
 
 .. note::
 
