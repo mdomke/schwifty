@@ -18,6 +18,10 @@ Added
 * Added the German checksum method ``C1``, used by ING-DiBa (bank code ``50010517``). Account
   codes starting with ``5`` are checked with a variant of method ``17`` over positions 1 to 9,
   all others with method ``17`` itself. Account codes for this bank were not checked before.
+* Added the German checksum method ``C0``, used by ten savings banks such as Sparkasse
+  Vorpommern auf Rügen (bank code ``13051042``). Account codes with exactly two leading zeros are
+  checked with method ``52``, which also takes the bank code into account, and with method ``20``
+  if that fails. All other account codes are checked with method ``20`` only.
 
 Changed
 ~~~~~~~
