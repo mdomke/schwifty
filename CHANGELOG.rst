@@ -22,9 +22,16 @@ Added
   Vorpommern auf Rügen (bank code ``13051042``). Account codes with exactly two leading zeros are
   checked with method ``52``, which also takes the bank code into account, and with method ``20``
   if that fails. All other account codes are checked with method ``20`` only.
+* ``scripts/get_iban_registry.py`` accepts the path of a manually downloaded "IBAN Registry (TXT)"
+  file, since swift.com rejects automated downloads. The script also no longer truncates
+  ``generated.json`` when the download or parsing fails.
 
 Changed
 ~~~~~~~
+* Updated the IBAN registry from the latest SWIFT release. Honduras (HN) and Yemen (YE) are now
+  part of the official registry and no longer flagged as aspirational. Iceland (IS) is now in the
+  SEPA zone, and the BBAN structure of Brazil is now more liberal. The Czech and Estonian
+  structures are kept at their previous, more detailed form in ``overwrite.json``.
 * The bank registry is now loaded per country on first use instead of all at once, and the
   ``Bank`` objects are shared between the lookup indexes and use ``__slots__``. A first lookup of
   a German IBAN now adds about 3 MB of memory instead of 26 MB, and a French one less than 1 MB
@@ -37,6 +44,14 @@ Changed
 
 Fixed
 ~~~~~
+* Fixed a typo in the JSON schema pattern that pydantic generates for ``BIC`` fields: the
+  optional branch location used ``(:?`` instead of ``(?:``, so published schemas accepted
+  strings containing a colon (e.g. ``GENODEM1:GLS``) that the actual validation rejects.
+* The supported-country lists of ``BIC.from_bank_code`` and ``BIC.candidates_from_bank_code`` no
+  longer mention South Africa, which has no bank registry data and always raised
+  ``InvalidBankCode``, and now include Georgia, Malta, Montenegro and Pakistan, which do have
+  registry data. The documentation's BIC validation example claimed an ``InvalidStructure`` error
+  for a 12-character input that actually raises ``InvalidLength``.
 * ``BBAN.random`` and ``IBAN.random`` called with a ``bank_code`` now solve the national check
   digit for the checksum method of that bank, which is the one the result is validated against,
   instead of the method of a randomly picked bank. For German banks whose method rarely accepts

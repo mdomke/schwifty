@@ -236,13 +236,17 @@ def test_bic_structure_is_validated_over_full_string() -> None:
         ("FR", "18719", "BFCORERXXXX"),  # head office, not the Mayotte branch
         ("FR", "30077", "SMCTFR2A"),
         ("FR", "13489", "NORDFRPP"),
+        ("GE", "BG", "BAGAGE22"),
         ("HU", "107", "CIBHHUHB"),
         ("HR", "2485003", "CROAHR2X"),
         ("IT", "01015", "SARDIT31"),  # generated
         ("IT", "01030", "PASCITMM"),  # curated
         ("LV", "RIKO", "RIKOLV2XXXX"),
         ("MC", "30003", "SOGEMCM1"),
+        ("ME", "907", "CBCGMEPG"),
+        ("MT", "CFTE", "CFTEMTM1"),
         ("NL", "ADYB", "ADYBNL2A"),
+        ("PK", "UNIL", "UNILPKKA"),
         ("PL", "10100055", "NBPLPLPWXXX"),
         ("PL", "10900004", "WBKPPLPPXXX"),
         ("RO", "BPOS", "BPOSROBU"),
@@ -373,6 +377,12 @@ def test_pydantic_protocol() -> None:
 
     dumped = model.model_dump_json()
     assert dumped == '{"bic":"GENODEM1GLS"}'
+
+    from schwifty import bic as bic_module
+
+    schema = Model.model_json_schema()
+    pattern = schema["properties"]["bic"]["pattern"]
+    assert pattern == bic_module._bic_iso9362_re.pattern
 
     loaded = Model.model_validate_json(dumped)
     assert loaded == model

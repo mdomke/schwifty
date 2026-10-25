@@ -130,6 +130,7 @@ class BIC(common.Base):
             * Estonia
             * Finland
             * France
+            * Georgia
             * Germany
             * Greece
             * Hungary
@@ -142,10 +143,13 @@ class BIC(common.Base):
             * Liechtenstein
             * Lithuania
             * Luxembourg
+            * Malta
             * Moldova
             * Monaco
+            * Montenegro
             * Netherlands
             * Norway
+            * Pakistan
             * Poland
             * Portugal
             * Romania
@@ -153,7 +157,6 @@ class BIC(common.Base):
             * Serbia
             * Slovakia
             * Slovenia
-            * South Africa
             * Spain
             * Sweden
             * Switzerland
@@ -213,6 +216,7 @@ class BIC(common.Base):
             * Czech Republic
             * Finland
             * France
+            * Georgia
             * Germany
             * Great Britan
             * Hungary
@@ -312,7 +316,7 @@ class BIC(common.Base):
                     core_schema.is_instance_schema(BIC),
                     core_schema.no_info_plain_validator_function(BIC),
                     core_schema.str_schema(
-                        pattern=r"[A-Z0-9]{4}[A-Z]{2}[A-Z0-9]{2}(:?[A-Z0-9]{3})?",
+                        pattern=r"[A-Z0-9]{4}[A-Z]{2}[A-Z0-9]{2}(?:[A-Z0-9]{3})?",
                         min_length=8,
                         max_length=11,
                     ),

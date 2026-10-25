@@ -295,18 +295,9 @@ def test_random_countries_without_positions(country_code: str) -> None:
     assert str(iban.bban) != "0" * len(iban.bban)
 
 
-def test_random_honduras() -> None:
-    # The Honduran BBAN spec (4!a20!n) has no component positions either, but
-    # unlike the all-digit specs above an all-zero BBAN can never satisfy the
-    # '4!a' part, so IBAN.random("HN") used to raise InvalidStructure.
-    iban = IBAN.random(country_code="HN", random=Random(42), use_registry=False)  # noqa: S311
-    assert iban.is_valid
-    assert str(iban.bban) != "0" * len(iban.bban)
-
-
 def test_from_components_unsupported_country() -> None:
     # Without component positions a BBAN cannot be assembled from components.
     # This raises the explicit "not supported" error rather than the misleading
     # "Bank code exceeds maximum size 0".
-    with pytest.raises(SchwiftyException, match="BBAN generation for HN not supported"):
-        BBAN.from_components("HN", bank_code="BGAH", account_code="12345678901234567890")
+    with pytest.raises(SchwiftyException, match="BBAN generation for AO not supported"):
+        BBAN.from_components("AO", bank_code="1234", account_code="12345678901234567")
