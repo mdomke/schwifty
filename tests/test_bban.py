@@ -118,6 +118,7 @@ def test_bank_prefers_the_primary_record_of_every_registered_bank_code() -> None
         "10020890",  # UniCredit Bank - HypoVereinsbank, method 99
         "50010517",  # ING-DiBa, method C1
         "13051042",  # Sparkasse Vorpommern auf Rügen, method C0
+        "20190109",  # Volksbank Raiffeisenbank, method 48
     ],
 )
 def test_validate_national_checksum_on_truncated_bban(bank_code: str) -> None:
@@ -181,7 +182,7 @@ def test_random_national_checksum_overflow(monkeypatch: pytest.MonkeyPatch) -> N
 
     # Pin the bank ``random`` picks to one whose checksum method schwifty
     # implements. The validator is only consulted for those, so letting the
-    # choice stay random made this test flaky: 85 of the 4805 German records name
+    # choice stay random made this test flaky: 78 of the 4805 German records name
     # a method we don't implement (e.g. "B8" or "D8"), and for those there is
     # nothing to retry and no overflow to raise.
     deutsche_bank = registry.get_banks_by_code("DE", "10070000")
@@ -204,6 +205,7 @@ def test_random_national_checksum_overflow(monkeypatch: pytest.MonkeyPatch) -> N
         ("10110600", "17"),  # Quirin Privatbank
         ("50010517", "C1"),  # ING-DiBa
         ("13051042", "C0"),  # Sparkasse Vorpommern auf Rügen
+        ("20190109", "48"),  # Volksbank Raiffeisenbank
     ],
 )
 def test_random_with_bank_code_uses_the_banks_checksum_method(
