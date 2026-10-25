@@ -18,9 +18,16 @@ Added
 * Added the German checksum method ``C1``, used by ING-DiBa (bank code ``50010517``). Account
   codes starting with ``5`` are checked with a variant of method ``17`` over positions 1 to 9,
   all others with method ``17`` itself. Account codes for this bank were not checked before.
+* ``scripts/get_iban_registry.py`` accepts the path of a manually downloaded "IBAN Registry (TXT)"
+  file, since swift.com rejects automated downloads. The script also no longer truncates
+  ``generated.json`` when the download or parsing fails.
 
 Changed
 ~~~~~~~
+* Updated the IBAN registry from the latest SWIFT release. Honduras (HN) and Yemen (YE) are now
+  part of the official registry and no longer flagged as aspirational. Iceland (IS) is now in the
+  SEPA zone, and the BBAN structure of Brazil is now more liberal. The Czech and Estonian
+  structures are kept at their previous, more detailed form in ``overwrite.json``.
 * The bank registry is now loaded per country on first use instead of all at once, and the
   ``Bank`` objects are shared between the lookup indexes and use ``__slots__``. A first lookup of
   a German IBAN now adds about 3 MB of memory instead of 26 MB, and a French one less than 1 MB

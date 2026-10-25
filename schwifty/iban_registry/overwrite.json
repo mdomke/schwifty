@@ -306,6 +306,8 @@
     }
   },
   "CZ": {
+    "bban_spec": "4!n6!n10!n",
+    "iban_spec": "CZ2!n4!n6!n10!n",
     "positions": {
       "branch_code": [
         4,
@@ -370,6 +372,8 @@
     }
   },
   "EE": {
+    "bban_spec": "2!n2!n11!n1!n",
+    "iban_spec": "EE2!n2!n2!n11!n1!n",
     "positions": {
       "branch_code": [
         2,
@@ -559,15 +563,6 @@
         23
       ]
     }
-  },
-  "HN": {
-    "country": "HN",
-    "bban_spec": "4!a20!n",
-    "bban_length": 24,
-    "iban_spec": "HN2!n4!a20!n",
-    "iban_length": 28,
-    "in_sepa_zone": false,
-    "aspirational": true
   },
   "HU": {
     "positions": {
@@ -1165,28 +1160,5 @@
         23
       ]
     }
-  },
-  "YE": {
-    "country": "YE",
-    "bban_spec": "4!a4!n18!c",
-    "bban_length": 26,
-    "iban_spec": "YE2!n4!a4!n18!c",
-    "iban_length": 30,
-    "positions": {
-      "account_code": [
-        8,
-        26
-      ],
-      "bank_code": [
-        0,
-        4
-      ],
-      "branch_code": [
-        4,
-        8
-      ]
-    },
-    "in_sepa_zone": false,
-    "aspirational": true
   }
 }
