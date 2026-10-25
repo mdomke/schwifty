@@ -1,6 +1,8 @@
 #!/usr/bin/env python
+import argparse
 import json
 import re
+from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin
 
@@ -10,7 +12,8 @@ from bs4 import BeautifulSoup
 
 COUNTRY_CODE_PATTERN = r"[A-Z]{2}"
 EMPTY_RANGE = (0, 0)
-URL = "https://www.swift.com/standards/data-standards/iban"
+URL = "https://www.swift.com/standards/data-standards/iban-international-bank-account-number"
+OUTPUT = Path("schwifty/iban_registry/generated.json")
 
 Record = dict[str, Any]
 
@@ -25,6 +28,10 @@ def get_raw() -> str:
     return httpx2.get(
         urljoin(URL, link["href"]), follow_redirects=True, timeout=None
     ).content.decode(encoding="latin1")
+
+
+def read_raw(path: Path) -> str:
+    return path.read_bytes().decode(encoding="latin1")
 
 
 def parse_int(raw: str) -> int:
@@ -100,6 +107,20 @@ def add_positions(record: Record) -> Record:
     return record
 
 
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Generate the IBAN registry JSON.")
+    parser.add_argument(
+        "file",
+        nargs="?",
+        type=Path,
+        help="manually downloaded 'IBAN Registry (TXT)' file; downloaded from swift.com if omitted",
+    )
+    args = parser.parse_args()
+    raw = read_raw(args.file) if args.file else get_raw()
+    registry = process(parse(raw))
+    with OUTPUT.open("w") as fp:
+        json.dump(registry, fp, indent=2)
+
+
 if __name__ == "__main__":
-    with open("schwifty/iban_registry/generated.json", "w+") as fp:
-        json.dump(process(parse(get_raw())), fp, indent=2)
+    main()
