@@ -294,6 +294,39 @@ def test_german_checksum_c1_compute_and_solve(
     assert algo.solve([account_code]) == [solved]
 
 
+@pytest.mark.parametrize(
+    ("bank_code", "account_code", "valid"),
+    [
+        # Variant 1 (method 52) builds the ESER account number from the bank code, and
+        # the Bundesbank examples for it are given with bank code 13051172.
+        ("13051172", "0043001500", True),
+        ("13051172", "0048726458", True),
+        ("13051172", "0029837521", False),
+        # This one fails variant 1 but passes variant 2 (method 20).
+        ("13051172", "0082335729", True),
+        # Variant 2 test account numbers.
+        ("13051172", "0734192657", True),
+        ("13051172", "6932875274", True),
+        ("13051172", "0132572975", False),
+        ("13051172", "3038752371", False),
+        # Variant 1 depends on the bank code, and these fail method 20.
+        ("13051042", "0043001500", False),
+        ("13051042", "0048726458", False),
+    ],
+)
+def test_german_checksum_c0(bank_code: str, account_code: str, valid: bool) -> None:
+    assert algorithms["DE:C0"].validate([bank_code, account_code], "") is valid
+
+
+def test_german_checksum_c0_compute_and_solve() -> None:
+    algo = algorithms["DE:C0"]
+    # The method 52 example: bank code 13051172 and account code 4P001500 give P = 3.
+    assert algo.compute(["13051172", "0040001500"]) == "3"
+    assert algo.compute(["13051172", "1234567890"]) == "6"
+    # The check digit is solved with method 20, which accepts every account code.
+    assert algo.solve(["13051172", "1234567890"]) == ["13051172", "1234567896"]
+
+
 def test_german_checksum_91_solve_exhausted(monkeypatch: pytest.MonkeyPatch) -> None:
     # Each variant can always place a check digit, so the "none of them worked"
     # result is only reached when every variant declines.
