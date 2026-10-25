@@ -378,6 +378,12 @@ def test_pydantic_protocol() -> None:
     dumped = model.model_dump_json()
     assert dumped == '{"bic":"GENODEM1GLS"}'
 
+    from schwifty import bic as bic_module
+
+    schema = Model.model_json_schema()
+    pattern = schema["properties"]["bic"]["pattern"]
+    assert pattern == bic_module._bic_iso9362_re.pattern
+
     loaded = Model.model_validate_json(dumped)
     assert loaded == model
 

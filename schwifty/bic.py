@@ -316,7 +316,7 @@ class BIC(common.Base):
                     core_schema.is_instance_schema(BIC),
                     core_schema.no_info_plain_validator_function(BIC),
                     core_schema.str_schema(
-                        pattern=r"[A-Z0-9]{4}[A-Z]{2}[A-Z0-9]{2}(:?[A-Z0-9]{3})?",
+                        pattern=r"[A-Z0-9]{4}[A-Z]{2}[A-Z0-9]{2}(?:[A-Z0-9]{3})?",
                         min_length=8,
                         max_length=11,
                     ),

@@ -33,6 +33,9 @@ Changed
 
 Fixed
 ~~~~~
+* Fixed a typo in the JSON schema pattern that pydantic generates for ``BIC`` fields: the
+  optional branch location used ``(:?`` instead of ``(?:``, so published schemas accepted
+  strings containing a colon (e.g. ``GENODEM1:GLS``) that the actual validation rejects.
 * The supported-country lists of ``BIC.from_bank_code`` and ``BIC.candidates_from_bank_code`` no
   longer mention South Africa, which has no bank registry data and always raised
   ``InvalidBankCode``, and now include Georgia, Malta, Montenegro and Pakistan, which do have
