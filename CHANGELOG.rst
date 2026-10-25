@@ -5,8 +5,8 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
-Unreleased
-----------
+`2026.10.1`_ - 2026/10/25
+-------------------------
 Added
 ~~~~~
 * Added :attr:`.IBAN.is_aspirational` and :attr:`.BBAN.is_aspirational` to tell whether a
@@ -17,11 +17,13 @@ Added
   lacks and pins the preferred BIC where GLEIF lists several for one bank code.
 * Added the German checksum method ``C1``, used by ING-DiBa (bank code ``50010517``). Account
   codes starting with ``5`` are checked with a variant of method ``17`` over positions 1 to 9,
-  all others with method ``17`` itself. Account codes for this bank were not checked before.
+  all others with method ``17`` itself. Account codes for this bank were not checked before
+  (#334) `@LuisFigueroaG <https://github.com/LuisFigueroaG>`_.
 * Added the German checksum method ``C0``, used by ten savings banks such as Sparkasse
   Vorpommern auf Rügen (bank code ``13051042``). Account codes with exactly two leading zeros are
   checked with method ``52``, which also takes the bank code into account, and with method ``20``
-  if that fails. All other account codes are checked with method ``20`` only.
+  if that fails. All other account codes are checked with method ``20`` only (#337)
+  `@LuisFigueroaG <https://github.com/LuisFigueroaG>`_.
 * ``scripts/get_iban_registry.py`` accepts the path of a manually downloaded "IBAN Registry (TXT)"
   file, since swift.com rejects automated downloads. The script also no longer truncates
   ``generated.json`` when the download or parsing fails.
@@ -46,12 +48,14 @@ Fixed
 ~~~~~
 * Fixed a typo in the JSON schema pattern that pydantic generates for ``BIC`` fields: the
   optional branch location used ``(:?`` instead of ``(?:``, so published schemas accepted
-  strings containing a colon (e.g. ``GENODEM1:GLS``) that the actual validation rejects.
+  strings containing a colon (e.g. ``GENODEM1:GLS``) that the actual validation rejects (#338)
+  `@feiiiiii5 <https://github.com/feiiiiii5>`_.
 * The supported-country lists of ``BIC.from_bank_code`` and ``BIC.candidates_from_bank_code`` no
   longer mention South Africa, which has no bank registry data and always raised
   ``InvalidBankCode``, and now include Georgia, Malta, Montenegro and Pakistan, which do have
   registry data. The documentation's BIC validation example claimed an ``InvalidStructure`` error
-  for a 12-character input that actually raises ``InvalidLength``.
+  for a 12-character input that actually raises ``InvalidLength`` (#339)
+  `@feiiiiii5 <https://github.com/feiiiiii5>`_.
 * ``BBAN.random`` and ``IBAN.random`` called with a ``bank_code`` now solve the national check
   digit for the checksum method of that bank, which is the one the result is validated against,
   instead of the method of a randomly picked bank. For German banks whose method rarely accepts
@@ -59,7 +63,8 @@ Fixed
   run out of retries and raise ``GenerateRandomOverflowError``. The bank is now looked up the same
   way validation does, even with ``use_registry=False``. Since no random bank is drawn anymore
   when the bank code is given, the output for a seeded ``random`` changes in every country (e.g.
-  ``BBAN.random("FR", random=Random(1), bank_code="11425")``).
+  ``BBAN.random("FR", random=Random(1), bank_code="11425")``) (#329)
+  `@LuisFigueroaG <https://github.com/LuisFigueroaG>`_.
 * Corrected UK bank code lookups: ``BOFS`` now resolves to Bank of Scotland (``BOFSGB21``)
   instead of Lloyds, ``DABA`` to Northern Bank (``DABAGB2B``) instead of one of its branches, and
   Halifax, Co-operative Bank, TSB, PayrNet, Paysend, Clear Junction and The Currency Cloud to
@@ -68,7 +73,7 @@ Fixed
 * The German checksum method ``76`` (used by Commerzbank vormals Dresdner Bank) now accepts
   account numbers whose sub-account number ``00`` was left out and that were padded with leading
   zeros instead, so the check digit sits at position 10 (e.g. ``0000123456``), as the Bundesbank
-  specification requires.
+  specification requires (#330) `@wavebyrd <https://github.com/wavebyrd>`_.
 * The Swiss bank registry now includes the foreign-based banks that take part in Swiss payments
   (e.g. Deutsche Bank AG, Commerzbank AG, Citibank N.A., Sparkasse Hochrhein), so Swiss IBANs
   with their bank codes resolve to a bank and BIC. The generator used to drop every bank that
@@ -77,7 +82,13 @@ Fixed
   Belgium marks as unassigned (``VRIJ``) or unavailable (``Onbeschikbaar``) as banks of that
   name. Since the switch to the new NBB list their ``N/A`` BIC was read as empty, so the
   generator kept them, e.g. ``BE68 5390 0754 7034`` resolved to a bank called
-  ``Onbeschikbaar`` and ``IBAN.random("BE")`` could pick those codes.
+  ``Onbeschikbaar`` and ``IBAN.random("BE")`` could pick those codes (#335)
+  `@raams95 <https://github.com/raams95>`_.
+
+Internal
+~~~~~~~~
+* Added 115 tests covering the national checksum algorithms, registry helpers and IBAN/BBAN/BIC
+  edge cases (#333) `@wxs-lang <https://github.com/wxs-lang>`_.
 
 `2026.10.0`_ - 2026/10/19
 -------------------------
@@ -1049,6 +1060,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2026.10.1: https://github.com/mdomke/schwifty/compare/2026.10.0...2026.10.1
 .. _2026.10.0: https://github.com/mdomke/schwifty/compare/2026.07.3...2026.10.0
 .. _2026.07.3: https://github.com/mdomke/schwifty/compare/2026.07.2...2026.07.3
 .. _2026.07.2: https://github.com/mdomke/schwifty/compare/2026.07.1...2026.07.2
