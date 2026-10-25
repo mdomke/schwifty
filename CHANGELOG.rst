@@ -33,6 +33,9 @@ Changed
 
 Fixed
 ~~~~~
+* Fixed a typo in the JSON schema pattern that pydantic generates for ``BIC`` fields: the
+  optional branch location used ``(:?`` instead of ``(?:``, so published schemas accepted
+  strings containing a colon (e.g. ``GENODEM1:GLS``) that the actual validation rejects.
 * ``BBAN.random`` and ``IBAN.random`` called with a ``bank_code`` now solve the national check
   digit for the checksum method of that bank, which is the one the result is validated against,
   instead of the method of a randomly picked bank. For German banks whose method rarely accepts
