@@ -61,6 +61,14 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("0000254100", "DE:48"),
         # 9*7 + 9*6 + 9*5 + 9*4 + 9*3 + 9*2 = 243, remainder 1 gives check digit 0 too.
         ("0099999900", "DE:48"),
+        # Method 50 test account numbers. The sub-account at positions 8 to 10 is not part
+        # of the calculation.
+        ("4000005001", "DE:50"),
+        ("4444442001", "DE:50"),
+        ("4000005999", "DE:50"),
+        # Without the sub-account "000" the account code is shifted three positions left.
+        ("0004000005", "DE:50"),
+        ("0004444442", "DE:50"),
         ("2063099200", "DE:61"),
         ("0260760481", "DE:61"),
         ("0123456600", "DE:63"),
@@ -177,6 +185,11 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0099999910", "DE:48"),
         # Valid for method 06, but method 48 expects check digit 7 at position 9.
         ("0094012341", "DE:48"),
+        # Method 50 with a wrong check digit at position 7, with and without sub-account.
+        ("4000006001", "DE:50"),
+        ("0004000006", "DE:50"),
+        # Shifting only applies to three leading zeros, it would drop the 1 here.
+        ("0014444442", "DE:50"),
         # Method 76 only accepts leading digits 0, 4, 6, 7, 8 and 9.
         ("1234567890", "DE:76"),
         ("0000123457", "DE:76"),
@@ -296,6 +309,12 @@ def test_german_checksum_48_compute_and_solve() -> None:
     algo = algorithms["DE:48"]
     assert algo.compute(["1234567890"]) == "1"
     assert algo.solve(["1234567890"]) == ["1234567810"]
+
+
+def test_german_checksum_50_compute_and_solve() -> None:
+    algo = algorithms["DE:50"]
+    assert algo.compute(["4444440001"]) == "2"
+    assert algo.solve(["4444440001"]) == ["4444442001"]
 
 
 @pytest.mark.parametrize(

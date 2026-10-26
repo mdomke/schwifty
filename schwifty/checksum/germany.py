@@ -454,6 +454,25 @@ class Algorithm48(Algorithm06):
 
 
 @register
+class Algorithm50(Algorithm06):
+    name = "50"
+    positions = Positions(start=1, end=6, check_digit=7)
+    weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7]
+
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        account_code = validate_account_code(components[0])
+        if super().validate(components, expected):
+            return True
+        # The sub-account number "000" may be omitted and the account code padded with
+        # leading zeros instead. Shift the account code three positions to the left and
+        # check it again.
+        if account_code.startswith("000"):
+            return super().validate([account_code[3:] + "000"], expected)
+        return False
+
+
+@register
 class Algorithm60(Algorithm00):
     name = "60"
     positions = Positions(start=3, end=9, check_digit=10)
