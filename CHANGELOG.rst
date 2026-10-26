@@ -12,6 +12,10 @@ Added
 * Added the German checksum method ``48``, used by seven Volksbanken such as Volksbank
   Raiffeisenbank (bank code ``20190109``). It works like method ``06`` over positions 3 to 8,
   with the check digit at position 9. Account codes for these banks were not checked before.
+* Added the German checksum method ``50``, used by four banks such as Edekabank (bank code
+  ``20090700``). It works like method ``06`` over positions 1 to 6, with the check digit at
+  position 7. Account codes without the sub-account ``000`` are shifted three positions to the
+  left and checked again. Account codes for these banks were not checked before.
 
 `2026.10.1`_ - 2026/10/25
 -------------------------
