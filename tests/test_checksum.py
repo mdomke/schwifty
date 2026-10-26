@@ -61,6 +61,19 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("0000254100", "DE:48"),
         # 9*7 + 9*6 + 9*5 + 9*4 + 9*3 + 9*2 = 243, remainder 1 gives check digit 0 too.
         ("0099999900", "DE:48"),
+        # Method 46 test account numbers. Only positions 3 to 7 are weighted and the check
+        # digit is at position 8.
+        ("0235468612", "DE:46"),
+        ("0837890901", "DE:46"),
+        ("1041447600", "DE:46"),
+        # Positions 1, 2, 9 and 10 are not part of the calculation.
+        ("9935468699", "DE:46"),
+        # Method 47 test account numbers. Only positions 4 to 8 are weighted and the check
+        # digit is at position 9.
+        ("0001018000", "DE:47"),
+        ("1003554450", "DE:47"),
+        # Positions 1 to 3 and 10 are not part of the calculation.
+        ("9993554459", "DE:47"),
         # Method 50 test account numbers. The sub-account at positions 8 to 10 is not part
         # of the calculation.
         ("4000005001", "DE:50"),
@@ -185,6 +198,10 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0099999910", "DE:48"),
         # Valid for method 06, but method 48 expects check digit 7 at position 9.
         ("0094012341", "DE:48"),
+        # Method 46 with a wrong check digit at position 8.
+        ("0235468712", "DE:46"),
+        # Method 47 with a wrong check digit at position 9.
+        ("1003554460", "DE:47"),
         # Method 50 with a wrong check digit at position 7, with and without sub-account.
         ("4000006001", "DE:50"),
         ("0004000006", "DE:50"),
@@ -309,6 +326,18 @@ def test_german_checksum_48_compute_and_solve() -> None:
     algo = algorithms["DE:48"]
     assert algo.compute(["1234567890"]) == "1"
     assert algo.solve(["1234567890"]) == ["1234567810"]
+
+
+def test_german_checksum_46_compute_and_solve() -> None:
+    algo = algorithms["DE:46"]
+    assert algo.compute(["0235468012"]) == "6"
+    assert algo.solve(["0235468012"]) == ["0235468612"]
+
+
+def test_german_checksum_47_compute_and_solve() -> None:
+    algo = algorithms["DE:47"]
+    assert algo.compute(["1003554400"]) == "5"
+    assert algo.solve(["1003554400"]) == ["1003554450"]
 
 
 def test_german_checksum_50_compute_and_solve() -> None:
