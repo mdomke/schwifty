@@ -51,6 +51,16 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("9914001000", "DE:34"),
         ("0000191919", "DE:38"),
         ("0001100660", "DE:38"),
+        # The Bundesbank document has no test account numbers for method 48. Positions
+        # 3 to 8 are weighted 7, 6, 5, 4, 3, 2 and the check digit is at position 9:
+        # 3*7 + 4*6 + 5*5 + 6*4 + 7*3 + 8*2 = 131, 131 % 11 = 10, 11 - 10 = 1.
+        ("1234567810", "DE:48"),
+        # Positions 1, 2 and 10 are not part of the calculation.
+        ("9934567817", "DE:48"),
+        # 2*5 + 5*4 + 4*3 + 1*2 = 44, remainder 0 gives check digit 0.
+        ("0000254100", "DE:48"),
+        # 9*7 + 9*6 + 9*5 + 9*4 + 9*3 + 9*2 = 243, remainder 1 gives check digit 0 too.
+        ("0099999900", "DE:48"),
         ("2063099200", "DE:61"),
         ("0260760481", "DE:61"),
         ("0123456600", "DE:63"),
@@ -162,6 +172,11 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("1123456600", "DE:63"),
         # Without the sub-account the check digit at position 10 still has to match.
         ("0001234567", "DE:63"),
+        # Method 48 with a wrong check digit at position 9.
+        ("1234567890", "DE:48"),
+        ("0099999910", "DE:48"),
+        # Valid for method 06, but method 48 expects check digit 7 at position 9.
+        ("0094012341", "DE:48"),
         # Method 76 only accepts leading digits 0, 4, 6, 7, 8 and 9.
         ("1234567890", "DE:76"),
         ("0000123457", "DE:76"),
@@ -275,6 +290,12 @@ def test_german_checksum_fallback_variants_compute_and_solve(algorithm_name: str
     algo = algorithms[algorithm_name]
     assert algo.compute(["3456789010"]) == "9"
     assert algo.solve(["3456789010"]) == ["3456789019"]
+
+
+def test_german_checksum_48_compute_and_solve() -> None:
+    algo = algorithms["DE:48"]
+    assert algo.compute(["1234567890"]) == "1"
+    assert algo.solve(["1234567890"]) == ["1234567810"]
 
 
 @pytest.mark.parametrize(

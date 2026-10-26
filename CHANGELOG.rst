@@ -5,6 +5,14 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Added
+~~~~~
+* Added the German checksum method ``48``, used by seven Volksbanken such as Volksbank
+  Raiffeisenbank (bank code ``20190109``). It works like method ``06`` over positions 3 to 8,
+  with the check digit at position 9. Account codes for these banks were not checked before.
+
 `2026.10.1`_ - 2026/10/25
 -------------------------
 Added
