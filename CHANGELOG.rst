@@ -16,6 +16,11 @@ Added
   ``20090700``). It works like method ``06`` over positions 1 to 6, with the check digit at
   position 7. Account codes without the sub-account ``000`` are shifted three positions to the
   left and checked again. Account codes for these banks were not checked before.
+* Added the German checksum methods ``46`` and ``47``, used by Barclays Bank Ireland Frankfurt
+  Branch (bank code ``50310400``) and Volksbank Weserbergland (bank code ``27290087``). Both work
+  like method ``06``, method ``46`` over positions 3 to 7 with the check digit at position 8 and
+  method ``47`` over positions 4 to 8 with the check digit at position 9. Account codes for these
+  banks were not checked before.
 
 `2026.10.1`_ - 2026/10/25
 -------------------------
