@@ -111,6 +111,30 @@ def test_gleif_download_url() -> None:
         assert script.get_download_url() == "new"
 
 
+def test_gb_lei_lookup_batches_without_itertools_batched() -> None:
+    """The GB generator must batch its LEI lookups on Python 3.11 as well.
+
+    ``itertools.batched`` only exists from Python 3.12 on, so importing it made this script
+    -- and this whole test module -- fail with an ``ImportError`` on Python 3.11, which
+    schwifty supports.
+    """
+    script = load_script("get_bank_registry_gb")
+    assert not hasattr(script, "batched")
+    assert list(script.chunked("abcde", 2)) == [("a", "b"), ("c", "d"), ("e",)]
+
+    leis = [f"LEI{i:07d}" for i in range(250)]
+    requested = []
+
+    def fake_get(url, **kwargs):
+        requested.append(kwargs["params"]["filter[lei]"].split(","))
+        return SimpleNamespace(json=lambda: {"data": []})
+
+    with patch.object(script.httpx2, "get", side_effect=fake_get):
+        assert script.get_legal_names(set(leis)) == {}
+    assert [len(batch) for batch in requested] == [100, 100, 50]
+    assert [lei for batch in requested for lei in batch] == sorted(leis)
+
+
 @pytest.mark.parametrize(
     ("bics", "primary"),
     [

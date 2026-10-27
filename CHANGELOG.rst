@@ -17,6 +17,12 @@ Added
   position 7. Account codes without the sub-account ``000`` are shifted three positions to the
   left and checked again. Account codes for these banks were not checked before.
 
+Fixed
+~~~~~
+* ``scripts/get_bank_registry_gb.py`` no longer uses ``itertools.batched``, which only exists
+  from Python 3.12 on. The script and the tests covering it failed with an ``ImportError`` on
+  Python 3.11, which schwifty still supports.
+
 `2026.10.1`_ - 2026/10/25
 -------------------------
 Added
