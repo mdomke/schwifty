@@ -23,7 +23,7 @@ uv.pkg-path = "uv"
 ## -------------------------------------------------------------------
 [hook]
 on-activate = """
-  uv python install 3.14
+  uv python install 3.15
 
   export PYTHON_DIR="$FLOX_ENV_PROJECT/.venv"
   if [ ! -d "$PYTHON_DIR" ]; then

@@ -8,7 +8,7 @@
       }
     },
     "hook": {
-      "on-activate": "  uv python install 3.14\n\n  export PYTHON_DIR=\"$FLOX_ENV_PROJECT/.venv\"\n  if [ ! -d \"$PYTHON_DIR\" ]; then\n    echo \"Creating python virtual environment in $PYTHON_DIR\"\n    uv venv --python-preference=only-managed \"$PYTHON_DIR\"\n  fi\n\n\n  # Quietly activate venv and install packages in a subshell so\n  # that the venv can be freshly activated in the profile section.\n  (\n    source \"$PYTHON_DIR/bin/activate\"\n    uv sync --managed-python --all-groups --all-extras --active\n\n    if [ ! -e \"$FLOX_ENV_PROJECT/.git/hooks/pre-commit\" ]; then\n      prek install\n    fi\n  )\n"
+      "on-activate": "  uv python install 3.15\n\n  export PYTHON_DIR=\"$FLOX_ENV_PROJECT/.venv\"\n  if [ ! -d \"$PYTHON_DIR\" ]; then\n    echo \"Creating python virtual environment in $PYTHON_DIR\"\n    uv venv --python-preference=only-managed \"$PYTHON_DIR\"\n  fi\n\n\n  # Quietly activate venv and install packages in a subshell so\n  # that the venv can be freshly activated in the profile section.\n  (\n    source \"$PYTHON_DIR/bin/activate\"\n    uv sync --managed-python --all-groups --all-extras --active\n\n    if [ ! -e \"$FLOX_ENV_PROJECT/.git/hooks/pre-commit\" ]; then\n      prek install\n    fi\n  )\n"
     },
     "profile": {
       "bash": "  echo \"Activating python virtual environment\" >&2\n  source \"$PYTHON_DIR/bin/activate\"\n",
@@ -22,29 +22,28 @@
     {
       "attr_path": "uv",
       "broken": false,
-      "derivation": "/nix/store/qsl52d44539iq21vcdfzdgs99q9vd8b8-uv-0.13.0.drv",
+      "derivation": "/nix/store/nvxks7rz5fbdbg2qclicz0swgffwfcj9-uv-0.13.5.drv",
       "description": "Extremely fast Python package installer and resolver, written in Rust",
       "install_id": "uv",
       "license": "[ Apache-2.0, MIT ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=55bfb4d7437bd4e09ab7cba58a43bd68eb310044",
-      "name": "uv-0.13.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "uv-0.13.5",
       "pname": "uv",
-      "rev": "55bfb4d7437bd4e09ab7cba58a43bd68eb310044",
-      "rev_count": 1092090,
-      "rev_date": "2026-10-14T05:35:54Z",
-      "scrape_date": "2026-10-17T04:01:53.636650Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T05:48:04.201350Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "0.13.0",
+      "version": "0.13.5",
       "outputs_to_install": [
-        "out",
         "out",
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/0vj0nxgh6v1s54cixa2mz1wzvdniyqj5-uv-0.13.0"
+        "out": "/nix/store/69bkdjfr2msvl8nbarggcs7mi96hjlb1-uv-0.13.5"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -53,29 +52,28 @@
     {
       "attr_path": "uv",
       "broken": false,
-      "derivation": "/nix/store/xbhy3hzqqnw2p0i93yi15bw0awcjq0h6-uv-0.13.0.drv",
+      "derivation": "/nix/store/ynwxs12cnlnzkf1g3k1qxfhj1rx12m4z-uv-0.13.5.drv",
       "description": "Extremely fast Python package installer and resolver, written in Rust",
       "install_id": "uv",
       "license": "[ Apache-2.0, MIT ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=55bfb4d7437bd4e09ab7cba58a43bd68eb310044",
-      "name": "uv-0.13.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "uv-0.13.5",
       "pname": "uv",
-      "rev": "55bfb4d7437bd4e09ab7cba58a43bd68eb310044",
-      "rev_count": 1092090,
-      "rev_date": "2026-10-14T05:35:54Z",
-      "scrape_date": "2026-10-17T04:31:09.685948Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T06:16:32.780026Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "0.13.0",
+      "version": "0.13.5",
       "outputs_to_install": [
-        "out",
         "out",
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/8i2qhx5qp8nycpwimlhqppbj2rvl76n9-uv-0.13.0"
+        "out": "/nix/store/zkapy00fbigg12wqjd33ics46snvmbbq-uv-0.13.5"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -84,29 +82,28 @@
     {
       "attr_path": "uv",
       "broken": false,
-      "derivation": "/nix/store/p8psp0fag87yp3jgf8h217xig5wnv569-uv-0.13.0.drv",
+      "derivation": "/nix/store/621mzwr1jxhpgxiakvzzq6xr5kw88xnj-uv-0.13.5.drv",
       "description": "Extremely fast Python package installer and resolver, written in Rust",
       "install_id": "uv",
       "license": "[ Apache-2.0, MIT ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=55bfb4d7437bd4e09ab7cba58a43bd68eb310044",
-      "name": "uv-0.13.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "uv-0.13.5",
       "pname": "uv",
-      "rev": "55bfb4d7437bd4e09ab7cba58a43bd68eb310044",
-      "rev_count": 1092090,
-      "rev_date": "2026-10-14T05:35:54Z",
-      "scrape_date": "2026-10-17T05:06:05.641212Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T06:48:05.865793Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "0.13.0",
+      "version": "0.13.5",
       "outputs_to_install": [
-        "out",
         "out",
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/373m9zapp9af30wim3d9i553fxyap7qz-uv-0.13.0"
+        "out": "/nix/store/9cg9w4h3i9afkh37cb08qwxz6xi1kq8a-uv-0.13.5"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
