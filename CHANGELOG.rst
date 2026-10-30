@@ -35,6 +35,12 @@ Fixed
   therefore unknown to ``pycountry``, although ``IBAN`` already accepts it.
   (#346) `@ryanduguid <https://github.com/ryanduguid>`_.
 
+Fixed
+~~~~~
+* ``scripts/get_bank_registry_gb.py`` no longer uses ``itertools.batched``, which only exists
+  from Python 3.12 on. The script and the tests covering it failed with an ``ImportError`` on
+  Python 3.11, which schwifty still supports.
+
 `2026.10.1`_ - 2026/10/25
 -------------------------
 Added

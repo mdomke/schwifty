@@ -4,7 +4,8 @@ import io
 import json
 import zipfile
 from collections import defaultdict
-from itertools import batched
+from collections.abc import Iterable
+from collections.abc import Iterator
 
 import httpx2
 
@@ -16,6 +17,17 @@ BATCH_SIZE = 100
 # The second character of the location code marks test (0), passive (1) and reverse billing (2)
 # BICs. Fully connected BICs are preferred over the others.
 LOCATION_RANK = {"0": 0, "1": 1, "2": 2}
+
+
+def chunked(values: Iterable[str], size: int) -> Iterator[tuple[str, ...]]:
+    """Split ``values`` into tuples of at most ``size`` items.
+
+    ``itertools.batched`` only exists from Python 3.12 on, while schwifty still supports
+    Python 3.11, where importing it made this module fail with an ``ImportError``.
+    """
+    items = list(values)
+    for start in range(0, len(items), size):
+        yield tuple(items[start : start + size])
 
 
 def get_download_url() -> str:
@@ -38,7 +50,7 @@ def get_bic_lei_mapping(url: str) -> dict[str, str]:
 
 def get_legal_names(leis: set[str]) -> dict[str, str]:
     names = {}
-    for batch in batched(sorted(leis), BATCH_SIZE):
+    for batch in chunked(sorted(leis), BATCH_SIZE):
         response = httpx2.get(
             LEI_RECORDS_URL,
             params={"filter[lei]": ",".join(batch), "page[size]": BATCH_SIZE},
