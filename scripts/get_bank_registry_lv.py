@@ -73,7 +73,11 @@ def merge(current, previous):
     known = {entry["bank_code"]: entry for entry in previous}
     current_codes = {entry["bank_code"] for entry in current}
     retired = sorted(
-        (entry for entry in previous if entry["bank_code"] not in current_codes),
+        (
+            {**entry, "retired": True}
+            for entry in previous
+            if entry["bank_code"] not in current_codes
+        ),
         key=lambda entry: entry["bank_code"],
     )
 

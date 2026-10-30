@@ -27,6 +27,15 @@ Added
   method ``06`` with the weights 2, 4, 8, 5, 10, 9, 7, 3, 6 instead of 2 to 7: method ``40`` over
   positions 1 to 9 and method ``44`` with the first five weights over positions 5 to 9. Account
   codes for these banks were not checked before.
+* Bank codes that are no longer in use are now marked in the registry. :attr:`.Bank.retired` is
+  set for them, and :attr:`.Bank.successor_bank_code` names the successor of a merged bank, whose
+  name and BIC the entry takes on. The merged bank's own BIC is kept as :attr:`.Bank.legacy_bic`
+  and still resolves, e.g. ``BIC("GENODEF1HWR").domestic_bank_codes``. A bank that was closed
+  without a successor (:attr:`.Bank.closed`) is left out of :attr:`.IBAN.bank`, :attr:`.IBAN.bic`,
+  :attr:`.BIC.exists` and the other lookups, since no payments can be made to it. Use
+  :meth:`.IBAN.get_bank` or :meth:`.BIC.from_bank_code` with ``include_closed=True`` to look it up
+  anyway. Account codes of closed banks are still validated with their own checksum method, and
+  :meth:`.IBAN.random` no longer picks retired bank codes.
 * Added the German checksum methods ``41``, ``42`` and ``43``, used by Openbank Deutschland (bank
   code ``25020600``), VR Bank im Enzkreis (bank code ``66661454``) and Volksbank Pforzheim (bank
   code ``66690000``). Method ``41`` works like method ``00``, but leaves out positions 1 to 3 if
@@ -39,8 +48,17 @@ Changed
 * Updated the Latvian bank registry from Latvijas Banka's current BIC list. It adds six payment
   service providers such as Indexo Banka (``IDXO``) and xpate (``SIAX``), and renames BlueOrange
   Bank to BlueOr Bank and LPB Bank to Magnetiq Bank. Banks that are no longer on the official
-  list, such as PNB Banka (``LATB``), are kept so that existing IBANs still resolve. The update
-  script now looks up the renamed spreadsheet on the bank's website instead of using a fixed URL.
+  list, such as PNB Banka (``LATB``), are kept as closed banks. The update script now looks up the
+  renamed spreadsheet on the bank's website instead of using a fixed URL.
+* German bank codes of merged banks now resolve to the successor bank, e.g. ``13061088``
+  (Raiffeisenbank Wismar) to Volks- und Raiffeisenbank, while account codes are still checked with
+  the checksum method of the original bank. Bank codes that the Bundesbank has deleted are no
+  longer dropped from the registry: merged ones are kept as aliases of their successor and those
+  without a successor, such as Greensill Bank (``29020200``), as closed banks if their checksum
+  method is known. About 70 bank codes deleted in recent years have been restored this way.
+* The bank codes of merged Swiss and Slovenian banks, which already resolved to their successor,
+  are now marked as retired. Six of the Swiss ones, such as ``31000`` of UBS Switzerland, were
+  wrongly flagged as primary entries before.
 
 Fixed
 ~~~~~

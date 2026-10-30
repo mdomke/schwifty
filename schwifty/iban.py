@@ -396,8 +396,34 @@ class IBAN(common.Base):
 
     @property
     def bank(self) -> Bank | None:
-        """Bank | None: The information of the bank related to the bank code as part of the BBAN"""
+        """Bank | None: The information of the bank related to the bank code as part of the BBAN
+
+        Closed banks are left out, see :meth:`get_bank`.
+        """
         return self.bban.bank
+
+    def get_bank(self, include_closed: bool = False) -> Bank | None:
+        """Look up the bank related to the bank code as part of the BBAN.
+
+        A bank code that is no longer in use is marked as :attr:`.Bank.retired`. If the bank
+        was merged, the successor bank is returned. If it was closed without a successor, it is
+        only returned when ``include_closed`` is set, since no payments can be made to it.
+
+        Examples:
+            >>> iban = IBAN.generate("DE", bank_code="29020200", account_code="1234567890")
+            >>> iban.bank is None
+            True
+            >>> bank = iban.get_bank(include_closed=True)
+            >>> bank.name, bank.closed
+            ('Greensill Bank', True)
+
+        Args:
+            include_closed (bool): Also return banks that were closed without a successor.
+
+        Returns:
+            Bank | None: The bank or ``None`` if the bank code is not in the registry.
+        """
+        return self.bban.get_bank(include_closed)
 
     @property
     def bank_name(self) -> str | None:
