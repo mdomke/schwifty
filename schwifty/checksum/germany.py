@@ -419,6 +419,21 @@ class Algorithm28(Algorithm06):
 
 
 @register
+class Algorithm31(WeightedMod11):
+    name = "31"
+    minuend = None
+    positions = Positions(start=1, end=9, check_digit=10)
+    weights: ClassVar[list[int]] = [9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+    @override
+    def reconcile(self, checksum: int) -> int:
+        # The remainder is the check digit, so there is none for a remainder of 10.
+        if self.remainder == 10:
+            raise InvalidBBANChecksum(f"Invalid remainder: {self.remainder}")
+        return checksum
+
+
+@register
 class Algorithm32(Algorithm06):
     name = "32"
     positions = Positions(start=4, end=9, check_digit=10)
@@ -756,6 +771,15 @@ class FallbackVariants(checksum.Algorithm):
     @override
     def solve(self, components: list[str]) -> list[str] | None:
         return self.variants[0]().solve(components)
+
+
+@register
+class Algorithm49(FallbackVariants):
+    name = "49"
+    variants: ClassVar[tuple[type[WeightedModulus], type[WeightedModulus]]] = (
+        Algorithm00,
+        Algorithm01,
+    )
 
 
 @register

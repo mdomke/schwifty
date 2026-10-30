@@ -33,6 +33,13 @@ Added
   position 4 is a 9. Method ``42`` works like method ``06`` with the weights 2 to 9 over positions
   2 to 9. Method ``43`` is a modulus 10 method with the weights 1 to 9 over positions 1 to 9.
   Account codes for these banks were not checked before.
+* Added the German checksum methods ``31`` and ``49``. Method ``31`` is used by ABN AMRO Bank,
+  Frankfurt Branch (bank code ``50324000``) and takes the remainder modulo 11 of positions 1 to 9,
+  weighted 1 to 9 from left to right, as the check digit. A remainder of 10 makes the account code
+  invalid. Method ``49`` is used by Kreissparkasse Steinfurt (bank code ``40351060``), Sparkasse
+  Nürnberg (bank code ``76050101``) and Stadt- u. Kreissparkasse Erlangen Höchstadt
+  Herzogenaurach (bank code ``76350000``). It checks with method ``00`` first and falls back to
+  method ``01``. Account codes for these banks were not checked before.
 
 Changed
 ~~~~~~~
