@@ -453,6 +453,31 @@ class Algorithm40(Algorithm06):
 
 
 @register
+class Algorithm41(Algorithm00):
+    name = "41"
+
+    @override
+    def get_positions(self, account_code: str) -> Positions:
+        # Positions 1 to 3 are not part of the calculation if position 4 is a 9.
+        if account_code[3] == "9":
+            return Positions(start=4, end=9, check_digit=10)
+        return super().get_positions(account_code)
+
+
+@register
+class Algorithm42(Algorithm06):
+    name = "42"
+    positions = Positions(start=2, end=9, check_digit=10)
+    weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7, 8, 9]
+
+
+@register
+class Algorithm43(Algorithm01):
+    name = "43"
+    weights: ClassVar[list[int]] = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+@register
 class Algorithm44(Algorithm06):
     name = "44"
     positions = Positions(start=5, end=9, check_digit=10)

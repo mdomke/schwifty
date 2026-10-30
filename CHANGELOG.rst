@@ -27,6 +27,12 @@ Added
   method ``06`` with the weights 2, 4, 8, 5, 10, 9, 7, 3, 6 instead of 2 to 7: method ``40`` over
   positions 1 to 9 and method ``44`` with the first five weights over positions 5 to 9. Account
   codes for these banks were not checked before.
+* Added the German checksum methods ``41``, ``42`` and ``43``, used by Openbank Deutschland (bank
+  code ``25020600``), VR Bank im Enzkreis (bank code ``66661454``) and Volksbank Pforzheim (bank
+  code ``66690000``). Method ``41`` works like method ``00``, but leaves out positions 1 to 3 if
+  position 4 is a 9. Method ``42`` works like method ``06`` with the weights 2 to 9 over positions
+  2 to 9. Method ``43`` is a modulus 10 method with the weights 1 to 9 over positions 1 to 9.
+  Account codes for these banks were not checked before.
 
 Changed
 ~~~~~~~
