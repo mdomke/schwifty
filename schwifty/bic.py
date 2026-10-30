@@ -23,6 +23,10 @@ if TYPE_CHECKING:
 _bic_iso9362_re = re.compile(r"[A-Z0-9]{4}[A-Z]{2}[A-Z0-9]{2}(?:[A-Z0-9]{3})?")
 _bic_swift_re = re.compile(r"[A-Z]{4}[A-Z]{2}[A-Z0-9]{2}(?:[A-Z0-9]{3})?")
 
+# Country codes SWIFT uses in BICs that are not (yet) part of ISO 3166-1. Kosovo's banks are
+# assigned the user-assigned code XK, which the IBAN registry uses as well.
+_non_iso_country_codes = frozenset({"XK"})
+
 
 class BIC(common.Base):
     """The BIC object.
@@ -300,7 +304,7 @@ class BIC(common.Base):
             raise exceptions.InvalidStructure(f"Invalid structure '{self!s}'")
 
     def _validate_country_code(self) -> None:
-        if self.country is None:
+        if self.country is None and self.country_code not in _non_iso_country_codes:
             raise exceptions.InvalidCountryCode(f"Invalid country code '{self.country_code}'")
 
     @classmethod

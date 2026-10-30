@@ -28,6 +28,13 @@ Added
   positions 1 to 9 and method ``44`` with the first five weights over positions 5 to 9. Account
   codes for these banks were not checked before.
 
+Fixed
+~~~~~
+* ``BIC`` no longer rejects BICs of banks in Kosovo (e.g. ``RBKOXKPR``) with
+  ``InvalidCountryCode``. SWIFT assigns them the code ``XK``, which is not part of ISO 3166-1 and
+  therefore unknown to ``pycountry``, although ``IBAN`` already accepts it.
+  (#346) `@ryanduguid <https://github.com/ryanduguid>`_.
+
 `2026.10.1`_ - 2026/10/25
 -------------------------
 Added

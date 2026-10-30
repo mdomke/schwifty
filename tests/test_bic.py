@@ -25,6 +25,15 @@ def test_bic_allow_invalid() -> None:
         bic.validate()
 
 
+@pytest.mark.parametrize("value", ["RBKOXKPR", "RBKOXKPRXXX"])
+def test_bic_kosovo(value: str) -> None:
+    # Kosovo has no ISO 3166-1 entry, but SWIFT issues its BICs with the code XK.
+    bic = BIC(value)
+    assert bic.country_code == "XK"
+    assert bic.country is None
+    assert bic.validate()
+
+
 def test_bic_no_branch_code() -> None:
     bic = BIC("GENODEM1")
     assert bic.branch_code == ""
