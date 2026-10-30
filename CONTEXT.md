@@ -47,3 +47,15 @@ The metadata representation of a specific bank branch, mapping national componen
 (e.g., country code, bank code, branch code) to its name, short name, associated BIC, and
 [Checksum Method](#checksum-method-checksum_algo). Modelled as the strongly typed `Bank` domain
 object; dict-style access to it is deprecated in favour of attribute access.
+
+### Retired Bank Code
+A bank code that the national registry no longer lists, but that schwifty keeps because IBANs
+carrying it are still in circulation. Marked as `retired` on the `Bank`. If the bank merged into
+another one, `successor_bank_code` names the successor, whose name and BIC the entry takes on; the
+checksum method stays the one of the original bank, and its own BIC is kept as `legacy_bic`, so
+that it still resolves. See
+[ADR 2](docs/adr/0002-keep-retired-bank-codes-and-hide-closed-banks.md).
+
+### Closed Bank
+A [Retired Bank Code](#retired-bank-code) without a successor (`Bank.closed`). Since no payments
+can be made to it, lookups only return it when asked for with `include_closed=True`.

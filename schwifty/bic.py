@@ -91,7 +91,9 @@ class BIC(common.Base):
             self.validate(enforce_swift_compliance)
 
     @classmethod
-    def candidates_from_bank_code(cls, country_code: str, bank_code: str) -> list[BIC]:
+    def candidates_from_bank_code(
+        cls, country_code: str, bank_code: str, include_closed: bool = False
+    ) -> list[BIC]:
         """Create a list of potential BIC objects from country-code and domestic bank-code.
 
         Examples:
@@ -111,6 +113,8 @@ class BIC(common.Base):
         Args:
             country_code (str): ISO 3166 alpha2 country-code.
             bank_code (str): Country specific bank-code.
+            include_closed (bool): Also consider banks that were closed without a successor.
+                Retired bank codes of merged banks always resolve to their successor.
 
         Returns:
             list[BIC]: a list of BIC objects generated from the given country code and bank code.
@@ -169,7 +173,7 @@ class BIC(common.Base):
             * United Arab Emirates
             * United Kingdom
         """
-        banks = registry.get_banks_by_code(country_code, bank_code)
+        banks = registry.get_banks_by_code(country_code, bank_code, include_closed)
         if not banks:
             raise exceptions.InvalidBankCode(
                 f"Unknown bank code {bank_code!r} for country {country_code!r}"
@@ -182,7 +186,7 @@ class BIC(common.Base):
         return [cls(entry.bic) for entry in sorted_banks if entry.bic]
 
     @classmethod
-    def from_bank_code(cls, country_code: str, bank_code: str) -> BIC:
+    def from_bank_code(cls, country_code: str, bank_code: str, include_closed: bool = False) -> BIC:
         """Create a new BIC object from country-code and domestic bank-code.
 
         Examples:
@@ -203,6 +207,8 @@ class BIC(common.Base):
         Args:
             country_code (str): ISO 3166 alpha2 country-code.
             bank_code (str): Country specific bank-code.
+            include_closed (bool): Also consider banks that were closed without a successor.
+                Retired bank codes of merged banks always resolve to their successor.
 
         Returns:
             BIC: a BIC object generated from the given country code and bank code.
@@ -238,13 +244,13 @@ class BIC(common.Base):
             * Switzerland
         """
         try:
-            candidates = cls.candidates_from_bank_code(country_code, bank_code)
+            candidates = cls.candidates_from_bank_code(country_code, bank_code, include_closed)
             if len(candidates) > 1:
                 # Among equally generic codes, entries the registry marks as primary win
                 # over the rest before the alphabetical tie-break is applied.
                 primary = {
                     entry.bic
-                    for entry in registry.get_banks_by_code(country_code, bank_code)
+                    for entry in registry.get_banks_by_code(country_code, bank_code, include_closed)
                     if entry.primary and entry.bic
                 }
 
@@ -466,7 +472,11 @@ class BIC(common.Base):
 
     @property
     def exists(self) -> bool:
-        """bool: Indicates if the BIC is available in Schwifty's registry."""
+        """bool: Indicates if the BIC is available in Schwifty's registry.
+
+        BICs of banks that were closed without a successor don't count as available. The former
+        BIC of a merged bank does, see :attr:`.Bank.legacy_bic`.
+        """
         return bool(registry.get_banks_by_bic(str(self)))
 
     @property

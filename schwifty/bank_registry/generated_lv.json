@@ -165,7 +165,8 @@
     "bic": "BLIBLV22XXX",
     "bank_code": "BLIB",
     "name": "AKCIJU SABIEDR\u012aBA \"BALTIC INTERNATIONAL BANK\"",
-    "short_name": "AKCIJU SABIEDR\u012aBA \"BALTIC INTERNATIONAL BANK\""
+    "short_name": "AKCIJU SABIEDR\u012aBA \"BALTIC INTERNATIONAL BANK\"",
+    "retired": true
   },
   {
     "country_code": "LV",
@@ -173,7 +174,8 @@
     "bic": "HANDLV22XXX",
     "bank_code": "HAND",
     "name": "SVENSKA HANDELSBANKEN AB LATVIJAS FILI\u0100LE",
-    "short_name": "SVENSKA HANDELSBANKEN AB LATVIJAS FILI\u0100LE"
+    "short_name": "SVENSKA HANDELSBANKEN AB LATVIJAS FILI\u0100LE",
+    "retired": true
   },
   {
     "country_code": "LV",
@@ -181,7 +183,8 @@
     "bic": "IRCALV22XXX",
     "bank_code": "IRCA",
     "name": "RENESOURCE CAPITAL",
-    "short_name": "RENESOURCE CAPITAL"
+    "short_name": "RENESOURCE CAPITAL",
+    "retired": true
   },
   {
     "country_code": "LV",
@@ -189,7 +192,8 @@
     "bic": "LATBLV22XXX",
     "bank_code": "LATB",
     "name": "AS \"PNB BANKA\"",
-    "short_name": "AS \"PNB BANKA\""
+    "short_name": "AS \"PNB BANKA\"",
+    "retired": true
   },
   {
     "country_code": "LV",
@@ -197,7 +201,8 @@
     "bic": "LATCLV22XXX",
     "bank_code": "LATC",
     "name": "AS EXPOBANK",
-    "short_name": "AS EXPOBANK"
+    "short_name": "AS EXPOBANK",
+    "retired": true
   },
   {
     "country_code": "LV",
@@ -205,7 +210,8 @@
     "bic": "LKJFLV21XXX",
     "bank_code": "LKJF",
     "name": "LATVIJAS TIRDZNIEC\u012aBAS FLOTES J\u016aRNIEKU ARODBIEDR\u012aBAS KOOPERAT\u012aV\u0100 KR\u0100JAIZDEVU SABIEDR\u012aBA \"J\u016aRNIEKU FORUMS\"",
-    "short_name": "LATVIJAS TIRDZNIEC\u012aBAS FLOTES J\u016aRNIEKU ARODBIEDR\u012aBAS KOOPERAT\u012aV\u0100 KR\u0100JAIZDEVU SABIEDR\u012aBA \"J\u016aRNIEKU FORUMS\""
+    "short_name": "LATVIJAS TIRDZNIEC\u012aBAS FLOTES J\u016aRNIEKU ARODBIEDR\u012aBAS KOOPERAT\u012aV\u0100 KR\u0100JAIZDEVU SABIEDR\u012aBA \"J\u016aRNIEKU FORUMS\"",
+    "retired": true
   },
   {
     "country_code": "LV",
@@ -213,7 +219,8 @@
     "bic": "MARALV22XXX",
     "bank_code": "MARA",
     "name": "DANSKE BANK A/S FILI\u0100LE LATVIJ\u0100 ",
-    "short_name": "DANSKE BANK A/S FILI\u0100LE LATVIJ\u0100 "
+    "short_name": "DANSKE BANK A/S FILI\u0100LE LATVIJ\u0100 ",
+    "retired": true
   },
   {
     "country_code": "LV",
@@ -221,7 +228,8 @@
     "bic": "NDEALV2XXXX",
     "bank_code": "NDEA",
     "name": "LUMINOR BANK AS",
-    "short_name": "LUMINOR BANK AS"
+    "short_name": "LUMINOR BANK AS",
+    "retired": true
   },
   {
     "country_code": "LV",
@@ -229,7 +237,8 @@
     "bic": "PRTTLV22XXX",
     "bank_code": "PRTT",
     "name": "AS \"PRIVATBANK\"",
-    "short_name": "AS \"PRIVATBANK\""
+    "short_name": "AS \"PRIVATBANK\"",
+    "retired": true
   },
   {
     "country_code": "LV",
@@ -237,7 +246,8 @@
     "bic": "RGNSLV22XXX",
     "bank_code": "RGNS",
     "name": "RIGENSIS BANK AS",
-    "short_name": "RIGENSIS BANK AS"
+    "short_name": "RIGENSIS BANK AS",
+    "retired": true
   },
   {
     "country_code": "LV",
@@ -245,6 +255,7 @@
     "bic": "TRSFLV21XXX",
     "bank_code": "TRSF",
     "name": "SABIEDR\u012aBA AR IEROBE\u017dOTU ATBILD\u012aBU \"TRANSFERTA\"",
-    "short_name": "SABIEDR\u012aBA AR IEROBE\u017dOTU ATBILD\u012aBU \"TRANSFERTA\""
+    "short_name": "SABIEDR\u012aBA AR IEROBE\u017dOTU ATBILD\u012aBU \"TRANSFERTA\"",
+    "retired": true
   }
 ]

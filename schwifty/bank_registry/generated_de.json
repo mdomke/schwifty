@@ -207,6 +207,16 @@
     "checksum_algo": "99"
   },
   {
+    "bank_code": "10030200",
+    "name": "Landesbank Baden-W\u00fcrttemberg",
+    "short_name": "LBBW Berlin",
+    "bic": "BHYPDEB2XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "10030400",
     "name": "ABK Allgemeine Beamten Bank",
     "short_name": "ABK Bank Berlin",
@@ -223,6 +233,46 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
+  },
+  {
+    "bank_code": "10030600",
+    "name": "North Channel Bank",
+    "short_name": "North Channel Bank Mainz",
+    "bic": "GENODEF1OGK",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "retired": true
+  },
+  {
+    "bank_code": "10030700",
+    "name": "Eurocity Bank",
+    "short_name": "Eurocity Bank",
+    "bic": "DLGHDEB1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "16",
+    "retired": true
+  },
+  {
+    "bank_code": "10030730",
+    "name": "Eurocity Bank Gf GAA",
+    "short_name": "Eurocity Bank Gf GAA",
+    "bic": "DLGHDEB1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "16",
+    "retired": true
+  },
+  {
+    "bank_code": "10031000",
+    "name": "EIS Einlagensicherungsbank",
+    "short_name": "EIS Bank Berlin",
+    "bic": "EIEGDEB1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "10033300",
@@ -361,12 +411,15 @@
   },
   {
     "bank_code": "10060198",
-    "name": "Pax-Bank",
-    "short_name": "Pax-Bank Berlin",
-    "bic": "GENODED1PA6",
-    "primary": true,
+    "name": "Pax-Bank f\u00fcr Kirche und Caritas",
+    "short_name": "Pax-BKC Paderborn",
+    "bic": "GENODED1PAX",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "retired": true,
+    "checksum_algo": "06",
+    "successor_bank_code": "37060193",
+    "legacy_bic": "GENODED1PA6"
   },
   {
     "bank_code": "10061006",
@@ -664,6 +717,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "94"
+  },
+  {
+    "bank_code": "10120800",
+    "name": "BNP Paribas Ndl. Deutschland former VON ESSEN Bank",
+    "short_name": "BNP Paribas Ndl. Dt.",
+    "bic": "VONEDE33BLN",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "10130600",
@@ -1594,21 +1657,27 @@
   },
   {
     "bank_code": "13061088",
-    "name": "Raiffeisenbank Wismar -alt-",
-    "short_name": "VB u Raiffbk -alt-",
-    "bic": "GENODEF1HWR",
-    "primary": true,
+    "name": "Volks- und Raiffeisenbank",
+    "short_name": "VB u Raiffbk",
+    "bic": "GENODEF1HWI",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "32"
+    "retired": true,
+    "checksum_algo": "32",
+    "successor_bank_code": "13061078",
+    "legacy_bic": "GENODEF1HWR"
   },
   {
     "bank_code": "13061128",
-    "name": "Raiffeisenbank",
-    "short_name": "Raiffeisenbank Bad Doberan",
-    "bic": "GENODEF1DBR",
-    "primary": true,
+    "name": "VR Bank Mecklenburg",
+    "short_name": "VR Bank Mecklenburg",
+    "bic": "GENODEF1GUE",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "32"
+    "retired": true,
+    "checksum_algo": "32",
+    "successor_bank_code": "14061308",
+    "legacy_bic": "GENODEF1DBR"
   },
   {
     "bank_code": "13070000",
@@ -2242,12 +2311,15 @@
   },
   {
     "bank_code": "13091084",
-    "name": "Volksbank Wismar -alt-",
-    "short_name": "VB u Raiffbk -alt-",
-    "bic": "GENODEF1HWV",
-    "primary": true,
+    "name": "Volks- und Raiffeisenbank",
+    "short_name": "VB u Raiffbk",
+    "bic": "GENODEF1HWI",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "retired": true,
+    "checksum_algo": "06",
+    "successor_bank_code": "13061078",
+    "legacy_bic": "GENODEF1HWV"
   },
   {
     "bank_code": "14040000",
@@ -3366,6 +3438,16 @@
     "checksum_algo": "13"
   },
   {
+    "bank_code": "20050000",
+    "name": "Hamburg Commercial Bank, ehemals HSH Nordbank Hamburg",
+    "short_name": "Hamburg Commercial Bank",
+    "bic": "HSHNDEHHXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "C5",
+    "retired": true
+  },
+  {
     "bank_code": "20050550",
     "name": "Hamburger Sparkasse",
     "short_name": "Haspa Hamburg",
@@ -3960,6 +4042,16 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "20090500",
+    "name": "Augsburger Aktienbank (netbank)",
+    "short_name": "AAB (netbank)",
+    "bic": "AUGBDE71NET",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "81",
+    "retired": true
+  },
+  {
     "bank_code": "20090700",
     "name": "Edekabank",
     "short_name": "Edekabank Hamburg",
@@ -4185,6 +4277,16 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "20220400",
+    "name": "Warburg, M.M. - Hypothekenbank",
+    "short_name": "M.M. Warburg Hyp Hamburg",
+    "bic": "MMWHDEH1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "20220800",
     "name": "Banking Circle - German Branch",
     "short_name": "Banking Circle Germany",
@@ -4228,6 +4330,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
+  },
+  {
+    "bank_code": "20320500",
+    "name": "Danske Bank",
+    "short_name": "Danske Bank Hamburg",
+    "bic": "DABADEHHXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "20690500",
@@ -5112,6 +5224,16 @@
     "checksum_algo": "00"
   },
   {
+    "bank_code": "21000000",
+    "name": "Bundesbank eh Kiel",
+    "short_name": "BBk Hamburg eh Kiel",
+    "bic": "MARKDEF1210",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "21020600",
     "name": "AL Sydbank Filiale Kiel",
     "short_name": "AL Sydbank Fil. Kiel",
@@ -5832,6 +5954,16 @@
     "checksum_algo": "10"
   },
   {
+    "bank_code": "23000000",
+    "name": "Bundesbank eh L\u00fcbeck",
+    "short_name": "BBk Hamburg eh L\u00fcbeck",
+    "bic": "MARKDEF1230",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "23040022",
     "name": "Commerzbank",
     "short_name": "Commerzbank L\u00fcbeck",
@@ -5839,6 +5971,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "13"
+  },
+  {
+    "bank_code": "23050000",
+    "name": "Hamburg Commercial Bank, ehemals HSH Nordbank Hamburg",
+    "short_name": "Hamburg Commercial Bank",
+    "bic": "HSHNDEHH230",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "C5",
+    "retired": true
   },
   {
     "bank_code": "23050101",
@@ -6301,12 +6443,14 @@
   },
   {
     "bank_code": "25050299",
-    "name": "Kreissparkasse Hannover -alt-",
-    "short_name": "Kr Spk Hannover -alt-",
+    "name": "Sparkasse Hannover",
+    "short_name": "Sparkasse Hannover",
     "bic": "SPKHDE2HXXX",
-    "primary": true,
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "A3"
+    "retired": true,
+    "checksum_algo": "A3",
+    "successor_bank_code": "25050180"
   },
   {
     "bank_code": "25055500",
@@ -6937,6 +7081,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "28"
+  },
+  {
+    "bank_code": "25690010",
+    "name": "Volksbank Nienburg (Gf GAA)",
+    "short_name": "Volksbank Nienburg (GAA)",
+    "bic": "GENODEF1NIN",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "28",
+    "retired": true
   },
   {
     "bank_code": "25691633",
@@ -7831,12 +7985,15 @@
   },
   {
     "bank_code": "26760005",
-    "name": "Raiffeisen- und Volksbank Nordhorn -alt-",
-    "short_name": "Raiff- u VB Nordhorn -alt-",
-    "bic": "GENODEF1NDH",
-    "primary": true,
+    "name": "Grafschafter Volksbank",
+    "short_name": "Grafschafter Volksbank",
+    "bic": "GENODEF1NEV",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "28"
+    "retired": true,
+    "checksum_algo": "28",
+    "successor_bank_code": "28069956",
+    "legacy_bic": "GENODEF1NDH"
   },
   {
     "bank_code": "26770024",
@@ -8089,6 +8246,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "50"
+  },
+  {
+    "bank_code": "27010200",
+    "name": "BNP Paribas Ndl. Deutschland former VON ESSEN Bank",
+    "short_name": "BNP Paribas Ndl. Dt.",
+    "bic": "VONEDE33BRA",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "27020000",
@@ -8911,12 +9078,15 @@
   },
   {
     "bank_code": "28069293",
-    "name": "Volksbank Obergrafschaft -alt-",
-    "short_name": "VB Obergrafschaft -alt-",
-    "bic": "GENODEF1BBH",
-    "primary": true,
+    "name": "Grafschafter Volksbank",
+    "short_name": "Grafschafter Volksbank",
+    "bic": "GENODEF1NEV",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "28"
+    "retired": true,
+    "checksum_algo": "28",
+    "successor_bank_code": "28069956",
+    "legacy_bic": "GENODEF1BBH"
   },
   {
     "bank_code": "28069381",
@@ -8938,12 +9108,15 @@
   },
   {
     "bank_code": "28069755",
-    "name": "Raiffeisenbank Oldersum",
-    "short_name": "Raiffeisenbank Oldersum",
-    "bic": "GENODEF1MLO",
-    "primary": true,
+    "name": "Fehntjer VR Bank",
+    "short_name": "Fehntjer VRBank Moormerland",
+    "bic": "GENODEF1MML",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "28"
+    "retired": true,
+    "checksum_algo": "28",
+    "successor_bank_code": "28563749",
+    "legacy_bic": "GENODEF1MLO"
   },
   {
     "bank_code": "28069773",
@@ -9379,12 +9552,15 @@
   },
   {
     "bank_code": "28562863",
-    "name": "Raiffeisenbank Moormerland",
-    "short_name": "Raiffeisenbank Moormerland",
-    "bic": "GENODEF1HTL",
-    "primary": true,
+    "name": "Fehntjer VR Bank",
+    "short_name": "Fehntjer VRBank Moormerland",
+    "bic": "GENODEF1MML",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "28"
+    "retired": true,
+    "checksum_algo": "28",
+    "successor_bank_code": "28563749",
+    "legacy_bic": "GENODEF1HTL"
   },
   {
     "bank_code": "28563749",
@@ -9477,6 +9653,16 @@
     "checksum_algo": "28"
   },
   {
+    "bank_code": "29000000",
+    "name": "Bundesbank eh Bremen",
+    "short_name": "BBk Hannover eh Bremen",
+    "bic": "MARKDEF1290",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "29020000",
     "name": "Bankhaus Neelmeyer",
     "short_name": "Bankhaus Neelmeyer Bremen",
@@ -9484,6 +9670,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
+  },
+  {
+    "bank_code": "29020200",
+    "name": "Greensill Bank",
+    "short_name": "Greensill Bank Bremen",
+    "bic": "NFHBDE21XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "29030400",
@@ -9999,6 +10195,26 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "30018800",
+    "name": "VIVA PAYMENT SERVICES - Zweigniederlassung Deutschland",
+    "short_name": "VIVA Payments",
+    "bic": "VPAYDE32XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
+    "bank_code": "30019000",
+    "name": "ipagoo - German Branch",
+    "short_name": "ipagoo D\u00fcsseldorf",
+    "bic": "IPAGDEDFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "30020500",
     "name": "ODDO BHF",
     "short_name": "ODDO BHF D\u00fcsseldorf",
@@ -10033,6 +10249,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "08"
+  },
+  {
+    "bank_code": "30025500",
+    "name": "Portigon",
+    "short_name": "Portigon D\u00fcsseldorf",
+    "bic": "PORTDEDDXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "08",
+    "retired": true
   },
   {
     "bank_code": "30030100",
@@ -10864,12 +11090,15 @@
   },
   {
     "bank_code": "31062553",
-    "name": "Volksbank Schwalmtal",
-    "short_name": "Volksbank Schwalmtal",
-    "bic": "GENODED1NKR",
-    "primary": true,
+    "name": "Volksbank Viersen",
+    "short_name": "Volksbank Viersen",
+    "bic": "GENODED1VSN",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "retired": true,
+    "checksum_algo": "06",
+    "successor_bank_code": "31460290",
+    "legacy_bic": "GENODED1NKR"
   },
   {
     "bank_code": "31070001",
@@ -12258,6 +12487,16 @@
     "checksum_algo": "24"
   },
   {
+    "bank_code": "36010200",
+    "name": "BNP Paribas Ndl. Deutschland former VON ESSEN BANK",
+    "short_name": "BNP Paribas Ndl. Dt.",
+    "bic": "VONEDE33XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "36010424",
     "name": "Aareal Bank",
     "short_name": "Aareal Bank Essen",
@@ -12340,12 +12579,15 @@
   },
   {
     "bank_code": "36060192",
-    "name": "Pax-Bank",
-    "short_name": "Pax-Bank Essen",
-    "bic": "GENODED1PA2",
-    "primary": true,
+    "name": "Pax-Bank f\u00fcr Kirche und Caritas",
+    "short_name": "Pax-BKC Paderborn",
+    "bic": "GENODED1PAX",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "retired": true,
+    "checksum_algo": "06",
+    "successor_bank_code": "37060193",
+    "legacy_bic": "GENODED1PA2"
   },
   {
     "bank_code": "36060295",
@@ -12636,6 +12878,16 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "37020900",
+    "name": "Ford Bank Ndl. der FCE Bank",
+    "short_name": "Ford Bank K\u00f6ln",
+    "bic": "FDBADE3KXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "37021500",
     "name": "Ford Bank",
     "short_name": "Ford Bank, K\u00f6ln",
@@ -12661,6 +12913,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
+  },
+  {
+    "bank_code": "37030200",
+    "name": "Deutsche Oppenheim Family Office (ehem. Sal. Oppenheim)",
+    "short_name": "Deutsche Oppenheim K\u00f6ln",
+    "bic": "SOPPDE3KXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "37030700",
@@ -12880,12 +13142,15 @@
   },
   {
     "bank_code": "37069302",
-    "name": "Raiffeisenbank -alt-",
-    "short_name": "Raiffbk Geilenkirchen -alt-",
-    "bic": "GENODED1GLK",
-    "primary": true,
+    "name": "Volksbank Heinsberg",
+    "short_name": "Volksbank Heinsberg",
+    "bic": "GENODED1HRB",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "retired": true,
+    "checksum_algo": "06",
+    "successor_bank_code": "37069412",
+    "legacy_bic": "GENODED1GLK"
   },
   {
     "bank_code": "37069303",
@@ -12943,12 +13208,15 @@
   },
   {
     "bank_code": "37069354",
-    "name": "Raiffeisenbank Selfkant  -alt-",
-    "short_name": "Raiffbk Selfkant -alt-",
-    "bic": "GENODED1SEG",
-    "primary": true,
+    "name": "Volksbank Heinsberg",
+    "short_name": "Volksbank Heinsberg",
+    "bic": "GENODED1HRB",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "retired": true,
+    "checksum_algo": "06",
+    "successor_bank_code": "37069412",
+    "legacy_bic": "GENODED1SEG"
   },
   {
     "bank_code": "37069355",
@@ -13636,12 +13904,15 @@
   },
   {
     "bank_code": "37551020",
-    "name": "Stadt-Sparkasse Leichlingen -alt-",
-    "short_name": "St Spk Leichlingen Rh.-alt-",
-    "bic": "WELADED1LEI",
-    "primary": true,
+    "name": "Kreissparkasse K\u00f6ln",
+    "short_name": "Kreissparkasse K\u00f6ln",
+    "bic": "COKSDE33XXX",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "00"
+    "retired": true,
+    "checksum_algo": "00",
+    "successor_bank_code": "37050299",
+    "legacy_bic": "WELADED1LEI"
   },
   {
     "bank_code": "37551440",
@@ -13852,12 +14123,15 @@
   },
   {
     "bank_code": "38050000",
-    "name": "Sparkasse Bonn -alt-",
-    "short_name": "Sparkasse Bonn -alt-",
-    "bic": "COLSDE33BON",
-    "primary": true,
+    "name": "Sparkasse K\u00f6lnBonn",
+    "short_name": "Sparkasse K\u00f6lnBonn",
+    "bic": "COLSDE33XXX",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "00"
+    "retired": true,
+    "checksum_algo": "00",
+    "successor_bank_code": "37050198",
+    "legacy_bic": "COLSDE33BON"
   },
   {
     "bank_code": "38051290",
@@ -14194,21 +14468,27 @@
   },
   {
     "bank_code": "38650000",
-    "name": "Kreissparkasse Siegburg -alt-",
-    "short_name": "Kr Spk Siegburg -alt-",
-    "bic": "WELADED1SGB",
-    "primary": true,
+    "name": "Kreissparkasse K\u00f6ln",
+    "short_name": "Kreissparkasse K\u00f6ln",
+    "bic": "COKSDE33XXX",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "00"
+    "retired": true,
+    "checksum_algo": "00",
+    "successor_bank_code": "37050299",
+    "legacy_bic": "WELADED1SGB"
   },
   {
     "bank_code": "38651390",
-    "name": "Sparkasse Hennef -alt-",
-    "short_name": "Sparkasse Hennef -alt-",
-    "bic": "WELADED1HEN",
-    "primary": true,
+    "name": "Kreissparkasse K\u00f6ln",
+    "short_name": "Kreissparkasse K\u00f6ln",
+    "bic": "COKSDE33XXX",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "00"
+    "retired": true,
+    "checksum_algo": "00",
+    "successor_bank_code": "37050299",
+    "legacy_bic": "WELADED1HEN"
   },
   {
     "bank_code": "39020000",
@@ -14248,12 +14528,15 @@
   },
   {
     "bank_code": "39061981",
-    "name": "Heinsberger Volksbank -alt-",
-    "short_name": "Heinsberger Volksbank -alt-",
-    "bic": "GENODED1HNB",
-    "primary": true,
+    "name": "Volksbank Heinsberg",
+    "short_name": "Volksbank Heinsberg",
+    "bic": "GENODED1HRB",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "retired": true,
+    "checksum_algo": "06",
+    "successor_bank_code": "37069412",
+    "legacy_bic": "GENODED1HNB"
   },
   {
     "bank_code": "39070020",
@@ -14482,12 +14765,15 @@
   },
   {
     "bank_code": "39160191",
-    "name": "Pax-Bank",
-    "short_name": "Pax-Bank Aachen",
-    "bic": "GENODED1PA1",
-    "primary": true,
+    "name": "Pax-Bank f\u00fcr Kirche und Caritas",
+    "short_name": "Pax-BKC Paderborn",
+    "bic": "GENODED1PAX",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "retired": true,
+    "checksum_algo": "06",
+    "successor_bank_code": "37060193",
+    "legacy_bic": "GENODED1PA1"
   },
   {
     "bank_code": "39161490",
@@ -14659,6 +14945,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "34"
+  },
+  {
+    "bank_code": "40060300",
+    "name": "DZ HYP - M\u00fcnster",
+    "short_name": "DZ HYP - M\u00fcnster",
+    "bic": "GENODEM1WLM",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "34",
+    "retired": true
   },
   {
     "bank_code": "40060560",
@@ -18028,12 +18324,15 @@
   },
   {
     "bank_code": "47261429",
-    "name": "Volksbank Haaren -alt-",
-    "short_name": "Volksbank Haaren -alt-",
-    "bic": "GENODEM1WNH",
-    "primary": true,
+    "name": "Volksbank Brilon-B\u00fcren-Salzkotten -alt-",
+    "short_name": "VB Brilon-B\u00fcren-Salzk.-alt-",
+    "bic": "GENODEM1BUS",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "34"
+    "retired": true,
+    "checksum_algo": "34",
+    "successor_bank_code": "47261603",
+    "legacy_bic": "GENODEM1WNH"
   },
   {
     "bank_code": "47261603",
@@ -18181,12 +18480,15 @@
   },
   {
     "bank_code": "47460028",
-    "name": "Volksbank Warburger Land -alt-",
-    "short_name": "VB Warburger Land -alt-",
-    "bic": "GENODEM1WBG",
-    "primary": true,
+    "name": "Vereinigte Volksbank",
+    "short_name": "Vereinigte Volksbank",
+    "bic": "GENODEM1STM",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "34"
+    "retired": true,
+    "checksum_algo": "34",
+    "successor_bank_code": "47264367",
+    "legacy_bic": "GENODEM1WBG"
   },
   {
     "bank_code": "47640051",
@@ -19170,6 +19472,16 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "50020000",
+    "name": "S\u00dcDWESTBANK - BAWAG Niederlassung Deutschland",
+    "short_name": "S\u00dcDWESTBANK-BAWAG NL DE",
+    "bic": "SEZDDEF1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "28",
+    "retired": true
+  },
+  {
     "bank_code": "50020200",
     "name": "ODDO BHF",
     "short_name": "ODDO BHF Frankfurt Main",
@@ -19294,6 +19606,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50030100",
+    "name": "HKB Bank Frankfurt",
+    "short_name": "HKB Bank Frankfurt am Main",
+    "bic": "HKBBDEF1FRA",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "00",
+    "retired": true
   },
   {
     "bank_code": "50030500",
@@ -20646,6 +20968,16 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "50110300",
+    "name": "DVB Bank",
+    "short_name": "DVB Frankfurt Main",
+    "bic": "DVKBDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "10",
+    "retired": true
+  },
+  {
     "bank_code": "50110400",
     "name": "AKA Ausfuhrkredit GmbH",
     "short_name": "AKA Ausfuhrkredit Frankfurt",
@@ -20727,6 +21059,16 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "50120000",
+    "name": "Stifel Europe Bank",
+    "short_name": "Stifel Europe Bank",
+    "bic": "MAIFDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "50120100",
     "name": "ICICI Bank UK, Germany Branch",
     "short_name": "ICICI Bank Eschborn",
@@ -20743,6 +21085,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50120500",
+    "name": "Credit Suisse (Deutschland)",
+    "short_name": "CSD Frankfurt Main",
+    "bic": "CRESDE55XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "66",
+    "retired": true
   },
   {
     "bank_code": "50120600",
@@ -20781,6 +21133,16 @@
     "checksum_algo": "06"
   },
   {
+    "bank_code": "50123400",
+    "name": "VTB Bank (Europe) Zndl Frankfurt am Main (Direktbank)",
+    "short_name": "VTB Direktbank",
+    "bic": "DOBADEF1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "28",
+    "retired": true
+  },
+  {
     "bank_code": "50127000",
     "name": "PKO Bank Polski Niederlassung Deutschland",
     "short_name": "PKO Bank Polski Frankfurt",
@@ -20806,6 +21168,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
+  },
+  {
+    "bank_code": "50130200",
+    "name": "Deutsche Oppenheim Family Office (ehem. Sal. Oppenheim)",
+    "short_name": "Deutsche Oppenheim FFM",
+    "bic": "SOPPDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "50130400",
@@ -20878,6 +21250,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "18"
+  },
+  {
+    "bank_code": "50210212",
+    "name": "RaboDirect",
+    "short_name": "RaboDirect Frankfurt Main",
+    "bic": "RABODEFFDIR",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "18",
+    "retired": true
   },
   {
     "bank_code": "50210295",
@@ -20986,6 +21368,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
+  },
+  {
+    "bank_code": "50230100",
+    "name": "Morgan Stanley Bank Internaional",
+    "short_name": "Morgan Stanley Bank Int",
+    "bic": "MSPCDEF1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "50230600",
@@ -21132,6 +21524,26 @@
     "checksum_algo": "31"
   },
   {
+    "bank_code": "50324015",
+    "name": "ABN AMRO Bank Frankfurt Branch, Prospery",
+    "short_name": "ABN AMRO Bank, Prospery",
+    "bic": "FTSBDEFAPRO",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "31",
+    "retired": true
+  },
+  {
+    "bank_code": "50324040",
+    "name": "ABN AMRO Bank, MoneYou",
+    "short_name": "ABN AMRO Bank MoneYou, Ffm",
+    "bic": "FTSBDEFAMYO",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "31",
+    "retired": true
+  },
+  {
     "bank_code": "50330000",
     "name": "State Bank of India",
     "short_name": "State Bk of India Frankfurt",
@@ -21238,6 +21650,16 @@
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "99"
+  },
+  {
+    "bank_code": "50522222",
+    "name": "FIDOR Bank Zndl Frankfurt am Main",
+    "short_name": "FIDOR Bank Frankfurt",
+    "bic": "FDDODEMMXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "50530000",
@@ -21646,12 +22068,15 @@
   },
   {
     "bank_code": "50763319",
-    "name": "Raiffeisenbank Vogelsberg -alt-",
-    "short_name": "Raiffbk Vogelsberg Birstein",
-    "bic": "GENODEF1BIR",
-    "primary": true,
+    "name": "VR Bank Fulda",
+    "short_name": "VR Bank Fulda",
+    "bic": "GENODE51FUL",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "32"
+    "retired": true,
+    "checksum_algo": "32",
+    "successor_bank_code": "53060180",
+    "legacy_bic": "GENODEF1BIR"
   },
   {
     "bank_code": "50780006",
@@ -21691,12 +22116,14 @@
   },
   {
     "bank_code": "50810900",
-    "name": "Deutsche Bausparkasse Badenia (ehem. DBS Bausparkasse)",
-    "short_name": "DBS Badenia eh. DBS Bauspar",
+    "name": "Deutsche Bausparkasse Badenia",
+    "short_name": "Deutsche Bauspk Badenia",
     "bic": "BBSPDE6KXXX",
-    "primary": true,
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "09"
+    "retired": true,
+    "checksum_algo": "09",
+    "successor_bank_code": "66010200"
   },
   {
     "bank_code": "50820292",
@@ -21994,6 +22421,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "32"
+  },
+  {
+    "bank_code": "50961312",
+    "name": "Raiffeisenbank Gro\u00df-Rohrheim",
+    "short_name": "Raiffbk Gro\u00df-Rohrheim",
+    "bic": "GENODE51GRM",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "32",
+    "retired": true
   },
   {
     "bank_code": "50961592",
@@ -22473,6 +22910,56 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "51230600",
+    "name": "Europe ARAB Bank",
+    "short_name": "Europe ARAB Bank Frankfurt",
+    "bic": "ARABDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
+    "bank_code": "51230800",
+    "name": "Wirecard Bank",
+    "short_name": "Wirecard Bank",
+    "bic": "WIREDEMMXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
+    "bank_code": "51230801",
+    "name": "Wirecard Bank",
+    "short_name": "Wirecard Bank",
+    "bic": "WIREDEMMXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
+    "bank_code": "51230802",
+    "name": "Wirecard Bank",
+    "short_name": "Wirecard Bank",
+    "bic": "WIREDEMMXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
+    "bank_code": "51230805",
+    "name": "Wirecard Bank",
+    "short_name": "Wirecard Bank",
+    "bic": "WIREDEMMXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "51250000",
     "name": "Taunus-Sparkasse",
     "short_name": "Taunus-Sparkasse Bad Hombg",
@@ -22480,6 +22967,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "06"
+  },
+  {
+    "bank_code": "51300000",
+    "name": "Bundesbank eh Gie\u00dfen",
+    "short_name": "BBk Frankfurt eh Gie\u00dfen",
+    "bic": "MARKDEF1513",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "51340013",
@@ -22581,6 +23078,16 @@
     "checksum_algo": "06"
   },
   {
+    "bank_code": "51410600",
+    "name": "Bank of America",
+    "short_name": "Bank of America Frankfurt",
+    "bic": "BOFADEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "51410700",
     "name": "Bank of China",
     "short_name": "Bank of China Frankfurt",
@@ -22588,6 +23095,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
+  },
+  {
+    "bank_code": "51410800",
+    "name": "Commerzbank - GF onvista",
+    "short_name": "Commerzbank - GF onvista",
+    "bic": "BOURDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "51420200",
@@ -22606,6 +23123,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "17"
+  },
+  {
+    "bank_code": "51420600",
+    "name": "Svenska Handelsbanken Deutschland",
+    "short_name": "Svenska Handelsbanken",
+    "bic": "HANDDEFFXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "51430400",
@@ -24670,12 +25197,15 @@
   },
   {
     "bank_code": "55160195",
-    "name": "Pax-Bank",
-    "short_name": "Pax-Bank Mainz",
-    "bic": "GENODED1PA4",
-    "primary": true,
+    "name": "Pax-Bank f\u00fcr Kirche und Caritas",
+    "short_name": "Pax-BKC Paderborn",
+    "bic": "GENODED1PAX",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "retired": true,
+    "checksum_algo": "06",
+    "successor_bank_code": "37060193",
+    "legacy_bic": "GENODED1PA4"
   },
   {
     "bank_code": "55190000",
@@ -25489,12 +26019,15 @@
   },
   {
     "bank_code": "58560294",
-    "name": "Pax-Bank",
-    "short_name": "Pax-Bank Trier",
-    "bic": "GENODED1PA3",
-    "primary": true,
+    "name": "Pax-Bank f\u00fcr Kirche und Caritas",
+    "short_name": "Pax-BKC Paderborn",
+    "bic": "GENODED1PAX",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "retired": true,
+    "checksum_algo": "06",
+    "successor_bank_code": "37060193",
+    "legacy_bic": "GENODED1PA3"
   },
   {
     "bank_code": "58561626",
@@ -26542,12 +27075,15 @@
   },
   {
     "bank_code": "60010700",
-    "name": "Landeskreditbank Baden-W\u00fcrttemberg F\u00f6rderbank -alt-",
-    "short_name": "L-Bank Stuttgart -alt-",
-    "bic": "LKBWDE6K600",
-    "primary": true,
+    "name": "Landeskreditbank Baden-W\u00fcrttemberg F\u00f6rderbank",
+    "short_name": "L-Bank",
+    "bic": "LKBWDE6KXXX",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "09"
+    "retired": true,
+    "checksum_algo": "09",
+    "successor_bank_code": "66010700",
+    "legacy_bic": "LKBWDE6K600"
   },
   {
     "bank_code": "60020030",
@@ -26602,6 +27138,16 @@
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "99"
+  },
+  {
+    "bank_code": "60020300",
+    "name": "BNP Paribas Ndl. Deutschland former VON ESSEN Bank",
+    "short_name": "BNP Paribas Ndl. Dt.",
+    "bic": "VONEDE33STG",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "60030000",
@@ -26938,12 +27484,15 @@
   },
   {
     "bank_code": "60069017",
-    "name": "Raiffeisenbank Dellmensingen -alt-",
-    "short_name": "Raiffbk Dellmensingen -alt-",
-    "bic": "GENODES1DMS",
-    "primary": true,
+    "name": "VR-Bank Alb-Blau-Donau",
+    "short_name": "VR-Bank Alb-Blau-Donau",
+    "bic": "GENODES1REH",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "10"
+    "retired": true,
+    "checksum_algo": "10",
+    "successor_bank_code": "60069346",
+    "legacy_bic": "GENODES1DMS"
   },
   {
     "bank_code": "60069066",
@@ -27183,10 +27732,13 @@
     "bank_code": "60069463",
     "name": "Raiffeisenbank Geislingen-Rosenfeld",
     "short_name": "Raiffbk Geislingen-Rosenf",
-    "bic": "GENODES1RKH",
-    "primary": true,
+    "bic": "GENODES1GEI",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "10"
+    "retired": true,
+    "checksum_algo": "10",
+    "successor_bank_code": "65362499",
+    "legacy_bic": "GENODES1RKH"
   },
   {
     "bank_code": "60069476",
@@ -27298,12 +27850,15 @@
   },
   {
     "bank_code": "60069669",
-    "name": "Erligheimer Bank -alt-",
-    "short_name": "Erligheimer Bank -alt-",
-    "bic": "GENODES1EHB",
-    "primary": true,
+    "name": "VR-Bank Ludwigsburg",
+    "short_name": "VR-Bank Ludwigsburg",
+    "bic": "GENODES1VBB",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "10"
+    "retired": true,
+    "checksum_algo": "10",
+    "successor_bank_code": "60491430",
+    "legacy_bic": "GENODES1EHB"
   },
   {
     "bank_code": "60069673",
@@ -28008,6 +28563,16 @@
     "checksum_algo": "10"
   },
   {
+    "bank_code": "60410600",
+    "name": "Oldenburgische Landesbank",
+    "short_name": "OLB",
+    "bic": "WUEHDE61XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "60420000",
     "name": "Oldenburgische Landesbank AG",
     "short_name": "OLB AG Oldenburg",
@@ -28231,6 +28796,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "10"
+  },
+  {
+    "bank_code": "60651070",
+    "name": "Sparkasse Pforzheim Calw",
+    "short_name": "Sparkasse Pforzheim Calw",
+    "bic": "PZHSDE66XXX",
+    "primary": false,
+    "country_code": "DE",
+    "retired": true,
+    "successor_bank_code": "66650085"
   },
   {
     "bank_code": "60661906",
@@ -28834,6 +29409,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "16"
+  },
+  {
+    "bank_code": "62020100",
+    "name": "FCA Bank Deutschland",
+    "short_name": "FCA Bank Heilbronn Neckar",
+    "bic": "FBHNDE61XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "62040060",
@@ -29961,6 +30546,17 @@
     "checksum_algo": "76"
   },
   {
+    "bank_code": "65090100",
+    "name": "Volksbank Ulm-Biberach",
+    "short_name": "Volksbank Ulm-Biberach",
+    "bic": "ULMVDE66XXX",
+    "primary": false,
+    "country_code": "DE",
+    "retired": true,
+    "checksum_algo": "10",
+    "successor_bank_code": "63090100"
+  },
+  {
     "bank_code": "65091040",
     "name": "Volksbank Allg\u00e4u-Oberschwaben",
     "short_name": "Voba Allg\u00e4u-Oberschwaben",
@@ -30412,12 +31008,15 @@
   },
   {
     "bank_code": "66051220",
-    "name": "Sparkasse Ettlingen -alt-",
-    "short_name": "Sparkasse Ettlingen -alt-",
-    "bic": "SOLADES1ETT",
-    "primary": true,
+    "name": "Sparkasse Karlsruhe",
+    "short_name": "Spk Karlsruhe",
+    "bic": "KARSDE66XXX",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "00"
+    "retired": true,
+    "checksum_algo": "00",
+    "successor_bank_code": "66050101",
+    "legacy_bic": "SOLADES1ETT"
   },
   {
     "bank_code": "66060000",
@@ -30988,12 +31587,14 @@
   },
   {
     "bank_code": "66491800",
-    "name": "Volksbank B\u00fchl Fil Kehl",
+    "name": "Volksbank B\u00fchl",
     "short_name": "Volksbank B\u00fchl",
     "bic": "GENODE61BHL",
-    "primary": true,
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "retired": true,
+    "checksum_algo": "06",
+    "successor_bank_code": "66291400"
   },
   {
     "bank_code": "66492600",
@@ -32670,6 +33271,16 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "70010588",
+    "name": "Deutsche Pfandbriefbank (Gf: Scalable Capital)",
+    "short_name": "Deutsche Pfandbriefbank",
+    "bic": "SCABDEMMXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "70010800",
     "name": "Middle East Bank, Munich Branch",
     "short_name": "Middle East Bank, M\u00fcnchen",
@@ -32679,6 +33290,26 @@
     "checksum_algo": "11"
   },
   {
+    "bank_code": "70011100",
+    "name": "Deutsche Handelsbank",
+    "short_name": "Deutsche Handelsbank",
+    "bic": "DEKTDE7GXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "06",
+    "retired": true
+  },
+  {
+    "bank_code": "70011110",
+    "name": "Deutsche Handelsbank",
+    "short_name": "Deutsche Handelsbank",
+    "bic": "DEKTDE7GXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "06",
+    "retired": true
+  },
+  {
     "bank_code": "70011200",
     "name": "Bank Vontobel Europe",
     "short_name": "Bank Vontobel Europe",
@@ -32686,6 +33317,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "17"
+  },
+  {
+    "bank_code": "70011300",
+    "name": "Autobank",
+    "short_name": "Autobank Oberhaching",
+    "bic": "AUZDDEM1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "16",
+    "retired": true
   },
   {
     "bank_code": "70011400",
@@ -32715,6 +33356,16 @@
     "checksum_algo": "06"
   },
   {
+    "bank_code": "70011700",
+    "name": "Bankhaus von der Heydt",
+    "short_name": "Bankhaus von der Heydt",
+    "bic": "BVDHDEMMXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "01",
+    "retired": true
+  },
+  {
     "bank_code": "70011900",
     "name": "VERIFONE PAYMENTS",
     "short_name": "VERIFONE PAYMENTS",
@@ -32740,6 +33391,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "17"
+  },
+  {
+    "bank_code": "70012400",
+    "name": "Bankhaus Obotritia",
+    "short_name": "Bankhaus Obotritia M\u00fcnchen",
+    "bic": "FLGMDE77XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "70012600",
@@ -32785,6 +33446,26 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "67"
+  },
+  {
+    "bank_code": "70013100",
+    "name": "net-m privatbank 1891",
+    "short_name": "net-m privatbank 1891",
+    "bic": "BVWBDE2WXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "32",
+    "retired": true
+  },
+  {
+    "bank_code": "70013199",
+    "name": "net-m privatbank 1891",
+    "short_name": "net-m privatbank 1891",
+    "bic": "BVWBDE2WXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "32",
+    "retired": true
   },
   {
     "bank_code": "70013300",
@@ -33048,6 +33729,16 @@
     "checksum_algo": "99"
   },
   {
+    "bank_code": "70022200",
+    "name": "Fidor Bank",
+    "short_name": "Fidor Bank M\u00fcnchen",
+    "bic": "FDDODEMMXXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "16",
+    "retired": true
+  },
+  {
     "bank_code": "70022424",
     "name": "Scalable Capital Bank",
     "short_name": "Scalable Capital Bank",
@@ -33073,6 +33764,16 @@
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "99"
+  },
+  {
+    "bank_code": "70030014",
+    "name": "F\u00fcrst Fugger Privatbank",
+    "short_name": "Fuggerbank Augsburg",
+    "bic": "FUBKDE71MUC",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "00",
+    "retired": true
   },
   {
     "bank_code": "70030300",
@@ -33813,6 +34514,16 @@
     "checksum_algo": "09"
   },
   {
+    "bank_code": "70110570",
+    "name": "M\u00fcnchener Hypothekenbank",
+    "short_name": "M\u00fcnch Hypoth Bank M\u00fcnchen",
+    "bic": "MHYPDEMMSCA",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
     "bank_code": "70120100",
     "name": "State Street Bank International",
     "short_name": "State Street Bk Int.M\u00fcnchen",
@@ -33856,6 +34567,26 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
+  },
+  {
+    "bank_code": "70130700",
+    "name": "Bankhaus August Lenz & Co",
+    "short_name": "Lenz Bank M\u00fcnchen",
+    "bic": "LENZDEM1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
+  },
+  {
+    "bank_code": "70130799",
+    "name": "Bankhaus August Lenz & Co Gf GAA",
+    "short_name": "Lenz Bank M\u00fcnchen Gf GAA",
+    "bic": "LENZDEM1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "70130800",
@@ -34396,6 +35127,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09"
+  },
+  {
+    "bank_code": "70220800",
+    "name": "Vereinsbank Victoria Bauspar",
+    "short_name": "VVB M\u00fcnchen",
+    "bic": "VVAGDEM1XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "07",
+    "retired": true
   },
   {
     "bank_code": "70220900",
@@ -34945,6 +35686,16 @@
     "primary": false,
     "country_code": "DE",
     "checksum_algo": "99"
+  },
+  {
+    "bank_code": "72020700",
+    "name": "Augsburger Aktienbank",
+    "short_name": "Augsburger Aktienbank",
+    "bic": "AUGBDE77XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "23",
+    "retired": true
   },
   {
     "bank_code": "72021271",
@@ -35946,6 +36697,16 @@
     "checksum_algo": "00"
   },
   {
+    "bank_code": "73351635",
+    "name": "Sparkasse Riezlern, Kleinwalsertal",
+    "short_name": "Sparkasse Riezlern",
+    "bic": "BYLADEM1ALR",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "00",
+    "retired": true
+  },
+  {
     "bank_code": "73369264",
     "name": "Raiffeisenbank im Allg\u00e4uer Land",
     "short_name": "Raiffbk im Allg Land",
@@ -36241,6 +37002,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
+  },
+  {
+    "bank_code": "73460046",
+    "name": "VR Bank Augsburg-Ostallg\u00e4u",
+    "short_name": "VR Bank Augsburg-Ostallg\u00e4u",
+    "bic": "GENODEF1KFB",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "retired": true
   },
   {
     "bank_code": "73480013",
@@ -37557,6 +38328,16 @@
     "checksum_algo": "88"
   },
   {
+    "bank_code": "76060620",
+    "name": "Volksbank Raiffeisenbank N\u00fcrnberg (Gf GAA)",
+    "short_name": "VR Bank Nbg (Gf GAA)",
+    "bic": "GENODEF1N02",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "retired": true
+  },
+  {
     "bank_code": "76061025",
     "name": "Raiffeisen Spar+Kreditbank Lauf a d Pegnitz",
     "short_name": "Raiffbk Spar+Kreditbk Lauf",
@@ -38196,6 +38977,16 @@
     "checksum_algo": "99"
   },
   {
+    "bank_code": "76230000",
+    "name": "BSQ Bauspar",
+    "short_name": "BSQ Bauspar N\u00fcrnberg",
+    "bic": "QUBADE71XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "11",
+    "retired": true
+  },
+  {
     "bank_code": "76240011",
     "name": "Commerzbank F\u00fcrth Bayern",
     "short_name": "Commerzbank F\u00fcrth Bayern",
@@ -38698,6 +39489,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"
+  },
+  {
+    "bank_code": "77300000",
+    "name": "Bundesbank eh Bayreuth",
+    "short_name": "BBk M\u00fcnchen eh Bayreuth",
+    "bic": "MARKDEF1773",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "77320072",
@@ -39430,12 +40231,15 @@
   },
   {
     "bank_code": "79568518",
-    "name": "Raiffeisenbank Haibach-Obernau",
-    "short_name": "Raiffbk Haibach-Obernau",
-    "bic": "GENODEF1HAC",
-    "primary": true,
+    "name": "Raiffeisen-Volksbank Aschaffenburg -alt-",
+    "short_name": "RV-Bank Aschaffenburg -alt-",
+    "bic": "GENODEF1AB1",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "88"
+    "retired": true,
+    "checksum_algo": "88",
+    "successor_bank_code": "79562514",
+    "legacy_bic": "GENODEF1HAC"
   },
   {
     "bank_code": "79570024",
@@ -39673,12 +40477,15 @@
   },
   {
     "bank_code": "80054000",
-    "name": "Kreissparkasse Wei\u00dfenfels -alt-",
-    "short_name": "Kr Spk Wei\u00dfenfels",
-    "bic": "NOLADE21WSF",
-    "primary": true,
+    "name": "Sparkasse Burgenlandkreis",
+    "short_name": "Spk Burgenlandkreis",
+    "bic": "NOLADE21BLK",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "20"
+    "retired": true,
+    "checksum_algo": "20",
+    "successor_bank_code": "80053000",
+    "legacy_bic": "NOLADE21WSF"
   },
   {
     "bank_code": "80055008",
@@ -40348,12 +41155,15 @@
   },
   {
     "bank_code": "82060197",
-    "name": "Pax-Bank",
-    "short_name": "Pax-Bank Erfurt",
-    "bic": "GENODED1PA5",
-    "primary": true,
+    "name": "Pax-Bank f\u00fcr Kirche und Caritas",
+    "short_name": "Pax-BKC Paderborn",
+    "bic": "GENODED1PAX",
+    "primary": false,
     "country_code": "DE",
-    "checksum_algo": "06"
+    "retired": true,
+    "checksum_algo": "06",
+    "successor_bank_code": "37060193",
+    "legacy_bic": "GENODED1PA5"
   },
   {
     "bank_code": "82064038",
@@ -41209,6 +42019,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "32"
+  },
+  {
+    "bank_code": "85000000",
+    "name": "Bundesbank eh Dresden",
+    "short_name": "BBk Leipzig eh Dresden",
+    "bic": "MARKDEF1850",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "09",
+    "retired": true
   },
   {
     "bank_code": "85010500",

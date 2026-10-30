@@ -46,7 +46,15 @@ def process(records: list[dict[str, Any]]) -> dict[str, Any]:
         successor = by_iid.get(record["newIid"])
         if successor is None:
             continue
-        registry.append({**successor, "bank_code": f"{record['iid']:0>5}", "primary": False})
+        registry.append(
+            {
+                **successor,
+                "bank_code": f"{record['iid']:0>5}",
+                "primary": False,
+                "retired": True,
+                "successor_bank_code": successor["bank_code"],
+            }
+        )
 
     return convert_to_v2(registry)
 

@@ -263,9 +263,11 @@ def test_random_with_bank_code_looks_up_the_bank_like_validation(
     lookups: list[str] = []
     get_banks_by_code = registry.get_banks_by_code
 
-    def record_lookup(country_code: str, bank_code: str) -> list[Bank]:
+    def record_lookup(
+        country_code: str, bank_code: str, include_closed: bool = False
+    ) -> list[Bank]:
         lookups.append(bank_code)
-        return get_banks_by_code(country_code, bank_code)
+        return get_banks_by_code(country_code, bank_code, include_closed)
 
     monkeypatch.setattr(registry, "get_banks_by_code", record_lookup)
 

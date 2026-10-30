@@ -34,6 +34,14 @@ BIC
    :members:
 
 
+Bank
+----
+
+.. autoclass:: schwifty.domain.Bank
+   :members:
+   :undoc-members:
+
+
 Exceptions
 ----------
 

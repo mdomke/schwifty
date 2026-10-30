@@ -54,7 +54,13 @@ def process():
         prefix = entry["bank_code"][:2]
         if entry["bank_code"] not in current and prefix in successors:
             registry.append(
-                {**successors[prefix], "bank_code": entry["bank_code"], "primary": False}
+                {
+                    **successors[prefix],
+                    "bank_code": entry["bank_code"],
+                    "primary": False,
+                    "retired": True,
+                    "successor_bank_code": successors[prefix]["bank_code"],
+                }
             )
 
     print(f"Fetched {len(registry)} bank records")

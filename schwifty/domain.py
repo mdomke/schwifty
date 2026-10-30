@@ -94,6 +94,15 @@ class IBANSpec(DictCompatMixin):
 
 @dataclass(slots=True)
 class Bank(DictCompatMixin):
+    """A bank record of the registry.
+
+    A ``retired`` bank code is no longer listed by the national registry, but kept so that
+    IBANs carrying it can still be identified. If the bank was merged, ``successor_bank_code``
+    names the bank code of its successor and ``name`` and ``bic`` describe the successor, while
+    ``legacy_bic`` holds the merged bank's own BIC, if it had a different one. Otherwise the
+    bank is :attr:`closed` and only returned by lookups that ask for it.
+    """
+
     country_code: str
     bic: str
     bank_code: str
@@ -101,3 +110,11 @@ class Bank(DictCompatMixin):
     short_name: str | None = None
     primary: bool = False
     checksum_algo: str = "default"
+    retired: bool = False
+    successor_bank_code: str | None = None
+    legacy_bic: str | None = None
+
+    @property
+    def closed(self) -> bool:
+        """bool: Whether the bank code is retired without a successor."""
+        return self.retired and self.successor_bank_code is None

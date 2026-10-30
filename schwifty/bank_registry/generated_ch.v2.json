@@ -275,10 +275,32 @@
         "00298",
         "30005",
         "30308",
-        "83838",
+        "83838"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH80A",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "30005",
+      "bank_codes": [
         "31000",
         "31866",
-        "31881",
+        "31881"
+      ]
+    },
+    {
+      "name": "UBS Switzerland AG - Z\u00fcrich",
+      "short_name": "UBS Switzerland AG",
+      "bic": "UBSWCHZH80A",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "00230",
+      "bank_codes": [
         "04835",
         "04866",
         "05881"
@@ -951,7 +973,18 @@
         "08740",
         "08741",
         "08742",
-        "08743",
+        "08743"
+      ]
+    },
+    {
+      "name": "CA Indosuez (Switzerland) SA",
+      "short_name": "CA Indosuez (Switzerland) SA",
+      "bic": "AGRICHGGXXX",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "08741",
+      "bank_codes": [
         "08737"
       ]
     },
@@ -1764,7 +1797,18 @@
       "primary": false,
       "bank_codes": [
         "30154",
-        "08686",
+        "08686"
+      ]
+    },
+    {
+      "name": "BNP PARIBAS, Paris, succursale de Lancy/Gen\u00e8ve",
+      "short_name": "BNP PARIBAS, Paris, succursale de Lancy/Gen\u00e8ve",
+      "bic": "BPPBCHGGXXX",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "08686",
+      "bank_codes": [
         "08792"
       ]
     },
@@ -2474,8 +2518,30 @@
       "primary": false,
       "bank_codes": [
         "30248",
-        "08657",
-        "30236",
+        "08657"
+      ]
+    },
+    {
+      "name": "Union Bancaire Priv\u00e9e, UBP SA",
+      "short_name": "Union Bancaire Priv\u00e9e, UBP SA",
+      "bic": "UBPGCHGGXXX",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "30248",
+      "bank_codes": [
+        "30236"
+      ]
+    },
+    {
+      "name": "Union Bancaire Priv\u00e9e, UBP SA",
+      "short_name": "Union Bancaire Priv\u00e9e, UBP SA",
+      "bic": "UBPGCHGGXXX",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "08657",
+      "bank_codes": [
         "08582"
       ]
     },
@@ -2586,8 +2652,30 @@
       "primary": false,
       "bank_codes": [
         "30261",
-        "08721",
-        "30187",
+        "08721"
+      ]
+    },
+    {
+      "name": "Gonet & Cie SA",
+      "short_name": "Gonet & Cie SA",
+      "bic": "GONECHGGXXX",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "30261",
+      "bank_codes": [
+        "30187"
+      ]
+    },
+    {
+      "name": "Gonet & Cie SA",
+      "short_name": "Gonet & Cie SA",
+      "bic": "GONECHGGXXX",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "08721",
+      "bank_codes": [
         "08246"
       ]
     },
@@ -3787,7 +3875,18 @@
       "country_code": "CH",
       "primary": false,
       "bank_codes": [
-        "80187",
+        "80187"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Gen\u00e8ve Lac",
+      "short_name": "Banque Raiffeisen Gen\u00e8ve Lac",
+      "bic": "RAIFCH22187",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "80187",
+      "bank_codes": [
         "80215"
       ]
     },
@@ -3848,7 +3947,18 @@
       "country_code": "CH",
       "primary": false,
       "bank_codes": [
-        "80283",
+        "80283"
+      ]
+    },
+    {
+      "name": "Banca Raiffeisen Vedeggio Cassarate",
+      "short_name": "Banca Raiffeisen Vedeggio Cassarate",
+      "bic": "RAIFCH22283",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "80283",
+      "bank_codes": [
         "80366"
       ]
     },
@@ -3999,7 +4109,18 @@
       "country_code": "CH",
       "primary": false,
       "bank_codes": [
-        "80430",
+        "80430"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Alpes Riviera Chablais Vaudois",
+      "short_name": "Banque Raiffeisen Alpes Riviera Chablais Vaudois",
+      "bic": "RAIFCH22430",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "80430",
+      "bank_codes": [
         "80447"
       ]
     },
@@ -4240,7 +4361,18 @@
       "country_code": "CH",
       "primary": false,
       "bank_codes": [
-        "80626",
+        "80626"
+      ]
+    },
+    {
+      "name": "Banque Raiffeisen Vall\u00e9e d'Illiez",
+      "short_name": "Banque Raiffeisen Vall\u00e9e d'Illiez",
+      "bic": "RAIFCH22626",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "80626",
+      "bank_codes": [
         "80627"
       ]
     },
@@ -4371,7 +4503,18 @@
       "country_code": "CH",
       "primary": false,
       "bank_codes": [
-        "80719",
+        "80719"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Mutschellen",
+      "short_name": "Raiffeisenbank Mutschellen",
+      "bic": "RAIFCH22719",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "80719",
+      "bank_codes": [
         "80673",
         "80749"
       ]
@@ -4613,7 +4756,18 @@
       "country_code": "CH",
       "primary": false,
       "bank_codes": [
-        "80862",
+        "80862"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Seeland",
+      "short_name": "Raiffeisenbank Seeland",
+      "bic": "RAIFCH22862",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "80862",
+      "bank_codes": [
         "80833"
       ]
     },
@@ -4624,7 +4778,18 @@
       "country_code": "CH",
       "primary": false,
       "bank_codes": [
-        "80867",
+        "80867"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Thunersee-Kiesental",
+      "short_name": "Raiffeisenbank Thunersee-Kiesental",
+      "bic": "RAIFCH22867",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "80867",
+      "bank_codes": [
         "80811"
       ]
     },
@@ -4635,7 +4800,18 @@
       "country_code": "CH",
       "primary": false,
       "bank_codes": [
-        "80875",
+        "80875"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Emmental",
+      "short_name": "Raiffeisenbank Emmental",
+      "bic": "RAIFCH22875",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "80875",
+      "bank_codes": [
         "80882",
         "80888"
       ]
@@ -4667,7 +4843,18 @@
       "country_code": "CH",
       "primary": false,
       "bank_codes": [
-        "80905",
+        "80905"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Sensetal Freiburg-Ost / Sensetal Fribourg-Est",
+      "short_name": "Raiffeisenbank Sensetal Freiburg-Ost / Sensetal Fribourg-Est",
+      "bic": "RAIFCH22905",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "80905",
+      "bank_codes": [
         "80901"
       ]
     },
@@ -4748,7 +4935,18 @@
       "country_code": "CH",
       "primary": false,
       "bank_codes": [
-        "80962",
+        "80962"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Region Thal",
+      "short_name": "Raiffeisenbank Region Thal",
+      "bic": "RAIFCH22962",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "80962",
+      "bank_codes": [
         "80930"
       ]
     },
@@ -5199,7 +5397,18 @@
       "country_code": "CH",
       "primary": false,
       "bank_codes": [
-        "81291",
+        "81291"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank Regio Uzwil",
+      "short_name": "Raiffeisenbank Regio Uzwil",
+      "bic": "RAIFCH22C91",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "81291",
+      "bank_codes": [
         "81289"
       ]
     },
@@ -5580,7 +5789,18 @@
       "country_code": "CH",
       "primary": false,
       "bank_codes": [
-        "81456",
+        "81456"
+      ]
+    },
+    {
+      "name": "Raiffeisenbank H\u00fcnenberg-Risch",
+      "short_name": "Raiffeisenbank H\u00fcnenberg-Risch",
+      "bic": "RAIFCH22E56",
+      "country_code": "CH",
+      "primary": false,
+      "retired": true,
+      "successor_bank_code": "81456",
+      "bank_codes": [
         "81460"
       ]
     },

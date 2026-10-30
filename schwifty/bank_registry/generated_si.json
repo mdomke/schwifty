@@ -6581,7 +6581,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03100",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6589,7 +6591,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03102",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6597,7 +6601,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03103",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6605,7 +6611,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03104",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6613,7 +6621,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03105",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6621,7 +6631,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03106",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6629,7 +6641,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03107",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6637,7 +6651,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03108",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6645,7 +6661,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03109",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6653,7 +6671,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03110",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6661,7 +6681,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03111",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6669,7 +6691,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03112",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6677,7 +6701,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03113",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6685,7 +6711,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03114",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6693,7 +6721,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03115",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6701,7 +6731,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03116",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6709,7 +6741,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03117",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6717,7 +6751,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03118",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6725,7 +6761,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03119",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6733,7 +6771,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03120",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6741,7 +6781,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03121",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6749,7 +6791,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03122",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6757,7 +6801,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03123",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6765,7 +6811,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03124",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6773,7 +6821,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03125",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6781,7 +6831,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03126",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6789,7 +6841,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03127",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6797,7 +6851,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03128",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6805,7 +6861,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03130",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6813,7 +6871,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03131",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6821,7 +6881,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03132",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6829,7 +6891,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03133",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6837,7 +6901,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03134",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6845,7 +6911,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03135",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6853,7 +6921,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03136",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6861,7 +6931,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03137",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6869,7 +6941,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03138",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6877,7 +6951,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03139",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6885,7 +6961,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03150",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6893,7 +6971,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03151",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6901,7 +6981,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03152",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6909,7 +6991,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03153",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6917,7 +7001,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03154",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6925,7 +7011,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03155",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6933,7 +7021,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03156",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6941,7 +7031,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03157",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6949,7 +7041,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03158",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6957,7 +7051,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03160",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6965,7 +7061,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03161",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6973,7 +7071,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03162",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6981,7 +7081,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03163",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6989,7 +7091,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03165",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -6997,7 +7101,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03168",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7005,7 +7111,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03169",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7013,7 +7121,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03170",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7021,7 +7131,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03171",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7029,7 +7141,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03173",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7037,7 +7151,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03175",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7045,7 +7161,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03176",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7053,7 +7171,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03178",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7061,7 +7181,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03179",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7069,7 +7191,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03180",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7077,7 +7201,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03181",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7085,7 +7211,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03182",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7093,7 +7221,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03185",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7101,7 +7231,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03186",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7109,7 +7241,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03188",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7117,7 +7251,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03189",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7125,7 +7261,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03215",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7133,7 +7271,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03500",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7141,7 +7281,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03721",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7149,7 +7291,9 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "03770",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   },
   {
     "country_code": "SI",
@@ -7157,6 +7301,8 @@
     "bic": "KBMASI2XXXX",
     "bank_code": "05100",
     "name": "OTP BANKA D.D.",
-    "short_name": "OTP BANKA D.D."
+    "short_name": "OTP BANKA D.D.",
+    "retired": true,
+    "successor_bank_code": "04000"
   }
 ]

@@ -34,8 +34,8 @@ def _get_bban_spec(country_code: str) -> IBANSpec:
     return registry.get_iban_spec(country_code)
 
 
-def _get_bank(country_code: str, bank_code: str) -> Bank | None:
-    banks = registry.get_banks_by_code(country_code, bank_code)
+def _get_bank(country_code: str, bank_code: str, include_closed: bool = False) -> Bank | None:
+    banks = registry.get_banks_by_code(country_code, bank_code, include_closed)
     if not banks:
         return None
     # A national registry lists one record per branch, so a bank code can map to
@@ -46,7 +46,7 @@ def _get_bank(country_code: str, bank_code: str) -> Bank | None:
 
 
 def _get_random_bank(country_code: str, random: Random) -> Bank | None:
-    banks = registry.get_banks_by_country(country_code)
+    banks = [bank for bank in registry.get_banks_by_country(country_code) if not bank.retired]
     return random.choice(banks) if banks else None
 
 
@@ -214,7 +214,7 @@ class BBAN(common.Base):
             lookup_key = "".join(
                 values[component][: spec.positions[component].length] for component in lookup_by
             )
-            bank = _get_bank(country_code, lookup_key)
+            bank = _get_bank(country_code, lookup_key, include_closed=True)
         else:
             bank = _get_random_bank(country_code, random) if use_registry else None
 
@@ -274,7 +274,12 @@ class BBAN(common.Base):
                 # Generating a value is not a validation request: where the national
                 # checksum cannot be verified there is nothing to retry for and nothing to
                 # report, so the check (and the warning it would emit) is left out.
-                if _get_national_checksum_algorithm(bban.country_code, bban.bank) is not None:
+                if (
+                    _get_national_checksum_algorithm(
+                        bban.country_code, bban.get_bank(include_closed=True)
+                    )
+                    is not None
+                ):
                     bban.validate_national_checksum()
             except exceptions.SchwiftyException:
                 continue
@@ -295,7 +300,10 @@ class BBAN(common.Base):
             with ``warnings.simplefilter("error", NationalChecksumNotVerified)`` to fail
             instead of passing.
         """
-        algo = _get_national_checksum_algorithm(self.country_code, self.bank)
+        # The account codes of a closed bank are still checked with the bank's own method.
+        algo = _get_national_checksum_algorithm(
+            self.country_code, self.get_bank(include_closed=True)
+        )
         if algo is None:
             position = self.spec.positions.get(Component.NATIONAL_CHECKSUM_DIGITS) or Range(0, 0)
             if not position.is_empty:
@@ -400,8 +408,26 @@ class BBAN(common.Base):
 
     @property
     def bank(self) -> Bank | None:
-        """Bank | None: The information of bank related to this BBANs bank code."""
-        return _get_bank(self.country_code, self._bank_lookup_key)
+        """Bank | None: The information of bank related to this BBANs bank code.
+
+        Closed banks are left out, see :meth:`get_bank`.
+        """
+        return self.get_bank()
+
+    def get_bank(self, include_closed: bool = False) -> Bank | None:
+        """Look up the bank related to this BBANs bank code.
+
+        A bank code that is no longer in use is marked as :attr:`.Bank.retired`. If the bank
+        was merged, the successor bank is returned. If it was closed without a successor, it is
+        only returned when ``include_closed`` is set, since no payments can be made to it.
+
+        Args:
+            include_closed (bool): Also return banks that were closed without a successor.
+
+        Returns:
+            Bank | None: The bank or ``None`` if the bank code is not in the registry.
+        """
+        return _get_bank(self.country_code, self._bank_lookup_key, include_closed)
 
     @property
     def bank_name(self) -> str | None:
