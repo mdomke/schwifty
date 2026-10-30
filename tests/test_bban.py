@@ -118,6 +118,7 @@ def test_bank_prefers_the_primary_record_of_every_registered_bank_code() -> None
         "10020890",  # UniCredit Bank - HypoVereinsbank, method 99
         "50010517",  # ING-DiBa, method C1
         "13051042",  # Sparkasse Vorpommern auf Rügen, method C0
+        "50324000",  # ABN AMRO Bank, Frankfurt Branch, method 31
         "35060386",  # Volksbank Rhein-Ruhr, method 40
         "25020600",  # Openbank Deutschland, method 41
         "66661454",  # VR Bank im Enzkreis -alt-, method 42
@@ -126,6 +127,7 @@ def test_bank_prefers_the_primary_record_of_every_registered_bank_code() -> None
         "50310400",  # Barclays Bank Ireland Frankfurt Branch, method 46
         "27290087",  # Volksbank Weserbergland -alt-, method 47
         "20190109",  # Volksbank Raiffeisenbank, method 48
+        "40351060",  # Kreissparkasse Steinfurt, method 49
         "20090700",  # Edekabank, method 50
     ],
 )
@@ -190,7 +192,7 @@ def test_random_national_checksum_overflow(monkeypatch: pytest.MonkeyPatch) -> N
 
     # Pin the bank ``random`` picks to one whose checksum method schwifty
     # implements. The validator is only consulted for those, so letting the
-    # choice stay random made this test flaky: 64 of the 4805 German records name
+    # choice stay random made this test flaky: 60 of the 4805 German records name
     # a method we don't implement (e.g. "B8" or "D8"), and for those there is
     # nothing to retry and no overflow to raise.
     deutsche_bank = registry.get_banks_by_code("DE", "10070000")
@@ -213,6 +215,7 @@ def test_random_national_checksum_overflow(monkeypatch: pytest.MonkeyPatch) -> N
         ("10110600", "17"),  # Quirin Privatbank
         ("50010517", "C1"),  # ING-DiBa
         ("13051042", "C0"),  # Sparkasse Vorpommern auf Rügen
+        ("50324000", "31"),  # ABN AMRO Bank, Frankfurt Branch
         ("35060386", "40"),  # Volksbank Rhein-Ruhr
         ("25020600", "41"),  # Openbank Deutschland
         ("66661454", "42"),  # VR Bank im Enzkreis -alt-
@@ -221,6 +224,7 @@ def test_random_national_checksum_overflow(monkeypatch: pytest.MonkeyPatch) -> N
         ("50310400", "46"),  # Barclays Bank Ireland Frankfurt Branch
         ("27290087", "47"),  # Volksbank Weserbergland -alt-
         ("20190109", "48"),  # Volksbank Raiffeisenbank
+        ("40351060", "49"),  # Kreissparkasse Steinfurt
         ("20090700", "50"),  # Edekabank
     ],
 )

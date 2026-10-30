@@ -41,6 +41,17 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("0520309001", "DE:26"),
         ("1111118111", "DE:26"),
         ("0005501024", "DE:26"),
+        # Method 31 test account numbers. Positions 1 to 9 are weighted 1 to 9 from left to
+        # right and the remainder of the sum divided by 11 is the check digit at position 10.
+        ("1000000524", "DE:31"),
+        ("1000000583", "DE:31"),
+        # The example from the document: 0*1 + 2*2 + 6*3 + 3*4 + 1*5 + 6*6 + 0*7 + 1*8 + 6*9
+        # = 137, 137 % 11 = 5.
+        ("0263160165", "DE:31"),
+        # Remainder 1 is check digit 1, nothing is subtracted from 11 like in method 06.
+        ("1000000001", "DE:31"),
+        # 1*2 + 1*9 = 11, remainder 0 gives check digit 0.
+        ("0100000010", "DE:31"),
         ("0009141405", "DE:32"),
         ("1709107983", "DE:32"),
         ("0122116979", "DE:32"),
@@ -114,6 +125,15 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("1003554450", "DE:47"),
         # Positions 1 to 3 and 10 are not part of the calculation.
         ("9993554459", "DE:47"),
+        # The Bundesbank document has no test account numbers for method 49. It checks with
+        # method 00 first, so the method 00 test account numbers are valid, also those that
+        # method 01 rejects.
+        ("0009290701", "DE:49"),
+        ("0539290858", "DE:49"),
+        ("0001501824", "DE:49"),
+        # Method 00 expects check digit 7 here, but method 01 accepts it:
+        # 9*3 + 8*7 + 7*1 + 6*3 + 5*7 + 4*1 + 3*3 + 2*7 + 1*1 = 171, 10 - 1 = 9.
+        ("1234567899", "DE:49"),
         # Method 50 test account numbers. The sub-account at positions 8 to 10 is not part
         # of the calculation.
         ("4000005001", "DE:50"),
@@ -238,6 +258,8 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0099999910", "DE:48"),
         # Valid for method 06, but method 48 expects check digit 7 at position 9.
         ("0094012341", "DE:48"),
+        # Method 31 with a wrong check digit.
+        ("1000000525", "DE:31"),
         # Method 40 with a wrong check digit.
         ("0001258346", "DE:40"),
         # Method 41 with a wrong check digit.
@@ -256,6 +278,8 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0235468712", "DE:46"),
         # Method 47 with a wrong check digit at position 9.
         ("1003554460", "DE:47"),
+        # Neither method 00 (check digit 7) nor method 01 (check digit 9) accepts it.
+        ("1234567890", "DE:49"),
         # Method 50 with a wrong check digit at position 7, with and without sub-account.
         ("4000006001", "DE:50"),
         ("0004000006", "DE:50"),
@@ -346,6 +370,15 @@ def test_german_checksum_02_invalid_remainder() -> None:
         algorithms["DE:02"].validate(["0000000060"], "")
 
 
+def test_german_checksum_31_invalid_remainder() -> None:
+    # 1*1 + 1*9 = 10, and a remainder of 10 makes the account code invalid whatever the
+    # check digit is.
+    algo = algorithms["DE:31"]
+    with pytest.raises(InvalidBBANChecksum, match="Invalid remainder"):
+        algo.validate(["1000000010"], "")
+    assert algo.solve(["1000000010"]) is None
+
+
 def test_german_checksum_08_skips_small_account() -> None:
     assert algorithms["DE:08"].compute(["0000001000"]) == ""
 
@@ -368,9 +401,9 @@ def test_german_checksum_91_compute_and_solve() -> None:
     assert algo.solve(["2974118000"]) == ["2974118000"]
 
 
-@pytest.mark.parametrize("algorithm_name", ["DE:A2", "DE:A3"])
+@pytest.mark.parametrize("algorithm_name", ["DE:49", "DE:A2", "DE:A3"])
 def test_german_checksum_fallback_variants_compute_and_solve(algorithm_name: str) -> None:
-    # Variant 1 (method 00) can always place a check digit, so it is used for both.
+    # Variant 1 (method 00) can always place a check digit, so it is used for all of them.
     algo = algorithms[algorithm_name]
     assert algo.compute(["3456789010"]) == "9"
     assert algo.solve(["3456789010"]) == ["3456789019"]
@@ -380,6 +413,12 @@ def test_german_checksum_48_compute_and_solve() -> None:
     algo = algorithms["DE:48"]
     assert algo.compute(["1234567890"]) == "1"
     assert algo.solve(["1234567890"]) == ["1234567810"]
+
+
+def test_german_checksum_31_compute_and_solve() -> None:
+    algo = algorithms["DE:31"]
+    assert algo.compute(["0263160160"]) == "5"
+    assert algo.solve(["0263160160"]) == ["0263160165"]
 
 
 def test_german_checksum_40_compute_and_solve() -> None:
