@@ -28,6 +28,14 @@ Added
   positions 1 to 9 and method ``44`` with the first five weights over positions 5 to 9. Account
   codes for these banks were not checked before.
 
+Changed
+~~~~~~~
+* Updated the Latvian bank registry from Latvijas Banka's current BIC list. It adds six payment
+  service providers such as Indexo Banka (``IDXO``) and xpate (``SIAX``), and renames BlueOrange
+  Bank to BlueOr Bank and LPB Bank to Magnetiq Bank. Banks that are no longer on the official
+  list, such as PNB Banka (``LATB``), are kept so that existing IBANs still resolve. The update
+  script now looks up the renamed spreadsheet on the bank's website instead of using a fixed URL.
+
 Fixed
 ~~~~~
 * ``BIC`` no longer rejects BICs of banks in Kosovo (e.g. ``RBKOXKPR``) with
