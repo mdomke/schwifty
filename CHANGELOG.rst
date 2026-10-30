@@ -27,6 +27,7 @@ Fixed
 * ``BIC`` no longer rejects BICs of banks in Kosovo (e.g. ``RBKOXKPR``) with
   ``InvalidCountryCode``. SWIFT assigns them the code ``XK``, which is not part of ISO 3166-1 and
   therefore unknown to ``pycountry``, although ``IBAN`` already accepts it.
+  (#346) `@ryanduguid <https://github.com/ryanduguid>`_.
 
 `2026.10.1`_ - 2026/10/25
 -------------------------
