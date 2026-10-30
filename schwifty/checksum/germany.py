@@ -447,6 +447,19 @@ class Algorithm38(Algorithm06):
 
 
 @register
+class Algorithm40(Algorithm06):
+    name = "40"
+    weights: ClassVar[list[int]] = [2, 4, 8, 5, 10, 9, 7, 3, 6]
+
+
+@register
+class Algorithm44(Algorithm06):
+    name = "44"
+    positions = Positions(start=5, end=9, check_digit=10)
+    weights: ClassVar[list[int]] = [2, 4, 8, 5, 10]
+
+
+@register
 class Algorithm46(Algorithm06):
     name = "46"
     positions = Positions(start=3, end=7, check_digit=8)

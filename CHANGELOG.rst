@@ -21,6 +21,12 @@ Added
   like method ``06``, method ``46`` over positions 3 to 7 with the check digit at position 8 and
   method ``47`` over positions 4 to 8 with the check digit at position 9. Account codes for these
   banks were not checked before.
+* Added the German checksum methods ``40`` and ``44``. Method ``40`` is used by Volksbank
+  Rhein-Ruhr (bank code ``35060386``) and Volksbank Rheinböllen (bank code ``56062227``), method
+  ``44`` by DZ BANK (bank codes ``30060010``, ``40060000`` and ``57060000``). Both work like
+  method ``06`` with the weights 2, 4, 8, 5, 10, 9, 7, 3, 6 instead of 2 to 7: method ``40`` over
+  positions 1 to 9 and method ``44`` with the first five weights over positions 5 to 9. Account
+  codes for these banks were not checked before.
 
 `2026.10.1`_ - 2026/10/25
 -------------------------

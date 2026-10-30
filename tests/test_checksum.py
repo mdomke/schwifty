@@ -51,6 +51,18 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("9914001000", "DE:34"),
         ("0000191919", "DE:38"),
         ("0001100660", "DE:38"),
+        # Method 40 test account numbers. Positions 1 to 9 are weighted 6, 3, 7, 9, 10, 5, 8,
+        # 4, 2 and the check digit is at position 10.
+        ("0001258345", "DE:40"),
+        ("0003231963", "DE:40"),
+        # 1*6 + 2*3 + 3*7 + 4*9 + 5*10 + 6*5 + 7*8 + 8*4 + 9*2 = 255, 255 % 11 = 2, 11 - 2 = 9.
+        ("1234567899", "DE:40"),
+        # Method 44 test account numbers. Only positions 5 to 9 are weighted, with 10, 5, 8,
+        # 4, 2, and the check digit is at position 10.
+        ("0000889006", "DE:44"),
+        ("2618040504", "DE:44"),
+        # Positions 1 to 4 are not part of the calculation.
+        ("9999889006", "DE:44"),
         # The Bundesbank document has no test account numbers for method 48. Positions
         # 3 to 8 are weighted 7, 6, 5, 4, 3, 2 and the check digit is at position 9:
         # 3*7 + 4*6 + 5*5 + 6*4 + 7*3 + 8*2 = 131, 131 % 11 = 10, 11 - 10 = 1.
@@ -198,6 +210,12 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0099999910", "DE:48"),
         # Valid for method 06, but method 48 expects check digit 7 at position 9.
         ("0094012341", "DE:48"),
+        # Method 40 with a wrong check digit.
+        ("0001258346", "DE:40"),
+        # Method 44 with a wrong check digit.
+        ("2618040505", "DE:44"),
+        # Valid for method 33, but method 44 expects check digit 6.
+        ("0000889008", "DE:44"),
         # Method 46 with a wrong check digit at position 8.
         ("0235468712", "DE:46"),
         # Method 47 with a wrong check digit at position 9.
@@ -326,6 +344,18 @@ def test_german_checksum_48_compute_and_solve() -> None:
     algo = algorithms["DE:48"]
     assert algo.compute(["1234567890"]) == "1"
     assert algo.solve(["1234567890"]) == ["1234567810"]
+
+
+def test_german_checksum_40_compute_and_solve() -> None:
+    algo = algorithms["DE:40"]
+    assert algo.compute(["0003231960"]) == "3"
+    assert algo.solve(["0003231960"]) == ["0003231963"]
+
+
+def test_german_checksum_44_compute_and_solve() -> None:
+    algo = algorithms["DE:44"]
+    assert algo.compute(["2618040500"]) == "4"
+    assert algo.solve(["2618040500"]) == ["2618040504"]
 
 
 def test_german_checksum_46_compute_and_solve() -> None:
