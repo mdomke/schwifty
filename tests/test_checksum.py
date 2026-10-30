@@ -57,6 +57,34 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("0003231963", "DE:40"),
         # 1*6 + 2*3 + 3*7 + 4*9 + 5*10 + 6*5 + 7*8 + 8*4 + 9*2 = 255, 255 % 11 = 2, 11 - 2 = 9.
         ("1234567899", "DE:40"),
+        # Method 41 test account numbers. They are computed like method 00.
+        ("4013410024", "DE:41"),
+        ("4016660195", "DE:41"),
+        ("0166805317", "DE:41"),
+        ("4019310079", "DE:41"),
+        ("4019340829", "DE:41"),
+        ("4019151002", "DE:41"),
+        # If position 4 is a 9, positions 1 to 3 are not part of the calculation. This is
+        # the example from the document: 9*1 + 1*2 + 1*1 = 12, 10 - 2 = 8.
+        ("4019110008", "DE:41"),
+        # Method 00 would expect check digit 1 here.
+        ("9999110008", "DE:41"),
+        # Method 42 test account numbers. Positions 2 to 9 are weighted 9, 8, 7, 6, 5, 4, 3,
+        # 2 and the check digit is at position 10.
+        ("0000059498", "DE:42"),
+        # 1*2 + 5*3 + 9*4 + 5*5 = 78, remainder 1 gives check digit 0 as in method 06.
+        ("0000059510", "DE:42"),
+        # 2*9 + 3*8 + 4*7 + 5*6 + 6*5 + 7*4 + 8*3 + 9*2 = 200, 200 % 11 = 2, 11 - 2 = 9.
+        ("1234567899", "DE:42"),
+        # Position 1 is not part of the calculation.
+        ("9000059498", "DE:42"),
+        # Method 43 test account numbers. Positions 1 to 9 are weighted 9, 8, 7, 6, 5, 4, 3,
+        # 2, 1 and the check digit is 10 minus the remainder of the sum divided by 10.
+        ("0006135244", "DE:43"),
+        ("9516893476", "DE:43"),
+        # 9*9 + 5*8 + 1*7 + 6*6 + 8*5 + 9*4 + 3*3 + 4*2 + 3*1 = 260, a difference of 10 gives
+        # check digit 0.
+        ("9516893430", "DE:43"),
         # Method 44 test account numbers. Only positions 5 to 9 are weighted, with 10, 5, 8,
         # 4, 2, and the check digit is at position 10.
         ("0000889006", "DE:44"),
@@ -212,6 +240,14 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0094012341", "DE:48"),
         # Method 40 with a wrong check digit.
         ("0001258346", "DE:40"),
+        # Method 41 with a wrong check digit.
+        ("4013410025", "DE:41"),
+        # Valid for method 00, but position 4 is a 9, so method 41 expects check digit 8.
+        ("9999110001", "DE:41"),
+        # Method 42 with a wrong check digit.
+        ("0000059499", "DE:42"),
+        # Method 43 with a wrong check digit.
+        ("9516893475", "DE:43"),
         # Method 44 with a wrong check digit.
         ("2618040505", "DE:44"),
         # Valid for method 33, but method 44 expects check digit 6.
@@ -350,6 +386,24 @@ def test_german_checksum_40_compute_and_solve() -> None:
     algo = algorithms["DE:40"]
     assert algo.compute(["0003231960"]) == "3"
     assert algo.solve(["0003231960"]) == ["0003231963"]
+
+
+def test_german_checksum_41_compute_and_solve() -> None:
+    algo = algorithms["DE:41"]
+    assert algo.compute(["4019110000"]) == "8"
+    assert algo.solve(["4019110000"]) == ["4019110008"]
+
+
+def test_german_checksum_42_compute_and_solve() -> None:
+    algo = algorithms["DE:42"]
+    assert algo.compute(["0000059490"]) == "8"
+    assert algo.solve(["0000059490"]) == ["0000059498"]
+
+
+def test_german_checksum_43_compute_and_solve() -> None:
+    algo = algorithms["DE:43"]
+    assert algo.compute(["9516893470"]) == "6"
+    assert algo.solve(["9516893470"]) == ["9516893476"]
 
 
 def test_german_checksum_44_compute_and_solve() -> None:
