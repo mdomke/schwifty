@@ -1,7 +1,8 @@
 #!/usr/bin/env python
-import json
 
 import pandas
+
+from scripts.output import write_json
 
 
 URL = "https://www.cnb.cz/cs/platebni-styk/.galleries/ucty_kody_bank/download/kody_bank_CR.csv"
@@ -30,5 +31,4 @@ def process():
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_cz.json", "w") as fp:
-        json.dump(process(), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_cz.json", process(), indent=2)

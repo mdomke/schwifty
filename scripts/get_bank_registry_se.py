@@ -1,8 +1,9 @@
 #!/usr/bin/env python
-import json
 
 import camelot
 import pandas
+
+from scripts.output import write_json
 
 
 # https://www.bankinfrastruktur.se/framtidens-betalningsinfrastruktur/iban-och-svenskt-nationellt-kontonummer
@@ -38,5 +39,4 @@ def process():
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_se.json", "w") as fp:
-        json.dump(process(), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_se.json", process(), indent=2)

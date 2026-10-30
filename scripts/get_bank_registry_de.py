@@ -1,9 +1,10 @@
 #!/usr/bin/env python
-import json
 from urllib.parse import urljoin
 
 import httpx2
 from bs4 import BeautifulSoup
+
+from scripts.output import write_json
 
 
 FIELD_LENGTHS = {
@@ -81,5 +82,4 @@ def process(records):
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_de.json", "w") as fp:
-        json.dump(process(parse(get_raw())), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_de.json", process(parse(get_raw())), indent=2)

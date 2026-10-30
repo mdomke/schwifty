@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-import json
 from typing import Any
 
 import pandas
 
+from scripts.output import write_json
 from scripts.remap import convert_to_v2
 
 
@@ -41,5 +41,4 @@ def process() -> dict[str, Any]:
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_at.v2.json", "w") as fp:
-        json.dump(process(), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_at.v2.json", process(), indent=2)

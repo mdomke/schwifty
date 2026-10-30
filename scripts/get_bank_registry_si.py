@@ -5,6 +5,8 @@ import json
 import httpx2
 import pandas
 
+from scripts.output import write_json
+
 
 # Banka Slovenije, "Seznam identifikacijskih oznak ponudnikov plačilnih storitev"
 # (list of national identifiers of payment service providers). The old ckfinder
@@ -69,5 +71,4 @@ def load_previous():
 
 if __name__ == "__main__":
     data = process()  # read the previous file before opening it for writing
-    with open(OUTPUT, "w") as fp:
-        json.dump(data, fp, indent=2)
+    write_json(OUTPUT, data, indent=2)

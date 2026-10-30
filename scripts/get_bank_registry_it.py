@@ -5,6 +5,8 @@ from time import sleep
 import httpx2
 from bs4 import BeautifulSoup
 
+from scripts.output import write_json
+
 
 def split_bank_name(s):
     # The patterns that might suggest the start of the short name.
@@ -222,5 +224,6 @@ if __name__ == "__main__":
         for bank in banks:
             bank_code_to_bank[bank["bank_code"]] = bank
 
-    with open("schwifty/bank_registry/generated_it.json", "w") as fp:
-        json.dump(list(bank_code_to_bank.values()), fp, indent=2)
+    write_json(
+        "schwifty/bank_registry/generated_it.json", list(bank_code_to_bank.values()), indent=2
+    )

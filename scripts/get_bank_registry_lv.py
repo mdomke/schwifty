@@ -1,8 +1,9 @@
 #!/usr/bin/env python
-import json
 
 import httpx2
 import pandas
+
+from scripts.output import write_json
 
 
 URL = "https://www.bank.lv/images/stories/pielikumi/makssist/bic_saraksts_22.01.2020_eng.xls"
@@ -29,5 +30,4 @@ def process():
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_lv.json", "w") as fp:
-        json.dump(process(), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_lv.json", process(), indent=2)

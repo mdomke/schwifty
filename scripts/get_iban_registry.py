@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import argparse
-import json
 import re
 from pathlib import Path
 from typing import Any
@@ -8,6 +7,8 @@ from urllib.parse import urljoin
 
 import httpx2
 from bs4 import BeautifulSoup
+
+from scripts.output import write_json
 
 
 COUNTRY_CODE_PATTERN = r"[A-Z]{2}"
@@ -118,8 +119,7 @@ def main() -> None:
     args = parser.parse_args()
     raw = read_raw(args.file) if args.file else get_raw()
     registry = process(parse(raw))
-    with OUTPUT.open("w") as fp:
-        json.dump(registry, fp, indent=2)
+    write_json(OUTPUT, registry, indent=2)
 
 
 if __name__ == "__main__":

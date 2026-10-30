@@ -34,6 +34,9 @@ Fixed
   ``InvalidCountryCode``. SWIFT assigns them the code ``XK``, which is not part of ISO 3166-1 and
   therefore unknown to ``pycountry``, although ``IBAN`` already accepts it.
   (#346) `@ryanduguid <https://github.com/ryanduguid>`_.
+* The registry update scripts no longer truncate the generated registry file when downloading or
+  processing the source data fails. The output is now written to a temporary file that replaces
+  the previous registry only once it has been written completely.
 
 `2026.10.1`_ - 2026/10/25
 -------------------------

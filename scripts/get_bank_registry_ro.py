@@ -1,7 +1,7 @@
-import json
-
 import httpx2
 from bs4 import BeautifulSoup
+
+from scripts.output import write_json
 
 
 BANK_CODES_URL = "https://internationalmoneytransfers.org/romania-swift-codes/"
@@ -35,5 +35,4 @@ def process():
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_ro.json", "w") as fp:
-        json.dump(list(process()), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_ro.json", list(process()), indent=2)

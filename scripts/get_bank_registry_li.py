@@ -1,7 +1,8 @@
-import json
 from typing import Any
 
 import httpx2
+
+from scripts.output import write_json
 
 
 URL = "https://api.six-group.com/api/epcd/bankmaster/v3/bankmaster.json"
@@ -32,5 +33,4 @@ def process(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_li.json", "w") as fp:
-        json.dump(process(fetch()), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_li.json", process(fetch()), indent=2)

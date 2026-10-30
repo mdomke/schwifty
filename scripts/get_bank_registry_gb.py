@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 import csv
 import io
-import json
 import zipfile
 from collections import defaultdict
 from itertools import batched
 
 import httpx2
+
+from scripts.output import write_json
 
 
 MAPPING_URL = "https://mapping.gleif.org/api/v2/bic-lei"
@@ -96,5 +97,4 @@ def process():
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_gb.json", "w") as fp:
-        json.dump(process(), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_gb.json", process(), indent=2)

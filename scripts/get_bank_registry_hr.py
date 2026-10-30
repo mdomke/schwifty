@@ -1,7 +1,8 @@
 #!/usr/bin/env python
-import json
 
 import pandas
+
+from scripts.output import write_json
 
 
 URL = "https://www.hnb.hr/documents/20182/121798/tf-pp-ds-vbb-xlsx-e-vbb.xlsx/"
@@ -32,5 +33,4 @@ def process():
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_hr.json", "w") as fp:
-        json.dump(process(), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_hr.json", process(), indent=2)

@@ -1,8 +1,9 @@
 #!/usr/bin/env python
-import json
 
 import httpx2
 import pandas as pd
+
+from scripts.output import write_json
 
 
 BRANCH_URL = "https://bank.gov.ua/NBU_BankInfo/get_data_branch?json"
@@ -72,5 +73,4 @@ def process():
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_ua.json", "w+") as fp:
-        json.dump(process(), fp, indent=2, ensure_ascii=False)
+    write_json("schwifty/bank_registry/generated_ua.json", process(), indent=2, ensure_ascii=False)

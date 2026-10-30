@@ -1,8 +1,7 @@
-import json
-
 import pandas
 
 from schwifty import BIC
+from scripts.output import write_json
 
 
 URL = "https://www.nbs.sk/_img/Documents/_PlatobneSystemy/EUROSIPS/Directory_IC_DPS_SR.csv"
@@ -38,5 +37,4 @@ def process():
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_sk.json", "w") as fp:
-        json.dump(process(), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_sk.json", process(), indent=2)

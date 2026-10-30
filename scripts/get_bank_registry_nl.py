@@ -1,7 +1,8 @@
 #!/usr/bin/env python
-import json
 
 import pandas
+
+from scripts.output import write_json
 
 
 URL = "https://www.betaalvereniging.nl/wp-content/uploads/BIC-lijst-NL.xlsx"
@@ -33,5 +34,4 @@ def process():
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_nl.json", "w") as fp:
-        json.dump(process(), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_nl.json", process(), indent=2)

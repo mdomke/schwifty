@@ -1,8 +1,8 @@
-import json
 from typing import Any
 
 import httpx2
 
+from scripts.output import write_json
 from scripts.remap import convert_to_v2
 
 
@@ -53,5 +53,4 @@ def process(records: list[dict[str, Any]]) -> dict[str, Any]:
 
 if __name__ == "__main__":
     data = process(fetch())
-    with open("schwifty/bank_registry/generated_ch.v2.json", "w") as fp:
-        json.dump(data, fp, indent=2)
+    write_json("schwifty/bank_registry/generated_ch.v2.json", data, indent=2)

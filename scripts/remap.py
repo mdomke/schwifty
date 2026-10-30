@@ -7,6 +7,8 @@ from typing import TypedDict
 
 from boltons.iterutils import bucketize
 
+from scripts.output import write_json
+
 
 class EntryV1(TypedDict, total=False):
     name: str
@@ -48,4 +50,4 @@ if __name__ == "__main__":
     result = convert_to_v2(json.loads(infile.read_text()))
 
     outfile = infile.with_suffix(".v2.json")
-    outfile.write_text(json.dumps(result))
+    write_json(outfile, result)

@@ -1,8 +1,9 @@
-import json
 from urllib.parse import urljoin
 
 import httpx2
 from bs4 import BeautifulSoup
+
+from scripts.output import write_json
 
 
 BASE_URLS = [
@@ -49,5 +50,4 @@ def process():
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_es.json", "w") as fp:
-        json.dump(process(), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_es.json", process(), indent=2)

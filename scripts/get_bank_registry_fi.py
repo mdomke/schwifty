@@ -1,10 +1,10 @@
 #!/usr/bin/env python
-import json
 
 import httpx2
 import pandas
 from bs4 import BeautifulSoup
 
+from scripts.output import write_json
 from scripts.remap import convert_to_v2
 
 
@@ -44,5 +44,4 @@ def process():
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_fi.v2.json", "w") as fp:
-        json.dump(process(), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_fi.v2.json", process(), indent=2)

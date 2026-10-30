@@ -1,7 +1,8 @@
 #!/usr/bin/env python
-import json
 
 import pandas
+
+from scripts.output import write_json
 
 
 URL = "https://www.mnb.hu/letoltes/sht.xlsx"
@@ -40,5 +41,4 @@ def process():
 
 
 if __name__ == "__main__":
-    with open("schwifty/bank_registry/generated_hu.json", "w") as fp:
-        json.dump(list(process()), fp, indent=2)
+    write_json("schwifty/bank_registry/generated_hu.json", list(process()), indent=2)
