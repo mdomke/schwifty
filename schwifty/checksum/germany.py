@@ -812,6 +812,15 @@ class AlgorithmA3(FallbackVariants):
 
 
 @register
+class AlgorithmA7(FallbackVariants):
+    name = "A7"
+    variants: ClassVar[tuple[type[WeightedModulus], type[WeightedModulus]]] = (
+        Algorithm00,
+        Algorithm03,
+    )
+
+
+@register
 class AlgorithmC1(checksum.Algorithm):
     """Method 17, or a variant of it over positions 1-9 for account codes starting with 5.
 

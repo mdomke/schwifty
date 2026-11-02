@@ -208,6 +208,15 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("9876543210", "DE:A3"),
         ("1234567890", "DE:A3"),
         ("0123456789", "DE:A3"),
+        # Method A7 test account numbers. Variant 1 is method 00, and the account codes it
+        # rejects are checked with method 03, which adds the products without their digit
+        # sums. For 0019010660, method 00 counts 6*2 = 12 as 1 + 2 and expects check digit 9,
+        # method 03 adds 12 and expects 0.
+        ("0019010008", "DE:A7"),
+        ("0019010438", "DE:A7"),
+        ("0019010660", "DE:A7"),
+        ("0019010876", "DE:A7"),
+        ("0209010892", "DE:A7"),
         # Method C1, variant 1 (method 17) for account codes not starting with 5.
         ("0446786040", "DE:C1"),
         ("0478046940", "DE:C1"),
@@ -302,6 +311,8 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0123456789", "DE:A2"),
         ("6543217890", "DE:A3"),
         ("0543216789", "DE:A3"),
+        # Method A7 test account number that neither method 00 nor method 03 accepts.
+        ("0209010893", "DE:A7"),
         # Just outside the exception range of method 99 the check digit applies again.
         ("0395999999", "DE:99"),
         ("0500000000", "DE:99"),
@@ -420,7 +431,7 @@ def test_german_checksum_91_compute_and_solve() -> None:
     assert algo.solve(["2974118000"]) == ["2974118000"]
 
 
-@pytest.mark.parametrize("algorithm_name", ["DE:49", "DE:A2", "DE:A3"])
+@pytest.mark.parametrize("algorithm_name", ["DE:49", "DE:A2", "DE:A3", "DE:A7"])
 def test_german_checksum_fallback_variants_compute_and_solve(algorithm_name: str) -> None:
     # Variant 1 (method 00) can always place a check digit, so it is used for all of them.
     algo = algorithms[algorithm_name]
