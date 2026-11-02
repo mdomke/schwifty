@@ -155,9 +155,13 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("0987654328", "DE:68"),
         # Accounts in [400000000, 499999999] skip the check digit.
         ("0400000000", "DE:68"),
+        ("0012345600", "DE:76"),
         ("0006543200", "DE:76"),
         ("9012345600", "DE:76"),
         ("7876543100", "DE:76"),
+        # A remainder of 10 leaves no check digit at position 8, but the sub-account
+        # may still be omitted, with check digit 9 at position 10.
+        ("0000005009", "DE:76"),
         ("0002525259", "DE:88"),
         ("0001000500", "DE:88"),
         ("0090013000", "DE:88"),
@@ -288,6 +292,12 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         # Method 76 only accepts leading digits 0, 4, 6, 7, 8 and 9.
         ("1234567890", "DE:76"),
         ("0000123457", "DE:76"),
+        # Method 76 test account numbers with a wrong check digit.
+        ("0006543300", "DE:76"),
+        ("9012345700", "DE:76"),
+        # A remainder of 10 leaves no check digit at position 8, so 0 is not accepted.
+        ("9012347000", "DE:76"),
+        ("0000005000", "DE:76"),
         ("1234567890", "DE:A2"),
         ("0123456789", "DE:A2"),
         ("6543217890", "DE:A3"),
@@ -377,6 +387,15 @@ def test_german_checksum_31_invalid_remainder() -> None:
     with pytest.raises(InvalidBBANChecksum, match="Invalid remainder"):
         algo.validate(["1000000010"], "")
     assert algo.solve(["1000000010"]) is None
+
+
+def test_german_checksum_76_invalid_remainder() -> None:
+    # 1*6 + 2*5 + 3*4 + 4*3 + 7*2 = 54 leaves a remainder of 10 for the Stammnummer
+    # 012347, so there is no check digit for it, whether the sub-account is left out or not.
+    algo = algorithms["DE:76"]
+    with pytest.raises(InvalidBBANChecksum, match="Invalid remainder"):
+        algo.validate(["0000123470"], "")
+    assert algo.solve(["9012347000"]) is None
 
 
 def test_german_checksum_08_skips_small_account() -> None:

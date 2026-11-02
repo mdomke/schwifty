@@ -8,6 +8,7 @@ https://www.bundesbank.de/resource/blob/603320/16a80c739bbbae592ca575905975c2d0/
 from __future__ import annotations
 
 import string
+from contextlib import suppress
 from dataclasses import dataclass
 from itertools import cycle
 from typing import ClassVar
@@ -649,12 +650,22 @@ class Algorithm76(WeightedMod11):
         return digits.rstrip("0")
 
     @override
+    def reconcile(self, checksum: int) -> int:
+        # The remainder is the check digit, so there is none for a remainder of 10.
+        if self.remainder == 10:
+            raise InvalidBBANChecksum(f"Invalid remainder: {self.remainder}")
+        return checksum
+
+    @override
     def validate(self, components: list[str], expected: str) -> bool:
         account_code = validate_account_code(components[0])
         if int(account_code[0]) not in {0, 4, 6, 7, 8, 9}:
             return False
-        if super().validate(components, expected):
-            return True
+        # A remainder of 10 only rules out a check digit at position 8, so the account
+        # code is still checked without the sub-account below.
+        with suppress(InvalidBBANChecksum):
+            if super().validate(components, expected):
+                return True
         # The sub-account number "00" may be omitted and the account code padded with
         # leading zeros instead, which moves the check digit to position 10.
         if account_code.startswith("00") and int(account_code[2]) in {0, 4, 6, 7, 8, 9}:

@@ -76,6 +76,12 @@ Fixed
 * The registry update scripts no longer truncate the generated registry file when downloading or
   processing the source data fails. The output is now written to a temporary file that replaces
   the previous registry only once it has been written completely.
+* The German checksum method ``76`` (used by Commerzbank vormals Dresdner Bank) no longer accepts
+  a check digit of 0 when the weighted sum leaves a remainder of 10 (e.g. ``0000005000``). The
+  remainder is the check digit itself, so there is none for a remainder of 10 and, according to
+  the Bundesbank specification, the account code cannot be checked. Account codes starting with
+  ``00`` are still checked without the sub-account number, with the check digit at position 10
+  (e.g. ``0000005009``).
 
 `2026.10.1`_ - 2026/10/25
 -------------------------
