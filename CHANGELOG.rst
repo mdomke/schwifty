@@ -71,6 +71,20 @@ Changed
   Bank to BlueOr Bank and LPB Bank to Magnetiq Bank. Banks that are no longer on the official
   list, such as PNB Banka (``LATB``), are kept as closed banks. The update script now looks up the
   renamed spreadsheet on the bank's website instead of using a fixed URL.
+* The Italian bank registry is now generated from Banca d'Italia's registers of banks, e-money
+  institutions and payment institutions, with BICs from GLEIF's BIC-to-LEI mapping. It now covers
+  all 465 active institutions instead of 215, and names banks as Banca d'Italia does. Several BICs
+  are corrected, e.g. cooperative banks now have their own BIC instead of the one of their central
+  institute. Institutions that have ceased since 2008 are included, so that existing IBANs still
+  resolve. Their status is taken from the registers: 425 were merged into another institution, e.g.
+  Banco di Napoli (``01010``) into Intesa Sanpaolo, or continued under a new bank code, e.g.
+  UniCredit, and 418 of them resolve to the name and BIC of the institution that services their bank
+  code today, 101 were closed, e.g. by liquidation, and 50 ceased for another reason.
+* Removed 104 entries from the manual Italian registry that duplicate the generated one, or
+  contradict it with outdated data. Italian banks now resolve to their current BIC, e.g. Fineco
+  (``FEBIITM2``) and Isybank (``ISYBITMM``), and banks that have ceased, such as Banca Popolare
+  di Vicenza, are no longer reported as active. The manual registry keeps the entries that add a
+  BIC the generated registry lacks.
 * German bank codes of merged banks now resolve to the successor bank, e.g. ``13061088``
   (Raiffeisenbank Wismar) to Volks- und Raiffeisenbank, while account codes are still checked with
   the checksum method of the original bank. This applies as soon as the Bundesbank announces the

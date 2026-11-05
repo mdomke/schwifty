@@ -6,6 +6,7 @@ import pytest
 from pycountry import countries  # type: ignore
 
 from schwifty import IBAN
+from schwifty.domain import BankStatus
 from schwifty.exceptions import InvalidStructure
 from schwifty.exceptions import SchwiftyException
 from schwifty.registry import convert_bban_spec_to_regex
@@ -245,8 +246,13 @@ def test_iban_properties_it() -> None:
     assert iban.account_code == "000000123456"
     assert iban.national_checksum_digits == "X"
     assert iban.country == countries.get(alpha_2="IT")
-    assert iban.bic == "BLOPIT22"
-    assert iban.bank_name == "Unione Di Banche Italiane SpA"
+    # Banca Popolare di Bergamo was absorbed by UBI Banca, which Intesa Sanpaolo absorbed in turn.
+    assert iban.bic == "BCITITMM"
+    assert iban.bank_name == "INTESA SANPAOLO S.P.A."
+    assert iban.bank is not None
+    assert iban.bank.status is BankStatus.MERGED
+    assert iban.bank.successor_bank_code == "03111"
+    assert iban.bank.legacy_name == "BANCA POPOLARE DI BERGAMO S.P.A."
     assert iban.in_sepa_zone is True
 
 
@@ -396,7 +402,7 @@ def test_magic_methods() -> None:
         ("HR1723600001101234565", "ZABAHR2X"),
         ("HU42117730161111101800000000", "OTPVHUHB"),
         ("IE64IRCE92050112345678", "IRCEIE2D"),
-        ("IT60X0542811101000000123456", "BLOPIT22"),
+        ("IT60X0542811101000000123456", "BCITITMM"),
         # ("IL170108000000012612345", "LUMIILIT"),
         ("IS480114007083000000000000", "NBIIISRE"),
         ("KZ244350000012344567", "SHBKKZKA"),

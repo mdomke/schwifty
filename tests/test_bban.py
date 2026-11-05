@@ -10,6 +10,7 @@ from schwifty import IBAN
 from schwifty import registry
 from schwifty.bban import BBAN
 from schwifty.domain import Bank
+from schwifty.domain import BankStatus
 from schwifty.domain import lookup_rank
 from schwifty.exceptions import GenerateRandomOverflowError
 from schwifty.exceptions import InvalidAccountCode
@@ -88,6 +89,18 @@ def test_bank_prefers_the_primary_registry_record() -> None:
     assert iban.bank.bic == iban.bic
     assert iban.bank.primary is True
     assert iban.bank_short_name == "Nord LB Bremen"
+
+
+def test_merged_bank_resolves_to_its_successor_under_a_new_bank_code() -> None:
+    # Banco di Sicilia was absorbed by UniCredito Italiano (03135), which continued as UniCredit
+    # under the bank code 02008. The register links the two codes only by their common tax code.
+    bban = BBAN.from_components("IT", bank_code="01020", branch_code="00000", account_code="0" * 12)
+    assert bban.bank is not None
+    assert bban.bank.status is BankStatus.MERGED
+    assert bban.bank.successor_bank_code == "03135"
+    assert bban.bank.legacy_name == "BANCO DI SICILIA S.P.A."
+    assert bban.bank.name == "UNICREDIT, SOCIETA' PER AZIONI"
+    assert bban.bic == "UNCRITMM"
 
 
 def test_bank_and_bic_describe_the_same_record_for_every_registered_bank_code() -> None:
