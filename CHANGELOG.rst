@@ -265,6 +265,13 @@ Fixed
   the Bundesbank specification, the account code cannot be checked. Account codes starting with
   ``00`` are still checked without the sub-account number, with the check digit at position 10
   (e.g. ``0000005009``).
+* The national check digits of Kosovo (``XK``) IBANs are now validated with ISO 7064 mod 97-10,
+  as specified by the Central Bank of Kosovo and already done for Bosnia and Herzegovina,
+  Montenegro, North Macedonia and Serbia. The last two digits of the BBAN used to be read as part
+  of the account code, so ``validate_bban=True`` accepted wrong check digits without a warning
+  (e.g. ``XK75 1212 0123 4567 8907``). :attr:`.IBAN.account_code` is now the 10-digit client
+  number and the check digits are available as :attr:`.IBAN.national_checksum_digits`.
+  :meth:`.IBAN.generate` now computes them as well.
 
 `2026.10.1`_ - 2026/10/25
 -------------------------

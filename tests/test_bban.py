@@ -35,6 +35,22 @@ def test_validate_national_checksum() -> None:
         BBAN("BA", "1290079401028400").validate_national_checksum()
 
 
+def test_validate_national_checksum_kosovo() -> None:
+    # The last two digits of a Kosovo BBAN are check digits computed with ISO 7064 mod 97-10,
+    # like in the other former Yugoslav countries. They used to be read as part of the account
+    # code, so they were never checked. Example taken from the Central Bank of Kosovo.
+    bban = BBAN("XK", "1212012345678906")
+    assert bban.bank_code == "12"
+    assert bban.branch_code == "12"
+    assert bban.account_code == "0123456789"
+    assert bban.national_checksum_digits == "06"
+    assert bban.validate_national_checksum() is True
+    with pytest.raises(InvalidBBANChecksum):
+        BBAN("XK", "1212012345678907").validate_national_checksum()
+    with pytest.raises(InvalidBBANChecksum):
+        IBAN.from_bban("XK", "1212012345678907", validate_bban=True)
+
+
 @pytest.mark.parametrize("country_code", ["HU", "SE"])
 def test_validate_national_checksum_reports_a_missing_algorithm(country_code: str) -> None:
     # Both countries declare a national check-digit field (HU: 23-24, SE: 19-20) but have no
