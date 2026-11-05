@@ -73,10 +73,13 @@ Changed
   renamed spreadsheet on the bank's website instead of using a fixed URL.
 * German bank codes of merged banks now resolve to the successor bank, e.g. ``13061088``
   (Raiffeisenbank Wismar) to Volks- und Raiffeisenbank, while account codes are still checked with
-  the checksum method of the original bank. Bank codes that the Bundesbank has deleted are no
-  longer dropped from the registry: merged ones are kept as aliases of their successor and those
-  without a successor, such as Greensill Bank (``29020200``), as closed banks if their checksum
-  method is known. About 70 bank codes deleted in recent years have been restored this way.
+  the checksum method of the original bank. This applies as soon as the Bundesbank announces the
+  deletion of a bank code together with a successor. Bank codes that the Bundesbank has deleted are
+  no longer dropped from the registry: merged ones are kept as aliases of their successor, and those
+  without a successor, such as Greensill Bank (``29020200``), as delisted banks if their checksum
+  method is known. 151 bank codes are kept this way, 36 of them merged. The names of retired bank
+  codes no longer carry the suffix "-alt-" ("old"), which the Bundesbank adds to the names of codes
+  that a merger made obsolete, e.g. Raiffeisenbank Wismar.
 * The bank codes of merged Swiss and Slovenian banks, which already resolved to their successor,
   are now marked as retired. Six of the Swiss ones, such as ``31000`` of UBS Switzerland, were
   wrongly flagged as primary entries before.

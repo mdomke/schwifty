@@ -419,6 +419,7 @@
     "checksum_algo": "06",
     "status": "merged",
     "successor_bank_code": "37060193",
+    "legacy_name": "Pax-Bank",
     "legacy_bic": "GENODED1PA6"
   },
   {
@@ -1665,6 +1666,7 @@
     "checksum_algo": "32",
     "status": "merged",
     "successor_bank_code": "13061078",
+    "legacy_name": "Raiffeisenbank Wismar",
     "legacy_bic": "GENODEF1HWR"
   },
   {
@@ -1677,6 +1679,7 @@
     "checksum_algo": "32",
     "status": "merged",
     "successor_bank_code": "14061308",
+    "legacy_name": "Raiffeisenbank",
     "legacy_bic": "GENODEF1DBR"
   },
   {
@@ -2319,6 +2322,7 @@
     "checksum_algo": "06",
     "status": "merged",
     "successor_bank_code": "13061078",
+    "legacy_name": "Volksbank Wismar",
     "legacy_bic": "GENODEF1HWV"
   },
   {
@@ -5423,6 +5427,26 @@
     "checksum_algo": "13"
   },
   {
+    "bank_code": "21261089",
+    "name": "Raiffeisenbank",
+    "short_name": "Raiffeisenbank Wasbek",
+    "bic": "GENODEF1WAS",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "33",
+    "status": "delisted"
+  },
+  {
+    "bank_code": "21261227",
+    "name": "Raiffbk Kl-Kummerfeld",
+    "short_name": "Raiffbk Kl-Kummerfeld",
+    "bic": "GENODEF1BOO",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "33",
+    "status": "delisted"
+  },
+  {
     "bank_code": "21270020",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
@@ -6450,7 +6474,8 @@
     "country_code": "DE",
     "checksum_algo": "A3",
     "status": "merged",
-    "successor_bank_code": "25050180"
+    "successor_bank_code": "25050180",
+    "legacy_name": "Kreissparkasse Hannover"
   },
   {
     "bank_code": "25055500",
@@ -7219,6 +7244,16 @@
     "checksum_algo": "00"
   },
   {
+    "bank_code": "25851335",
+    "name": "Sparkasse Uelzen L\u00fcchow-Dannenberg",
+    "short_name": "Spk Uelzen L\u00fcchow-Dbg.",
+    "bic": "NOLADE21DAN",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "00",
+    "status": "delisted"
+  },
+  {
     "bank_code": "25851660",
     "name": "Kreissparkasse Soltau",
     "short_name": "Kr Spk Soltau",
@@ -7408,6 +7443,16 @@
     "checksum_algo": "00"
   },
   {
+    "bank_code": "26051450",
+    "name": "Kreis- und Stadtsparkasse M\u00fcnden",
+    "short_name": "Kr u St Spk M\u00fcnden",
+    "bic": "NOLADE21HMU",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "00",
+    "status": "delisted"
+  },
+  {
     "bank_code": "26061291",
     "name": "Volksbank Mitte -alt-",
     "short_name": "Volksbank Mitte -alt-",
@@ -7516,6 +7561,16 @@
     "checksum_algo": "00"
   },
   {
+    "bank_code": "26261396",
+    "name": "Volksbank Dassel",
+    "short_name": "Volksbank Dassel",
+    "bic": "GENODEF1VDA",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "28",
+    "status": "delisted"
+  },
+  {
     "bank_code": "26261492",
     "name": "Volksbank Einbeck -alt-",
     "short_name": "Volksbank Einbeck  -alt-",
@@ -7586,6 +7641,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "13"
+  },
+  {
+    "bank_code": "26350001",
+    "name": "Stadtsparkasse Osterode",
+    "short_name": "St Spk Osterode",
+    "bic": "NOLADE21OHA",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "00",
+    "status": "delisted"
   },
   {
     "bank_code": "26351015",
@@ -7993,6 +8058,7 @@
     "checksum_algo": "28",
     "status": "merged",
     "successor_bank_code": "28069956",
+    "legacy_name": "Raiffeisen- und Volksbank Nordhorn",
     "legacy_bic": "GENODEF1NDH"
   },
   {
@@ -9086,6 +9152,7 @@
     "checksum_algo": "28",
     "status": "merged",
     "successor_bank_code": "28069956",
+    "legacy_name": "Volksbank Obergrafschaft",
     "legacy_bic": "GENODEF1BBH"
   },
   {
@@ -9116,6 +9183,7 @@
     "checksum_algo": "28",
     "status": "merged",
     "successor_bank_code": "28563749",
+    "legacy_name": "Raiffeisenbank Oldersum",
     "legacy_bic": "GENODEF1MLO"
   },
   {
@@ -9144,6 +9212,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "28"
+  },
+  {
+    "bank_code": "28069930",
+    "name": "Volksbank Langen-Gersten",
+    "short_name": "VB Langen-Gersten",
+    "bic": "GENODEF1LAG",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "28",
+    "status": "delisted"
   },
   {
     "bank_code": "28069935",
@@ -9560,6 +9638,7 @@
     "checksum_algo": "28",
     "status": "merged",
     "successor_bank_code": "28563749",
+    "legacy_name": "Raiffeisenbank Moormerland",
     "legacy_bic": "GENODEF1HTL"
   },
   {
@@ -11098,6 +11177,7 @@
     "checksum_algo": "06",
     "status": "merged",
     "successor_bank_code": "31460290",
+    "legacy_name": "Volksbank Schwalmtal",
     "legacy_bic": "GENODED1NKR"
   },
   {
@@ -12587,6 +12667,7 @@
     "checksum_algo": "06",
     "status": "merged",
     "successor_bank_code": "37060193",
+    "legacy_name": "Pax-Bank",
     "legacy_bic": "GENODED1PA2"
   },
   {
@@ -13150,6 +13231,7 @@
     "checksum_algo": "06",
     "status": "merged",
     "successor_bank_code": "37069412",
+    "legacy_name": "Raiffeisenbank",
     "legacy_bic": "GENODED1GLK"
   },
   {
@@ -13216,6 +13298,7 @@
     "checksum_algo": "06",
     "status": "merged",
     "successor_bank_code": "37069412",
+    "legacy_name": "Raiffeisenbank Selfkant",
     "legacy_bic": "GENODED1SEG"
   },
   {
@@ -13912,6 +13995,7 @@
     "checksum_algo": "00",
     "status": "merged",
     "successor_bank_code": "37050299",
+    "legacy_name": "Stadt-Sparkasse Leichlingen",
     "legacy_bic": "WELADED1LEI"
   },
   {
@@ -13931,6 +14015,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
+  },
+  {
+    "bank_code": "37560092",
+    "name": "Volksbank Rhein-Wupper",
+    "short_name": "Volksbank Rhein-Wupper",
+    "bic": "GENODED1RWL",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "06",
+    "status": "delisted"
   },
   {
     "bank_code": "37570024",
@@ -14131,6 +14225,7 @@
     "checksum_algo": "00",
     "status": "merged",
     "successor_bank_code": "37050198",
+    "legacy_name": "Sparkasse Bonn",
     "legacy_bic": "COLSDE33BON"
   },
   {
@@ -14476,6 +14571,7 @@
     "checksum_algo": "00",
     "status": "merged",
     "successor_bank_code": "37050299",
+    "legacy_name": "Kreissparkasse Siegburg",
     "legacy_bic": "WELADED1SGB"
   },
   {
@@ -14488,6 +14584,7 @@
     "checksum_algo": "00",
     "status": "merged",
     "successor_bank_code": "37050299",
+    "legacy_name": "Sparkasse Hennef",
     "legacy_bic": "WELADED1HEN"
   },
   {
@@ -14536,6 +14633,7 @@
     "checksum_algo": "06",
     "status": "merged",
     "successor_bank_code": "37069412",
+    "legacy_name": "Heinsberger Volksbank",
     "legacy_bic": "GENODED1HNB"
   },
   {
@@ -14773,6 +14871,7 @@
     "checksum_algo": "06",
     "status": "merged",
     "successor_bank_code": "37060193",
+    "legacy_name": "Pax-Bank",
     "legacy_bic": "GENODED1PA1"
   },
   {
@@ -15864,6 +15963,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
+  },
+  {
+    "bank_code": "41652560",
+    "name": "Sparkasse Warstein-R\u00fcthen",
+    "short_name": "Spk Warstein-R\u00fcthen",
+    "bic": "WELADED1WAR",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "00",
+    "status": "delisted"
   },
   {
     "bank_code": "41660124",
@@ -18332,6 +18441,7 @@
     "checksum_algo": "34",
     "status": "merged",
     "successor_bank_code": "47261603",
+    "legacy_name": "Volksbank Haaren",
     "legacy_bic": "GENODEM1WNH"
   },
   {
@@ -18360,6 +18470,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "34"
+  },
+  {
+    "bank_code": "47263472",
+    "name": "Volksbank Westerloh-Westerwiehe",
+    "short_name": "VB Westerloh-Westerwiehe",
+    "bic": "GENODEM1WWW",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "34",
+    "status": "delisted"
   },
   {
     "bank_code": "47264367",
@@ -18488,6 +18608,7 @@
     "checksum_algo": "34",
     "status": "merged",
     "successor_bank_code": "47264367",
+    "legacy_name": "Volksbank Warburger Land",
     "legacy_bic": "GENODEM1WBG"
   },
   {
@@ -18741,6 +18862,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "34"
+  },
+  {
+    "bank_code": "47861806",
+    "name": "Volksbank Kaunitz",
+    "short_name": "Volksbank Kaunitz",
+    "bic": "GENODEM1VKA",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "34",
+    "status": "delisted"
   },
   {
     "bank_code": "47862261",
@@ -22076,6 +22207,7 @@
     "checksum_algo": "32",
     "status": "merged",
     "successor_bank_code": "53060180",
+    "legacy_name": "Raiffeisenbank Vogelsberg",
     "legacy_bic": "GENODEF1BIR"
   },
   {
@@ -22123,7 +22255,8 @@
     "country_code": "DE",
     "checksum_algo": "09",
     "status": "merged",
-    "successor_bank_code": "66010200"
+    "successor_bank_code": "66010200",
+    "legacy_name": "Deutsche Bausparkasse Badenia (ehem. DBS Bausparkasse)"
   },
   {
     "bank_code": "50820292",
@@ -22656,6 +22789,26 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "06"
+  },
+  {
+    "bank_code": "51091700",
+    "name": "vr bank Untertaunus",
+    "short_name": "vr bank Untertaunus",
+    "bic": "VRBUDE51XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "06",
+    "status": "delisted"
+  },
+  {
+    "bank_code": "51091711",
+    "name": "vr bank Untertaunus",
+    "short_name": "vr bank Untertaunus",
+    "bic": "VRBUDE51XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "06",
+    "status": "delisted"
   },
   {
     "bank_code": "51140029",
@@ -23324,6 +23477,16 @@
     "checksum_algo": "32"
   },
   {
+    "bank_code": "51961515",
+    "name": "Spar- und Darlehnskasse Stockhausen",
+    "short_name": "Spar-u Darlehnskasse",
+    "bic": "GENODE51HSH",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "32",
+    "status": "delisted"
+  },
+  {
     "bank_code": "51961801",
     "name": "Volksbank Feldatal -alt-",
     "short_name": "Volksbank Feldatal -alt-",
@@ -23502,6 +23665,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "32"
+  },
+  {
+    "bank_code": "52065220",
+    "name": "Raiffeisenbank",
+    "short_name": "Raiffeisenbank Calden",
+    "bic": "GENODEF1CAL",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "32",
+    "status": "delisted"
   },
   {
     "bank_code": "52069013",
@@ -24098,6 +24271,16 @@
     "checksum_algo": "06"
   },
   {
+    "bank_code": "53361724",
+    "name": "Raiffeisenbank",
+    "short_name": "Raiffbk Ebsdorfergrund",
+    "bic": "GENODEF1EBG",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "32",
+    "status": "delisted"
+  },
+  {
     "bank_code": "53370008",
     "name": "Deutsche Bank",
     "short_name": "Deutsche Bank",
@@ -24384,6 +24567,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "76"
+  },
+  {
+    "bank_code": "54290000",
+    "name": "VR-Bank Pirmasens",
+    "short_name": "VR-Bank Pirmasens",
+    "bic": "GENODE61PS1",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "06",
+    "status": "delisted"
   },
   {
     "bank_code": "54291200",
@@ -25205,6 +25398,7 @@
     "checksum_algo": "06",
     "status": "merged",
     "successor_bank_code": "37060193",
+    "legacy_name": "Pax-Bank",
     "legacy_bic": "GENODED1PA4"
   },
   {
@@ -25386,6 +25580,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "63"
+  },
+  {
+    "bank_code": "56290000",
+    "name": "Volksbank-Raiffeisenbank Naheland",
+    "short_name": "VB-Raiffbk Naheland",
+    "bic": "GENODE51IDO",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "06",
+    "status": "delisted"
   },
   {
     "bank_code": "57000000",
@@ -25748,6 +25952,16 @@
     "checksum_algo": "06"
   },
   {
+    "bank_code": "57091100",
+    "name": "Volksbank H\u00f6hr-Grenzhausen",
+    "short_name": "VB H\u00f6hr-Grenzhausen",
+    "bic": "GENODE51HGR",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "06",
+    "status": "delisted"
+  },
+  {
     "bank_code": "57092800",
     "name": "Volksbank Rhein-Lahn-Limburg",
     "short_name": "VB Rhein-Lahn-Limburg",
@@ -26027,6 +26241,7 @@
     "checksum_algo": "06",
     "status": "merged",
     "successor_bank_code": "37060193",
+    "legacy_name": "Pax-Bank",
     "legacy_bic": "GENODED1PA3"
   },
   {
@@ -26172,6 +26387,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "38"
+  },
+  {
+    "bank_code": "58668818",
+    "name": "Raiffeisenbank Neuerburg-Land",
+    "short_name": "Raiffbk Neuerburg-Land",
+    "bic": "GENODED1NBL",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "38",
+    "status": "delisted"
   },
   {
     "bank_code": "58691500",
@@ -27083,6 +27308,7 @@
     "checksum_algo": "09",
     "status": "merged",
     "successor_bank_code": "66010700",
+    "legacy_name": "Landeskreditbank Baden-W\u00fcrttemberg F\u00f6rderbank",
     "legacy_bic": "LKBWDE6K600"
   },
   {
@@ -27492,6 +27718,7 @@
     "checksum_algo": "10",
     "status": "merged",
     "successor_bank_code": "60069346",
+    "legacy_name": "Raiffeisenbank Dellmensingen",
     "legacy_bic": "GENODES1DMS"
   },
   {
@@ -27630,6 +27857,16 @@
     "checksum_algo": "10"
   },
   {
+    "bank_code": "60069343",
+    "name": "Raiffeisenbank Ri\u00dftal",
+    "short_name": "Raiffeisenbank Ri\u00dftal",
+    "bic": "GENODES1RRI",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "10",
+    "status": "delisted"
+  },
+  {
     "bank_code": "60069346",
     "name": "VR-Bank Alb-Blau-Donau",
     "short_name": "VR-Bank Alb-Blau-Donau",
@@ -27693,6 +27930,26 @@
     "checksum_algo": "10"
   },
   {
+    "bank_code": "60069420",
+    "name": "Raiffeisenbank Mittelbiberach",
+    "short_name": "Raiffbk Mittelbiberach",
+    "bic": "GENODES1MBI",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "10",
+    "status": "delisted"
+  },
+  {
+    "bank_code": "60069431",
+    "name": "Raiffeisenbank Oberessendorf",
+    "short_name": "Raiffbk Oberessendorf",
+    "bic": "GENODES1OED",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "10",
+    "status": "delisted"
+  },
+  {
     "bank_code": "60069442",
     "name": "Raiffeisenbank Frankenhardt-Stimpfach",
     "short_name": "Raiffbk Frankenh-Stimpfach",
@@ -27718,6 +27975,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "10"
+  },
+  {
+    "bank_code": "60069461",
+    "name": "Raiffeisenbank Rottumtal",
+    "short_name": "Raiffbk Rottumtal",
+    "bic": "GENODES1RRE",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "10",
+    "status": "delisted"
   },
   {
     "bank_code": "60069462",
@@ -27849,6 +28116,16 @@
     "checksum_algo": "10"
   },
   {
+    "bank_code": "60069648",
+    "name": "Raiffeisenbank",
+    "short_name": "Raiffeisenbank",
+    "bic": "GENODES1EHZ",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "10",
+    "status": "delisted"
+  },
+  {
     "bank_code": "60069669",
     "name": "VR-Bank Ludwigsburg",
     "short_name": "VR-Bank Ludwigsburg",
@@ -27858,6 +28135,7 @@
     "checksum_algo": "10",
     "status": "merged",
     "successor_bank_code": "60491430",
+    "legacy_name": "Erligheimer Bank",
     "legacy_bic": "GENODES1EHB"
   },
   {
@@ -28102,6 +28380,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "10"
+  },
+  {
+    "bank_code": "60069980",
+    "name": "Raiffeisenbank Maselheim-\u00c4pfingen",
+    "short_name": "Raiffbk Maselheim-\u00c4pfingen",
+    "bic": "GENODES1RMH",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "10",
+    "status": "delisted"
   },
   {
     "bank_code": "60070024",
@@ -28805,7 +29093,8 @@
     "primary": false,
     "country_code": "DE",
     "status": "merged",
-    "successor_bank_code": "66650085"
+    "successor_bank_code": "66650085",
+    "legacy_name": "Kreissparkasse Calw"
   },
   {
     "bank_code": "60661906",
@@ -30554,7 +30843,8 @@
     "country_code": "DE",
     "checksum_algo": "10",
     "status": "merged",
-    "successor_bank_code": "63090100"
+    "successor_bank_code": "63090100",
+    "legacy_name": "Volksbank Ulm-Biberach"
   },
   {
     "bank_code": "65091040",
@@ -30854,6 +31144,16 @@
     "checksum_algo": "01"
   },
   {
+    "bank_code": "65461878",
+    "name": "Raiffeisenbank Biberach",
+    "short_name": "Raiffbk Biberach",
+    "bic": "GENODES1WAR",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "10",
+    "status": "delisted"
+  },
+  {
     "bank_code": "65462231",
     "name": "Raiffeisenbank Illertal -alt-",
     "short_name": "Raiffbk Illertal -alt-",
@@ -31016,6 +31316,7 @@
     "checksum_algo": "00",
     "status": "merged",
     "successor_bank_code": "66050101",
+    "legacy_name": "Sparkasse Ettlingen",
     "legacy_bic": "SOLADES1ETT"
   },
   {
@@ -31594,7 +31895,8 @@
     "country_code": "DE",
     "checksum_algo": "06",
     "status": "merged",
-    "successor_bank_code": "66291400"
+    "successor_bank_code": "66291400",
+    "legacy_name": "Volksbank B\u00fchl Fil Kehl"
   },
   {
     "bank_code": "66492600",
@@ -35346,6 +35648,16 @@
     "checksum_algo": "00"
   },
   {
+    "bank_code": "71051010",
+    "name": "Kreissparkasse Alt\u00f6tting-Burghausen",
+    "short_name": "Kr Spk Alt\u00f6tting-Burgh",
+    "bic": "BYLADEM1AOE",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "00",
+    "status": "delisted"
+  },
+  {
     "bank_code": "71052050",
     "name": "Kreissparkasse Traunstein-Trostberg",
     "short_name": "Kr Spk Traunstein-Trostberg",
@@ -35858,6 +36170,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"
+  },
+  {
+    "bank_code": "72069114",
+    "name": "Raiffeisenbank",
+    "short_name": "Raiffbk Holzheim",
+    "bic": "GENODEF1HZR",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
   },
   {
     "bank_code": "72069119",
@@ -36490,6 +36812,16 @@
     "checksum_algo": "76"
   },
   {
+    "bank_code": "72191600",
+    "name": "Hallertauer Volksbank",
+    "short_name": "Hallertauer Volksbank",
+    "bic": "GENODEF1PFI",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
+  },
+  {
     "bank_code": "72220074",
     "name": "UniCredit Bank - HypoVereinsbank",
     "short_name": "UniCredit Bank-HypoVereinbk",
@@ -36580,6 +36912,16 @@
     "checksum_algo": "88"
   },
   {
+    "bank_code": "73090000",
+    "name": "Volksbank Neu-Ulm",
+    "short_name": "Volksbank Neu-Ulm",
+    "bic": "GENODEF1NUV",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
+  },
+  {
     "bank_code": "73120075",
     "name": "UniCredit Bank - HypoVereinsbank",
     "short_name": "UniCredit Bank-HypoVereinbk",
@@ -36632,6 +36974,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"
+  },
+  {
+    "bank_code": "73191500",
+    "name": "Volksbank Ulm-Biberach",
+    "short_name": "Illertisser Bank",
+    "bic": "ULMVDE66XXX",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "10",
+    "status": "delisted"
   },
   {
     "bank_code": "73320073",
@@ -36777,6 +37129,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"
+  },
+  {
+    "bank_code": "73369881",
+    "name": "Raiffeisenbank Haldenwang",
+    "short_name": "Raiffbk Haldenwang",
+    "bic": "GENODEF1HWG",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
   },
   {
     "bank_code": "73369902",
@@ -37185,6 +37547,16 @@
     "checksum_algo": "88"
   },
   {
+    "bank_code": "74067000",
+    "name": "Rottaler Raiffeisenbank",
+    "short_name": "Rottaler Raiffbk",
+    "bic": "GENODEF1POC",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
+  },
+  {
     "bank_code": "74069744",
     "name": "Raiffeisenbank",
     "short_name": "Raiffeisenbank Grainet",
@@ -37228,6 +37600,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"
+  },
+  {
+    "bank_code": "74092400",
+    "name": "Volksbank Vilshofen",
+    "short_name": "Volksbank Vilshofen",
+    "bic": "GENODEF1VIV",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
   },
   {
     "bank_code": "74120071",
@@ -37509,6 +37891,16 @@
     "checksum_algo": "88"
   },
   {
+    "bank_code": "74366666",
+    "name": "Raiffeisenbank Geisenhausen",
+    "short_name": "Raiffbk Geisenh.",
+    "bic": "GENODEF1GSH",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
+  },
+  {
     "bank_code": "74369068",
     "name": "Raiffeisenbank Hofkirchen-Bayerbach",
     "short_name": "Raiffbk Hofkirchen-Bayerbch",
@@ -37588,6 +37980,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"
+  },
+  {
+    "bank_code": "74391300",
+    "name": "Volksbank-Raiffeisenbank Dingolfing",
+    "short_name": "VB-Raiffbk Dingolfing",
+    "bic": "GENODEF1DGF",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
   },
   {
     "bank_code": "74391400",
@@ -38518,6 +38920,16 @@
     "checksum_algo": "88"
   },
   {
+    "bank_code": "76069598",
+    "name": "Raiffeisenbank Gro\u00dfhabersdorf-Ro\u00dftal",
+    "short_name": "Raiffeisenbank Ro\u00dftal",
+    "bic": "GENODEF1RSS",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
+  },
+  {
     "bank_code": "76069602",
     "name": "Raiffeisenbank DreiFranken",
     "short_name": "Raiffbk DreiFranken",
@@ -39014,6 +39426,16 @@
     "checksum_algo": "00"
   },
   {
+    "bank_code": "76260451",
+    "name": "Raiffeisen-Volksbank F\u00fcrth",
+    "short_name": "Raiffbk-Volksbank F\u00fcrth",
+    "bic": "GENODEF1FUE",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
+  },
+  {
     "bank_code": "76320072",
     "name": "UniCredit Bank - HypoVereinsbank",
     "short_name": "UniCredit Bank-HypoVereinbk",
@@ -39374,6 +39796,16 @@
     "checksum_algo": "88"
   },
   {
+    "bank_code": "77069746",
+    "name": "Raiffeisenbank Emtmannsberg",
+    "short_name": "Raiffbk Emtmannsberg",
+    "bic": "GENODEF1ETB",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
+  },
+  {
     "bank_code": "77069764",
     "name": "Raiffeisenbank Oberpfalz NordWest",
     "short_name": "Raiffbk Oberpfalz NordWest",
@@ -39544,6 +39976,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00"
+  },
+  {
+    "bank_code": "77361600",
+    "name": "Raiffeisen-Volksbank Kronach-Ludwigsstadt",
+    "short_name": "RVB Kronach-Ludwigsst.",
+    "bic": "GENODEF1KC1",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
   },
   {
     "bank_code": "77363749",
@@ -39798,6 +40240,26 @@
     "checksum_algo": "00"
   },
   {
+    "bank_code": "79061000",
+    "name": "Raiffeisenbank",
+    "short_name": "Raiffbk Ochsenfurt",
+    "bic": "GENODEF1OCH",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
+  },
+  {
+    "bank_code": "79062106",
+    "name": "Raiffeisenbank",
+    "short_name": "Raiffbk Hammelburg",
+    "bic": "GENODEF1HAB",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
+  },
+  {
     "bank_code": "79063060",
     "name": "Raiffeisenbank Estenfeld-Bergtheim -alt-",
     "short_name": "Raiffbk Estenfeld-B. -alt-",
@@ -39895,6 +40357,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88"
+  },
+  {
+    "bank_code": "79069271",
+    "name": "Raiffeisenbank",
+    "short_name": "Raiffbk Th\u00fcngersheim",
+    "bic": "GENODEF1THH",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "88",
+    "status": "delisted"
   },
   {
     "bank_code": "79070016",
@@ -40239,6 +40711,7 @@
     "checksum_algo": "88",
     "status": "merged",
     "successor_bank_code": "79562514",
+    "legacy_name": "Raiffeisenbank Haibach-Obernau",
     "legacy_bic": "GENODEF1HAC"
   },
   {
@@ -40485,6 +40958,7 @@
     "checksum_algo": "20",
     "status": "merged",
     "successor_bank_code": "80053000",
+    "legacy_name": "Kreissparkasse Wei\u00dfenfels",
     "legacy_bic": "NOLADE21WSF"
   },
   {
@@ -41163,6 +41637,7 @@
     "checksum_algo": "06",
     "status": "merged",
     "successor_bank_code": "37060193",
+    "legacy_name": "Pax-Bank",
     "legacy_bic": "GENODED1PA5"
   },
   {
@@ -41848,6 +42323,16 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "32"
+  },
+  {
+    "bank_code": "83064568",
+    "name": "Geraer Bank",
+    "short_name": "Geraer Bank",
+    "bic": "GENODEF1GEV",
+    "primary": true,
+    "country_code": "DE",
+    "checksum_algo": "32",
+    "status": "delisted"
   },
   {
     "bank_code": "83065408",
