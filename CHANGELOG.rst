@@ -49,6 +49,10 @@ Added
   Nürnberg (bank code ``76050101``) and Stadt- u. Kreissparkasse Erlangen Höchstadt
   Herzogenaurach (bank code ``76350000``). It checks with method ``00`` first and falls back to
   method ``01``. Account codes for these banks were not checked before.
+* Added the German checksum method ``A7``, used by Sparkasse Holstein (bank code ``21352240``),
+  Sparkasse Gütersloh-Rietberg-Versmold (bank code ``47850065``) and Rheinhessen Sparkasse (bank
+  code ``55350010``). It checks with method ``00`` first and falls back to method ``03``. Account
+  codes for these banks were not checked before.
 
 Changed
 ~~~~~~~
