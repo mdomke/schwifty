@@ -71,6 +71,16 @@ Changed
   Bank to BlueOr Bank and LPB Bank to Magnetiq Bank. Banks that are no longer on the official
   list, such as PNB Banka (``LATB``), are kept as closed banks. The update script now looks up the
   renamed spreadsheet on the bank's website instead of using a fixed URL.
+* The Spanish bank registry marks the 310 banks that iban.es lists as deregistered as merged, with
+  the successor's bank code where iban.es states it, or as closed, according to the reason of
+  their deregistration. Lookups prefer the banks that are still active. Since iban.es lags behind
+  in places, the script corrects it where the source is known: Bankia, Banco Popular, Liberbank,
+  Banco CEISS and Banco Mare Nostrum are marked as merged, and Revolut Bank (``1583``) as
+  active. Codes that lead to one of these successors carry its name and BIC, e.g. Banco Popular
+  (``0075``) now resolves to Banco Santander (``BSCHESMM``), which the manual registry did
+  before. Banks that
+  disappear from iban.es are kept, which restores Revolut Bank (``1583``) and Banco de
+  Castilla-La Mancha (``0115``), and banks that iban.es lists twice are only included once.
 * The Italian bank registry is now generated from Banca d'Italia's registers of banks, e-money
   institutions and payment institutions, with BICs from GLEIF's BIC-to-LEI mapping. It now covers
   all 465 active institutions instead of 215, and names banks as Banca d'Italia does. Several BICs
