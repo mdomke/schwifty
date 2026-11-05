@@ -10,8 +10,8 @@
     {
       "country_code": "DK",
       "bic": "NDEADKKK",
-      "name": "NORDEA BANK DANMARK A/S",
-      "short_name": "NORDEA BANK",
+      "name": "NORDEA DANMARK, FILIAL AF NORDEA BANK ABP, FINLAND",
+      "short_name": "NORDEA",
       "bank_codes": [
         "0040",
         "0041",
@@ -5313,8 +5313,8 @@
     {
       "country_code": "DK",
       "bic": "SWESDK22",
-      "name": "SPAREKASSEN SJ\u00c6LLAND-FYN A/S",
-      "short_name": "SPAREKASSEN SJ\u00c6LLAND-FYN",
+      "name": "SJF BANK A/S",
+      "short_name": "SJF BANK",
       "bank_codes": [
         "0770",
         "0516",
@@ -5354,8 +5354,8 @@
     {
       "country_code": "DK",
       "bic": "SWESDK22",
-      "name": "SPAREKASSEN SJ\u00c6LLAND",
-      "short_name": "SPAREKASSEN SJ\u00c6LLAND",
+      "name": "SJF BANK A/S",
+      "short_name": "SJF BANK",
       "bank_codes": [
         "0517",
         "0518",
@@ -5380,8 +5380,8 @@
     {
       "country_code": "DK",
       "bic": "SYBKDK22",
-      "name": "SYDBANK A/S",
-      "short_name": "SYDBANK",
+      "name": "AL SYDBANK A/S",
+      "short_name": "AL SYDBANK",
       "bank_codes": [
         "0570",
         "6827",
@@ -6038,8 +6038,8 @@
     {
       "country_code": "DK",
       "bic": "RISEDK21",
-      "name": "RISE FLEML\u00d8SE SPAREKASSE",
-      "short_name": "RISE FLEML\u00d8SE SPAREKASSE",
+      "name": "RISE SPAREKASSE",
+      "short_name": "RISE SPAREKASSE",
       "bank_codes": ["0847"]
     },
     {
@@ -6316,8 +6316,8 @@
     {
       "country_code": "DK",
       "bic": "ISNKDKK1",
-      "name": "BASISBANK A/S",
-      "short_name": "BASISBANK A/S",
+      "name": "BASISFINANS A/S",
+      "short_name": "BASISFINANS A/S",
       "bank_codes": ["1671"]
     },
     {
@@ -6461,8 +6461,8 @@
     {
       "country_code": "DK",
       "bic": "SYBKDK22",
-      "name": "SYDBANK",
-      "short_name": "SYDBANK",
+      "name": "AL SYDBANK A/S",
+      "short_name": "AL SYDBANK",
       "bank_codes": [
         "5400",
         "6060",
@@ -7001,8 +7001,8 @@
     {
       "country_code": "DK",
       "bic": "LAPNDKK1",
-      "name": "LAEGERNES BANK",
-      "short_name": "LAEGERNES BANK",
+      "name": "L\u00c6GERNES BANK A/S",
+      "short_name": "L\u00c6GERNES BANK",
       "bank_codes": ["6771"]
     },
     {
@@ -7155,8 +7155,8 @@
     {
       "country_code": "DK",
       "bic": "RINGDK22",
-      "name": "RINGKJOBING LANDBOBANK A/S",
-      "short_name": "RINGKJOBING LANDBOBANK A/S",
+      "name": "RINGKJ\u00d8BING LANDBOBANK A/S",
+      "short_name": "RINGKJ\u00d8BING LANDBOBANK",
       "bank_codes": [
         "7370",
         "7371",
@@ -7304,8 +7304,8 @@
     {
       "country_code": "DK",
       "bic": "MEKUDK21",
-      "name": "MERKUR",
-      "short_name": "MERKUR",
+      "name": "MERKUR ANDELSKASSE",
+      "short_name": "MERKUR ANDELSKASSE",
       "bank_codes": ["8401"]
     },
     {
@@ -7374,15 +7374,15 @@
     {
       "country_code": "DK",
       "bic": "BALLDK21",
-      "name": "SPAREKASSEN BALLING",
-      "short_name": "SPAREKASSEN BALLING",
+      "name": "BALLING SPAREKASSE",
+      "short_name": "BALLING SPAREKASSE",
       "bank_codes": ["9312"]
     },
     {
       "country_code": "DK",
       "bic": "RSPKDK21",
-      "name": "RONDE OG OMEGNS SPAREKASSE",
-      "short_name": "RONDE OG OMEGNS SPAREKASSE",
+      "name": "R\u00d8NDE SPAREKASSE",
+      "short_name": "R\u00d8NDE SPAREKASSE",
       "bank_codes": ["9354", "9357"]
     },
     {
@@ -7409,8 +7409,8 @@
     {
       "country_code": "DK",
       "bic": "NRNEDK21",
-      "name": "SPAREKASSEN FOR NOERRE NEBEL OG OMEGN",
-      "short_name": "SPAREKASSEN FOR NOERRE NEBEL OG OMEGN",
+      "name": "SPAREKASSEN FOR NR. NEBEL OG OMEGN",
+      "short_name": "SPAREKASSEN FOR NR. NEBEL OG OMEGN",
       "bank_codes": ["9682"]
     },
     {

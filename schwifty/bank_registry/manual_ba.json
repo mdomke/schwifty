@@ -28,16 +28,16 @@
     "primary": true,
     "bic": "TBTUBA22XXX",
     "bank_code": "132",
-    "name": "NLB BANKA D",
-    "short_name": "NLB BANKA D"
+    "name": "NLB Banka d.d., Sarajevo",
+    "short_name": "NLB Banka d.d., Sarajevo"
   },
   {
     "country_code": "BA",
     "primary": true,
     "bic": "IKBZBA2XXXX",
     "bank_code": "134",
-    "name": "ASA BANKA D",
-    "short_name": "ASA BANKA D"
+    "name": "ASA BANKA DIONI\u010cKO DRU\u0160TVO SARAJEVO",
+    "short_name": "ASA BANKA DIONI\u010cKO DRU\u0160TVO SARAJEVO"
   },
   {
     "country_code": "BA",
@@ -50,10 +50,13 @@
   {
     "country_code": "BA",
     "primary": true,
-    "bic": "SABRBA22XXX",
+    "bic": "IKBZBA2XXXX",
     "bank_code": "140",
-    "name": "ASA BANKA NA\u0160A I SNA\u017dNA D",
-    "short_name": "ASA BANKA NA\u0160A I SNA\u017dNA D"
+    "name": "ASA BANKA DIONI\u010cKO DRU\u0160TVO SARAJEVO",
+    "short_name": "ASA BANKA DIONI\u010cKO DRU\u0160TVO SARAJEVO",
+    "status": "merged",
+    "successor_bank_code": "134",
+    "legacy_name": "ASA Banka Na\u0161a i Sna\u017ena d.d. Sarajevo"
   },
   {
     "country_code": "BA",
@@ -77,15 +80,16 @@
     "bic": "VAKUBA22XXX",
     "bank_code": "160",
     "name": "Vakufska banka dd Sarajevo",
-    "short_name": "Vakufska banka dd Sarajevo"
+    "short_name": "Vakufska banka dd Sarajevo",
+    "status": "delisted"
   },
   {
     "country_code": "BA",
     "primary": true,
     "bic": "RZBABA2SXXX",
     "bank_code": "161",
-    "name": "RAIFFEISEN BANK D",
-    "short_name": "RAIFFEISEN BANK D"
+    "name": "RAIFFEISEN BANK DIONI\u010cARSKO DRU\u0160TVO BOSNA I HERCEGOVINA",
+    "short_name": "RAIFFEISEN BANK DIONI\u010cARSKO DRU\u0160TVO BOSNA I HERCEGOVINA"
   },
   {
     "country_code": "BA",
@@ -116,16 +120,16 @@
     "primary": true,
     "bic": "KINBBA22XXX",
     "bank_code": "198",
-    "name": "KOMERCIJALNO",
-    "short_name": "KOMERCIJALNO"
+    "name": "Komercijalno-investiciona banka d.d. Velika Kladu\u0161a",
+    "short_name": "Komercijalno-investiciona banka d.d. Velika Kladu\u0161a"
   },
   {
     "country_code": "BA",
     "primary": true,
     "bic": "ABSBBA22XXX",
     "bank_code": "199",
-    "name": "Sparkasse Bank d",
-    "short_name": "Sparkasse Bank d"
+    "name": "Sparkasse Bank dd Bosna i Hercegovina",
+    "short_name": "Sparkasse Bank dd Bosna i Hercegovina"
   },
   {
     "country_code": "BA",
@@ -156,32 +160,32 @@
     "primary": true,
     "bic": "HAABBA2BXXX",
     "bank_code": "552",
-    "name": "Hypo Alpe",
-    "short_name": "Hypo Alpe"
+    "name": "Addiko Bank a.d. Banja Luka",
+    "short_name": "Addiko Bank a.d. Banja Luka"
   },
   {
     "country_code": "BA",
     "primary": true,
     "bic": "PAVLBA22XXX",
     "bank_code": "554",
-    "name": "NA\u0160A BANKA A",
-    "short_name": "NA\u0160A BANKA A"
+    "name": "Na\u0161a Banka a.d. Banja Luka",
+    "short_name": "Na\u0161a Banka a.d. Banja Luka"
   },
   {
     "country_code": "BA",
     "primary": true,
     "bic": "RAZBBA22XXX",
     "bank_code": "562",
-    "name": "NLB BANKA A",
-    "short_name": "NLB BANKA A"
+    "name": "\"NLB Banka\" a.d. Banja Luka",
+    "short_name": "\"NLB Banka\" a.d. Banja Luka"
   },
   {
     "country_code": "BA",
     "primary": true,
     "bic": "SABRBA2BXXX",
     "bank_code": "567",
-    "name": "Sberbank a",
-    "short_name": "Sberbank a"
+    "name": "Atos bank a.d. Banja Luka",
+    "short_name": "Atos bank a.d. Banja Luka"
   },
   {
     "country_code": "BA",
@@ -189,7 +193,8 @@
     "bic": "BALVBA22XXX",
     "bank_code": "568",
     "name": "Banka Srpske ad Banja Luka",
-    "short_name": "Banka Srpske ad Banja Luka"
+    "short_name": "Banka Srpske ad Banja Luka",
+    "status": "closed"
   },
   {
     "country_code": "BA",

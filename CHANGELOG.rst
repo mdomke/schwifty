@@ -184,6 +184,29 @@ Changed
   since. This adds the State Treasury (``TR``) and five banks, such as Paysera Bank Georgia
   (``PS``). Codes that are no longer listed, such as the one of Capital Bank (``IN``), are kept so
   that existing IBANs still resolve.
+* The Moldovan bank registry now contains all participants of the payment system that the National
+  Bank of Moldova lists, such as the State Treasury (``TR``) and Moldcell (``MC``), in a single
+  manually maintained registry. Comerţbank is now found by its code ``CM`` instead of ``CB``.
+* Completed the names of ten Bosnian banks that were cut off, e.g. ``NLB BANKA D`` is now
+  ``NLB Banka d.d., Sarajevo``, and ``Hypo Alpe`` and ``Sberbank a`` now carry their current names
+  Addiko Bank and Atos bank.
+* The Bosnian banks Vakufska banka (``160``) and Banka Srpske (``568``) are marked as delisted and
+  closed, and ASA Banka Naša i Snažna (``140``) as merged into ASA Banka (``134``).
+* Updated the Serbian bank registry according to GLEIF: AIK Banka, Mobi Banka and Expobank carry
+  their current names AikBank, Yettel Bank and Adriatic Bank, three cut-off names are completed,
+  six banks that GLEIF lists as inactive, such as Vojvođanska banka (``355``), are marked as
+  delisted, and Jugobanka (``365``) as closed. The entry of British American Tobacco under the code
+  ``000`` is removed.
+* Added Banka Poštanska štedionica (``200``), NLB Banka (``205``), OTP banka Srbija (``325``),
+  3 Banka (``370``) and the National Bank of Serbia (``908``) to the Serbian bank registry, which
+  lacked them although they are on the National Bank of Serbia's list of banks. Alpha Bank Srbija
+  (``180``), Crédit Agricole Srbija (``330``) and mts banka (``360``), which are no longer on that
+  list, are marked as merged into AikBank, Raiffeisen banka and Banka Poštanska štedionica, whose
+  names and BICs they now resolve to. So are Eurobank Direktna (``250``), which merged into AikBank
+  in 2025, and Direktna Banka (``150``), which had merged into Eurobank Direktna before.
+* Updated the names of Danish banks that were renamed or merged, according to the legal names that
+  GLEIF lists for their BICs, e.g. Nordea Bank Danmark is now Nordea Danmark, Filial af Nordea
+  Bank Abp, Finland, Sparekassen Sjælland-Fyn is now SJF Bank, and Sydbank is now AL Sydbank.
 * Removed 104 entries from the manual Italian registry that duplicate the generated one, or
   contradict it with outdated data. Italian banks now resolve to their current BIC, e.g. Fineco
   (``FEBIITM2``) and Isybank (``ISYBITMM``), and banks that have ceased, such as Banca Popolare

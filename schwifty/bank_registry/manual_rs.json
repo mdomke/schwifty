@@ -2,26 +2,18 @@
   {
     "country_code": "RS",
     "primary": true,
-    "bic": "BATSRS21",
-    "bank_code": "000",
-    "name": "BRITISH AMERICAN TOBACCO A",
-    "short_name": "BRITISH AMERICAN TOBACCO A"
-  },
-  {
-    "country_code": "RS",
-    "primary": true,
     "bic": "AIKBRS22XXX",
     "bank_code": "105",
-    "name": "AGROINDUSTRIJSK\u041e KOMERCIJALNA BANKA AIK BANKA AKCIONARSKO DRU\u0160TVO BEOGRAD",
-    "short_name": "AGROINDUSTRIJSK\u041e KOMERCIJALNA BANKA AIK BANKA AKCIONARSKO DRU\u0160TVO BEOGRAD"
+    "name": "AikBank akcionarsko dru\u0161tvo Beograd",
+    "short_name": "AikBank akcionarsko dru\u0161tvo Beograd"
   },
   {
     "country_code": "RS",
     "primary": true,
     "bic": "AAAARSBG",
     "bank_code": "115",
-    "name": "MOBI BANKA AD",
-    "short_name": "MOBI BANKA AD"
+    "name": "Yettel Bank a.d. Belgrade",
+    "short_name": "Yettel Bank a.d. Belgrade"
   },
   {
     "country_code": "RS",
@@ -29,23 +21,27 @@
     "bic": "PIRBRSBGXXX",
     "bank_code": "125",
     "name": "PIRAEUS BANK AKCIONARSKO DRU\u0160TVO BEOGRAD",
-    "short_name": "PIRAEUS BANK AKCIONARSKO DRU\u0160TVO BEOGRAD"
+    "short_name": "PIRAEUS BANK AKCIONARSKO DRU\u0160TVO BEOGRAD",
+    "status": "delisted"
   },
   {
     "country_code": "RS",
     "primary": true,
     "bic": "LIKIRSBG",
     "bank_code": "145",
-    "name": "EXPOBANK AD BEOGRAD",
-    "short_name": "EXPOBANK AD BEOGRAD"
+    "name": "Adriatic Bank AD",
+    "short_name": "Adriatic Bank AD"
   },
   {
     "country_code": "RS",
     "primary": true,
-    "bic": "KRAGRS22XXX",
+    "bic": "AIKBRS22XXX",
     "bank_code": "150",
-    "name": "DIREKTNA BANKA A",
-    "short_name": "DIREKTNA BANKA A"
+    "name": "AikBank akcionarsko dru\u0161tvo Beograd",
+    "short_name": "AikBank akcionarsko dru\u0161tvo Beograd",
+    "status": "merged",
+    "successor_bank_code": "250",
+    "legacy_name": "DIREKTNA BANKA AD KRAGUJEVAC"
   },
   {
     "country_code": "RS",
@@ -82,18 +78,37 @@
   {
     "country_code": "RS",
     "primary": true,
-    "bic": "JUBARSBGXXX",
+    "bic": "AIKBRS22XXX",
     "bank_code": "180",
-    "name": "ALPHA BANK SRBIJA A",
-    "short_name": "ALPHA BANK SRBIJA A"
+    "name": "AikBank akcionarsko dru\u0161tvo Beograd",
+    "short_name": "AikBank akcionarsko dru\u0161tvo Beograd",
+    "status": "merged",
+    "successor_bank_code": "105",
+    "legacy_name": "ALPHA BANK SRBIJA A.D."
   },
   {
     "country_code": "RS",
     "primary": true,
     "bic": "JMBNRSBGXXX",
     "bank_code": "190",
-    "name": "ALTA Banka a",
-    "short_name": "ALTA Banka a"
+    "name": "ALTA BANKA AD BEOGRAD",
+    "short_name": "ALTA BANKA AD BEOGRAD"
+  },
+  {
+    "country_code": "RS",
+    "primary": true,
+    "bic": "SBPORSBG",
+    "bank_code": "200",
+    "name": "BANKA PO\u0160TANSKA \u0160TEDIONICA AKCIONARSKO DRU\u0160TVO BEOGRAD",
+    "short_name": "BANKA PO\u0160TANSKA \u0160TEDIONICA AKCIONARSKO DRU\u0160TVO BEOGRAD"
+  },
+  {
+    "country_code": "RS",
+    "primary": true,
+    "bic": "KOBBRSBG",
+    "bank_code": "205",
+    "name": "NLB BANKA AD BEOGRAD",
+    "short_name": "NLB BANKA AD BEOGRAD"
   },
   {
     "country_code": "RS",
@@ -108,48 +123,64 @@
     "primary": true,
     "bic": "FIDMRSBGXXX",
     "bank_code": "240",
-    "name": "FINDOMESTIC BANK\u0410 A",
-    "short_name": "FINDOMESTIC BANK\u0410 A"
+    "name": "FINDOMESTIC BANKA AD BEOGRAD",
+    "short_name": "FINDOMESTIC BANKA AD BEOGRAD",
+    "status": "delisted"
   },
   {
     "country_code": "RS",
     "primary": true,
-    "bic": "ERBKRSBG",
+    "bic": "AIKBRS22XXX",
     "bank_code": "250",
-    "name": "EUROBANK AKCIONARSKO DRU\u0160TVO  BEOGRAD",
-    "short_name": "EUROBANK AKCIONARSKO DRU\u0160TVO  BEOGRAD"
+    "name": "AikBank akcionarsko dru\u0161tvo Beograd",
+    "short_name": "AikBank akcionarsko dru\u0161tvo Beograd",
+    "status": "merged",
+    "successor_bank_code": "105",
+    "legacy_name": "EUROBANK DIREKTNA A.D. BEOGRAD"
   },
   {
     "country_code": "RS",
     "primary": true,
     "bic": "RZBSRSBGXXX",
     "bank_code": "265",
-    "name": "RAIFFEISEN BANKA A",
-    "short_name": "RAIFFEISEN BANKA A"
+    "name": "RAIFFEISEN BANKA AD BEOGRAD",
+    "short_name": "RAIFFEISEN BANKA AD BEOGRAD"
   },
   {
     "country_code": "RS",
     "primary": true,
     "bic": "SABRRSBGXXX",
     "bank_code": "285",
-    "name": "Na\u0161a AIK Banka a",
-    "short_name": "Na\u0161a AIK Banka a"
+    "name": "Na\u0161a AIK banka a.d. Beograd",
+    "short_name": "Na\u0161a AIK banka a.d. Beograd",
+    "status": "delisted"
   },
   {
     "country_code": "RS",
     "primary": true,
     "bic": "SRBNRSBGXXX",
     "bank_code": "295",
-    "name": "SRPSKA BANKA A",
-    "short_name": "SRPSKA BANKA A"
+    "name": "SRPSKA BANKA AD BEOGRAD",
+    "short_name": "SRPSKA BANKA AD BEOGRAD"
   },
   {
     "country_code": "RS",
     "primary": true,
-    "bic": "MEBARS22",
+    "bic": "OTPVRS22",
+    "bank_code": "325",
+    "name": "OTP BANKA SRBIJA A.D. NOVI SAD",
+    "short_name": "OTP BANKA SRBIJA A.D. NOVI SAD"
+  },
+  {
+    "country_code": "RS",
+    "primary": true,
+    "bic": "RZBSRSBGXXX",
     "bank_code": "330",
-    "name": "CR\u00c9DIT AGRICOLE BANKA SRBIJA",
-    "short_name": "CR\u00c9DIT AGRICOLE BANKA SRBIJA"
+    "name": "RAIFFEISEN BANKA AD BEOGRAD",
+    "short_name": "RAIFFEISEN BANKA AD BEOGRAD",
+    "status": "merged",
+    "successor_bank_code": "265",
+    "legacy_name": "CR\u00c9DIT AGRICOLE BANKA SRBIJA"
   },
   {
     "country_code": "RS",
@@ -165,15 +196,19 @@
     "bic": "VBUBRS22",
     "bank_code": "355",
     "name": "VOJVO\u0110ANSKA BANKA ",
-    "short_name": "VOJVO\u0110ANSKA BANKA "
+    "short_name": "VOJVO\u0110ANSKA BANKA ",
+    "status": "delisted"
   },
   {
     "country_code": "RS",
     "primary": true,
-    "bic": "KMEBRS2Z",
+    "bic": "SBPORSBG",
     "bank_code": "360",
-    "name": "MTS AKCIONARSKO DRU\u0160TVO BEOGRAD",
-    "short_name": "MTS AKCIONARSKO DRU\u0160TVO BEOGRAD"
+    "name": "BANKA PO\u0160TANSKA \u0160TEDIONICA AKCIONARSKO DRU\u0160TVO BEOGRAD",
+    "short_name": "BANKA PO\u0160TANSKA \u0160TEDIONICA AKCIONARSKO DRU\u0160TVO BEOGRAD",
+    "status": "merged",
+    "successor_bank_code": "200",
+    "legacy_name": "MTS BANKA AKCIONARSKO DRU\u0160TVO BEOGRAD"
   },
   {
     "country_code": "RS",
@@ -181,7 +216,16 @@
     "bic": "JJKMRS21",
     "bank_code": "365",
     "name": "JUGOBANKA JUGBANKA",
-    "short_name": "JUGOBANKA JUGBANKA"
+    "short_name": "JUGOBANKA JUGBANKA",
+    "status": "closed"
+  },
+  {
+    "country_code": "RS",
+    "primary": true,
+    "bic": "OPPBRS22",
+    "bank_code": "370",
+    "name": "3 BANKA A.D. NOVI SAD",
+    "short_name": "3 BANKA A.D. NOVI SAD"
   },
   {
     "country_code": "RS",
@@ -206,5 +250,13 @@
     "bank_code": "385",
     "name": "BANK OF CHINA SRBIJA AKCIONARSKO DRU\u0160TVO BEOGRAD - NOVI BEOGRAD",
     "short_name": "BANK OF CHINA SRBIJA AKCIONARSKO DRU\u0160TVO BEOGRAD - NOVI BEOGRAD"
+  },
+  {
+    "country_code": "RS",
+    "primary": true,
+    "bic": "NBSRRSBG",
+    "bank_code": "908",
+    "name": "NARODNA BANKA SRBIJE",
+    "short_name": "NARODNA BANKA SRBIJE"
   }
 ]
