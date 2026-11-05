@@ -1,11 +1,14 @@
 #!/usr/bin/env python
 import io
-import json
 
 import httpx2
 import pandas
 
 from scripts.output import write_json
+from scripts.remap import convert_to_v2
+from scripts.retired import alias
+from scripts.retired import load_previous
+from scripts.retired import merge
 
 
 # Banka Slovenije, "Seznam identifikacijskih oznak ponudnikov plačilnih storitev"
@@ -13,14 +16,15 @@ from scripts.output import write_json
 # download path answers 404 since 2025; this is the document's stable address.
 URL = "https://www.bsi.si/sl/d/seznam-identifikacijskih-oznak-pps"
 HEADERS = {"User-Agent": "schwifty registry updater (https://github.com/mdomke/schwifty)"}
-OUTPUT = "schwifty/bank_registry/generated_si.json"
+OUTPUT = "schwifty/bank_registry/generated_si.v2.json"
+MIN_RECORDS = 500
 # Bank code prefix of a merged institute -> prefix of its legal successor.
-# 03 SKB banka and 05 Abanka were merged into Nova KBM, which became OTP banka (04) on
+# 03 SKB banka, 05 and 06 Abanka were merged into Nova KBM, which became OTP banka (04) on
 # 22 August 2024.
-RETIRED_PREFIXES = {"03": "04", "05": "04"}
+RETIRED_PREFIXES = {"03": "04", "05": "04", "06": "04"}
 
 
-def process():
+def process(previous):
     response = httpx2.get(URL, headers=HEADERS, follow_redirects=True, timeout=60)
     response.raise_for_status()
     datas = pandas.read_csv(
@@ -44,37 +48,25 @@ def process():
 
     # Codes of merged institutes disappear from the official list, but IBANs carrying them
     # stay in circulation. Keep every previously published code whose prefix belongs to a
-    # merged bank as an alias of its successor (same approach as the Swiss registry).
+    # merged bank as a merged alias of its successor (same approach as the Swiss registry).
     current = {entry["bank_code"] for entry in registry}
     successors = {
         prefix: next(e for e in registry if e["bank_code"].startswith(succ))
         for prefix, succ in RETIRED_PREFIXES.items()
     }
-    for entry in load_previous():
+    for entry in previous:
         prefix = entry["bank_code"][:2]
         if entry["bank_code"] not in current and prefix in successors:
-            registry.append(
-                {
-                    **successors[prefix],
-                    "bank_code": entry["bank_code"],
-                    "primary": False,
-                    "retired": True,
-                    "successor_bank_code": successors[prefix]["bank_code"],
-                }
-            )
+            registry.append(alias(successors[prefix], entry["bank_code"], entry))
 
-    print(f"Fetched {len(registry)} bank records")
+    if len(registry) < MIN_RECORDS:
+        raise ValueError(f"Only {len(registry)} records parsed, the format may have changed")
     return registry
 
 
-def load_previous():
-    try:
-        with open(OUTPUT) as fp:
-            return json.load(fp)
-    except FileNotFoundError:
-        return []
-
-
 if __name__ == "__main__":
-    data = process()  # read the previous file before opening it for writing
-    write_json(OUTPUT, data, indent=2)
+    # Codes of other institutes that disappear from the list are kept from the previous registry,
+    # which is read before it is replaced.
+    previous = load_previous(OUTPUT)
+    data = merge(process(previous), previous)
+    write_json(OUTPUT, convert_to_v2(data), indent=2)

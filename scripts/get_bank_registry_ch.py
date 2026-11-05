@@ -4,16 +4,21 @@ import httpx2
 
 from scripts.output import write_json
 from scripts.remap import convert_to_v2
+from scripts.retired import alias
+from scripts.retired import load_previous
+from scripts.retired import merge
 
 
 URL = "https://api.six-group.com/api/epcd/bankmaster/v3/bankmaster.json"
+OUTPUT = "schwifty/bank_registry/generated_ch.v2.json"
+MIN_RECORDS = 500
 
 
 def fetch() -> list[dict[str, Any]]:
     return httpx2.get(URL, follow_redirects=True, timeout=None).json()["entries"]
 
 
-def process(records: list[dict[str, Any]]) -> dict[str, Any]:
+def process(records: list[dict[str, Any]], previous: list[dict[str, Any]]) -> list[dict[str, Any]]:
     registry: list[dict[str, Any]] = []
     by_iid: dict[int, dict[str, Any]] = {}
 
@@ -38,27 +43,26 @@ def process(records: list[dict[str, Any]]) -> dict[str, Any]:
         registry.append(entry)
 
     # Merged institutes are listed as BankMasterConcatenated records that only carry the retired
-    # IID and its successor. Keep them as aliases of the successor, so that IBANs still in
+    # IID and its successor. Keep them as merged aliases of the successor, so that IBANs still in
     # circulation continue to resolve.
+    known = {entry["bank_code"]: entry for entry in previous}
     for record in records:
         if record["entryType"] != "BankMasterConcatenated":
             continue
         successor = by_iid.get(record["newIid"])
         if successor is None:
             continue
-        registry.append(
-            {
-                **successor,
-                "bank_code": f"{record['iid']:0>5}",
-                "primary": False,
-                "retired": True,
-                "successor_bank_code": successor["bank_code"],
-            }
-        )
+        bank_code = f"{record['iid']:0>5}"
+        registry.append(alias(successor, bank_code, known.get(bank_code)))
 
-    return convert_to_v2(registry)
+    if len(registry) < MIN_RECORDS:
+        raise ValueError(f"Only {len(registry)} records found, the bank master may have changed")
+    return registry
 
 
 if __name__ == "__main__":
-    data = process(fetch())
-    write_json("schwifty/bank_registry/generated_ch.v2.json", data, indent=2)
+    # Merged institutes are only listed for a while, and closed ones not at all, so the previous
+    # registry is the only source for their IIDs afterwards. Read it before replacing it.
+    previous = load_previous(OUTPUT)
+    data = merge(process(fetch(), previous), previous)
+    write_json(OUTPUT, convert_to_v2(data), indent=2)

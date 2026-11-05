@@ -684,6 +684,16 @@
     {
       "country_code": "FI",
       "primary": true,
+      "bic": "NOLFFIH2",
+      "name": "NORTHMILL BANK AB",
+      "short_name": "NORTHMILL BANK AB",
+      "bank_codes": [
+        "719"
+      ]
+    },
+    {
+      "country_code": "FI",
+      "primary": true,
       "bic": "IVPYFIH2",
       "name": "IVY PAY OY",
       "short_name": "IVY PAY OY",
@@ -858,6 +868,57 @@
         "897",
         "898",
         "899"
+      ]
+    },
+    {
+      "country_code": "FI",
+      "primary": true,
+      "bic": "HANDFIHH",
+      "name": "SVENSKA HANDELSBANKEN",
+      "short_name": "SVENSKA HANDELSBANKEN",
+      "status": "delisted",
+      "bank_codes": [
+        "310",
+        "311",
+        "312",
+        "313",
+        "314",
+        "315",
+        "316",
+        "317",
+        "318",
+        "319"
+      ]
+    },
+    {
+      "country_code": "FI",
+      "primary": true,
+      "bic": "SWEDFIHH",
+      "name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK",
+      "short_name": "SWEDBANK (FORENINGSSPARBANKEN AB) FILIAL SWEDBANK",
+      "status": "delisted",
+      "bank_codes": [
+        "380",
+        "381",
+        "382",
+        "383",
+        "384",
+        "385",
+        "386",
+        "387",
+        "388",
+        "389"
+      ]
+    },
+    {
+      "country_code": "FI",
+      "primary": true,
+      "bic": "VPAYFIH2",
+      "name": "VIVA PAYMENT SERVICES S.A., FINNISH BRANCH",
+      "short_name": "VIVA PAYMENT SERVICES S.A., FINNISH BRANCH",
+      "status": "delisted",
+      "bank_codes": [
+        "798"
       ]
     }
   ],

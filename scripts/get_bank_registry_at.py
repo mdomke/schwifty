@@ -5,12 +5,16 @@ import pandas
 
 from scripts.output import write_json
 from scripts.remap import convert_to_v2
+from scripts.retired import load_previous
+from scripts.retired import merge
 
 
 URL = "https://www.oenb.at/docroot/downloads_observ/sepa-zv-vz_gesamt.csv"
+OUTPUT = "schwifty/bank_registry/generated_at.v2.json"
+MIN_RECORDS = 500
 
 
-def process() -> dict[str, Any]:
+def process() -> list[dict[str, Any]]:
     datas = pandas.read_csv(
         URL,
         skiprows=5,
@@ -36,9 +40,13 @@ def process() -> dict[str, Any]:
             }
         )
 
-    print(f"Fetched {len(registry)} bank records")
-    return convert_to_v2(registry)
+    if len(registry) < MIN_RECORDS:
+        raise ValueError(f"Only {len(registry)} records parsed, the layout may have changed")
+    return registry
 
 
 if __name__ == "__main__":
-    write_json("schwifty/bank_registry/generated_at.v2.json", process(), indent=2)
+    # The OeNB directory only lists current institutions, so the previous registry is the only
+    # source for bank codes that have been retired since. Read it before replacing it.
+    data = merge(process(), load_previous(OUTPUT))
+    write_json(OUTPUT, convert_to_v2(data), indent=2)
