@@ -17,8 +17,9 @@ class EntryV1(TypedDict, total=False):
     bank_code: str
     primary: bool
     checksum_algo: str
-    retired: bool
+    status: str
     successor_bank_code: str
+    legacy_name: str
     legacy_bic: str
 
 
@@ -30,18 +31,17 @@ def convert_to_v2(
 ) -> dict[str, Any]:
     groupby = groupby or ["bic", "name"]
 
+    # Entries are only grouped if they agree on ``primary`` and the status fields, because the
+    # group keeps the values of its first entry for all of its bank codes.
     def make_key(e: EntryV1) -> str:
-        # Every entry of a group shares the fields of its first entry, so the fields that tell
-        # retired bank codes apart from the active ones have to be part of the key.
-        return "::".join(
-            [
-                *(str(e[group]) for group in groupby),
-                e.get("checksum_algo", ""),
-                str(e.get("retired", False)),
-                e.get("successor_bank_code") or "",
-                e.get("legacy_bic") or "",
-            ]
+        key = "::".join(str(e[group]) for group in groupby)
+        status = (
+            e.get("status", "active"),
+            e.get("successor_bank_code"),
+            e.get("legacy_name"),
+            e.get("legacy_bic"),
         )
+        return f"{key}::{e.get('checksum_algo', '')}::{e.get('primary', False)}::{status}"
 
     buckets = bucketize(data, make_key)
 
