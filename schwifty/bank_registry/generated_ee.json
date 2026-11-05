@@ -2,18 +2,18 @@
   {
     "country_code": "EE",
     "primary": true,
-    "bic": "TABUEE22",
-    "bank_code": "00",
-    "name": "AS TBB pank",
-    "short_name": "AS TBB pank"
+    "bic": "EKRDEE22",
+    "bank_code": "42",
+    "name": "Coop Pank aktsiaselts",
+    "short_name": "Coop Pank aktsiaselts"
   },
   {
     "country_code": "EE",
     "primary": true,
-    "bic": "UHISEE21XXX",
-    "bank_code": "02",
-    "name": "\u00dchisarveldused AS",
-    "short_name": "\u00dchisarveldused AS"
+    "bic": "EPBEEE2X",
+    "bank_code": "16",
+    "name": "Eesti Pank",
+    "short_name": "Eesti Pank"
   },
   {
     "country_code": "EE",
@@ -27,9 +27,25 @@
     "country_code": "EE",
     "primary": true,
     "bic": "HABAEE2X",
-    "bank_code": "11",
+    "bank_code": "22",
     "name": "Swedbank AS",
     "short_name": "Swedbank AS"
+  },
+  {
+    "country_code": "EE",
+    "primary": true,
+    "bic": "RIKOEE22",
+    "bank_code": "96",
+    "name": "Luminor Bank AS",
+    "short_name": "Luminor Bank AS"
+  },
+  {
+    "country_code": "EE",
+    "primary": true,
+    "bic": "RIKOEE22",
+    "bank_code": "17",
+    "name": "Luminor Bank AS",
+    "short_name": "Luminor Bank AS"
   },
   {
     "country_code": "EE",
@@ -42,58 +58,26 @@
   {
     "country_code": "EE",
     "primary": true,
-    "bic": "EPBEEE2X",
-    "bank_code": "16",
-    "name": "Eesti Pank ",
-    "short_name": "Eesti Pank "
+    "bic": "HANDEE22",
+    "bank_code": "83",
+    "name": "Svenska Handelsbanken AB Eesti filiaal",
+    "short_name": "Svenska Handelsbanken AB Eesti filiaal"
   },
   {
     "country_code": "EE",
     "primary": true,
-    "bic": "HABAEE2X",
-    "bank_code": "22",
-    "name": "Swedbank AS",
-    "short_name": "Swedbank AS"
+    "bic": "TABUEE22",
+    "bank_code": "00",
+    "name": "AS TBB pank",
+    "short_name": "AS TBB pank"
   },
   {
     "country_code": "EE",
     "primary": true,
-    "bic": "FOREEE2X",
-    "bank_code": "33",
-    "name": "Danske Bank A/S Eesti filiaal (Sampo Pank)",
-    "short_name": "Danske Bank A/S Eesti filiaal (Sampo Pank)"
-  },
-  {
-    "country_code": "EE",
-    "primary": true,
-    "bic": "EKRDEE22",
-    "bank_code": "42",
-    "name": "Coop Pank aktsiaselts",
-    "short_name": "Coop Pank aktsiaselts"
-  },
-  {
-    "country_code": "EE",
-    "primary": true,
-    "bic": "GFCBEE22",
-    "bank_code": "45",
-    "name": "GFC Good Finance Company AS",
-    "short_name": "GFC Good Finance Company AS"
-  },
-  {
-    "country_code": "EE",
-    "primary": true,
-    "bic": "SBMBEE22",
-    "bank_code": "55",
-    "name": "Versobank AS",
-    "short_name": "Versobank AS"
-  },
-  {
-    "country_code": "EE",
-    "primary": true,
-    "bic": "BIGKEE2B",
-    "bank_code": "75",
-    "name": "BIGBANK AS",
-    "short_name": "BIGBANK AS"
+    "bic": "OKOYEE2X",
+    "bank_code": "51",
+    "name": "OP Corporate Bank plc Eesti filiaal",
+    "short_name": "OP Corporate Bank plc Eesti filiaal"
   },
   {
     "country_code": "EE",
@@ -106,15 +90,23 @@
   {
     "country_code": "EE",
     "primary": true,
-    "bic": "HANDEE22",
-    "bank_code": "83",
-    "name": "Svenska Handelsbanken",
-    "short_name": "Svenska Handelsbanken"
+    "bic": "BIGKEE2B",
+    "bank_code": "75",
+    "name": "Bigbank AS",
+    "short_name": "Bigbank AS"
   },
   {
     "country_code": "EE",
     "primary": true,
-    "bic": "UNCREE22",
+    "bic": "",
+    "bank_code": "62",
+    "name": "Maaelu Edendamise Hoiu-laenu\u00fchistu",
+    "short_name": "Maaelu Edendamise Hoiu-laenu\u00fchistu"
+  },
+  {
+    "country_code": "EE",
+    "primary": true,
+    "bic": "WALLEE22",
     "bank_code": "88",
     "name": "Wallester AS",
     "short_name": "Wallester AS"
@@ -122,9 +114,60 @@
   {
     "country_code": "EE",
     "primary": true,
+    "bic": "UHISEE21",
+    "bank_code": "02",
+    "name": "\u00dchisarveldused AS",
+    "short_name": "\u00dchisarveldused AS"
+  },
+  {
+    "country_code": "EE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15",
+    "name": "inHouse Pay AS",
+    "short_name": "inHouse Pay AS"
+  },
+  {
+    "country_code": "EE",
+    "primary": true,
+    "bic": "MOMNEE22",
+    "bank_code": "11",
+    "name": "Monemon AS",
+    "short_name": "Monemon AS"
+  },
+  {
+    "country_code": "EE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "55",
+    "name": "Crowdestate AS",
+    "short_name": "Crowdestate AS"
+  },
+  {
+    "country_code": "EE",
+    "primary": true,
+    "bic": "FOREEE2X",
+    "bank_code": "33",
+    "name": "Danske Bank A/S Eesti filiaal (Sampo Pank)",
+    "short_name": "Danske Bank A/S Eesti filiaal (Sampo Pank)",
+    "status": "delisted"
+  },
+  {
+    "country_code": "EE",
+    "primary": true,
+    "bic": "GFCBEE22",
+    "bank_code": "45",
+    "name": "GFC Good Finance Company AS",
+    "short_name": "GFC Good Finance Company AS",
+    "status": "delisted"
+  },
+  {
+    "country_code": "EE",
+    "primary": true,
     "bic": "AKELEE21",
     "bank_code": "99",
     "name": "AS Pocopay",
-    "short_name": "AS Pocopay"
+    "short_name": "AS Pocopay",
+    "status": "delisted"
   }
 ]

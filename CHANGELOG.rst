@@ -83,6 +83,10 @@ Changed
   Castilla-La Mancha (``0115``), and banks that iban.es lists twice are only included once.
 * Updated the UK bank registry from GLEIF's current BIC-to-LEI mapping. Bank codes whose BICs GLEIF
   no longer maps, such as Swedbank (``SWED``), are now kept, so that existing IBANs still resolve.
+* The Croatian bank registry is now generated from the Croatian National Bank's list of payment
+  service provider codes, which replaced its list of bank codes in March 2025. This adds Aircash
+  (``4501006``). Codes that are no longer listed are now kept, so that existing IBANs still resolve,
+  which restores HBOR (``2493003``) and Nova hrvatska banka (``2503007``).
 * The Italian bank registry is now generated from Banca d'Italia's registers of banks, e-money
   institutions and payment institutions, with BICs from GLEIF's BIC-to-LEI mapping. It now covers
   all 465 active institutions instead of 215, and names banks as Banca d'Italia does. Several BICs
@@ -92,6 +96,10 @@ Changed
   Banco di Napoli (``01010``) into Intesa Sanpaolo, or continued under a new bank code, e.g.
   UniCredit, and 418 of them resolve to the name and BIC of the institution that services their bank
   code today, 101 were closed, e.g. by liquidation, and 50 ceased for another reason.
+* ``scripts/get_bank_registry_lt.py`` accepts the path of a manually downloaded copy of the Bank of
+  Lithuania's branch list, since lb.lt rejects automated downloads. The script no longer writes an
+  empty registry when the download is rejected, and keeps bank codes that are no longer listed.
+  It is no longer run by ``scripts/update-all.sh``.
 * The Romanian bank registry is now generated from GLEIF's BIC-to-LEI mapping, like the UK registry,
   since the website it was scraped from no longer lists the banks. It contains 76 active
   institutions instead of 46 banks from 2022, among them Salt Bank and TechVentures Bank. The
@@ -99,6 +107,33 @@ Changed
   registry. Banks that are no longer active, such as OTP Bank Romania and Alpha Bank Romania, are
   kept so that existing IBANs still resolve. The manual entry of Revolut, which GLEIF
   provides as well, is removed.
+* The Swedish bank registry is now generated from the CSV table of Bankinfrastruktur i Sverige
+  instead of a PDF from 2023, which no longer requires camelot and a separate Docker image. This
+  adds eleven IBAN IDs, such as those of Revolut (``215``), Trade Republic (``216``) and Lunar
+  Bank (``971``), and updates several BICs and names, e.g. Svea Bank's BIC is now ``SVEASESS``.
+  IBAN IDs with several BICs, such as Steven AB's, keep all of them. IBAN IDs that are no longer
+  listed are now kept, so that existing IBANs still resolve.
+* The Slovak bank registry is now generated from the current list of the Národná banka Slovenska.
+  The file the script downloaded had not been updated since 2022. This adds four banks, such as Air
+  Bank (``3030``) and Partners Banka (``6363``), and renames Privatbanka to Penta Bank. Codes that
+  are no longer listed are now kept, so that existing IBANs still resolve, and codes of
+  merged banks keep the bank's name during the run-off period, e.g. 365.bank (``6500``).
+* Updated the Ukrainian bank registry from the National Bank of Ukraine. The update script no longer
+  worked with current versions of pandas, so the registry had not been updated since 2023. Banks in
+  liquidation, which the National Bank still lists, are now included, and banks that are no longer
+  listed at all are kept, so that existing IBANs still resolve. This adds 56 bank codes,
+  among them nine that were dropped before, such as the one of Bank Forward (``380418``).
+* The Estonian bank registry is now generated from the list of the Estonian Banking Association.
+  It was created in 2022 by querying a third-party IBAN validator and had not been updated since.
+  This adds Luminor Bank (``96``, ``17``), OP Corporate Bank (``51``) and other payment service
+  providers, corrects the BIC of Wallester (``WALLEE22``), and assigns the codes ``11`` and ``55``
+  to Monemon and Crowdestate instead of Swedbank and Versobank. Codes that are no longer listed,
+  such as the one of Danske Bank (``33``), are kept so that existing IBANs still resolve.
+* The Georgian bank registry is now generated from the National Bank of Georgia's list of IBAN
+  codes. It was created in 2022 by querying a third-party IBAN validator and had not been updated
+  since. This adds the State Treasury (``TR``) and five banks, such as Paysera Bank Georgia
+  (``PS``). Codes that are no longer listed, such as the one of Capital Bank (``IN``), are kept so
+  that existing IBANs still resolve.
 * Removed 104 entries from the manual Italian registry that duplicate the generated one, or
   contradict it with outdated data. Italian banks now resolve to their current BIC, e.g. Fineco
   (``FEBIITM2``) and Isybank (``ISYBITMM``), and banks that have ceased, such as Banca Popolare

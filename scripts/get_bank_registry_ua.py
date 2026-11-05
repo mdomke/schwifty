@@ -1,76 +1,81 @@
 #!/usr/bin/env python
+import json
 
 import httpx2
-import pandas as pd
 
+from schwifty.domain import BankStatus
 from scripts.output import write_json
+from scripts.retired import load_previous
+from scripts.retired import merge
 
 
 BRANCH_URL = "https://bank.gov.ua/NBU_BankInfo/get_data_branch?json"
 PARENT_URL = "https://bank.gov.ua/NBU_BankInfo/get_data_branch_glbank?json"
+OUTPUT = "schwifty/bank_registry/generated_ua.json"
+MIN_RECORDS = 1000
+
+NORMAL = "Нормальний"
+LIQUIDATION = "Ліквідація"
 
 
-def split_names(s) -> tuple[str, str]:
-    """This will split the `NAME_E` line from the API into a name and a short name"""
-    name, short_name = (name.strip() for name in s[:-1].split(" (скорочена назва - "))
+def split_names(s: str) -> tuple[str, str]:
+    """Split the `NAME_E` field of the API into a name and a short name."""
+    if " (скорочена назва - " not in s:
+        return s.strip(), s.strip()
+    name, short_name = (name.strip() for name in s.rstrip(")").split(" (скорочена назва - "))
     return name, short_name
 
 
-def get_data(filter_insolvent: bool = True) -> pd.DataFrame:
-    # Get raw dataframes for parent banks and branches
-    with httpx2.get(PARENT_URL, follow_redirects=True, timeout=None) as r:
-        parents = pd.read_json(r.text)
-
-    with httpx2.get(BRANCH_URL, follow_redirects=True, timeout=None) as r:
-        branches = pd.read_json(r.text)
-
-    # Filter out insolvent branches and branches of insolvent banks
-    if filter_insolvent:
-        branches = branches.loc[
-            (branches["N_STAN"] == "Нормальний") & (branches["NSTAN_GOL"] == "Нормальний")
-        ]
-
-    # Note that the National Bank of Ukraine provides English names for banking
-    # institutions, but not for branches. Therefore we enrich the `branches`
-    # dataframe with the English name for the parent bank
-
-    # Add empty column to `branches` for full and short English name for head bank
-    branches["NGOL_E"] = ""
-    branches["NGOL_E_SHORT"] = ""
-
-    for idx, row in branches.iterrows():
-        # Get parent bank identifier
-        glmfo = row["GLMFO"]
-
-        # Get the name of parent bank from
-        parent_names = parents.loc[parents["GLMFO"] == glmfo]["NAME_E"].iloc[0]
-        parent_full_name, parent_short_name = split_names(parent_names)
-
-        branches.loc[idx, "NGOL_E"] = parent_full_name  # type: ignore
-        branches.loc[idx, "NGOL_E_SHORT"] = parent_short_name  # type: ignore
-
-    return branches
+def get_json(url: str) -> list[dict]:
+    response = httpx2.get(url, follow_redirects=True, timeout=None)
+    response.raise_for_status()
+    return json.loads(response.text)
 
 
 def process():
-    branches = get_data()
+    # The National Bank of Ukraine provides English names for the banks that are still active,
+    # but not for their branches, which get the English short name of their bank instead.
+    short_names = {
+        parent["GLMFO"]: split_names(parent["NAME_E"])[1]
+        for parent in get_json(PARENT_URL)
+        if parent.get("NAME_E")
+    }
+
     registry = []
+    for branch in get_json(BRANCH_URL):
+        if branch["NSTAN_GOL"] == NORMAL and branch["N_STAN"] == NORMAL:
+            registry.append(
+                {
+                    "country_code": "UA",
+                    "primary": branch["TYP"] == 0,
+                    "bic": "",
+                    "bank_code": str(branch["MFO"]),
+                    "name": branch["FULLNAME"],
+                    "short_name": short_names.get(branch["GLMFO"], branch["SHORTNAME"]),
+                }
+            )
+        elif branch["NSTAN_GOL"] == LIQUIDATION and branch["TYP"] == 0:
+            # Banks in liquidation are still listed with their head office. Their codes stay
+            # valid in IBANs, but the banks are closed.
+            registry.append(
+                {
+                    "country_code": "UA",
+                    "primary": True,
+                    "status": BankStatus.CLOSED,
+                    "bic": "",
+                    "bank_code": str(branch["MFO"]),
+                    "name": branch["FULLNAME"],
+                    "short_name": branch["SHORTNAME"],
+                }
+            )
 
-    for _, row in branches.iterrows():
-        registry.append(
-            {
-                "country_code": "UA",
-                "primary": row["TYP"] == 0,
-                "bic": "",
-                "bank_code": str(row["MFO"]),
-                "name": row["FULLNAME"],
-                "short_name": row["NGOL_E_SHORT"],
-            }
-        )
-
-    print(f"Fetched {len(registry)} bank records")
+    if len(registry) < MIN_RECORDS:
+        raise ValueError(f"Only {len(registry)} records parsed, the format may have changed")
     return registry
 
 
 if __name__ == "__main__":
-    write_json("schwifty/bank_registry/generated_ua.json", process(), indent=2, ensure_ascii=False)
+    # Banks that are removed from the list entirely are kept from the previous registry, which is
+    # read before it is replaced.
+    data = merge(process(), load_previous(OUTPUT))
+    write_json(OUTPUT, data, indent=2, ensure_ascii=False)

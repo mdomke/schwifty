@@ -187,7 +187,6 @@ doc = [
 scripts = [
     "beautifulsoup4",
     "boltons",
-    "camelot-py",
     "httpx2",
     "xlrd>=2.0.1",
     "pandas",

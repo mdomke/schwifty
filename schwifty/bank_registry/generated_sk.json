@@ -53,15 +53,8 @@
     "bic": "LUBASKBX",
     "bank_code": "3100",
     "name": "Prima banka Slovensko, a.s. - Code for running payments",
-    "short_name": "Prima banka Slovensko, a.s. - Code for running payments"
-  },
-  {
-    "country_code": "SK",
-    "primary": true,
-    "bic": "OTPVSKBX",
-    "bank_code": "5200",
-    "name": "\u010ceskoslovensk\u00e1 obchodn\u00e1 banka, a.s. (formerly OTP Banka Slovensko, a.s.) \u2013 Code for running payments",
-    "short_name": "\u010ceskoslovensk\u00e1 obchodn\u00e1 banka, a.s. (formerly OTP Banka Slovensko, a.s.) \u2013 Code for running payments"
+    "short_name": "Prima banka Slovensko, a.s. - Code for running payments",
+    "status": "merged"
   },
   {
     "country_code": "SK",
@@ -85,7 +78,8 @@
     "bic": "POBNSKBA",
     "bank_code": "6500",
     "name": "365.bank, a.s.",
-    "short_name": "365.bank, a.s."
+    "short_name": "365.bank, a.s.",
+    "status": "merged"
   },
   {
     "country_code": "SK",
@@ -108,16 +102,8 @@
     "primary": true,
     "bic": "WUSTSKBA",
     "bank_code": "7930",
-    "name": "Wustenrot stavebn\u00e1 sporite\u013e\u0148a, a.s.",
-    "short_name": "Wustenrot stavebn\u00e1 sporite\u013e\u0148a, a.s."
-  },
-  {
-    "country_code": "SK",
-    "primary": true,
-    "bic": "COBASKBX",
-    "bank_code": "8050",
-    "name": "Commerzbank Aktiengesellschaft, pobo\u010dka zahrani\u010dnej banky, Bratislava",
-    "short_name": "Commerzbank Aktiengesellschaft, pobo\u010dka zahrani\u010dnej banky, Bratislava"
+    "name": "Bausparkasse W\u00fcstenrot Aktiengesselschaft, pobo\u010dka zahrani\u010dnej banky",
+    "short_name": "Bausparkasse W\u00fcstenrot Aktiengesselschaft, pobo\u010dka zahrani\u010dnej banky"
   },
   {
     "country_code": "SK",
@@ -132,8 +118,8 @@
     "primary": true,
     "bic": "BSLOSK22",
     "bank_code": "8120",
-    "name": "Privatbanka, a.s.",
-    "short_name": "Privatbanka, a.s."
+    "name": "Penta Bank, a.s.",
+    "short_name": "Penta Bank, a.s."
   },
   {
     "country_code": "SK",
@@ -142,14 +128,6 @@
     "bank_code": "8130",
     "name": "Citibank Europe plc, pobo\u010dka zahrani\u010dnej banky",
     "short_name": "Citibank Europe plc, pobo\u010dka zahrani\u010dnej banky"
-  },
-  {
-    "country_code": "SK",
-    "primary": true,
-    "bic": "KBSPSKBX",
-    "bank_code": "8170",
-    "name": "\u010cSOB stavebn\u00e1 sporite\u013e\u0148a, a.s.",
-    "short_name": "\u010cSOB stavebn\u00e1 sporite\u013e\u0148a, a.s."
   },
   {
     "country_code": "SK",
@@ -226,18 +204,10 @@
   {
     "country_code": "SK",
     "primary": true,
-    "bic": "KODBSKBX",
-    "bank_code": "8430",
-    "name": "KDB Bank Europe Ltd., pobo\u010dka zahrani\u010dnej banky",
-    "short_name": "KDB Bank Europe Ltd., pobo\u010dka zahrani\u010dnej banky"
-  },
-  {
-    "country_code": "SK",
-    "primary": true,
     "bic": "",
     "bank_code": "9950",
-    "name": "SIA Central Europe, a.s.",
-    "short_name": "SIA Central Europe, a.s."
+    "name": "Nexi Central Europe, a.s.",
+    "short_name": "Nexi Central Europe, a.s."
   },
   {
     "country_code": "SK",
@@ -258,26 +228,10 @@
   {
     "country_code": "SK",
     "primary": true,
-    "bic": "",
-    "bank_code": "8440",
-    "name": "BNP PARIBAS PERSONAL FINANCE SA, pobo\u010dka zahrani\u010dnej banky",
-    "short_name": "BNP PARIBAS PERSONAL FINANCE SA, pobo\u010dka zahrani\u010dnej banky"
-  },
-  {
-    "country_code": "SK",
-    "primary": true,
     "bic": "JTBPCZPP",
     "bank_code": "5800",
     "name": "J&T BANKA, a.s.",
     "short_name": "J&T BANKA, a.s."
-  },
-  {
-    "country_code": "SK",
-    "primary": true,
-    "bic": "EXPNCZPP",
-    "bank_code": "4000",
-    "name": "Expobank CZ a.s.",
-    "short_name": "Expobank CZ a.s."
   },
   {
     "country_code": "SK",
@@ -314,17 +268,131 @@
   {
     "country_code": "SK",
     "primary": true,
-    "bic": "KPAYSK22",
-    "bank_code": "9954",
-    "name": "K-PAY a.s.",
-    "short_name": "K-PAY a.s."
-  },
-  {
-    "country_code": "SK",
-    "primary": true,
     "bic": "PANXSK22",
     "bank_code": "9955",
     "name": "Unifiedpost Payments, organiza\u010dn\u00e1 zlo\u017eka",
     "short_name": "Unifiedpost Payments, organiza\u010dn\u00e1 zlo\u017eka"
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "PYYUSK22",
+    "bank_code": "9956",
+    "name": "Payout a.s.",
+    "short_name": "Payout a.s."
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "AIRACZPP",
+    "bank_code": "3030",
+    "name": "Air bank a.s.",
+    "short_name": "Air bank a.s."
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "CTASCZ22",
+    "bank_code": "2250",
+    "name": "Banka CREDITAS a.s.",
+    "short_name": "Banka CREDITAS a.s."
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "PTBNCZPP",
+    "bank_code": "6363",
+    "name": "Partners Banka, a.s.",
+    "short_name": "Partners Banka, a.s."
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "EXPNCZPP",
+    "bank_code": "4000",
+    "name": "Expobank CZ a.s.",
+    "short_name": "Expobank CZ a.s.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "OTPVSKBX",
+    "bank_code": "5200",
+    "name": "OTP Banka Slovensko, a.s.",
+    "short_name": "OTP Banka Slovensko, a.s.",
+    "status": "merged"
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "COBASKBX",
+    "bank_code": "8050",
+    "name": "Commerzbank Aktiengesellschaft, pobo\u010dka zahrani\u010dnej banky, Bratislava",
+    "short_name": "Commerzbank Aktiengesellschaft, pobo\u010dka zahrani\u010dnej banky, Bratislava",
+    "status": "delisted"
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "KBSPSKBX",
+    "bank_code": "8170",
+    "name": "\u010cSOB stavebn\u00e1 sporite\u013e\u0148a, a.s.",
+    "short_name": "\u010cSOB stavebn\u00e1 sporite\u013e\u0148a, a.s.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "",
+    "bank_code": "8390",
+    "name": "\u010ceskoslovensk\u00e9 \u00fav\u011brn\u00ed dru\u017estvo, pobo\u010dka Slovensko",
+    "short_name": "\u010ceskoslovensk\u00e9 \u00fav\u011brn\u00ed dru\u017estvo, pobo\u010dka Slovensko",
+    "status": "delisted"
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "RIDBSKBX",
+    "bank_code": "8410",
+    "name": "ZUNO BANK AG, pobo\u010dka zahrani\u010dnej banky",
+    "short_name": "ZUNO BANK AG, pobo\u010dka zahrani\u010dnej banky",
+    "status": "delisted"
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "KODBSKBX",
+    "bank_code": "8430",
+    "name": "KDB Bank Europe Ltd., pobo\u010dka zahrani\u010dnej banky",
+    "short_name": "KDB Bank Europe Ltd., pobo\u010dka zahrani\u010dnej banky",
+    "status": "delisted"
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "",
+    "bank_code": "8440",
+    "name": "BNP PARIBAS PERSONAL FINANCE SA, pobo\u010dka zahrani\u010dnej banky",
+    "short_name": "BNP PARIBAS PERSONAL FINANCE SA, pobo\u010dka zahrani\u010dnej banky",
+    "status": "delisted"
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "NFDNSKBA",
+    "bank_code": "9953",
+    "name": "Payment Institution NFD a.s.",
+    "short_name": "Payment Institution NFD a.s.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "SK",
+    "primary": true,
+    "bic": "KPAYSK22",
+    "bank_code": "9954",
+    "name": "K-PAY a.s.",
+    "short_name": "K-PAY a.s.",
+    "status": "delisted"
   }
 ]
