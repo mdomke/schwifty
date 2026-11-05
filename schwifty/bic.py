@@ -11,6 +11,7 @@ from pycountry.db import Data  # type: ignore
 from schwifty import common
 from schwifty import exceptions
 from schwifty import registry
+from schwifty.domain import lookup_rank
 
 
 if TYPE_CHECKING:
@@ -91,9 +92,7 @@ class BIC(common.Base):
             self.validate(enforce_swift_compliance)
 
     @classmethod
-    def candidates_from_bank_code(
-        cls, country_code: str, bank_code: str, include_closed: bool = False
-    ) -> list[BIC]:
+    def candidates_from_bank_code(cls, country_code: str, bank_code: str) -> list[BIC]:
         """Create a list of potential BIC objects from country-code and domestic bank-code.
 
         Examples:
@@ -113,8 +112,6 @@ class BIC(common.Base):
         Args:
             country_code (str): ISO 3166 alpha2 country-code.
             bank_code (str): Country specific bank-code.
-            include_closed (bool): Also consider banks that were closed without a successor.
-                Retired bank codes of merged banks always resolve to their successor.
 
         Returns:
             list[BIC]: a list of BIC objects generated from the given country code and bank code.
@@ -173,20 +170,16 @@ class BIC(common.Base):
             * United Arab Emirates
             * United Kingdom
         """
-        banks = registry.get_banks_by_code(country_code, bank_code, include_closed)
+        banks = registry.get_banks_by_code(country_code, bank_code)
         if not banks:
             raise exceptions.InvalidBankCode(
                 f"Unknown bank code {bank_code!r} for country {country_code!r}"
             )
-        sorted_banks = sorted(
-            banks,
-            key=lambda b: b.primary,
-            reverse=True,
-        )
+        sorted_banks = sorted(banks, key=lookup_rank, reverse=True)
         return [cls(entry.bic) for entry in sorted_banks if entry.bic]
 
     @classmethod
-    def from_bank_code(cls, country_code: str, bank_code: str, include_closed: bool = False) -> BIC:
+    def from_bank_code(cls, country_code: str, bank_code: str) -> BIC:
         """Create a new BIC object from country-code and domestic bank-code.
 
         Examples:
@@ -207,8 +200,6 @@ class BIC(common.Base):
         Args:
             country_code (str): ISO 3166 alpha2 country-code.
             bank_code (str): Country specific bank-code.
-            include_closed (bool): Also consider banks that were closed without a successor.
-                Retired bank codes of merged banks always resolve to their successor.
 
         Returns:
             BIC: a BIC object generated from the given country code and bank code.
@@ -244,19 +235,19 @@ class BIC(common.Base):
             * Switzerland
         """
         try:
-            candidates = cls.candidates_from_bank_code(country_code, bank_code, include_closed)
+            candidates = cls.candidates_from_bank_code(country_code, bank_code)
             if len(candidates) > 1:
-                # Among equally generic codes, entries the registry marks as primary win
-                # over the rest before the alphabetical tie-break is applied.
-                primary = {
-                    entry.bic
-                    for entry in registry.get_banks_by_code(country_code, bank_code, include_closed)
-                    if entry.primary and entry.bic
-                }
+                # Among equally generic codes, the BICs of the best ranked records (active
+                # ones first, primary ones among those) win over the rest before the
+                # alphabetical tie-break is applied.
+                ranks: dict[str, tuple[int, bool]] = {}
+                for entry in registry.get_banks_by_code(country_code, bank_code):
+                    if entry.bic:
+                        ranks[entry.bic] = max(ranks.get(entry.bic, (0, False)), lookup_rank(entry))
 
                 def prefer_primary(codes: list[BIC]) -> list[BIC]:
-                    flagged = [c for c in codes if c.compact in primary]
-                    return flagged or codes
+                    best = max(ranks.get(c.compact, (0, False)) for c in codes)
+                    return [c for c in codes if ranks.get(c.compact, (0, False)) == best]
 
                 # If we have multiple candidates, we try to pick the
                 # one with no branch code which is the most generic one.
@@ -474,8 +465,7 @@ class BIC(common.Base):
     def exists(self) -> bool:
         """bool: Indicates if the BIC is available in Schwifty's registry.
 
-        BICs of banks that were closed without a successor don't count as available. The former
-        BIC of a merged bank does, see :attr:`.Bank.legacy_bic`.
+        The former BIC of a merged bank exists as well, see :attr:`.Bank.legacy_bic`.
         """
         return bool(registry.get_banks_by_bic(str(self)))
 

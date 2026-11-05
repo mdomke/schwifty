@@ -18,6 +18,7 @@ except ImportError:
 
 from schwifty import exceptions
 from schwifty.domain import Bank
+from schwifty.domain import BankStatus
 from schwifty.domain import Component
 from schwifty.domain import IBANSpec
 from schwifty.domain import Range
@@ -196,37 +197,31 @@ class Registry:
             short_name=data.get("short_name"),
             primary=data.get("primary", False),
             checksum_algo=data.get("checksum_algo", "default"),
-            retired=data.get("retired", False),
+            status=BankStatus(data.get("status", BankStatus.ACTIVE)),
             successor_bank_code=data.get("successor_bank_code"),
+            legacy_name=data.get("legacy_name"),
             legacy_bic=data.get("legacy_bic"),
         )
 
-    # Banks that are closed (retired without a successor) can't be used for payments anymore,
-    # so the lookups only return them when asked for explicitly.
+    def get_banks_by_country(self, country_code: str) -> list[Bank]:
+        return self._get_country_banks(country_code).banks
 
-    def get_banks_by_country(self, country_code: str, include_closed: bool = False) -> list[Bank]:
-        return _filter_closed(self._get_country_banks(country_code).banks, include_closed)
+    def get_banks_by_code(self, country_code: str, bank_code: str) -> list[Bank]:
+        return self._get_country_banks(country_code).by_bank_code.get(bank_code, [])
 
-    def get_banks_by_code(
-        self, country_code: str, bank_code: str, include_closed: bool = False
-    ) -> list[Bank]:
-        banks = self._get_country_banks(country_code).by_bank_code.get(bank_code, [])
-        return _filter_closed(banks, include_closed)
-
-    def get_banks_by_bic(self, bic: str, include_closed: bool = False) -> list[Bank]:
+    def get_banks_by_bic(self, bic: str) -> list[Bank]:
         # Only the registry of the BIC's own country is searched, so that a lookup doesn't
         # require loading the banks of all countries.
-        banks = self._get_country_banks(bic[4:6].upper()).by_bic.get(bic, [])
-        return _filter_closed(banks, include_closed)
+        return self._get_country_banks(bic[4:6].upper()).by_bic.get(bic, [])
 
     def get_countries(self) -> list[str]:
         return list(self._bank_files())
 
-    def get_all_banks(self, include_closed: bool = False) -> list[Bank]:
+    def get_all_banks(self) -> list[Bank]:
         return [
             bank
             for country_code in self.get_countries()
-            for bank in self.get_banks_by_country(country_code, include_closed)
+            for bank in self.get_banks_by_country(country_code)
         ]
 
     def _bank_files(self) -> dict[str, list[Path]]:
@@ -258,15 +253,11 @@ class Registry:
                 banks.by_bank_code[bank.bank_code].append(bank)
             if bank.bic:
                 banks.by_bic[bank.bic].append(bank)
-            if bank.legacy_bic:
+            if bank.legacy_bic and bank.legacy_bic != bank.bic:
                 # The BIC of a merged bank still resolves to its retired bank code.
                 banks.by_bic[bank.legacy_bic].append(bank)
         self._banks[country_code] = banks
         return banks
-
-
-def _filter_closed(banks: list[Bank], include_closed: bool) -> list[Bank]:
-    return banks if include_closed else [bank for bank in banks if not bank.closed]
 
 
 _default_registry = Registry()
@@ -276,23 +267,21 @@ def get_iban_spec(country_code: str) -> IBANSpec:
     return _default_registry.get_iban_spec(country_code)
 
 
-def get_banks_by_country(country_code: str, include_closed: bool = False) -> list[Bank]:
-    return _default_registry.get_banks_by_country(country_code, include_closed)
+def get_banks_by_country(country_code: str) -> list[Bank]:
+    return _default_registry.get_banks_by_country(country_code)
 
 
-def get_banks_by_code(
-    country_code: str, bank_code: str, include_closed: bool = False
-) -> list[Bank]:
-    return _default_registry.get_banks_by_code(country_code, bank_code, include_closed)
+def get_banks_by_code(country_code: str, bank_code: str) -> list[Bank]:
+    return _default_registry.get_banks_by_code(country_code, bank_code)
 
 
-def get_banks_by_bic(bic: str, include_closed: bool = False) -> list[Bank]:
-    return _default_registry.get_banks_by_bic(bic, include_closed)
+def get_banks_by_bic(bic: str) -> list[Bank]:
+    return _default_registry.get_banks_by_bic(bic)
 
 
 def get_countries() -> list[str]:
     return _default_registry.get_countries()
 
 
-def get_all_banks(include_closed: bool = False) -> list[Bank]:
-    return _default_registry.get_all_banks(include_closed)
+def get_all_banks() -> list[Bank]:
+    return _default_registry.get_all_banks()

@@ -9,6 +9,17 @@ Unreleased
 ----------
 Added
 ~~~~~
+* Bank codes that are no longer in use are now marked in the registry. ``Bank.status`` is a
+  ``schwifty.domain.BankStatus`` of ``active``, ``merged``, ``closed`` or ``delisted``. A merged
+  bank code names its successor as ``Bank.successor_bank_code`` where it is known, and takes on the
+  name and BIC of the bank that services it today, while the merged bank's own name and BIC are kept
+  as ``Bank.legacy_name`` and ``Bank.legacy_bic``. The legacy BIC still resolves, e.g.
+  ``BIC("GENODEF1HWR").domestic_bank_codes``. Lookups by bank code prefer active records, then
+  merged ones, and only then the primary record among them, so that an active branch wins over a
+  retired head office. Closed and delisted banks are still returned, so that an IBAN can be
+  identified; check their status before initiating a payment. Account codes of retired banks are
+  validated with their own checksum method, and :meth:`.IBAN.random` no longer picks retired bank
+  codes.
 * Added the German checksum method ``48``, used by seven Volksbanken such as Volksbank
   Raiffeisenbank (bank code ``20190109``). It works like method ``06`` over positions 3 to 8,
   with the check digit at position 9. Account codes for these banks were not checked before.
@@ -27,15 +38,6 @@ Added
   method ``06`` with the weights 2, 4, 8, 5, 10, 9, 7, 3, 6 instead of 2 to 7: method ``40`` over
   positions 1 to 9 and method ``44`` with the first five weights over positions 5 to 9. Account
   codes for these banks were not checked before.
-* Bank codes that are no longer in use are now marked in the registry. :attr:`.Bank.retired` is
-  set for them, and :attr:`.Bank.successor_bank_code` names the successor of a merged bank, whose
-  name and BIC the entry takes on. The merged bank's own BIC is kept as :attr:`.Bank.legacy_bic`
-  and still resolves, e.g. ``BIC("GENODEF1HWR").domestic_bank_codes``. A bank that was closed
-  without a successor (:attr:`.Bank.closed`) is left out of :attr:`.IBAN.bank`, :attr:`.IBAN.bic`,
-  :attr:`.BIC.exists` and the other lookups, since no payments can be made to it. Use
-  :meth:`.IBAN.get_bank` or :meth:`.BIC.from_bank_code` with ``include_closed=True`` to look it up
-  anyway. Account codes of closed banks are still validated with their own checksum method, and
-  :meth:`.IBAN.random` no longer picks retired bank codes.
 * Added the German checksum methods ``41``, ``42`` and ``43``, used by Openbank Deutschland (bank
   code ``25020600``), VR Bank im Enzkreis (bank code ``66661454``) and Volksbank Pforzheim (bank
   code ``66690000``). Method ``41`` works like method ``00``, but leaves out positions 1 to 3 if

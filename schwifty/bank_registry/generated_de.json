@@ -214,7 +214,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "10030400",
@@ -242,7 +242,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "10030700",
@@ -252,7 +252,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "16",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "10030730",
@@ -262,7 +262,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "16",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "10031000",
@@ -272,7 +272,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "10033300",
@@ -416,8 +416,8 @@
     "bic": "GENODED1PAX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "06",
+    "status": "merged",
     "successor_bank_code": "37060193",
     "legacy_bic": "GENODED1PA6"
   },
@@ -726,7 +726,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "10130600",
@@ -1662,8 +1662,8 @@
     "bic": "GENODEF1HWI",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "32",
+    "status": "merged",
     "successor_bank_code": "13061078",
     "legacy_bic": "GENODEF1HWR"
   },
@@ -1674,8 +1674,8 @@
     "bic": "GENODEF1GUE",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "32",
+    "status": "merged",
     "successor_bank_code": "14061308",
     "legacy_bic": "GENODEF1DBR"
   },
@@ -2316,8 +2316,8 @@
     "bic": "GENODEF1HWI",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "06",
+    "status": "merged",
     "successor_bank_code": "13061078",
     "legacy_bic": "GENODEF1HWV"
   },
@@ -3445,7 +3445,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "C5",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "20050550",
@@ -4049,7 +4049,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "81",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "20090700",
@@ -4284,7 +4284,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "20220800",
@@ -4339,7 +4339,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "20690500",
@@ -5231,7 +5231,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "21020600",
@@ -5961,7 +5961,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "23040022",
@@ -5980,7 +5980,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "C5",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "23050101",
@@ -6448,8 +6448,8 @@
     "bic": "SPKHDE2HXXX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "A3",
+    "status": "merged",
     "successor_bank_code": "25050180"
   },
   {
@@ -7090,7 +7090,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "28",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "25691633",
@@ -7990,8 +7990,8 @@
     "bic": "GENODEF1NEV",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "28",
+    "status": "merged",
     "successor_bank_code": "28069956",
     "legacy_bic": "GENODEF1NDH"
   },
@@ -8255,7 +8255,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "27020000",
@@ -9083,8 +9083,8 @@
     "bic": "GENODEF1NEV",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "28",
+    "status": "merged",
     "successor_bank_code": "28069956",
     "legacy_bic": "GENODEF1BBH"
   },
@@ -9113,8 +9113,8 @@
     "bic": "GENODEF1MML",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "28",
+    "status": "merged",
     "successor_bank_code": "28563749",
     "legacy_bic": "GENODEF1MLO"
   },
@@ -9557,8 +9557,8 @@
     "bic": "GENODEF1MML",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "28",
+    "status": "merged",
     "successor_bank_code": "28563749",
     "legacy_bic": "GENODEF1HTL"
   },
@@ -9660,7 +9660,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "29020000",
@@ -9679,7 +9679,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "29030400",
@@ -10202,7 +10202,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "30019000",
@@ -10212,7 +10212,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "30020500",
@@ -10258,7 +10258,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "08",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "30030100",
@@ -11095,8 +11095,8 @@
     "bic": "GENODED1VSN",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "06",
+    "status": "merged",
     "successor_bank_code": "31460290",
     "legacy_bic": "GENODED1NKR"
   },
@@ -12494,7 +12494,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "36010424",
@@ -12584,8 +12584,8 @@
     "bic": "GENODED1PAX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "06",
+    "status": "merged",
     "successor_bank_code": "37060193",
     "legacy_bic": "GENODED1PA2"
   },
@@ -12885,7 +12885,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "37021500",
@@ -12922,7 +12922,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "37030700",
@@ -13147,8 +13147,8 @@
     "bic": "GENODED1HRB",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "06",
+    "status": "merged",
     "successor_bank_code": "37069412",
     "legacy_bic": "GENODED1GLK"
   },
@@ -13213,8 +13213,8 @@
     "bic": "GENODED1HRB",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "06",
+    "status": "merged",
     "successor_bank_code": "37069412",
     "legacy_bic": "GENODED1SEG"
   },
@@ -13909,8 +13909,8 @@
     "bic": "COKSDE33XXX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "00",
+    "status": "merged",
     "successor_bank_code": "37050299",
     "legacy_bic": "WELADED1LEI"
   },
@@ -14128,8 +14128,8 @@
     "bic": "COLSDE33XXX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "00",
+    "status": "merged",
     "successor_bank_code": "37050198",
     "legacy_bic": "COLSDE33BON"
   },
@@ -14473,8 +14473,8 @@
     "bic": "COKSDE33XXX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "00",
+    "status": "merged",
     "successor_bank_code": "37050299",
     "legacy_bic": "WELADED1SGB"
   },
@@ -14485,8 +14485,8 @@
     "bic": "COKSDE33XXX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "00",
+    "status": "merged",
     "successor_bank_code": "37050299",
     "legacy_bic": "WELADED1HEN"
   },
@@ -14533,8 +14533,8 @@
     "bic": "GENODED1HRB",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "06",
+    "status": "merged",
     "successor_bank_code": "37069412",
     "legacy_bic": "GENODED1HNB"
   },
@@ -14770,8 +14770,8 @@
     "bic": "GENODED1PAX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "06",
+    "status": "merged",
     "successor_bank_code": "37060193",
     "legacy_bic": "GENODED1PA1"
   },
@@ -14954,7 +14954,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "34",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "40060560",
@@ -18329,8 +18329,8 @@
     "bic": "GENODEM1BUS",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "34",
+    "status": "merged",
     "successor_bank_code": "47261603",
     "legacy_bic": "GENODEM1WNH"
   },
@@ -18485,8 +18485,8 @@
     "bic": "GENODEM1STM",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "34",
+    "status": "merged",
     "successor_bank_code": "47264367",
     "legacy_bic": "GENODEM1WBG"
   },
@@ -19479,7 +19479,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "28",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "50020200",
@@ -19615,7 +19615,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "50030500",
@@ -20975,7 +20975,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "10",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "50110400",
@@ -21066,7 +21066,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "50120100",
@@ -21094,7 +21094,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "66",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "50120600",
@@ -21140,7 +21140,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "28",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "50127000",
@@ -21177,7 +21177,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "50130400",
@@ -21259,7 +21259,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "18",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "50210295",
@@ -21377,7 +21377,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "50230600",
@@ -21531,7 +21531,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "31",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "50324040",
@@ -21541,7 +21541,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "31",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "50330000",
@@ -21659,7 +21659,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "50530000",
@@ -22073,8 +22073,8 @@
     "bic": "GENODE51FUL",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "32",
+    "status": "merged",
     "successor_bank_code": "53060180",
     "legacy_bic": "GENODEF1BIR"
   },
@@ -22121,8 +22121,8 @@
     "bic": "BBSPDE6KXXX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "09",
+    "status": "merged",
     "successor_bank_code": "66010200"
   },
   {
@@ -22430,7 +22430,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "32",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "50961592",
@@ -22917,7 +22917,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "51230800",
@@ -22927,7 +22927,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "51230801",
@@ -22937,7 +22937,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "51230802",
@@ -22947,7 +22947,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "51230805",
@@ -22957,7 +22957,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "51250000",
@@ -22976,7 +22976,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "51340013",
@@ -23085,7 +23085,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "51410700",
@@ -23104,7 +23104,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "51420200",
@@ -23132,7 +23132,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "51430400",
@@ -25202,8 +25202,8 @@
     "bic": "GENODED1PAX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "06",
+    "status": "merged",
     "successor_bank_code": "37060193",
     "legacy_bic": "GENODED1PA4"
   },
@@ -26024,8 +26024,8 @@
     "bic": "GENODED1PAX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "06",
+    "status": "merged",
     "successor_bank_code": "37060193",
     "legacy_bic": "GENODED1PA3"
   },
@@ -27080,8 +27080,8 @@
     "bic": "LKBWDE6KXXX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "09",
+    "status": "merged",
     "successor_bank_code": "66010700",
     "legacy_bic": "LKBWDE6K600"
   },
@@ -27147,7 +27147,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "60030000",
@@ -27489,8 +27489,8 @@
     "bic": "GENODES1REH",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "10",
+    "status": "merged",
     "successor_bank_code": "60069346",
     "legacy_bic": "GENODES1DMS"
   },
@@ -27735,8 +27735,8 @@
     "bic": "GENODES1GEI",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "10",
+    "status": "merged",
     "successor_bank_code": "65362499",
     "legacy_bic": "GENODES1RKH"
   },
@@ -27855,8 +27855,8 @@
     "bic": "GENODES1VBB",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "10",
+    "status": "merged",
     "successor_bank_code": "60491430",
     "legacy_bic": "GENODES1EHB"
   },
@@ -28570,7 +28570,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "60420000",
@@ -28804,7 +28804,7 @@
     "bic": "PZHSDE66XXX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
+    "status": "merged",
     "successor_bank_code": "66650085"
   },
   {
@@ -29418,7 +29418,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "62040060",
@@ -30552,8 +30552,8 @@
     "bic": "ULMVDE66XXX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "10",
+    "status": "merged",
     "successor_bank_code": "63090100"
   },
   {
@@ -31013,8 +31013,8 @@
     "bic": "KARSDE66XXX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "00",
+    "status": "merged",
     "successor_bank_code": "66050101",
     "legacy_bic": "SOLADES1ETT"
   },
@@ -31592,8 +31592,8 @@
     "bic": "GENODE61BHL",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "06",
+    "status": "merged",
     "successor_bank_code": "66291400"
   },
   {
@@ -33278,7 +33278,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70010800",
@@ -33297,7 +33297,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "06",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70011110",
@@ -33307,7 +33307,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "06",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70011200",
@@ -33326,7 +33326,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "16",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70011400",
@@ -33363,7 +33363,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "01",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70011900",
@@ -33400,7 +33400,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70012600",
@@ -33455,7 +33455,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "32",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70013199",
@@ -33465,7 +33465,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "32",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70013300",
@@ -33736,7 +33736,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "16",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70022424",
@@ -33773,7 +33773,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70030300",
@@ -34521,7 +34521,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70120100",
@@ -34576,7 +34576,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70130799",
@@ -34586,7 +34586,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70130800",
@@ -35136,7 +35136,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "07",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "70220900",
@@ -35695,7 +35695,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "23",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "72021271",
@@ -36704,7 +36704,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "00",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "73369264",
@@ -37011,7 +37011,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "73480013",
@@ -38335,7 +38335,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "88",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "76061025",
@@ -38984,7 +38984,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "11",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "76240011",
@@ -39498,7 +39498,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "77320072",
@@ -40236,8 +40236,8 @@
     "bic": "GENODEF1AB1",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "88",
+    "status": "merged",
     "successor_bank_code": "79562514",
     "legacy_bic": "GENODEF1HAC"
   },
@@ -40482,8 +40482,8 @@
     "bic": "NOLADE21BLK",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "20",
+    "status": "merged",
     "successor_bank_code": "80053000",
     "legacy_bic": "NOLADE21WSF"
   },
@@ -41160,8 +41160,8 @@
     "bic": "GENODED1PAX",
     "primary": false,
     "country_code": "DE",
-    "retired": true,
     "checksum_algo": "06",
+    "status": "merged",
     "successor_bank_code": "37060193",
     "legacy_bic": "GENODED1PA5"
   },
@@ -42028,7 +42028,7 @@
     "primary": true,
     "country_code": "DE",
     "checksum_algo": "09",
-    "retired": true
+    "status": "delisted"
   },
   {
     "bank_code": "85010500",

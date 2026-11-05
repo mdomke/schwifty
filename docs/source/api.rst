@@ -41,6 +41,10 @@ Bank
    :members:
    :undoc-members:
 
+.. autoclass:: schwifty.domain.BankStatus
+   :members:
+   :undoc-members:
+
 
 Exceptions
 ----------

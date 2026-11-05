@@ -131,37 +131,34 @@ Retired bank codes
 ~~~~~~~~~~~~~~~~~~
 
 Banks merge or close, but IBANs with their bank codes stay in circulation. ``schwifty`` keeps such
-retired bank codes in its registry and marks them with :attr:`.Bank.retired`. The code of a merged
-bank resolves to its successor:
+retired bank codes in its registry. :attr:`.Bank.status` tells what became of them: ``merged``,
+``closed``, or ``delisted`` if the source doesn't say why it no longer lists the code. The code of
+a merged bank resolves to the bank that services it today:
 
 .. code-block:: pycon
 
   >>> iban = IBAN.generate("DE", bank_code="13061088", account_code="1234567")
-  >>> iban.bank.name, iban.bank.retired, iban.bank.successor_bank_code
-  ('Volks- und Raiffeisenbank', True, '13061078')
+  >>> iban.bank.name, iban.bank.status, iban.bank.successor_bank_code
+  ('Volks- und Raiffeisenbank', <BankStatus.MERGED: 'merged'>, '13061078')
 
-The BIC of the merged bank still resolves to its retired bank code:
+The name and BIC of the merged bank are kept, and its BIC still resolves to its retired bank code:
 
 .. code-block:: pycon
 
+  >>> iban.bank.legacy_name, iban.bank.legacy_bic, iban.bic
+  ('Raiffeisenbank Wismar', 'GENODEF1HWR', <BIC=GENODEF1HWI>)
   >>> BIC("GENODEF1HWR").domestic_bank_codes
   ['13061088']
-  >>> iban.bank.legacy_bic, iban.bic
-  ('GENODEF1HWR', <BIC=GENODEF1HWI>)
 
-A bank that was closed without a successor can't receive payments anymore. Therefore it is left
-out of :attr:`.IBAN.bank`, :attr:`.IBAN.bic` and the other lookups, unless you explicitly ask for
-it:
+A bank that was closed, or is no longer listed without a known successor, is still returned, so
+that an IBAN can be identified. No payments can be made to it, though, so check its status before
+you initiate one:
 
 .. code-block:: pycon
 
   >>> iban = IBAN.generate("DE", bank_code="29020200", account_code="1234567890")
-  >>> iban.bank is None
-  True
-  >>> iban.get_bank(include_closed=True).name
-  'Greensill Bank'
-  >>> BIC.from_bank_code("DE", "29020200", include_closed=True)
-  <BIC=NFHBDE21XXX>
+  >>> iban.bank.name, iban.bank.status
+  ('Greensill Bank', <BankStatus.DELISTED: 'delisted'>)
 
 
 Validation

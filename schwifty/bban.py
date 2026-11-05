@@ -15,8 +15,10 @@ from schwifty.bic import BIC
 from schwifty.checksum import Algorithm
 from schwifty.checksum import algorithms
 from schwifty.domain import Bank
+from schwifty.domain import BankStatus
 from schwifty.domain import Component
 from schwifty.domain import IBANSpec
+from schwifty.domain import lookup_rank
 from schwifty.domain import Range
 
 
@@ -34,19 +36,24 @@ def _get_bban_spec(country_code: str) -> IBANSpec:
     return registry.get_iban_spec(country_code)
 
 
-def _get_bank(country_code: str, bank_code: str, include_closed: bool = False) -> Bank | None:
-    banks = registry.get_banks_by_code(country_code, bank_code, include_closed)
+def _get_bank(country_code: str, bank_code: str) -> Bank | None:
+    banks = registry.get_banks_by_code(country_code, bank_code)
     if not banks:
         return None
     # A national registry lists one record per branch, so a bank code can map to
-    # several entries. The registry flags the institution's own record with
-    # ``primary``; prefer it so that ``bank`` and ``bic`` describe the same
+    # several entries. Prefer the record that ranks highest, i.e. an active one and the
+    # institution's own record among those, so that ``bank`` and ``bic`` describe the same
     # institution, the way ``BIC.candidates_from_bank_code`` already does.
-    return max(banks, key=lambda bank: bank.primary)
+    return max(banks, key=lookup_rank)
 
 
 def _get_random_bank(country_code: str, random: Random) -> Bank | None:
-    banks = [bank for bank in registry.get_banks_by_country(country_code) if not bank.retired]
+    # Random BBANs should look like current ones, so retired bank codes are never picked.
+    banks = [
+        bank
+        for bank in registry.get_banks_by_country(country_code)
+        if bank.status is BankStatus.ACTIVE
+    ]
     return random.choice(banks) if banks else None
 
 
@@ -214,7 +221,7 @@ class BBAN(common.Base):
             lookup_key = "".join(
                 values[component][: spec.positions[component].length] for component in lookup_by
             )
-            bank = _get_bank(country_code, lookup_key, include_closed=True)
+            bank = _get_bank(country_code, lookup_key)
         else:
             bank = _get_random_bank(country_code, random) if use_registry else None
 
@@ -274,12 +281,7 @@ class BBAN(common.Base):
                 # Generating a value is not a validation request: where the national
                 # checksum cannot be verified there is nothing to retry for and nothing to
                 # report, so the check (and the warning it would emit) is left out.
-                if (
-                    _get_national_checksum_algorithm(
-                        bban.country_code, bban.get_bank(include_closed=True)
-                    )
-                    is not None
-                ):
+                if _get_national_checksum_algorithm(bban.country_code, bban.bank) is not None:
                     bban.validate_national_checksum()
             except exceptions.SchwiftyException:
                 continue
@@ -300,10 +302,7 @@ class BBAN(common.Base):
             with ``warnings.simplefilter("error", NationalChecksumNotVerified)`` to fail
             instead of passing.
         """
-        # The account codes of a closed bank are still checked with the bank's own method.
-        algo = _get_national_checksum_algorithm(
-            self.country_code, self.get_bank(include_closed=True)
-        )
+        algo = _get_national_checksum_algorithm(self.country_code, self.bank)
         if algo is None:
             position = self.spec.positions.get(Component.NATIONAL_CHECKSUM_DIGITS) or Range(0, 0)
             if not position.is_empty:
@@ -408,26 +407,8 @@ class BBAN(common.Base):
 
     @property
     def bank(self) -> Bank | None:
-        """Bank | None: The information of bank related to this BBANs bank code.
-
-        Closed banks are left out, see :meth:`get_bank`.
-        """
-        return self.get_bank()
-
-    def get_bank(self, include_closed: bool = False) -> Bank | None:
-        """Look up the bank related to this BBANs bank code.
-
-        A bank code that is no longer in use is marked as :attr:`.Bank.retired`. If the bank
-        was merged, the successor bank is returned. If it was closed without a successor, it is
-        only returned when ``include_closed`` is set, since no payments can be made to it.
-
-        Args:
-            include_closed (bool): Also return banks that were closed without a successor.
-
-        Returns:
-            Bank | None: The bank or ``None`` if the bank code is not in the registry.
-        """
-        return _get_bank(self.country_code, self._bank_lookup_key, include_closed)
+        """Bank | None: The information of bank related to this BBANs bank code."""
+        return _get_bank(self.country_code, self._bank_lookup_key)
 
     @property
     def bank_name(self) -> str | None:

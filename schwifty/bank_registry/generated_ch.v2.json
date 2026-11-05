@@ -284,7 +284,7 @@
       "bic": "UBSWCHZH80A",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "30005",
       "bank_codes": [
         "31000",
@@ -298,7 +298,7 @@
       "bic": "UBSWCHZH80A",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "00230",
       "bank_codes": [
         "04835",
@@ -982,7 +982,7 @@
       "bic": "AGRICHGGXXX",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "08741",
       "bank_codes": [
         "08737"
@@ -1806,7 +1806,7 @@
       "bic": "BPPBCHGGXXX",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "08686",
       "bank_codes": [
         "08792"
@@ -2527,7 +2527,7 @@
       "bic": "UBPGCHGGXXX",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "30248",
       "bank_codes": [
         "30236"
@@ -2539,7 +2539,7 @@
       "bic": "UBPGCHGGXXX",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "08657",
       "bank_codes": [
         "08582"
@@ -2661,7 +2661,7 @@
       "bic": "GONECHGGXXX",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "30261",
       "bank_codes": [
         "30187"
@@ -2673,7 +2673,7 @@
       "bic": "GONECHGGXXX",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "08721",
       "bank_codes": [
         "08246"
@@ -3884,7 +3884,7 @@
       "bic": "RAIFCH22187",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "80187",
       "bank_codes": [
         "80215"
@@ -3956,7 +3956,7 @@
       "bic": "RAIFCH22283",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "80283",
       "bank_codes": [
         "80366"
@@ -4118,7 +4118,7 @@
       "bic": "RAIFCH22430",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "80430",
       "bank_codes": [
         "80447"
@@ -4370,7 +4370,7 @@
       "bic": "RAIFCH22626",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "80626",
       "bank_codes": [
         "80627"
@@ -4512,7 +4512,7 @@
       "bic": "RAIFCH22719",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "80719",
       "bank_codes": [
         "80673",
@@ -4765,7 +4765,7 @@
       "bic": "RAIFCH22862",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "80862",
       "bank_codes": [
         "80833"
@@ -4787,7 +4787,7 @@
       "bic": "RAIFCH22867",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "80867",
       "bank_codes": [
         "80811"
@@ -4809,7 +4809,7 @@
       "bic": "RAIFCH22875",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "80875",
       "bank_codes": [
         "80882",
@@ -4852,7 +4852,7 @@
       "bic": "RAIFCH22905",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "80905",
       "bank_codes": [
         "80901"
@@ -4944,7 +4944,7 @@
       "bic": "RAIFCH22962",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "80962",
       "bank_codes": [
         "80930"
@@ -5406,7 +5406,7 @@
       "bic": "RAIFCH22C91",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "81291",
       "bank_codes": [
         "81289"
@@ -5798,7 +5798,7 @@
       "bic": "RAIFCH22E56",
       "country_code": "CH",
       "primary": false,
-      "retired": true,
+      "status": "merged",
       "successor_bank_code": "81456",
       "bank_codes": [
         "81460"

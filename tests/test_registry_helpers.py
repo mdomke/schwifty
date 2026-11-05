@@ -8,6 +8,7 @@ import pytest
 from schwifty import exceptions
 from schwifty import registry
 from schwifty.domain import Bank
+from schwifty.domain import BankStatus
 from schwifty.domain import Component
 from schwifty.domain import IBANSpec
 from schwifty.domain import Range
@@ -172,6 +173,9 @@ def test_bank_defaults() -> None:
     assert bank.short_name is None
     assert bank.primary is False
     assert bank.checksum_algo == "default"
+    assert bank.status is BankStatus.ACTIVE
+    assert bank.successor_bank_code is None
+    assert bank.legacy_name is None
 
 
 def test_bank_dict_style_access_is_deprecated() -> None:

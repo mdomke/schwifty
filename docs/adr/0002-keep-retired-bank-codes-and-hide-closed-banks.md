@@ -4,7 +4,8 @@ Date: 2026-10-30
 
 ## Status
 
-Accepted
+Accepted. The `retired` flag and the hiding of closed banks are superseded by
+[ADR 3](0003-record-the-status-of-bank-codes.md).
 
 ## Context
 
