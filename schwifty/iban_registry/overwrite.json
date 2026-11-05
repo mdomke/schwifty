@@ -1160,5 +1160,17 @@
         23
       ]
     }
+  },
+  "XK": {
+    "positions": {
+      "account_code": [
+        4,
+        14
+      ],
+      "national_checksum_digits": [
+        14,
+        16
+      ]
+    }
   }
 }

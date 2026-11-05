@@ -66,6 +66,7 @@ def test_registered_non_german_algorithms() -> None:
         "SM",
         "TL",
         "TN",
+        "XK",
     }
     registered = {key.split(":")[0] for key in algorithms if not key.startswith("DE")}
     assert registered == expected
