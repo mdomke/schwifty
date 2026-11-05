@@ -17,8 +17,8 @@ Gotta get schwifty with your IBANs
 
 .. teaser-begin
 
-``schwifty`` is a Python library that let's you easily work with IBANs and BICs
-as specified by the ISO. IBAN is the Internation Bank Account Number and BIC
+``schwifty`` is a Python library that lets you easily work with IBANs and BICs
+as specified by the ISO. IBAN is the International Bank Account Number and BIC
 the Business Identifier Code. Both are used for international money transfer.
 
 Features
@@ -27,17 +27,22 @@ Features
 ``schwifty`` lets you
 
 * `validate`_ check-digits and the country specific format of IBANs
+* `validate`_ the national check digits of the BBAN for more than 20 countries
 * `validate`_ format and country codes from BICs
 * `generate`_ BICs from country and bank-code
 * `generate`_ IBANs from country-code, bank-code and account-number.
 * `generate`_ random valid IBANs
-* get the BIC associated to an IBAN's bank-code
+* look up the bank and BIC of an IBAN's bank-code in registries for 47 countries, generated from
+  the official sources where they are available
+* identify `retired bank codes`_ that IBANs in circulation still carry, and tell whether their
+  bank merged into another one or closed
 * access all relevant components as attributes
 
-See the `docs <https://schwifty.readthedocs.io>`_ for more inforamtion.
+See the `docs <https://schwifty.readthedocs.io>`_ for more information.
 
 .. _validate: https://schwifty.readthedocs.io/en/latest/examples.html#validation
 .. _generate: https://schwifty.readthedocs.io/en/latest/examples.html#generation
+.. _retired bank codes: https://schwifty.readthedocs.io/en/latest/examples.html#retired-bank-codes
 
 .. teaser-end
 

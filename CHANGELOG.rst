@@ -5,8 +5,8 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
-Unreleased
-----------
+`2026.11.0`_ - 2026/11/05
+-------------------------
 Added
 ~~~~~
 * Added ``BIC.canonical``, the canonical form of a BIC: ISO 9362 treats a BIC without branch code
@@ -26,40 +26,45 @@ Added
   validated with their own checksum method, and :meth:`.IBAN.random` no longer picks retired bank
   codes.
 * Added the German checksum method ``48``, used by seven Volksbanken such as Volksbank
-  Raiffeisenbank (bank code ``20190109``). It works like method ``06`` over positions 3 to 8,
-  with the check digit at position 9. Account codes for these banks were not checked before.
+  Raiffeisenbank (bank code ``20190109``). It works like method ``06`` over positions 3 to 8, with
+  the check digit at position 9. Account codes for these banks were not checked before (#341)
+  `@LuisFigueroaG <https://github.com/LuisFigueroaG>`_.
 * Added the German checksum method ``50``, used by four banks such as Edekabank (bank code
-  ``20090700``). It works like method ``06`` over positions 1 to 6, with the check digit at
-  position 7. Account codes without the sub-account ``000`` are shifted three positions to the
-  left and checked again. Account codes for these banks were not checked before.
+  ``20090700``). It works like method ``06`` over positions 1 to 6, with the check digit at position
+  7. Account codes without the sub-account ``000`` are shifted three positions to the left and
+  checked again. Account codes for these banks were not checked before (#342) `@LuisFigueroaG
+  <https://github.com/LuisFigueroaG>`_.
 * Added the German checksum methods ``46`` and ``47``, used by Barclays Bank Ireland Frankfurt
   Branch (bank code ``50310400``) and Volksbank Weserbergland (bank code ``27290087``). Both work
   like method ``06``, method ``46`` over positions 3 to 7 with the check digit at position 8 and
   method ``47`` over positions 4 to 8 with the check digit at position 9. Account codes for these
-  banks were not checked before.
-* Added the German checksum methods ``40`` and ``44``. Method ``40`` is used by Volksbank
-  Rhein-Ruhr (bank code ``35060386``) and Volksbank Rheinböllen (bank code ``56062227``), method
-  ``44`` by DZ BANK (bank codes ``30060010``, ``40060000`` and ``57060000``). Both work like
-  method ``06`` with the weights 2, 4, 8, 5, 10, 9, 7, 3, 6 instead of 2 to 7: method ``40`` over
-  positions 1 to 9 and method ``44`` with the first five weights over positions 5 to 9. Account
-  codes for these banks were not checked before.
+  banks were not checked before (#343) `@LuisFigueroaG <https://github.com/LuisFigueroaG>`_.
+* Added the German checksum methods ``40`` and ``44``. Method ``40`` is used by Volksbank Rhein-Ruhr
+  (bank code ``35060386``) and Volksbank Rheinböllen (bank code ``56062227``), method ``44`` by DZ
+  BANK (bank codes ``30060010``, ``40060000`` and ``57060000``). Both work like method ``06`` with
+  the weights 2, 4, 8, 5, 10, 9, 7, 3, 6 instead of 2 to 7: method ``40`` over positions 1 to 9 and
+  method ``44`` with the first five weights over positions 5 to 9. Account codes for these banks
+  were not checked before (#345) `@LuisFigueroaG <https://github.com/LuisFigueroaG>`_.
 * Added the German checksum methods ``41``, ``42`` and ``43``, used by Openbank Deutschland (bank
   code ``25020600``), VR Bank im Enzkreis (bank code ``66661454``) and Volksbank Pforzheim (bank
   code ``66690000``). Method ``41`` works like method ``00``, but leaves out positions 1 to 3 if
-  position 4 is a 9. Method ``42`` works like method ``06`` with the weights 2 to 9 over positions
-  2 to 9. Method ``43`` is a modulus 10 method with the weights 1 to 9 over positions 1 to 9.
-  Account codes for these banks were not checked before.
+  position 4 is a 9. Method ``42`` works like method ``06`` with the weights 2 to 9 over positions 2
+  to 9. Method ``43`` is a modulus 10 method with the weights 1 to 9 over positions 1 to 9. Account
+  codes for these banks were not checked before (#347) `@LuisFigueroaG
+  <https://github.com/LuisFigueroaG>`_.
 * Added the German checksum methods ``31`` and ``49``. Method ``31`` is used by ABN AMRO Bank,
   Frankfurt Branch (bank code ``50324000``) and takes the remainder modulo 11 of positions 1 to 9,
   weighted 1 to 9 from left to right, as the check digit. A remainder of 10 makes the account code
   invalid. Method ``49`` is used by Kreissparkasse Steinfurt (bank code ``40351060``), Sparkasse
-  Nürnberg (bank code ``76050101``) and Stadt- u. Kreissparkasse Erlangen Höchstadt
-  Herzogenaurach (bank code ``76350000``). It checks with method ``00`` first and falls back to
-  method ``01``. Account codes for these banks were not checked before.
+  Nürnberg (bank code ``76050101``) and Stadt- u. Kreissparkasse Erlangen Höchstadt Herzogenaurach
+  (bank code ``76350000``). It checks with method ``00`` first and falls back to method ``01``.
+  Account codes for these banks were not checked before (#349) `@LuisFigueroaG
+  <https://github.com/LuisFigueroaG>`_.
 * Added the German checksum method ``A7``, used by Sparkasse Holstein (bank code ``21352240``),
   Sparkasse Gütersloh-Rietberg-Versmold (bank code ``47850065``) and Rheinhessen Sparkasse (bank
   code ``55350010``). It checks with method ``00`` first and falls back to method ``03``. Account
-  codes for these banks were not checked before.
+  codes for these banks were not checked before (#351) `@LuisFigueroaG
+  <https://github.com/LuisFigueroaG>`_.
 
 Changed
 ~~~~~~~
@@ -259,19 +264,23 @@ Fixed
   that share a BIC and name were grouped together and all took the flag of the first one. This
   marked 241 Austrian branch codes as primary and 86 head office codes as non-primary, and 212
   Swiss head office IIDs as non-primary.
-* The German checksum method ``76`` (used by Commerzbank vormals Dresdner Bank) no longer accepts
-  a check digit of 0 when the weighted sum leaves a remainder of 10 (e.g. ``0000005000``). The
-  remainder is the check digit itself, so there is none for a remainder of 10 and, according to
-  the Bundesbank specification, the account code cannot be checked. Account codes starting with
-  ``00`` are still checked without the sub-account number, with the check digit at position 10
-  (e.g. ``0000005009``).
-* The national check digits of Kosovo (``XK``) IBANs are now validated with ISO 7064 mod 97-10,
-  as specified by the Central Bank of Kosovo and already done for Bosnia and Herzegovina,
-  Montenegro, North Macedonia and Serbia. The last two digits of the BBAN used to be read as part
-  of the account code, so ``validate_bban=True`` accepted wrong check digits without a warning
-  (e.g. ``XK75 1212 0123 4567 8907``). :attr:`.IBAN.account_code` is now the 10-digit client
-  number and the check digits are available as :attr:`.IBAN.national_checksum_digits`.
-  :meth:`.IBAN.generate` now computes them as well.
+* The German checksum method ``76`` (used by Commerzbank vormals Dresdner Bank) no longer accepts a
+  check digit of 0 when the weighted sum leaves a remainder of 10 (e.g. ``0000005000``). The
+  remainder is the check digit itself, so there is none for a remainder of 10 and, according to the
+  Bundesbank specification, the account code cannot be checked. Account codes starting with ``00``
+  are still checked without the sub-account number, with the check digit at position 10 (e.g.
+  ``0000005009``) (#350) `@LuisFigueroaG <https://github.com/LuisFigueroaG>`_.
+* The German checksum method ``13`` (used by Commerzbank) now also accepts account numbers whose
+  sub-account number ``00`` was left out and that were padded with leading zeros instead (e.g.
+  ``0001234566``), as the Bundesbank specification recommends (#352) `@wavebyrd
+  <https://github.com/wavebyrd>`_.
+* The national check digits of Kosovo (``XK``) IBANs are now validated with ISO 7064 mod 97-10, as
+  specified by the Central Bank of Kosovo and already done for Bosnia and Herzegovina, Montenegro,
+  North Macedonia and Serbia. The last two digits of the BBAN used to be read as part of the account
+  code, so ``validate_bban=True`` accepted wrong check digits without a warning (e.g. ``XK75 1212
+  0123 4567 8907``). :attr:`.IBAN.account_code` is now the 10-digit client number and the check
+  digits are available as :attr:`.IBAN.national_checksum_digits`. :meth:`.IBAN.generate` now
+  computes them as well (#354) `@Enesuygurs <https://github.com/Enesuygurs>`_.
 
 `2026.10.1`_ - 2026/10/25
 -------------------------
@@ -342,9 +351,6 @@ Fixed
   account numbers whose sub-account number ``00`` was left out and that were padded with leading
   zeros instead, so the check digit sits at position 10 (e.g. ``0000123456``), as the Bundesbank
   specification requires (#330) `@wavebyrd <https://github.com/wavebyrd>`_.
-* The German checksum method ``13`` (used by Commerzbank) now also accepts account numbers whose
-  sub-account number ``00`` was left out and that were padded with leading zeros instead (e.g.
-  ``0001234566``), as the Bundesbank specification recommends.
 * The Swiss bank registry now includes the foreign-based banks that take part in Swiss payments
   (e.g. Deutsche Bank AG, Commerzbank AG, Citibank N.A., Sparkasse Hochrhein), so Swiss IBANs
   with their bank codes resolve to a bank and BIC. The generator used to drop every bank that
@@ -1331,6 +1337,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2026.11.0: https://github.com/mdomke/schwifty/compare/2026.10.1...2026.11.0
 .. _2026.10.1: https://github.com/mdomke/schwifty/compare/2026.10.0...2026.10.1
 .. _2026.10.0: https://github.com/mdomke/schwifty/compare/2026.07.3...2026.10.0
 .. _2026.07.3: https://github.com/mdomke/schwifty/compare/2026.07.2...2026.07.3
