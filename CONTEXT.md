@@ -49,8 +49,11 @@ The metadata representation of a specific bank branch, mapping national componen
 object; dict-style access to it is deprecated in favour of attribute access.
 
 A bank code can map to several bank records, e.g. one per branch or one per BIC. Lookups by bank
-code prefer records by their [status](#bank-status-status) first and by `primary` second (see
-[ADR 3](docs/adr/0003-record-the-status-of-bank-codes.md)).
+code (`IBAN.bank`, `IBAN.bic`, `BIC.from_bank_code`) all pick the same one of them: by their
+[status](#bank-status-status) first, then by how generic their BIC is, then by `primary` (see
+[ADR 3](docs/adr/0003-record-the-status-of-bank-codes.md)). A bank code can belong to several
+institutions, e.g. Revolut Ltd and Revolut Bank UK share the UK bank code `REVO`;
+`BIC.candidates_from_bank_code` lists all of them.
 
 ### Primary Record (`primary`)
 The bank record that represents a bank code among several records for that code: the head

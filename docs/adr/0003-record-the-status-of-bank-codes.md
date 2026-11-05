@@ -106,6 +106,18 @@ original meaning.
   Within each group, primary records come before non-primary ones, so among the active records
   the head office is still preferred over its branches. Records of retired bank codes still
   resolve, so existing IBANs keep their bank name and BIC.
+
+  *Amended 2026-11-03:* `IBAN.bank` and `IBAN.bic` used to pick their record differently, so that
+  the bank name and the BIC of an IBAN could describe different institutions (e.g. Revolut Bank
+  UK and Revolut Ltd, which share the UK bank code `REVO`). All lookups by bank code now pick the
+  same record, ranked by status, then by whether the record has a BIC, then by whether that BIC
+  denotes the institution's primary office, then by `primary`, and finally alphabetically by BIC.
+  ISO 9362 treats a BIC without branch code and the same BIC with the branch code `XXX` as
+  identical, so the registry normalizes the BIC of a primary office to that canonical
+  8-character form when it is loaded (`BIC.canonical`), whichever form a registry file stores. A
+  bank code can still legitimately belong to several institutions;
+  `BIC.candidates_from_bank_code` lists all of them in that order. Where they tie, the registry
+  has to mark the record that represents the bank code as `primary`.
 - **Registry files** only contain the new keys where they differ from the default. A missing
   `status` means `active`, so existing and manual registries stay valid without changes, and
   diffs stay small.

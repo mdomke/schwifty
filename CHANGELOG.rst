@@ -9,6 +9,11 @@ Unreleased
 ----------
 Added
 ~~~~~
+* Added ``BIC.canonical``, the canonical form of a BIC: ISO 9362 treats a BIC without branch code
+  and the same BIC with the branch code ``XXX`` as identical, so both have the 8-character form as
+  canonical form, e.g. ``BIC("REVOGB21XXX").canonical == "REVOGB21"``.
+* Added ``BIC.banks``, the bank records of a BIC in the registry. ``BIC.exists``,
+  ``BIC.bank_names`` and the other lookups by BIC are based on it.
 * Bank codes that are no longer in use are now marked in the registry. ``Bank.status`` is a
   ``schwifty.domain.BankStatus`` of ``active``, ``merged``, ``closed`` or ``delisted``. A merged
   bank code names its successor as ``Bank.successor_bank_code`` where it is known, and takes on the
@@ -54,6 +59,13 @@ Added
 
 Changed
 ~~~~~~~
+* The BIC of an institution's primary office is always returned in its 8-character form, e.g.
+  ``IBAN("DE89370400440532013000").bic`` is now ``COBADEFF`` instead of ``COBADEFFXXX``. ISO 9362
+  treats both forms as identical, but the registries stored either of them depending on their
+  source, so that ``IBAN.bic`` and ``BIC.from_bank_code`` returned the 11-character form for about
+  8,400 bank codes, e.g. in Germany, Switzerland, Poland and the UK, and the 8-character form for
+  the others. ``BIC.exists`` and the lookups by BIC now accept both forms, e.g.
+  ``BIC("REVOGB21XXX").exists`` is ``True`` although the registry lists ``REVOGB21``.
 * Updated the Latvian bank registry from Latvijas Banka's current BIC list. It adds six payment
   service providers such as Indexo Banka (``IDXO``) and xpate (``SIAX``), and renames BlueOrange
   Bank to BlueOr Bank and LPB Bank to Magnetiq Bank. Banks that are no longer on the official
@@ -71,6 +83,14 @@ Changed
 
 Fixed
 ~~~~~
+* ``IBAN.bank`` and ``IBAN.bic`` always describe the same institution. They used to pick their
+  record differently when a bank code has several, so that e.g. the name of Revolut Bank UK came
+  with the BIC of Revolut Ltd, which share the UK bank code ``REVO``. All lookups by bank code now
+  rank the records by status, then by how generic their BIC is, then by ``primary``. This changes
+  ``IBAN.bank`` for about 130 bank codes, and the order of ``BIC.candidates_from_bank_code``, whose
+  first candidate is now the BIC that ``BIC.from_bank_code`` returns. Equivalent forms of a BIC rank
+  equally and are listed only once. The UK bank code ``REVO`` now resolves to Revolut Bank UK, which
+  holds Revolut's UK accounts since 2026, instead of Revolut Ltd.
 * ``BIC`` no longer rejects BICs of banks in Kosovo (e.g. ``RBKOXKPR``) with
   ``InvalidCountryCode``. SWIFT assigns them the code ``XK``, which is not part of ISO 3166-1 and
   therefore unknown to ``pycountry``, although ``IBAN`` already accepts it.

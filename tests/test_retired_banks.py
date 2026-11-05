@@ -13,7 +13,7 @@ from schwifty.exceptions import InvalidBBANChecksum
 # The Bundesbank deleted the bank code of Eurocity Bank without a successor; it uses checksum
 # method 16.
 CLOSED_BANK_CODE = "10030700"
-CLOSED_BIC = "DLGHDEB1XXX"
+CLOSED_BIC = "DLGHDEB1"
 
 
 def test_closed_bank_is_returned_with_its_status() -> None:

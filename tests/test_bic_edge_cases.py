@@ -28,10 +28,13 @@ def test_bic_swift_compliance_for_eight_character_codes() -> None:
 
 def test_bic_candidates_from_bank_code() -> None:
     candidates = BIC.candidates_from_bank_code("FR", "30004")
-    assert len(candidates) == 23
+    # BNPAFRPP and the equivalent BNPAFRPPXXX are listed once.
+    assert len(candidates) == 22
+    assert "BNPAFRPPXXX" not in candidates
     assert all(isinstance(candidate, BIC) for candidate in candidates)
-    # Candidates are sorted with the registry's primary records first.
-    assert candidates[0] == "BNPAFRPPIFN"
+    # Candidates are sorted by rank, so the first one is the BIC that ``from_bank_code`` picks.
+    assert candidates[0] == "BNPAFRPP"
+    assert candidates[0] == BIC.from_bank_code("FR", "30004")
 
 
 def test_bic_from_bank_code_prefers_the_generic_code() -> None:

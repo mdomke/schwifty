@@ -19,6 +19,7 @@ except ImportError:
 from schwifty import exceptions
 from schwifty.domain import Bank
 from schwifty.domain import BankStatus
+from schwifty.domain import canonical_bic
 from schwifty.domain import Component
 from schwifty.domain import IBANSpec
 from schwifty.domain import Range
@@ -191,7 +192,9 @@ class Registry:
             return data
         return Bank(
             country_code=data["country_code"],
-            bic=data["bic"],
+            # Registries store the BIC of a primary office with or without the branch code "XXX",
+            # which ISO 9362 treats as identical. Banks carry the canonical 8-character form.
+            bic=canonical_bic(data["bic"]) if data["bic"] else data["bic"],
             bank_code=data["bank_code"],
             name=data["name"],
             short_name=data.get("short_name"),
@@ -200,7 +203,7 @@ class Registry:
             status=BankStatus(data.get("status", BankStatus.ACTIVE)),
             successor_bank_code=data.get("successor_bank_code"),
             legacy_name=data.get("legacy_name"),
-            legacy_bic=data.get("legacy_bic"),
+            legacy_bic=canonical_bic(data["legacy_bic"]) if data.get("legacy_bic") else None,
         )
 
     def get_banks_by_country(self, country_code: str) -> list[Bank]:
@@ -211,8 +214,9 @@ class Registry:
 
     def get_banks_by_bic(self, bic: str) -> list[Bank]:
         # Only the registry of the BIC's own country is searched, so that a lookup doesn't
-        # require loading the banks of all countries.
-        return self._get_country_banks(bic[4:6].upper()).by_bic.get(bic, [])
+        # require loading the banks of all countries. Banks are indexed by the canonical form of
+        # their BIC, so that e.g. REVOGB21 and REVOGB21XXX find the same banks.
+        return self._get_country_banks(bic[4:6].upper()).by_bic.get(canonical_bic(bic), [])
 
     def get_countries(self) -> list[str]:
         return list(self._bank_files())

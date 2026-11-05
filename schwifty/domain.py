@@ -138,10 +138,30 @@ _STATUS_RANK = {
 }
 
 
-def lookup_rank(bank: Bank) -> tuple[int, bool]:
+def canonical_bic(bic: str) -> str:
+    """Return the canonical form of ``bic``, see :attr:`schwifty.BIC.canonical`."""
+    return bic[:8] if bic[8:] in ("", "XXX") else bic
+
+
+def lookup_rank(bank: Bank) -> tuple[int, bool, bool, bool, str]:
     """Rank the records of a bank code for lookups, the best one being the highest.
 
-    Records are ranked by their status first and by ``primary`` second, so that an active
-    branch is preferred over a retired head office.
+    All lookups by bank code (``IBAN.bank``, ``IBAN.bic``, ``BIC.from_bank_code`` and the order
+    of ``BIC.candidates_from_bank_code``) pick the highest ranked record, so that they always
+    describe the same institution. Records are ranked by
+
+    1. their status, so that an active branch is preferred over a retired head office,
+    2. whether they have a BIC at all,
+    3. whether their BIC is the one of the institution's primary office, i.e. has no branch code
+       or the branch code "XXX", which ISO 9362 treats as identical,
+    4. ``primary``, and
+    5. the canonical form of their BIC, as a stable tie-break.
     """
-    return _STATUS_RANK[bank.status], bank.primary
+    bic = canonical_bic(bank.bic) if bank.bic else ""
+    return (
+        _STATUS_RANK[bank.status],
+        bool(bic),
+        bool(bic) and len(bic) == 8,
+        bank.primary,
+        bic,
+    )

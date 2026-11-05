@@ -1013,7 +1013,7 @@
     "bank_code": "10268",
     "name": "CREDIT DU NORD",
     "short_name": "CREDIT DU NORD",
-    "primary": true
+    "primary": false
   },
   {
     "country_code": "FR",
@@ -1613,7 +1613,7 @@
     "bank_code": "10278",
     "name": "BANQUE FEDERATIVE DU CREDIT MUTUEL",
     "short_name": "BANQUE FEDERATIVE DU CREDIT MUTUEL",
-    "primary": true
+    "primary": false
   },
   {
     "country_code": "FR",
