@@ -81,7 +81,7 @@ def test_iban_download_bytes():
 
 
 def test_gleif_download_url() -> None:
-    script = load_script("get_bank_registry_gb")
+    script = load_script("gleif")
     files = {
         "data": [
             {
@@ -121,7 +121,7 @@ def test_gleif_download_url() -> None:
     ],
 )
 def test_gleif_primary_bic(bics: list[str], primary: list[str]) -> None:
-    script = load_script("get_bank_registry_gb")
+    script = load_script("gleif")
     assert [bic for bic in bics if script.is_primary(bic, bics)] == primary
 
 

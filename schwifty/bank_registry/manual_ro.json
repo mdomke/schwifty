@@ -1,10 +1,42 @@
 [
   {
     "country_code": "RO",
-    "bic": "REVOROBB",
-    "bank_code": "REVO",
-    "name": "REVOLUT BANK UAB VILNIUS SUCURSALA BUCURESTI",
-    "short_name": "REVOLUT",
+    "bic": "NBORROBU",
+    "bank_code": "NBOR",
+    "name": "NATIONAL BANK OF ROMANIA",
+    "short_name": "NATIONAL BANK OF ROMANIA",
+    "primary": true
+  },
+  {
+    "country_code": "RO",
+    "bic": "NBORROBP",
+    "bank_code": "NBOR",
+    "name": "NATIONAL BANK OF ROMANIA",
+    "short_name": "NATIONAL BANK OF ROMANIA",
+    "primary": false
+  },
+  {
+    "country_code": "RO",
+    "bic": "NBORROBS",
+    "bank_code": "NBOR",
+    "name": "NATIONAL BANK OF ROMANIA",
+    "short_name": "NATIONAL BANK OF ROMANIA",
+    "primary": false
+  },
+  {
+    "country_code": "RO",
+    "bic": "TREZROBU",
+    "bank_code": "TREZ",
+    "name": "MINISTRY OF PUBLIC FINANCE",
+    "short_name": "MINISTRY OF PUBLIC FINANCE",
+    "primary": true
+  },
+  {
+    "country_code": "RO",
+    "bic": "TRFDROBU",
+    "bank_code": "TRFD",
+    "name": "TRANSFOND S.A.",
+    "short_name": "TRANSFOND S.A.",
     "primary": true
   }
 ]

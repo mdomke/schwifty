@@ -41,14 +41,6 @@
   },
   {
     "country_code": "GB",
-    "bic": "PRTCGB21",
-    "bank_code": "PRTC",
-    "name": "PREPAY TECHNOLOGIES LIMITED",
-    "short_name": "PREPAY TECHNOLOGIES LIMITED",
-    "primary": true
-  },
-  {
-    "country_code": "GB",
     "bic": "DEUTGB2LXXX",
     "bank_code": "DEUT",
     "name": "DEUTSCHE BANK AG",
@@ -105,22 +97,6 @@
   },
   {
     "country_code": "GB",
-    "bic": "REVOGB21XXX",
-    "bank_code": "REVO",
-    "name": "REVOLUT LTD",
-    "short_name": "REVOLUT LTD",
-    "primary": true
-  },
-  {
-    "country_code": "GB",
-    "bic": "FTSBGB2L",
-    "bank_code": "FTSB",
-    "name": "ABN AMRO BANK N.V. UK BRANCH (FORMELY KNOWN AS FORTIS BANK (NEDERLAND) N.V. LONDON)",
-    "short_name": "ABN AMRO BANK ",
-    "primary": true
-  },
-  {
-    "country_code": "GB",
     "bic": "BOFAGB22",
     "bank_code": "BOFA",
     "name": "BANK OF AMERICA, N.A. LONDON",
@@ -137,14 +113,6 @@
   },
   {
     "country_code": "GB",
-    "bic": "BUKBGB22",
-    "bank_code": "BUKB",
-    "name": "BARCLAYS BANK UK PLC",
-    "short_name": "BARCLAYS BANK UK PLC",
-    "primary": true
-  },
-  {
-    "country_code": "GB",
     "bic": "NWBKGB2LXXX",
     "bank_code": "NWBK",
     "name": "NATIONAL WESTMINSTER BANK PUBLIC LIMITED COMPANY",
@@ -157,7 +125,7 @@
     "bank_code": "REVO",
     "name": "REVOLUT LTD",
     "short_name": "REVOLUT LTD",
-    "primary": true
+    "primary": false
   },
   {
     "country_code": "GB",
@@ -181,7 +149,8 @@
     "bank_code": "EPMT",
     "name": "EPAYMENTS SYSTEMS LIMITED",
     "short_name": "EPAYMENTS SYSTEMS LIMITED",
-    "primary": true
+    "primary": true,
+    "status": "closed"
   },
   {
     "country_code": "GB",
@@ -189,14 +158,6 @@
     "bank_code": "CHAS",
     "name": "JPMORGAN CHASE BANK, N.A",
     "short_name": "JPMORGAN CHASE BANK, N.A",
-    "primary": true
-  },
-  {
-    "country_code": "GB",
-    "bic": "MYMBGB2L",
-    "bank_code": "MYMB",
-    "name": "METRO BANK PLC",
-    "short_name": "METRO BANK PLC",
     "primary": true
   },
   {
@@ -225,14 +186,6 @@
   },
   {
     "country_code": "GB",
-    "bic": "SAPYGB2L",
-    "bank_code": "SAPY",
-    "name": "BANKING CIRCLE S.A. UK Branch",
-    "short_name": "BANKING CIRCLE",
-    "primary": true
-  },
-  {
-    "country_code": "GB",
     "bic": "YORKGB22XXX",
     "bank_code": "YORK",
     "name": "VIRGIN MONEY (31 CLYDESDALE BANK)",
@@ -249,15 +202,7 @@
   },
   {
     "country_code": "GB",
-    "bic": "CLRBGB22",
-    "bank_code": "CLRB",
-    "name": "CLEARBANK LIMITED",
-    "short_name": "CLEARBANK",
-    "primary": true
-  },
-  {
-    "country_code": "GB",
-    "bic": "BIYSGB2L",
+    "bic": "BIYSGB2AXXX",
     "bank_code": "BIYS",
     "name": "BILDERLINGS PAY LIMITED",
     "short_name": "BILDERLINGS PAY",

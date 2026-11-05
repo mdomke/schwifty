@@ -1,38 +1,26 @@
-import httpx2
-from bs4 import BeautifulSoup
-
+#!/usr/bin/env python
+from scripts.gleif import get_registry
 from scripts.output import write_json
+from scripts.retired import load_previous
+from scripts.retired import merge
 
 
-BANK_CODES_URL = "https://internationalmoneytransfers.org/romania-swift-codes/"
+OUTPUT = "schwifty/bank_registry/generated_ro.json"
+MIN_RECORDS = 30
 
 
 def process():
-    yielded_bic_codes = set()
-    response = httpx2.get(BANK_CODES_URL, follow_redirects=True, timeout=None)
-    soup = BeautifulSoup(response.content, "html.parser")
-
-    for table_row in soup.select("#tablepress-269 tr"):
-        bic_code = None
-        bank_name = None
-
-        for col_i, col in enumerate(table_row.select("td")):
-            if col_i == 1:
-                bank_name = str(col.text)
-            elif col_i == 3:
-                bic_code = str(col.text)[:8]
-
-        if bic_code and bic_code not in yielded_bic_codes:
-            yielded_bic_codes.add(bic_code)
-            yield {
-                "country_code": "RO",
-                "primary": True,
-                "bic": bic_code,
-                "bank_code": bic_code[:4],
-                "name": bank_name,
-                "short_name": bank_name,
-            }
+    # The bank code of a Romanian IBAN is the institution code of the bank's BIC, like in the UK.
+    # Institutions that GLEIF lacks, such as the National Bank and the Treasury, are maintained in
+    # the manual registry.
+    registry = get_registry("RO")
+    if len(registry) < MIN_RECORDS:
+        raise ValueError(f"Only {len(registry)} records parsed, the mapping may have changed")
+    return registry
 
 
 if __name__ == "__main__":
-    write_json("schwifty/bank_registry/generated_ro.json", list(process()), indent=2)
+    # GLEIF drops the BICs of entities that are no longer active from its mapping, so the previous
+    # registry is the only source for their bank codes. Read it before replacing it.
+    data = merge(process(), load_previous(OUTPUT))
+    write_json(OUTPUT, data, indent=2)

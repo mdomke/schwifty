@@ -81,6 +81,8 @@ Changed
   before. Banks that
   disappear from iban.es are kept, which restores Revolut Bank (``1583``) and Banco de
   Castilla-La Mancha (``0115``), and banks that iban.es lists twice are only included once.
+* Updated the UK bank registry from GLEIF's current BIC-to-LEI mapping. Bank codes whose BICs GLEIF
+  no longer maps, such as Swedbank (``SWED``), are now kept, so that existing IBANs still resolve.
 * The Italian bank registry is now generated from Banca d'Italia's registers of banks, e-money
   institutions and payment institutions, with BICs from GLEIF's BIC-to-LEI mapping. It now covers
   all 465 active institutions instead of 215, and names banks as Banca d'Italia does. Several BICs
@@ -90,11 +92,23 @@ Changed
   Banco di Napoli (``01010``) into Intesa Sanpaolo, or continued under a new bank code, e.g.
   UniCredit, and 418 of them resolve to the name and BIC of the institution that services their bank
   code today, 101 were closed, e.g. by liquidation, and 50 ceased for another reason.
+* The Romanian bank registry is now generated from GLEIF's BIC-to-LEI mapping, like the UK registry,
+  since the website it was scraped from no longer lists the banks. It contains 76 active
+  institutions instead of 46 banks from 2022, among them Salt Bank and TechVentures Bank. The
+  National Bank, the Treasury and TransFonD, which GLEIF lacks, are maintained in the manual
+  registry. Banks that are no longer active, such as OTP Bank Romania and Alpha Bank Romania, are
+  kept so that existing IBANs still resolve. The manual entry of Revolut, which GLEIF
+  provides as well, is removed.
 * Removed 104 entries from the manual Italian registry that duplicate the generated one, or
   contradict it with outdated data. Italian banks now resolve to their current BIC, e.g. Fineco
   (``FEBIITM2``) and Isybank (``ISYBITMM``), and banks that have ceased, such as Banca Popolare
   di Vicenza, are no longer reported as active. The manual registry keeps the entries that add a
   BIC the generated registry lacks.
+* Removed six entries from the manual UK registry that GLEIF provides as well, such as Barclays
+  Bank UK (``BUKB``) and ClearBank (``CLRB``). The duplicate entry of Revolut Ltd is removed as
+  well, Bilderlings Pay (``BIYS``) resolves to its BIC ``BIYSGB2A``,
+  and ePayments Systems (``EPMT``) is marked as closed, since it has been in special
+  administration since October 2026.
 * German bank codes of merged banks now resolve to the successor bank, e.g. ``13061088``
   (Raiffeisenbank Wismar) to Volks- und Raiffeisenbank, while account codes are still checked with
   the checksum method of the original bank. This applies as soon as the Bundesbank announces the
