@@ -268,6 +268,16 @@ class Algorithm13(Algorithm00):
     positions = Positions(start=2, end=7, check_digit=8)
     weights: ClassVar[list[int]] = [2, 1]
 
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        account_code = validate_account_code(components[0])
+        if super().validate(components, expected):
+            return True
+        # The sub-account number "00" may be omitted, which moves the check digit to position 10.
+        if account_code.startswith("00"):
+            return super().validate([account_code[2:] + "00"], expected)
+        return False
+
 
 @register
 class Algorithm14(Algorithm02):

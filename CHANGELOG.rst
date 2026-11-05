@@ -156,6 +156,9 @@ Fixed
   account numbers whose sub-account number ``00`` was left out and that were padded with leading
   zeros instead, so the check digit sits at position 10 (e.g. ``0000123456``), as the Bundesbank
   specification requires (#330) `@wavebyrd <https://github.com/wavebyrd>`_.
+* The German checksum method ``13`` (used by Commerzbank) now also accepts account numbers whose
+  sub-account number ``00`` was left out and that were padded with leading zeros instead (e.g.
+  ``0001234566``), as the Bundesbank specification recommends.
 * The Swiss bank registry now includes the foreign-based banks that take part in Swiss payments
   (e.g. Deutsche Bank AG, Commerzbank AG, Citibank N.A., Sparkasse Hochrhein), so Swiss IBANs
   with their bank codes resolve to a bank and BIC. The generator used to drop every bank that
