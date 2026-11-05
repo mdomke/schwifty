@@ -71,7 +71,7 @@ def test_lookups_only_load_the_requested_country(monkeypatch: pytest.MonkeyPatch
     fresh = registry.Registry()
     monkeypatch.setattr(registry, "_default_registry", fresh)
 
-    assert IBAN("DE89370400440532013000").bic == "COBADEFFXXX"
+    assert IBAN("DE89370400440532013000").bic == "COBADEFF"
     assert set(fresh._banks) == {"DE"}
 
     assert BIC("POFICHBEXXX").bank_names

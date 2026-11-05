@@ -2,4442 +2,4871 @@
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0241",
     "bic": "PRDVESM1",
+    "bank_code": "0241",
     "name": "A&G BANCA PRIVADA, S.A.",
     "short_name": "A&G BANCA PRIVA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2080",
     "bic": "CAGLESMM",
+    "bank_code": "2080",
     "name": "ABANCA CORPORACION BANCARIA, S.A.",
     "short_name": "ABANCA CORPORAC"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BSABESBB",
     "bank_code": "0209",
-    "bic": "BSABESBB",
     "name": "ABBEY NATIONAL BANK, S.A.E.",
-    "short_name": "ABBEY NATIONAL"
+    "short_name": "ABBEY NATIONAL",
+    "status": "merged",
+    "successor_bank_code": "2090"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0230",
     "bic": "BSABESBB",
+    "bank_code": "0230",
     "name": "ACTIVOBANK, S.A.",
-    "short_name": "ACTIVOBANK"
+    "short_name": "ACTIVOBANK",
+    "status": "merged",
+    "successor_bank_code": "0081"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0011",
     "bic": "ALLFESMM",
+    "bank_code": "0011",
     "name": "ALLFUNDS BANK, S.A.",
     "short_name": "ALLFUNDS BANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0074",
     "bic": "",
+    "bank_code": "0074",
     "name": "AMBANCA AGRUPACIO MUTUA, S.A.",
-    "short_name": "AMBANCA"
+    "short_name": "AMBANCA",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1544",
     "bic": "BACAESMM",
+    "bank_code": "1544",
     "name": "ANDBANK ESPA\u00d1A, S.A.",
     "short_name": "ANDBANK S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0136",
     "bic": "AREBESMM",
+    "bank_code": "0136",
     "name": "ARESBANK, S.A.",
     "short_name": "ARESBANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1302",
     "bic": "BBVAESMM",
+    "bank_code": "1302",
     "name": "ARGENTARIA, CAJA POSTAL Y BANCO HIPOTECARIO, S.A.",
     "short_name": "ARGENTARIA"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BBVAESMM",
     "bank_code": "0068",
-    "bic": "BBVAESMM",
     "name": "B.G.F. BANCO DE GESTION FINANCIERA, S.A.",
-    "short_name": "B.G.F."
+    "short_name": "B.G.F.",
+    "status": "merged",
+    "successor_bank_code": "0202"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0015",
     "bic": "BBVAESMM",
+    "bank_code": "0015",
     "name": "BANCA CATALANA, S.A.",
-    "short_name": "BANCA CATALANA"
+    "short_name": "BANCA CATALANA",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0490",
     "bic": "CAIXESBB",
+    "bank_code": "0490",
     "name": "BANCA CIVICA, S.A.",
-    "short_name": "BANCA CIVICA,SA"
+    "short_name": "BANCA CIVICA,SA",
+    "status": "merged",
+    "successor_bank_code": "2100"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0193",
     "bic": "",
+    "bank_code": "0193",
     "name": "BANCA FINESOR, S.A.",
-    "short_name": "B. FINESOR"
+    "short_name": "B. FINESOR",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CAIXESBB",
     "bank_code": "0056",
-    "bic": "CAHMESMM",
-    "name": "BANCA JOVER, S.A.",
-    "short_name": "BANCA JOVER, SA"
+    "name": "CAIXABANK, S.A.",
+    "short_name": "CAIXABANK, S.A.",
+    "status": "merged",
+    "successor_bank_code": "2038",
+    "legacy_name": "BANCA JOVER, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0061",
     "bic": "BMARES2M",
+    "bank_code": "0061",
     "name": "BANCA MARCH, S.A.",
     "short_name": "BANCA MARCH"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0062",
     "bic": "BBVAESMM",
+    "bank_code": "0062",
     "name": "BANCA MAS SARDA, S.A.",
-    "short_name": "BA.MAS SARDA"
+    "short_name": "BA.MAS SARDA",
+    "status": "merged",
+    "successor_bank_code": "0015"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0078",
     "bic": "BAPUES22",
+    "bank_code": "0078",
     "name": "BANCA PUEYO, S.A.",
     "short_name": "BANCA PUEYO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0188",
     "bic": "ALCLESMM",
+    "bank_code": "0188",
     "name": "BANCO ALCALA, S.A.",
     "short_name": "BANCO ALCALA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0008",
     "bic": "BSABESBB",
+    "bank_code": "0008",
     "name": "BANCO ATLANTICO, S.A.",
-    "short_name": "BANCO ATLANTICO"
+    "short_name": "BANCO ATLANTICO",
+    "status": "merged",
+    "successor_bank_code": "0081"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0086",
     "bic": "NORTESMM",
+    "bank_code": "0086",
     "name": "BANCO BANIF, S.A.",
-    "short_name": "BANIF"
+    "short_name": "BANIF",
+    "status": "merged",
+    "successor_bank_code": "0049"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0182",
     "bic": "BBVAESMM",
+    "bank_code": "0182",
     "name": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
     "short_name": "BBVA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0130",
     "bic": "CGDIESMM",
+    "bank_code": "0130",
     "name": "BANCO CAIXA GERAL, S.A.",
     "short_name": "B. CAIXA GERAL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2090",
     "bic": "BSABESBB",
+    "bank_code": "2090",
     "name": "BANCO CAM, S.A.",
-    "short_name": "BANCO CAM, S.A."
+    "short_name": "BANCO CAM, S.A.",
+    "status": "merged",
+    "successor_bank_code": "0081"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0234",
     "bic": "CCOCESMM",
+    "bank_code": "0234",
     "name": "BANCO CAMINOS, S.A.",
     "short_name": "BANCO CAMINOS"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BSCHESMM",
     "bank_code": "0053",
-    "bic": "BSCHESMM",
     "name": "BANCO CENTRAL HISPANO HIPOTECARIO, S.A.",
-    "short_name": "C.HISP.HIPOTEC."
+    "short_name": "C.HISP.HIPOTEC.",
+    "status": "merged",
+    "successor_bank_code": "0224"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0016",
     "bic": "BSCHESMM",
+    "bank_code": "0016",
     "name": "BANCO CENTRAL HISPANOAMERICANO, S.A.",
-    "short_name": "CENTRAL HISPANO"
+    "short_name": "CENTRAL HISPANO",
+    "status": "merged",
+    "successor_bank_code": "0049"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0225",
     "bic": "FIEIESM1",
+    "bank_code": "0225",
     "name": "BANCO CETELEM, S.A.",
     "short_name": "BANCO CETELEM"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "UCJAES2M",
     "bank_code": "0029",
-    "bic": "CSSOES2S",
-    "name": "BANCO COMERCIAL ESPA\u00d1OL, S.A.",
-    "short_name": "COMERC.ESPA\u00d1"
+    "name": "UNICAJA BANCO, S.A.",
+    "short_name": "UNICAJA BANCO",
+    "status": "merged",
+    "successor_bank_code": "0208",
+    "legacy_name": "BANCO COMERCIAL ESPA\u00d1OL, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0021",
     "bic": "BCNDESM1",
+    "bank_code": "0021",
     "name": "BANCO CONDAL, S.A.",
-    "short_name": "BANCO CONDAL"
+    "short_name": "BANCO CONDAL",
+    "status": "merged",
+    "successor_bank_code": "0003"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0198",
     "bic": "BCOEESMM",
+    "bank_code": "0198",
     "name": "BANCO COOPERATIVO ESPA\u00d1OL, S.A.",
     "short_name": "COOPERATIVO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0192",
     "bic": "",
+    "bank_code": "0192",
     "name": "BANCO CREDIPAS, S.A.",
-    "short_name": "BANCO CREDIPAS"
+    "short_name": "BANCO CREDIPAS",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0091",
     "bic": "ALACESM1",
+    "bank_code": "0091",
     "name": "BANCO DE ALBACETE, S.A.",
     "short_name": "BANCO ALBACETE"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BBVAESMM",
     "bank_code": "0127",
-    "bic": "BBVAESMM",
     "name": "BANCO DE ALICANTE, S.A.",
-    "short_name": "BANCO ALICANTE"
+    "short_name": "BANCO ALICANTE",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BSCHESMM",
     "bank_code": "0004",
-    "bic": "POPUESMM",
-    "name": "BANCO DE ANDALUCIA, S.A.",
-    "short_name": "BANCO ANDALUCIA"
+    "name": "BANCO SANTANDER, S.A.",
+    "short_name": "SANTANDER",
+    "status": "merged",
+    "successor_bank_code": "0075",
+    "legacy_name": "BANCO DE ANDALUCIA, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0118",
     "bic": "BSABESBB",
+    "bank_code": "0118",
     "name": "BANCO DE ASTURIAS, S.A.",
-    "short_name": "BANCO ASTURIAS"
+    "short_name": "BANCO ASTURIAS",
+    "status": "merged",
+    "successor_bank_code": "0081"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BBVAESMM",
     "bank_code": "0010",
-    "bic": "BBVAESMM",
     "name": "BANCO DE BILBAO, S.A.",
-    "short_name": "B. BILBAO"
+    "short_name": "B. BILBAO",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "UCJAES2M",
     "bank_code": "2108",
-    "bic": "CSPAES2L108",
-    "name": "BANCO DE CAJA ESPA\u00d1A INVER. SALAMANCA Y SORIA,S.A.",
-    "short_name": "BANCO CEISS"
+    "name": "UNICAJA BANCO, S.A.",
+    "short_name": "UNICAJA BANCO",
+    "status": "merged",
+    "successor_bank_code": "2103",
+    "legacy_name": "BANCO DE CAJA ESPA\u00d1A INVER. SALAMANCA Y SORIA,S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BSCHESMM",
     "bank_code": "0082",
-    "bic": "POPUESMM",
-    "name": "BANCO DE CASTILLA, S.A.",
-    "short_name": "BANCO CASTILLA"
+    "name": "BANCO SANTANDER, S.A.",
+    "short_name": "SANTANDER",
+    "status": "merged",
+    "successor_bank_code": "0075",
+    "legacy_name": "BANCO DE CASTILLA, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2105",
-    "bic": "CECAESMM105",
+    "bic": "",
+    "bank_code": "0115",
     "name": "BANCO DE CASTILLA-LA MANCHA, S.A.",
-    "short_name": "BANCO DE CASTIL"
+    "short_name": "BANCO CLM"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BBVAESMM",
     "bank_code": "0020",
-    "bic": "BBVAESMM",
     "name": "BANCO DE COMERCIO, S.A.",
-    "short_name": "DE COMERCIO"
+    "short_name": "DE COMERCIO",
+    "status": "merged",
+    "successor_bank_code": "0050"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BBVAESMM",
     "bank_code": "1001",
-    "bic": "BBVAESMM",
     "name": "BANCO DE CREDITO AGRICOLA, S.A.",
-    "short_name": "CTO. AGRICOLA"
+    "short_name": "CTO. AGRICOLA",
+    "status": "merged",
+    "successor_bank_code": "1302"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BSCHESMM",
     "bank_code": "0024",
-    "bic": "POPUESMM",
-    "name": "BANCO DE CREDITO BALEAR, S.A.",
-    "short_name": "CREDITO BALEAR"
+    "name": "BANCO SANTANDER, S.A.",
+    "short_name": "SANTANDER",
+    "status": "merged",
+    "successor_bank_code": "0075",
+    "legacy_name": "BANCO DE CREDITO BALEAR, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BBVAESMM",
     "bank_code": "0045",
-    "bic": "BBVAESMM",
     "name": "BANCO DE CREDITO CANARIO, S.A. (CANARIBANK)",
-    "short_name": "CANARIBANK"
+    "short_name": "CANARIBANK",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1004",
     "bic": "BBVAESMM",
+    "bank_code": "1004",
     "name": "BANCO DE CREDITO LOCAL DE ESPA\u00d1A, S.A.",
-    "short_name": "BCL"
+    "short_name": "BCL",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0240",
     "bic": "BCCAESMM",
+    "bank_code": "0240",
     "name": "BANCO DE CREDITO SOCIAL COOPERATIVO, S.A.",
     "short_name": "B.CREDITO SOC."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0003",
     "bic": "BDEPESM1",
+    "bank_code": "0003",
     "name": "BANCO DE DEPOSITOS, S.A.",
     "short_name": "B. DEPOSITOS"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0089",
     "bic": "CGDIESMM",
+    "bank_code": "0089",
     "name": "BANCO DE EXTREMADURA, S.A.",
-    "short_name": "EXTREMADURA"
+    "short_name": "EXTREMADURA",
+    "status": "merged",
+    "successor_bank_code": "0130"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BSCHESMM",
     "bank_code": "0097",
-    "bic": "POPUESMM",
-    "name": "BANCO DE GALICIA, S.A.",
-    "short_name": "BANCO GALICIA"
+    "name": "BANCO SANTANDER, S.A.",
+    "short_name": "SANTANDER",
+    "status": "merged",
+    "successor_bank_code": "0075",
+    "legacy_name": "BANCO DE GALICIA, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0123",
     "bic": "",
+    "bank_code": "0123",
     "name": "BANCO DE HUELVA, S.A., EN LIQUIDACION",
-    "short_name": "BANCO DE HUELVA"
+    "short_name": "BANCO DE HUELVA",
+    "status": "delisted"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0040",
     "bic": "BFIVESBB",
+    "bank_code": "0040",
     "name": "BANCO DE INVERSION Y SERVICIOS FINANCIEROS, S.A.",
-    "short_name": "INVERSION S.F."
+    "short_name": "INVERSION S.F.",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CAIXESBB",
     "bank_code": "0041",
-    "bic": "CAIXESBB",
     "name": "BANCO DE JEREZ, S.A.",
-    "short_name": "BCO.DE JEREZ"
+    "short_name": "BCO.DE JEREZ",
+    "status": "merged",
+    "successor_bank_code": "0114"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BBVAESMM",
     "bank_code": "0124",
-    "bic": "BBVAESMM",
     "name": "BANCO DE LA EXPORTACION, S.A.",
-    "short_name": "EXPORTACION"
+    "short_name": "EXPORTACION",
+    "status": "merged",
+    "successor_bank_code": "2013"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CAIXESBB",
     "bank_code": "0142",
-    "bic": "CAIXESBB",
     "name": "BANCO DE LA PEQUE\u00d1A Y MEDIANA EMPRESA, S.A.",
-    "short_name": "BANKPIME"
+    "short_name": "BANKPIME",
+    "status": "merged",
+    "successor_bank_code": "2100"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0059",
     "bic": "MADRESMM",
+    "bank_code": "0059",
     "name": "BANCO DE MADRID, S.A. EN LIQUIDACION",
-    "short_name": "BANCO DE MADRID"
+    "short_name": "BANCO DE MADRID",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0069",
     "bic": "CAIXESBB",
+    "bank_code": "0069",
     "name": "BANCO DE MURCIA, S.A.",
-    "short_name": "BANCO DE MURCIA"
+    "short_name": "BANCO DE MURCIA",
+    "status": "merged",
+    "successor_bank_code": "0093"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0202",
     "bic": "BBVAESMM",
+    "bank_code": "0202",
     "name": "BANCO DE NEGOCIOS ARGENTARIA, S.A.",
-    "short_name": "BANCO NEGOCIOS"
+    "short_name": "BANCO NEGOCIOS",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0132",
     "bic": "PRNEESM1",
+    "bank_code": "0132",
     "name": "BANCO DE PROMOCION DE NEGOCIOS, S.A. (PROMOBANC)",
     "short_name": "PROMOCION NEG."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0081",
     "bic": "BSABESBB",
+    "bank_code": "0081",
     "name": "BANCO DE SABADELL, S.A.",
     "short_name": "BANCO SABADELL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0093",
     "bic": "CAIXESBB",
+    "bank_code": "0093",
     "name": "BANCO DE VALENCIA, S.A.",
-    "short_name": "BANCO VALENCIA"
+    "short_name": "BANCO VALENCIA",
+    "status": "merged",
+    "successor_bank_code": "2100"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BSCHESMM",
     "bank_code": "0095",
-    "bic": "POPUESMM",
-    "name": "BANCO DE VASCONIA, S.A.",
-    "short_name": "BANCO VASCONIA"
+    "name": "BANCO SANTANDER, S.A.",
+    "short_name": "SANTANDER",
+    "status": "merged",
+    "successor_bank_code": "0075",
+    "legacy_name": "BANCO DE VASCONIA, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "ESPCESMM",
     "bank_code": "0100",
-    "bic": "ESPCESMM",
     "name": "BANCO DE VITORIA, S.A.",
-    "short_name": "BANCO VITORIA"
+    "short_name": "BANCO VITORIA",
+    "status": "merged",
+    "successor_bank_code": "0030"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BBVAESMM",
     "bank_code": "0102",
-    "bic": "BBVAESMM",
     "name": "BANCO DE VIZCAYA, S.A.",
-    "short_name": "B.VIZCAYA"
+    "short_name": "B.VIZCAYA",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BBVAESMM",
     "bank_code": "0050",
-    "bic": "BBVAESMM",
     "name": "BANCO DEL COMERCIO, S.A.",
-    "short_name": "DEL COMERCIO"
+    "short_name": "DEL COMERCIO",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "ESPCESMM",
     "bank_code": "0109",
-    "bic": "ESPCESMM",
     "name": "BANCO DEL DESARROLLO ECONOMICO ESPA\u00d1OL, S.A.",
-    "short_name": "BANDESCO"
+    "short_name": "BANDESCO",
+    "status": "merged",
+    "successor_bank_code": "0030"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0057",
     "bic": "BVADESMM",
+    "bank_code": "0057",
     "name": "BANCO DEPOSITARIO BBVA, S.A.",
-    "short_name": "DEPOSITARIOBBVA"
+    "short_name": "DEPOSITARIOBBVA",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0137",
     "bic": "BBVAESMM",
+    "bank_code": "0137",
     "name": "BANCO DIRECTO, S.A.",
-    "short_name": "BANCO DIRECTO"
+    "short_name": "BANCO DIRECTO",
+    "status": "merged",
+    "successor_bank_code": "0202"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0030",
     "bic": "ESPCESMM",
+    "bank_code": "0030",
     "name": "BANCO ESPA\u00d1OL DE CREDITO, S.A.",
-    "short_name": "BANESTO"
+    "short_name": "BANESTO",
+    "status": "merged",
+    "successor_bank_code": "0049"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0031",
     "bic": "CAGLESMM",
+    "bank_code": "0031",
     "name": "BANCO ETCHEVERRIA, S.A.",
-    "short_name": "ETCHEVERRIA"
+    "short_name": "ETCHEVERRIA",
+    "status": "merged",
+    "successor_bank_code": "2080"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0184",
     "bic": "BEDFESM1",
+    "bank_code": "0184",
     "name": "BANCO EUROPEO DE FINANZAS, S.A.",
     "short_name": "EUROP. FINANZAS"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0228",
     "bic": "IXIUESM1",
+    "bank_code": "0228",
     "name": "BANCO EXELBANK, S.A.",
-    "short_name": "EXELBANK,"
+    "short_name": "EXELBANK,",
+    "status": "merged",
+    "successor_bank_code": "0144"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0104",
     "bic": "BBVAESMM",
+    "bank_code": "0104",
     "name": "BANCO EXTERIOR DE ESPA\u00d1A, S.A.",
-    "short_name": "EXTERIOR"
+    "short_name": "EXTERIOR",
+    "status": "merged",
+    "successor_bank_code": "1301"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0488",
     "bic": "BFASESMM",
+    "bank_code": "0488",
     "name": "BANCO FINANCIERO Y DE AHORROS, S.A.",
-    "short_name": "BANCO F. Y AHO."
+    "short_name": "BANCO F. Y AHO.",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0220",
     "bic": "FIOFESM1",
+    "bank_code": "0220",
     "name": "BANCO FINANTIA SOFINLOC, S.A.",
     "short_name": "FINANTIA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0046",
     "bic": "BSABESBB",
+    "bank_code": "0046",
     "name": "BANCO GALLEGO, S.A.",
-    "short_name": "BANCO GALLEGO"
+    "short_name": "BANCO GALLEGO",
+    "status": "merged",
+    "successor_bank_code": "0081"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0114",
     "bic": "CAIXESBB",
+    "bank_code": "0114",
     "name": "BANCO GRANADA JEREZ, S.A.",
-    "short_name": "GRANADA JEREZ"
+    "short_name": "GRANADA JEREZ",
+    "status": "merged",
+    "successor_bank_code": "2100"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2086",
     "bic": "CAZRES2Z",
+    "bank_code": "2086",
     "name": "BANCO GRUPO CAJATRES, S.A.",
     "short_name": "BANC.G.CAJATRES"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BSABESBB",
     "bank_code": "0042",
-    "bic": "BSABESBB",
     "name": "BANCO GUIPUZCOANO, S.A.",
-    "short_name": "GUIPUZCOANO"
+    "short_name": "GUIPUZCOANO",
+    "status": "merged",
+    "successor_bank_code": "0081"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0043",
     "bic": "BSABESBB",
+    "bank_code": "0043",
     "name": "BANCO HERRERO, S.A.",
-    "short_name": "BANCO HERRERO"
+    "short_name": "BANCO HERRERO",
+    "status": "merged",
+    "successor_bank_code": "0081"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1005",
     "bic": "BBVAESMM",
+    "bank_code": "1005",
     "name": "BANCO HIPOTECARIO DE ESPA\u00d1A, S.A.",
-    "short_name": "HIPOTECARIO"
+    "short_name": "HIPOTECARIO",
+    "status": "merged",
+    "successor_bank_code": "1301"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0113",
     "bic": "INBBESM1",
+    "bank_code": "0113",
     "name": "BANCO INDUSTRIAL DE BILBAO, S.A.",
     "short_name": "INDUST. BILBAO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0079",
     "bic": "BESMESMM",
+    "bank_code": "0079",
     "name": "BANCO INVERSION, S.A.",
-    "short_name": "BANCO INVERSION"
+    "short_name": "BANCO INVERSION",
+    "status": "merged",
+    "successor_bank_code": "0131"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0232",
     "bic": "INVLESMM",
+    "bank_code": "0232",
     "name": "BANCO INVERSIS, S.A.",
     "short_name": "INVERSIS"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CAIXESBB",
     "bank_code": "0487",
-    "bic": "GBMNESMM",
-    "name": "BANCO MARE NOSTRUM, S.A.",
-    "short_name": "B.MARE NOSTRUM"
+    "name": "CAIXABANK, S.A.",
+    "short_name": "CAIXABANK, S.A.",
+    "status": "merged",
+    "successor_bank_code": "2038",
+    "legacy_name": "BANCO MARE NOSTRUM, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0186",
     "bic": "BFIVESBB",
+    "bank_code": "0186",
     "name": "BANCO MEDIOLANUM, S.A.",
     "short_name": "BANCOMEDIOLANUM"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0067",
     "bic": "BSCHESMM",
+    "bank_code": "0067",
     "name": "BANCO MERCANTIL DE TARRAGONA, S.A.",
-    "short_name": "MERC. TARRAGONA"
+    "short_name": "MERC. TARRAGONA",
+    "status": "merged",
+    "successor_bank_code": "8236"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0044",
     "bic": "BBVAESMM",
+    "bank_code": "0044",
     "name": "BANCO MERIDIONAL, S.A.",
-    "short_name": "B. MERIDIONAL"
+    "short_name": "B. MERIDIONAL",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0121",
     "bic": "OCBAESM1",
+    "bank_code": "0121",
     "name": "BANCO OCCIDENTAL, S.A.",
     "short_name": "OCCIDENTAL"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BSCHESMM",
     "bank_code": "0238",
-    "bic": "PSTRESMM",
-    "name": "BANCO PASTOR, S.A.",
-    "short_name": "BANCO PASTOR"
+    "name": "BANCO SANTANDER, S.A.",
+    "short_name": "SANTANDER",
+    "status": "merged",
+    "successor_bank_code": "0075",
+    "legacy_name": "BANCO PASTOR, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0235",
     "bic": "PICHESMM",
+    "bank_code": "0235",
     "name": "BANCO PICHINCHA ESPA\u00d1A, S.A.",
     "short_name": "BANCO PICHINCHA"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BSCHESMM",
     "bank_code": "0075",
-    "bic": "POPUESMM",
-    "name": "BANCO POPULAR ESPA\u00d1OL, S.A.",
-    "short_name": "POPULAR ESPA\u00d1OL"
+    "name": "BANCO SANTANDER, S.A.",
+    "short_name": "SANTANDER",
+    "status": "merged",
+    "successor_bank_code": "0049",
+    "legacy_name": "BANCO POPULAR ESPA\u00d1OL, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BSCHESMM",
     "bank_code": "0116",
-    "bic": "POPUESMM",
-    "name": "BANCO POPULAR INDUSTRIAL, S.A.(EUROBANCO)",
-    "short_name": "POPULAR IND."
+    "name": "BANCO SANTANDER, S.A.",
+    "short_name": "SANTANDER",
+    "status": "merged",
+    "successor_bank_code": "0075",
+    "legacy_name": "BANCO POPULAR INDUSTRIAL, S.A.(EUROBANCO)"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0119",
     "bic": "BSABESBB",
+    "bank_code": "0119",
     "name": "BANCO SANPAOLO, S.A.",
-    "short_name": "BANCO SANPAOLO"
+    "short_name": "BANCO SANPAOLO",
+    "status": "merged",
+    "successor_bank_code": "2090"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BSCHESMM",
     "bank_code": "0085",
-    "bic": "BSCHESMM",
     "name": "BANCO SANTANDER CENTRAL HISPANO, S.A.",
-    "short_name": "BSCH"
+    "short_name": "BSCH",
+    "status": "merged",
+    "successor_bank_code": "0049"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0049",
     "bic": "BSCHESMM",
+    "bank_code": "0049",
     "name": "BANCO SANTANDER, S.A.",
     "short_name": "SANTANDER"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0153",
     "bic": "",
+    "bank_code": "0153",
     "name": "BANCO SAUDI ESPA\u00d1OL, S.A. EN LIQUIDACION",
-    "short_name": "SAUDESBANK"
+    "short_name": "SAUDESBANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0048",
     "bic": "CGDIESMM",
+    "bank_code": "0048",
     "name": "BANCO SIMEON, S.A.",
-    "short_name": "BANCO SIMEON"
+    "short_name": "BANCO SIMEON",
+    "status": "merged",
+    "successor_bank_code": "0130"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0187",
     "bic": "ALCLESMM",
+    "bank_code": "0187",
     "name": "BANCO UNIVERSAL, S.A.",
-    "short_name": "BANCO UNIVERSAL"
+    "short_name": "BANCO UNIVERSAL",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BSABESBB",
     "bank_code": "0185",
-    "bic": "BSABESBB",
     "name": "BANCO URQUIJO SABADELL BANCA PRIVADA, S.A.",
-    "short_name": "BANCO URQUIJO"
+    "short_name": "BANCO URQUIJO",
+    "status": "merged",
+    "successor_bank_code": "0081"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0112",
     "bic": "BSABESBB",
+    "bank_code": "0112",
     "name": "BANCO URQUIJO, S.A.",
-    "short_name": "BANCO URQUIJO"
+    "short_name": "BANCO URQUIJO",
+    "status": "merged",
+    "successor_bank_code": "0081"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0103",
     "bic": "CAIXESBB",
+    "bank_code": "0103",
     "name": "BANCO ZARAGOZANO, S.A.",
-    "short_name": "ZARAGOZANO"
+    "short_name": "ZARAGOZANO",
+    "status": "merged",
+    "successor_bank_code": "0065"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0125",
     "bic": "BAOFESM1",
+    "bank_code": "0125",
     "name": "BANCOFAR, S.A.",
     "short_name": "BANCOFAR"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0200",
     "bic": "PRVBESB1",
+    "bank_code": "0200",
     "name": "BANK DEGROOF PETERCAM SPAIN, S.A.",
     "short_name": "BANK DEGROOF PE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0088",
     "bic": "",
+    "bank_code": "0088",
     "name": "BANK OF AMERICA, S.A.",
-    "short_name": "AMERIBANK"
+    "short_name": "AMERIBANK",
+    "status": "merged",
+    "successor_bank_code": "1485"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0135",
     "bic": "",
+    "bank_code": "0135",
     "name": "BANK OF CREDIT AND COMMERCE, S.A.E.",
     "short_name": "CREDIT & COM."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0099",
     "bic": "CAHMESMM",
+    "bank_code": "0099",
     "name": "BANKIA BANCA PRIVADA, S.A.",
     "short_name": "BANKIA B.P."
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CAIXESBB",
     "bank_code": "2038",
-    "bic": "CAHMESMM",
-    "name": "BANKIA, S.A.",
-    "short_name": "BANKIA, S.A"
+    "name": "CAIXABANK, S.A.",
+    "short_name": "CAIXABANK, S.A.",
+    "status": "merged",
+    "successor_bank_code": "2100",
+    "legacy_name": "BANKIA, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0128",
     "bic": "BKBKESMM",
+    "bank_code": "0128",
     "name": "BANKINTER, S.A.",
     "short_name": "BANKINTER"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0138",
     "bic": "BKOAES22",
+    "bank_code": "0138",
     "name": "BANKOA, S.A.",
     "short_name": "BANKOA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0141",
     "bic": "CAICESM1",
+    "bank_code": "0141",
     "name": "BANQUE INDOSUEZ ESPA\u00d1A, S.A.",
-    "short_name": "BANQUE INDOSUEZ"
+    "short_name": "BANQUE INDOSUEZ",
+    "status": "merged",
+    "successor_bank_code": "0154"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0219",
     "bic": "BMCEESMM",
+    "bank_code": "0219",
     "name": "BANQUE MAROCAINE COMMERCE EXTERIEUR INTERNAT.,S.A.",
     "short_name": "MAROCAINE CO EX"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0065",
     "bic": "BARCESMM",
+    "bank_code": "0065",
     "name": "BARCLAYS BANK, S.A.",
-    "short_name": "BARCLAYS BANK"
+    "short_name": "BARCLAYS BANK",
+    "status": "merged",
+    "successor_bank_code": "2100"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0129",
     "bic": "INALESM1",
+    "bank_code": "0129",
     "name": "BBVA BANCO DE FINANCIACION, S.A.",
-    "short_name": "BBVA B.FINANC."
+    "short_name": "BBVA B.FINANC.",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0035",
     "bic": "BBVAESMM",
+    "bank_code": "0035",
     "name": "BBVA PRIVANZA BANCO, S.A.",
-    "short_name": "BBVA PRIVANZA"
+    "short_name": "BBVA PRIVANZA",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0058",
     "bic": "BNPAESMM",
+    "bank_code": "0058",
     "name": "BNP PARIBAS ESPA\u00d1A, S.A.",
     "short_name": "BNP PARIBAS, SA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2100",
     "bic": "CAIXESBB",
+    "bank_code": "2100",
     "name": "CAIXABANK, S.A.",
     "short_name": "CAIXABANK, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0237",
     "bic": "CSURES2C",
+    "bank_code": "0237",
     "name": "CAJASUR BANCO, S.A.",
     "short_name": "CAJASUR BANCO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2013",
     "bic": "BBVAESMM",
+    "bank_code": "2013",
     "name": "CATALUNYA BANC, S.A.",
-    "short_name": "CATALUNYA BANC,"
+    "short_name": "CATALUNYA BANC,",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2000",
     "bic": "CECAESMM",
+    "bank_code": "2000",
     "name": "CECABANK, S.A.",
     "short_name": "CECABANK, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0158",
     "bic": "",
+    "bank_code": "0158",
     "name": "CHEMICAL BANK, S.A., SUCURSAL EN ESPA\u00d1A",
-    "short_name": "CHEMICAL"
+    "short_name": "CHEMICAL",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0122",
     "bic": "CITIES2X",
+    "bank_code": "0122",
     "name": "CITIBANK ESPA\u00d1A, S.A.",
     "short_name": "CITIBANK ESPA\u00d1A"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0157",
     "bic": "",
+    "bank_code": "0157",
     "name": "CONTINENTAL ILLINOIS NAT. BANK TRUST CO. CHICAGO",
-    "short_name": "C. ILLINOIS"
+    "short_name": "C. ILLINOIS",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "UCJAES2M",
     "bank_code": "0208",
-    "bic": "CSSOES2S",
-    "name": "CREDIT LYONNAIS ESPA\u00d1A, S.A.",
-    "short_name": "CREDIT LYONNAIS"
+    "name": "UNICAJA BANCO, S.A.",
+    "short_name": "UNICAJA BANCO",
+    "status": "merged",
+    "successor_bank_code": "2104",
+    "legacy_name": "CREDIT LYONNAIS ESPA\u00d1A, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "DEUTESBB",
     "bank_code": "0205",
-    "bic": "DEUTESBB",
     "name": "DEUTSCHE BANK CREDIT, S.A.",
-    "short_name": "DB-CREDIT"
+    "short_name": "DB-CREDIT",
+    "status": "merged",
+    "successor_bank_code": "0019"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0019",
     "bic": "DEUTESBB",
+    "bank_code": "0019",
     "name": "DEUTSCHE BANK, S.A.E.",
     "short_name": "DB-S.A.E."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0215",
     "bic": "",
+    "bank_code": "0215",
     "name": "DEXIA BANCO LOCAL, S.A.",
-    "short_name": "DEXIA"
+    "short_name": "DEXIA",
+    "status": "merged",
+    "successor_bank_code": "1004"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0211",
     "bic": "PROAESMM",
+    "bank_code": "0211",
     "name": "EBN BANCO DE NEGOCIOS, S.A.",
     "short_name": "EBN BANCO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0191",
     "bic": "",
+    "bank_code": "0191",
     "name": "EUROBANK DEL MEDITERRANEO, S.A. EN LIQUIDACION",
-    "short_name": "EUROBAN LIQUID."
+    "short_name": "EUROBAN LIQUID.",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0239",
     "bic": "EVOBESMM",
+    "bank_code": "0239",
     "name": "EVO BANCO S.A.",
     "short_name": "EVO BANCO S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0009",
     "bic": "BBVAESMM",
+    "bank_code": "0009",
     "name": "FINANZIA, BANCO DE CREDITO, S.A.",
-    "short_name": "BBVA FINANZIA"
+    "short_name": "BBVA FINANZIA",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0173",
     "bic": "",
+    "bank_code": "0173",
     "name": "FIRST INTERSTATE BANK OF CALIFORNIA, S.E.",
-    "short_name": "F.I.CALIFORN"
+    "short_name": "F.I.CALIFORN",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0223",
     "bic": "GEECESB1",
+    "bank_code": "0223",
     "name": "GENERAL ELECTRIC CAPITAL BANK, S.A.",
-    "short_name": "GE MONEY BANK"
+    "short_name": "GE MONEY BANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0111",
     "bic": "SCFBESMM",
+    "bank_code": "0111",
     "name": "HISPAMER BANCO FINANCIERO, S.A.",
     "short_name": "HISPAMER BANCO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2085",
     "bic": "CAZRES2Z",
+    "bank_code": "2085",
     "name": "IBERCAJA BANCO, S.A.",
     "short_name": "IBERCAJA BANCO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0222",
     "bic": "CHASESM3",
+    "bank_code": "0222",
     "name": "J.P. MORGAN BANK, S.A.",
-    "short_name": "J.P. MORGAN"
+    "short_name": "J.P. MORGAN",
+    "status": "merged"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0183",
     "bic": "",
+    "bank_code": "0183",
     "name": "JYSKE BANK (ESPA\u00d1A), S.A.",
-    "short_name": "JYSKE BANK"
+    "short_name": "JYSKE BANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2095",
     "bic": "BASKES2B",
+    "bank_code": "2095",
     "name": "KUTXABANK, S.A",
     "short_name": "KUTXABANK, S.A"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "UCJAES2M",
     "bank_code": "2048",
-    "bic": "CECAESMM048",
-    "name": "LIBERBANK, S.A.",
-    "short_name": "LIBERBANK"
+    "name": "UNICAJA BANCO, S.A.",
+    "short_name": "UNICAJA BANCO",
+    "status": "merged",
+    "successor_bank_code": "2103",
+    "legacy_name": "LIBERBANK, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0217",
     "bic": "BSABESBB",
+    "bank_code": "0217",
     "name": "LLOYDS BANK INTERNATIONAL, S.A.",
     "short_name": "LLOYDS BANK INT"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0133",
     "bic": "MIKBESB1",
+    "bank_code": "0133",
     "name": "NUEVO MICRO BANK, S.A.",
     "short_name": "MICRO BANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0073",
     "bic": "OPENESMM",
+    "bank_code": "0073",
     "name": "OPEN BANK, S.A.",
     "short_name": "OPEN BANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0233",
     "bic": "POPIESMM",
+    "bank_code": "0233",
     "name": "POPULAR BANCA PRIVADA, S.A.",
     "short_name": "POPULARBANCA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0096",
     "bic": "PROAESMM",
+    "bank_code": "0096",
     "name": "PROBANCA, SERVICIOS FINANCIEROS, S.A.",
-    "short_name": "PROBANCA"
+    "short_name": "PROBANCA",
+    "status": "merged",
+    "successor_bank_code": "0211"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0221",
     "bic": "",
+    "bank_code": "0221",
     "name": "RABOBANK ESPA\u00d1A, S.A.",
-    "short_name": "RABOBANK"
+    "short_name": "RABOBANK",
+    "status": "merged",
+    "successor_bank_code": "1459"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0094",
     "bic": "BVALESMM",
+    "bank_code": "0094",
     "name": "RBC INVESTOR SERVICES ESPA\u00d1A, S.A.",
     "short_name": "RBC INVESTOR"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0083",
     "bic": "RENBESMM",
+    "bank_code": "0083",
     "name": "RENTA 4 BANCO, S.A.",
     "short_name": "RENTA 4"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0236",
     "bic": "BSABESBB",
+    "bank_code": "0236",
     "name": "SABADELL SOLBANK, S.A.",
-    "short_name": "SOLBANK"
+    "short_name": "SOLBANK",
+    "status": "merged",
+    "successor_bank_code": "0081"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0224",
     "bic": "SCFBESMM",
+    "bank_code": "0224",
     "name": "SANTANDER CONSUMER FINANCE, S.A.",
     "short_name": "S. CONSUMER F."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0036",
     "bic": "SABNESMM",
+    "bank_code": "0036",
     "name": "SANTANDER INVESTMENT, S.A.",
     "short_name": "SANTANDER INV."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0038",
     "bic": "TOTAPTPL",
+    "bank_code": "0038",
     "name": "SANTANDER SECURITIES SERVICES, S.A.",
     "short_name": "SANTANDER SECUR"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1490",
     "bic": "SELFESMM",
+    "bank_code": "1490",
     "name": "SELF TRADE BANK, S.A.",
     "short_name": "SELF TRADE BANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0087",
     "bic": "CAHMESMM",
+    "bank_code": "0087",
     "name": "SINDICATO DE BANQUEROS DE BARCELONA, S.A.",
-    "short_name": "SINDIBANK"
+    "short_name": "SINDIBANK",
+    "status": "merged",
+    "successor_bank_code": "2077"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0013",
     "bic": "BSABESBB",
+    "bank_code": "0013",
     "name": "SOLBANK SBD, S.A.",
-    "short_name": "SOLBANK"
+    "short_name": "SOLBANK",
+    "status": "merged",
+    "successor_bank_code": "0081"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0216",
     "bic": "CMCIESMM",
+    "bank_code": "0216",
     "name": "TARGOBANK, S.A.",
     "short_name": "TARGOBANK, S.A."
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0165",
-    "bic": "",
     "name": "THE FIRST NATIONAL BANK OF CHICAGO, SUC. ESPA\u00d1A",
-    "short_name": "FIRST CHICAG"
+    "short_name": "FIRST CHICAG",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0175",
     "bic": "",
+    "bank_code": "0175",
     "name": "THE HONGKONG & SHANGAI BANKING CORPORATION",
-    "short_name": "HONGKONGSH."
+    "short_name": "HONGKONGSH.",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0226",
     "bic": "UBSWESMM",
+    "bank_code": "0226",
     "name": "UBS BANK, S.A",
     "short_name": "UBS BANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2103",
     "bic": "UCJAES2M",
+    "bank_code": "2103",
     "name": "UNICAJA BANCO, S.A.",
     "short_name": "UNICAJA BANCO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2107",
     "bic": "BBVAESMM",
+    "bank_code": "2107",
     "name": "UNNIM BANC, S.A",
-    "short_name": "UNNIM BANC, S.A"
+    "short_name": "UNNIM BANC, S.A",
+    "status": "merged",
+    "successor_bank_code": "0182"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0227",
     "bic": "UNOEESM1",
+    "bank_code": "0227",
     "name": "UNOE BANK, S.A.",
     "short_name": "UNO-E"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0229",
     "bic": "POPLESMM",
+    "bank_code": "0229",
     "name": "WIZINK BANK, S.A.",
     "short_name": "WIZINK BANK, S."
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "UCJAES2M",
     "bank_code": "0105",
-    "bic": "BSUIESMM",
-    "name": "CREDIT LYONNAIS, S.A. S.E.",
-    "short_name": "CREDIT LYONNAIS"
+    "name": "UNICAJA BANCO, S.A.",
+    "short_name": "UNICAJA BANCO",
+    "status": "merged",
+    "successor_bank_code": "0208",
+    "legacy_name": "CREDIT LYONNAIS, S.A. S.E."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0106",
     "bic": "BSABESBB",
+    "bank_code": "0106",
     "name": "LLOYDS TSB BANK PLC, S.E.",
-    "short_name": "LLOYDS TSB BANK"
+    "short_name": "LLOYDS TSB BANK",
+    "status": "merged",
+    "successor_bank_code": "1537"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0107",
     "bic": "BNLIESM1",
+    "bank_code": "0107",
     "name": "BANCA NAZIONALE DEL LAVORO, S.P.A., S.E.",
-    "short_name": "BNL"
+    "short_name": "BNL",
+    "status": "merged",
+    "successor_bank_code": "0149"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0108",
     "bic": "SOGEESMM",
+    "bank_code": "0108",
     "name": "SOCIETE GENERALE, S.E.",
     "short_name": "SOCIETE GENERAL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0131",
     "bic": "BESMESMM",
+    "bank_code": "0131",
     "name": "NOVO BANCO, S.A., SUCURSAL EN ESPA\u00d1A",
     "short_name": "NOVO BANCO, S.A"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0143",
     "bic": "COBAESMX",
+    "bank_code": "0143",
     "name": "DRESDNER BANK A.G., S.E.",
-    "short_name": "DRESDNER BANK"
+    "short_name": "DRESDNER BANK",
+    "status": "merged",
+    "successor_bank_code": "0159"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0144",
     "bic": "PARBESMX",
+    "bank_code": "0144",
     "name": "BNP PARIBAS SECURITIES SERVICES, S.E.",
     "short_name": "BNP PARIB.SEC"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0145",
     "bic": "DEUTESM1",
+    "bank_code": "0145",
     "name": "DEUTSCHE BANK A.G., S.E.",
     "short_name": "DB-A.G., S.E."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0149",
     "bic": "BNPAESMS",
+    "bank_code": "0149",
     "name": "BNP PARIBAS S.A., S.E.",
     "short_name": "BNP PARIBAS S.A"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0150",
     "bic": "ABNAESMM",
+    "bank_code": "0150",
     "name": "NATIONAL WESTMINSTER BANK PLC, S.E.",
-    "short_name": "NATWEST S.E."
+    "short_name": "NATWEST S.E.",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0152",
     "bic": "BPLCESMM",
+    "bank_code": "0152",
     "name": "BARCLAYS BANK PLC, S.E.",
     "short_name": "BARCLAYS, S.E."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0154",
     "bic": "BSUIESMM",
+    "bank_code": "0154",
     "name": "CREDIT AGRICOLE CORPORATE AND INVESTMENT BANK,S.E.",
     "short_name": "CREDIT AGRICOLE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0155",
     "bic": "BRASESMM",
+    "bank_code": "0155",
     "name": "BANCO DO BRASIL AG, SUCURSAL EN ESPA\u00d1A",
     "short_name": "BANCO DO BRASIL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0156",
-    "bic": "ABNAESMM",
+    "bic": "",
+    "bank_code": "1477",
     "name": "THE ROYAL BANK OF SCOTLAND PLC, S.E.",
-    "short_name": "ROYAL BANK"
+    "short_name": "R. B. SCOTLAND",
+    "status": "merged",
+    "successor_bank_code": "0156"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0159",
     "bic": "COBAESMX",
+    "bank_code": "0159",
     "name": "COMMERZBANK AKTIENGESELLSCHAFT, S.E.",
     "short_name": "COMMERZBANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0162",
     "bic": "MIDLESMM",
+    "bank_code": "0162",
     "name": "HSBC BANK PLC, S.E.",
     "short_name": "HSBC BANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0163",
     "bic": "",
+    "bank_code": "0163",
     "name": "UNICREDIT SOCIETA PER AZIONI, S.E.",
-    "short_name": "UNICREDIT SPA"
+    "short_name": "UNICREDIT SPA",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0167",
     "bic": "GEBAESMM",
+    "bank_code": "0167",
     "name": "BNP PARIBAS FORTIS, S.A., N.V., S.E.",
     "short_name": "BNP PARIBAS F."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0168",
     "bic": "BBRUESMX",
+    "bank_code": "0168",
     "name": "ING BELGIUM, S.A., S.E.",
-    "short_name": "ING BELGIUM SE"
+    "short_name": "ING BELGIUM SE",
+    "status": "merged",
+    "successor_bank_code": "1465"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0172",
-    "bic": "",
     "name": "CREDIT COMMERCIAL DE FRANCE, S.E.",
-    "short_name": "CREDI COM FR SE"
+    "short_name": "CREDI COM FR SE",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0174",
-    "bic": "",
     "name": "BANCA INTESA S.P.A., SUCURSAL EN ESPA\u00d1A",
-    "short_name": "INTESA, S.P.A."
+    "short_name": "INTESA, S.P.A.",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0179",
     "bic": "AGRIESMM",
+    "bank_code": "0179",
     "name": "CAISSE NATIONALE DE CREDIT AGRICOLE, SUC. ESPA\u00d1A",
-    "short_name": "CREDIT AGRICOLE"
+    "short_name": "CREDIT AGRICOLE",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0180",
-    "bic": "",
     "name": "BANCO PORTUGUES DO ATLANTICO, SUCURSAL EN ESPA\u00d1A",
-    "short_name": "PORT. ATLANTICO"
+    "short_name": "PORT. ATLANTICO",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0181",
     "bic": "",
+    "bank_code": "0181",
     "name": "CREDITO ITALIANO, SUCURSAL EN ESPA\u00d1A",
-    "short_name": "CTO. ITALIANO"
+    "short_name": "CTO. ITALIANO",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0190",
     "bic": "BBPIESMM",
+    "bank_code": "0190",
     "name": "BANCO BPI, S.A., S.E.",
     "short_name": "BANCO BPI, S.E."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0194",
     "bic": "",
+    "bank_code": "0194",
     "name": "ISTITUTO BANCARIO SAN PAOLO DI TORINO, SPA., S.E.",
-    "short_name": "SANPAOLO"
+    "short_name": "SANPAOLO",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0196",
     "bic": "WELAESMM",
+    "bank_code": "0196",
     "name": "PORTIGON AG, S.E.",
     "short_name": "PORTIGON"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0197",
-    "bic": "",
     "name": "BANCO ESPIRITO SANTO S.A. S.E.",
-    "short_name": "ESPIRITO SANTO"
+    "short_name": "ESPIRITO SANTO",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0201",
     "bic": "BCITESMM",
+    "bank_code": "0201",
     "name": "BANCO DI NAPOLI, S.P.A., S.E.",
-    "short_name": "BANCO DI NAPOLI"
+    "short_name": "BANCO DI NAPOLI",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0212",
-    "bic": "",
     "name": "COMPAGNIE BANCAIRE, SUCURSAL EN ESPA\u00d1A",
-    "short_name": "COMP. BANCAIRE"
+    "short_name": "COMP. BANCAIRE",
+    "status": "merged",
+    "successor_bank_code": "0144"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0213",
     "bic": "",
+    "bank_code": "0213",
     "name": "CASSA RISPARMIO PROVINCIE LOMBARDE(CARIPLO)SPA,S.E",
-    "short_name": "CARIPLO"
+    "short_name": "CARIPLO",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0218",
     "bic": "FCEFESM1",
+    "bank_code": "0218",
     "name": "FCE BANK PLC S.E.",
     "short_name": "FCE BANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0231",
     "bic": "DSBLESMM",
+    "bank_code": "0231",
     "name": "DEXIA CREDIT LOCAL, SUCURSAL EN ESPA\u00d1A",
     "short_name": "DEXIA CREDIT LO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1451",
     "bic": "AGRIESB1",
+    "bank_code": "1451",
     "name": "CAISSE REGIONALE CREDIT AGRICOLE MUTUEL SUD MED,SE",
     "short_name": "CREDIT SUDMED"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1453",
-    "bic": "",
     "name": "BANCA MONTE DEI PASCHI DI SIENA, S.P.A., S.E.",
-    "short_name": "MONTE DEIPASCHI"
+    "short_name": "MONTE DEIPASCHI",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1454",
     "bic": "NEWGESM1",
+    "bank_code": "1454",
     "name": "NEWEDGE GROUP, S.E.",
-    "short_name": "NEWEDGE"
+    "short_name": "NEWEDGE",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1455",
-    "bic": "",
     "name": "TRANSOPTIONS FINANCE, S.A., S.E.",
-    "short_name": "TRANSOPTIONS"
+    "short_name": "TRANSOPTIONS",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1456",
     "bic": "",
+    "bank_code": "1456",
     "name": "C.R. DE CREDIT AGR. MUTUEL PYRENEES-GASCOGNE, S.E.",
-    "short_name": "PYRENEES-GASCOG"
+    "short_name": "PYRENEES-GASCOG",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1457",
     "bic": "LLISESM1",
+    "bank_code": "1457",
     "name": "DE LAGE LANDEN INTERNATIONAL B.V., S.E.",
     "short_name": "LAGE LANDEN INT"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1458",
     "bic": "",
+    "bank_code": "1458",
     "name": "HSBC INVESTMENT BANK PLC. S.E.",
-    "short_name": "HSBC"
+    "short_name": "HSBC",
+    "status": "merged",
+    "successor_bank_code": "0162"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1459",
     "bic": "PRABESMM",
+    "bank_code": "1459",
     "name": "COOPERATIEVE RABOBANK U.A. SUCURSAL EN ESPA\u00d1A",
     "short_name": "COOP. RABOBANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1461",
     "bic": "",
+    "bank_code": "1461",
     "name": "A/S JYSKE BANK S.E.",
     "short_name": "A/S JYSKE BANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1462",
     "bic": "ASSCESM1",
+    "bank_code": "1462",
     "name": "ASSOCIATES CAPITAL CORPORATION, PLC. S.E.",
-    "short_name": "ACC BANK PLC"
+    "short_name": "ACC BANK PLC",
+    "status": "merged",
+    "successor_bank_code": "8818"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1463",
     "bic": "PSABESM1",
+    "bank_code": "1463",
     "name": "BANQUE PSA FINANCE, S.E.",
-    "short_name": "PSA FINANCE"
+    "short_name": "PSA FINANCE",
+    "status": "merged",
+    "successor_bank_code": "8838"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1464",
     "bic": "NFFSESM1",
+    "bank_code": "1464",
     "name": "NEWCOURT FINANCE (FRANCE) S.N.C., S.E.",
-    "short_name": "NEWCOURT"
+    "short_name": "NEWCOURT",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1465",
     "bic": "INGDESMM",
+    "bank_code": "1465",
     "name": "ING BANK N.V. SUCURSAL EN ESPA\u00d1A",
     "short_name": "ING BANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1467",
     "bic": "EHYPESMX",
+    "bank_code": "1467",
     "name": "HYPOTHEKENBANK FRANKFURT AG, S.E.",
-    "short_name": "HYPOTHEKENBANK"
+    "short_name": "HYPOTHEKENBANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1468",
     "bic": "",
+    "bank_code": "1468",
     "name": "EUROHYPO A.G. EUROPAISCHE HYPOTHEKENBANK D.B.,S.E.",
-    "short_name": "EUROHYPO"
+    "short_name": "EUROHYPO",
+    "status": "merged",
+    "successor_bank_code": "1467"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1469",
     "bic": "BBVAESMM",
+    "bank_code": "1469",
     "name": "BANCO SYGMA HISPANIA, S.E.",
-    "short_name": "BANCO SYGMA"
+    "short_name": "BANCO SYGMA",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1470",
     "bic": "BPIPESM1",
+    "bank_code": "1470",
     "name": "BANCO PORTUGUES DE INVESTIMENTO, S.A. S.E.",
     "short_name": "BPI"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1471",
     "bic": "",
+    "bank_code": "1471",
     "name": "ROYAL BANK OF CANADA EUROPE LIMITED, S.E.",
     "short_name": "R.B. CANADA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1472",
     "bic": "UCSSESM1",
+    "bank_code": "1472",
     "name": "CREDIT AGRICOLE LEASING & FACTORING, S.E.",
     "short_name": "CA-LEASING"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1473",
     "bic": "PRIBESMX",
+    "bank_code": "1473",
     "name": "EDMOND DE ROTHSCHILD (EUROPE), S.E",
     "short_name": "EDMOND ROTHSCHI"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1474",
     "bic": "CITIESMX",
+    "bank_code": "1474",
     "name": "CITIBANK EUROPE PLC SUCURSAL EN ESPA\u00d1A",
     "short_name": "CITIBANK EUROPE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1475",
     "bic": "CCSEESM1",
+    "bank_code": "1475",
     "name": "CORTAL CONSORS, S.E.",
-    "short_name": "CORTAL CONSORS"
+    "short_name": "CORTAL CONSORS",
+    "status": "merged",
+    "successor_bank_code": "0149"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1476",
-    "bic": "",
     "name": "FIMATEX, S.A., S.E.",
-    "short_name": "FIMATEX"
+    "short_name": "FIMATEX",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1477",
-    "bic": "",
-    "name": "THE ROYAL BANK OF SCOTLAND PLC, S.E.",
-    "short_name": "R. B. SCOTLAND"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "1506",
     "bic": "MLCBESM1",
+    "bank_code": "1506",
     "name": "MERRILL LYNCH INTERNATIONAL BANK LTD., S.E.",
-    "short_name": "MERRILL LYNCH"
+    "short_name": "MERRILL LYNCH",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1479",
     "bic": "NATXESMM",
+    "bank_code": "1479",
     "name": "NATIXIS, S.A., S.E.",
     "short_name": "NATIXIS"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1480",
     "bic": "VOWAES21",
+    "bank_code": "1480",
     "name": "VOLKSWAGEN BANK GMBH, S.E.",
     "short_name": "VOLKSWAGEN BANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1481",
     "bic": "",
+    "bank_code": "1481",
     "name": "BANCO MAIS, S.A. (ESPANHA), S.E.",
-    "short_name": "BANCO MAIS"
+    "short_name": "BANCO MAIS",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1482",
     "bic": "",
+    "bank_code": "1482",
     "name": "JOHN DEERE BANK, S.A., S.E.",
     "short_name": "JOHN DEERE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1483",
     "bic": "",
+    "bank_code": "1483",
     "name": "BANK OF SCOTLAND, S.E.",
-    "short_name": "BANK SCOTLAND"
+    "short_name": "BANK SCOTLAND",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1484",
     "bic": "ESPCESMM",
+    "bank_code": "1484",
     "name": "MBNA EUROPE BANK LIMITED, S.E.",
-    "short_name": "MBNA"
+    "short_name": "MBNA",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1485",
     "bic": "BOFAES2X",
+    "bank_code": "1485",
     "name": "BANK OF AMERICA MERRILL LYNCH INTERNATIONAL LTD SE",
     "short_name": "BAMLI, S. E."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1486",
     "bic": "",
+    "bank_code": "1486",
     "name": "BANCO PRIVADO PORTUGUES, S.A., S.E.",
-    "short_name": "B.PRV.PORTUGUES"
+    "short_name": "B.PRV.PORTUGUES",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1487",
     "bic": "",
+    "bank_code": "1487",
     "name": "TOYOTA KREDITBANK GMBH, S.E.",
     "short_name": "TOYOTA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1488",
     "bic": "PICTESMM",
+    "bank_code": "1488",
     "name": "PICTET & CIE (EUROPE), S.A., S.E.",
     "short_name": "PICTET & CIE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1489",
     "bic": "",
+    "bank_code": "1489",
     "name": "HYPO REAL ESTATE BANK INTERNATIONAL, S.E.",
-    "short_name": "HYPO REAL"
+    "short_name": "HYPO REAL",
+    "status": "merged",
+    "successor_bank_code": "1501"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1491",
     "bic": "TRIOESMM",
+    "bank_code": "1491",
     "name": "TRIODOS BANK, N.V., S.E.",
     "short_name": "TRIODOS BANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1492",
     "bic": "",
+    "bank_code": "1492",
     "name": "BNP PARIBAS LEASE GROUP, S.A. S.E.",
     "short_name": "BNP PARIBAS"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1493",
     "bic": "",
+    "bank_code": "1493",
     "name": "CAIXA BANCO DE INVESTIMENTO, S.A., S.E.",
     "short_name": "CAIXABI"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1494",
     "bic": "BCITESMM",
+    "bank_code": "1494",
     "name": "INTESA SANPAOLO S.P.A., S.E.",
     "short_name": "INTESA SANPAOLO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1495",
     "bic": "",
+    "bank_code": "1495",
     "name": "CIT GROUP (NORDIC) AB, S.E.",
-    "short_name": "CIT GROUP"
+    "short_name": "CIT GROUP",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1496",
     "bic": "",
+    "bank_code": "1496",
     "name": "GENEFIM, S.E.",
     "short_name": "GENEFIM"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1497",
     "bic": "ESSIESMM",
+    "bank_code": "1497",
     "name": "HAITONG BANK, S.A., SUCURSAL EN ESPA\u00d1A",
     "short_name": "HAITONG BANK, S"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1498",
     "bic": "",
+    "bank_code": "1498",
     "name": "UNICREDIT BANK AG, S.E.",
-    "short_name": "UNICREDIT BANK"
+    "short_name": "UNICREDIT BANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1499",
     "bic": "",
+    "bank_code": "1499",
     "name": "CLAAS FINANCIAL SERVICES, S.A.S., S.E.",
     "short_name": "CLAAS FINANCIAL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1500",
     "bic": "",
+    "bank_code": "1500",
     "name": "NATIXIS LEASE S.A., S.E.",
     "short_name": "NATIXIS LEASE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1501",
     "bic": "DPBBESM1",
+    "bank_code": "1501",
     "name": "DEUTSCHE PFANDBRIEFBANK AG, S.E.",
     "short_name": "DEUTSCHE PFANDB"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1502",
     "bic": "IKBDESM1",
+    "bank_code": "1502",
     "name": "IKB DEUTSCHE INDUSTRIEBANK AG, S.E.",
-    "short_name": "IKB DEUTSCHE"
+    "short_name": "IKB DEUTSCHE",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1503",
-    "bic": "",
     "name": "IXIS CORPORATE & INVESTMENT BANK, S.A., S.E.",
-    "short_name": "IXIS"
+    "short_name": "IXIS",
+    "status": "merged",
+    "successor_bank_code": "1479"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1504",
     "bic": "",
+    "bank_code": "1504",
     "name": "HONDA BANK GMBH, S.E.",
     "short_name": "HONDA BANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1505",
     "bic": "ARABESMM",
+    "bank_code": "1505",
     "name": "EUROPE ARAB BANK PLC, S.E.",
-    "short_name": "EUROPE ARAB BAN"
+    "short_name": "EUROPE ARAB BAN",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1506",
-    "bic": "MLCBESM1",
-    "name": "MERRILL LYNCH INTERNATIONAL BANK LTD., S.E.",
-    "short_name": "MERRILL LYNCH"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
+    "bic": "",
     "bank_code": "1507",
-    "bic": "",
     "name": "ING BANK N.V., S.E.",
-    "short_name": "ING BANK NV"
+    "short_name": "ING BANK NV",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1508",
     "bic": "",
+    "bank_code": "1508",
     "name": "RCI BANQUE, S.A., S.E.",
     "short_name": "RCI BANQUE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1509",
     "bic": "",
+    "bank_code": "1509",
     "name": "BANCO PRIMUS, S.A., S.E.",
     "short_name": "BANCO PRIMUS"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1510",
-    "bic": "",
     "name": "SAXO BANK A/S S.E.",
-    "short_name": "SAXO BANK A/S"
+    "short_name": "SAXO BANK A/S",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1511",
-    "bic": "",
     "name": "KBC BANK NV, S.E.",
-    "short_name": "KBC BANK NV,SE"
+    "short_name": "KBC BANK NV,SE",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1512",
     "bic": "",
+    "bank_code": "1512",
     "name": "ELAVON FINANCIAL SERVICES DAC, S.E.",
     "short_name": "ELAVON"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1513",
     "bic": "CGDIESMM",
+    "bank_code": "1513",
     "name": "CAIXA GERAL DE DEPOSITOS, S.A. SUCURSAL EN ESPA\u00d1A",
     "short_name": "CAIXA GERAL SE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1514",
     "bic": "",
+    "bank_code": "1514",
     "name": "CNH INDUSTRIAL FINANCIAL SERVICES, S.E.",
     "short_name": "CNH"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1516",
     "bic": "",
+    "bank_code": "1516",
     "name": "J.P. MORGAN INTERNATIONAL BANK LIMITED, S.E.",
     "short_name": "JP MORGAN INT"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1517",
-    "bic": "",
     "name": "LANDSBANKI ISLANDS HF,(LIQUIDACION)SE",
-    "short_name": "LANDSBANKI"
+    "short_name": "LANDSBANKI",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1518",
-    "bic": "",
     "name": "DEPFA BANK PLC, S.E.",
-    "short_name": "DEPFA BANK PLC"
+    "short_name": "DEPFA BANK PLC",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1519",
-    "bic": "",
     "name": "SVENSKA HANDELSBANKEN AB, S.E.",
-    "short_name": "SVENSKA HANDELS"
+    "short_name": "SVENSKA HANDELS",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1520",
     "bic": "",
+    "bank_code": "1520",
     "name": "MEDIOBANCA, S.E.",
     "short_name": "MEDIOBANCA, S.E"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1521",
     "bic": "",
+    "bank_code": "1521",
     "name": "BINCKBANK NV, S.E.",
     "short_name": "BINCKBANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1522",
     "bic": "EFGBESMM",
+    "bank_code": "1522",
     "name": "EFG BANK (LUXEMBOURG) S.A., S.E.",
-    "short_name": "EFG BANK (LUXEM"
+    "short_name": "EFG BANK (LUXEM",
+    "status": "merged",
+    "successor_bank_code": "0241"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1523",
     "bic": "",
+    "bank_code": "1523",
     "name": "MERCEDES-BENZ BANK AG, SUCURSAL EN ESPA\u00d1A",
     "short_name": "MERCEDES-BENZ B"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1524",
     "bic": "UBIBESMM",
+    "bank_code": "1524",
     "name": "UBI BANCA INTERNATIONAL, S.A., S.E.",
     "short_name": "UBI BANCA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1525",
     "bic": "BCDMESMM",
+    "bank_code": "1525",
     "name": "BANQUE CHAABI DU MAROC, S.E.",
     "short_name": "BANQUE CHAABI"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1526",
-    "bic": "",
     "name": "CLOSE BROTHERS LIMITED, S.E.",
-    "short_name": "CLOSE BROTHERS"
+    "short_name": "CLOSE BROTHERS",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1527",
-    "bic": "",
     "name": "KAUPTHING BANK HF, (EN CONCURSO) S.E.",
-    "short_name": "KAUPTHING BANK"
+    "short_name": "KAUPTHING BANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1528",
-    "bic": "",
     "name": "JCB FINANCE, S.A.S., S. E.",
-    "short_name": "JCB FINANCE"
+    "short_name": "JCB FINANCE",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1529",
-    "bic": "",
     "name": "MCE BANK GMBH, S.E.",
-    "short_name": "MCE BANK"
+    "short_name": "MCE BANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1530",
-    "bic": "",
     "name": "SOFINLOC INSTITUI\u00c7AO FINANCEIRA DE CTO., S.A.,S.E.",
-    "short_name": "SOFINLOC INSTIT"
+    "short_name": "SOFINLOC INSTIT",
+    "status": "merged",
+    "successor_bank_code": "0220"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1531",
     "bic": "",
+    "bank_code": "1531",
     "name": "CREDIT SUISSE INTERNATIONAL,S.E.",
     "short_name": "CREDIT SUISSE I"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1532",
     "bic": "",
+    "bank_code": "1532",
     "name": "BNP PARIBAS FACTOR, S.A. S.E.",
     "short_name": "BNP PARIBAS FAC"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1533",
     "bic": "",
+    "bank_code": "1533",
     "name": "BMW BANK GMBH, SUCURSAL EN ESPA\u00d1A",
     "short_name": "BMW BANK"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1534",
     "bic": "KBLXESMM",
+    "bank_code": "1534",
     "name": "KBL EUROPEAN PRIVATE BANKERS, S.A. S.E.",
     "short_name": "KBL BANKERS"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1535",
     "bic": "",
+    "bank_code": "1535",
     "name": "AKF BANK GMBH & CO KG, S.E.",
     "short_name": "AKF"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1536",
     "bic": "",
+    "bank_code": "1536",
     "name": "OREY FINANCIAL-INSTITUI\u00c7AO FINANC. CTO. S.A. S.E.",
     "short_name": "OREY FINANCIAL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1537",
     "bic": "",
+    "bank_code": "1537",
     "name": "LLOYDS BANK PLC, S.E.",
-    "short_name": "LLOYDS BANK"
+    "short_name": "LLOYDS BANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1538",
     "bic": "ICBKESMM",
+    "bank_code": "1538",
     "name": "INDUSTRIAL & COMMERCIAL BANK OF CHINA(EUROPE)SA,SE",
     "short_name": "ICBC (EUROPE)"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1539",
     "bic": "BIGKESM1",
+    "bank_code": "1539",
     "name": "BIGBANK AS CONSUMER FINANCE, S.E.",
     "short_name": "BIGBANK AS CONS"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1540",
     "bic": "",
+    "bank_code": "1540",
     "name": "WALSER PRIVATBANK AG, S.E.",
-    "short_name": "WALSER PRIVATBA"
+    "short_name": "WALSER PRIVATBA",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1541",
     "bic": "BCMAESMM",
+    "bank_code": "1541",
     "name": "ATTIJARIWAFA BANK EUROPE, S.E.",
     "short_name": "ATTIJARIWAFA BA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1542",
     "bic": "",
+    "bank_code": "1542",
     "name": "J.P. MORGAN SECURITIES PLC, S.E.",
     "short_name": "J.P. MORGAN SEC"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1543",
     "bic": "",
+    "bank_code": "1543",
     "name": "COFIDIS, S.A. SUCURSAL EN ESPA\u00d1A",
     "short_name": "COFIDIS,S.A.,SE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1545",
     "bic": "AGRIESMM",
+    "bank_code": "1545",
     "name": "CA INDOSUEZ WEALTH (EUROPE), S.E.",
     "short_name": "CA INDOSUEZ WEA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1546",
     "bic": "",
+    "bank_code": "1546",
     "name": "CNH CAPITAL EUROPE, S.A.S., S.E.",
     "short_name": "CNH CAPITAL EUR"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1547",
     "bic": "",
+    "bank_code": "1547",
     "name": "LOMBARD ODIER (EUROPE), S.A., SUCURSAL EN ESPA\u00d1A",
     "short_name": "LOMBARD ODIER"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1548",
     "bic": "",
+    "bank_code": "1548",
     "name": "DELL BANK INTERNATIONAL LIMITED SUCURSAL EN ESPA\u00d1A",
     "short_name": "DEL BANK INTER."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1549",
     "bic": "",
+    "bank_code": "1549",
     "name": "MAINFIRST BANK AG, SUCURSAL EN ESPA\u00d1A",
-    "short_name": "MAINFIRST"
+    "short_name": "MAINFIRST",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1550",
     "bic": "ETICES21",
+    "bank_code": "1550",
     "name": "BANCA POPOLARE ETICA SCPA, SUCURSAL EN ESPA\u00d1A",
     "short_name": "BANCA POPOLARE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1551",
     "bic": "",
+    "bank_code": "1551",
     "name": "SUMITOMO MITSUI BANKING CORPORATION EUROPE LIMITED",
     "short_name": "SUMITOMO MITSUI"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1552",
     "bic": "MIRAESMM",
+    "bank_code": "1552",
     "name": "MIRABAUD & CIE (EUROPE) S.A., SUCURSAL EN ESPA\u00d1A",
     "short_name": "MIRABAUD & CIE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1553",
     "bic": "",
+    "bank_code": "1553",
     "name": "CHINA CONSTRUCTION BANK (EUROPE), S.A., S.E.",
     "short_name": "CHINA CONSTRUCT"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1554",
     "bic": "FASNESM1",
+    "bank_code": "1554",
     "name": "BANCA FARMAFACTORING SPA, SUCURSAL EN ESPA\u00d1A",
     "short_name": "BANCA FARMAFACT"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1555",
     "bic": "",
+    "bank_code": "1555",
     "name": "CM-CIC BAIL, SUCURSAL EN ESPA\u00d1A",
     "short_name": "CM-CIC BAIL, S."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1556",
     "bic": "",
+    "bank_code": "1556",
     "name": "ABN AMRO BANK N.V., SUCURSAL EN ESPA\u00d1A",
     "short_name": "ABN AMRO BANK N"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1557",
     "bic": "",
+    "bank_code": "1557",
     "name": "UNICREDIT, S.P.A., SUCURSAL EN ESPA\u00d1A",
     "short_name": "UNICREDIT, S.P."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1558",
     "bic": "",
+    "bank_code": "1558",
     "name": "RBC EUROPE LIMITED, SUCURSAL EN ESPA\u00d1A",
     "short_name": "RBC EUROPE LIMI"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "1515",
-    "bic": "",
     "name": "CITIBANK, N.A., S.E.",
-    "short_name": "CITIBANK, N.A."
+    "short_name": "CITIBANK, N.A.",
+    "status": "merged",
+    "successor_bank_code": "1474"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0147",
     "bic": "CHASESM3",
+    "bank_code": "0147",
     "name": "MORGAN GUARANTY TRUST COMPANY OF NEW YORK, S.E.",
-    "short_name": "MORGAN GUARANTY"
+    "short_name": "MORGAN GUARANTY",
+    "status": "merged",
+    "successor_bank_code": "0151"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0148",
     "bic": "",
+    "bank_code": "0148",
     "name": "THE CHASE MANHATTAN BANK N.A., SUCURSAL EN ESPA\u00d1A",
     "short_name": "CHASE MANHATTAN"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0151",
     "bic": "CHASESM3",
+    "bank_code": "0151",
     "name": "JPMORGAN CHASE BANK NATIONAL ASSOCIATION, S.E.",
     "short_name": "JPMORGAN CHASE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0160",
     "bic": "BOTKESMX",
+    "bank_code": "0160",
     "name": "THE BANK OF TOKYO-MITSUBISHI UFJ, LTD, S.E.",
     "short_name": "TOKYO-MITSUBISH"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0161",
     "bic": "BOTKESMX",
+    "bank_code": "0161",
     "name": "DEUTSCHE BANK TRUST COMPANY AMERICAS, S.E.",
-    "short_name": "DB-TRUST COMPAN"
+    "short_name": "DB-TRUST COMPAN",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0164",
-    "bic": "",
     "name": "BANCO STANDARD CHARTERED S.E.",
-    "short_name": "STANDARD CHARTE"
+    "short_name": "STANDARD CHARTE",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0166",
     "bic": "",
+    "bank_code": "0166",
     "name": "BANCO DO ESTADO DE SAO PAULO, S.A., S. MADRID",
-    "short_name": "BANESPA"
+    "short_name": "BANESPA",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0169",
     "bic": "NACNESMM",
+    "bank_code": "0169",
     "name": "BANCO DE LA NACION ARGENTINA, S.E.",
     "short_name": "NACION ARGENT."
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0170",
-    "bic": "",
     "name": "BANCO REAL, S.A., S.E.",
-    "short_name": "BANCO REAL"
+    "short_name": "BANCO REAL",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0171",
     "bic": "",
+    "bank_code": "0171",
     "name": "THE SUMITOMO BANK, S.E.",
-    "short_name": "SUMITOMO BANK"
+    "short_name": "SUMITOMO BANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0176",
     "bic": "BOTKESMX",
+    "bank_code": "0176",
     "name": "THE BANK OF TOKYO-MITSUBISHI LTD., SUC. ESPA\u00d1A",
     "short_name": "TOKYO-MITSUBISH"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0177",
-    "bic": "",
     "name": "THE SAKURA BANK LIMITED, S.E.",
-    "short_name": "SAKURA BANK"
+    "short_name": "SAKURA BANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0178",
-    "bic": "",
     "name": "ROYAL BANK OF CANADA, SUCURSAL EN ESPA\u00d1A",
-    "short_name": "ROYAL BANK"
+    "short_name": "ROYAL BANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0189",
-    "bic": "",
     "name": "MIZUHO CORPORATE BANK LTD. S.E.",
-    "short_name": "MIZUHO"
+    "short_name": "MIZUHO",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0195",
-    "bic": "",
     "name": "THE SANWA BANK LIMITED, S.E.",
-    "short_name": "SANWA BANK"
+    "short_name": "SANWA BANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0199",
-    "bic": "",
     "name": "CREDIT SUISSE FIRST BOSTON, S.E.",
-    "short_name": "CREDIT SUISSE"
+    "short_name": "CREDIT SUISSE",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0203",
-    "bic": "",
     "name": "THE FUJI BANK LIMITED, S.E.",
-    "short_name": "FUJI BANK"
+    "short_name": "FUJI BANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0206",
-    "bic": "",
     "name": "THE DAI-ICHI KANGYO BANK LIMITED, S.E.",
-    "short_name": "DAI-ICHI KANGYO"
+    "short_name": "DAI-ICHI KANGYO",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "0207",
-    "bic": "",
     "name": "THE TOKAI BANK LIMITED, S.E.",
-    "short_name": "THE TOKAI BANK"
+    "short_name": "THE TOKAI BANK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "0214",
     "bic": "ARABESMM",
+    "bank_code": "0214",
     "name": "ARAB BANK, PLC, S.E.",
-    "short_name": "ARAB BANK"
+    "short_name": "ARAB BANK",
+    "status": "merged",
+    "successor_bank_code": "1505"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1452",
     "bic": "",
+    "bank_code": "1452",
     "name": "UBS, A.G. S.E.",
-    "short_name": "UBS, A.G."
+    "short_name": "UBS, A.G.",
+    "status": "merged",
+    "successor_bank_code": "0226"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1460",
     "bic": "CRESESMM",
+    "bank_code": "1460",
     "name": "CREDIT SUISSE AG, S.E.",
     "short_name": "CREDIT SUISSE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "1515",
-    "bic": "",
-    "name": "CITIBANK, N.A., S.E.",
-    "short_name": "CITIBANK, N.A."
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "3018",
     "bic": "BCOEESMM018",
+    "bank_code": "3018",
     "name": "CAJA R.R.S.AGUSTIN DE FUENTE ALAMO M., S.C.C.",
     "short_name": "C.R.R.S.AGUSTIN"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3019",
     "bic": "",
+    "bank_code": "3019",
     "name": "SDAD. COOP. ANDALUZA CTO., CAJA RURAL SAN JOSE",
-    "short_name": "CR. SAN JOSE"
+    "short_name": "CR. SAN JOSE",
+    "status": "merged"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3020",
     "bic": "BCOEESMM020",
+    "bank_code": "3020",
     "name": "CAJA R. DE UTRERA, S.C.A.C.",
     "short_name": "C.R. DE UTRERA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3021",
     "bic": "BCOEESMM191",
+    "bank_code": "3021",
     "name": "CAJA R. DE ARAGON, S.C.C.",
     "short_name": "CAJALON"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3022",
     "bic": "BCOEESMM060",
+    "bank_code": "3022",
     "name": "CAJA R. DE FUENTEPELAYO, S.C.C.",
-    "short_name": "CAJA CEGA"
+    "short_name": "CAJA CEGA",
+    "status": "merged",
+    "successor_bank_code": "3060"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3023",
     "bic": "BCOEESMM023",
+    "bank_code": "3023",
     "name": "CAJA R. DE GRANADA, S.C.C.",
     "short_name": "C.R.DE GRANADA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3024",
     "bic": "BAOFESM1",
+    "bank_code": "3024",
     "name": "ACOFAR, S.C.C.L.",
-    "short_name": "ACOFAR"
+    "short_name": "ACOFAR",
+    "status": "merged",
+    "successor_bank_code": "0125"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3025",
     "bic": "CDENESBB",
+    "bank_code": "3025",
     "name": "CAIXA DE C. DELS ENGINYERS-C.C. INGENIEROS, S.C.C",
     "short_name": "C. D'ENGINYERS"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3029",
     "bic": "CCRIES2A029",
+    "bank_code": "3029",
     "name": "CAJA DE CREDITO DE PETREL, CAJA RURAL, C.C.V.",
     "short_name": "CAIXAPETRER"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3035",
     "bic": "CLPEES2M",
+    "bank_code": "3035",
     "name": "CAJA LABORAL POPULAR COOP. DE CREDITO",
     "short_name": "CAJA LABORAL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3045",
     "bic": "CCRIES2A045",
+    "bank_code": "3045",
     "name": "CAIXA R. ALTEA, C.C.V.",
     "short_name": "CAIXALTEA"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CCRIES2A",
     "bank_code": "3054",
-    "bic": "CCRIES2A",
     "name": "CAJA GRUMECO, S.C.C.",
-    "short_name": "CAJA GRUMECO"
+    "short_name": "CAJA GRUMECO",
+    "status": "merged",
+    "successor_bank_code": "3072"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3056",
     "bic": "BCOEESMM190",
+    "bank_code": "3056",
     "name": "CAJA R. DE ALBACETE, S.C.C.",
-    "short_name": "C.R. ALBACETE"
+    "short_name": "C.R. ALBACETE",
+    "status": "merged",
+    "successor_bank_code": "3190"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CCRIES2A",
     "bank_code": "3057",
-    "bic": "CCRIES2A",
     "name": "CAJA R. ALICANTE, S.C.C.",
-    "short_name": "C.R. ALICANTE"
+    "short_name": "C.R. ALICANTE",
+    "status": "merged",
+    "successor_bank_code": "3082"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3058",
     "bic": "CCRIES2A",
+    "bank_code": "3058",
     "name": "CAJAMAR CAJA RURAL, S.C.C.",
     "short_name": "CAJAMAR CAJA RU"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3059",
     "bic": "BCOEESMM059",
+    "bank_code": "3059",
     "name": "CAJA R. DE ASTURIAS, S.C.C.",
     "short_name": "C.R. ASTURIAS"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3060",
     "bic": "BCOEESMM060",
+    "bank_code": "3060",
     "name": "C.R. BURGOS,FUENTEPELAYO,SEGOVIA Y CASTELLDANS,SCC",
     "short_name": "CAJAVIVA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3061",
     "bic": "CCRIES2A",
+    "bank_code": "3061",
     "name": "CAJA R. CREDICOOP, S.C.C.",
-    "short_name": "CREDICOOP"
+    "short_name": "CREDICOOP",
+    "status": "merged",
+    "successor_bank_code": "3082"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BCOEESMM190",
     "bank_code": "3062",
-    "bic": "BCOEESMM190",
     "name": "CAJA R. DE CIUDAD REAL, S.C.C.",
-    "short_name": "C.R.CIUDAD REAL"
+    "short_name": "C.R.CIUDAD REAL",
+    "status": "merged",
+    "successor_bank_code": "3190"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BCOEESMM187",
     "bank_code": "3063",
-    "bic": "BCOEESMM187",
     "name": "CAJA R. DE CORDOBA, S.C.C.",
-    "short_name": "C.R. DE CORDOBA"
+    "short_name": "C.R. DE CORDOBA",
+    "status": "merged",
+    "successor_bank_code": "3187"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3064",
     "bic": "BCOEESMM190",
+    "bank_code": "3064",
     "name": "CAJA R. DE CUENCA, S.C.C.",
-    "short_name": "C.R. DE CUENCA"
+    "short_name": "C.R. DE CUENCA",
+    "status": "merged",
+    "successor_bank_code": "3190"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3065",
     "bic": "BCOEESMM187",
+    "bank_code": "3065",
     "name": "CAJA R. DE HUELVA, S.C.C.",
-    "short_name": "C.R. DE HUELVA"
+    "short_name": "C.R. DE HUELVA",
+    "status": "merged",
+    "successor_bank_code": "3187"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3066",
     "bic": "BCOEESMM191",
+    "bank_code": "3066",
     "name": "CAJA R. DE HUESCA, S.C.C.",
-    "short_name": "C.R. DE HUESCA"
+    "short_name": "C.R. DE HUESCA",
+    "status": "merged",
+    "successor_bank_code": "3189"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3067",
     "bic": "BCOEESMM067",
+    "bank_code": "3067",
     "name": "CAJA R. DE JAEN, BARCELONA Y MADRID, S.C.C.",
     "short_name": "C.R. JAEN"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3068",
     "bic": "CAGLESMM",
+    "bank_code": "3068",
     "name": "CAJA RURAL DE LEON, SDAD. COOP. CTO. LTDA.",
-    "short_name": "CR. DE LEON"
+    "short_name": "CR. DE LEON",
+    "status": "merged",
+    "successor_bank_code": "2091"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3069",
     "bic": "CAZRES2Z",
+    "bank_code": "3069",
     "name": "CAIXA RURAL DE CATALUNYA, S.C.CATALANA CTO.LTDA.",
-    "short_name": "CR.CATALUNYA"
+    "short_name": "CR.CATALUNYA",
+    "status": "merged",
+    "successor_bank_code": "2085"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3070",
     "bic": "BCOEESMM070",
+    "bank_code": "3070",
     "name": "CAIXA R. GALEGA, S.C.C.L.G.",
     "short_name": "C.R. GALEGA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3072",
     "bic": "CCRIES2A",
+    "bank_code": "3072",
     "name": "CAJA R. DE MALAGA, S.C.C.",
-    "short_name": "C.R. DE MALAGA"
+    "short_name": "C.R. DE MALAGA",
+    "status": "merged",
+    "successor_bank_code": "3058"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3076",
     "bic": "BCOEESMM076",
+    "bank_code": "3076",
     "name": "CAJASIETE, CAJA RURAL, S.C.C.",
     "short_name": "CAJASIETE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3078",
     "bic": "BCOEESMM060",
+    "bank_code": "3078",
     "name": "CAJA R. DE SEGOVIA, C.C.",
-    "short_name": "C.R. DE SEGOVIA"
+    "short_name": "C.R. DE SEGOVIA",
+    "status": "merged",
+    "successor_bank_code": "3060"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3079",
     "bic": "BCOEESMM187",
+    "bank_code": "3079",
     "name": "CAJA R. DE SEVILLA, S.C.C.",
-    "short_name": "C.R. DE SEVILLA"
+    "short_name": "C.R. DE SEVILLA",
+    "status": "merged",
+    "successor_bank_code": "3187"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3080",
     "bic": "BCOEESMM080",
+    "bank_code": "3080",
     "name": "CAJA R. DE TERUEL, S.C.C.",
     "short_name": "C.R. DE TERUEL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3081",
     "bic": "BCOEESMM081",
+    "bank_code": "3081",
     "name": "CAJA R. DE CASTILLA-LA MANCHA, S.C.C.",
     "short_name": "CAJA R.CASTILLA"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CCRIES2A",
     "bank_code": "3082",
-    "bic": "CCRIES2A",
     "name": "CAJA R. DEL MEDITERRANEO, RURALCAJA, S.C.C.",
-    "short_name": "RURALCAJA"
+    "short_name": "RURALCAJA",
+    "status": "merged",
+    "successor_bank_code": "3058"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3083",
     "bic": "CCRIES2A",
+    "bank_code": "3083",
     "name": "CAJA R. DEL DUERO, S.C.C.L.",
-    "short_name": "C.R. DEL DUERO"
+    "short_name": "C.R. DEL DUERO",
+    "status": "merged",
+    "successor_bank_code": "3058"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3084",
     "bic": "CLPEES2M",
+    "bank_code": "3084",
     "name": "IPAR KUTXA RURAL, S.C.C.",
-    "short_name": "IPAR KUTXA"
+    "short_name": "IPAR KUTXA",
+    "status": "merged",
+    "successor_bank_code": "3035"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3085",
     "bic": "BCOEESMM085",
+    "bank_code": "3085",
     "name": "CAJA R. DE ZAMORA, C.C.",
     "short_name": "C.R. DE ZAMORA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3089",
     "bic": "BCOEESMM089",
+    "bank_code": "3089",
     "name": "CAJA R. BAENA NTRA. SRA. GUADALUPE S.C.C.A.",
     "short_name": "C.R.BAENA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3090",
     "bic": "",
+    "bank_code": "3090",
     "name": "C.R.C. DE CARRION DE LOS CONDES, EN LIQUIDACION",
-    "short_name": "CRCCARRION"
+    "short_name": "CRCCARRION",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BCOEESMM191",
     "bank_code": "3092",
-    "bic": "BCOEESMM191",
     "name": "CAJA R. DE ZARAGOZA, S.C.C.",
-    "short_name": "C.R. ZARAGOZA"
+    "short_name": "C.R. ZARAGOZA",
+    "status": "merged",
+    "successor_bank_code": "3189"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3093",
     "bic": "BCOEESMM191",
+    "bank_code": "3093",
     "name": "CAJA R. DEL CAMPO DE CARI\u00d1ENA, S.C.C.L.",
-    "short_name": "C.R. CARI\u00d1ENA"
+    "short_name": "C.R. CARI\u00d1ENA",
+    "status": "merged"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3094",
     "bic": "CCRIES2A",
+    "bank_code": "3094",
     "name": "CAJA CAMPO, CAJA RURAL, S.C.C.",
-    "short_name": "CAJACAMPO"
+    "short_name": "CAJACAMPO",
+    "status": "merged",
+    "successor_bank_code": "3058"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3095",
     "bic": "CCRIES2A095",
+    "bank_code": "3095",
     "name": "CAJA R. S. ROQUE DE ALMENARA S.C.C.V.",
     "short_name": "C.R. S.ROQUE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3096",
     "bic": "BCOEESMM096",
+    "bank_code": "3096",
     "name": "CAIXA R. DE L'ALCUDIA, S.C.V.C.",
     "short_name": "C.R. L'ALCUDIA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3097",
     "bic": "",
+    "bank_code": "3097",
     "name": "CAJA DE PROMOCION Y CREDITO, S. COOP. LIMITADA",
-    "short_name": "C.PROMOCRTO."
+    "short_name": "C.PROMOCRTO.",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3098",
     "bic": "BCOEESMM098",
+    "bank_code": "3098",
     "name": "CAJA R. NTRA. SRA. DEL ROSARIO, S.C.A.C.",
     "short_name": "N.S.DEL ROSARIO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3100",
     "bic": "",
+    "bank_code": "3100",
     "name": "CAJA RURAL DE CARCAIXENT, COOP. CTO. VALENCIANA",
-    "short_name": "CR.CARCAIXEN"
+    "short_name": "CR.CARCAIXEN",
+    "status": "merged",
+    "successor_bank_code": "3082"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3102",
     "bic": "CCRIES2A102",
+    "bank_code": "3102",
     "name": "CAIXA R. S. VICENT FERRER DE LA VALL D'UIXO,C.C.V.",
     "short_name": "C. SANT VICENT"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3104",
     "bic": "BCOEESMM104",
+    "bank_code": "3104",
     "name": "CAJA R. DE CA\u00d1ETE TORRES NTRA.SRA.DEL CAMPO,S.C.A.",
     "short_name": "C.R.CA\u00d1ETE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3105",
     "bic": "CCRIES2A105",
+    "bank_code": "3105",
     "name": "CAIXA R. DE CALLOSA D'EN SARRIA, C.C.V.",
     "short_name": "CAIXACALLOSA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3108",
     "bic": "CCRIES2A",
+    "bank_code": "3108",
     "name": "CAJA R. S. ANTONIO DE BENICASIM, S.C.C.V.",
-    "short_name": "C.R. BENICASIM"
+    "short_name": "C.R. BENICASIM",
+    "status": "merged",
+    "successor_bank_code": "3061"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3110",
     "bic": "CCRIES2A110",
+    "bank_code": "3110",
     "name": "CAJA R. CATOLICO AGRARIA, S.C.C.V.",
     "short_name": "C.R.VILLARREAL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3111",
     "bic": "BCOEESMM111",
+    "bank_code": "3111",
     "name": "CAIXA R. LA VALL 'S. ISIDRO', S.C.C.V.",
     "short_name": "C.R. LA VALL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3112",
     "bic": "CCRIES2A112",
+    "bank_code": "3112",
     "name": "CAJA R. S. JOSE DE BURRIANA, S.C.C.V.",
     "short_name": "C.R. SAN JOSE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3113",
     "bic": "BCOEESMM113",
+    "bank_code": "3113",
     "name": "CAJA R. S. JOSE DE ALCORA S.C.C.V.",
     "short_name": "SAN JOSE ALCORA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3114",
     "bic": "CCRIES2A",
+    "bank_code": "3114",
     "name": "CAJA R. CASTELLON S. ISIDRO, S.C.C.V.",
-    "short_name": "C.R. CASTELLON"
+    "short_name": "C.R. CASTELLON",
+    "status": "merged",
+    "successor_bank_code": "3058"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3115",
     "bic": "BCOEESMM115",
+    "bank_code": "3115",
     "name": "CAJA R. 'NUESTRA MADRE DEL SOL', S.C.A.C.",
     "short_name": "CR N. MADRE SOL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3116",
     "bic": "BCOEESMM190",
+    "bank_code": "3116",
     "name": "CAJA R. DE MOTA DEL CUERVO, S.C.C.C.M.",
-    "short_name": "C.R.MOTA CUERVO"
+    "short_name": "C.R.MOTA CUERVO",
+    "status": "merged",
+    "successor_bank_code": "3190"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3117",
     "bic": "BCOEESMM117",
+    "bank_code": "3117",
     "name": "CAIXA R. D'ALGEMESI, S.C.V.C.",
     "short_name": "C.R.D'ALGEMESI"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3118",
     "bic": "CCRIES2A118",
+    "bank_code": "3118",
     "name": "CAIXA RURAL TORRENT C.C.V.",
     "short_name": "C.R.TORRENT"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3119",
     "bic": "CCRIES2A119",
+    "bank_code": "3119",
     "name": "CAJA R. S. JAIME ALQUERIAS NI\u00d1O PERDIDO S.C.C.V.",
     "short_name": "C.R. S. JAIME"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3121",
     "bic": "CCRIES2A121",
+    "bank_code": "3121",
     "name": "CAJA R. DE CHESTE, S.C.C.",
     "short_name": "C.R. DE CHESTE"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3123",
     "bic": "CCRIES2A123",
+    "bank_code": "3123",
     "name": "CAIXA R. DE TURIS, C.C.V.",
     "short_name": "C.R. DE TURIS"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3124",
     "bic": "",
+    "bank_code": "3124",
     "name": "CAJA RURAL DE GODELLETA, COOP. CTO. VALENCIANA",
-    "short_name": "CR.GODELLETA"
+    "short_name": "CR.GODELLETA",
+    "status": "merged",
+    "successor_bank_code": "3094"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3127",
     "bic": "BCOEESMM127",
+    "bank_code": "3127",
     "name": "CAJA R. DE CASAS IBA\u00d1EZ, S.C.C.CASTILLA-LA MANCHA",
     "short_name": "C.R.CASASIBA\u00d1EZ"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3128",
     "bic": "BCOEESMM190",
+    "bank_code": "3128",
     "name": "CAJA R. DE LA RODA, S.C.C. DE CASTILLA LA MANCHA",
-    "short_name": "C.R. DE LA RODA"
+    "short_name": "C.R. DE LA RODA",
+    "status": "merged",
+    "successor_bank_code": "3056"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3129",
     "bic": "BCOEESMM191",
+    "bank_code": "3129",
     "name": "CAIXA R. SEGRE-CINCA, S.C.C.C.L.",
-    "short_name": "C.R.SEGRE-CINCA"
+    "short_name": "C.R.SEGRE-CINCA",
+    "status": "merged",
+    "successor_bank_code": "3066"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3130",
     "bic": "BCOEESMM130",
+    "bank_code": "3130",
     "name": "CAJA R. S. JOSE DE ALMASSORA, S.C.C.V.",
     "short_name": "CAIXA ALMASSORA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3131",
     "bic": "CCRIES2A",
+    "bank_code": "3131",
     "name": "CAJA R. S. JOSE DE ARTANA, C.C.V.",
-    "short_name": "C.R. DE ARTANA"
+    "short_name": "C.R. DE ARTANA",
+    "status": "merged",
+    "successor_bank_code": "3061"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3134",
     "bic": "BCOEESMM134",
+    "bank_code": "3134",
     "name": "CAJA R. NTRA. SRA. LA ESPERANZA DE ONDA, S.C.C.V.",
     "short_name": "C.R. ESPERANZA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3135",
     "bic": "CCRIES2A135",
+    "bank_code": "3135",
     "name": "CAJA R. S. JOSE DE NULES S.C.C.V.",
     "short_name": "SAN JOSE NULES"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3137",
     "bic": "CCRIES2A",
+    "bank_code": "3137",
     "name": "CAJA R. DE CASINOS S.C.C.V.",
-    "short_name": "C.R. DE CASINOS"
+    "short_name": "C.R. DE CASINOS",
+    "status": "merged",
+    "successor_bank_code": "3058"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3138",
     "bic": "BCOEESMM138",
+    "bank_code": "3138",
     "name": "RURALNOSTRA, S.C.C.V.",
     "short_name": "RURALNOSTRA, S."
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "UCJAES2M",
     "bank_code": "3139",
-    "bic": "",
-    "name": "CAJA RURAL DE ARENAS DE SAN PEDRO, S.C.C.L.",
-    "short_name": "CR.ARENAS"
+    "name": "UNICAJA BANCO, S.A.",
+    "short_name": "UNICAJA BANCO",
+    "status": "merged",
+    "successor_bank_code": "2061",
+    "legacy_name": "CAJA RURAL DE ARENAS DE SAN PEDRO, S.C.C.L."
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3140",
     "bic": "BCOEESMM140",
+    "bank_code": "3140",
     "name": "CAJA R. DE GUISSONA, S.C.C.",
     "short_name": "C.R.DE GUISSONA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3141",
     "bic": "BBVAESMM",
+    "bank_code": "3141",
     "name": "CAIXA RURAL PENEDES-GARRAF, S.C. CATALANA C.LTDA.",
-    "short_name": "CR.PENEDES-G"
+    "short_name": "CR.PENEDES-G",
+    "status": "merged",
+    "successor_bank_code": "2013"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3142",
     "bic": "",
+    "bank_code": "3142",
     "name": "S.COOP.LTDA.CTO. AGRARIO CAJA RURAL DE ALMENAR",
-    "short_name": "CR.ALMENAR"
+    "short_name": "CR.ALMENAR",
+    "status": "merged",
+    "successor_bank_code": "2011"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3144",
     "bic": "BCOEESMM144",
+    "bank_code": "3144",
     "name": "CAJA R. DE VILLAMALEA, S.C.C.A. CASTILLA-LA MANCHA",
     "short_name": "C.R. VILLAMALEA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3146",
     "bic": "CCCVESM1",
+    "bank_code": "3146",
     "name": "CAJA DE CREDITO COOPERATIVO, S.C.C.",
-    "short_name": "NOVANCA"
+    "short_name": "NOVANCA",
+    "status": "merged",
+    "successor_bank_code": "3067"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3147",
     "bic": "CCRIES2A",
+    "bank_code": "3147",
     "name": "CAIXA R. DE BALEARS, S.C.C.",
-    "short_name": "C.R. DE BALEARS"
+    "short_name": "C.R. DE BALEARS",
+    "status": "merged",
+    "successor_bank_code": "3058"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3161",
     "bic": "BCOEESMM060",
+    "bank_code": "3161",
     "name": "CAJA R. S. FORTUNATO, S.C.C.C.L.",
-    "short_name": "C.R.S. FORTUNAT"
+    "short_name": "C.R.S. FORTUNAT",
+    "status": "merged",
+    "successor_bank_code": "3060"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3162",
     "bic": "BCOEESMM162",
+    "bank_code": "3162",
     "name": "CAIXA R. BENICARLO, S.C.C.V.",
     "short_name": "C.R. BENICARLO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3163",
     "bic": "CCRIES2A",
+    "bank_code": "3163",
     "name": "CAJA R. NTRA. SRA. BUENSUCESO DE CABANES, S.C.C.V.",
-    "short_name": "C.R. DE CABANES"
+    "short_name": "C.R. DE CABANES",
+    "status": "merged",
+    "successor_bank_code": "3061"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3165",
     "bic": "CCRIES2A165",
+    "bank_code": "3165",
     "name": "CAJA R. S. ISIDRO DE VILAFAMES, S.C.C.V.",
     "short_name": "C.R. VILAFAMES"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3166",
     "bic": "BCOEESMM166",
+    "bank_code": "3166",
     "name": "CAIXA RURAL LES COVES DE VINROMA, S.C.C.V.",
     "short_name": "CR COVES VINROM"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3167",
     "bic": "CCRIES2A",
+    "bank_code": "3167",
     "name": "CAJA R. S. JUAN BAUTISTA DE S. JUAN MORO, C.C.V.",
-    "short_name": "C.R. S.J. MORO"
+    "short_name": "C.R. S.J. MORO",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "3168",
-    "bic": "",
     "name": "CAJA RURAL DE MONTROY, COOP. CTO. VALENCIANA",
-    "short_name": "C.R. MONTROY"
+    "short_name": "C.R. MONTROY",
+    "status": "merged",
+    "successor_bank_code": "3118"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "3169",
-    "bic": "",
     "name": "COBANEXPO, S.C.C.L.",
-    "short_name": "COBANEXPO"
+    "short_name": "COBANEXPO",
+    "status": "merged",
+    "successor_bank_code": "3008"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3171",
     "bic": "BCOEESMM191",
+    "bank_code": "3171",
     "name": "CAIXA DELS ADVOCATS-CAJA DE LOS ABOGADOS, S.C.C.",
-    "short_name": "CAIXA ADVOCATS"
+    "short_name": "CAIXA ADVOCATS",
+    "status": "merged",
+    "successor_bank_code": "3189"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3172",
     "bic": "CCOCESMM",
+    "bank_code": "3172",
     "name": "CAJA CAMINOS, S.C.C.",
-    "short_name": "CAJA CAMINOS"
+    "short_name": "CAJA CAMINOS",
+    "status": "merged",
+    "successor_bank_code": "0234"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3173",
     "bic": "",
+    "bank_code": "3173",
     "name": "CAJA RURAL PROVINCIAL DE GUADALAJARA, S.C.C.L.",
-    "short_name": "CR.GUADALAJA"
+    "short_name": "CR.GUADALAJA",
+    "status": "merged",
+    "successor_bank_code": "3081"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3174",
     "bic": "BCOEESMM174",
+    "bank_code": "3174",
     "name": "CAIXA R. VINAROS, S.C.C.V.",
     "short_name": "CAIXA VINAROS"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3150",
     "bic": "BCOEESMM150",
+    "bank_code": "3150",
     "name": "CAJA RURAL DE ALBAL COOP. DE CREDITO V.",
     "short_name": "C.R. DE ALBAL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3152",
     "bic": "CCRIES2A152",
+    "bank_code": "3152",
     "name": "CAJA R. DE VILLAR C.C.V.",
     "short_name": "C.R. DE VILLAR"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3154",
     "bic": "",
+    "bank_code": "3154",
     "name": "CAJA R. DE LA CARLOTA, S.C.A.C.L. (EN LIQUIDACION)",
     "short_name": "C.R. LA CARLOTA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3155",
     "bic": "",
+    "bank_code": "3155",
     "name": "CAJA RURAL DE MONCOFAR, COOP. CTO. VALENCIANA",
-    "short_name": "C.R.MONCOFAR"
+    "short_name": "C.R.MONCOFAR",
+    "status": "merged"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3157",
     "bic": "CCRIES2A157",
+    "bank_code": "3157",
     "name": "CAJA R. LA JUNQUERA DE CHILCHES, S.C.C.V.",
     "short_name": "CAIXA R. XILXES"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3159",
     "bic": "BCOEESMM159",
+    "bank_code": "3159",
     "name": "CAIXA POPULAR-CAIXA RURAL, S.C.C.V.",
     "short_name": "CAIXA POPULAR"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3160",
     "bic": "CCRIES2A160",
+    "bank_code": "3160",
     "name": "CAIXA R.S.JOSEP DE VILAVELLA, S.C.C.V.",
     "short_name": "C.R. VILAVELLA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3175",
     "bic": "",
+    "bank_code": "3175",
     "name": "CAJA RURAL LA CAMARA DE CASTELLON, C.C. VALENCIANA",
-    "short_name": "CR.CAMARA"
+    "short_name": "CR.CAMARA",
+    "status": "merged",
+    "successor_bank_code": "3114"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3177",
     "bic": "CCRIES2A",
+    "bank_code": "3177",
     "name": "CAJA R. DE CANARIAS, S.C.C.",
-    "short_name": "CR.CANARIAS"
+    "short_name": "CR.CANARIAS",
+    "status": "merged",
+    "successor_bank_code": "3058"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3179",
     "bic": "CCRIES2A179",
+    "bank_code": "3179",
     "name": "CAJA R. DE ALGINET, S.C.C.V.",
     "short_name": "C.R. DE ALGINET"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3181",
     "bic": "CCRIES2A",
+    "bank_code": "3181",
     "name": "CAJA DE ELCHE, CAJA RURAL, C.C.V.",
-    "short_name": "CAJA DE ELCHE"
+    "short_name": "CAJA DE ELCHE",
+    "status": "merged",
+    "successor_bank_code": "3082"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3183",
-    "bic": "CASDESBB",
-    "name": "CAJA DE ARQUITECTOS S.C.C.",
-    "short_name": "ARQUIA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "3184",
     "bic": "",
+    "bank_code": "3184",
     "name": "CAJA DE CREDITO DE ALCOY, C.C.V. (EN LIQUIDACION)",
     "short_name": "CAJA DE ALCOY"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3185",
     "bic": "",
+    "bank_code": "3185",
     "name": "CAIXA CATALONIA DE CREDIT, S.C.C.L.",
-    "short_name": "C.CATALONIA"
+    "short_name": "C.CATALONIA",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3186",
     "bic": "CCRIES2A186",
+    "bank_code": "3186",
     "name": "CAIXA R. ALBALAT DELS SORELLS, C.C.V.",
     "short_name": "ALBALAT"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3187",
     "bic": "BCOEESMM187",
+    "bank_code": "3187",
     "name": "CAJA R. DEL SUR, S. COOP. DE CREDITO",
     "short_name": "CAJA R. SUR"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3188",
     "bic": "CCRIES2A",
+    "bank_code": "3188",
     "name": "CREDIT VALENCIA, C.R.C.C.V.",
-    "short_name": "CREDIT VALENCIA"
+    "short_name": "CREDIT VALENCIA",
+    "status": "merged",
+    "successor_bank_code": "3058"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3189",
     "bic": "BCOEESMM191",
+    "bank_code": "3189",
     "name": "CAJA R. ARAGONESA Y DE LOS PIRINEOS, S.C.C.",
-    "short_name": "MULTICAJA"
+    "short_name": "MULTICAJA",
+    "status": "merged",
+    "successor_bank_code": "3191"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3190",
     "bic": "BCOEESMM190",
+    "bank_code": "3190",
     "name": "C.R. DE ALBACETE, CIUDAD REAL Y CUENCA, S.C.C.",
     "short_name": "GLOBALCAJA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3191",
     "bic": "BCOEESMM191",
+    "bank_code": "3191",
     "name": "CAJA RURAL DE ARAGON SOC. COOP. DE CREDITO",
     "short_name": "BANTIERRA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3498",
     "bic": "",
+    "bank_code": "3498",
     "name": "CAJAS RURALES UNIDAS, S. COOP. DE CREDITO",
-    "short_name": "C.R. UNIDAS"
+    "short_name": "C.R. UNIDAS",
+    "status": "merged",
+    "successor_bank_code": "3058"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3060",
-    "bic": "BCOEESMM060",
-    "name": "C.R. BURGOS,FUENTEPELAYO,SEGOVIA Y CASTELLDANS,SCC",
-    "short_name": "CAJAVIVA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2045",
     "bic": "CECAESMM045",
+    "bank_code": "2045",
     "name": "CAJA DE AHORROS Y M.P. DE ONTINYENT",
     "short_name": "CAJA ONTINYENT"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2046",
     "bic": "CAGLESMM",
+    "bank_code": "2046",
     "name": "CAJA DE AHORROS PROVINCIAL DE ORENSE",
-    "short_name": "CAJA ORENSE"
+    "short_name": "CAJA ORENSE",
+    "status": "merged",
+    "successor_bank_code": "2080"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2047",
-    "bic": "",
     "name": "C.A.Y SOCORROS Y MTE.PIEDAD NTRA.SRA.DE MONSERRATE",
-    "short_name": "C.A.MONSERRA"
+    "short_name": "C.A.MONSERRA",
+    "status": "merged",
+    "successor_bank_code": "2090"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2049",
     "bic": "CSPAES2L",
+    "bank_code": "2049",
     "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE PALENCIA",
-    "short_name": "MTEPALENCIA"
+    "short_name": "MTEPALENCIA",
+    "status": "merged",
+    "successor_bank_code": "2096"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "UCJAES2M",
     "bank_code": "2050",
-    "bic": "",
-    "name": "CAJA DE AHORROS Y PRESTAMOS DE PALENCIA",
-    "short_name": "PTMOPALENCIA"
+    "name": "UNICAJA BANCO, S.A.",
+    "short_name": "UNICAJA BANCO",
+    "status": "merged",
+    "successor_bank_code": "2061",
+    "legacy_name": "CAJA DE AHORROS Y PRESTAMOS DE PALENCIA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2424",
     "bic": "",
+    "bank_code": "2424",
     "name": "CAJA DE AHORROS Y M.P. DE LAS BALEARES",
     "short_name": "SA NOSTRA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2404",
     "bic": "",
+    "bank_code": "2404",
     "name": "CAJA INSULAR DE AHORROS DE CANARIAS",
     "short_name": "CAJA I.CANARIAS"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2053",
     "bic": "CAIXESBB",
+    "bank_code": "2053",
     "name": "CAJA DE AHORROS Y M.P. MUNICIPAL DE PAMPLONA",
-    "short_name": "CAJA PAMPLONA"
+    "short_name": "CAJA PAMPLONA",
+    "status": "merged",
+    "successor_bank_code": "2054"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2410",
     "bic": "",
+    "bank_code": "2410",
     "name": "CAJA DE AHORROS Y M.P. DE NAVARRA",
-    "short_name": "CAJA NAVARRA"
+    "short_name": "CAJA NAVARRA",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2055",
     "bic": "CECAESMM099",
+    "bank_code": "2055",
     "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE PLASENCIA",
     "short_name": "C.PLASENCIA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2056",
     "bic": "CECAESMM056",
+    "bank_code": "2056",
     "name": "COLONYA - CAIXA D'ESTALVIS DE POLLENSA",
     "short_name": "COLONYA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2057",
     "bic": "CAGLESMM",
+    "bank_code": "2057",
     "name": "CAJA DE AHORROS PROVINCIAL DE PONTEVEDRA",
-    "short_name": "CAJA PONTEVEDRA"
+    "short_name": "CAJA PONTEVEDRA",
+    "status": "merged",
+    "successor_bank_code": "2080"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2058",
     "bic": "UCJAES2M",
+    "bank_code": "2058",
     "name": "MONTE DE PIEDAD Y CAJA DE AHORROS DE RONDA",
-    "short_name": "C.RONDA"
+    "short_name": "C.RONDA",
+    "status": "merged",
+    "successor_bank_code": "2103"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2059",
-    "bic": "BBVAESMM",
-    "name": "CAIXA D'ESTALVIS DE SABADELL",
-    "short_name": "CAIXA SABADELL"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
+    "bic": "CAHMESMM",
     "bank_code": "2060",
-    "bic": "CAHMESMM",
     "name": "CAJA DE AHORROS Y SOCORROS DE SAGUNTO",
-    "short_name": "C.SAGUNTO"
+    "short_name": "C.SAGUNTO",
+    "status": "merged",
+    "successor_bank_code": "2077"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "UCJAES2M",
     "bank_code": "2061",
-    "bic": "CSSOES2S",
-    "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE SALAMANCA",
-    "short_name": "C.SALAMANCA"
+    "name": "UNICAJA BANCO, S.A.",
+    "short_name": "UNICAJA BANCO",
+    "status": "merged",
+    "successor_bank_code": "2104",
+    "legacy_name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE SALAMANCA"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BASKES2B",
     "bank_code": "2062",
-    "bic": "BASKES2B",
     "name": "CAJA AHORROS Y MONTE PIEDAD MUNICIPAL S. SEBASTIAN",
-    "short_name": "MPSSEBASTIAN"
+    "short_name": "MPSSEBASTIAN",
+    "status": "merged",
+    "successor_bank_code": "2101"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2063",
     "bic": "BASKES2B",
+    "bank_code": "2063",
     "name": "CAJA DE AHORROS PROVINCIAL DE GUIPUZCOA",
-    "short_name": "CAPGUIPUZCOA"
+    "short_name": "CAPGUIPUZCOA",
+    "status": "merged",
+    "successor_bank_code": "2101"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2064",
-    "bic": "",
     "name": "CAJA DE AHORROS INSULAR DE LA PALMA",
-    "short_name": "STACLAPALMA"
+    "short_name": "STACLAPALMA",
+    "status": "merged",
+    "successor_bank_code": "2065"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2412",
-    "bic": "",
     "name": "CAJA GENERAL DE AHORROS DE CANARIAS",
-    "short_name": "CAJA CANARIAS"
+    "short_name": "CAJA CANARIAS",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2416",
-    "bic": "",
     "name": "CAJA DE AHORROS DE SANTANDER Y CANTABRIA",
-    "short_name": "CAJA CANTABRIA"
+    "short_name": "CAJA CANTABRIA",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2067",
-    "bic": "",
     "name": "CAJA DE AHORROS - MONTE DE PIEDAD DE SANTIAGO",
-    "short_name": "SANTIAGO"
+    "short_name": "SANTIAGO",
+    "status": "merged",
+    "successor_bank_code": "2091"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2068",
     "bic": "CAHMESMM",
+    "bank_code": "2068",
     "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE SEGORBE",
-    "short_name": "C.SEGORBE"
+    "short_name": "C.SEGORBE",
+    "status": "merged",
+    "successor_bank_code": "2077"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2408",
     "bic": "",
+    "bank_code": "2408",
     "name": "CAJA DE AHORROS Y M.P. DE SEGOVIA",
     "short_name": "CAJA DE SEGOVIA"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CAIXESBB",
     "bank_code": "2070",
-    "bic": "CAIXESBB",
     "name": "MONTE DE PIEDAD Y CAJA DE AHORROS DE SEVILLA",
-    "short_name": "MONTESEVILLA"
+    "short_name": "MONTESEVILLA",
+    "status": "merged",
+    "successor_bank_code": "2098"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CAIXESBB",
     "bank_code": "2071",
-    "bic": "CAIXESBB",
     "name": "CAJA DE AH. PROV. SAN FERNANDO DE SEVILLA Y JEREZ",
-    "short_name": "CAJA S.FERNANDO"
+    "short_name": "CAJA S.FERNANDO",
+    "status": "merged",
+    "successor_bank_code": "2106"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2072",
-    "bic": "CSSOES2S",
-    "name": "CAJA GRAL.AHORROS Y PTOS.DE LA PROVINCIA DE SORIA",
-    "short_name": "C.SORIA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2073",
-    "bic": "BBVAESMM",
-    "name": "CAIXA D'ESTALVIS DE TARRAGONA",
-    "short_name": "CAIXA TARRAGONA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2074",
-    "bic": "BBVAESMM",
-    "name": "CAIXA D'ESTALVIS DE TERRASSA",
-    "short_name": "CAIXA TERRASSA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2075",
-    "bic": "CECAESMM105",
-    "name": "CAJA DE AHORROS PROVINCIAL DE TOLEDO",
-    "short_name": "CAJATOLEDO"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2076",
-    "bic": "BSABESBB",
-    "name": "CAJA GRAL.DE AHORROS Y MONTE DE PIEDAD DE TORRENT",
-    "short_name": "C.A.TORRENT"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2403",
-    "bic": "",
-    "name": "CAJA AH. VALENCIA, CASTELLON Y ALICANTE, BANCAJA",
-    "short_name": "BANCAJA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2078",
-    "bic": "CSPAES2L",
-    "name": "CAJA DE AHORROS POPULAR DE VALLADOLID",
-    "short_name": "POVALLADOLID"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2079",
-    "bic": "CSPAES2L",
-    "name": "CAJA DE AHORROS PROVINCIAL DE VALLADOLID",
-    "short_name": "PRVALLADOLID"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2423",
-    "bic": "",
-    "name": "CAIXA D'ESTALVIS DEL PENEDES",
-    "short_name": "CAIXA PENEDES"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2082",
-    "bic": "BASKES2B",
-    "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE VITORIA",
-    "short_name": "CAJAVITORIA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2083",
-    "bic": "BASKES2B",
-    "name": "CAJA PROVINCIAL DE AHORROS DE ALAVA",
-    "short_name": "C. ALAVA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2084",
-    "bic": "CSPAES2L",
-    "name": "CAJA DE AHORROS PROVINCIAL DE ZAMORA",
-    "short_name": "C.ZAMORA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2087",
-    "bic": "",
-    "name": "CAJA DE AHORROS PROVINCIAL DE LUGO",
-    "short_name": "LUGO"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2088",
-    "bic": "BBVAESMM",
-    "name": "CAJA POSTAL DE AHORROS",
-    "short_name": "CAJAPOSTAL"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2089",
-    "bic": "CECAESMM031",
-    "name": "CAJA PROVINCIAL DE AHORROS DE GRANADA",
-    "short_name": "PROVGRANADA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2091",
-    "bic": "CAGLESMM",
-    "name": "CAJA DE AHORROS DE GALICIA",
-    "short_name": "CAIXAGALICIA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2092",
     "bic": "UCJAES2M",
-    "name": "CAJA PROVINCIAL DE AHORROS DE JAEN",
-    "short_name": "CAJA DE JAEN"
+    "bank_code": "2072",
+    "name": "UNICAJA BANCO, S.A.",
+    "short_name": "UNICAJA BANCO",
+    "status": "merged",
+    "successor_bank_code": "2104",
+    "legacy_name": "CAJA GRAL.AHORROS Y PTOS.DE LA PROVINCIA DE SORIA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2093",
+    "bic": "CECAESMM105",
+    "bank_code": "2075",
+    "name": "CAJA DE AHORROS PROVINCIAL DE TOLEDO",
+    "short_name": "CAJATOLEDO",
+    "status": "merged",
+    "successor_bank_code": "2105"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
     "bic": "BSABESBB",
-    "name": "CAJA DE AHORROS PROVINCIAL DE VALENCIA",
-    "short_name": "PRO.VALENCIA"
+    "bank_code": "2076",
+    "name": "CAJA GRAL.DE AHORROS Y MONTE DE PIEDAD DE TORRENT",
+    "short_name": "C.A.TORRENT",
+    "status": "merged",
+    "successor_bank_code": "2090"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2094",
-    "bic": "CAHMESMM",
-    "name": "CAJA DE AHORROS Y M.P. DE AVILA",
-    "short_name": "CAJA DE AVILA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2425",
     "bic": "",
-    "name": "CAJA ESPA\u00d1A DE INVERSIONES, SALAMANCA Y SORIA,CAMP",
-    "short_name": "CAJA ESPA\u00d1A"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2432",
-    "bic": "",
-    "name": "CAJA DE AHORROS DE VITORIA Y ALAVA",
-    "short_name": "CAJA VITAL"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2098",
-    "bic": "CAIXESBB",
-    "name": "M.P. Y CAJA DE AHORROS DE HUELVA Y SEVILLA",
-    "short_name": "EL MONTE"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2415",
-    "bic": "",
-    "name": "CAJA DE AHORROS Y M.P. DE EXTREMADURA",
-    "short_name": "CAJAEXTREMADURA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2431",
-    "bic": "",
-    "name": "CAJA DE AHORROS Y M.P. DE GIPUZKOA Y SAN SEBASTIAN",
-    "short_name": "KUTXA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2102",
-    "bic": "BSABESBB",
-    "name": "CAJA DE AHORROS PROVINCIAL DE ALICANTE Y VALENCIA",
-    "short_name": "ALICANTEVALE"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2104",
-    "bic": "CSSOES2S",
-    "name": "CAJA DE AHORROS DE SALAMANCA Y SORIA",
-    "short_name": "CAJA DUERO"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2411",
-    "bic": "",
-    "name": "MPCA S.FERNANDO GUADALAJARA,HUELVA,JEREZ Y SEVILLA",
-    "short_name": "CAJASOL"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2401",
-    "bic": "",
-    "name": "CAJA DE AHORROS Y PENSIONES DE BARCELONA",
-    "short_name": "LA CAIXA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2402",
-    "bic": "",
-    "name": "CAJA DE AHORROS Y M.P. DE MADRID",
-    "short_name": "CAJA MADRID"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
     "bank_code": "2403",
-    "bic": "",
     "name": "CAJA AH. VALENCIA, CASTELLON Y ALICANTE, BANCAJA",
     "short_name": "BANCAJA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2404",
-    "bic": "",
-    "name": "CAJA INSULAR DE AHORROS DE CANARIAS",
-    "short_name": "CAJA I.CANARIAS"
+    "bic": "CSPAES2L",
+    "bank_code": "2078",
+    "name": "CAJA DE AHORROS POPULAR DE VALLADOLID",
+    "short_name": "POVALLADOLID",
+    "status": "merged",
+    "successor_bank_code": "2096"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2405",
+    "bic": "CSPAES2L",
+    "bank_code": "2079",
+    "name": "CAJA DE AHORROS PROVINCIAL DE VALLADOLID",
+    "short_name": "PRVALLADOLID",
+    "status": "merged",
+    "successor_bank_code": "2096"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
     "bic": "",
+    "bank_code": "2423",
+    "name": "CAIXA D'ESTALVIS DEL PENEDES",
+    "short_name": "CAIXA PENEDES",
+    "status": "closed"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "BASKES2B",
+    "bank_code": "2082",
+    "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE VITORIA",
+    "short_name": "CAJAVITORIA",
+    "status": "merged",
+    "successor_bank_code": "2097"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "BASKES2B",
+    "bank_code": "2083",
+    "name": "CAJA PROVINCIAL DE AHORROS DE ALAVA",
+    "short_name": "C. ALAVA",
+    "status": "merged",
+    "successor_bank_code": "2097"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "CSPAES2L",
+    "bank_code": "2084",
+    "name": "CAJA DE AHORROS PROVINCIAL DE ZAMORA",
+    "short_name": "C.ZAMORA",
+    "status": "merged",
+    "successor_bank_code": "2096"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2087",
+    "name": "CAJA DE AHORROS PROVINCIAL DE LUGO",
+    "short_name": "LUGO",
+    "status": "merged",
+    "successor_bank_code": "2091"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "BBVAESMM",
+    "bank_code": "2088",
+    "name": "CAJA POSTAL DE AHORROS",
+    "short_name": "CAJAPOSTAL",
+    "status": "merged",
+    "successor_bank_code": "1302"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "CECAESMM031",
+    "bank_code": "2089",
+    "name": "CAJA PROVINCIAL DE AHORROS DE GRANADA",
+    "short_name": "PROVGRANADA",
+    "status": "merged",
+    "successor_bank_code": "2031"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "CAGLESMM",
+    "bank_code": "2091",
+    "name": "CAJA DE AHORROS DE GALICIA",
+    "short_name": "CAIXAGALICIA",
+    "status": "merged",
+    "successor_bank_code": "2080"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "UCJAES2M",
+    "bank_code": "2092",
+    "name": "CAJA PROVINCIAL DE AHORROS DE JAEN",
+    "short_name": "CAJA DE JAEN",
+    "status": "merged",
+    "successor_bank_code": "2103"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "BSABESBB",
+    "bank_code": "2093",
+    "name": "CAJA DE AHORROS PROVINCIAL DE VALENCIA",
+    "short_name": "PRO.VALENCIA",
+    "status": "merged",
+    "successor_bank_code": "2102"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "CAHMESMM",
+    "bank_code": "2094",
+    "name": "CAJA DE AHORROS Y M.P. DE AVILA",
+    "short_name": "CAJA DE AVILA",
+    "status": "closed"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2425",
+    "name": "CAJA ESPA\u00d1A DE INVERSIONES, SALAMANCA Y SORIA,CAMP",
+    "short_name": "CAJA ESPA\u00d1A",
+    "status": "closed"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2432",
+    "name": "CAJA DE AHORROS DE VITORIA Y ALAVA",
+    "short_name": "CAJA VITAL",
+    "status": "closed"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "CAIXESBB",
+    "bank_code": "2098",
+    "name": "M.P. Y CAJA DE AHORROS DE HUELVA Y SEVILLA",
+    "short_name": "EL MONTE",
+    "status": "merged",
+    "successor_bank_code": "2106"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2415",
+    "name": "CAJA DE AHORROS Y M.P. DE EXTREMADURA",
+    "short_name": "CAJAEXTREMADURA",
+    "status": "closed"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2431",
+    "name": "CAJA DE AHORROS Y M.P. DE GIPUZKOA Y SAN SEBASTIAN",
+    "short_name": "KUTXA",
+    "status": "merged"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "BSABESBB",
+    "bank_code": "2102",
+    "name": "CAJA DE AHORROS PROVINCIAL DE ALICANTE Y VALENCIA",
+    "short_name": "ALICANTEVALE",
+    "status": "merged",
+    "successor_bank_code": "2090"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "UCJAES2M",
+    "bank_code": "2104",
+    "name": "UNICAJA BANCO, S.A.",
+    "short_name": "UNICAJA BANCO",
+    "status": "merged",
+    "successor_bank_code": "2108",
+    "legacy_name": "CAJA DE AHORROS DE SALAMANCA Y SORIA"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2411",
+    "name": "MPCA S.FERNANDO GUADALAJARA,HUELVA,JEREZ Y SEVILLA",
+    "short_name": "CAJASOL",
+    "status": "closed"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2401",
+    "name": "CAJA DE AHORROS Y PENSIONES DE BARCELONA",
+    "short_name": "LA CAIXA",
+    "status": "closed"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2402",
+    "name": "CAJA DE AHORROS Y M.P. DE MADRID",
+    "short_name": "CAJA MADRID",
+    "status": "closed"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2405",
     "name": "CAIXA D'ESTALVIS LAIETANA",
     "short_name": "CAIXA LAIETANA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2406",
     "bic": "",
+    "bank_code": "2406",
     "name": "CAJA DE AHORROS DE LA RIOJA",
     "short_name": "CAJARIOJA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2094",
-    "bic": "CAHMESMM",
-    "name": "CAJA DE AHORROS Y M.P. DE AVILA",
-    "short_name": "CAJA DE AVILA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2408",
     "bic": "",
-    "name": "CAJA DE AHORROS Y M.P. DE SEGOVIA",
-    "short_name": "CAJA DE SEGOVIA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
     "bank_code": "2409",
-    "bic": "",
     "name": "CAJA DE AHORROS DEL MEDITERRANEO",
-    "short_name": "CAM"
+    "short_name": "CAM",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2410",
     "bic": "",
-    "name": "CAJA DE AHORROS Y M.P. DE NAVARRA",
-    "short_name": "CAJA NAVARRA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2411",
-    "bic": "",
-    "name": "MPCA S.FERNANDO GUADALAJARA,HUELVA,JEREZ Y SEVILLA",
-    "short_name": "CAJASOL"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2412",
-    "bic": "",
-    "name": "CAJA GENERAL DE AHORROS DE CANARIAS",
-    "short_name": "CAJA CANARIAS"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
     "bank_code": "2413",
-    "bic": "",
     "name": "CAJA DE AHORROS MUNICIPAL DE BURGOS",
-    "short_name": "CAJA DE BURGOS"
+    "short_name": "CAJA DE BURGOS",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2414",
-    "bic": "",
     "name": "CAJA DE AHORROS DE ASTURIAS",
-    "short_name": "CAJASTUR"
+    "short_name": "CAJASTUR",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2415",
     "bic": "",
-    "name": "CAJA DE AHORROS Y M.P. DE EXTREMADURA",
-    "short_name": "CAJAEXTREMADURA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2416",
-    "bic": "",
-    "name": "CAJA DE AHORROS DE SANTANDER Y CANTABRIA",
-    "short_name": "CAJA CANTABRIA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
     "bank_code": "2417",
-    "bic": "",
     "name": "CAIXA AFORROS DE GALICIA,VIGO,OURENSE E PONTEVEDRA",
-    "short_name": "NOVACAIXAGALICI"
+    "short_name": "NOVACAIXAGALICI",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2418",
-    "bic": "",
     "name": "CAIXA D'ESTALVIS DE CATALUNYA,TARRAGONA I MANRESA",
-    "short_name": "CATALUNYACAIXA"
+    "short_name": "CATALUNYACAIXA",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2419",
-    "bic": "",
     "name": "CAIXA E. UNIO CAIXES MANLLEU, SABADELL I TERRASSA",
-    "short_name": "UNNIM"
+    "short_name": "UNNIM",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2420",
-    "bic": "",
     "name": "CAJA DE AHORROS Y M.P. DE ZARAGOZA, ARAGON Y RIOJA",
-    "short_name": "IBERCAJA"
+    "short_name": "IBERCAJA",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2421",
     "bic": "",
+    "bank_code": "2421",
     "name": "CAJA GENERAL DE AHORROS DE GRANADA",
     "short_name": "LA GENERAL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2422",
     "bic": "",
+    "bank_code": "2422",
     "name": "CAJA DE AHORROS DE MURCIA",
     "short_name": "CAJA DE MURCIA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2423",
     "bic": "",
-    "name": "CAIXA D'ESTALVIS DEL PENEDES",
-    "short_name": "CAIXA PENEDES"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2424",
-    "bic": "",
-    "name": "CAJA DE AHORROS Y M.P. DE LAS BALEARES",
-    "short_name": "SA NOSTRA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2425",
-    "bic": "",
-    "name": "CAJA ESPA\u00d1A DE INVERSIONES, SALAMANCA Y SORIA,CAMP",
-    "short_name": "CAJA ESPA\u00d1A"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
     "bank_code": "2426",
-    "bic": "",
     "name": "MPCA RONDA,CADIZ,ALMERIA,MALAGA,ANTEQUERA Y JAEN",
-    "short_name": "UNICAJA"
+    "short_name": "UNICAJA",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2427",
-    "bic": "",
     "name": "CAJA DE AHORROS DE LA INMACULADA DE ARAGON",
-    "short_name": "CAI"
+    "short_name": "CAI",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2428",
     "bic": "",
+    "bank_code": "2428",
     "name": "C.A.M.P. CIRCULO CATOLICO DE OBREROS DE BURGOS",
     "short_name": "CAJA CIRCULO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2429",
     "bic": "",
+    "bank_code": "2429",
     "name": "M.P. Y CAJA GENERAL AHORROS DE BADAJOZ",
     "short_name": "CAJA DE BADAJOZ"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2430",
-    "bic": "",
     "name": "BILBAO BIZKAIA KUTXA,AURREZKI KUTXA ETA BAHITETXEA",
-    "short_name": "BBK"
+    "short_name": "BBK",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2431",
     "bic": "",
-    "name": "CAJA DE AHORROS Y M.P. DE GIPUZKOA Y SAN SEBASTIAN",
-    "short_name": "KUTXA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2432",
-    "bic": "",
-    "name": "CAJA DE AHORROS DE VITORIA Y ALAVA",
-    "short_name": "CAJA VITAL"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
     "bank_code": "2433",
-    "bic": "",
     "name": "CONFEDERACION ESPA\u00d1OLA DE CAJAS DE AHORROS",
-    "short_name": "CECA"
+    "short_name": "CECA",
+    "status": "closed"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3001",
     "bic": "BCOEESMM001",
+    "bank_code": "3001",
     "name": "CAJA R. DE ALMENDRALEJO, S.C.C.",
     "short_name": "CR ALMENDRALEJO"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3003",
     "bic": "",
+    "bank_code": "3003",
     "name": "CAJA RURAL DEL BIERZO, S.C.C.L., EN LIQUIDACION",
-    "short_name": "C.R.BIERZO"
+    "short_name": "C.R.BIERZO",
+    "status": "merged",
+    "successor_bank_code": "2035"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3005",
     "bic": "BCOEESMM005",
+    "bank_code": "3005",
     "name": "CAJA R. CENTRAL, S.C.C.",
     "short_name": "C.R. CENTRAL"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3007",
     "bic": "BCOEESMM007",
+    "bank_code": "3007",
     "name": "CAJA R. DE GIJON, S.C. ASTURIANA DE CREDITO",
     "short_name": "C.R. DE GIJON"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3008",
     "bic": "BCOEESMM008",
+    "bank_code": "3008",
     "name": "CAJA R. DE NAVARRA, S.C.C.",
     "short_name": "C.R. DE NAVARRA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3009",
     "bic": "BCOEESMM009",
+    "bank_code": "3009",
     "name": "CAJA R. DE EXTREMADURA, S.C.C.",
     "short_name": "C.R.EXTREMADURA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3015",
     "bic": "",
+    "bank_code": "3015",
     "name": "CAJA RURAL DE LA RIOJA, S.C.C.L.",
-    "short_name": "CR.LA RIOJA"
+    "short_name": "CR.LA RIOJA",
+    "status": "merged",
+    "successor_bank_code": "2037"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3016",
     "bic": "BCOEESMM016",
+    "bank_code": "3016",
     "name": "CAJA R. DE SALAMANCA, S.C.C.",
     "short_name": "C.R. SALAMANCA"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2001",
     "bic": "CECAESMM105",
+    "bank_code": "2001",
     "name": "CAJA DE AHORROS PROVINCIAL DE ALBACETE",
     "short_name": "CAJAALBACETE"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2002",
-    "bic": "",
     "name": "MONTE DE PIEDAD Y CAJA DE AHORROS DE ALCOY",
-    "short_name": "CAJA ALCOY"
+    "short_name": "CAJA ALCOY",
+    "status": "merged",
+    "successor_bank_code": "2090"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2003",
-    "bic": "",
     "name": "CAJA DE AHORROS DE ALHAMA DE MURCIA",
-    "short_name": "C. ALHAMA M."
+    "short_name": "C. ALHAMA M.",
+    "status": "merged",
+    "successor_bank_code": "2090"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2004",
-    "bic": "",
     "name": "CAJA DE AHORROS DEL SURESTE DE ESPA\u00d1A",
-    "short_name": "C.A. SURESTE"
+    "short_name": "C.A. SURESTE",
+    "status": "merged",
+    "successor_bank_code": "2090"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2005",
     "bic": "BSABESBB",
+    "bank_code": "2005",
     "name": "CAJA DE AHORROS PROVINCIAL DE ALICANTE",
-    "short_name": "CAJAALICANTE"
+    "short_name": "CAJAALICANTE",
+    "status": "merged",
+    "successor_bank_code": "2102"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "UCJAES2M",
     "bank_code": "2006",
-    "bic": "UCJAES2M",
     "name": "MONTE DE PIEDAD Y CAJA DE AHORROS DE ALMERIA",
-    "short_name": "MONTEALMERIA"
+    "short_name": "MONTEALMERIA",
+    "status": "merged",
+    "successor_bank_code": "2103"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2007",
     "bic": "UCJAES2M",
+    "bank_code": "2007",
     "name": "CAJA DE AHORROS Y PRESTAMOS DE ANTEQUERA",
-    "short_name": "C.ANTEQUERA"
+    "short_name": "C.ANTEQUERA",
+    "status": "merged",
+    "successor_bank_code": "2103"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2008",
-    "bic": "",
     "name": "CAJA GENERAL DE AHORROS Y MONTE DE PIEDAD DE AVILA",
-    "short_name": "MONTEAVILA"
+    "short_name": "MONTEAVILA",
+    "status": "merged",
+    "successor_bank_code": "2094"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2009",
-    "bic": "",
     "name": "CAJA CENTRAL DE AHORRO Y PRESTAMOS DE AVILA",
-    "short_name": "C.CENTRAL-AVILA"
+    "short_name": "C.CENTRAL-AVILA",
+    "status": "delisted"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2429",
-    "bic": "",
-    "name": "M.P. Y CAJA GENERAL AHORROS DE BADAJOZ",
-    "short_name": "CAJA DE BADAJOZ"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
+    "bic": "CAIXESBB",
     "bank_code": "2011",
-    "bic": "CAIXESBB",
     "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE BARCELONA",
-    "short_name": "MTEBARCELONA"
+    "short_name": "MTEBARCELONA",
+    "status": "merged",
+    "successor_bank_code": "2100"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2012",
     "bic": "CAIXESBB",
+    "bank_code": "2012",
     "name": "CAJA PENSIONES VEJEZ Y AHORROS CATALU\u00d1A BALEARES",
-    "short_name": "PENSIONBARNA"
+    "short_name": "PENSIONBARNA",
+    "status": "merged",
+    "successor_bank_code": "2100"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2014",
-    "bic": "",
     "name": "CAJA DE AHORROS DE LA SAGRADA FAMILIA DE BARCELONA",
-    "short_name": "C.A.SGDA.FAMILI"
+    "short_name": "C.A.SGDA.FAMILI",
+    "status": "merged",
+    "successor_bank_code": "2011"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "BASKES2B",
     "bank_code": "2015",
-    "bic": "BASKES2B",
     "name": "CAJA DE AHORROS Y M.P. MUNICIPAL DE BILBAO",
-    "short_name": "CAJABILBAO"
+    "short_name": "CAJABILBAO",
+    "status": "merged",
+    "successor_bank_code": "2095"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2016",
     "bic": "BASKES2B",
+    "bank_code": "2016",
     "name": "CAJA DE AHORROS VIZCAINA",
-    "short_name": "C.A.VIZCAINA"
+    "short_name": "C.A.VIZCAINA",
+    "status": "merged",
+    "successor_bank_code": "2095"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2428",
-    "bic": "",
-    "name": "C.A.M.P. CIRCULO CATOLICO DE OBREROS DE BURGOS",
-    "short_name": "CAJA CIRCULO"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2413",
-    "bic": "",
-    "name": "CAJA DE AHORROS MUNICIPAL DE BURGOS",
-    "short_name": "CAJA DE BURGOS"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2019",
     "bic": "CECAESMM099",
+    "bank_code": "2019",
     "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE CACERES",
     "short_name": "C.CACERES"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2020",
     "bic": "UCJAES2M",
+    "bank_code": "2020",
     "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE CADIZ",
-    "short_name": "C. AH. CADIZ"
+    "short_name": "C. AH. CADIZ",
+    "status": "merged",
+    "successor_bank_code": "2103"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CAHMESMM",
     "bank_code": "2021",
-    "bic": "CAHMESMM",
     "name": "CAJA DE AHORROS Y PRESTAMOS DE CARLET",
-    "short_name": "CAJA DE CARLET"
+    "short_name": "CAJA DE CARLET",
+    "status": "merged",
+    "successor_bank_code": "2077"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CAHMESMM",
     "bank_code": "2022",
-    "bic": "CAHMESMM",
     "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE CASTELLON",
-    "short_name": "C. CASTELLON"
+    "short_name": "C. CASTELLON",
+    "status": "merged",
+    "successor_bank_code": "2077"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CAIXESBB",
     "bank_code": "2023",
-    "bic": "CAHMESMM",
-    "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE CEUTA",
-    "short_name": "C.CEUTA"
+    "name": "CAIXABANK, S.A.",
+    "short_name": "CAIXABANK, S.A.",
+    "status": "merged",
+    "successor_bank_code": "2038",
+    "legacy_name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE CEUTA"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "CSURES2C",
     "bank_code": "2024",
-    "bic": "CSURES2C",
     "name": "CAJA DE AHORROS Y M.P. DE CORDOBA",
-    "short_name": "CAJASUR"
+    "short_name": "CAJASUR",
+    "status": "merged",
+    "successor_bank_code": "0237"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2025",
     "bic": "CSURES2C",
+    "bank_code": "2025",
     "name": "CAJA PROVINCIAL DE AHORROS DE CORDOBA",
-    "short_name": "PROVCORDOBA"
+    "short_name": "PROVCORDOBA",
+    "status": "merged",
+    "successor_bank_code": "2024"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2026",
-    "bic": "",
     "name": "C. AHORROS Y MONTE DE PIEDAD DE LA CORU\u00d1A Y LUGO",
-    "short_name": "CORU\u00d1A Y LUG"
+    "short_name": "CORU\u00d1A Y LUG",
+    "status": "merged",
+    "successor_bank_code": "2091"
   },
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
     "bank_code": "2027",
-    "bic": "",
     "name": "C.AHORROS NTRA. SRA. DE LOS DOLORES DE CREVILLENTE",
-    "short_name": "C.A. DOLORES"
+    "short_name": "C.A. DOLORES",
+    "status": "merged",
+    "successor_bank_code": "2090"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2028",
     "bic": "CECAESMM105",
+    "bank_code": "2028",
     "name": "CAJA DE AHORROS DE CUENCA Y CIUDAD REAL",
-    "short_name": "CUENCA Y C.R"
+    "short_name": "CUENCA Y C.R",
+    "status": "merged",
+    "successor_bank_code": "2105"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2029",
     "bic": "",
+    "bank_code": "2029",
     "name": "CAJA GRAL. DE AHORROS Y MONTE PIEDAD DE EL FERROL",
-    "short_name": "EL FERROL"
+    "short_name": "EL FERROL",
+    "status": "merged",
+    "successor_bank_code": "2091"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "CAIXESBB",
+    "bank_code": "2032",
+    "name": "CAJA DE AHORRO PROVINCIAL DE GUADALAJARA",
+    "short_name": "C. GUADALAJARA",
+    "status": "merged",
+    "successor_bank_code": "2106"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "CAIXESBB",
+    "bank_code": "2033",
+    "name": "CAJA PROVINCIAL DE AHORROS Y M.P. DE HUELVA",
+    "short_name": "C. HUELVA",
+    "status": "merged",
+    "successor_bank_code": "2098"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "CAIXESBB",
+    "bank_code": "2034",
+    "name": "CAJA DE AHORROS DE JEREZ DE LA FRONTERA",
+    "short_name": "CAJAJEREZ",
+    "status": "merged",
+    "successor_bank_code": "2071"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "CSPAES2L",
+    "bank_code": "2035",
+    "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE LEON",
+    "short_name": "C.M.P.LEON",
+    "status": "merged",
+    "successor_bank_code": "2096"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2036",
+    "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE LERIDA",
+    "short_name": "LERIDA",
+    "status": "merged",
+    "successor_bank_code": "2012"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "UCJAES2M",
+    "bank_code": "2039",
+    "name": "CAJA DE AHORROS PROVINCIAL DE MALAGA",
+    "short_name": "C.MALAGA",
+    "status": "merged",
+    "successor_bank_code": "2103"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2044",
+    "name": "CAJA DE AHORROS DE NOVELDA",
+    "short_name": "C.A.NOVELDA",
+    "status": "merged",
+    "successor_bank_code": "2090"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "BCOEESMM017",
+    "bank_code": "3017",
+    "name": "CAJA R. DE SORIA, S.C.C.",
+    "short_name": "CAJA SORIA"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bic": "ABNAESMM",
+    "bank_code": "0156",
+    "name": "THE ROYAL BANK OF SCOTLAND PLC, S.E.",
+    "short_name": "ROYAL BANK",
+    "status": "delisted"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bank_code": "1583",
+    "bic": "REVOESM2XXX",
+    "name": "REVOLUT BANK UAB",
+    "short_name": "REVOLUT BANK UAB"
   },
   {
     "country_code": "ES",
@@ -4445,71 +4874,8 @@
     "bank_code": "2030",
     "bic": "CAIXESBB",
     "name": "CAIXA D'ESTALVIS DE GIRONA",
-    "short_name": "CAIXAGIRONA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2421",
-    "bic": "",
-    "name": "CAJA GENERAL DE AHORROS DE GRANADA",
-    "short_name": "LA GENERAL"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2032",
-    "bic": "CAIXESBB",
-    "name": "CAJA DE AHORRO PROVINCIAL DE GUADALAJARA",
-    "short_name": "C. GUADALAJARA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2033",
-    "bic": "CAIXESBB",
-    "name": "CAJA PROVINCIAL DE AHORROS Y M.P. DE HUELVA",
-    "short_name": "C. HUELVA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2034",
-    "bic": "CAIXESBB",
-    "name": "CAJA DE AHORROS DE JEREZ DE LA FRONTERA",
-    "short_name": "CAJAJEREZ"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2035",
-    "bic": "CSPAES2L",
-    "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE LEON",
-    "short_name": "C.M.P.LEON"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2036",
-    "bic": "",
-    "name": "CAJA DE AHORROS Y MONTE DE PIEDAD DE LERIDA",
-    "short_name": "LERIDA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2406",
-    "bic": "",
-    "name": "CAJA DE AHORROS DE LA RIOJA",
-    "short_name": "CAJARIOJA"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bank_code": "2039",
-    "bic": "UCJAES2M",
-    "name": "CAJA DE AHORROS PROVINCIAL DE MALAGA",
-    "short_name": "C.MALAGA"
+    "short_name": "CAIXAGIRONA",
+    "status": "delisted"
   },
   {
     "country_code": "ES",
@@ -4517,7 +4883,8 @@
     "bank_code": "2040",
     "bic": "BBVAESMM",
     "name": "CAIXA D'ESTALVIS COMARCAL DE MANLLEU",
-    "short_name": "CAIXA MANLLEU"
+    "short_name": "CAIXA MANLLEU",
+    "status": "delisted"
   },
   {
     "country_code": "ES",
@@ -4525,38 +4892,52 @@
     "bank_code": "2041",
     "bic": "BBVAESMM",
     "name": "CAIXA D'ESTALVIS DE MANRESA",
-    "short_name": "CAIXA MANRESA"
+    "short_name": "CAIXA MANRESA",
+    "status": "delisted"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2422",
-    "bic": "",
-    "name": "CAJA DE AHORROS DE MURCIA",
-    "short_name": "CAJA DE MURCIA"
+    "bank_code": "2059",
+    "bic": "BBVAESMM",
+    "name": "CAIXA D'ESTALVIS DE SABADELL",
+    "short_name": "CAIXA SABADELL",
+    "status": "delisted"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2044",
-    "bic": "",
-    "name": "CAJA DE AHORROS DE NOVELDA",
-    "short_name": "C.A.NOVELDA"
+    "bank_code": "2073",
+    "bic": "BBVAESMM",
+    "name": "CAIXA D'ESTALVIS DE TARRAGONA",
+    "short_name": "CAIXA TARRAGONA",
+    "status": "delisted"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "3017",
-    "bic": "BCOEESMM017",
-    "name": "CAJA R. DE SORIA, S.C.C.",
-    "short_name": "CAJA SORIA"
+    "bank_code": "2074",
+    "bic": "BBVAESMM",
+    "name": "CAIXA D'ESTALVIS DE TERRASSA",
+    "short_name": "CAIXA TERRASSA",
+    "status": "delisted"
   },
   {
     "country_code": "ES",
     "primary": true,
-    "bank_code": "2405",
-    "bic": "",
-    "name": "CAIXA D'ESTALVIS LAIETANA",
-    "short_name": "CAIXA LAIETANA"
+    "bic": "CECAESMM105",
+    "bank_code": "2105",
+    "name": "BANCO DE CASTILLA-LA MANCHA, S.A.",
+    "short_name": "BANCO DE CASTIL",
+    "status": "delisted"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
+    "bank_code": "3183",
+    "bic": "CASDESBB",
+    "name": "CAJA DE ARQUITECTOS S.C.C.",
+    "short_name": "ARQUIA",
+    "status": "delisted"
   }
 ]

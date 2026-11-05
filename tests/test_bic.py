@@ -114,7 +114,7 @@ def test_bic_prefers_branch_specific_registry_entry() -> None:
 
 
 @pytest.mark.parametrize("code", ["COBADEFF", "DEUTDEFF"])
-def test_bic_without_branch_code_falls_back_to_xxx_entry(code: str) -> None:
+def test_bic_and_its_xxx_form_are_the_same_bic(code: str) -> None:
     bic = BIC(code)
     xxx_entry = BIC(f"{code}XXX")
     assert xxx_entry.domestic_bank_codes
@@ -123,7 +123,8 @@ def test_bic_without_branch_code_falls_back_to_xxx_entry(code: str) -> None:
     assert bic.domestic_bank_codes == xxx_entry.domestic_bank_codes
     assert bic.bank_names == xxx_entry.bank_names
     assert bic.bank_short_names == xxx_entry.bank_short_names
-    assert not bic.exists
+    # ISO 9362 treats both forms as identical, so both exist.
+    assert bic.exists
     assert xxx_entry.exists
 
 
@@ -231,18 +232,18 @@ def test_bic_structure_is_validated_over_full_string() -> None:
     [
         ("AT", "36274", "RZTIAT22274"),
         ("BE", "002", "GEBABEBB"),
-        ("CH", "00777", "KBSZCH22XXX"),
-        ("CH", "08390", "ABSOCH22XXX"),
+        ("CH", "00777", "KBSZCH22"),
+        ("CH", "08390", "ABSOCH22"),
         ("CZ", "0600", "AGBACZPP"),
         ("DE", "43060967", "GENODEM1GLS"),
-        ("DE", "48020151", "HAUKDEFFXXX"),  # primary record, not the secondary LAMPDEDDXXX
+        ("DE", "48020151", "HAUKDEFF"),  # primary record, not the secondary LAMPDEDDXXX
         ("ES", "0209", "BSABESBB"),
         ("FI", "101", "NDEAFIHH"),
         ("FR", "30004", "BNPAFRPP"),
-        ("FR", "30066", "CMCIFRPPXXX"),
-        ("FR", "17469", "SOCBPFTXXXX"),
+        ("FR", "30066", "CMCIFRPP"),
+        ("FR", "17469", "SOCBPFTX"),
         ("FR", "10096", "CMCIFRPP"),
-        ("FR", "18719", "BFCORERXXXX"),  # head office, not the Mayotte branch
+        ("FR", "18719", "BFCORERX"),  # head office, not the Mayotte branch
         ("FR", "30077", "SMCTFR2A"),
         ("FR", "13489", "NORDFRPP"),
         ("GE", "BG", "BAGAGE22"),
@@ -250,15 +251,15 @@ def test_bic_structure_is_validated_over_full_string() -> None:
         ("HR", "2485003", "CROAHR2X"),
         ("IT", "01015", "SARDIT31"),  # generated
         ("IT", "01030", "PASCITMM"),  # curated
-        ("LV", "RIKO", "RIKOLV2XXXX"),
+        ("LV", "RIKO", "RIKOLV2X"),
         ("MC", "30003", "SOGEMCM1"),
         ("ME", "907", "CBCGMEPG"),
         ("MT", "CFTE", "CFTEMTM1"),
         ("NL", "ADYB", "ADYBNL2A"),
         ("PK", "UNIL", "UNILPKKA"),
-        ("PL", "10100055", "NBPLPLPWXXX"),
-        ("PL", "10900004", "WBKPPLPPXXX"),
-        ("RO", "BPOS", "BPOSROBU"),
+        ("PL", "10100055", "NBPLPLPW"),
+        ("PL", "10900004", "WBKPPLPP"),
+        ("RO", "BTRL", "BTRLRO22"),
         ("SE", "500", "ESSESESS"),
         ("SI", "01050", "BSLJSI2XFNB"),
         ("SK", "0900", "GIBASKBX"),
@@ -278,7 +279,7 @@ def test_bic_from_unknown_bank_code() -> None:
     [
         ("AT", "36274", ["RZTIAT22274"]),
         ("BE", "002", ["GEBABEBB"]),
-        ("CH", "00100", ["SNBZCHZZXXX"]),
+        ("CH", "00100", ["SNBZCHZZ"]),
         ("CZ", "0600", ["AGBACZPP"]),
         ("ES", "0209", ["BSABESBB"]),
         ("FI", "101", ["NDEAFIHH"]),
@@ -295,7 +296,6 @@ def test_bic_from_unknown_bank_code() -> None:
                 "BNPAFRPPPBQ",
                 "BNPAFRPPNFE",
                 "BNPAFRPPPGN",
-                "BNPAFRPPXXX",
                 "BNPAFRPPBOR",
                 "BNPAFRPPCRM",
                 "BNPAFRPPPVD",
@@ -315,15 +315,15 @@ def test_bic_from_unknown_bank_code() -> None:
         ("DK", "0040", ["NDEADKKK"]),
         ("HU", "107", ["CIBHHUHB"]),
         ("HR", "2485003", ["CROAHR2X"]),
-        ("LV", "RIKO", ["RIKOLV2XXXX"]),
+        ("LV", "RIKO", ["RIKOLV2X"]),
         ("ME", "907", ["CBCGMEPG"]),
         ("NL", "ADYB", ["ADYBNL2A"]),
-        ("PL", "10100055", ["NBPLPLPWXXX"]),
-        ("RO", "BPOS", ["BPOSROBU"]),
+        ("PL", "10100055", ["NBPLPLPW"]),
+        ("RO", "BTRL", ["BTRLRO22"]),
         ("SE", "500", ["ESSESESS"]),
         ("SI", "01050", ["BSLJSI2XFNB"]),
-        ("SI", "02188", ["LJBASI2XXXX"]),
-        ("SI", "03100", ["KBMASI2XXXX"]),  # retired SKB code, alias of OTP banka
+        ("SI", "02188", ["LJBASI2X"]),
+        ("SI", "03100", ["KBMASI2X"]),  # retired SKB code, alias of OTP banka
         ("SK", "0900", ["GIBASKBX"]),
     ],
 )
@@ -343,12 +343,12 @@ def test_bic_is_from_primary_bank_code() -> None:
 
 
 def test_bic_from_bank_code_prefers_registry_primary_among_generic_codes() -> None:
-    # Bank code 18719 has two 'XXX' BICs; the registry marks the head office primary and the
+    # Bank code 18719 has two head office BICs; the registry marks the head office primary and the
     # Mayotte branch not. The primary must win over the alphabetical tie-break.
-    assert BIC.from_bank_code("FR", "18719").compact == "BFCORERXXXX"
+    assert BIC.from_bank_code("FR", "18719").compact == "BFCORERX"
     assert [b.compact for b in BIC.candidates_from_bank_code("FR", "18719")] == [
-        "BFCORERXXXX",
-        "BFCOYTYTXXX",
+        "BFCORERX",
+        "BFCOYTYT",
     ]
 
 

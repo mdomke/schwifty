@@ -10,6 +10,94 @@
   {
     "country_code": "SE",
     "primary": true,
+    "bic": "JUNTSEGG",
+    "bank_code": "211",
+    "name": "Juni Technology AB",
+    "short_name": "Juni Technology AB"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
+    "bic": "SVVVSESS",
+    "bank_code": "212",
+    "name": "Steven AB",
+    "short_name": "Steven AB"
+  },
+  {
+    "country_code": "SE",
+    "primary": false,
+    "bic": "SVVVSES2",
+    "bank_code": "212",
+    "name": "Steven AB",
+    "short_name": "Steven AB"
+  },
+  {
+    "country_code": "SE",
+    "primary": false,
+    "bic": "SVVVSES3",
+    "bank_code": "212",
+    "name": "Steven AB",
+    "short_name": "Steven AB"
+  },
+  {
+    "country_code": "SE",
+    "primary": false,
+    "bic": "SVVVSES4",
+    "bank_code": "212",
+    "name": "Steven AB",
+    "short_name": "Steven AB"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
+    "bic": "ZIMPSES2",
+    "bank_code": "213",
+    "name": "Zimpler AB",
+    "short_name": "Zimpler AB"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
+    "bic": "TRLYSESS",
+    "bank_code": "214",
+    "name": "Trustly Group AB",
+    "short_name": "Trustly Group AB"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
+    "bic": "REVOSESS",
+    "bank_code": "215",
+    "name": "Revolut Bank UAB",
+    "short_name": "Revolut Bank UAB"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
+    "bic": "",
+    "bank_code": "216",
+    "name": "Trade Republic Bank",
+    "short_name": "Trade Republic Bank"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
+    "bic": "PPPVLUL2",
+    "bank_code": "217",
+    "name": "PPRO Payment Services SA",
+    "short_name": "PPRO Payment Services SA"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
+    "bic": "STTOIE22",
+    "bank_code": "218",
+    "name": "Stripe",
+    "short_name": "Stripe"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
     "bic": "AABASESS",
     "bank_code": "230",
     "name": "\u00c5landsbanken",
@@ -60,21 +148,21 @@
     "primary": true,
     "bic": "CITISESX",
     "bank_code": "904",
-    "name": "Citibank (filial)",
-    "short_name": "Citibank (filial)"
+    "name": "Citibank Europe plc ( Sweden Branch)",
+    "short_name": "Citibank Europe plc ( Sweden Branch)"
   },
   {
     "country_code": "SE",
     "primary": true,
     "bic": "FEMAMTMT",
     "bank_code": "907",
-    "name": "Ferratum Bank",
-    "short_name": "Ferratum Bank"
+    "name": "Multitude Bank plc.",
+    "short_name": "Multitude Bank plc."
   },
   {
     "country_code": "SE",
     "primary": true,
-    "bic": "NNSESES1",
+    "bic": "NNSESE22",
     "bank_code": "910",
     "name": "Nordnet Bank",
     "short_name": "Nordnet Bank"
@@ -98,10 +186,18 @@
   {
     "country_code": "SE",
     "primary": true,
+    "bic": "DABASESX",
+    "bank_code": "918",
+    "name": "Danske Bank",
+    "short_name": "Danske Bank"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
     "bic": "DNBASESX",
     "bank_code": "919",
-    "name": "DnB NOR filial",
-    "short_name": "DnB NOR filial"
+    "name": "DNB Bank ASA, filial Sverige",
+    "short_name": "DNB Bank ASA, filial Sverige"
   },
   {
     "country_code": "SE",
@@ -130,7 +226,7 @@
   {
     "country_code": "SE",
     "primary": true,
-    "bic": "RESUSE21",
+    "bic": "RESUSE2H",
     "bank_code": "928",
     "name": "Resurs Bank AB",
     "short_name": "Resurs Bank AB"
@@ -186,7 +282,7 @@
   {
     "country_code": "SE",
     "primary": true,
-    "bic": "AVANSES1",
+    "bic": "AVANSESX",
     "bank_code": "955",
     "name": "Avanza Bank",
     "short_name": "Avanza Bank"
@@ -202,18 +298,26 @@
   {
     "country_code": "SE",
     "primary": true,
-    "bic": "BMPBSESS",
+    "bic": "",
     "bank_code": "958",
-    "name": "AION Bank",
-    "short_name": "AION Bank"
+    "name": "Aion Bank",
+    "short_name": "Aion Bank"
   },
   {
     "country_code": "SE",
     "primary": true,
     "bic": "ERPFSES2",
     "bank_code": "959",
-    "name": "Erik Penser Bank AB",
-    "short_name": "Erik Penser Bank AB"
+    "name": "EP Bank",
+    "short_name": "EP Bank"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
+    "bic": "BCIRSE22XXX",
+    "bank_code": "960",
+    "name": "Banking Circle",
+    "short_name": "Banking Circle"
   },
   {
     "country_code": "SE",
@@ -228,8 +332,8 @@
     "primary": true,
     "bic": "NOFBSESS",
     "bank_code": "964",
-    "name": "Nordax Bank",
-    "short_name": "Nordax Bank"
+    "name": "NOBA Bank Group",
+    "short_name": "NOBA Bank Group"
   },
   {
     "country_code": "SE",
@@ -242,7 +346,7 @@
   {
     "country_code": "SE",
     "primary": true,
-    "bic": "SVEASES1",
+    "bic": "SVEASESS",
     "bank_code": "966",
     "name": "Svea Bank",
     "short_name": "Svea Bank"
@@ -260,13 +364,13 @@
     "primary": true,
     "bic": "BSTPSESS",
     "bank_code": "968",
-    "name": "Bluestep Finans AB",
-    "short_name": "Bluestep Finans AB"
+    "name": "Enity Bank Group",
+    "short_name": "Enity Bank Group"
   },
   {
     "country_code": "SE",
     "primary": true,
-    "bic": "EKMLSE21",
+    "bic": "EKMLSE2S",
     "bank_code": "970",
     "name": "Ekobanken",
     "short_name": "Ekobanken"
@@ -274,10 +378,18 @@
   {
     "country_code": "SE",
     "primary": true,
+    "bic": "LUNADK2B",
+    "bank_code": "971",
+    "name": "Lunar Bank",
+    "short_name": "Lunar Bank"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
     "bic": "NOHLSESS",
     "bank_code": "975",
-    "name": "Northmill Bank",
-    "short_name": "Northmill Bank"
+    "name": "Northmill AB",
+    "short_name": "Northmill AB"
   },
   {
     "country_code": "SE",

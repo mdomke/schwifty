@@ -1739,6 +1739,195 @@
       "bank_codes": [
         "977"
       ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "RABOBE23",
+      "name": "Co\u00f6peratieve Rabobank U.A.",
+      "short_name": "Co\u00f6peratieve Rabobank U.A.",
+      "status": "delisted",
+      "bank_codes": [
+        "172",
+        "173"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "COBABEBX",
+      "name": "Commerzbank",
+      "short_name": "Commerzbank",
+      "status": "delisted",
+      "bank_codes": [
+        "178",
+        "179"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "BARBBEBB",
+      "name": "Bank of Baroda",
+      "short_name": "Bank of Baroda",
+      "status": "delisted",
+      "bank_codes": [
+        "183"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "MTPSBEBB",
+      "name": "Moneytrans Payment Services",
+      "short_name": "Moneytrans Payment Services",
+      "status": "delisted",
+      "bank_codes": [
+        "500"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "SHIZBEBB",
+      "name": "Shizuoka Bank (Europe)",
+      "short_name": "Shizuoka Bank (Europe)",
+      "status": "delisted",
+      "bank_codes": [
+        "530"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "FBHLBE22",
+      "name": "CREDIT EUROPE BANK NV",
+      "short_name": "CREDIT EUROPE BANK NV",
+      "status": "delisted",
+      "bank_codes": [
+        "535"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "ABNABE2AMYO",
+      "name": "ABN AMRO Bank N.V.",
+      "short_name": "ABN AMRO Bank N.V.",
+      "status": "delisted",
+      "bank_codes": [
+        "639"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "NATXBEB1",
+      "name": "Natixis Bank",
+      "short_name": "Natixis Bank",
+      "status": "delisted",
+      "bank_codes": [
+        "698"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "AXABBE22",
+      "name": "Crelan",
+      "short_name": "Crelan",
+      "status": "delisted",
+      "bank_codes": [
+        "766",
+        "767",
+        "768",
+        "769",
+        "770",
+        "771",
+        "807",
+        "808",
+        "809",
+        "810",
+        "811",
+        "812",
+        "813",
+        "814",
+        "815",
+        "816"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "RABOBE22",
+      "name": "Rabobank.be",
+      "short_name": "Rabobank.be",
+      "status": "delisted",
+      "bank_codes": [
+        "844"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "PCHQBEBB",
+      "name": "bpost",
+      "short_name": "bpost",
+      "status": "delisted",
+      "bank_codes": [
+        "873",
+        "981",
+        "982",
+        "983",
+        "984"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "PAGOBEBB",
+      "name": "PagoFX Europe",
+      "short_name": "PagoFX Europe",
+      "status": "delisted",
+      "bank_codes": [
+        "927"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "VPAYBEB1",
+      "name": "VIVA Payment Services",
+      "short_name": "VIVA Payment Services",
+      "status": "delisted",
+      "bank_codes": [
+        "928"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "NEECBEB2",
+      "name": "NewB",
+      "short_name": "NewB",
+      "status": "delisted",
+      "bank_codes": [
+        "966"
+      ]
+    },
+    {
+      "country_code": "BE",
+      "primary": true,
+      "bic": "BPOTBEB1",
+      "name": "bpost bank",
+      "short_name": "bpost bank",
+      "status": "delisted",
+      "bank_codes": [
+        "985",
+        "986",
+        "987",
+        "988"
+      ]
     }
   ],
   "expand_from": "bank_codes",

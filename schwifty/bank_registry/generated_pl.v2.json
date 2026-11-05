@@ -2916,7 +2916,7 @@
     {
       "country_code": "PL",
       "primary": true,
-      "bic": "POLUPLPRXXX",
+      "bic": "NOSJPLPPXXX",
       "name": "Bank Nowy Sp\u00f3\u0142ka Akcyjna",
       "short_name": "Bank Nowy Sp\u00f3\u0142ka Akcyjna",
       "bank_codes": [
@@ -2985,7 +2985,8 @@
       "bank_codes": [
         "29100006",
         "29100019",
-        "29100022"
+        "29100022",
+        "29100048"
       ]
     },
     {
@@ -3092,11 +3093,21 @@
     {
       "country_code": "PL",
       "primary": true,
-      "bic": "",
+      "bic": "TRBKPLPPTSY",
       "name": "Trade Republic Bank GmbH sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105 Oddzia\u0142 w Polsce",
       "short_name": "Trade Republic Bank GmbH sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105 Oddzia\u0142 w Polsce",
       "bank_codes": [
         "29800007"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "TRBKPLPPXXX",
+      "name": "Trade Republic Bank GmbH sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105 Oddzia\u0142 w Polsce",
+      "short_name": "Trade Republic Bank GmbH sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105 Oddzia\u0142 w Polsce",
+      "bank_codes": [
+        "29800010"
       ]
     },
     {
@@ -3194,16 +3205,6 @@
       "country_code": "PL",
       "primary": true,
       "bic": "SKOKPLPWXXX",
-      "name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa Ziemi Rybnickiej",
-      "short_name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa Ziemi Rybnickiej",
-      "bank_codes": [
-        "70370001"
-      ]
-    },
-    {
-      "country_code": "PL",
-      "primary": true,
-      "bic": "SKOKPLPWXXX",
       "name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa \"Bo\u017ce Dary\"",
       "short_name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa \"Bo\u017ce Dary\"",
       "bank_codes": [
@@ -3234,8 +3235,8 @@
       "country_code": "PL",
       "primary": true,
       "bic": "SKOKPLPWXXX",
-      "name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa PROGRES",
-      "short_name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa PROGRES",
+      "name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa \"PROGRES\"",
+      "short_name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa \"PROGRES\"",
       "bank_codes": [
         "70460005"
       ]
@@ -3244,8 +3245,8 @@
       "country_code": "PL",
       "primary": true,
       "bic": "",
-      "name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa PROGRES",
-      "short_name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa PROGRES",
+      "name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa \"PROGRES\"",
+      "short_name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa \"PROGRES\"",
       "bank_codes": [
         "70560008"
       ]
@@ -3301,6 +3302,16 @@
       "bank_codes": [
         "70050017",
         "70890004"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "",
+      "name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa ?Szopienice? w Katowicach",
+      "short_name": "Sp\u00f3\u0142dzielcza Kasa Oszcz\u0119dno\u015bciowo-Kredytowa ?Szopienice? w Katowicach",
+      "bank_codes": [
+        "70370001"
       ]
     },
     {
@@ -3436,16 +3447,7 @@
       "name": "Mazovia Bank Sp\u00f3\u0142dzielczy",
       "short_name": "Mazovia Bank Sp\u00f3\u0142dzielczy",
       "bank_codes": [
-        "80030003"
-      ]
-    },
-    {
-      "country_code": "PL",
-      "primary": true,
-      "bic": "POLUPLPR",
-      "name": "Mazovia Bank Sp\u00f3\u0142dzielczy",
-      "short_name": "Mazovia Bank Sp\u00f3\u0142dzielczy",
-      "bank_codes": [
+        "80030003",
         "91970004"
       ]
     },
@@ -4202,8 +4204,8 @@
       "country_code": "PL",
       "primary": true,
       "bic": "GBWCPLPP",
-      "name": "Bank Sp\u00f3\u0142dzielczy w Nakle n/Noteci\u0105",
-      "short_name": "Bank Sp\u00f3\u0142dzielczy w Nakle n/Noteci\u0105",
+      "name": "Bank Nakielski Bank Sp\u00f3\u0142dzielczy w Nakle nad Noteci\u0105",
+      "short_name": "Bank Nakielski Bank Sp\u00f3\u0142dzielczy w Nakle nad Noteci\u0105",
       "bank_codes": [
         "81790009"
       ]
@@ -4287,16 +4289,7 @@
         "82001021",
         "82001034",
         "82001047",
-        "82001050"
-      ]
-    },
-    {
-      "country_code": "PL",
-      "primary": true,
-      "bic": "POLUPLPR",
-      "name": "Bank Sp\u00f3\u0142dzielczy w Krasnymstawie",
-      "short_name": "Bank Sp\u00f3\u0142dzielczy w Krasnymstawie",
-      "bank_codes": [
+        "82001050",
         "96280007"
       ]
     },
@@ -4484,25 +4477,16 @@
     {
       "country_code": "PL",
       "primary": true,
-      "bic": "POLUPLPR",
-      "name": "Cz\u0119stochowski Bank Sp\u00f3\u0142dzielczy JURA BANK",
-      "short_name": "Cz\u0119stochowski Bank Sp\u00f3\u0142dzielczy JURA BANK",
-      "bank_codes": [
-        "82560007",
-        "82670009",
-        "82671019",
-        "82671022"
-      ]
-    },
-    {
-      "country_code": "PL",
-      "primary": true,
       "bic": "POLUPLPRXXX",
       "name": "Cz\u0119stochowski Bank Sp\u00f3\u0142dzielczy JURA BANK",
       "short_name": "Cz\u0119stochowski Bank Sp\u00f3\u0142dzielczy JURA BANK",
       "bank_codes": [
+        "82560007",
         "82600006",
-        "82601016"
+        "82601016",
+        "82670009",
+        "82671019",
+        "82671022"
       ]
     },
     {
@@ -4547,16 +4531,7 @@
         "82790000",
         "82791010",
         "82791023",
-        "82791036"
-      ]
-    },
-    {
-      "country_code": "PL",
-      "primary": true,
-      "bic": "POLUPLPR",
-      "name": "Mi\u0119dzypowiatowy Bank Sp\u00f3\u0142dzielczy w  Myszkowie",
-      "short_name": "Mi\u0119dzypowiatowy Bank Sp\u00f3\u0142dzielczy w  Myszkowie",
-      "bank_codes": [
+        "82791036",
         "82880004",
         "82881014"
       ]
@@ -5997,16 +5972,7 @@
       "bank_codes": [
         "87020001",
         "87021011",
-        "87021024"
-      ]
-    },
-    {
-      "country_code": "PL",
-      "primary": true,
-      "bic": "POLUPLPR",
-      "name": "Bank Sp\u00f3\u0142dzielczy w Niemcach",
-      "short_name": "Bank Sp\u00f3\u0142dzielczy w Niemcach",
-      "bank_codes": [
+        "87021024",
         "87320000"
       ]
     },
@@ -8499,7 +8465,8 @@
       "name": "Bank Sp\u00f3\u0142dzielczy w W\u0119gorzewie",
       "short_name": "Bank Sp\u00f3\u0142dzielczy w W\u0119gorzewie",
       "bank_codes": [
-        "93480000"
+        "93480000",
+        "93500001"
       ]
     },
     {
@@ -8513,16 +8480,6 @@
         "93481023",
         "93481036",
         "93481049"
-      ]
-    },
-    {
-      "country_code": "PL",
-      "primary": true,
-      "bic": "POLUPLPR",
-      "name": "Bank Sp\u00f3\u0142dzielczy w W\u0119gorzewie",
-      "short_name": "Bank Sp\u00f3\u0142dzielczy w W\u0119gorzewie",
-      "bank_codes": [
-        "93500001"
       ]
     },
     {
@@ -8681,8 +8638,8 @@
       "country_code": "PL",
       "primary": true,
       "bic": "POLUPLPRXXX",
-      "name": "Bank Sp\u00f3\u0142dzielczy w Gr\u0119bowie",
-      "short_name": "Bank Sp\u00f3\u0142dzielczy w Gr\u0119bowie",
+      "name": "Bank Sp\u00f3\u0142dzielczy w Gr\u0119bowie w upad\u0142o\u015bci",
+      "short_name": "Bank Sp\u00f3\u0142dzielczy w Gr\u0119bowie w upad\u0142o\u015bci",
       "bank_codes": [
         "94070000"
       ]
@@ -9351,13 +9308,20 @@
     {
       "country_code": "PL",
       "primary": true,
-      "bic": "POLUPLPR",
+      "bic": "POLUPLPRXXX",
       "name": "Powiatowy Bank Sp\u00f3\u0142dzielczy w Zamo\u015bciu",
       "short_name": "Powiatowy Bank Sp\u00f3\u0142dzielczy w Zamo\u015bciu",
       "bank_codes": [
         "96030006",
         "96031016",
-        "96031029"
+        "96031029",
+        "96440007",
+        "96441020",
+        "96441033",
+        "96441046",
+        "96441059",
+        "96441062",
+        "96441075"
       ]
     },
     {
@@ -9369,22 +9333,6 @@
       "bank_codes": [
         "96150007",
         "96441017"
-      ]
-    },
-    {
-      "country_code": "PL",
-      "primary": true,
-      "bic": "POLUPLPRXXX",
-      "name": "Powiatowy Bank Sp\u00f3\u0142dzielczy w Zamo\u015bciu",
-      "short_name": "Powiatowy Bank Sp\u00f3\u0142dzielczy w Zamo\u015bciu",
-      "bank_codes": [
-        "96440007",
-        "96441020",
-        "96441033",
-        "96441046",
-        "96441059",
-        "96441062",
-        "96441075"
       ]
     },
     {
@@ -9479,6 +9427,231 @@
       "short_name": "Powiatowy Bank Sp\u00f3\u0142dzielczy we Wrze\u015bni",
       "bank_codes": [
         "96810002"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "PKOPPLPWXXX",
+      "name": "Bank Polska Kasa Opieki Sp\u00f3\u0142ka Akcyjna",
+      "short_name": "Bank Polska Kasa Opieki Sp\u00f3\u0142ka Akcyjna",
+      "status": "delisted",
+      "bank_codes": [
+        "12406999"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "MHBFPLPWXXX",
+      "name": "DNB Bank Polska Sp\u00f3\u0142ka Akcyjna",
+      "short_name": "DNB Bank Polska Sp\u00f3\u0142ka Akcyjna",
+      "status": "delisted",
+      "bank_codes": [
+        "13701053",
+        "13701112",
+        "13701141",
+        "13701196",
+        "13701226",
+        "13701242",
+        "13701268",
+        "13701284",
+        "13701327",
+        "13701356",
+        "13701369"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "CITIPLPXXXX",
+      "name": "Mercedes-Benz Bank Polska Sp\u00f3\u0142ka Akcyjna w likwidacji",
+      "short_name": "Mercedes-Benz Bank Polska Sp\u00f3\u0142ka Akcyjna w likwidacji",
+      "status": "closed",
+      "bank_codes": [
+        "15800006"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "HYVEPLP2XXX",
+      "name": "Pekao Bank Hipoteczny Sp\u00f3\u0142ka Akcyjna",
+      "short_name": "Pekao Bank Hipoteczny Sp\u00f3\u0142ka Akcyjna",
+      "status": "delisted",
+      "bank_codes": [
+        "18900028"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "PPABPLPKXXX",
+      "name": "FCE Bank Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce",
+      "short_name": "FCE Bank Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce",
+      "status": "delisted",
+      "bank_codes": [
+        "20700005",
+        "27100004"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "BOTKPLPWXXX",
+      "name": "MUFG Bank (Europe) N.V. S.A. Oddzia\u0142 w Polsce",
+      "short_name": "MUFG Bank (Europe) N.V. S.A. Oddzia\u0142 w Polsce",
+      "status": "delisted",
+      "bank_codes": [
+        "22100009",
+        "27400003"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "SOGEPLPWXXX",
+      "name": "Banque PSA Finance Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce w likwidacji",
+      "short_name": "Banque PSA Finance Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce w likwidacji",
+      "status": "closed",
+      "bank_codes": [
+        "22400008"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "HANDPLPWXXX",
+      "name": "Svenska Handelsbanken AB Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce",
+      "short_name": "Svenska Handelsbanken AB Sp\u00f3\u0142ka Akcyjna Oddzia\u0142 w Polsce",
+      "status": "delisted",
+      "bank_codes": [
+        "22500001"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "",
+      "name": "UBS Europe SE (Sp\u00f3\u0142ka Europejska) Oddzia\u0142 w Polsce",
+      "short_name": "UBS Europe SE (Sp\u00f3\u0142ka Europejska) Oddzia\u0142 w Polsce",
+      "status": "delisted",
+      "bank_codes": [
+        "25700000"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "",
+      "name": "Western Union International Bank GmbH, Sp. z o.o. Oddzia\u0142 w Polsce",
+      "short_name": "Western Union International Bank GmbH, Sp. z o.o. Oddzia\u0142 w Polsce",
+      "status": "delisted",
+      "bank_codes": [
+        "26700001"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "VPAYPLP2",
+      "name": "VIVA PAYMENT SERVICES SP\u00d3\u0141KA AKCYJNA ODDZIA\u0141 W POLSCE",
+      "short_name": "VIVA PAYMENT SERVICES SP\u00d3\u0141KA AKCYJNA ODDZIA\u0141 W POLSCE",
+      "status": "delisted",
+      "bank_codes": [
+        "61100006"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "",
+      "name": "Quicko sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105",
+      "short_name": "Quicko sp\u00f3\u0142ka z ograniczon\u0105 odpowiedzialno\u015bci\u0105",
+      "status": "delisted",
+      "bank_codes": [
+        "62300016"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "",
+      "name": "Bank Millennium Sp\u00f3\u0142ka Akcyjna",
+      "short_name": "Bank Millennium Sp\u00f3\u0142ka Akcyjna",
+      "status": "delisted",
+      "bank_codes": [
+        "71100003"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "",
+      "name": "Bank Sp\u00f3\u0142dzielczy w Piasecznie",
+      "short_name": "Bank Sp\u00f3\u0142dzielczy w Piasecznie",
+      "status": "delisted",
+      "bank_codes": [
+        "80021027"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "POLUPLPRXXX",
+      "name": "Polski Bank Sp\u00f3\u0142dzielczy w Wyszkowie",
+      "short_name": "Polski Bank Sp\u00f3\u0142dzielczy w Wyszkowie",
+      "status": "delisted",
+      "bank_codes": [
+        "80160003",
+        "96780002"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "GBWCPLPP",
+      "name": "Polski Bank Sp\u00f3\u0142dzielczy w Poznaniu",
+      "short_name": "Polski Bank Sp\u00f3\u0142dzielczy w Poznaniu",
+      "status": "delisted",
+      "bank_codes": [
+        "82130008",
+        "82130011",
+        "82131018"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "",
+      "name": "Bank Sp\u00f3\u0142dzielczy w Olkuszu w likwidacji",
+      "short_name": "Bank Sp\u00f3\u0142dzielczy w Olkuszu w likwidacji",
+      "status": "closed",
+      "bank_codes": [
+        "84490003"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "POLUPLPRXXX",
+      "name": "Bank Sp\u00f3\u0142dzielczy w Nowym S\u0105czu",
+      "short_name": "Bank Sp\u00f3\u0142dzielczy w Nowym S\u0105czu",
+      "status": "delisted",
+      "bank_codes": [
+        "88100007",
+        "88111016"
+      ]
+    },
+    {
+      "country_code": "PL",
+      "primary": true,
+      "bic": "GBWCPLPP",
+      "name": "Bank Sp\u00f3\u0142dzielczy w \u0141asinie",
+      "short_name": "Bank Sp\u00f3\u0142dzielczy w \u0141asinie",
+      "status": "delisted",
+      "bank_codes": [
+        "95001018"
       ]
     }
   ],

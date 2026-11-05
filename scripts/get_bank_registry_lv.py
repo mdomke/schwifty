@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import io
-import json
 import re
 from urllib.parse import urljoin
 
@@ -9,6 +8,8 @@ import pandas
 from bs4 import BeautifulSoup
 
 from scripts.output import write_json
+from scripts.retired import load_previous
+from scripts.retired import merge
 
 
 # Latvijas Banka, "Identification of BIC by IBAN". The linked spreadsheet is renamed with
@@ -66,42 +67,6 @@ def fetch():
     return registry
 
 
-def merge(current, previous):
-    # The current list is authoritative for every bank code it contains. Codes that have
-    # dropped out of it are kept from the previous registry, since IBANs carrying them stay
-    # in circulation.
-    known = {entry["bank_code"]: entry for entry in previous}
-    current_codes = {entry["bank_code"] for entry in current}
-    retired = sorted(
-        (
-            {**entry, "retired": True}
-            for entry in previous
-            if entry["bank_code"] not in current_codes
-        ),
-        key=lambda entry: entry["bank_code"],
-    )
-
-    for entry in current:
-        old = known.get(entry["bank_code"])
-        if old is None:
-            print(f"Added {entry['bank_code']}: {entry['name']}")
-        elif (old["name"], old["bic"]) != (entry["name"], entry["bic"]):
-            print(f"Updated {entry['bank_code']}: {old['name']} -> {entry['name']}")
-    for entry in retired:
-        print(f"Kept retired {entry['bank_code']}: {entry['name']}")
-
-    print(f"Fetched {len(current)} bank records, kept {len(retired)} retired ones")
-    return current + retired
-
-
-def load_previous():
-    try:
-        with open(OUTPUT) as fp:
-            return json.load(fp)
-    except FileNotFoundError:
-        return []
-
-
 if __name__ == "__main__":
-    data = merge(fetch(), load_previous())  # read the previous file before replacing it
+    data = merge(fetch(), load_previous(OUTPUT))  # read the previous file before replacing it
     write_json(OUTPUT, data, indent=2)

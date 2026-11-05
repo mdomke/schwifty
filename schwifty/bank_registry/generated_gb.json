@@ -234,14 +234,6 @@
   {
     "country_code": "GB",
     "primary": true,
-    "bic": "ACRNGB2LXXX",
-    "bank_code": "ACRN",
-    "name": "ASSOCIATION OF CHARTERED CERTIFIED ACCOUNTANTS",
-    "short_name": "ASSOCIATION OF CHARTERED CERTIFIED ACCOUNTANTS"
-  },
-  {
-    "country_code": "GB",
-    "primary": true,
     "bic": "ACTDGB2LXXX",
     "bank_code": "ACTD",
     "name": "ACTIVTRADES PLC",
@@ -348,8 +340,8 @@
     "primary": true,
     "bic": "ADYBGB22XXX",
     "bank_code": "ADYB",
-    "name": "Adyen N.V.",
-    "short_name": "Adyen N.V."
+    "name": "ADYEN N.V. LONDON BRANCH",
+    "short_name": "ADYEN N.V. LONDON BRANCH"
   },
   {
     "country_code": "GB",
@@ -676,8 +668,8 @@
     "primary": true,
     "bic": "ALLFGB2LXXX",
     "bank_code": "ALLF",
-    "name": "ALLFUNDS BANK, S.A.",
-    "short_name": "ALLFUNDS BANK, S.A."
+    "name": "ALLFUNDS BANK",
+    "short_name": "ALLFUNDS BANK"
   },
   {
     "country_code": "GB",
@@ -1180,8 +1172,8 @@
     "primary": true,
     "bic": "ARNBGB2LXXX",
     "bank_code": "ARNB",
-    "name": "Arab national bank",
-    "short_name": "Arab national bank"
+    "name": "ARAB NATIONAL BANK LONDON BRANCH",
+    "short_name": "ARAB NATIONAL BANK LONDON BRANCH"
   },
   {
     "country_code": "GB",
@@ -2436,8 +2428,8 @@
     "primary": true,
     "bic": "BKTWGB2LXXX",
     "bank_code": "BKTW",
-    "name": "\u81fa\u7063\u9280\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8",
-    "short_name": "\u81fa\u7063\u9280\u884c\u80a1\u4efd\u6709\u9650\u516c\u53f8"
+    "name": "BANK OF TAIWAN LONDON BRANCH",
+    "short_name": "BANK OF TAIWAN LONDON BRANCH"
   },
   {
     "country_code": "GB",
@@ -3532,8 +3524,8 @@
     "primary": true,
     "bic": "CAIXGB2LXXX",
     "bank_code": "CAIX",
-    "name": "CAIXABANK SA",
-    "short_name": "CAIXABANK SA"
+    "name": "CAIXABANK, S.A.",
+    "short_name": "CAIXABANK, S.A."
   },
   {
     "country_code": "GB",
@@ -3748,8 +3740,8 @@
     "primary": true,
     "bic": "CCBCGB2LXXX",
     "bank_code": "CCBC",
-    "name": "CHANG HWA COMMERCIAL BANK, LTD.",
-    "short_name": "CHANG HWA COMMERCIAL BANK, LTD."
+    "name": "CHANG HWA COMMERCIAL BANK,LTD",
+    "short_name": "CHANG HWA COMMERCIAL BANK,LTD"
   },
   {
     "country_code": "GB",
@@ -4604,8 +4596,8 @@
     "primary": true,
     "bic": "CLSAGB21XXX",
     "bank_code": "CLSA",
-    "name": "CLSA (UK)",
-    "short_name": "CLSA (UK)"
+    "name": "CITIC SECURITIES (UK)",
+    "short_name": "CITIC SECURITIES (UK)"
   },
   {
     "country_code": "GB",
@@ -7196,8 +7188,8 @@
     "primary": true,
     "bic": "FCBKGB2LXXX",
     "bank_code": "FCBK",
-    "name": "FIRST COMMERCIAL BANK, LTD.",
-    "short_name": "FIRST COMMERCIAL BANK, LTD."
+    "name": "FIRST COMMERCIAL BANK Ltd, LONDON BRANCH",
+    "short_name": "FIRST COMMERCIAL BANK Ltd, LONDON BRANCH"
   },
   {
     "country_code": "GB",
@@ -8202,14 +8194,6 @@
   {
     "country_code": "GB",
     "primary": true,
-    "bic": "GFGTGB2LXXX",
-    "bank_code": "GFGT",
-    "name": "GLOBAL FASHION GROUP TRM LIMITED",
-    "short_name": "GLOBAL FASHION GROUP TRM LIMITED"
-  },
-  {
-    "country_code": "GB",
-    "primary": true,
     "bic": "GFIGGB2LXXX",
     "bank_code": "GFIG",
     "name": "GFI SECURITIES LIMITED",
@@ -8596,8 +8580,8 @@
     "primary": true,
     "bic": "GSBUGB2LXXX",
     "bank_code": "GSBU",
-    "name": "Goldman Sachs Bank USA",
-    "short_name": "Goldman Sachs Bank USA"
+    "name": "GOLDMAN SACHS BANK USA, LONDON BRANCH",
+    "short_name": "GOLDMAN SACHS BANK USA, LONDON BRANCH"
   },
   {
     "country_code": "GB",
@@ -9004,8 +8988,8 @@
     "primary": false,
     "bic": "HBZUGB22XXX",
     "bank_code": "HBZU",
-    "name": "HABIB BANK AG Z\u00dcRICH",
-    "short_name": "HABIB BANK AG Z\u00dcRICH"
+    "name": "HABIB BANK A.G. ZURICH",
+    "short_name": "HABIB BANK A.G. ZURICH"
   },
   {
     "country_code": "GB",
@@ -9505,8 +9489,16 @@
   },
   {
     "country_code": "GB",
-    "primary": true,
+    "primary": false,
     "bic": "HSDLGB21XXX",
+    "bank_code": "HSDL",
+    "name": "HALIFAX SHARE DEALING LIMITED",
+    "short_name": "HALIFAX SHARE DEALING LIMITED"
+  },
+  {
+    "country_code": "GB",
+    "primary": true,
+    "bic": "HSDLGB2LXXX",
     "bank_code": "HSDL",
     "name": "HALIFAX SHARE DEALING LIMITED",
     "short_name": "HALIFAX SHARE DEALING LIMITED"
@@ -9668,8 +9660,8 @@
     "primary": true,
     "bic": "IBKOGB2LXXX",
     "bank_code": "IBKO",
-    "name": "\uc911\uc18c\uae30\uc5c5\uc740\ud589",
-    "short_name": "\uc911\uc18c\uae30\uc5c5\uc740\ud589"
+    "name": "Industrial Bank of Korea, London Branch",
+    "short_name": "Industrial Bank of Korea, London Branch"
   },
   {
     "country_code": "GB",
@@ -12108,8 +12100,8 @@
     "primary": true,
     "bic": "MADGGB21XXX",
     "bank_code": "MADG",
-    "name": "Maven Investment Partners Ltd",
-    "short_name": "Maven Investment Partners Ltd"
+    "name": "MAVEN INVESTMENT PARTNERS LTD",
+    "short_name": "MAVEN INVESTMENT PARTNERS LTD"
   },
   {
     "country_code": "GB",
@@ -12268,8 +12260,8 @@
     "primary": true,
     "bic": "MBBEGB2LXXX",
     "bank_code": "MBBE",
-    "name": "MALAYAN BANKING BERHAD",
-    "short_name": "MALAYAN BANKING BERHAD"
+    "name": "Malayan Banking Berhad, London Branch",
+    "short_name": "Malayan Banking Berhad, London Branch"
   },
   {
     "country_code": "GB",
@@ -12809,8 +12801,16 @@
   },
   {
     "country_code": "GB",
-    "primary": true,
+    "primary": false,
     "bic": "MIBCGB21XXX",
+    "bank_code": "MIBC",
+    "name": "MITSUI BUSSAN COMMODITIES LTD",
+    "short_name": "MITSUI BUSSAN COMMODITIES LTD"
+  },
+  {
+    "country_code": "GB",
+    "primary": true,
+    "bic": "MIBCGB2LXXX",
     "bank_code": "MIBC",
     "name": "MITSUI BUSSAN COMMODITIES LTD",
     "short_name": "MITSUI BUSSAN COMMODITIES LTD"
@@ -14161,8 +14161,16 @@
   },
   {
     "country_code": "GB",
-    "primary": true,
+    "primary": false,
     "bic": "NFUMGB21XXX",
+    "bank_code": "NFUM",
+    "name": "NATIONAL FARMERS UNION MUTUAL INSURANCE SOCIETY LIMITED(THE)",
+    "short_name": "NATIONAL FARMERS UNION MUTUAL INSURANCE SOCIETY LIMITED(THE)"
+  },
+  {
+    "country_code": "GB",
+    "primary": true,
+    "bic": "NFUMGB22XXX",
     "bank_code": "NFUM",
     "name": "NATIONAL FARMERS UNION MUTUAL INSURANCE SOCIETY LIMITED(THE)",
     "short_name": "NATIONAL FARMERS UNION MUTUAL INSURANCE SOCIETY LIMITED(THE)"
@@ -19050,14 +19058,6 @@
   {
     "country_code": "GB",
     "primary": true,
-    "bic": "SWEDGB21XXX",
-    "bank_code": "SWED",
-    "name": "Swedbank AB",
-    "short_name": "Swedbank AB"
-  },
-  {
-    "country_code": "GB",
-    "primary": true,
     "bic": "SWFAGB21XXX",
     "bank_code": "SWFA",
     "name": "TUTMAN FUND SOLUTIONS LIMITED",
@@ -21798,5 +21798,32 @@
     "bank_code": "ZUSI",
     "name": "THREADNEEDLE INTERNATIONAL LIMITED",
     "short_name": "THREADNEEDLE INTERNATIONAL LIMITED"
+  },
+  {
+    "country_code": "GB",
+    "primary": true,
+    "bic": "ACRNGB2LXXX",
+    "bank_code": "ACRN",
+    "name": "ASSOCIATION OF CHARTERED CERTIFIED ACCOUNTANTS",
+    "short_name": "ASSOCIATION OF CHARTERED CERTIFIED ACCOUNTANTS",
+    "status": "delisted"
+  },
+  {
+    "country_code": "GB",
+    "primary": true,
+    "bic": "GFGTGB2LXXX",
+    "bank_code": "GFGT",
+    "name": "GLOBAL FASHION GROUP TRM LIMITED",
+    "short_name": "GLOBAL FASHION GROUP TRM LIMITED",
+    "status": "delisted"
+  },
+  {
+    "country_code": "GB",
+    "primary": true,
+    "bic": "SWEDGB21XXX",
+    "bank_code": "SWED",
+    "name": "Swedbank AB",
+    "short_name": "Swedbank AB",
+    "status": "delisted"
   }
 ]

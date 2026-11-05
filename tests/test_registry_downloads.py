@@ -81,7 +81,7 @@ def test_iban_download_bytes():
 
 
 def test_gleif_download_url() -> None:
-    script = load_script("get_bank_registry_gb")
+    script = load_script("gleif")
     files = {
         "data": [
             {
@@ -121,7 +121,7 @@ def test_gleif_download_url() -> None:
     ],
 )
 def test_gleif_primary_bic(bics: list[str], primary: list[str]) -> None:
-    script = load_script("get_bank_registry_gb")
+    script = load_script("gleif")
     assert [bic for bic in bics if script.is_primary(bic, bics)] == primary
 
 
@@ -176,12 +176,45 @@ def test_merged_bank_code_becomes_alias_of_successor() -> None:
             "bic": "GENODEF1AAA",
             "primary": False,
             "country_code": "DE",
-            "retired": True,
             "checksum_algo": "06",
+            "status": "merged",
             "successor_bank_code": "10000001",
+            "legacy_name": "Volksbank Alt",
             "legacy_bic": "GENODEF1BBB",
         }
     ]
+
+
+def test_old_suffix_is_dropped_from_the_names_of_retired_banks() -> None:
+    script = load_script("get_bank_registry_de")
+    records = [
+        bundesbank_record("10000001", "Volksbank", "GENODEF1AAA"),
+        bundesbank_record("10000005", "Raiffeisenbank -alt-", "GENODEF1EEE"),
+        bundesbank_record(
+            "10000002",
+            "Volksbank Alt -alt-",
+            "GENODEF1BBB",
+            deletion_flag="1",
+            successor="10000001",
+        ),
+    ]
+    previous = [
+        {
+            "bank_code": "10000003",
+            "name": "Sparkasse  -alt-",
+            "short_name": "Sparkasse-alt",
+            "bic": "SPKADEFFXXX",
+            "primary": True,
+            "checksum_algo": "09",
+        }
+    ]
+    registry = {entry["bank_code"]: entry for entry in script.process(records, previous)}
+    # Bank codes that are still active keep the name the Bundesbank lists them with.
+    assert registry["10000005"]["name"] == "Raiffeisenbank -alt-"
+    assert registry["10000002"]["name"] == "Volksbank"
+    assert registry["10000002"]["legacy_name"] == "Volksbank Alt"
+    assert registry["10000003"]["name"] == "Sparkasse"
+    assert registry["10000003"]["short_name"] == "Sparkasse"
 
 
 def test_retired_bank_codes_are_kept() -> None:
@@ -201,7 +234,9 @@ def test_retired_bank_codes_are_kept() -> None:
             "bic": "GENODEF1AAA",
             "primary": False,
             "checksum_algo": "32",
+            "status": "merged",
             "successor_bank_code": "10000001",
+            "legacy_name": "Volksbank Alt",
             "legacy_bic": "GENODEF1BBB",
         },
         {
@@ -227,6 +262,8 @@ def test_retired_bank_codes_are_kept() -> None:
     assert registry["10000001", "GENODEF1AAA"]["name"] == "Volksbank Neu"
     assert registry["10000002", "GENODEF1AAA"]["name"] == "Volksbank Neu"
     assert registry["10000002", "GENODEF1AAA"]["checksum_algo"] == "32"
-    assert registry["10000002", "GENODEF1AAA"]["retired"] is True
+    assert registry["10000002", "GENODEF1AAA"]["status"] == "merged"
+    assert registry["10000002", "GENODEF1AAA"]["legacy_name"] == "Volksbank Alt"
     assert registry["10000002", "GENODEF1AAA"]["legacy_bic"] == "GENODEF1BBB"
-    assert registry["10000003", "CLOSDEFFXXX"] == {**previous[2], "retired": True}
+    # The Bundesbank doesn't say why a code without a successor was deleted.
+    assert registry["10000003", "CLOSDEFFXXX"] == {**previous[2], "status": "delisted"}

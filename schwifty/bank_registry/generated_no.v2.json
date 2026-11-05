@@ -928,23 +928,7 @@
         "9705",
         "9706",
         "9707",
-        "9709",
-        "9710",
-        "9713",
-        "9722",
-        "9723",
-        "9726",
-        "9727",
-        "9729",
-        "9801",
-        "9802",
-        "9803",
-        "9804",
-        "9805",
-        "9807",
-        "9808",
-        "9809",
-        "9810"
+        "9709"
       ]
     },
     {
@@ -1310,6 +1294,8 @@
         "1904",
         "1913",
         "1917",
+        "2050",
+        "2051",
         "9001",
         "9002",
         "9003",
@@ -1384,18 +1370,8 @@
         "2020",
         "2030",
         "2280",
-        "2281"
-      ]
-    },
-    {
-      "country_code": "NO",
-      "primary": true,
-      "bic": "TOTENO21",
-      "name": "SpareBank 1 \u00d8stlandet",
-      "short_name": "SpareBank 1 \u00d8stlandet",
-      "bank_codes": [
-        "2050",
-        "2051"
+        "2281",
+        "2282"
       ]
     },
     {
@@ -1405,7 +1381,8 @@
       "name": "Sparebank 1 Lom og Sj\u00e5k",
       "short_name": "Sparebank 1 Lom og Sj\u00e5k",
       "bank_codes": [
-        "2085"
+        "2085",
+        "2087"
       ]
     },
     {
@@ -1416,6 +1393,7 @@
       "short_name": "Sparebank 1 Gudbrandsdal",
       "bank_codes": [
         "2095",
+        "2097",
         "2125"
       ]
     },
@@ -1492,6 +1470,8 @@
         "2333",
         "2351",
         "2352",
+        "2620",
+        "2621",
         "2699"
       ]
     },
@@ -1579,20 +1559,9 @@
     {
       "country_code": "NO",
       "primary": true,
-      "bic": "TINNNO21",
-      "name": "Skue Sparebank",
-      "short_name": "Skue Sparebank",
-      "bank_codes": [
-        "2620",
-        "2621"
-      ]
-    },
-    {
-      "country_code": "NO",
-      "primary": true,
       "bic": "BSPANO21",
-      "name": "Sparebanken DIN",
-      "short_name": "Sparebanken DIN",
+      "name": "Telemark Sparebank",
+      "short_name": "Telemark Sparebank",
       "bank_codes": [
         "2630",
         "2632",
@@ -1603,8 +1572,8 @@
       "country_code": "NO",
       "primary": true,
       "bic": "DRANNO21",
-      "name": "Drangedal Sparebank",
-      "short_name": "Drangedal Sparebank",
+      "name": "Telemark Sparebank",
+      "short_name": "Telemark Sparebank",
       "bank_codes": [
         "2635",
         "2639"
@@ -1613,9 +1582,9 @@
     {
       "country_code": "NO",
       "primary": true,
-      "bic": "SPSONO22",
-      "name": "Sparebanken Norge - S\u00f8r",
-      "short_name": "Sparebanken Norge - S\u00f8r",
+      "bic": "SPAVNOBB",
+      "name": "Sparebanken Norge",
+      "short_name": "Sparebanken Norge",
       "bank_codes": [
         "2660",
         "2694",
@@ -1660,8 +1629,78 @@
         "3141",
         "3144",
         "3148",
+        "3305",
+        "3420",
+        "3450",
+        "3470",
+        "3490",
+        "3492",
+        "3495",
+        "3500",
+        "3506",
+        "3520",
+        "3530",
+        "3540",
+        "3546",
+        "3562",
+        "3565",
+        "3569",
+        "3602",
+        "3604",
+        "3605",
+        "3606",
+        "3607",
+        "3608",
+        "3609",
+        "3610",
+        "3611",
+        "3612",
+        "3613",
+        "3614",
+        "3615",
+        "3616",
+        "3618",
+        "3619",
+        "3621",
+        "3622",
+        "3623",
+        "3624",
+        "3625",
+        "3626",
+        "3627",
+        "3628",
+        "3629",
+        "3630",
+        "3631",
+        "3632",
+        "3633",
+        "3635",
+        "3636",
+        "3637",
+        "3638",
+        "3639",
+        "3640",
+        "3641",
+        "3642",
+        "3643",
+        "3644",
+        "3645",
+        "3646",
+        "3647",
+        "3649",
+        "3650",
+        "3652",
+        "3658",
+        "3670",
+        "3720",
+        "3790",
+        "3816",
+        "3845",
+        "3853",
+        "3855",
         "8133",
-        "8220"
+        "8220",
+        "9013"
       ]
     },
     {
@@ -1677,12 +1716,16 @@
     {
       "country_code": "NO",
       "primary": true,
-      "bic": "BISNNO21",
+      "bic": "GJSPNO21",
       "name": "Agder Sparebank",
       "short_name": "Agder Sparebank",
       "bank_codes": [
         "2880",
-        "2881"
+        "2881",
+        "2895",
+        "2907",
+        "2908",
+        "2938"
       ]
     },
     {
@@ -1693,19 +1736,6 @@
       "short_name": "Valle Sparebank",
       "bank_codes": [
         "2890"
-      ]
-    },
-    {
-      "country_code": "NO",
-      "primary": true,
-      "bic": "GJSPNO21",
-      "name": "Agder Sparebank",
-      "short_name": "Agder Sparebank",
-      "bank_codes": [
-        "2895",
-        "2907",
-        "2908",
-        "2938"
       ]
     },
     {
@@ -1801,77 +1831,6 @@
       "bank_codes": [
         "3290",
         "3325"
-      ]
-    },
-    {
-      "country_code": "NO",
-      "primary": true,
-      "bic": "SPAVNOBB",
-      "name": "Sparebanken Norge",
-      "short_name": "Sparebanken Norge",
-      "bank_codes": [
-        "3305",
-        "3420",
-        "3450",
-        "3470",
-        "3490",
-        "3492",
-        "3495",
-        "3500",
-        "3506",
-        "3520",
-        "3530",
-        "3540",
-        "3546",
-        "3562",
-        "3565",
-        "3569",
-        "3602",
-        "3604",
-        "3605",
-        "3606",
-        "3607",
-        "3608",
-        "3609",
-        "3610",
-        "3611",
-        "3612",
-        "3613",
-        "3615",
-        "3616",
-        "3621",
-        "3622",
-        "3623",
-        "3624",
-        "3625",
-        "3626",
-        "3628",
-        "3630",
-        "3631",
-        "3632",
-        "3633",
-        "3635",
-        "3636",
-        "3637",
-        "3638",
-        "3640",
-        "3642",
-        "3643",
-        "3645",
-        "3646",
-        "3647",
-        "3649",
-        "3650",
-        "3652",
-        "3658",
-        "3670",
-        "3720",
-        "3790",
-        "3816",
-        "3845",
-        "3853",
-        "3855",
-        "9013"
       ]
     },
     {
@@ -2062,6 +2021,16 @@
     {
       "country_code": "NO",
       "primary": true,
+      "bic": "NORVNO21",
+      "name": "SpareBank 1 Nordm\u00f8re",
+      "short_name": "SpareBank 1 Nordm\u00f8re",
+      "bank_codes": [
+        "3944"
+      ]
+    },
+    {
+      "country_code": "NO",
+      "primary": true,
       "bic": "SPTRNO22",
       "name": "SpareBank 1 SMN",
       "short_name": "SpareBank 1 SMN",
@@ -2162,11 +2131,14 @@
     {
       "country_code": "NO",
       "primary": true,
-      "bic": "RINDNO21",
+      "bic": "OKDLNO21",
       "name": "Orkla Sparebank",
       "short_name": "Orkla Sparebank",
       "bank_codes": [
-        "4111"
+        "4111",
+        "4260",
+        "4261",
+        "4270"
       ]
     },
     {
@@ -2177,18 +2149,6 @@
       "short_name": "Melhus Sparebank",
       "bank_codes": [
         "4230"
-      ]
-    },
-    {
-      "country_code": "NO",
-      "primary": true,
-      "bic": "OKDLNO21",
-      "name": "Orkla Sparebank",
-      "short_name": "Orkla Sparebank",
-      "bank_codes": [
-        "4260",
-        "4261",
-        "4270"
       ]
     },
     {
@@ -2370,6 +2330,7 @@
         "4657",
         "4662",
         "4700",
+        "4701",
         "4705",
         "4706",
         "4708",
@@ -2484,19 +2445,9 @@
     {
       "country_code": "NO",
       "primary": true,
-      "bic": "SNOWNO22",
-      "name": "SpareBank 1 Nord-Norge ",
-      "short_name": "SpareBank 1 Nord-Norge ",
-      "bank_codes": [
-        "4701"
-      ]
-    },
-    {
-      "country_code": "NO",
-      "primary": true,
       "bic": "NDEANOKK",
-      "name": "Nordea Bank Abp, Filial i Norge",
-      "short_name": "Nordea Bank Abp, Filial i Norge",
+      "name": "Nordea Bank Abp NUF",
+      "short_name": "Nordea Bank Abp NUF",
       "bank_codes": [
         "6001",
         "6002",
@@ -2869,9 +2820,16 @@
         "6797",
         "6798",
         "6799",
+        "6800",
+        "6801",
+        "6802",
         "6803",
+        "6804",
         "6805",
         "6806",
+        "6807",
+        "6808",
+        "6809",
         "6810",
         "6811",
         "6813",
@@ -2900,7 +2858,8 @@
         "6924",
         "6954",
         "6972",
-        "6997"
+        "6997",
+        "9775"
       ]
     },
     {
@@ -3238,7 +3197,9 @@
       "name": "Lunar Bank A/S",
       "short_name": "Lunar Bank A/S",
       "bank_codes": [
-        "9602"
+        "9602",
+        "9603",
+        "9604"
       ]
     },
     {
@@ -3249,6 +3210,31 @@
       "short_name": "Boligbanken ASA",
       "bank_codes": [
         "9666"
+      ]
+    },
+    {
+      "country_code": "NO",
+      "primary": true,
+      "bic": "DNBANOKK",
+      "name": "DNB BANK ASA",
+      "short_name": "DNB BANK ASA",
+      "bank_codes": [
+        "9710",
+        "9713",
+        "9722",
+        "9723",
+        "9726",
+        "9727",
+        "9729",
+        "9801",
+        "9802",
+        "9803",
+        "9804",
+        "9805",
+        "9807",
+        "9808",
+        "9809",
+        "9810"
       ]
     },
     {
@@ -3275,16 +3261,6 @@
     {
       "country_code": "NO",
       "primary": true,
-      "bic": "NDEANOKK",
-      "name": "Nordea Bank  Abp, Filial i Norge",
-      "short_name": "Nordea Bank  Abp, Filial i Norge",
-      "bank_codes": [
-        "9775"
-      ]
-    },
-    {
-      "country_code": "NO",
-      "primary": true,
       "bic": "TEKONOK1",
       "name": "Eika digitalbank AS",
       "short_name": "Eika digitalbank AS",
@@ -3305,9 +3281,88 @@
     {
       "country_code": "NO",
       "primary": true,
+      "bic": "SHEDNO22",
+      "name": "SpareBank 1 \u00d8stlandet",
+      "short_name": "SpareBank 1 \u00d8stlandet",
+      "status": "delisted",
+      "bank_codes": [
+        "1817"
+      ]
+    },
+    {
+      "country_code": "NO",
+      "primary": true,
+      "bic": "SPRONO22",
+      "name": "SpareBank 1 SR-Bank ASA",
+      "short_name": "SpareBank 1 SR-Bank ASA",
+      "status": "delisted",
+      "bank_codes": [
+        "3227"
+      ]
+    },
+    {
+      "country_code": "NO",
+      "primary": true,
+      "bic": "ETNENO21",
+      "name": "Sparebanken Vest Etne",
+      "short_name": "Sparebanken Vest Etne",
+      "status": "delisted",
+      "bank_codes": [
+        "3543"
+      ]
+    },
+    {
+      "country_code": "NO",
+      "primary": true,
+      "bic": "SPTRNO22",
+      "name": "SpareBank 1 SMN",
+      "short_name": "SpareBank 1 SMN",
+      "status": "delisted",
+      "bank_codes": [
+        "4209"
+      ]
+    },
+    {
+      "country_code": "NO",
+      "primary": true,
+      "bic": "SNOWNO22",
+      "name": "SpareBank 1 Nord-Norge",
+      "short_name": "SpareBank 1 Nord-Norge",
+      "status": "delisted",
+      "bank_codes": [
+        "4714"
+      ]
+    },
+    {
+      "country_code": "NO",
+      "primary": true,
+      "bic": "BTWONOK1",
+      "name": "Bluestep Bank AB (publ), filial Oslo",
+      "short_name": "Bluestep Bank AB (publ), filial Oslo",
+      "status": "delisted",
+      "bank_codes": [
+        "9615"
+      ]
+    },
+    {
+      "country_code": "NO",
+      "primary": true,
+      "bic": "VERDNOK1",
+      "name": "Lea Bank ASA",
+      "short_name": "Lea Bank ASA",
+      "status": "delisted",
+      "bank_codes": [
+        "9791",
+        "9792"
+      ]
+    },
+    {
+      "country_code": "NO",
+      "primary": true,
       "bic": "YABANOK1",
       "name": "Resurs Bank AB NUF",
       "short_name": "Resurs Bank AB NUF",
+      "status": "delisted",
       "bank_codes": [
         "9900",
         "9902",

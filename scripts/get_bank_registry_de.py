@@ -1,11 +1,14 @@
 #!/usr/bin/env python
-import json
+import re
 from urllib.parse import urljoin
 
 import httpx2
 from bs4 import BeautifulSoup
 
+from schwifty.domain import BankStatus
 from scripts.output import write_json
+from scripts.retired import load_previous
+from scripts.retired import retire
 
 
 FIELD_LENGTHS = {
@@ -26,7 +29,13 @@ FIELD_LENGTHS = {
 
 URL = "https://www.bundesbank.de/de/aufgaben/unbarer-zahlungsverkehr/serviceangebot/bankleitzahlen"
 OUTPUT = "schwifty/bank_registry/generated_de.json"
+MIN_RECORDS = 3000
+# A bank code that the Bundesbank is going to delete names the bank code that payments are
+# redirected to, if there is one.
 NO_SUCCESSOR = {"", "00000000"}
+# The Bundesbank marks the names of bank codes that a merger made obsolete with the suffix "-alt-"
+# ("old"), e.g. "Raiffeisenbank Wismar -alt-". The status of a retired code says as much.
+OLD_SUFFIX = re.compile(r"\s*-alt-?\s*$")
 
 
 def get_download_url():
@@ -77,19 +86,41 @@ def entry(record):
     }
 
 
-def alias(bank_code, checksum_algo, legacy_bic, successor):
+def alias(old, successor):
+    """Return ``old`` as a merged bank code that resolves to the head office ``successor``."""
     # Account codes issued under the retired bank code were computed with that bank's
-    # checksum method, so it is kept while everything else is taken from the successor. Codes
+    # checksum method, so it is kept while name and BIC are taken from the successor. Codes
     # that were deleted before the registry recorded checksum methods have none. The bank's
-    # own BIC is kept as well, so that it can still be resolved.
-    result = {**successor, "bank_code": bank_code, "primary": False, "retired": True}
+    # own name and BIC are kept as well, so that it can still be identified and resolved.
+    result = {**successor, "bank_code": old["bank_code"], "primary": False}
     result.pop("checksum_algo", None)
-    if checksum_algo:
-        result["checksum_algo"] = checksum_algo
-    result["successor_bank_code"] = successor["bank_code"]
+    if old.get("checksum_algo"):
+        result["checksum_algo"] = old["checksum_algo"]
+    result["status"] = BankStatus.MERGED
+    result["successor_bank_code"] = old["successor_bank_code"]
+    # An alias of the previous registry already carries the successor's name and BIC, and its
+    # own ones as legacy name and BIC, if they were known.
+    is_alias = "legacy_name" in old or old.get("retired")
+    legacy_name = old.get("legacy_name") if is_alias else old["name"]
+    legacy_bic = old.get("legacy_bic") if is_alias else old["bic"]
+    if legacy_name and legacy_name != successor["name"]:
+        result["legacy_name"] = legacy_name
     if legacy_bic and legacy_bic != successor["bic"]:
         result["legacy_bic"] = legacy_bic
     return result
+
+
+def drop_old_suffix(entry):
+    """Remove the "-alt-" suffix from the names of the bank of a retired ``entry``."""
+    if entry.get("status", BankStatus.ACTIVE) == BankStatus.ACTIVE:
+        return entry
+    # A merged code that resolves to its successor carries the successor's names, which are left
+    # as the successor's own record has them.
+    fields = ["legacy_name"] if "legacy_name" in entry else ["name", "short_name"]
+    for field in fields:
+        if entry.get(field):
+            entry[field] = OLD_SUFFIX.sub("", entry[field])
+    return entry
 
 
 def resolve(bank_code, successors, head_offices):
@@ -106,7 +137,7 @@ def process(records, previous):
     A bank code that is announced for deletion together with a successor becomes an alias of
     the successor's head office. The Bundesbank only lists the successor until the code is
     deleted, so the aliases are carried over from the previous registry afterwards. Deleted
-    codes without a successor are kept as closed banks, but only the head office and only if
+    codes without a successor are kept as delisted banks, but only the head office and only if
     its checksum method is known.
     """
     records = [record for record in records if record["bank_code"] and record["bic"]]
@@ -127,14 +158,13 @@ def process(records, previous):
         if bank_code not in successors:
             registry.append(entry(record))
         elif record["feature"] == "1":
+            merged = {**entry(record), "successor_bank_code": successors[bank_code]}
             successor = resolve(bank_code, successors, head_offices)
             if successor is None:
                 print(f"Successor of {bank_code} not found, keeping {record['name']}")
-                registry.append(entry(record))
+                registry.append(retire(merged, BankStatus.MERGED))
             else:
-                registry.append(
-                    alias(bank_code, record["check_digit_method"], record["bic"], successor)
-                )
+                registry.append(alias(merged, successor))
     print(f"Fetched {len(registry)} bank records, {len(successors)} merged bank codes")
 
     current = {item["bank_code"] for item in registry}
@@ -142,33 +172,27 @@ def process(records, previous):
     for old in previous:
         if old["bank_code"] in current:
             continue
-        if "successor_bank_code" in old:
+        if old.get("successor_bank_code"):
             # Refresh the alias in case its successor has been renamed or merged itself.
             successor = resolve(old["successor_bank_code"], successors, head_offices)
-            registry.append(
-                alias(old["bank_code"], old.get("checksum_algo"), old.get("legacy_bic"), successor)
-                if successor
-                else old
-            )
+            registry.append(alias(old, successor) if successor else old)
         elif old["primary"] and old.get("checksum_algo"):
-            # Closed banks are only kept if their account codes can still be validated.
-            registry.append({**old, "retired": True})
+            # Deleted banks are only kept if their account codes can still be validated.
+            registry.append(retire(old))
         else:
             continue
         carried += 1
     print(f"Kept {carried} retired bank codes")
 
+    registry = [drop_old_suffix(item) for item in registry]
     return sorted(registry, key=lambda item: f"{item['bank_code']}{item['bic']}")
 
 
-def load_previous():
-    try:
-        with open(OUTPUT) as fp:
-            return json.load(fp)
-    except FileNotFoundError:
-        return []
-
-
 if __name__ == "__main__":
-    data = process(parse(get_raw()), load_previous())  # read the previous file before replacing it
-    write_json(OUTPUT, data, indent=2)
+    # The Bundesbank only lists current bank codes, so the previous registry is the only source for
+    # deleted ones, and for the successor that was announced before the deletion. Read it before
+    # replacing it.
+    records = list(parse(get_raw()))
+    if len(records) < MIN_RECORDS:
+        raise ValueError(f"Only {len(records)} records parsed, the format may have changed")
+    write_json(OUTPUT, process(records, load_previous(OUTPUT)), indent=2)

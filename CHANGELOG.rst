@@ -9,6 +9,22 @@ Unreleased
 ----------
 Added
 ~~~~~
+* Added ``BIC.canonical``, the canonical form of a BIC: ISO 9362 treats a BIC without branch code
+  and the same BIC with the branch code ``XXX`` as identical, so both have the 8-character form as
+  canonical form, e.g. ``BIC("REVOGB21XXX").canonical == "REVOGB21"``.
+* Added ``BIC.banks``, the bank records of a BIC in the registry. ``BIC.exists``,
+  ``BIC.bank_names`` and the other lookups by BIC are based on it.
+* Bank codes that are no longer in use are now marked in the registry. ``Bank.status`` is a
+  ``schwifty.domain.BankStatus`` of ``active``, ``merged``, ``closed`` or ``delisted``. A merged
+  bank code names its successor as ``Bank.successor_bank_code`` where it is known, and takes on the
+  name and BIC of the bank that services it today, while the merged bank's own name and BIC are kept
+  as ``Bank.legacy_name`` and ``Bank.legacy_bic``. The legacy BIC still resolves, e.g.
+  ``BIC("GENODEF1HWR").domestic_bank_codes``. Lookups by bank code prefer active records, then
+  merged ones, and only then the primary record among them, so that an active branch wins over a
+  retired head office. Closed and delisted banks are still returned, so that an IBAN can be
+  identified; check their status before initiating a payment. Account codes of retired banks are
+  validated with their own checksum method, and :meth:`.IBAN.random` no longer picks retired bank
+  codes.
 * Added the German checksum method ``48``, used by seven Volksbanken such as Volksbank
   Raiffeisenbank (bank code ``20190109``). It works like method ``06`` over positions 3 to 8,
   with the check digit at position 9. Account codes for these banks were not checked before.
@@ -27,15 +43,6 @@ Added
   method ``06`` with the weights 2, 4, 8, 5, 10, 9, 7, 3, 6 instead of 2 to 7: method ``40`` over
   positions 1 to 9 and method ``44`` with the first five weights over positions 5 to 9. Account
   codes for these banks were not checked before.
-* Bank codes that are no longer in use are now marked in the registry. :attr:`.Bank.retired` is
-  set for them, and :attr:`.Bank.successor_bank_code` names the successor of a merged bank, whose
-  name and BIC the entry takes on. The merged bank's own BIC is kept as :attr:`.Bank.legacy_bic`
-  and still resolves, e.g. ``BIC("GENODEF1HWR").domestic_bank_codes``. A bank that was closed
-  without a successor (:attr:`.Bank.closed`) is left out of :attr:`.IBAN.bank`, :attr:`.IBAN.bic`,
-  :attr:`.BIC.exists` and the other lookups, since no payments can be made to it. Use
-  :meth:`.IBAN.get_bank` or :meth:`.BIC.from_bank_code` with ``include_closed=True`` to look it up
-  anyway. Account codes of closed banks are still validated with their own checksum method, and
-  :meth:`.IBAN.random` no longer picks retired bank codes.
 * Added the German checksum methods ``41``, ``42`` and ``43``, used by Openbank Deutschland (bank
   code ``25020600``), VR Bank im Enzkreis (bank code ``66661454``) and Volksbank Pforzheim (bank
   code ``66690000``). Method ``41`` works like method ``00``, but leaves out positions 1 to 3 if
@@ -56,23 +63,191 @@ Added
 
 Changed
 ~~~~~~~
+* The BIC of an institution's primary office is always returned in its 8-character form, e.g.
+  ``IBAN("DE89370400440532013000").bic`` is now ``COBADEFF`` instead of ``COBADEFFXXX``. ISO 9362
+  treats both forms as identical, but the registries stored either of them depending on their
+  source, so that ``IBAN.bic`` and ``BIC.from_bank_code`` returned the 11-character form for about
+  8,400 bank codes, e.g. in Germany, Switzerland, Poland and the UK, and the 8-character form for
+  the others. ``BIC.exists`` and the lookups by BIC now accept both forms, e.g.
+  ``BIC("REVOGB21XXX").exists`` is ``True`` although the registry lists ``REVOGB21``.
 * Updated the Latvian bank registry from Latvijas Banka's current BIC list. It adds six payment
   service providers such as Indexo Banka (``IDXO``) and xpate (``SIAX``), and renames BlueOrange
-  Bank to BlueOr Bank and LPB Bank to Magnetiq Bank. Banks that are no longer on the official
-  list, such as PNB Banka (``LATB``), are kept as closed banks. The update script now looks up the
-  renamed spreadsheet on the bank's website instead of using a fixed URL.
+  Bank to BlueOr Bank and LPB Bank to Magnetiq Bank. Banks that are no longer on the official list,
+  such as PNB Banka (``LATB``), are kept so that existing IBANs still resolve. The update
+  script now looks up the renamed spreadsheet on the bank's website instead of using a fixed URL.
+* Updated the Dutch bank registry from Betaalvereniging Nederland's current BIC list. It adds ten
+  payment service providers such as Qonto (``QNTO``) and Trade Republic (``TRBK``), changes the BIC
+  of Lloyds Bank from ``LOYDNL2A`` to ``LOYDNL22``, and renames SNS to ASN Bank. Banks that are no
+  longer on the official list, such as Viva Payment Services (``VPAY``), are kept so that existing
+  IBANs still resolve. The update script now looks up the spreadsheet on the association's website,
+  because the fixed URL redirected to an outdated copy that no longer exists.
+* The Austrian bank registry now keeps banks that are no longer listed by the Oesterreichische
+  Nationalbank, so that existing IBANs still resolve. 21 bank codes that were dropped since 2020,
+  such as Commerzialbank Mattersburg (``19620``) and Sberbank Europe (``74000``), were restored.
+* The Belgian bank registry now keeps banks whose codes the National Bank of Belgium has released,
+  so that existing IBANs still resolve until a code is assigned to another bank. 39 bank
+  codes that were dropped since 2020, such as those of bpost (``873``, ``981`` - ``984``) and the
+  former AXA Bank codes of Crelan (``766`` - ``771``, ``807`` - ``816``), were restored.
+* Updated the Czech bank registry from the Czech National Bank's current code list, which adds
+  Comgate (``8620``) and Banking Circle (``6600``) and the BIC of Partners Banka (``PTBNCZPP``). The
+  registry now keeps cancelled bank codes, so that existing IBANs still resolve. 29 codes
+  that were cancelled since 2020, such as those of Equa bank (``6100``) and Expobank (``4000``),
+  were restored. Codes of merged banks keep the bank's name during the run-off period, in which the
+  official list replaces it with a note about where payments are forwarded.
+* The Spanish bank registry marks the 310 banks that iban.es lists as deregistered as merged, with
+  the successor's bank code where iban.es states it, or as closed, according to the reason of
+  their deregistration. Lookups prefer the banks that are still active. Since iban.es lags behind
+  in places, the script corrects it where the source is known: Bankia, Banco Popular, Liberbank,
+  Banco CEISS and Banco Mare Nostrum are marked as merged, and Revolut Bank (``1583``) as
+  active. Codes that lead to one of these successors carry its name and BIC, e.g. Banco Popular
+  (``0075``) now resolves to Banco Santander (``BSCHESMM``), which the manual registry did
+  before. Banks that
+  disappear from iban.es are kept, which restores Revolut Bank (``1583``) and Banco de
+  Castilla-La Mancha (``0115``), and banks that iban.es lists twice are only included once.
+* Updated the Finnish bank registry from Finance Finland's current list, which adds Northmill Bank
+  (``719``). The registry now keeps bank codes that are no longer listed, so that existing IBANs
+  still resolve. 21 codes that were removed in January 2026, those of Svenska Handelsbanken (``310``
+  - ``319``), Swedbank (``380`` - ``389``) and Viva Payment Services (``798``), were restored.
+* Updated the UK bank registry from GLEIF's current BIC-to-LEI mapping. Bank codes whose BICs GLEIF
+  no longer maps, such as Swedbank (``SWED``), are now kept, so that existing IBANs still resolve.
+* The Croatian bank registry is now generated from the Croatian National Bank's list of payment
+  service provider codes, which replaced its list of bank codes in March 2025. This adds Aircash
+  (``4501006``). Codes that are no longer listed are now kept, so that existing IBANs still resolve,
+  which restores HBOR (``2493003``) and Nova hrvatska banka (``2503007``).
+* Updated the Hungarian bank registry from the Magyar Nemzeti Bank's current directory, which adds
+  Polgári Bank (``311``) and Banking Circle (``312``). Bank codes that are no longer listed are now
+  kept, so that existing IBANs still resolve. Five codes that were removed since 2023,
+  such as those of Banco Primus (``187``) and Libra Internet Bank (``296``), were restored.
+* The Italian bank registry is now generated from Banca d'Italia's registers of banks, e-money
+  institutions and payment institutions, with BICs from GLEIF's BIC-to-LEI mapping. It now covers
+  all 465 active institutions instead of 215, and names banks as Banca d'Italia does. Several BICs
+  are corrected, e.g. cooperative banks now have their own BIC instead of the one of their central
+  institute. Institutions that have ceased since 2008 are included, so that existing IBANs still
+  resolve. Their status is taken from the registers: 425 were merged into another institution, e.g.
+  Banco di Napoli (``01010``) into Intesa Sanpaolo, or continued under a new bank code, e.g.
+  UniCredit, and 418 of them resolve to the name and BIC of the institution that services their bank
+  code today, 101 were closed, e.g. by liquidation, and 50 ceased for another reason.
+* Updated the Liechtenstein bank registry from the SIX bank master, which adds Celsion Bank
+  (``83061``). Banks that are no longer listed, such as RMS Sicherheits-Anstalt (``83053``), are
+  now kept, so that existing IBANs still resolve.
+* Updated the Swiss bank registry from the SIX bank master, which adds Audax Solutions (``83064``).
+  Merged institutes were only kept while SIX lists them as merged, and closed ones not at all. Their
+  IIDs are now kept, so that existing IBANs still resolve, which restores 15 IIDs that
+  were dropped since 2023, such as those of FlowBank (``83029``) and radicant bank (``83036``).
+* ``scripts/get_bank_registry_lt.py`` accepts the path of a manually downloaded copy of the Bank of
+  Lithuania's branch list, since lb.lt rejects automated downloads. The script no longer writes an
+  empty registry when the download is rejected, and keeps bank codes that are no longer listed.
+  It is no longer run by ``scripts/update-all.sh``.
+* Updated the Norwegian bank registry from Bits' current BIC table, which adds Lunar Bank (``9603``,
+  ``9604``) and assigns the codes of the former Sparebanken Sør, such as ``3000``, to Sparebanken
+  Norge (``SPAVNOBB``). Bank codes that are no longer listed are now kept, so that existing IBANs
+  still resolve. This keeps the codes of Resurs Bank (``9900`` - ``9903``), which were
+  removed now, and restores eight codes that were removed since 2024, such as those of Lea Bank
+  (``9791``, ``9792``) and Bluestep Bank (``9615``).
+* The Polish bank registry now keeps settlement numbers that are no longer listed by Narodowy Bank
+  Polski, so that existing IBANs still resolve. 35 numbers that were removed since 2020,
+  such as those of DNB Bank Polska and MUFG Bank, were restored. Numbers of banks that were last
+  listed as in liquidation or bankruptcy, such as Mercedes-Benz Bank Polska (``15800006``), are
+  marked as closed.
+* Updated the Polish bank registry, which adds Trade Republic Bank (``29800010``) and a branch of
+  UniCredit (``29100048``), and updates the BICs of several cooperative banks.
+* The Romanian bank registry is now generated from GLEIF's BIC-to-LEI mapping, like the UK registry,
+  since the website it was scraped from no longer lists the banks. It contains 76 active
+  institutions instead of 46 banks from 2022, among them Salt Bank and TechVentures Bank. The
+  National Bank, the Treasury and TransFonD, which GLEIF lacks, are maintained in the manual
+  registry. Banks that are no longer active, such as OTP Bank Romania and Alpha Bank Romania, are
+  kept so that existing IBANs still resolve. The manual entry of Revolut, which GLEIF
+  provides as well, is removed.
+* The Swedish bank registry is now generated from the CSV table of Bankinfrastruktur i Sverige
+  instead of a PDF from 2023, which no longer requires camelot and a separate Docker image. This
+  adds eleven IBAN IDs, such as those of Revolut (``215``), Trade Republic (``216``) and Lunar
+  Bank (``971``), and updates several BICs and names, e.g. Svea Bank's BIC is now ``SVEASESS``.
+  IBAN IDs with several BICs, such as Steven AB's, keep all of them. IBAN IDs that are no longer
+  listed are now kept, so that existing IBANs still resolve.
+* The Slovenian bank registry now also keeps the codes of the former Abanka (``06``) as aliases of
+  OTP banka, and restores 38 codes of Abanka and Nova KBM that were dropped in 2021. Codes of other
+  institutes that are no longer listed are now kept as well, so that existing IBANs still resolve.
+* The Slovak bank registry is now generated from the current list of the Národná banka Slovenska.
+  The file the script downloaded had not been updated since 2022. This adds four banks, such as Air
+  Bank (``3030``) and Partners Banka (``6363``), and renames Privatbanka to Penta Bank. Codes that
+  are no longer listed are now kept, so that existing IBANs still resolve, and codes of
+  merged banks keep the bank's name during the run-off period, e.g. 365.bank (``6500``).
+* Updated the Ukrainian bank registry from the National Bank of Ukraine. The update script no longer
+  worked with current versions of pandas, so the registry had not been updated since 2023. Banks in
+  liquidation, which the National Bank still lists, are now included, and banks that are no longer
+  listed at all are kept, so that existing IBANs still resolve. This adds 56 bank codes,
+  among them nine that were dropped before, such as the one of Bank Forward (``380418``).
+* The Estonian bank registry is now generated from the list of the Estonian Banking Association.
+  It was created in 2022 by querying a third-party IBAN validator and had not been updated since.
+  This adds Luminor Bank (``96``, ``17``), OP Corporate Bank (``51``) and other payment service
+  providers, corrects the BIC of Wallester (``WALLEE22``), and assigns the codes ``11`` and ``55``
+  to Monemon and Crowdestate instead of Swedbank and Versobank. Codes that are no longer listed,
+  such as the one of Danske Bank (``33``), are kept so that existing IBANs still resolve.
+* The Georgian bank registry is now generated from the National Bank of Georgia's list of IBAN
+  codes. It was created in 2022 by querying a third-party IBAN validator and had not been updated
+  since. This adds the State Treasury (``TR``) and five banks, such as Paysera Bank Georgia
+  (``PS``). Codes that are no longer listed, such as the one of Capital Bank (``IN``), are kept so
+  that existing IBANs still resolve.
+* The Moldovan bank registry now contains all participants of the payment system that the National
+  Bank of Moldova lists, such as the State Treasury (``TR``) and Moldcell (``MC``), in a single
+  manually maintained registry. Comerţbank is now found by its code ``CM`` instead of ``CB``.
+* Completed the names of ten Bosnian banks that were cut off, e.g. ``NLB BANKA D`` is now
+  ``NLB Banka d.d., Sarajevo``, and ``Hypo Alpe`` and ``Sberbank a`` now carry their current names
+  Addiko Bank and Atos bank.
+* The Bosnian banks Vakufska banka (``160``) and Banka Srpske (``568``) are marked as delisted and
+  closed, and ASA Banka Naša i Snažna (``140``) as merged into ASA Banka (``134``).
+* Updated the Serbian bank registry according to GLEIF: AIK Banka, Mobi Banka and Expobank carry
+  their current names AikBank, Yettel Bank and Adriatic Bank, three cut-off names are completed,
+  six banks that GLEIF lists as inactive, such as Vojvođanska banka (``355``), are marked as
+  delisted, and Jugobanka (``365``) as closed. The entry of British American Tobacco under the code
+  ``000`` is removed.
+* Added Banka Poštanska štedionica (``200``), NLB Banka (``205``), OTP banka Srbija (``325``),
+  3 Banka (``370``) and the National Bank of Serbia (``908``) to the Serbian bank registry, which
+  lacked them although they are on the National Bank of Serbia's list of banks. Alpha Bank Srbija
+  (``180``), Crédit Agricole Srbija (``330``) and mts banka (``360``), which are no longer on that
+  list, are marked as merged into AikBank, Raiffeisen banka and Banka Poštanska štedionica, whose
+  names and BICs they now resolve to. So are Eurobank Direktna (``250``), which merged into AikBank
+  in 2025, and Direktna Banka (``150``), which had merged into Eurobank Direktna before.
+* Updated the names of Danish banks that were renamed or merged, according to the legal names that
+  GLEIF lists for their BICs, e.g. Nordea Bank Danmark is now Nordea Danmark, Filial af Nordea
+  Bank Abp, Finland, Sparekassen Sjælland-Fyn is now SJF Bank, and Sydbank is now AL Sydbank.
+* Removed 104 entries from the manual Italian registry that duplicate the generated one, or
+  contradict it with outdated data. Italian banks now resolve to their current BIC, e.g. Fineco
+  (``FEBIITM2``) and Isybank (``ISYBITMM``), and banks that have ceased, such as Banca Popolare
+  di Vicenza, are no longer reported as active. The manual registry keeps the entries that add a
+  BIC the generated registry lacks.
+* Removed six entries from the manual UK registry that GLEIF provides as well, such as Barclays
+  Bank UK (``BUKB``) and ClearBank (``CLRB``). The duplicate entry of Revolut Ltd is removed as
+  well, Bilderlings Pay (``BIYS``) resolves to its BIC ``BIYSGB2A``,
+  and ePayments Systems (``EPMT``) is marked as closed, since it has been in special
+  administration since October 2026.
 * German bank codes of merged banks now resolve to the successor bank, e.g. ``13061088``
   (Raiffeisenbank Wismar) to Volks- und Raiffeisenbank, while account codes are still checked with
-  the checksum method of the original bank. Bank codes that the Bundesbank has deleted are no
-  longer dropped from the registry: merged ones are kept as aliases of their successor and those
-  without a successor, such as Greensill Bank (``29020200``), as closed banks if their checksum
-  method is known. About 70 bank codes deleted in recent years have been restored this way.
-* The bank codes of merged Swiss and Slovenian banks, which already resolved to their successor,
-  are now marked as retired. Six of the Swiss ones, such as ``31000`` of UBS Switzerland, were
-  wrongly flagged as primary entries before.
+  the checksum method of the original bank. This applies as soon as the Bundesbank announces the
+  deletion of a bank code together with a successor. Bank codes that the Bundesbank has deleted are
+  no longer dropped from the registry: merged ones are kept as aliases of their successor, and those
+  without a successor, such as Greensill Bank (``29020200``), as delisted banks if their checksum
+  method is known. 151 bank codes are kept this way, 36 of them merged. The names of retired bank
+  codes no longer carry the suffix "-alt-" ("old"), which the Bundesbank adds to the names of codes
+  that a merger made obsolete, e.g. Raiffeisenbank Wismar.
+* Banks that are kept in the Austrian, Belgian, Croatian, Czech, Estonian, Finnish, Georgian,
+  German, Hungarian, Italian, Latvian, Liechtenstein, Dutch, Norwegian, Polish, Romanian, Slovak,
+  Slovenian, Spanish, Swedish, Swiss, UK and Ukrainian registries although they are no longer on the
+  official list are marked as delisted, or as merged or closed where the source says so, so that
+  lookups prefer the banks that are still listed. Codes of merged banks that lead to a successor,
+  such as the Swiss and Slovenian ones, name the successor's bank code and the name they were last
+  listed under.
 
 Fixed
 ~~~~~
+* ``IBAN.bank`` and ``IBAN.bic`` always describe the same institution. They used to pick their
+  record differently when a bank code has several, so that e.g. the name of Revolut Bank UK came
+  with the BIC of Revolut Ltd, which share the UK bank code ``REVO``. All lookups by bank code now
+  rank the records by status, then by how generic their BIC is, then by ``primary``. This changes
+  ``IBAN.bank`` for about 130 bank codes, and the order of ``BIC.candidates_from_bank_code``, whose
+  first candidate is now the BIC that ``BIC.from_bank_code`` returns. Equivalent forms of a BIC rank
+  equally and are listed only once. The UK bank code ``REVO`` now resolves to Revolut Bank UK, which
+  holds Revolut's UK accounts since 2026, instead of Revolut Ltd.
 * ``BIC`` no longer rejects BICs of banks in Kosovo (e.g. ``RBKOXKPR``) with
   ``InvalidCountryCode``. SWIFT assigns them the code ``XK``, which is not part of ISO 3166-1 and
   therefore unknown to ``pycountry``, although ``IBAN`` already accepts it.
@@ -80,6 +255,10 @@ Fixed
 * The registry update scripts no longer truncate the generated registry file when downloading or
   processing the source data fails. The output is now written to a temporary file that replaces
   the previous registry only once it has been written completely.
+* Bank codes in the Austrian and Swiss registries carry their own primary flag again. Bank codes
+  that share a BIC and name were grouped together and all took the flag of the first one. This
+  marked 241 Austrian branch codes as primary and 86 head office codes as non-primary, and 212
+  Swiss head office IIDs as non-primary.
 * The German checksum method ``76`` (used by Commerzbank vormals Dresdner Bank) no longer accepts
   a check digit of 0 when the weighted sum leaves a remainder of 10 (e.g. ``0000005000``). The
   remainder is the check digit itself, so there is none for a remainder of 10 and, according to

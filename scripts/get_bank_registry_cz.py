@@ -3,9 +3,13 @@
 import pandas
 
 from scripts.output import write_json
+from scripts.retired import load_previous
+from scripts.retired import merge
 
 
 URL = "https://www.cnb.cz/cs/platebni-styk/.galleries/ucty_kody_bank/download/kody_bank_CR.csv"
+OUTPUT = "schwifty/bank_registry/generated_cz.json"
+MIN_RECORDS = 30
 
 
 def process():
@@ -26,9 +30,20 @@ def process():
             }
         )
 
-    print(f"Fetched {len(registry)} bank records")
+    if len(registry) < MIN_RECORDS:
+        raise ValueError(f"Only {len(registry)} records parsed, the layout may have changed")
     return registry
 
 
+def is_run_off(entry):
+    # During the run-off period the name is replaced by a note such as "kód užíván pro doběh
+    # plateb ve prospěch Raiffeisenbank a.s. do 30. 6. 2023".
+    return "doběh plateb" in entry["name"].lower()
+
+
 if __name__ == "__main__":
-    write_json("schwifty/bank_registry/generated_cz.json", process(), indent=2)
+    # The CNB code list only contains current codes. Codes of merged banks are kept for a run-off
+    # period under a note naming the successor and then cancelled, so the previous registry is the
+    # only source for the bank's name from then on. Read it before replacing it.
+    data = merge(process(), load_previous(OUTPUT), is_merged=is_run_off)
+    write_json(OUTPUT, data, indent=2)

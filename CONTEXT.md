@@ -48,14 +48,33 @@ The metadata representation of a specific bank branch, mapping national componen
 [Checksum Method](#checksum-method-checksum_algo). Modelled as the strongly typed `Bank` domain
 object; dict-style access to it is deprecated in favour of attribute access.
 
+A bank code can map to several bank records, e.g. one per branch or one per BIC. Lookups by bank
+code (`IBAN.bank`, `IBAN.bic`, `BIC.from_bank_code`) all pick the same one of them: by their
+[status](#bank-status-status) first, then by how generic their BIC is, then by `primary` (see
+[ADR 3](docs/adr/0003-record-the-status-of-bank-codes.md)). A bank code can belong to several
+institutions, e.g. Revolut Ltd and Revolut Bank UK share the UK bank code `REVO`;
+`BIC.candidates_from_bank_code` lists all of them.
+
+### Primary Record (`primary`)
+The bank record that represents a bank code among several records for that code: the head
+office as opposed to its branches, or the preferred BIC as opposed to secondary ones. It is
+taken from the official source and says nothing about whether the bank still exists.
+
 ### Retired Bank Code
 A bank code that the national registry no longer lists, but that schwifty keeps because IBANs
-carrying it are still in circulation. Marked as `retired` on the `Bank`. If the bank merged into
-another one, `successor_bank_code` names the successor, whose name and BIC the entry takes on; the
-checksum method stays the one of the original bank, and its own BIC is kept as `legacy_bic`, so
-that it still resolves. See
-[ADR 2](docs/adr/0002-keep-retired-bank-codes-and-hide-closed-banks.md).
+carrying it are still in circulation. Its [status](#bank-status-status) tells what became of it.
+Lookups return retired codes like active ones, but rank them below active records of the same
+code. See [ADR 2](docs/adr/0002-keep-retired-bank-codes-and-hide-closed-banks.md) and
+[ADR 3](docs/adr/0003-record-the-status-of-bank-codes.md).
 
-### Closed Bank
-A [Retired Bank Code](#retired-bank-code) without a successor (`Bank.closed`). Since no payments
-can be made to it, lookups only return it when asked for with `include_closed=True`.
+### Bank Status (`status`)
+The `BankStatus` of a bank code: `active` while the official source lists it, otherwise one of
+the following.
+
+- `merged`: the bank was taken over or the code was replaced, so the code still leads to a
+  successor. `successor_bank_code` names the successor's bank code where the source states it.
+  `name`, `short_name` and `bic` then describe the bank that services the code today, while
+  `legacy_name` and `legacy_bic` hold the name and BIC the code was last listed with, so that its
+  BIC still resolves. The checksum method stays the one of the original bank.
+- `closed`: the bank was closed and has no successor.
+- `delisted`: the code is no longer listed, and the source doesn't say why.

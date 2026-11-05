@@ -92,15 +92,28 @@ class IBANSpec(DictCompatMixin):
         return any(not position.is_empty for position in self.positions.values())
 
 
+class BankStatus(enum.StrEnum):
+    """The status of a bank code in the registry."""
+
+    #: The bank code is listed by the official source.
+    ACTIVE = enum.auto()
+    #: The bank was taken over or the code was replaced, so the code still leads to a successor.
+    MERGED = enum.auto()
+    #: The bank was closed and has no successor.
+    CLOSED = enum.auto()
+    #: The bank code is no longer listed by the official source, which doesn't say why.
+    DELISTED = enum.auto()
+
+
 @dataclass(slots=True)
 class Bank(DictCompatMixin):
     """A bank record of the registry.
 
-    A ``retired`` bank code is no longer listed by the national registry, but kept so that
-    IBANs carrying it can still be identified. If the bank was merged, ``successor_bank_code``
-    names the bank code of its successor and ``name`` and ``bic`` describe the successor, while
-    ``legacy_bic`` holds the merged bank's own BIC, if it had a different one. Otherwise the
-    bank is :attr:`closed` and only returned by lookups that ask for it.
+    A retired bank code is no longer listed by the national registry, but kept so that
+    IBANs carrying it can still be identified. ``status`` tells what became of it. If the bank was
+    merged, ``successor_bank_code`` names the bank code of its successor, where it is known, and
+    ``name`` and ``bic`` describe the bank that services the code today, while ``legacy_name``
+    and ``legacy_bic`` hold the merged bank's own name and BIC.
     """
 
     country_code: str
@@ -110,11 +123,45 @@ class Bank(DictCompatMixin):
     short_name: str | None = None
     primary: bool = False
     checksum_algo: str = "default"
-    retired: bool = False
+    status: BankStatus = BankStatus.ACTIVE
     successor_bank_code: str | None = None
+    legacy_name: str | None = None
     legacy_bic: str | None = None
 
-    @property
-    def closed(self) -> bool:
-        """bool: Whether the bank code is retired without a successor."""
-        return self.retired and self.successor_bank_code is None
+
+_STATUS_RANK = {
+    BankStatus.ACTIVE: 2,
+    # Merged codes still lead to a successor, so they rank above closed and delisted ones.
+    BankStatus.MERGED: 1,
+    BankStatus.CLOSED: 0,
+    BankStatus.DELISTED: 0,
+}
+
+
+def canonical_bic(bic: str) -> str:
+    """Return the canonical form of ``bic``, see :attr:`schwifty.BIC.canonical`."""
+    return bic[:8] if bic[8:] in ("", "XXX") else bic
+
+
+def lookup_rank(bank: Bank) -> tuple[int, bool, bool, bool, str]:
+    """Rank the records of a bank code for lookups, the best one being the highest.
+
+    All lookups by bank code (``IBAN.bank``, ``IBAN.bic``, ``BIC.from_bank_code`` and the order
+    of ``BIC.candidates_from_bank_code``) pick the highest ranked record, so that they always
+    describe the same institution. Records are ranked by
+
+    1. their status, so that an active branch is preferred over a retired head office,
+    2. whether they have a BIC at all,
+    3. whether their BIC is the one of the institution's primary office, i.e. has no branch code
+       or the branch code "XXX", which ISO 9362 treats as identical,
+    4. ``primary``, and
+    5. the canonical form of their BIC, as a stable tie-break.
+    """
+    bic = canonical_bic(bank.bic) if bank.bic else ""
+    return (
+        _STATUS_RANK[bank.status],
+        bool(bic),
+        bool(bic) and len(bic) == 8,
+        bank.primary,
+        bic,
+    )

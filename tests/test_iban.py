@@ -6,6 +6,7 @@ import pytest
 from pycountry import countries  # type: ignore
 
 from schwifty import IBAN
+from schwifty.domain import BankStatus
 from schwifty.exceptions import InvalidStructure
 from schwifty.exceptions import SchwiftyException
 from schwifty.registry import convert_bban_spec_to_regex
@@ -245,8 +246,13 @@ def test_iban_properties_it() -> None:
     assert iban.account_code == "000000123456"
     assert iban.national_checksum_digits == "X"
     assert iban.country == countries.get(alpha_2="IT")
-    assert iban.bic == "BLOPIT22"
-    assert iban.bank_name == "Unione Di Banche Italiane SpA"
+    # Banca Popolare di Bergamo was absorbed by UBI Banca, which Intesa Sanpaolo absorbed in turn.
+    assert iban.bic == "BCITITMM"
+    assert iban.bank_name == "INTESA SANPAOLO S.P.A."
+    assert iban.bank is not None
+    assert iban.bank.status is BankStatus.MERGED
+    assert iban.bank.successor_bank_code == "03111"
+    assert iban.bank.legacy_name == "BANCA POPOLARE DI BERGAMO S.P.A."
     assert iban.in_sepa_zone is True
 
 
@@ -368,21 +374,21 @@ def test_magic_methods() -> None:
 @pytest.mark.parametrize(
     ("iban", "compact"),
     [
-        ("AD1200012030200359100100", "BACAADADXXX"),
-        ("AE070331234567890123456", "BOMLAEADXXX"),
-        ("AT483200000012345864", "RLNWATWWXXX"),
-        ("AT930100000000123145", "BUNDATWWXXX"),
-        ("BA393385804800211234", "UNCRBA22XXX"),
+        ("AD1200012030200359100100", "BACAADAD"),
+        ("AE070331234567890123456", "BOMLAEAD"),
+        ("AT483200000012345864", "RLNWATWW"),
+        ("AT930100000000123145", "BUNDATWW"),
+        ("BA393385804800211234", "UNCRBA22"),
         ("BE71096123456769", "GKCCBEBB"),
         ("BG18RZBB91550123456789", "RZBBBGSF"),
         ("CH5604835012345678009", "UBSWCHZH80A"),
         # Foreign-based participants in Swiss payments
-        ("CH5489202000081021990", "SKHRDE6WXXX"),
-        ("CH3889214000012345678", "SKLODE66XXX"),
-        ("CH5989095000014438787", "CITIGB2LXXX"),
-        ("CH6330520000012345678", "CITIGB2LXXX"),
-        ("CH5489022000012345678", "DEUTDEFFXXX"),
-        ("CR23015108410026012345", "BNCRCRSJXXX"),
+        ("CH5489202000081021990", "SKHRDE6W"),
+        ("CH3889214000012345678", "SKLODE66"),
+        ("CH5989095000014438787", "CITIGB2L"),
+        ("CH6330520000012345678", "CITIGB2L"),
+        ("CH5489022000012345678", "DEUTDEFF"),
+        ("CR23015108410026012345", "BNCRCRSJ"),
         ("CY21002001950000357001234567", "BCYPCY2N"),
         ("CZ5508000000001234567899", "GIBACZPX"),
         ("DE37206905000009027378", "GENODEF1S11"),
@@ -390,32 +396,32 @@ def test_magic_methods() -> None:
         ("EE471000001020145685", "EEUHEE2X"),
         ("ES7921000813610123456789", "CAIXESBB"),
         ("FI1410093000123458", "NDEAFIHH"),
-        ("FR7630006000011234567890189", "AGRIFRPPXXX"),
+        ("FR7630006000011234567890189", "AGRIFRPP"),
         ("GB33BUKB20201555555555", "BUKBGB22"),
-        ("GR9608100010000001234567890", "BOFAGR2XXXX"),
+        ("GR9608100010000001234567890", "BOFAGR2X"),
         ("HR1723600001101234565", "ZABAHR2X"),
         ("HU42117730161111101800000000", "OTPVHUHB"),
-        ("IE64IRCE92050112345678", "IRCEIE2DXXX"),
-        ("IT60X0542811101000000123456", "BLOPIT22"),
+        ("IE64IRCE92050112345678", "IRCEIE2D"),
+        ("IT60X0542811101000000123456", "BCITITMM"),
         # ("IL170108000000012612345", "LUMIILIT"),
         ("IS480114007083000000000000", "NBIIISRE"),
         ("KZ244350000012344567", "SHBKKZKA"),
-        ("LT601010012345678901", "LIABLT2XXXX"),
+        ("LT601010012345678901", "LIABLT2X"),
         ("LU120010001234567891", "BCEELULL"),
-        ("LV97HABA0012345678910", "HABALV22XXX"),
+        ("LV97HABA0012345678910", "HABALV22"),
         ("MD21EX000000000001234567", "EXMMMD22"),
         ("MD24AG000225100013104168", "AGRNMD2X"),
         ("NL02ABNA0123456789", "ABNANL2A"),
-        ("NO8330001234567", "SPSONO22"),
-        ("PL50860000020000000000093122", "POLUPLPRXXX"),
+        ("NO8330001234567", "SPAVNOBB"),
+        ("PL50860000020000000000093122", "POLUPLPR"),
         ("PL66114010100000123400005678", "BREXPLPWWA1"),
-        ("PT50002700000001234567833", "BPIPPTPLXXX"),
+        ("PT50002700000001234567833", "BPIPPTPL"),
         ("RO66BACX0000001234567890", "BACXROBU"),
-        ("RS35105008123123123173", "AIKBRS22XXX"),
+        ("RS35105008123123123173", "AIKBRS22"),
         ("SE7280000810340009783242", "SWEDSESS"),
-        ("SI56192001234567892", "SZKBSI2XXXX"),
+        ("SI56192001234567892", "SZKBSI2X"),
         ("SK8975000000000012345671", "CEKOSKBX"),
-        ("LI21088100002324013AA", "BLFLLI2XXXX"),
+        ("LI21088100002324013AA", "BLFLLI2X"),
         # ("UA903052992990004149123456789", "PBANUA2X"),
     ],
 )

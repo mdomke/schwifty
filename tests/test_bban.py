@@ -5,10 +5,13 @@ from random import Random
 
 import pytest
 
+from schwifty import BIC
 from schwifty import IBAN
 from schwifty import registry
 from schwifty.bban import BBAN
 from schwifty.domain import Bank
+from schwifty.domain import BankStatus
+from schwifty.domain import lookup_rank
 from schwifty.exceptions import GenerateRandomOverflowError
 from schwifty.exceptions import InvalidAccountCode
 from schwifty.exceptions import InvalidBBANChecksum
@@ -81,29 +84,62 @@ def test_bank_prefers_the_primary_registry_record() -> None:
     # ``IBAN.bic`` does: for the Nord LB codes the branch record is listed before
     # the institution's own record.
     iban = IBAN.generate("DE", "29050000", "0000000000")
-    assert iban.bic == "BRLADE22XXX"
+    assert iban.bic == "BRLADE22"
     assert iban.bank is not None
     assert iban.bank.bic == iban.bic
     assert iban.bank.primary is True
     assert iban.bank_short_name == "Nord LB Bremen"
 
 
-def test_bank_prefers_the_primary_record_of_every_registered_bank_code() -> None:
-    # Whenever the registry marks a record of a bank code as the primary one, that
-    # is the record the bank code has to resolve to. ``BBAN.bank`` used to return
-    # whichever entry happened to be read first.
-    not_primary = []
+def test_merged_bank_resolves_to_its_successor_under_a_new_bank_code() -> None:
+    # Banco di Sicilia was absorbed by UniCredito Italiano (03135), which continued as UniCredit
+    # under the bank code 02008. The register links the two codes only by their common tax code.
+    bban = BBAN.from_components("IT", bank_code="01020", branch_code="00000", account_code="0" * 12)
+    assert bban.bank is not None
+    assert bban.bank.status is BankStatus.MERGED
+    assert bban.bank.successor_bank_code == "03135"
+    assert bban.bank.legacy_name == "BANCO DI SICILIA S.P.A."
+    assert bban.bank.name == "UNICREDIT, SOCIETA' PER AZIONI"
+    assert bban.bic == "UNCRITMM"
+
+
+def test_bank_and_bic_describe_the_same_record_for_every_registered_bank_code() -> None:
+    # ``BBAN.bank`` and ``BBAN.bic`` used to pick their record differently, by file order and
+    # by the alphabet, so that e.g. the name of Revolut Bank UK came with the BIC of Revolut Ltd.
+    disagree = []
+    for country_code in registry.get_countries():
+        for bank_code in sorted(
+            {bank.bank_code for bank in registry.get_banks_by_country(country_code)}
+        ):
+            if not bank_code:
+                continue
+            bban = BBAN.from_components(country_code, bank_code=bank_code)
+            if (
+                bban.bank is not None
+                and bban.bank.bic
+                and (bban.bic is None or bban.bic.canonical != BIC(bban.bank.bic).canonical)
+            ):
+                disagree.append((country_code, bank_code, bban.bank.bic, bban.bic))
+    assert not disagree
+
+
+def test_bank_prefers_the_best_ranked_record_of_every_registered_bank_code() -> None:
+    # A bank code has to resolve to its best ranked record: an active one before a retired
+    # one, and the primary one among those. ``BBAN.bank`` used to return whichever entry
+    # happened to be read first.
+    not_best = []
     for country_code in registry.get_countries():
         for bank_code in sorted(
             {bank.bank_code for bank in registry.get_banks_by_country(country_code)}
         ):
             entries = registry.get_banks_by_code(country_code, bank_code)
-            if not bank_code or not any(bank.primary for bank in entries):
+            if not bank_code:
                 continue
             bban = BBAN.from_components(country_code, bank_code=bank_code)
-            if bban.bank is not None and not bban.bank.primary:
-                not_primary.append((country_code, bank_code, bban.bank.bic))
-    assert not not_primary
+            best = max(map(lookup_rank, entries))
+            if bban.bank is not None and lookup_rank(bban.bank) != best:
+                not_best.append((country_code, bank_code, bban.bank.bic))
+    assert not not_best
 
 
 @pytest.mark.parametrize(
@@ -275,11 +311,9 @@ def test_random_with_bank_code_looks_up_the_bank_like_validation(
     lookups: list[str] = []
     get_banks_by_code = registry.get_banks_by_code
 
-    def record_lookup(
-        country_code: str, bank_code: str, include_closed: bool = False
-    ) -> list[Bank]:
+    def record_lookup(country_code: str, bank_code: str) -> list[Bank]:
         lookups.append(bank_code)
-        return get_banks_by_code(country_code, bank_code, include_closed)
+        return get_banks_by_code(country_code, bank_code)
 
     monkeypatch.setattr(registry, "get_banks_by_code", record_lookup)
 

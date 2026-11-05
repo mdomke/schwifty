@@ -6,42 +6,38 @@ from schwifty import BBAN
 from schwifty import BIC
 from schwifty import IBAN
 from schwifty import registry
-from schwifty.exceptions import InvalidBankCode
+from schwifty.domain import BankStatus
 from schwifty.exceptions import InvalidBBANChecksum
 
 
-# Eurocity Bank was closed without a successor; its bank code uses checksum method 16.
+# The Bundesbank deleted the bank code of Eurocity Bank without a successor; it uses checksum
+# method 16.
 CLOSED_BANK_CODE = "10030700"
-CLOSED_BIC = "DLGHDEB1XXX"
+CLOSED_BIC = "DLGHDEB1"
 
 
-def test_closed_bank_is_only_returned_on_request() -> None:
+def test_closed_bank_is_returned_with_its_status() -> None:
+    # The bank of an IBAN is identified even if it no longer exists. Its status tells that no
+    # payments can be made to it.
     iban = IBAN.generate("DE", bank_code=CLOSED_BANK_CODE, account_code="1234567890")
-    assert iban.bank is None
-    assert iban.bank_name is None
-    assert iban.bic is None
-
-    bank = iban.get_bank(include_closed=True)
+    bank = iban.bank
     assert bank is not None
     assert bank.name == "Eurocity Bank"
-    assert bank.retired is True
-    assert bank.closed is True
+    assert bank.status is BankStatus.DELISTED
     assert bank.successor_bank_code is None
+    assert iban.bank_name == "Eurocity Bank"
+    assert iban.bic == CLOSED_BIC
 
 
-def test_closed_bank_is_excluded_from_registry_lookups() -> None:
-    assert registry.get_banks_by_code("DE", CLOSED_BANK_CODE) == []
-    assert registry.get_banks_by_code("DE", CLOSED_BANK_CODE, include_closed=True)
-    assert all(not bank.closed for bank in registry.get_all_banks())
-    assert any(bank.closed for bank in registry.get_all_banks(include_closed=True))
+def test_closed_bank_is_included_in_registry_lookups() -> None:
+    assert registry.get_banks_by_code("DE", CLOSED_BANK_CODE)
+    assert any(bank.status is BankStatus.DELISTED for bank in registry.get_all_banks())
 
 
 def test_closed_bank_bic_lookups() -> None:
-    with pytest.raises(InvalidBankCode):
-        BIC.from_bank_code("DE", CLOSED_BANK_CODE)
-    assert BIC.from_bank_code("DE", CLOSED_BANK_CODE, include_closed=True) == CLOSED_BIC
-    assert BIC(CLOSED_BIC).exists is False
-    assert BIC(CLOSED_BIC).bank_names == []
+    assert BIC.from_bank_code("DE", CLOSED_BANK_CODE) == CLOSED_BIC
+    assert BIC(CLOSED_BIC).exists is True
+    assert "Eurocity Bank" in BIC(CLOSED_BIC).bank_names
 
 
 def test_account_codes_of_closed_banks_are_still_validated() -> None:
@@ -68,8 +64,7 @@ def test_merged_bank_code_resolves_to_successor(
     bban = BBAN.from_components(country_code, bank_code=bank_code)
     bank = bban.bank
     assert bank is not None
-    assert bank.retired is True
-    assert bank.closed is False
+    assert bank.status is BankStatus.MERGED
     assert bank.successor_bank_code == successor_bank_code
     assert bank.name == name
     assert bban.bic == BBAN.from_components(country_code, bank_code=successor_bank_code).bic
@@ -101,17 +96,27 @@ def test_merged_bank_code_keeps_its_checksum_method() -> None:
     assert successor.checksum_algo == "32"
 
 
-def test_successors_of_retired_bank_codes_are_active() -> None:
+def test_successors_of_retired_bank_codes_are_known() -> None:
+    # A successor can have merged itself since, e.g. Banca Popolare di Bergamo into UBI Banca and
+    # UBI Banca into Intesa Sanpaolo, but the chain of successors has to end. Some sources name
+    # successors they don't list themselves, so only the registries whose update scripts build
+    # aliases of the successor are required to know it.
     for bank in registry.get_all_banks():
-        if bank.successor_bank_code is None:
-            continue
-        successors = registry.get_banks_by_code(bank.country_code, bank.successor_bank_code)
-        assert successors, bank
-        assert not any(successor.retired for successor in successors), bank
+        current, seen = bank, {bank.bank_code}
+        while current.successor_bank_code is not None:
+            successors = registry.get_banks_by_code(
+                current.country_code, current.successor_bank_code
+            )
+            assert successors or current.country_code not in ("CH", "DE", "SI"), current
+            if not successors:
+                break
+            assert current.successor_bank_code not in seen, bank
+            seen.add(current.successor_bank_code)
+            current = successors[0]
 
 
 def test_random_never_uses_retired_bank_codes() -> None:
     for seed in range(300):
         for country_code in ("DE", "LV", "SI"):
             bank = IBAN.random(country_code, random=Random(seed)).bank  # noqa: S311
-            assert bank is None or not bank.retired
+            assert bank is None or bank.status is BankStatus.ACTIVE

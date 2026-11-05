@@ -98,14 +98,6 @@
   {
     "country_code": "CZ",
     "primary": true,
-    "bic": "",
-    "bank_code": "2260",
-    "name": "NEY spo\u0159iteln\u00ed dru\u017estvo",
-    "short_name": "NEY spo\u0159iteln\u00ed dru\u017estvo"
-  },
-  {
-    "country_code": "CZ",
-    "primary": true,
     "bic": "CITICZPX",
     "bank_code": "2600",
     "name": "Citibank Europe plc, organiza\u010dn\u00ed slo\u017eka",
@@ -202,10 +194,18 @@
   {
     "country_code": "CZ",
     "primary": true,
-    "bic": "",
+    "bic": "PTBNCZPP",
     "bank_code": "6363",
     "name": "Partners Banka, a.s.",
     "short_name": "Partners Banka, a.s."
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "6600",
+    "name": "Banking Circle S.A., Czech Republic",
+    "short_name": "Banking Circle S.A., Czech Republic"
   },
   {
     "country_code": "CZ",
@@ -306,14 +306,6 @@
   {
     "country_code": "CZ",
     "primary": true,
-    "bic": "",
-    "bank_code": "8190",
-    "name": "Sparkasse Oberlausitz-Niederschlesien",
-    "short_name": "Sparkasse Oberlausitz-Niederschlesien"
-  },
-  {
-    "country_code": "CZ",
-    "primary": true,
     "bic": "FFCSCZP1",
     "bank_code": "8198",
     "name": "FAS finance company s.r.o.",
@@ -371,8 +363,277 @@
     "country_code": "CZ",
     "primary": true,
     "bic": "",
+    "bank_code": "8620",
+    "name": "Comgate a.s.",
+    "short_name": "Comgate a.s."
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
     "bank_code": "8660",
     "name": "PAYMONT, UAB",
     "short_name": "PAYMONT, UAB"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "BOTKCZPP",
+    "bank_code": "2020",
+    "name": "MUFG Bank (Europe) N.V. Prague Branch",
+    "short_name": "MUFG Bank (Europe) N.V. Prague Branch",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2030",
+    "name": "\u010ceskoslovensk\u00e9 \u00fav\u011brn\u00ed dru\u017estvo",
+    "short_name": "\u010ceskoslovensk\u00e9 \u00fav\u011brn\u00ed dru\u017estvo",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "POBNCZPP",
+    "bank_code": "2240",
+    "name": "Po\u0161tov\u00e1 banka, a.s., pobo\u010dka \u010cesk\u00e1 republika",
+    "short_name": "Po\u0161tov\u00e1 banka, a.s., pobo\u010dka \u010cesk\u00e1 republika",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2260",
+    "name": "NEY spo\u0159iteln\u00ed dru\u017estvo",
+    "short_name": "NEY spo\u0159iteln\u00ed dru\u017estvo",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "2275",
+    "name": "Podnikatelsk\u00e1 dru\u017estevn\u00ed z\u00e1lo\u017ena",
+    "short_name": "Podnikatelsk\u00e1 dru\u017estevn\u00ed z\u00e1lo\u017ena",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "BPPFCZP1",
+    "bank_code": "3050",
+    "name": "BNP Paribas Personal Finance SA, od\u0161t\u011bpn\u00fd z\u00e1vod",
+    "short_name": "BNP Paribas Personal Finance SA, od\u0161t\u011bpn\u00fd z\u00e1vod",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "EXPNCZPP",
+    "bank_code": "4000",
+    "name": "Max banka a.s.",
+    "short_name": "Max banka a.s.",
+    "status": "merged"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "6100",
+    "name": "Raiffeisenbank a.s. (do 31. 12. 2021 Equa bank a.s.)",
+    "short_name": "Raiffeisenbank a.s. (do 31. 12. 2021 Equa bank a.s.)",
+    "status": "merged"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "SPWTCZ21",
+    "bank_code": "7940",
+    "name": "Waldviertler Sparkasse Bank AG",
+    "short_name": "Waldviertler Sparkasse Bank AG",
+    "status": "merged"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "7980",
+    "name": "W\u00fcstenrot hypote\u010dn\u00ed banka a.s.",
+    "short_name": "W\u00fcstenrot hypote\u010dn\u00ed banka a.s.",
+    "status": "merged"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "8190",
+    "name": "Sparkasse Oberlausitz-Niederschlesien",
+    "short_name": "Sparkasse Oberlausitz-Niederschlesien",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "MOUSCZP2",
+    "bank_code": "8199",
+    "name": "MoneyPolo Europe s.r.o.",
+    "short_name": "MoneyPolo Europe s.r.o.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "8200",
+    "name": "PRIVAT BANK der Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft, pobo\u010dka \u010cesk\u00e1 republika",
+    "short_name": "PRIVAT BANK der Raiffeisenlandesbank Ober\u00f6sterreich Aktiengesellschaft, pobo\u010dka \u010cesk\u00e1 republika",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "8215",
+    "name": "ALTERNATIVE PAYMENT SOLUTIONS, s.r.o.",
+    "short_name": "ALTERNATIVE PAYMENT SOLUTIONS, s.r.o.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "ORRRCZP1",
+    "bank_code": "8225",
+    "name": "ORANGETRUST s.r.o.",
+    "short_name": "ORANGETRUST s.r.o.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "8230",
+    "name": "ABAPAY s.r.o.",
+    "short_name": "ABAPAY s.r.o.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "8240",
+    "name": "Dru\u017estevn\u00ed z\u00e1lo\u017ena Kredit, v likvidaci",
+    "short_name": "Dru\u017estevn\u00ed z\u00e1lo\u017ena Kredit, v likvidaci",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "PYYMCZPP",
+    "bank_code": "8260",
+    "name": "PAYMASTER a.s.",
+    "short_name": "PAYMASTER a.s.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "FAPOCZP1",
+    "bank_code": "8270",
+    "name": "Fairplay Pay s.r.o.",
+    "short_name": "Fairplay Pay s.r.o.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "VPAYCZP2",
+    "bank_code": "8272",
+    "name": "VIVA PAYMENT SERVICES S.A. od\u0161t\u011bpn\u00fd z\u00e1vod",
+    "short_name": "VIVA PAYMENT SERVICES S.A. od\u0161t\u011bpn\u00fd z\u00e1vod",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "BEFKCZP1",
+    "bank_code": "8280",
+    "name": "B-Efekt a.s.",
+    "short_name": "B-Efekt a.s.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "BPORCZ22",
+    "bank_code": "8282",
+    "name": "Beekash Payment Solutions, s.r.o.",
+    "short_name": "Beekash Payment Solutions, s.r.o.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "QPSRCZPP",
+    "bank_code": "8283",
+    "name": "Qpay s.r.o.",
+    "short_name": "Qpay s.r.o.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "8291",
+    "name": "Business Credit s.r.o.",
+    "short_name": "Business Credit s.r.o.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "8292",
+    "name": "Money Change s.r.o.",
+    "short_name": "Money Change s.r.o.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "MRPSCZPP",
+    "bank_code": "8293",
+    "name": "Mercurius partners s.r.o.",
+    "short_name": "Mercurius partners s.r.o.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "8294",
+    "name": "GrisPayUnion s.r.o.",
+    "short_name": "GrisPayUnion s.r.o.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "",
+    "bank_code": "8296",
+    "name": "PaySysEU s.r.o.",
+    "short_name": "PaySysEU s.r.o.",
+    "status": "delisted"
+  },
+  {
+    "country_code": "CZ",
+    "primary": true,
+    "bic": "BEORCZP2",
+    "bank_code": "8299",
+    "name": "BESTPAY s.r.o.",
+    "short_name": "BESTPAY s.r.o.",
+    "status": "delisted"
   }
 ]

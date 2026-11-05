@@ -1,5 +1,4 @@
 beautifulsoup4
-camelot-py[base]
 httpx2
 xlrd>=2.0.1
 pandas
