@@ -5,6 +5,23 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Added
+~~~~~
+* Added :attr:`.BIC.bank`, the best ranked bank record of a BIC: the institution that services the
+  BIC today, as far as the registry knows, e.g. Banco de Sabadell for ``BSABESBB``, which also
+  belongs to the bank codes of 19 banks that merged into it (#113).
+
+Changed
+~~~~~~~
+* :attr:`.BIC.banks`, :attr:`.BIC.domestic_bank_codes`, :attr:`.BIC.bank_names` and
+  :attr:`.BIC.bank_short_names` are ordered like the lookups by bank code: active records before
+  merged, closed and delisted ones, and primary records first among each of them, instead of
+  alphabetically. Records of the same rank are ordered by name and bank code. The deprecated
+  ``BIC.bank_name``, ``BIC.bank_short_name`` and ``BIC.country_bank_code``, which return the first
+  entry of these lists, change accordingly (#113).
+
 `2026.11.0`_ - 2026/11/05
 -------------------------
 Added
