@@ -362,11 +362,15 @@ class BIC(common.Base):
 
     @property
     def banks(self) -> list[Bank]:
-        """list[Bank]: The bank records of this BIC in Schwifty's registry.
+        """list[Bank]: The bank records of this BIC in Schwifty's registry, the best ranked first.
 
         A BIC without branch code and the same BIC with the branch code ``XXX`` are treated as
         identical (see :attr:`canonical`). A branch BIC only has records if the registry lists the
         branch itself.
+
+        The records are ranked like the lookups by bank code: active ones first, then merged ones,
+        whose codes lead to a successor, then closed and delisted ones, and the primary records
+        among each of them. Records of the same rank are ordered by name and bank code.
 
         Examples:
             >>> [bank.bank_code for bank in BIC("MARKDEF1100").banks]
@@ -374,17 +378,42 @@ class BIC(common.Base):
             >>> BIC("REVOGB21XXX").banks == BIC("REVOGB21").banks
             True
         """
-        return registry.get_banks_by_bic(str(self))
+        banks = sorted(registry.get_banks_by_bic(str(self)), key=lambda b: (b.name, b.bank_code))
+        # The sort is stable, so records of the same rank keep their order by name.
+        return sorted(banks, key=lookup_rank, reverse=True)
 
-    def _lookup_values(self, key: str) -> list[str]:
-        entries = self.banks
-        if not entries and self.branch_code:
+    def _ranked_banks(self) -> list[Bank]:
+        banks = self.banks
+        if not banks and self.branch_code:
             # An 11-character BIC denotes a branch of the institution that the
             # first 8 characters identify. Not every national registry lists
             # entries per branch, so fall back to the institution's BIC when
             # the branch-specific lookup comes up empty.
-            entries = BIC(str(self)[:8], allow_invalid=True).banks
-        return sorted({val for entry in entries if (val := getattr(entry, key))})
+            banks = BIC(str(self)[:8], allow_invalid=True).banks
+        return banks
+
+    def _lookup_values(self, key: str) -> list[str]:
+        return list(
+            dict.fromkeys(val for bank in self._ranked_banks() if (val := getattr(bank, key)))
+        )
+
+    @property
+    def bank(self) -> Bank | None:
+        """Bank | None: The best ranked bank record of this BIC, see :attr:`banks`.
+
+        A BIC can belong to several bank codes, e.g. the ones of banks that merged into the
+        institution. This is the record of the institution that services the BIC today, as far
+        as the registry knows. For a branch BIC that the registry doesn't list, it is the record
+        of the institution that the first 8 characters identify.
+
+        Examples:
+            >>> BIC("BSABESBB").bank.name
+            'BANCO DE SABADELL, S.A.'
+
+        .. versionadded:: 2026.11.1
+        """
+        banks = self._ranked_banks()
+        return banks[0] if banks else None
 
     @property
     def domestic_bank_codes(self) -> list[str]:

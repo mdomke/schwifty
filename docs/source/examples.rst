@@ -62,8 +62,18 @@ provides a :class:`.BIC`-object, that has a similar interface to the :class:`.IB
    '86010090']
 
 The :attr:`.BIC.domestic_bank_codes` lists the country specific bank codes as you can find them as
-part of the IBAN. This mapping is included in a manually curated registry that ships with ``schwifty``.
-and currently includes entries for the following countries:
+part of the IBAN. A BIC can belong to several bank codes, e.g. the ones of banks that merged into
+the institution. The lists of a BIC are therefore ordered like the lookups by bank code: active
+banks before merged, closed and delisted ones. :attr:`.BIC.bank` is the best ranked bank record,
+the institution that services the BIC today:
+
+.. code-block:: pycon
+
+  >>> BIC('BSABESBB').bank.name
+  'BANCO DE SABADELL, S.A.'
+
+The mapping is included in the bank registry that ships with ``schwifty``, which currently
+includes entries for the following countries:
 
 * Andorra
 * Austria
