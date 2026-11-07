@@ -5,6 +5,14 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Fixed
+~~~~~
+* The German checksum method ``23`` (Augsburger Aktienbank, bank code ``72020700``) compares
+  positions 6 and 7 when the remainder is 1, as the specification requires, instead of positions 9
+  and 10 like method ``16``.
+
 `2026.11.2`_ - 2026/11/13
 -------------------------
 Added

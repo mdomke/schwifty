@@ -25,6 +25,8 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("0094012341", "DE:16"),
         # Remainder 1 is accepted when the last two digits match.
         ("0000000066", "DE:16"),
+        # Method 23 compares positions 6 and 7 instead.
+        ("0000066012", "DE:23"),
         ("0012345008", "DE:10"),
         ("0087654008", "DE:10"),
         ("1000000060", "DE:11"),
@@ -264,6 +266,7 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0000000010", "DE:02"),
         # Remainder 1 and a second digit outside {8, 9} is rejected.
         ("0000000060", "DE:25"),
+        ("0000061011", "DE:23"),
         ("0001234567", "DE:13"),
         # Method 63 only accepts a leading zero.
         ("1123456600", "DE:63"),

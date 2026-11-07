@@ -303,9 +303,10 @@ class Algorithm16(Algorithm06):
     def validate(self, components: list[str], expected: str) -> bool:
         [account_code] = components
         check_digit = self.compute(components)
-        if self.remainder == 1 and account_code[8] == account_code[9]:
+        index = self.positions.check_digit - 1
+        if self.remainder == 1 and account_code[index - 1] == account_code[index]:
             return True
-        return check_digit == account_code[self.positions.check_digit - 1]
+        return check_digit == account_code[index]
 
 
 @register
