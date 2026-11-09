@@ -13,6 +13,12 @@ Added
   BIC today, as far as the registry knows, e.g. Banco de Sabadell for ``BSABESBB``, which also
   belongs to the bank codes of 19 banks that merged into it (#113).
 
+Fixed
+~~~~~
+* Fixed the Norwegian mod-11 check digit for accounts with the account group ``00`` (interbank
+  accounts): the bank register number is now included in the weighted sum as the official rule
+  requires, instead of being silently dropped (#356).
+
 Changed
 ~~~~~~~
 * :attr:`.BIC.banks`, :attr:`.BIC.domestic_bank_codes`, :attr:`.BIC.bank_names` and
