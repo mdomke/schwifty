@@ -23,6 +23,7 @@ from schwifty.domain import canonical_bic
 from schwifty.domain import Component
 from schwifty.domain import IBANSpec
 from schwifty.domain import Range
+from schwifty.domain import SEPAScheme
 
 
 Key = str | tuple[str, ...]
@@ -218,6 +219,13 @@ class Registry:
         # their BIC, so that e.g. REVOGB21 and REVOGB21XXX find the same banks.
         return self._get_country_banks(bic[4:6].upper()).by_bic.get(canonical_bic(bic), [])
 
+    def get_sepa_schemes(self, bic: str) -> frozenset[SEPAScheme] | None:
+        """Return the SEPA schemes of ``bic``, or ``None`` if the SCL directory doesn't list it."""
+        directory = self._get("scl")
+        assert isinstance(directory, dict)
+        schemes = directory.get(canonical_bic(bic.upper()))
+        return None if schemes is None else frozenset(SEPAScheme(scheme) for scheme in schemes)
+
     def get_countries(self) -> list[str]:
         return list(self._bank_files())
 
@@ -281,6 +289,10 @@ def get_banks_by_code(country_code: str, bank_code: str) -> list[Bank]:
 
 def get_banks_by_bic(bic: str) -> list[Bank]:
     return _default_registry.get_banks_by_bic(bic)
+
+
+def get_sepa_schemes(bic: str) -> frozenset[SEPAScheme] | None:
+    return _default_registry.get_sepa_schemes(bic)
 
 
 def get_countries() -> list[str]:

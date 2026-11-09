@@ -1,0 +1,370 @@
+[
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "AGRKMTMT",
+    "bank_code": "AGRK",
+    "name": "AGRIBANK PLC",
+    "short_name": "AGRIBANK PLC"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "ALUNMTM2",
+    "bank_code": "ALUN",
+    "name": "ALUNAFI LTD",
+    "short_name": "ALUNAFI LTD"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "ANFVMTMM",
+    "bank_code": "ANFV",
+    "name": "Andaria Financial Services Limited",
+    "short_name": "Andaria Financial Services Limited"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "APAHMTMA",
+    "bank_code": "APAH",
+    "name": "Alpha FX Europe Limited",
+    "short_name": "Alpha FX Europe Limited"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "APSBMTMT",
+    "bank_code": "APSB",
+    "name": "APS Bank",
+    "short_name": "APS Bank"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "BNIFMTMT",
+    "bank_code": "BNIF",
+    "name": "BNF BANK PLC",
+    "short_name": "BNF BANK PLC"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "CCUHMTMT",
+    "bank_code": "CCUH",
+    "name": "MoneyBase LTD.",
+    "short_name": "MoneyBase LTD."
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "CFTEMTM1",
+    "bank_code": "CFTE",
+    "name": "OPENPAYD FINANCIAL SERVICES MALTA LTD",
+    "short_name": "OPENPAYD FINANCIAL SERVICES MALTA LTD"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "COPXMTMT",
+    "bank_code": "COPX",
+    "name": "W AND J COPPINI AND CO",
+    "short_name": "W AND J COPPINI AND CO"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "CRXBMTMT",
+    "bank_code": "CRXB",
+    "name": "Shift4 Limited",
+    "short_name": "Shift4 Limited"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "ECMBMTMT",
+    "bank_code": "ECMB",
+    "name": "ECCM BANK PLC",
+    "short_name": "ECCM BANK PLC"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "EMONMTM2",
+    "bank_code": "EMON",
+    "name": "EMONEY PLC",
+    "short_name": "EMONEY PLC"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "FBHLMTMT",
+    "bank_code": "FBHL",
+    "name": "NEXENT BANK N.V. MALTA BRANCH",
+    "short_name": "NEXENT BANK N.V. MALTA BRANCH"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "FCMFMTMT",
+    "bank_code": "FCMF",
+    "name": "FCM BANK LTD",
+    "short_name": "FCM BANK LTD"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "FEMAMTMA",
+    "bank_code": "FEMA",
+    "name": "Multitude Bank p.l.c.",
+    "short_name": "Multitude Bank p.l.c."
+  },
+  {
+    "country_code": "MT",
+    "primary": false,
+    "bic": "FEMAMTMT",
+    "bank_code": "FEMA",
+    "name": "FERRATUM BANK PLC",
+    "short_name": "FERRATUM BANK PLC"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "FFSMMTM1",
+    "bank_code": "FFSM",
+    "name": "fexserv financial services",
+    "short_name": "fexserv financial services"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "FIMBMTM3",
+    "bank_code": "FIMB",
+    "name": "FIMBANK PLC",
+    "short_name": "FIMBANK PLC"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "FINDMTMT",
+    "bank_code": "FIND",
+    "name": "Finductive Ltd",
+    "short_name": "Finductive Ltd"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "FNFIMTMM",
+    "bank_code": "FNFI",
+    "name": "Finby Finance Limited",
+    "short_name": "Finby Finance Limited"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "ICDRMTMT",
+    "bank_code": "ICDR",
+    "name": "VALLETTA CREDIT FINANCE CORPORATION LTD",
+    "short_name": "VALLETTA CREDIT FINANCE CORPORATION LTD"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "IIGBMTMT",
+    "bank_code": "IIGB",
+    "name": "IIG BANK MALTA",
+    "short_name": "IIG BANK MALTA"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "IZOLMTMT",
+    "bank_code": "IZOL",
+    "name": "IZOLA BANK MALTA",
+    "short_name": "IZOLA BANK MALTA"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "LBMAMTMT",
+    "bank_code": "LBMA",
+    "name": "LOMBARD BANK MALTA PLC",
+    "short_name": "LOMBARD BANK MALTA PLC"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "MALTMTMT",
+    "bank_code": "MALT",
+    "name": "CENTRAL BANK OF MALTA",
+    "short_name": "CENTRAL BANK OF MALTA"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "MBLIMTM2",
+    "bank_code": "MBLI",
+    "name": "MONEY BLINK LIMITED",
+    "short_name": "MONEY BLINK LIMITED"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "MBWMMTMT",
+    "bank_code": "MBWM",
+    "name": "Medirect Bank (Malta) plc",
+    "short_name": "Medirect Bank (Malta) plc"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "MFMAMTM2",
+    "bank_code": "MFMA",
+    "name": "MIFINITY MALTA LIMITED",
+    "short_name": "MIFINITY MALTA LIMITED"
+  },
+  {
+    "country_code": "MT",
+    "primary": false,
+    "bic": "MLLKMTM2",
+    "bank_code": "MLLK",
+    "name": "MELLIFERA KARTIERA LIMITED",
+    "short_name": "MELLIFERA KARTIERA LIMITED"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "MLLKMTMT",
+    "bank_code": "MLLK",
+    "name": "MELLIFERA KARTIERA LIMITED",
+    "short_name": "MELLIFERA KARTIERA LIMITED"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "MMEBMTMT",
+    "bank_code": "MMEB",
+    "name": "HSBC BANK MALTA PLC",
+    "short_name": "HSBC BANK MALTA PLC"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "PAPYMTMT",
+    "bank_code": "PAPY",
+    "name": "PAPAYA LTD",
+    "short_name": "PAPAYA LTD"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "PAUUMTM1",
+    "bank_code": "PAUU",
+    "name": "FinXP Limited",
+    "short_name": "FinXP Limited"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "PELDMTM2",
+    "bank_code": "PELD",
+    "name": "Paydo EU Ltd.",
+    "short_name": "Paydo EU Ltd."
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "PFFSMTMT",
+    "bank_code": "PFFS",
+    "name": "PAYFUTURE FS MT LTD.",
+    "short_name": "PAYFUTURE FS MT LTD."
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "PYMXMTMT",
+    "bank_code": "PYMX",
+    "name": "Finance Incorporated Limited",
+    "short_name": "Finance Incorporated Limited"
+  },
+  {
+    "country_code": "MT",
+    "primary": false,
+    "bic": "PYMXMTMTMAL",
+    "bank_code": "PYMX",
+    "name": "FINANANCE INCORPORATED LTD",
+    "short_name": "FINANANCE INCORPORATED LTD"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "SBMTMTMT",
+    "bank_code": "SBMT",
+    "name": "Sparkasse Bank Malta plc",
+    "short_name": "Sparkasse Bank Malta plc"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "SYPLMTM2",
+    "bank_code": "SYPL",
+    "name": "SYSTEM PAY SERVICES (MALTA) LIMITED",
+    "short_name": "SYSTEM PAY SERVICES (MALTA) LIMITED"
+  },
+  {
+    "country_code": "MT",
+    "primary": false,
+    "bic": "TRPEMTM1",
+    "bank_code": "TRPE",
+    "name": "TRUEVO PAYMENTS LTD",
+    "short_name": "TRUEVO PAYMENTS LTD"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "TRPEMTMT",
+    "bank_code": "TRPE",
+    "name": "TRUEVO PAYMENTS LTD",
+    "short_name": "TRUEVO PAYMENTS LTD"
+  },
+  {
+    "country_code": "MT",
+    "primary": false,
+    "bic": "TRUMMTM2",
+    "bank_code": "TRUM",
+    "name": "Trumia Limited",
+    "short_name": "Trumia Limited"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "TRUMMTM3",
+    "bank_code": "TRUM",
+    "name": "TRUMIA LIMITED",
+    "short_name": "TRUMIA LIMITED"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "VALLMTMT",
+    "bank_code": "VALL",
+    "name": "BANK OF VALLETTA PLC",
+    "short_name": "BANK OF VALLETTA PLC"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "VOCBMTMT",
+    "bank_code": "VOCB",
+    "name": "Bank DiMare Limited",
+    "short_name": "Bank DiMare Limited"
+  },
+  {
+    "country_code": "MT",
+    "primary": true,
+    "bic": "XAMAMTM2",
+    "bank_code": "XAMA",
+    "name": "XACE MALTA LTD",
+    "short_name": "XACE MALTA LTD"
+  }
+]

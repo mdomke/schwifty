@@ -105,6 +105,22 @@ class BankStatus(enum.StrEnum):
     DELISTED = enum.auto()
 
 
+class SEPAScheme(enum.StrEnum):
+    """A SEPA scheme that a payment service provider takes part in.
+
+    The values are the abbreviations of the SCL directory of the Deutsche Bundesbank.
+    """
+
+    #: SEPA Credit Transfer.
+    CREDIT_TRANSFER = "SCT"
+    #: SEPA Core Direct Debit.
+    CORE_DIRECT_DEBIT = "COR"
+    #: SEPA Business-to-Business Direct Debit.
+    B2B_DIRECT_DEBIT = "B2B"
+    #: SEPA Card Clearing.
+    CARD_CLEARING = "SCC"
+
+
 @dataclass(slots=True)
 class Bank(DictCompatMixin):
     """A bank record of the registry.

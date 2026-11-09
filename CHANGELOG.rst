@@ -12,6 +12,11 @@ Added
 * Added :attr:`.BIC.bank`, the best ranked bank record of a BIC: the institution that services the
   BIC today, as far as the registry knows, e.g. Banco de Sabadell for ``BSABESBB``, which also
   belongs to the bank codes of 19 banks that merged into it (#113).
+* Added :attr:`.BIC.sepa_schemes`, the SEPA schemes that the institution of a BIC takes part in
+  (``schwifty.domain.SEPAScheme``): credit transfer, core and business-to-business direct debit,
+  and card clearing. They are taken from the SCL directory of the Deutsche Bundesbank, which
+  ``scripts/get_scl_directory.py`` downloads, and which lists the payment service providers that
+  can be reached through its SEPA clearer (#148).
 
 Changed
 ~~~~~~~
@@ -21,6 +26,11 @@ Changed
   alphabetically. Records of the same rank are ordered by name and bank code. The deprecated
   ``BIC.bank_name``, ``BIC.bank_short_name`` and ``BIC.country_bank_code``, which return the first
   entry of these lists, change accordingly (#113).
+* The Irish and Maltese bank registries are generated from the SCL directory, since their IBANs
+  use the bank code of the BIC. This adds 234 Irish bank codes, most of them of credit unions, and
+  40 Maltese ones. The manual registries keep the codes that the directory doesn't list, such as
+  those of KBC Bank Ireland and Ulster Bank. For other countries, the update script reports the
+  BICs of the directory that their registries lack (#148).
 
 `2026.11.0`_ - 2026/11/05
 -------------------------

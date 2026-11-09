@@ -1,74 +1,10 @@
 [
   {
     "country_code": "IE",
-    "bic": "CHASIE4L",
-    "bank_code": "CHAS",
-    "name": "J.P. Morgan Bank Luxembourg S.A. Dublin Branch",
-    "short_name": "J.P. Morgan Bank Luxembourg S.A. Dublin Branch",
-    "primary": true
-  },
-  {
-    "country_code": "IE",
-    "bic": "BOFIIE2D",
-    "bank_code": "BOFI",
-    "name": "Bank Of Ireland",
-    "short_name": "Bank Of Ireland",
-    "primary": true
-  },
-  {
-    "country_code": "IE",
-    "bic": "AIBKIE2DXXX",
-    "bank_code": "AIBK",
-    "name": "Allied Irish Banks, p.l.c.",
-    "short_name": "Allied Irish Banks, p.l.c.",
-    "primary": true
-  },
-  {
-    "country_code": "IE",
-    "bic": "BOFAIE3XXXX",
-    "bank_code": "BOFA",
-    "name": "Bank of America Europe Designated Activity Company",
-    "short_name": "Bank of America Europe Designated Activity Company",
-    "primary": true
-  },
-  {
-    "country_code": "IE",
-    "bic": "BOFIIE2D",
-    "bank_code": "BOFI",
-    "name": "Bank of Ireland Group plc",
-    "short_name": "Bank of Ireland",
-    "primary": true
-  },
-  {
-    "country_code": "IE",
     "bic": "BOFMIE2DXXX",
     "bank_code": "BOFM",
     "name": "Bank of Montreal",
     "short_name": "Bank of Montreal",
-    "primary": true
-  },
-  {
-    "country_code": "IE",
-    "bic": "BUNQIE22XXX",
-    "bank_code": "BUNQ",
-    "name": "bunq B.V.",
-    "short_name": "bunq B.V.",
-    "primary": true
-  },
-  {
-    "country_code": "IE",
-    "bic": "BARCIE2DXXX",
-    "bank_code": "BARC",
-    "name": "Barclays Bank Ireland PLC",
-    "short_name": "Barclays Bank Ireland PLC",
-    "primary": true
-  },
-  {
-    "country_code": "IE",
-    "bic": "CITIIE2XXXX",
-    "bank_code": "CITI",
-    "name": "Citibank Europe plc",
-    "short_name": "Citibank",
     "primary": true
   },
   {
@@ -161,14 +97,6 @@
   },
   {
     "country_code": "IE",
-    "bic": "IPBSIE2DXXX",
-    "bank_code": "IPBS",
-    "name": "Permanent TSB Group Holdings plc",
-    "short_name": "Permanent TSB Group Holdings plc",
-    "primary": true
-  },
-  {
-    "country_code": "IE",
     "bic": "NOSCIE2XXXX",
     "bank_code": "NOSC",
     "name": "Scotiabank (Ireland) Designated Activity Company",
@@ -197,38 +125,6 @@
     "bank_code": "PNBP",
     "name": "Wells Fargo Bank International Unlimited Company",
     "short_name": "Wells Fargo Bank International Unlimited Company",
-    "primary": true
-  },
-  {
-    "country_code": "IE",
-    "bic": "SUMUIE22",
-    "bank_code": "SUMU",
-    "name": "SumUp Limited",
-    "short_name": "SumUp",
-    "primary": true
-  },
-  {
-    "country_code": "IE",
-    "bic": "MODRIE22",
-    "bank_code": "MODR",
-    "name": "Modulr Finance B.V.",
-    "short_name": "Modulr Finance B.V.",
-    "primary": true
-  },
-  {
-    "country_code": "IE",
-    "bic": "REVOIE23",
-    "bank_code": "REVO",
-    "name": "Revolut Bank UAB",
-    "short_name": "Revolut Bank UAB",
-    "primary": true
-  },
-  {
-    "country_code": "IE",
-    "bic": "PPSEIE22XXX",
-    "bank_code": "PPSE",
-    "name": "Paysafe Prepaid Services Limited",
-    "short_name": "Paysafe Prepaid Services",
     "primary": true
   }
 ]

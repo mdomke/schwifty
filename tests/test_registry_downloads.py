@@ -1,6 +1,7 @@
 """Offline checks for registry download link selection."""
 
 import importlib.util
+import json
 from pathlib import Path
 from types import ModuleType
 from types import SimpleNamespace
@@ -267,3 +268,48 @@ def test_retired_bank_codes_are_kept() -> None:
     assert registry["10000002", "GENODEF1AAA"]["legacy_bic"] == "GENODEF1BBB"
     # The Bundesbank doesn't say why a code without a successor was deleted.
     assert registry["10000003", "CLOSDEFFXXX"] == {**previous[2], "status": "delisted"}
+
+
+SCL_DIRECTORY = """Gueltig ab / valid from 02.11.2026;;;;;;
+BIC;Name;SERVICE SCT;SERVICE COR;SERVICE COR1;SERVICE B2B;SERVICE SCC
+AABAFI22;BANK OF ALAND PLC;1;0;1;0;0
+ABRNIE21;PEOPLE FIRST CREDIT UNION;1;1;0;0;0
+ABRNIE21XYZ;PEOPLE FIRST CREDIT UNION BRANCH;1;0;0;0;0
+SPBAATWWXXX;SPARDA-BANK AUSTRIA;1;0;0;0;0
+SPBAATWW;SPARDA-BANK AUSTRIA;1;1;0;1;0
+"""
+
+
+def test_scl_directory_is_parsed(monkeypatch: pytest.MonkeyPatch) -> None:
+    script = load_script("get_scl_directory")
+    monkeypatch.setattr(script, "MIN_RECORDS", 1)
+    directory = script.parse(SCL_DIRECTORY)
+    # COR1 was merged into the core direct debit.
+    assert directory["AABAFI22"] == ("BANK OF ALAND PLC", ["COR", "SCT"])
+    # Both forms of a BIC are the same BIC, so their schemes are combined.
+    assert directory["SPBAATWW"] == ("SPARDA-BANK AUSTRIA", ["B2B", "COR", "SCT"])
+    assert "SPBAATWWXXX" not in directory
+    assert json.loads(script.dump(directory)) == {
+        "AABAFI22": ["COR", "SCT"],
+        "ABRNIE21": ["COR", "SCT"],
+        "ABRNIE21XYZ": ["SCT"],
+        "SPBAATWW": ["B2B", "COR", "SCT"],
+    }
+
+
+def test_scl_directory_rejects_a_changed_format() -> None:
+    script = load_script("get_scl_directory")
+    with pytest.raises(ValueError, match="Columns"):
+        script.parse("valid from\nBIC;Name\nAABAFI22;BANK OF ALAND PLC\n")
+    with pytest.raises(ValueError, match="Only"):
+        script.parse(SCL_DIRECTORY)
+
+
+def test_bank_registry_from_scl_directory(monkeypatch: pytest.MonkeyPatch) -> None:
+    script = load_script("get_scl_directory")
+    monkeypatch.setattr(script, "MIN_RECORDS", 1)
+    registry = script.bank_registry(script.parse(SCL_DIRECTORY), "IE")
+    assert [(entry["bank_code"], entry["bic"], entry["primary"]) for entry in registry] == [
+        ("ABRN", "ABRNIE21", True),
+        ("ABRN", "ABRNIE21XYZ", False),
+    ]

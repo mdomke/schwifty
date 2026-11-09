@@ -78,3 +78,10 @@ the following.
   BIC still resolves. The checksum method stays the one of the original bank.
 - `closed`: the bank was closed and has no successor.
 - `delisted`: the code is no longer listed, and the source doesn't say why.
+
+### SEPA Scheme
+A payment scheme of the Single Euro Payments Area that a payment service provider takes part in,
+modelled as `SEPAScheme`: credit transfer, core direct debit, business-to-business direct debit and
+card clearing. `BIC.sepa_schemes` takes them from the SCL directory of the Deutsche Bundesbank,
+which lists the providers that can be reached through its SEPA clearer. An empty set means that
+the directory doesn't list the BIC, not that it takes part in no scheme.

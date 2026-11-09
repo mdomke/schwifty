@@ -8,6 +8,10 @@ main() {
     echo "---> Updating bank registry for: ${country}"
     python "${root}/get_bank_registry_${country}.py"
   done
+
+  # The SEPA schemes of BICs, and the Irish and Maltese bank registries.
+  echo "---> Updating the SCL directory"
+  python "${root}/get_scl_directory.py"
 }
 
 main

@@ -1,0 +1,2058 @@
+[
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ABRNIE21",
+    "bank_code": "ABRN",
+    "name": "PEOPLE FIRST CREDIT UNION LIMITED",
+    "short_name": "PEOPLE FIRST CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ABRUIE21",
+    "bank_code": "ABRU",
+    "name": "Abbeyfeale Credit Union Ltd",
+    "short_name": "Abbeyfeale Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ACRUIE21",
+    "bank_code": "ACRU",
+    "name": "Claddagh Credit Union Limited",
+    "short_name": "Claddagh Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "AFEEIE2D",
+    "bank_code": "AFEE",
+    "name": "Associated Foreign Exchange Ireland Limited",
+    "short_name": "Associated Foreign Exchange Ireland Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "AGCUIE21",
+    "bank_code": "AGCU",
+    "name": "St Agnes Credit Union Limited",
+    "short_name": "St Agnes Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "AIBKIE2D",
+    "bank_code": "AIBK",
+    "name": "ALLIED IRISH BANKS PLC",
+    "short_name": "ALLIED IRISH BANKS PLC"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "AICUIE21",
+    "bank_code": "AICU",
+    "name": "ST AILBES CREDIT UNION LIMITED",
+    "short_name": "ST AILBES CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ANUNIE21",
+    "bank_code": "ANUN",
+    "name": "A.N.S.A.C. Credit Union Ltd",
+    "short_name": "A.N.S.A.C. Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ARCUIE21",
+    "bank_code": "ARCU",
+    "name": "ARDEE CREDIT UNION LIMITED",
+    "short_name": "ARDEE CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ARRUIE21",
+    "bank_code": "ARRU",
+    "name": "Arklow Credit Union Ltd",
+    "short_name": "Arklow Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ASRNIE21",
+    "bank_code": "ASRN",
+    "name": "Education Credit Union Limited",
+    "short_name": "Education Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ATCUIE21",
+    "bank_code": "ATCU",
+    "name": "Le Cheile Credit Union Limited",
+    "short_name": "Le Cheile Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ATEUIE21",
+    "bank_code": "ATEU",
+    "name": "PEOPLE FIRST CREDIT UNION LIMITED",
+    "short_name": "PEOPLE FIRST CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ATROIE21",
+    "bank_code": "ATRO",
+    "name": "West Midlands Credit Union Limited",
+    "short_name": "West Midlands Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ATRUIE21",
+    "bank_code": "ATRU",
+    "name": "Athenry Credit Union Limited",
+    "short_name": "Athenry Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "AYCUIE21",
+    "bank_code": "AYCU",
+    "name": "Member First Credit Union Limited",
+    "short_name": "Member First Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BARCIE2D",
+    "bank_code": "BARC",
+    "name": "BARCLAYS BANK IRELAND PLC",
+    "short_name": "BARCLAYS BANK IRELAND PLC"
+  },
+  {
+    "country_code": "IE",
+    "primary": false,
+    "bic": "BARCIE3P",
+    "bank_code": "BARC",
+    "name": "PRIVATE BANK (PBOS) - BARCLAYS BANK IRELAND",
+    "short_name": "PRIVATE BANK (PBOS) - BARCLAYS BANK IRELAND"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BAWAIE22",
+    "bank_code": "BAWA",
+    "name": "MoCo Ireland",
+    "short_name": "MoCo Ireland"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BCDUIE21",
+    "bank_code": "BCDU",
+    "name": "First South Credit Union Limited",
+    "short_name": "First South Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BCUOIE21",
+    "bank_code": "BCUO",
+    "name": "GATEWAY CREDIT UNION LIMITED",
+    "short_name": "GATEWAY CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BDCLIE21",
+    "bank_code": "BDCL",
+    "name": "Ballymote & District Credit Union Limited",
+    "short_name": "Ballymote & District Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BDCUIE21",
+    "bank_code": "BDCU",
+    "name": "ROSCOMMON CREDIT UNION LIMITED",
+    "short_name": "ROSCOMMON CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BDRIIE21",
+    "bank_code": "BDRI",
+    "name": "BLESSINGTON AND DISTRICT CREDIT UNION LTD",
+    "short_name": "BLESSINGTON AND DISTRICT CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BDRNIE21",
+    "bank_code": "BDRN",
+    "name": "BLANCHARDSTOWN CU",
+    "short_name": "BLANCHARDSTOWN CU"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BGCUIE21",
+    "bank_code": "BGCU",
+    "name": "St. Canices, Kilkenny Credit Union Limited",
+    "short_name": "St. Canices, Kilkenny Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BIRIIE21",
+    "bank_code": "BIRI",
+    "name": "Inspire Credit Union Limited",
+    "short_name": "Inspire Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BIRNIE21",
+    "bank_code": "BIRN",
+    "name": "Athenry Credit Union Limited",
+    "short_name": "Athenry Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BIRUIE21",
+    "bank_code": "BIRU",
+    "name": "LINK CREDIT UNION LTD.",
+    "short_name": "LINK CREDIT UNION LTD."
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BKBKIE2D",
+    "bank_code": "BKBK",
+    "name": "BANKINTER, S.A. IRELAND BRANCH",
+    "short_name": "BANKINTER, S.A. IRELAND BRANCH"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLCIIE21",
+    "bank_code": "BLCI",
+    "name": "BALLINA CREDIT UNION LIMITED",
+    "short_name": "BALLINA CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLCUIE21",
+    "bank_code": "BLCU",
+    "name": "PROGRESSIVE CREDIT UNION LIMITED",
+    "short_name": "PROGRESSIVE CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLDIIE21",
+    "bank_code": "BLDI",
+    "name": "BALLYSHANNON & KILLYBEGS CREDIT UNION LIMITED",
+    "short_name": "BALLYSHANNON & KILLYBEGS CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLDOIE21",
+    "bank_code": "BLDO",
+    "name": "BALTINGLASS CREDIT UNION LTD",
+    "short_name": "BALTINGLASS CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLENIE21",
+    "bank_code": "BLEN",
+    "name": "Monaghan Credit Union Limited",
+    "short_name": "Monaghan Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLIIIE21",
+    "bank_code": "BLII",
+    "name": "Blarney Credit Union Limited",
+    "short_name": "Blarney Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLIOIE21",
+    "bank_code": "BLIO",
+    "name": "Blackpool Credit Union Limited",
+    "short_name": "Blackpool Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLIUIE21",
+    "bank_code": "BLIU",
+    "name": "BLACKROCK CREDIT UNION LIMITED",
+    "short_name": "BLACKROCK CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLRIIE21",
+    "bank_code": "BLRI",
+    "name": "St Colmans (Claremorris) Credit Union Limited",
+    "short_name": "St Colmans (Claremorris) Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLRNIE21",
+    "bank_code": "BLRN",
+    "name": "BALLINCOLLIG CREDIT UNION LIMITED",
+    "short_name": "BALLINCOLLIG CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLRUIE21",
+    "bank_code": "BLRU",
+    "name": "Ballyconnell Credit Union Ltd",
+    "short_name": "Ballyconnell Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLTNIE21",
+    "bank_code": "BLTN",
+    "name": "Ballygall Credit Union",
+    "short_name": "Ballygall Credit Union"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLTOIE21",
+    "bank_code": "BLTO",
+    "name": "BALLYCONNELL CREDIT UNION LIMITED",
+    "short_name": "BALLYCONNELL CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BLTUIE21",
+    "bank_code": "BLTU",
+    "name": "BALLYFERMOT CREDIT UNION LIMITED",
+    "short_name": "BALLYFERMOT CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BNPAIE2D",
+    "bank_code": "BNPA",
+    "name": "BNP PARIBAS DUBLIN BRANCH",
+    "short_name": "BNP PARIBAS DUBLIN BRANCH"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BNRUIE21",
+    "bank_code": "BNRU",
+    "name": "Bantry Credit Union Limited",
+    "short_name": "Bantry Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BNYMIE2D",
+    "bank_code": "BNYM",
+    "name": "THE BANK OF NEW YORK MELLON SA./NV, DUBLIN BRANCH",
+    "short_name": "THE BANK OF NEW YORK MELLON SA./NV, DUBLIN BRANCH"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BOFAIE3X",
+    "bank_code": "BOFA",
+    "name": "BANK OF AMERICA EUROPE DAC DUBLIN",
+    "short_name": "BANK OF AMERICA EUROPE DAC DUBLIN"
+  },
+  {
+    "country_code": "IE",
+    "primary": false,
+    "bic": "BOFAIE3XAUS",
+    "bank_code": "BOFA",
+    "name": "BANK OF AMERICA EUROPE DAC DUBLIN RE AUSTRIA",
+    "short_name": "BANK OF AMERICA EUROPE DAC DUBLIN RE AUSTRIA"
+  },
+  {
+    "country_code": "IE",
+    "primary": false,
+    "bic": "BOFAIE3XFIN",
+    "bank_code": "BOFA",
+    "name": "BANK OF AMERICA EUROPE DAC DUBLIN RE FINLAND",
+    "short_name": "BANK OF AMERICA EUROPE DAC DUBLIN RE FINLAND"
+  },
+  {
+    "country_code": "IE",
+    "primary": false,
+    "bic": "BOFAIE3XPOR",
+    "bank_code": "BOFA",
+    "name": "BANK OF AMERICA EUROPE DAC DUBLIN RE PORTUGAL",
+    "short_name": "BANK OF AMERICA EUROPE DAC DUBLIN RE PORTUGAL"
+  },
+  {
+    "country_code": "IE",
+    "primary": false,
+    "bic": "BOFAIE3XSKK",
+    "bank_code": "BOFA",
+    "name": "BANK OF AMERICA EUROPE DAC DUBLIN RE SLOVAKIA",
+    "short_name": "BANK OF AMERICA EUROPE DAC DUBLIN RE SLOVAKIA"
+  },
+  {
+    "country_code": "IE",
+    "primary": false,
+    "bic": "BOFAIE3XVAM",
+    "bank_code": "BOFA",
+    "name": "BANK OF AMERICA EUROPE DAC DUBLIN VAM",
+    "short_name": "BANK OF AMERICA EUROPE DAC DUBLIN VAM"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BOFIIE2D",
+    "bank_code": "BOFI",
+    "name": "BANK OF IRELAND",
+    "short_name": "BANK OF IRELAND"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BORNIE21",
+    "bank_code": "BORN",
+    "name": "North West Credit Union Ltd",
+    "short_name": "North West Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BPEUIE21",
+    "bank_code": "BPEU",
+    "name": "PROGRESSIVE CREDIT UNION LIMITED",
+    "short_name": "PROGRESSIVE CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BREIIE21",
+    "bank_code": "BREI",
+    "name": "ST. BRIGID'S CREDIT UNION LTD",
+    "short_name": "ST. BRIGID'S CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BREOIE21",
+    "bank_code": "BREO",
+    "name": "Black Raven Credit Union Limited",
+    "short_name": "Black Raven Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BRRUIE21",
+    "bank_code": "BRRU",
+    "name": "BRAY CREDIT UNION Limited",
+    "short_name": "BRAY CREDIT UNION Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BUNQIE22",
+    "bank_code": "BUNQ",
+    "name": "BUNQ B.V.",
+    "short_name": "BUNQ B.V."
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "BURUIE21",
+    "bank_code": "BURU",
+    "name": "Inishowen Credit Union Limited",
+    "short_name": "Inishowen Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CBRNIE21",
+    "bank_code": "CBRN",
+    "name": "HERITAGE CREDIT UNION LIMITED",
+    "short_name": "HERITAGE CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CBRUIE21",
+    "bank_code": "CBRU",
+    "name": "Inspire Credit Union Limited",
+    "short_name": "Inspire Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CCGDIE21",
+    "bank_code": "CCGD",
+    "name": "COMHAR CREIDMHEASA GHAOTH DOBHAIR TEORANTA",
+    "short_name": "COMHAR CREIDMHEASA GHAOTH DOBHAIR TEORANTA"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CCHCIE21",
+    "bank_code": "CCHC",
+    "name": "Camhar Creidmheasa Cholm Cille Teoranta",
+    "short_name": "Camhar Creidmheasa Cholm Cille Teoranta"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CCHDIE21",
+    "bank_code": "CCHD",
+    "name": "COMHAR CHREIDMHEASA CHORCA DHUIBHNE TEORANTA",
+    "short_name": "COMHAR CHREIDMHEASA CHORCA DHUIBHNE TEORANTA"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CCRNIE21",
+    "bank_code": "CCRN",
+    "name": "St Colmans Claremorris Credit Union Ltd",
+    "short_name": "St Colmans Claremorris Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CDCEIE21",
+    "bank_code": "CDCE",
+    "name": "West Midlands Credit Union Limited",
+    "short_name": "West Midlands Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CDCIIE21",
+    "bank_code": "CDCI",
+    "name": "HEARTLAND CREDIT UNION LTD",
+    "short_name": "HEARTLAND CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CDDCIE21",
+    "bank_code": "CDDC",
+    "name": "CROI LAIGHEAN CREDIT UNION LIMITED",
+    "short_name": "CROI LAIGHEAN CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CDEIIE21",
+    "bank_code": "CDEI",
+    "name": "LIMERICK AND DISTRICT CREDIT UNION LIMITED",
+    "short_name": "LIMERICK AND DISTRICT CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CDEUIE21",
+    "bank_code": "CDEU",
+    "name": "Carlow Credit Union Limited",
+    "short_name": "Carlow Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CHASIE4L",
+    "bank_code": "CHAS",
+    "name": "J.P. Morgan SE - Dublin Branch",
+    "short_name": "J.P. Morgan SE - Dublin Branch"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CHCUIE21",
+    "bank_code": "CHCU",
+    "name": "Cahir Credit Union Limited",
+    "short_name": "Cahir Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CIENIE21",
+    "bank_code": "CIEN",
+    "name": "Dundalk Credit Union Limited",
+    "short_name": "Dundalk Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CIEOIE21",
+    "bank_code": "CIEO",
+    "name": "CARRICK ON SUIR CREDIT UNION LIMITED",
+    "short_name": "CARRICK ON SUIR CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CITCIE2D",
+    "bank_code": "CITC",
+    "name": "CITCO BANK NEDERLAND DUBLIN BRANCH",
+    "short_name": "CITCO BANK NEDERLAND DUBLIN BRANCH"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CITIIE2X",
+    "bank_code": "CITI",
+    "name": "CITIBANK EUROPE PLC",
+    "short_name": "CITIBANK EUROPE PLC"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CKCNIE21",
+    "bank_code": "CKCN",
+    "name": "St. Canices, Kilkenny Credit Union Limited",
+    "short_name": "St. Canices, Kilkenny Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CKCUIE21",
+    "bank_code": "CKCU",
+    "name": "St Colmcilles (Kells) Credit Union Limited",
+    "short_name": "St Colmcilles (Kells) Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CLDIIE21",
+    "bank_code": "CLDI",
+    "name": "Member First Credit Union Limited",
+    "short_name": "Member First Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CLDOIE21",
+    "bank_code": "CLDO",
+    "name": "St Columbas Credit Union Limited",
+    "short_name": "St Columbas Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CLEUIE21",
+    "bank_code": "CLEU",
+    "name": "Clonmel Credit Union Ltd",
+    "short_name": "Clonmel Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CLIOIE21",
+    "bank_code": "CLIO",
+    "name": "CLANMAURICE CREDIT UNION LIMITED",
+    "short_name": "CLANMAURICE CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CLIRIE21",
+    "bank_code": "CLIR",
+    "name": "COMHAR LINN INTO CREDIT UNION LIMITED",
+    "short_name": "COMHAR LINN INTO CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CLRIIE21",
+    "bank_code": "CLRI",
+    "name": "Tower Credit Union",
+    "short_name": "Tower Credit Union"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CLROIE21",
+    "bank_code": "CLRO",
+    "name": "Clones Credit Union Limited",
+    "short_name": "Clones Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CNRNIE21",
+    "bank_code": "CNRN",
+    "name": "CANA CREDIT UNION LIMITED",
+    "short_name": "CANA CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CPAYIE2D",
+    "bank_code": "CPAY",
+    "name": "FIRE FINANCIAL SERVICES LIMITED",
+    "short_name": "FIRE FINANCIAL SERVICES LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": false,
+    "bic": "CPAYIE31",
+    "bank_code": "CPAY",
+    "name": "FIRE FINANCIAL SERVICES LIMITED",
+    "short_name": "FIRE FINANCIAL SERVICES LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CRUNIE21",
+    "bank_code": "CRUN",
+    "name": "B AND S CREDIT UNION LIMITED",
+    "short_name": "B AND S CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CSCIIE21",
+    "bank_code": "CSCI",
+    "name": "Cois Sionna Desmond Credit Union Limited",
+    "short_name": "Cois Sionna Desmond Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CSDNIE21",
+    "bank_code": "CSDN",
+    "name": "Crosshaven Carragline Credit Union Ltd",
+    "short_name": "Crosshaven Carragline Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CSDOIE21",
+    "bank_code": "CSDO",
+    "name": "Public Service Credit Union Limited",
+    "short_name": "Public Service Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CSDUIE21",
+    "bank_code": "CSDU",
+    "name": "CONNEMARA CREDIT UNION LIMITED",
+    "short_name": "CONNEMARA CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CSENIE21",
+    "bank_code": "CSEN",
+    "name": "CASTLECOMER CREDIT UNION LIMITED",
+    "short_name": "CASTLECOMER CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CSEOIE21",
+    "bank_code": "CSEO",
+    "name": "North Midlands Credit Union Limited",
+    "short_name": "North Midlands Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CSRIIE21",
+    "bank_code": "CSRI",
+    "name": "Castleblayney Credit Union Limited",
+    "short_name": "Castleblayney Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CSRNIE21",
+    "bank_code": "CSRN",
+    "name": "FIRST CHOICE CREDIT UNION LIMITED",
+    "short_name": "FIRST CHOICE CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CSRUIE21",
+    "bank_code": "CSRU",
+    "name": "AFFINITY CREDIT UNION LIMITED",
+    "short_name": "AFFINITY CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CTCNIE21",
+    "bank_code": "CTCN",
+    "name": "Cootehill Credit Union Limited",
+    "short_name": "Cootehill Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CUCUIE21",
+    "bank_code": "CUCU",
+    "name": "DUNDALK CREDIT UNION LTD",
+    "short_name": "DUNDALK CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CUXRIE2D",
+    "bank_code": "CUXR",
+    "name": "CURRENXIE TECHNOLOGIES LIMITED",
+    "short_name": "CURRENXIE TECHNOLOGIES LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "CVCUIE21",
+    "bank_code": "CVCU",
+    "name": "Cavan Credit Union Limited",
+    "short_name": "Cavan Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DABAIE2D",
+    "bank_code": "DABA",
+    "name": "DANSKE BANK AS",
+    "short_name": "DANSKE BANK AS"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DACNIE21",
+    "bank_code": "DACN",
+    "name": "St Declan's Ashbourne Credit Union Limited",
+    "short_name": "St Declan's Ashbourne Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DCRUIE21",
+    "bank_code": "DCRU",
+    "name": "DOUGLAS CREDIT UNION LIMITED",
+    "short_name": "DOUGLAS CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DDCIIE21",
+    "bank_code": "DDCI",
+    "name": "DUNBOYNE AND DISTRICT CREDIT UNION LIMITED",
+    "short_name": "DUNBOYNE AND DISTRICT CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DEEUIE21",
+    "bank_code": "DEEU",
+    "name": "DERG CREDIT UNION LTD",
+    "short_name": "DERG CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DERNIE21",
+    "bank_code": "DERN",
+    "name": "Cois Sionna Desmond Credit Union Limited",
+    "short_name": "Cois Sionna Desmond Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DOROIE21",
+    "bank_code": "DORO",
+    "name": "Journi Credit Union Ltd",
+    "short_name": "Journi Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DORUIE21",
+    "bank_code": "DORU",
+    "name": "DONORE CREDIT UNION LIMITED",
+    "short_name": "DONORE CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DRCIIE21",
+    "bank_code": "DRCI",
+    "name": "DRUMSHANBO CREDIT UNION LIMITED",
+    "short_name": "DRUMSHANBO CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DRCUIE21",
+    "bank_code": "DRCU",
+    "name": "DROGHEDA CREDIT UNION LTD.",
+    "short_name": "DROGHEDA CREDIT UNION LTD."
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DTCUIE21",
+    "bank_code": "DTCU",
+    "name": "DONEGAL TOWN CREDIT UNION LIMITED",
+    "short_name": "DONEGAL TOWN CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DUCIIE21",
+    "bank_code": "DUCI",
+    "name": "DUNDALK CU",
+    "short_name": "DUNDALK CU"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DUCUIE21",
+    "bank_code": "DUCU",
+    "name": "DUBCO CREDIT UNION LIMITED",
+    "short_name": "DUBCO CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DURNIE21",
+    "bank_code": "DURN",
+    "name": "CAIRDE CREDIT UNION",
+    "short_name": "CAIRDE CREDIT UNION"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "DURUIE21",
+    "bank_code": "DURU",
+    "name": "Capital Credit Union Limited",
+    "short_name": "Capital Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "EBPBIE22",
+    "bank_code": "EBPB",
+    "name": "EBURY PARTNERS BELGIUM NV - IRELAND BRANCH",
+    "short_name": "EBURY PARTNERS BELGIUM NV - IRELAND BRANCH"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "EBSIIE2DSDD",
+    "bank_code": "EBSI",
+    "name": "EBS LIMITED",
+    "short_name": "EBS LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ECCUIE21",
+    "bank_code": "ECCU",
+    "name": "First Tech Credit Union Limited",
+    "short_name": "First Tech Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "EDCIIE21",
+    "bank_code": "EDCI",
+    "name": "EMYVALE DISTRICT CREDIT UNION LIMITED",
+    "short_name": "EMYVALE DISTRICT CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "EDCNIE21",
+    "bank_code": "EDCN",
+    "name": "CROI LAIGHEAN CREDIT UNION LIMITED",
+    "short_name": "CROI LAIGHEAN CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "EDRUIE21",
+    "bank_code": "EDRU",
+    "name": "Ennistymon & District Credit Union Limited",
+    "short_name": "Ennistymon & District Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "EMCNIE21",
+    "bank_code": "EMCN",
+    "name": "PUBLIC SERVICES CREDIT UNION LIMITED",
+    "short_name": "PUBLIC SERVICES CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ENCNIE21",
+    "bank_code": "ENCN",
+    "name": "Enniscorthy Credit Union Limited",
+    "short_name": "Enniscorthy Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ENCUIE21",
+    "bank_code": "ENCU",
+    "name": "ENFIELD CREDIT UNION LIMITED",
+    "short_name": "ENFIELD CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "FDCUIE21",
+    "bank_code": "FDCU",
+    "name": "ST. BRIGID'S CREDIT UNION LIMITED",
+    "short_name": "ST. BRIGID'S CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "FECNIE21",
+    "bank_code": "FECN",
+    "name": "Synergy Credit Union Limited",
+    "short_name": "Synergy Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "FIRUIE21",
+    "bank_code": "FIRU",
+    "name": "FINGLAS CREDIT UNION LIMITED",
+    "short_name": "FINGLAS CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "FITUIE21",
+    "bank_code": "FITU",
+    "name": "Tallaght and Firhouse Credit Union Limited",
+    "short_name": "Tallaght and Firhouse Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "FRCUIE21",
+    "bank_code": "FRCU",
+    "name": "ST. FRANCIS CREDIT UNION LIMITED",
+    "short_name": "ST. FRANCIS CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "GDCIIE21",
+    "bank_code": "GDCI",
+    "name": "Greystones & District Credit Union",
+    "short_name": "Greystones & District Credit Union"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "GDCNIE21",
+    "bank_code": "GDCN",
+    "name": "GLANMIRE AND DISTRICT CREDIT UNION",
+    "short_name": "GLANMIRE AND DISTRICT CREDIT UNION"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "GDCUIE21",
+    "bank_code": "GDCU",
+    "name": "GREENHILLS AND DISTRICT CREDIT UNION LIMITED",
+    "short_name": "GREENHILLS AND DISTRICT CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "GLCUIE21",
+    "bank_code": "GLCU",
+    "name": "West Midlands Credit Union Limited",
+    "short_name": "West Midlands Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "GOCIIE21",
+    "bank_code": "GOCI",
+    "name": "ALTURA CU",
+    "short_name": "ALTURA CU"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "GOCNIE21",
+    "bank_code": "GOCN",
+    "name": "GORESBRIDGE CREDIT UNION LIMITED",
+    "short_name": "GORESBRIDGE CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "GORUIE21",
+    "bank_code": "GORU",
+    "name": "GATEWAY CREDIT UNION LIMITED",
+    "short_name": "GATEWAY CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "GRRUIE21",
+    "bank_code": "GRRU",
+    "name": "GRANARD CREDIT UNION LIMITED",
+    "short_name": "GRANARD CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "GUCUIE21",
+    "bank_code": "GUCU",
+    "name": "Gurranabraher Credit Union Limited",
+    "short_name": "Gurranabraher Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "HSBCIE2D",
+    "bank_code": "HSBC",
+    "name": "HSBC CONTINENTAL EUROPE, IRELAND",
+    "short_name": "HSBC CONTINENTAL EUROPE, IRELAND"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "HSCNIE21",
+    "bank_code": "HSCN",
+    "name": "HERITAGE CREDIT UNION LIMITED",
+    "short_name": "HERITAGE CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "HSSRIE21",
+    "bank_code": "HSSR",
+    "name": "Health Services Staffs Credit Union Limited",
+    "short_name": "Health Services Staffs Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "INGBIE2DICM",
+    "bank_code": "INGB",
+    "name": "ING BANK NV DUBLIN BRANCH",
+    "short_name": "ING BANK NV DUBLIN BRANCH"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "IPBSIE2D",
+    "bank_code": "IPBS",
+    "name": "IRISH LIFE AND PERMANENT PLC",
+    "short_name": "IRISH LIFE AND PERMANENT PLC"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ISAEIE2D",
+    "bank_code": "ISAE",
+    "name": "CACEIS BANK LUXEMBOURG DUBLIN BRANCH",
+    "short_name": "CACEIS BANK LUXEMBOURG DUBLIN BRANCH"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ITCXIE22",
+    "bank_code": "ITCX",
+    "name": "NOFRIXION LTD",
+    "short_name": "NOFRIXION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "JACIIE21",
+    "bank_code": "JACI",
+    "name": "West Midlands Credit Union Limited",
+    "short_name": "West Midlands Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "JACNIE21",
+    "bank_code": "JACN",
+    "name": "Aviate Credit Union Ltd",
+    "short_name": "Aviate Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "KBDUIE2D",
+    "bank_code": "KBDU",
+    "name": "KBC BANK NV DUBLIN BRANCH",
+    "short_name": "KBC BANK NV DUBLIN BRANCH"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "KCRUIE21",
+    "bank_code": "KCRU",
+    "name": "KANTURK CREDIT UNION LTD",
+    "short_name": "KANTURK CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "KDCUIE21",
+    "bank_code": "KDCU",
+    "name": "FIRST CHOICE CREDIT UNION",
+    "short_name": "FIRST CHOICE CREDIT UNION"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "KICIIE21",
+    "bank_code": "KICI",
+    "name": "Kilnamanagh & Tallaght West Credit Union Limited",
+    "short_name": "Kilnamanagh & Tallaght West Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "KICNIE21",
+    "bank_code": "KICN",
+    "name": "CONNECT CREDIT UNION LTD",
+    "short_name": "CONNECT CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "KIENIE21",
+    "bank_code": "KIEN",
+    "name": "Kilrush Credit Union Limited",
+    "short_name": "Kilrush Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "KIEUIE21",
+    "bank_code": "KIEU",
+    "name": "KILMALLOCK CREDIT UNION LIMITED",
+    "short_name": "KILMALLOCK CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "KIRIIE21",
+    "bank_code": "KIRI",
+    "name": "KILDARE CREDIT UNION LIMITED",
+    "short_name": "KILDARE CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "KIROIE21",
+    "bank_code": "KIRO",
+    "name": "Killarney Credit Union Limited",
+    "short_name": "Killarney Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "KLRNIE22",
+    "bank_code": "KLRN",
+    "name": "Klarna Bank AB, Irish Branch",
+    "short_name": "Klarna Bank AB, Irish Branch"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "KPDCIE21",
+    "bank_code": "KPDC",
+    "name": "Kilcock-Kilcloon and District Credit Union Limited",
+    "short_name": "Kilcock-Kilcloon and District Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "LBCUIE21",
+    "bank_code": "LBCU",
+    "name": "North Midlands Credit Union",
+    "short_name": "North Midlands Credit Union"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "LDCIIE21",
+    "bank_code": "LDCI",
+    "name": "Lucan District Credit Union Limited",
+    "short_name": "Lucan District Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "LDCNIE21",
+    "bank_code": "LDCN",
+    "name": "CROI LAIGHEAN CREDIT UNION LIMITED",
+    "short_name": "CROI LAIGHEAN CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "LDCOIE21",
+    "bank_code": "LDCO",
+    "name": "LISDUGGAN CU",
+    "short_name": "LISDUGGAN CU"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "LDCUIE21",
+    "bank_code": "LDCU",
+    "name": "LARKHILL AND DISTRICT CREDIT UNION LTD",
+    "short_name": "LARKHILL AND DISTRICT CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "LECIIE21",
+    "bank_code": "LECI",
+    "name": "Leighlin Credit Union Ltd",
+    "short_name": "Leighlin Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "LECOIE21",
+    "bank_code": "LECO",
+    "name": "Letterkenny Credit Union Limited",
+    "short_name": "Letterkenny Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "LICIIE21",
+    "bank_code": "LICI",
+    "name": "LISTOWEL CREDIT UNION LTD",
+    "short_name": "LISTOWEL CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "LICUIE21",
+    "bank_code": "LICU",
+    "name": "LIFFORD CREDIT UNION LTD",
+    "short_name": "LIFFORD CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "LOCIIE21",
+    "bank_code": "LOCI",
+    "name": "The Lough Credit Union Limited",
+    "short_name": "The Lough Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "LORNIE21",
+    "bank_code": "LORN",
+    "name": "North Midlands Credit Union Limited",
+    "short_name": "North Midlands Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MADNIE21",
+    "bank_code": "MADN",
+    "name": "Member First Credit Union Limited",
+    "short_name": "Member First Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MADOIE21",
+    "bank_code": "MADO",
+    "name": "MACROOM CREDIT UNION LIMITED",
+    "short_name": "MACROOM CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MATNIE21",
+    "bank_code": "MATN",
+    "name": "MALLOW CREDIT UNION LTD",
+    "short_name": "MALLOW CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MCCRIE21",
+    "bank_code": "MCCR",
+    "name": "Clonakilty & Dunmanway Credit Union Ltd",
+    "short_name": "Clonakilty & Dunmanway Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MDCIIE21",
+    "bank_code": "MDCI",
+    "name": "MALAHIDE AND DISTRICT CREDIT UNION LTD",
+    "short_name": "MALAHIDE AND DISTRICT CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MDCOIE21",
+    "bank_code": "MDCO",
+    "name": "MANORHAMILTON AND DISTRICT CREDIT UNION LIMITED",
+    "short_name": "MANORHAMILTON AND DISTRICT CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MICIIE21",
+    "bank_code": "MICI",
+    "name": "St Michaels Credit Union Limited",
+    "short_name": "St Michaels Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MIEUIE21",
+    "bank_code": "MIEU",
+    "name": "Mitchelstown Credit Union Limited",
+    "short_name": "Mitchelstown Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MIRNIE21",
+    "bank_code": "MIRN",
+    "name": "MIDLETON CREDIT UNION LTD",
+    "short_name": "MIDLETON CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MNCUIE21",
+    "bank_code": "MNCU",
+    "name": "CREDIT UNION PLUS LTD.",
+    "short_name": "CREDIT UNION PLUS LTD."
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MODIIE21",
+    "bank_code": "MODI",
+    "name": "Monaghan Credit Union Limited",
+    "short_name": "Monaghan Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MODRIE22",
+    "bank_code": "MODR",
+    "name": "MODULR FINANCE B.V., IRELAND BRANCH",
+    "short_name": "MODULR FINANCE B.V., IRELAND BRANCH"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MOEIIE21",
+    "bank_code": "MOEI",
+    "name": "Monasterevan Credit Union Limited",
+    "short_name": "Monasterevan Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MOEOIE21",
+    "bank_code": "MOEO",
+    "name": "Mountmellick Credit Union Limited",
+    "short_name": "Mountmellick Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MONZIE22",
+    "bank_code": "MONZ",
+    "name": "MBEU DAC",
+    "short_name": "MBEU DAC"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MPCUIE21",
+    "bank_code": "MPCU",
+    "name": "COIS SIONNA DESMOND CREDIT UNION LIMITED",
+    "short_name": "COIS SIONNA DESMOND CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MPOSIE2D",
+    "bank_code": "MPOS",
+    "name": "MYPOS LIMITED",
+    "short_name": "MYPOS LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MSCNIE21",
+    "bank_code": "MSCN",
+    "name": "ACCESS CREDIT UNION LIMITED",
+    "short_name": "ACCESS CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MURNIE21",
+    "bank_code": "MURN",
+    "name": "Mulclair Credit Union Limited",
+    "short_name": "Mulclair Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "MURUIE21",
+    "bank_code": "MURU",
+    "name": "North Midlands Credit Union Limited",
+    "short_name": "North Midlands Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "NACUIE21",
+    "bank_code": "NACU",
+    "name": "LIFE CREDIT UNION LTD.",
+    "short_name": "LIFE CREDIT UNION LTD."
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "NBCUIE21",
+    "bank_code": "NBCU",
+    "name": "NAOMH BREANDAIN CREDIT UNION LIMITED",
+    "short_name": "NAOMH BREANDAIN CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "NEEUIE21",
+    "bank_code": "NEEU",
+    "name": "Newmarket Credit Union Limited",
+    "short_name": "Newmarket Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "NERIIE21",
+    "bank_code": "NERI",
+    "name": "NENAGH CREDIT UNION LIMITED",
+    "short_name": "NENAGH CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "NFXNIE22",
+    "bank_code": "NFXN",
+    "name": "NOFRIXION LTD",
+    "short_name": "NOFRIXION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "NLACIE21",
+    "bank_code": "NLAC",
+    "name": "North Midlands Credit Union Limited",
+    "short_name": "North Midlands Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "NRCUIE21",
+    "bank_code": "NRCU",
+    "name": "NEW ROSS CREDIT UNION LTD",
+    "short_name": "NEW ROSS CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "OLCCIE21",
+    "bank_code": "OLCC",
+    "name": "Our Lady Crowned Credit Union Limited",
+    "short_name": "Our Lady Crowned Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "OLCUIE21",
+    "bank_code": "OLCU",
+    "name": "Le Cheile Credit Union Limited",
+    "short_name": "Le Cheile Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "PAEUIE21",
+    "bank_code": "PAEU",
+    "name": "PALMERSTOWN CREDIT UNION",
+    "short_name": "PALMERSTOWN CREDIT UNION"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "PCUEIE21",
+    "bank_code": "PCUE",
+    "name": "SAVVI CREDIT UNION LIMITED",
+    "short_name": "SAVVI CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "PDCUIE21",
+    "bank_code": "PDCU",
+    "name": "Heritage Credit Union Limited",
+    "short_name": "Heritage Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "PGCUIE21",
+    "bank_code": "PGCU",
+    "name": "ST. PAUL'S GARDA CREDIT UNION LTD.",
+    "short_name": "ST. PAUL'S GARDA CREDIT UNION LTD."
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "POCOIE21",
+    "bank_code": "POCO",
+    "name": "PEOPLE FIRST CREDIT UNION LIMITED",
+    "short_name": "PEOPLE FIRST CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "POCUIE21",
+    "bank_code": "POCU",
+    "name": "PORTARLINGTON CREDIT UNION LTD",
+    "short_name": "PORTARLINGTON CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "PPSEIE22",
+    "bank_code": "PPSE",
+    "name": "PAYSAFE PREPAID SERVICES LIMITED",
+    "short_name": "PAYSAFE PREPAID SERVICES LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "PRCUIE21",
+    "bank_code": "PRCU",
+    "name": "COMMUNITY CREDIT UNION LIMITED",
+    "short_name": "COMMUNITY CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "PSCUIE21",
+    "bank_code": "PSCU",
+    "name": "Prison Service Credit Union Limited",
+    "short_name": "Prison Service Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "PSTSIE21",
+    "bank_code": "PSTS",
+    "name": "AN POST DUBLIN",
+    "short_name": "AN POST DUBLIN"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "RDCIIE21",
+    "bank_code": "RDCI",
+    "name": "Health Services Staffs Credit Union Limited",
+    "short_name": "Health Services Staffs Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "RDCLIE21",
+    "bank_code": "RDCL",
+    "name": "COIS SIONNA DESMOND CREDIT UNION LIMITED",
+    "short_name": "COIS SIONNA DESMOND CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "RDCUIE21",
+    "bank_code": "RDCU",
+    "name": "HERITAGE CREDIT UNION LIMITED",
+    "short_name": "HERITAGE CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "RDRNIE21",
+    "bank_code": "RDRN",
+    "name": "RATHMORE & DISTRICT CREDIT UNION",
+    "short_name": "RATHMORE & DISTRICT CREDIT UNION"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "REVOIE23",
+    "bank_code": "REVO",
+    "name": "Revolut Bank UAB",
+    "short_name": "Revolut Bank UAB"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ROCIIE21",
+    "bank_code": "ROCI",
+    "name": "ROWLAGH CREDIT UNION LIMITED",
+    "short_name": "ROWLAGH CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "ROCUIE21",
+    "bank_code": "ROCU",
+    "name": "The Rosses Credit Union Limited",
+    "short_name": "The Rosses Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "RORNIE21",
+    "bank_code": "RORN",
+    "name": "PREMIER CREDIT UNION LIMITED",
+    "short_name": "PREMIER CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "RORUIE21",
+    "bank_code": "RORU",
+    "name": "Roscommon Credit Union Limited",
+    "short_name": "Roscommon Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "RTCUIE21",
+    "bank_code": "RTCU",
+    "name": "R.T.E. Credit Union Limited",
+    "short_name": "R.T.E. Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "SADNIE21",
+    "bank_code": "SADN",
+    "name": "SARSFIELD CREDIT UNION LIMITED",
+    "short_name": "SARSFIELD CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "SBDCIE21",
+    "bank_code": "SBDC",
+    "name": "CORE CREDIT UNION LTD.",
+    "short_name": "CORE CREDIT UNION LTD."
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "SDCNIE21",
+    "bank_code": "SDCN",
+    "name": "Member First Credit Union Limited",
+    "short_name": "Member First Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "SFSNIE22",
+    "bank_code": "SFSN",
+    "name": "Soldo Financial Services Ireland DAC",
+    "short_name": "Soldo Financial Services Ireland DAC"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "SHCUIE21",
+    "bank_code": "SHCU",
+    "name": "Sheephaven Credit Union Limited",
+    "short_name": "Sheephaven Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "SHRIIE21",
+    "bank_code": "SHRI",
+    "name": "Castleblayney Credit Union Limited",
+    "short_name": "Castleblayney Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "SLCNIE21",
+    "bank_code": "SLCN",
+    "name": "SLANE CREDIT UNION LIMITED",
+    "short_name": "SLANE CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "SLRUIE21",
+    "bank_code": "SLRU",
+    "name": "North West Credit Union Ltd",
+    "short_name": "North West Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "SRGCIE21",
+    "bank_code": "SRGC",
+    "name": "SAINT RAPHAEL'S GARDA CREDIT UNION LIMITED",
+    "short_name": "SAINT RAPHAEL'S GARDA CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "STEIIE21",
+    "bank_code": "STEI",
+    "name": "South Dublin Credit Union Limited",
+    "short_name": "South Dublin Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "STTOIE22",
+    "bank_code": "STTO",
+    "name": "Stripe Technology Europe Limited",
+    "short_name": "Stripe Technology Europe Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "SUCUIE21",
+    "bank_code": "SUCU",
+    "name": "CAPITAL CREDIT UNION LIMITED",
+    "short_name": "CAPITAL CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "SUMUIE22",
+    "bank_code": "SUMU",
+    "name": "SUMUP LIMITED",
+    "short_name": "SUMUP LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "SWCUIE21",
+    "bank_code": "SWCU",
+    "name": "Letterkenny Credit Union Limited",
+    "short_name": "Letterkenny Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "TDCNIE21",
+    "bank_code": "TDCN",
+    "name": "TUBBERCURRY AND DISTRICT CREDIT UNION LIMITED",
+    "short_name": "TUBBERCURRY AND DISTRICT CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "TDCOIE21",
+    "bank_code": "TDCO",
+    "name": "Tallaght & Firhouse Credit Union Ltd",
+    "short_name": "Tallaght & Firhouse Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "TERIIE21",
+    "bank_code": "TERI",
+    "name": "TEMPLEMORE CREDIT UNION LTD",
+    "short_name": "TEMPLEMORE CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "THCNIE21",
+    "bank_code": "THCN",
+    "name": "THOMASTOWN CREDIT UNION LTD",
+    "short_name": "THOMASTOWN CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "THCUIE21",
+    "bank_code": "THCU",
+    "name": "Premier Credit Union Limited",
+    "short_name": "Premier Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "TICUIE21",
+    "bank_code": "TICU",
+    "name": "Tipperary Credit Union Limited",
+    "short_name": "Tipperary Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "TRRIIE21",
+    "bank_code": "TRRI",
+    "name": "CARA CREDIT UNION LTD.",
+    "short_name": "CARA CREDIT UNION LTD."
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "TRRUIE21",
+    "bank_code": "TRRU",
+    "name": "MEMBER FIRST CREDIT UNION LTD",
+    "short_name": "MEMBER FIRST CREDIT UNION LTD"
+  },
+  {
+    "country_code": "IE",
+    "primary": false,
+    "bic": "TRYEIE22",
+    "bank_code": "TRYE",
+    "name": "TRUELAYER (IRELAND) LIMITED",
+    "short_name": "TRUELAYER (IRELAND) LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": false,
+    "bic": "TRYEIE22AAA",
+    "bank_code": "TRYE",
+    "name": "TRUELAYER IRELAND LIMITED",
+    "short_name": "TRUELAYER IRELAND LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "TRYEIE23",
+    "bank_code": "TRYE",
+    "name": "TRUELAYER IRELAND LIMITED",
+    "short_name": "TRUELAYER IRELAND LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "TUCNIE21",
+    "bank_code": "TUCN",
+    "name": "TULLOW CREDIT UNION LIMITED",
+    "short_name": "TULLOW CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "TUIRIE21",
+    "bank_code": "TUIR",
+    "name": "Teachers Union of Ireland Credit Union Limited",
+    "short_name": "Teachers Union of Ireland Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "TURUIE21",
+    "bank_code": "TURU",
+    "name": "TULLAMORE CREDIT UNION LTD.",
+    "short_name": "TULLAMORE CREDIT UNION LTD."
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "TWCUIE21",
+    "bank_code": "TWCU",
+    "name": "Kilnamanagh & Tallaght West Credit Union Ltd",
+    "short_name": "Kilnamanagh & Tallaght West Credit Union Ltd"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "USBKIE2D",
+    "bank_code": "USBK",
+    "name": "ELAVON FINANCIAL SERVICES LIMITED",
+    "short_name": "ELAVON FINANCIAL SERVICES LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "VICNIE21",
+    "bank_code": "VICN",
+    "name": "Virginia Credit Union Limited",
+    "short_name": "Virginia Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "WACIIE21",
+    "bank_code": "WACI",
+    "name": "Journi Credit Union Limited",
+    "short_name": "Journi Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "WECIIE21",
+    "bank_code": "WECI",
+    "name": "WESTPORT CREDIT UNION LIMITED",
+    "short_name": "WESTPORT CREDIT UNION LIMITED"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "WECUIE21",
+    "bank_code": "WECU",
+    "name": "Wexford Credit Union Limited",
+    "short_name": "Wexford Credit Union Limited"
+  },
+  {
+    "country_code": "IE",
+    "primary": true,
+    "bic": "YOCUIE21",
+    "bank_code": "YOCU",
+    "name": "Youghal Credit Union Limited",
+    "short_name": "Youghal Credit Union Limited"
+  }
+]
