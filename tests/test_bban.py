@@ -10,7 +10,6 @@ from schwifty import IBAN
 from schwifty import registry
 from schwifty.bban import BBAN
 from schwifty.domain import Bank
-from schwifty.exceptions import InvalidAccountCode
 from schwifty.domain import BankStatus
 from schwifty.domain import lookup_rank
 from schwifty.exceptions import GenerateRandomOverflowError
@@ -130,18 +129,18 @@ def test_bank_and_bic_describe_the_same_record_for_every_registered_bank_code() 
         ):
             if not bank_code:
                 continue
-            with suppress(InvalidAccountCode):
-                # With the all-zeros default account code some Norwegian bank
-                # codes have no constructible account number at all: the
-                # official mod-11 rule yields the invalid check digit 10 for
-                # them, which is a property of the rule, not of the record.
-                bban = BBAN.from_components(country_code, bank_code=bank_code)
-            if (
-                bban.bank is not None
-                and bban.bank.bic
-                and (bban.bic is None or bban.bic.canonical != BIC(bban.bank.bic).canonical)
-            ):
-                disagree.append((country_code, bank_code, bban.bank.bic, bban.bic))
+            with suppress(GenerateRandomOverflowError):
+                # With a random account code every bank code should admit a
+                # constructible BBAN.  The very few codes where even that is
+                # impossible are a property of the checksum rule, not of the
+                # record, and are simply skipped here.
+                bban = BBAN.random(country_code, bank_code=bank_code)
+                if (
+                    bban.bank is not None
+                    and bban.bank.bic
+                    and (bban.bic is None or bban.bic.canonical != BIC(bban.bank.bic).canonical)
+                ):
+                    disagree.append((country_code, bank_code, bban.bank.bic, bban.bic))
     assert not disagree
 
 
