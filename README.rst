@@ -36,6 +36,7 @@ Features
   the official sources where they are available
 * identify `retired bank codes`_ that IBANs in circulation still carry, and tell whether their
   bank merged into another one or closed
+* check which `SEPA schemes`_ the institution of a BIC takes part in
 * access all relevant components as attributes
 
 See the `docs <https://schwifty.readthedocs.io>`_ for more information.
@@ -43,6 +44,7 @@ See the `docs <https://schwifty.readthedocs.io>`_ for more information.
 .. _validate: https://schwifty.readthedocs.io/en/latest/examples.html#validation
 .. _generate: https://schwifty.readthedocs.io/en/latest/examples.html#generation
 .. _retired bank codes: https://schwifty.readthedocs.io/en/latest/examples.html#retired-bank-codes
+.. _SEPA schemes: https://schwifty.readthedocs.io/en/latest/examples.html#sepa-schemes
 
 .. teaser-end
 

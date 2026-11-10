@@ -170,6 +170,26 @@ you initiate one:
   >>> iban.bank.name, iban.bank.status
   ('Greensill Bank', <BankStatus.DELISTED: 'delisted'>)
 
+SEPA schemes
+~~~~~~~~~~~~
+
+:attr:`.BIC.sepa_schemes` tells which SEPA schemes the institution of a BIC takes part in: credit
+transfers, core and business-to-business direct debits, and card clearing. The schemes are taken
+from the SCL directory of the Deutsche Bundesbank, which lists the payment service providers that
+can be reached through its SEPA clearer:
+
+.. code-block:: pycon
+
+  >>> from schwifty.domain import SEPAScheme
+  >>> SEPAScheme.CORE_DIRECT_DEBIT in BIC("AACSDE33").sepa_schemes
+  True
+  >>> BIC("DEUTDEDBPAL").sepa_schemes
+  frozenset({<SEPAScheme.CREDIT_TRANSFER: 'SCT'>})
+
+A branch BIC that the directory doesn't list has the schemes of its institution. The set is empty
+for a BIC that the directory doesn't list at all, which means that its participation is unknown.
+SEPA Instant Credit Transfers are not covered by the directory.
+
 
 Validation
 ----------

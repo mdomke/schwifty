@@ -45,6 +45,10 @@ Bank
    :members:
    :undoc-members:
 
+.. autoclass:: schwifty.domain.SEPAScheme
+   :members:
+   :undoc-members:
+
 
 Exceptions
 ----------

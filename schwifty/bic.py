@@ -14,6 +14,7 @@ from schwifty import registry
 from schwifty.domain import Bank
 from schwifty.domain import canonical_bic
 from schwifty.domain import lookup_rank
+from schwifty.domain import SEPAScheme
 
 
 if TYPE_CHECKING:
@@ -414,6 +415,34 @@ class BIC(common.Base):
         """
         banks = self._ranked_banks()
         return banks[0] if banks else None
+
+    @property
+    def sepa_schemes(self) -> frozenset[SEPAScheme]:
+        """frozenset[SEPAScheme]: The SEPA schemes that the institution of this BIC takes part in.
+
+        The schemes are taken from the SCL directory of the Deutsche Bundesbank, which lists the
+        payment service providers that can be reached through its SEPA clearer, and with it
+        practically all of SEPA. For a branch BIC that the directory doesn't list, the schemes of
+        the institution that the first 8 characters identify are returned. The set is empty if
+        the directory doesn't list the BIC at all, which means that the participation is
+        unknown, not that the institution takes part in none. SEPA Instant Credit Transfers are
+        not covered by the directory.
+
+        Examples:
+            >>> from schwifty.domain import SEPAScheme
+            >>> SEPAScheme.CREDIT_TRANSFER in BIC("AACSDE33").sepa_schemes
+            True
+            >>> sorted(scheme.value for scheme in BIC("AACSDE33").sepa_schemes)
+            ['B2B', 'COR', 'SCC', 'SCT']
+            >>> BIC("ZZZZDEFFXXX", allow_invalid=True).sepa_schemes
+            frozenset()
+
+        .. versionadded:: 2026.11.1
+        """
+        schemes = registry.get_sepa_schemes(str(self))
+        if schemes is None and self.branch_code:
+            schemes = registry.get_sepa_schemes(str(self)[:8])
+        return schemes or frozenset()
 
     @property
     def domestic_bank_codes(self) -> list[str]:

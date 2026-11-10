@@ -10,6 +10,7 @@ from schwifty import exceptions
 from schwifty import registry
 from schwifty.domain import Bank
 from schwifty.domain import BankStatus
+from schwifty.domain import SEPAScheme
 
 
 def test_bic() -> None:
@@ -178,6 +179,30 @@ def test_bank_of_a_bic() -> None:
     assert BIC("DEUTDEDBXYZ").bank == BIC("DEUTDEDB").bank
     assert BIC("DEUTDEDBXYZ").banks == []
     assert BIC("ZZZZDEFFXXX", allow_invalid=True).bank is None
+
+
+def test_sepa_schemes() -> None:
+    assert BIC("AACSDE33").sepa_schemes == {
+        SEPAScheme.CREDIT_TRANSFER,
+        SEPAScheme.CORE_DIRECT_DEBIT,
+        SEPAScheme.B2B_DIRECT_DEBIT,
+        SEPAScheme.CARD_CLEARING,
+    }
+    # Both forms of the BIC of a primary office are the same BIC.
+    assert BIC("AACSDE33XXX").sepa_schemes == BIC("AACSDE33").sepa_schemes
+    # A branch that the SCL directory lists has its own schemes, other branches the ones of the
+    # institution.
+    assert BIC("DEUTDEDBPAL").sepa_schemes == {SEPAScheme.CREDIT_TRANSFER}
+    assert BIC("DEUTDEDBXYZ").sepa_schemes == BIC("DEUTDEDB").sepa_schemes
+    # The directory doesn't list the BIC, so its participation is unknown.
+    assert BIC("ZZZZDEFFXXX", allow_invalid=True).sepa_schemes == frozenset()
+
+
+def test_bank_codes_of_irish_credit_unions() -> None:
+    # Irish and Maltese IBANs use the bank code of the BIC, which the SCL directory provides.
+    assert BIC.from_bank_code("IE", "ABRN") == "ABRNIE21"
+    assert BIC("ABRNIE21").bank_names == ["PEOPLE FIRST CREDIT UNION LIMITED"]
+    assert BIC.from_bank_code("MT", "CFTE") == "CFTEMTM1"
 
 
 @pytest.mark.parametrize(
