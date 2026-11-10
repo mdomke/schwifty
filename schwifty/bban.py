@@ -124,6 +124,13 @@ class BBAN(common.Base):
             country_code (str): The ISO 3166 alpha-2 country code.
             values: The country specific BBAN components.
 
+        Note:
+            Components are padded with leading zeros to their country specific length. Where the
+            bank of the given bank code carries its check digit inside a component instead of in a
+            field of its own, as the German methods do, that check digit is solved for the bank's
+            method, so the returned BBAN passes :meth:`validate_national_checksum`. Therefore a
+            check digit supplied as part of the account code may be replaced.
+
         Raises:
             InvalidAccountCode: If the account code does not meet the national requirements.
         """
@@ -158,6 +165,25 @@ class BBAN(common.Base):
             raise exceptions.InvalidAccountCode(
                 f"Account code exceeds maximum size {account_code_length}"
             )
+
+        components[Component.ACCOUNT_CODE] = components[Component.ACCOUNT_CODE].zfill(
+            account_code_length
+        )
+
+        lookup_key = "".join(
+            components[component]
+            for component in spec.bic_lookup_components or [Component.BANK_CODE]
+        )
+        algo = _get_national_checksum_algorithm(country_code, _get_bank(country_code, lookup_key))
+        if algo is not None:
+            # Where the check digit is not a field of its own it sits inside one of the
+            # components, e.g. within the account code of the German methods. Solve for it
+            # with the method of the bank the same way ``random`` does, so that the generated
+            # BBAN passes the validation that its own bank code prescribes.
+            solved = algo.solve([components[component] for component in algo.accepts])
+            if solved is not None:
+                for component, value in zip(algo.accepts, solved, strict=True):
+                    components[component] = value
 
         checksum = compute_national_checksum(country_code, components)
         if checksum:

@@ -279,12 +279,16 @@ you.
 .. code-block:: pycon
 
   >>> iban = IBAN.generate('DE', bank_code='10010010', account_code='12345')
-  <IBAN=DE40100100100000012345>
+  <IBAN=DE67100100100000012344>
   >>> iban.checksum_digits
-  '40'
+  '67'
 
 Notice that even that the account-code has less digits than required (in Germany accounts should be
 10 digits long), zeros have been added at the correct location.
+
+The account-code check digit that German banks carry within the account number is solved for the
+checksum method of the bank code as well, so that the generated IBAN passes
+``IBAN.validate(validate_bban=True)``.
 
 For many countries that have a national checksum as part of the BBAN, its value is automatically
 calculated upon IBAN generation. E.g.

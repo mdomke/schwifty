@@ -38,6 +38,15 @@ def test_from_components_computes_national_checksum() -> None:
     assert bban.national_checksum_digits == "34"
 
 
+def test_from_components_solves_the_check_digit_of_the_banks_method() -> None:
+    # Deutsche Bank (bank code 10070000) checks account numbers with method 63, which keeps
+    # the check digit inside the account code. The zero-padded "1234567" used to be left as
+    # it was, so the generated BBAN was invalid for its own bank code.
+    iban = IBAN.generate("DE", bank_code="10070000", account_code="1234567")
+    assert iban.validate(validate_bban=True) is True
+    assert iban.account_code == "0001234467"
+
+
 def test_from_components_bank_code_too_long() -> None:
     with pytest.raises(exceptions.InvalidBankCode, match="Bank code exceeds maximum size 8"):
         BBAN.from_components("DE", bank_code="123456789", account_code="1")

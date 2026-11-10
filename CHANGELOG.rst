@@ -15,6 +15,15 @@ Added
 
 Changed
 ~~~~~~~
+* ``IBAN.generate`` and ``BBAN.from_components`` now solve the account code check digit with the
+  checksum method of the bank the bank code belongs to, the same way ``BBAN.random`` already does.
+  Where the check digit sits inside the account code rather than in a field of its own, as with the
+  German methods, the generated BBAN used to carry the zeros that padded a short account code, so
+  ``IBAN.generate("DE", bank_code="10070000", account_code="1234567")`` produced an IBAN that its own
+  bank code rejects with ``validate_bban=True``. Of four sample account bodies for every registered
+  German bank code, 3720 of 19440 generated IBANs passed their own national checksum check before and
+  19435 do now; the remaining five are account bodies for which the method admits no valid check digit
+  at all (e.g. a remainder of ``10`` in method ``31``).
 * :attr:`.BIC.banks`, :attr:`.BIC.domestic_bank_codes`, :attr:`.BIC.bank_names` and
   :attr:`.BIC.bank_short_names` are ordered like the lookups by bank code: active records before
   merged, closed and delisted ones, and primary records first among each of them, instead of
