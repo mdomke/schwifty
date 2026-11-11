@@ -1,0 +1,6739 @@
+[
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "00006",
+    "name": "Caisse des d\u00e9p\u00f4ts et consignations - fonds d'\u00e9pargne",
+    "short_name": "Caisse des d\u00e9p\u00f4ts et consignations - fonds d'\u00e9pargne"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "00010",
+    "name": "INSTITUT DE MICROCREDIT",
+    "short_name": "INSTITUT DE MICROCREDIT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "09869",
+    "name": "Compagnie Financi\u00e8re Holding Milleis",
+    "short_name": "Compagnie Financi\u00e8re Holding Milleis"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "09953",
+    "name": "Compagnie financi\u00e8re de gestion",
+    "short_name": "Compagnie financi\u00e8re de gestion"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEQFFR21",
+    "bank_code": "10008",
+    "name": "CM-CIC Leasing Solutions",
+    "short_name": "CM-CIC Leasing Solutions"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PSSTFRPP",
+    "bank_code": "10011",
+    "name": "La Banque Postale",
+    "short_name": "La Banque Postale"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "REUNFR21",
+    "bank_code": "10050",
+    "name": "Soci\u00e9t\u00e9 r\u00e9unionnaise de financement - Sorefi",
+    "short_name": "Soci\u00e9t\u00e9 r\u00e9unionnaise de financement - Sorefi"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRP1SBC",
+    "bank_code": "10057",
+    "name": "Banque CIC Sud Ouest",
+    "short_name": "Banque CIC Sud Ouest"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "TRPUFRP1",
+    "bank_code": "10071",
+    "name": "Tr\u00e9sor Public",
+    "short_name": "Tr\u00e9sor Public"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SPPCFRP1",
+    "bank_code": "10088",
+    "name": "Soci\u00e9t\u00e9 de promotion et de participation pour la coop\u00e9ration \u00e9conomique-Proparco",
+    "short_name": "Soci\u00e9t\u00e9 de promotion et de participation pour la coop\u00e9ration \u00e9conomique-Proparco"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRP1LYB",
+    "bank_code": "10096",
+    "name": "Lyonnaise de banque",
+    "short_name": "Lyonnaise de banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BREDFRPP",
+    "bank_code": "10107",
+    "name": "BRED - Banque populaire",
+    "short_name": "BRED - Banque populaire"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BYLAFRP1",
+    "bank_code": "10108",
+    "name": "Bayerische Landesbank",
+    "short_name": "Bayerische Landesbank"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BCITFRPP",
+    "bank_code": "10128",
+    "name": "Intesa Sanpaolo SpA",
+    "short_name": "Intesa Sanpaolo SpA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCMRFR21",
+    "bank_code": "10140",
+    "name": "Caisse de cr\u00e9dit municipal de Marseille",
+    "short_name": "Caisse de cr\u00e9dit municipal de Marseille"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BCHAFR21",
+    "bank_code": "10188",
+    "name": "Banque Chalus",
+    "short_name": "Banque Chalus"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP802",
+    "bank_code": "10206",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel du Nord Est",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel du Nord Est"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCBPFRPPMTG",
+    "bank_code": "10207",
+    "name": "Banque populaire Rives de Paris",
+    "short_name": "Banque populaire Rives de Paris"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "10218",
+    "name": "Co\u00f6peratieve Rabobank U.A.",
+    "short_name": "Co\u00f6peratieve Rabobank U.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "OCFIFRP1",
+    "bank_code": "10273",
+    "name": "Octo finances SA",
+    "short_name": "Octo finances SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFR2A",
+    "bank_code": "10278",
+    "name": "Caisse f\u00e9d\u00e9rale de cr\u00e9dit mutuel",
+    "short_name": "Caisse f\u00e9d\u00e9rale de cr\u00e9dit mutuel"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "10383",
+    "name": "NELIA TITRES",
+    "short_name": "NELIA TITRES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BSAVFR2C",
+    "bank_code": "10548",
+    "name": "Banque de Savoie",
+    "short_name": "Banque de Savoie"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "10550",
+    "name": "Mercedes-Benz financial services France S.A.",
+    "short_name": "Mercedes-Benz financial services France S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FMTSFRPP",
+    "bank_code": "10773",
+    "name": "March\u00e9 de TitreS - France (MTS France)",
+    "short_name": "March\u00e9 de TitreS - France (MTS France)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "10783",
+    "name": "Prorealtime",
+    "short_name": "Prorealtime"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "LOAAFR21",
+    "bank_code": "10800",
+    "name": "Locam - Location automobiles mat\u00e9riels",
+    "short_name": "Locam - Location automobiles mat\u00e9riels"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCBPFRPPDJN",
+    "bank_code": "10807",
+    "name": "Banque populaire Bourgogne Franche-Comt\u00e9",
+    "short_name": "Banque populaire Bourgogne Franche-Comt\u00e9"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "DIFFFRP1",
+    "bank_code": "10900",
+    "name": "DIFFUCO SA",
+    "short_name": "DIFFUCO SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCBPFRPPBDX",
+    "bank_code": "10907",
+    "name": "Banque populaire Aquitaine Centre Atlantique",
+    "short_name": "Banque populaire Aquitaine Centre Atlantique"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CHDUFRPP",
+    "bank_code": "10918",
+    "name": "Cholet Dupont Oudart",
+    "short_name": "Cholet Dupont Oudart"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FRGNFR21",
+    "bank_code": "10930",
+    "name": "Fonds r\u00e9gional de garantie Hauts de France",
+    "short_name": "Fonds r\u00e9gional de garantie Hauts de France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "10983",
+    "name": "Stellium Invest",
+    "short_name": "Stellium Invest"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP810",
+    "bank_code": "11006",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de Champagne-Bourgogne",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de Champagne-Bourgogne"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GLASFRPP",
+    "bank_code": "11068",
+    "name": "GLAS SAS",
+    "short_name": "GLAS SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BIIOFR21",
+    "bank_code": "11078",
+    "name": "BAIL ACTEA IMMOBILIER",
+    "short_name": "BAIL ACTEA IMMOBILIER"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "11083",
+    "name": "Nexo capital",
+    "short_name": "Nexo capital"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NALEFRP1",
+    "bank_code": "11128",
+    "name": "BPCE lease",
+    "short_name": "BPCE lease"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NFACFR21",
+    "bank_code": "11138",
+    "name": "BPCE Factor",
+    "short_name": "BPCE Factor"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SSEEFR21",
+    "bank_code": "11140",
+    "name": "SEDEF (soci\u00e9t\u00e9 europ\u00e9enne de d\u00e9veloppement du financement)",
+    "short_name": "SEDEF (soci\u00e9t\u00e9 europ\u00e9enne de d\u00e9veloppement du financement)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "RCINFRPP",
+    "bank_code": "11188",
+    "name": "RCI Banque",
+    "short_name": "RCI Banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CGLLFRP1",
+    "bank_code": "11190",
+    "name": "Caisse de garantie du logement locatif social",
+    "short_name": "Caisse de garantie du logement locatif social"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP812",
+    "bank_code": "11206",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Nord Midi-Pyr\u00e9n\u00e9es",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Nord Midi-Pyr\u00e9n\u00e9es"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SWILFRPP",
+    "bank_code": "11238",
+    "name": "SwissLife banque priv\u00e9e",
+    "short_name": "SwissLife banque priv\u00e9e"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "EQIMFR22",
+    "bank_code": "11283",
+    "name": "Equitim",
+    "short_name": "Equitim"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP813",
+    "bank_code": "11306",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Alpes Provence",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Alpes Provence"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCBPFRPPCAS",
+    "bank_code": "11307",
+    "name": "CASDEN Banque Populaire",
+    "short_name": "CASDEN Banque Populaire"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP131",
+    "bank_code": "11315",
+    "name": "Caisse d'Epargne CEPAC",
+    "short_name": "Caisse d'Epargne CEPAC"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "11353",
+    "name": "Plantureux et associ\u00e9s",
+    "short_name": "Plantureux et associ\u00e9s"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CRRHFRPA",
+    "bank_code": "11380",
+    "name": "C.R.H. - Caisse de refinancement de l'habitat",
+    "short_name": "C.R.H. - Caisse de refinancement de l'habitat"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FOGFFRP1",
+    "bank_code": "11383",
+    "name": "EPSENS",
+    "short_name": "EPSENS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "WAFTWF21",
+    "bank_code": "11408",
+    "name": "Banque de Wallis et Futuna",
+    "short_name": "Banque de Wallis et Futuna"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP142",
+    "bank_code": "11425",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Normandie",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Normandie"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "HRFRFRP1",
+    "bank_code": "11438",
+    "name": "Banque Hottinguer",
+    "short_name": "Banque Hottinguer"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BDEIFRPP",
+    "bank_code": "11449",
+    "name": "BANQUE FIDUCIAL",
+    "short_name": "BANQUE FIDUCIAL"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "COCNFRP1",
+    "bank_code": "11470",
+    "name": "Natixis coficin\u00e9",
+    "short_name": "Natixis coficin\u00e9"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "HPCPFRP1",
+    "bank_code": "11478",
+    "name": "Marex SA",
+    "short_name": "Marex SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "11483",
+    "name": "TYLIA INVEST",
+    "short_name": "TYLIA INVEST"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "INRFFRP1",
+    "bank_code": "11490",
+    "name": "Interfimo",
+    "short_name": "Interfimo"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BNPAFRPP",
+    "bank_code": "11498",
+    "name": "BNP Paribas",
+    "short_name": "BNP Paribas"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MAKPFRP1",
+    "bank_code": "11508",
+    "name": "MARKET PAY",
+    "short_name": "MARKET PAY"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "11533",
+    "name": "XTB S.A. succursale Fran\u00e7aise",
+    "short_name": "XTB S.A. succursale Fran\u00e7aise"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCUOFR21",
+    "bank_code": "11550",
+    "name": "Caisse de cr\u00e9dit municipal de Toulouse",
+    "short_name": "Caisse de cr\u00e9dit municipal de Toulouse"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "11568",
+    "name": "HEOH PAYMENTS",
+    "short_name": "HEOH PAYMENTS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "11578",
+    "name": "ACTION LOGEMENT SERVICES",
+    "short_name": "ACTION LOGEMENT SERVICES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "11600",
+    "name": "Cr\u00e9dit mutuel Real Estate Lease",
+    "short_name": "Cr\u00e9dit mutuel Real Estate Lease"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "11608",
+    "name": "REGIE REGIONALE DU SERVICE PUBLIC DE L'EFFICACITE ENERGETIQUE",
+    "short_name": "REGIE REGIONALE DU SERVICE PUBLIC DE L'EFFICACITE ENERGETIQUE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFR21BCI",
+    "bank_code": "11628",
+    "name": "LYF",
+    "short_name": "LYF"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "LLLSFRP1",
+    "bank_code": "11678",
+    "name": "De Lage Landen leasing S.A.S.",
+    "short_name": "De Lage Landen leasing S.A.S."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CITIFRPP",
+    "bank_code": "11689",
+    "name": "CITIBANK EUROPE PUBLIC LIMITED COMPANY",
+    "short_name": "CITIBANK EUROPE PUBLIC LIMITED COMPANY"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP817",
+    "bank_code": "11706",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Charente-Maritime Deux-S\u00e8vres",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Charente-Maritime Deux-S\u00e8vres"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "11728",
+    "name": "MMB SCF",
+    "short_name": "MMB SCF"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ILIAFRP1",
+    "bank_code": "11758",
+    "name": "ILIAD 78",
+    "short_name": "ILIAD 78"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "11783",
+    "name": "WISEED",
+    "short_name": "WISEED"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRPA",
+    "bank_code": "11808",
+    "name": "Banque f\u00e9d\u00e9rative du cr\u00e9dit mutuel",
+    "short_name": "Banque f\u00e9d\u00e9rative du cr\u00e9dit mutuel"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "11830",
+    "name": "Inter-Coop ( 2\u00e8me du nom)",
+    "short_name": "Inter-Coop ( 2\u00e8me du nom)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ICBKFRPP",
+    "bank_code": "11833",
+    "name": "Industrial and commercial bank of China (Europe) SA - ICBC (Europe) SA",
+    "short_name": "Industrial and commercial bank of China (Europe) SA - ICBC (Europe) SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRP1BEC",
+    "bank_code": "11899",
+    "name": "Banque Europ\u00e9enne du Cr\u00e9dit Mutuel",
+    "short_name": "Banque Europ\u00e9enne du Cr\u00e9dit Mutuel"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGFCFR21",
+    "bank_code": "11938",
+    "name": "AGCO FINANCE",
+    "short_name": "AGCO FINANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRP1FAC",
+    "bank_code": "11978",
+    "name": "Cr\u00e9dit Mutuel Factoring",
+    "short_name": "Cr\u00e9dit Mutuel Factoring"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "11983",
+    "name": "MARIGNY CAPITAL",
+    "short_name": "MARIGNY CAPITAL"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "POUYFR21",
+    "bank_code": "11989",
+    "name": "Banque Pouyanne",
+    "short_name": "Banque Pouyanne"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "11998",
+    "name": "Unicredit Bank GmbH",
+    "short_name": "Unicredit Bank GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP820",
+    "bank_code": "12006",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de la Corse",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de la Corse"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "12008",
+    "name": "Sofiscop",
+    "short_name": "Sofiscop"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMOIFR21",
+    "bank_code": "12050",
+    "name": "Cr\u00e9dit moderne Oc\u00e9an Indien",
+    "short_name": "Cr\u00e9dit moderne Oc\u00e9an Indien"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CPTRFR21",
+    "bank_code": "12083",
+    "name": "COPARTIS",
+    "short_name": "COPARTIS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SOPMFRP1",
+    "bank_code": "12128",
+    "name": "Soci\u00e9t\u00e9 centrale pour le financement de l'immobilier - Socfim",
+    "short_name": "Soci\u00e9t\u00e9 centrale pour le financement de l'immobilier - Socfim"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP213",
+    "bank_code": "12135",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance de Bourgogne Franche-Comt\u00e9",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance de Bourgogne Franche-Comt\u00e9"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CAFFFR21",
+    "bank_code": "12138",
+    "name": "Caterpillar finance France S.A.",
+    "short_name": "Caterpillar finance France S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SGOEFRPP",
+    "bank_code": "12148",
+    "name": "SG option Europe",
+    "short_name": "SG option Europe"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BPOLPFTP",
+    "bank_code": "12149",
+    "name": "Banque de Polyn\u00e9sie",
+    "short_name": "Banque de Polyn\u00e9sie"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BIARFRPP",
+    "bank_code": "12179",
+    "name": "Banque BIA",
+    "short_name": "Banque BIA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP822",
+    "bank_code": "12206",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel des C\u00f4tes-d'Armor",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel des C\u00f4tes-d'Armor"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAPFTP",
+    "bank_code": "12239",
+    "name": "Banque de Tahiti \"B.D.T.\"",
+    "short_name": "Banque de Tahiti \"B.D.T.\""
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGFBFRCC",
+    "bank_code": "12240",
+    "name": "Allianz banque",
+    "short_name": "Allianz banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "12249",
+    "name": "BANK OF AFRICA UNITED KINGDOM PLC (succursale de Paris)",
+    "short_name": "BANK OF AFRICA UNITED KINGDOM PLC (succursale de Paris)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SORMFR2N",
+    "bank_code": "12280",
+    "name": "Socram banque",
+    "short_name": "Socram banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CHMPFR21",
+    "bank_code": "12383",
+    "name": "CHAMPEIL",
+    "short_name": "CHAMPEIL"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP824",
+    "bank_code": "12406",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Charente-P\u00e9rigord (Cr\u00e9dit agricole  Charente-P\u00e9rigord)",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Charente-P\u00e9rigord (Cr\u00e9dit agricole  Charente-P\u00e9rigord)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCMSFR21",
+    "bank_code": "12420",
+    "name": "Caisse de cr\u00e9dit municipal de Reims",
+    "short_name": "Caisse de cr\u00e9dit municipal de Reims"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SSFAFRP1",
+    "bank_code": "12438",
+    "name": "SOFIAP (Soci\u00e9t\u00e9 financi\u00e8re pour l'accession \u00e0 la propri\u00e9t\u00e9)",
+    "short_name": "SOFIAP (Soci\u00e9t\u00e9 financi\u00e8re pour l'accession \u00e0 la propri\u00e9t\u00e9)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BCGEFR21",
+    "bank_code": "12468",
+    "name": "Banque cantonale de Gen\u00e8ve (France) S.A.",
+    "short_name": "Banque cantonale de Gen\u00e8ve (France) S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FPLRFR21",
+    "bank_code": "12478",
+    "name": "FCE bank plc",
+    "short_name": "FCE bank plc"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP825",
+    "bank_code": "12506",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de Franche-Comt\u00e9",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de Franche-Comt\u00e9"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "12533",
+    "name": "DWS International GmbH",
+    "short_name": "DWS International GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AXABFRPP",
+    "bank_code": "12548",
+    "name": "Axa banque",
+    "short_name": "Axa banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "12558",
+    "name": "VFS Finance France",
+    "short_name": "VFS Finance France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BPSMFRPP",
+    "bank_code": "12579",
+    "name": "Banque BCP",
+    "short_name": "Banque BCP"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BOFAFRP3",
+    "bank_code": "12583",
+    "name": "BofA Securities Europe SA",
+    "short_name": "BofA Securities Europe SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CGDIFRPP",
+    "bank_code": "12619",
+    "name": "Caixa geral de depositos S.A.",
+    "short_name": "Caixa geral de depositos S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "12658",
+    "name": "Euler Hermes Cr\u00e9dit France",
+    "short_name": "Euler Hermes Cr\u00e9dit France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "WFSEFRPP",
+    "bank_code": "12683",
+    "name": "WELLS FARGO SECURITIES EUROPE",
+    "short_name": "WELLS FARGO SECURITIES EUROPE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BINEFRP2",
+    "bank_code": "12688",
+    "name": "BEA INTERNATIONAL BANK S.A.",
+    "short_name": "BEA INTERNATIONAL BANK S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NABIFRP1",
+    "bank_code": "12749",
+    "name": "BPCE Bail",
+    "short_name": "BPCE Bail"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BROLFRP1",
+    "bank_code": "12779",
+    "name": "BRED Cofilease",
+    "short_name": "BRED Cofilease"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "12783",
+    "name": "GRIFFIN MARKETS EUROPE",
+    "short_name": "GRIFFIN MARKETS EUROPE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "IFCIFRP1",
+    "bank_code": "12818",
+    "name": "Institut pour le financement du cin\u00e9ma et des industries culturelles - I.F.C.I.C.",
+    "short_name": "Institut pour le financement du cin\u00e9ma et des industries culturelles - I.F.C.I.C."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BACCFR22",
+    "bank_code": "12869",
+    "name": "ONEY BANK",
+    "short_name": "ONEY BANK"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "DELUFR22",
+    "bank_code": "12879",
+    "name": "Banque Delubac et Cie",
+    "short_name": "Banque Delubac et Cie"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP829",
+    "bank_code": "12906",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel du Finist\u00e8re",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel du Finist\u00e8re"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CAIXFRPP",
+    "bank_code": "12933",
+    "name": "Caixabank",
+    "short_name": "Caixabank"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SOBOFR21",
+    "bank_code": "12938",
+    "name": "Sud-ouest bail",
+    "short_name": "Sud-ouest bail"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "12978",
+    "name": "JCB Finance",
+    "short_name": "JCB Finance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BAYLFR21",
+    "bank_code": "13018",
+    "name": "Batiroc Bretagne - Pays de Loire",
+    "short_name": "Batiroc Bretagne - Pays de Loire"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SGFTFRP1",
+    "bank_code": "13028",
+    "name": "Soci\u00e9t\u00e9 de gestion des fonds de garantie d'outre-mer (Sogefom)",
+    "short_name": "Soci\u00e9t\u00e9 de gestion des fonds de garantie d'outre-mer (Sogefom)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "13048",
+    "name": "VISTA BANK France",
+    "short_name": "VISTA BANK France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRP1BAE",
+    "bank_code": "13070",
+    "name": "Cr\u00e9dit Mutuel Leasing",
+    "short_name": "Cr\u00e9dit Mutuel Leasing"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ICEOFRP1",
+    "bank_code": "13083",
+    "name": "TP ICAP (EUROPE)",
+    "short_name": "TP ICAP (EUROPE)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BNPAMQMX",
+    "bank_code": "13088",
+    "name": "BNP PARIBAS ANTILLES-GUYANE",
+    "short_name": "BNP PARIBAS ANTILLES-GUYANE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP831",
+    "bank_code": "13106",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Toulouse 31",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Toulouse 31"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "COAIFRP1",
+    "bank_code": "13128",
+    "name": "Cofica bail",
+    "short_name": "Cofica bail"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP313",
+    "bank_code": "13135",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance de Midi-Pyr\u00e9n\u00e9es",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance de Midi-Pyr\u00e9n\u00e9es"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "EDELFRP1",
+    "bank_code": "13149",
+    "name": "Banque Edel SA",
+    "short_name": "Banque Edel SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "LIXBFRP1",
+    "bank_code": "13150",
+    "name": "LixxBail",
+    "short_name": "LixxBail"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FAGFFRP1",
+    "bank_code": "13158",
+    "name": "France active garantie FAG S.A.",
+    "short_name": "France active garantie FAG S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "13183",
+    "name": "Rothschild & Co Global Markets Solutions (Europe) SA",
+    "short_name": "Rothschild & Co Global Markets Solutions (Europe) SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PORZFR21",
+    "bank_code": "13188",
+    "name": "PORTZAMPARC",
+    "short_name": "PORTZAMPARC"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SCREFRP1",
+    "bank_code": "13220",
+    "name": "Soci\u00e9t\u00e9 coop\u00e9rative pour la r\u00e9novation et l'\u00e9quipement du commerce - Socorec",
+    "short_name": "Soci\u00e9t\u00e9 coop\u00e9rative pour la r\u00e9novation et l'\u00e9quipement du commerce - Socorec"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "13233",
+    "name": "Leonteq Securities (Europe) GmbH",
+    "short_name": "Leonteq Securities (Europe) GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MRAAFRP1",
+    "bank_code": "13283",
+    "name": "XTX Markets SAS",
+    "short_name": "XTX Markets SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP833",
+    "bank_code": "13306",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel d'Aquitaine",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel d'Aquitaine"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP333",
+    "bank_code": "13335",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Aquitaine Poitou-Charentes",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Aquitaine Poitou-Charentes"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BMMMFR2A",
+    "bank_code": "13369",
+    "name": "ROTHSCHILD & CO MARTIN MAUREL",
+    "short_name": "ROTHSCHILD & CO MARTIN MAUREL"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "13383",
+    "name": "AQUIS EXCHANGE EUROPE",
+    "short_name": "AQUIS EXCHANGE EUROPE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "EUCUFRP1",
+    "bank_code": "13408",
+    "name": "Europ\u00e9enne de cautionnement S.A.",
+    "short_name": "Europ\u00e9enne de cautionnement S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "13438",
+    "name": "SOCAMA AUVERGNE RH\u00d4NE ALPES",
+    "short_name": "SOCAMA AUVERGNE RH\u00d4NE ALPES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GDSTFR21",
+    "bank_code": "13473",
+    "name": "ENGIE Global Markets",
+    "short_name": "ENGIE Global Markets"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "13478",
+    "name": "SOCIETE DE CAUTION MUTUELLE IMMOBILIERE PROVENCE CORSE",
+    "short_name": "SOCIETE DE CAUTION MUTUELLE IMMOBILIERE PROVENCE CORSE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MAUFFRP2",
+    "bank_code": "13483",
+    "name": "MARKET SECURITIES (FRANCE) SA",
+    "short_name": "MARKET SECURITIES (FRANCE) SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP348",
+    "bank_code": "13485",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance du Languedoc Roussillon",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance du Languedoc Roussillon"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP835",
+    "bank_code": "13506",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel du Languedoc",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel du Languedoc"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCBPFRPPLIL",
+    "bank_code": "13507",
+    "name": "Banque populaire du Nord",
+    "short_name": "Banque populaire du Nord"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "13528",
+    "name": "Unicredit SpA",
+    "short_name": "Unicredit SpA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FNIFFR21",
+    "bank_code": "13538",
+    "name": "Finifac",
+    "short_name": "Finifac"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FMSHFRP1",
+    "bank_code": "13540",
+    "name": "Financi\u00e8re du March\u00e9 Saint-Honor\u00e9",
+    "short_name": "Financi\u00e8re du March\u00e9 Saint-Honor\u00e9"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "13558",
+    "name": "Auxifip",
+    "short_name": "Auxifip"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BSAOFR21",
+    "bank_code": "13579",
+    "name": "Banque Saint-Olive",
+    "short_name": "Banque Saint-Olive"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FACFFRPP",
+    "bank_code": "13580",
+    "name": "FACTOFRANCE",
+    "short_name": "FACTOFRANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP836",
+    "bank_code": "13606",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel d'Ille-et-Vilaine",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel d'Ille-et-Vilaine"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "IFFIFR21",
+    "bank_code": "13678",
+    "name": "ABN AMRO Asset Based Finance N.V.",
+    "short_name": "ABN AMRO Asset Based Finance N.V."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ESFTFR21",
+    "bank_code": "13698",
+    "name": "Ester finance technologies",
+    "short_name": "Ester finance technologies"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "COIPFRP1",
+    "bank_code": "13728",
+    "name": "Cofiplan S.A.",
+    "short_name": "Cofiplan S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BNYMFRPP",
+    "bank_code": "13733",
+    "name": "The bank of New York Mellon SA/NV",
+    "short_name": "The bank of New York Mellon SA/NV"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SGDCFRP1",
+    "bank_code": "13769",
+    "name": "Soci\u00e9t\u00e9 g\u00e9n\u00e9rale pour le d\u00e9veloppement des op\u00e9rations de cr\u00e9dit-bail immobilier- Sogebail",
+    "short_name": "Soci\u00e9t\u00e9 g\u00e9n\u00e9rale pour le d\u00e9veloppement des op\u00e9rations de cr\u00e9dit-bail immobilier- Sogebail"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "INUUFRP1",
+    "bank_code": "13773",
+    "name": "Invest securities",
+    "short_name": "Invest securities"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "13783",
+    "name": "Perella Weinberg Partners France",
+    "short_name": "Perella Weinberg Partners France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCBPFRPPNAN",
+    "bank_code": "13807",
+    "name": "Banque populaire Grand Ouest",
+    "short_name": "Banque populaire Grand Ouest"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "13808",
+    "name": "Societe de Caution Mutuelle Artisanale de la BRED Banque Populaire",
+    "short_name": "Societe de Caution Mutuelle Artisanale de la BRED Banque Populaire"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "13818",
+    "name": "Soci\u00e9t\u00e9 de caution mutuelle artisanale rives de Paris",
+    "short_name": "Soci\u00e9t\u00e9 de caution mutuelle artisanale rives de Paris"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP382",
+    "bank_code": "13825",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance de Rh\u00f4ne Alpes",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance de Rh\u00f4ne Alpes"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CNCUFRP1",
+    "bank_code": "13838",
+    "name": "CNH Industrial Capital Europe",
+    "short_name": "CNH Industrial Capital Europe"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "LOFIFRP1",
+    "bank_code": "13858",
+    "name": "Loisirs finance",
+    "short_name": "Loisirs finance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "TKGTFR21",
+    "bank_code": "13878",
+    "name": "Toyota Kreditbank GmbH - Toyota France financement",
+    "short_name": "Toyota Kreditbank GmbH - Toyota France financement"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "13883",
+    "name": "RUFFER",
+    "short_name": "RUFFER"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ELFAFRP1",
+    "bank_code": "13888",
+    "name": "HSBC Factoring (France)",
+    "short_name": "HSBC Factoring (France)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP839",
+    "bank_code": "13906",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Sud Rh\u00f4ne-Alpes",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Sud Rh\u00f4ne-Alpes"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MSPAFRP2",
+    "bank_code": "13983",
+    "name": "MAKOR SECURITIES PARIS SAS",
+    "short_name": "MAKOR SECURITIES PARIS SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "13998",
+    "name": "Same Deutz-Fahr finance",
+    "short_name": "Same Deutz-Fahr finance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIGPGX",
+    "bank_code": "14006",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de la Guadeloupe",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de la Guadeloupe"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "14008",
+    "name": "Fimipar",
+    "short_name": "Fimipar"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AUOOFR21",
+    "bank_code": "14020",
+    "name": "DRIVALIA LEASE FRANCE",
+    "short_name": "DRIVALIA LEASE FRANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GOLDFRPP",
+    "bank_code": "14040",
+    "name": "Goldman Sachs Paris Inc et Cie",
+    "short_name": "Goldman Sachs Paris Inc et Cie"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCMEFR21",
+    "bank_code": "14078",
+    "name": "Caisse de cr\u00e9dit municipal de Lille",
+    "short_name": "Caisse de cr\u00e9dit municipal de Lille"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "OBRIFRP2",
+    "bank_code": "14083",
+    "name": "R.J.O' BRIEN FRANCE",
+    "short_name": "R.J.O' BRIEN FRANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "JODCFR21",
+    "bank_code": "14108",
+    "name": "John Deere financial",
+    "short_name": "John Deere financial"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "LEGRFRP1",
+    "bank_code": "14120",
+    "name": "GRESHAM Banque",
+    "short_name": "GRESHAM Banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEFNNCN1",
+    "bank_code": "14158",
+    "name": "OFFICE DES POSTES ET TELECOMMUNICATIONS DE NOUVELLE-CALEDONIE",
+    "short_name": "OFFICE DES POSTES ET TELECOMMUNICATIONS DE NOUVELLE-CALEDONIE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "OFTPPFT1",
+    "bank_code": "14168",
+    "name": "MARARA Paiement",
+    "short_name": "MARARA Paiement"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "RJEEFRP1",
+    "bank_code": "14173",
+    "name": "RAYMOND JAMES France SAS",
+    "short_name": "RAYMOND JAMES France SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SQGLFRP2",
+    "bank_code": "14183",
+    "name": "SQUARE GLOBAL",
+    "short_name": "SQUARE GLOBAL"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "14198",
+    "name": "Sogelease France",
+    "short_name": "Sogelease France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "14218",
+    "name": "Claas financial services",
+    "short_name": "Claas financial services"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SGFIFR21",
+    "bank_code": "14228",
+    "name": "SGB Finance",
+    "short_name": "SGB Finance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NOUCNCN1",
+    "bank_code": "14238",
+    "name": "Noum\u00e9a cr\u00e9dit",
+    "short_name": "Noum\u00e9a cr\u00e9dit"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP426",
+    "bank_code": "14265",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Loire Dr\u00f4me Ard\u00e8che",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Loire Dr\u00f4me Ard\u00e8che"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "14283",
+    "name": "JB Drax Honor\u00e9 (France) SAS",
+    "short_name": "JB Drax Honor\u00e9 (France) SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BRGEFRPP",
+    "bank_code": "14318",
+    "name": "BRED Gestion",
+    "short_name": "BRED Gestion"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SEGFFRP1",
+    "bank_code": "14328",
+    "name": "Amundi finance",
+    "short_name": "Amundi finance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "IZNEFRPP",
+    "bank_code": "14383",
+    "name": "IZNES SAS",
+    "short_name": "IZNES SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "DXMAFRPP",
+    "bank_code": "14388",
+    "name": "Caisse Fran\u00e7aise de Financement Local",
+    "short_name": "Caisse Fran\u00e7aise de Financement Local"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP844",
+    "bank_code": "14406",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Val de France",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Val de France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "HRELFRP1",
+    "bank_code": "14408",
+    "name": "HSBC Real Estate Leasing (France)",
+    "short_name": "HSBC Real Estate Leasing (France)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MSFRFRP1",
+    "bank_code": "14433",
+    "name": "Morgan stanley europe SE",
+    "short_name": "Morgan stanley europe SE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP444",
+    "bank_code": "14445",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Bretagne-Pays de Loire",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Bretagne-Pays de Loire"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "14483",
+    "name": "MARIANA UFP SAS",
+    "short_name": "MARIANA UFP SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP450",
+    "bank_code": "14505",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Loire-Centre",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Loire-Centre"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP845",
+    "bank_code": "14506",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Loire Haute-Loire",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Loire Haute-Loire"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FTNOFRP1",
+    "bank_code": "14518",
+    "name": "ARKEA DIRECT BANK",
+    "short_name": "ARKEA DIRECT BANK"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "14538",
+    "name": "Soci\u00e9t\u00e9 de caution mutuelle habitat rives de Paris",
+    "short_name": "Soci\u00e9t\u00e9 de caution mutuelle habitat rives de Paris"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "14583",
+    "name": "MITSUI BUSSAN COMMODITIES (France) SA",
+    "short_name": "MITSUI BUSSAN COMMODITIES (France) SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CONUFR21",
+    "bank_code": "14588",
+    "name": "FRANFINANCE La R\u00e9union",
+    "short_name": "FRANFINANCE La R\u00e9union"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCBPFRPPMAR",
+    "bank_code": "14607",
+    "name": "BANQUE POPULAIRE MEDITERRANEE",
+    "short_name": "BANQUE POPULAIRE MEDITERRANEE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GRCSFRP1",
+    "bank_code": "14628",
+    "name": "FLOA",
+    "short_name": "FLOA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "WUIGFRP1",
+    "bank_code": "14633",
+    "name": "Western union international bank GmbH",
+    "short_name": "Western union international bank GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CAAIFR21",
+    "bank_code": "14648",
+    "name": "Capitole Finance - Tofinso",
+    "short_name": "Capitole Finance - Tofinso"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CIERFRP1",
+    "bank_code": "14658",
+    "name": "CIF EUROMORTGAGE",
+    "short_name": "CIF EUROMORTGAGE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BMFCFR21",
+    "bank_code": "14670",
+    "name": "BMW Finance",
+    "short_name": "BMW Finance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "14683",
+    "name": "QUADRA CAPITAL PARTNERS FRANCE",
+    "short_name": "QUADRA CAPITAL PARTNERS FRANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "STLEFRP1",
+    "bank_code": "14688",
+    "name": "Star Lease",
+    "short_name": "Star Lease"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRP1MON",
+    "bank_code": "14690",
+    "name": "Monabanq.",
+    "short_name": "Monabanq."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP847",
+    "bank_code": "14706",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Atlantique Vend\u00e9e",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Atlantique Vend\u00e9e"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCBPFRPPMTZ",
+    "bank_code": "14707",
+    "name": "Banque populaire Alsace Lorraine Champagne",
+    "short_name": "Banque populaire Alsace Lorraine Champagne"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "14733",
+    "name": "SEB Kort Bank AB",
+    "short_name": "SEB Kort Bank AB"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "WHAWFR21",
+    "bank_code": "14738",
+    "name": "W-HA",
+    "short_name": "W-HA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SFBSFRP1",
+    "bank_code": "14749",
+    "name": "BANQUE STELLANTIS FRANCE",
+    "short_name": "BANQUE STELLANTIS FRANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CRLLFRP1",
+    "bank_code": "14758",
+    "name": "Amundi ESR",
+    "short_name": "Amundi ESR"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CADFFRP1",
+    "bank_code": "14768",
+    "name": "BPCE FINANCEMENT",
+    "short_name": "BPCE FINANCEMENT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP848",
+    "bank_code": "14806",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Centre Loire",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Centre Loire"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FPSSNCN1",
+    "bank_code": "14848",
+    "name": "SOCALFI",
+    "short_name": "SOCALFI"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "14879",
+    "name": "Bank of India",
+    "short_name": "Bank of India"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "14883",
+    "name": "CEDRUS PARTNERS",
+    "short_name": "CEDRUS PARTNERS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FNNOFRP1",
+    "bank_code": "14888",
+    "name": "BPCE International et Outremer (BPCE IOM)",
+    "short_name": "BPCE International et Outremer (BPCE IOM)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPANCNM",
+    "bank_code": "14889",
+    "name": "Banque de Nouvelle Cal\u00e9donie",
+    "short_name": "Banque de Nouvelle Cal\u00e9donie"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CFFIFR21",
+    "bank_code": "14940",
+    "name": "Cofidis",
+    "short_name": "Cofidis"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "INRPFRP1",
+    "bank_code": "14948",
+    "name": "Natixis inter\u00e9pargne",
+    "short_name": "Natixis inter\u00e9pargne"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SFSSFR21",
+    "bank_code": "14958",
+    "name": "Siemens financial services",
+    "short_name": "Siemens financial services"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "KOEXFRPP",
+    "bank_code": "14989",
+    "name": "KEB Hana Bank",
+    "short_name": "KEB Hana Bank"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "DOMFFRP1",
+    "bank_code": "14998",
+    "name": "Domofinance",
+    "short_name": "Domofinance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PICTFRPP",
+    "bank_code": "15068",
+    "name": "Bank Pictet & Cie (Europe) AG",
+    "short_name": "Bank Pictet & Cie (Europe) AG"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15078",
+    "name": "MGF",
+    "short_name": "MGF"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15083",
+    "name": "INTER COURTAGE",
+    "short_name": "INTER COURTAGE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "VOWAFR21",
+    "bank_code": "15128",
+    "name": "Volkswagen Bank GmbH",
+    "short_name": "Volkswagen Bank GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP513",
+    "bank_code": "15135",
+    "name": "CAISSE D'EPARGNE ET DE PREVOYANCE GRAND EST EUROPE",
+    "short_name": "CAISSE D'EPARGNE ET DE PREVOYANCE GRAND EST EUROPE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "OCFOPFT1",
+    "bank_code": "15138",
+    "name": "Oc\u00e9anienne de financement (OFINA)",
+    "short_name": "Oc\u00e9anienne de financement (OFINA)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15148",
+    "name": "Mediobanca - Banca di credito finanziario S.p.A.",
+    "short_name": "Mediobanca - Banca di credito finanziario S.p.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CFCLFR21",
+    "bank_code": "15149",
+    "name": "Cr\u00e9dit foncier et communal d'Alsace et de Lorraine-Banque",
+    "short_name": "Cr\u00e9dit foncier et communal d'Alsace et de Lorraine-Banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FIMHFRP1",
+    "bank_code": "15160",
+    "name": "Financi\u00e8re Meeschaert",
+    "short_name": "Financi\u00e8re Meeschaert"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCTEFRP1",
+    "bank_code": "15173",
+    "name": "UPTEVIA",
+    "short_name": "UPTEVIA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SOGDPFT1",
+    "bank_code": "15178",
+    "name": "Sogelease BDP",
+    "short_name": "Sogelease BDP"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15183",
+    "name": "CAMPBELL LUTYENS SA",
+    "short_name": "CAMPBELL LUTYENS SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CRMPFRP1",
+    "bank_code": "15208",
+    "name": "Cr\u00e9dit municipal de Paris",
+    "short_name": "Cr\u00e9dit municipal de Paris"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BIFAFR21",
+    "bank_code": "15218",
+    "name": "Bibby factor France",
+    "short_name": "Bibby factor France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SMBCFRPP",
+    "bank_code": "15250",
+    "name": "SMBC Bank EU AG",
+    "short_name": "SMBC Bank EU AG"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GOIRFRP1",
+    "bank_code": "15258",
+    "name": "The Governor and company of the bank of Ireland (Bank of Ireland)",
+    "short_name": "The Governor and company of the bank of Ireland (Bank of Ireland)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GRERFRP1",
+    "bank_code": "15273",
+    "name": "Groupama \u00e9pargne salariale",
+    "short_name": "Groupama \u00e9pargne salariale"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15283",
+    "name": "Macquarie Capital France",
+    "short_name": "Macquarie Capital France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15333",
+    "name": "Toyota material handling commercial finance AB",
+    "short_name": "Toyota material handling commercial finance AB"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "COANFRP1",
+    "bank_code": "15380",
+    "name": "Conservateur finance",
+    "short_name": "Conservateur finance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15408",
+    "name": "BNP Paribas dealing services",
+    "short_name": "BNP Paribas dealing services"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "KBIAFRP1",
+    "bank_code": "15428",
+    "name": "KBC bail immobilier France SAS",
+    "short_name": "KBC bail immobilier France SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CNFSFR21",
+    "bank_code": "15448",
+    "name": "IC Financial services",
+    "short_name": "IC Financial services"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CBCRFR21",
+    "bank_code": "15449",
+    "name": "Caisse de Bretagne de cr\u00e9dit mutuel agricole",
+    "short_name": "Caisse de Bretagne de cr\u00e9dit mutuel agricole"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15458",
+    "name": "Joh. Berenberg, Gossler & Co. KG",
+    "short_name": "Joh. Berenberg, Gossler & Co. KG"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFR2A",
+    "bank_code": "15489",
+    "name": "Caisse f\u00e9d\u00e9rale du cr\u00e9dit mutuel de Maine-Anjou et Basse-Normandie",
+    "short_name": "Caisse f\u00e9d\u00e9rale du cr\u00e9dit mutuel de Maine-Anjou et Basse-Normandie"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFR2A",
+    "bank_code": "15519",
+    "name": "Caisse f\u00e9d\u00e9rale du cr\u00e9dit mutuel Oc\u00e9an",
+    "short_name": "Caisse f\u00e9d\u00e9rale du cr\u00e9dit mutuel Oc\u00e9an"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PRROFR21",
+    "bank_code": "15548",
+    "name": "Prioris",
+    "short_name": "Prioris"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AXEEFRP1",
+    "bank_code": "15573",
+    "name": "Axa \u00e9pargne entreprise",
+    "short_name": "Axa \u00e9pargne entreprise"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMBRFR2B",
+    "bank_code": "15589",
+    "name": "Cr\u00e9dit mutuel Ark\u00e9a",
+    "short_name": "Cr\u00e9dit mutuel Ark\u00e9a"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "DLFSFR21",
+    "bank_code": "15648",
+    "name": "Deutsche leasing France",
+    "short_name": "Deutsche leasing France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BPCDFRP1",
+    "bank_code": "15668",
+    "name": "BNP Paribas home loan SFH",
+    "short_name": "BNP Paribas home loan SFH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP907",
+    "bank_code": "15673",
+    "name": "Cr\u00e9dit agricole titres",
+    "short_name": "Cr\u00e9dit agricole titres"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15683",
+    "name": "Stifel Europe Securities",
+    "short_name": "Stifel Europe Securities"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15708",
+    "name": "Ria France",
+    "short_name": "Ria France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SEFAFR21",
+    "bank_code": "15728",
+    "name": "Hyundai Capital France",
+    "short_name": "Hyundai Capital France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15783",
+    "name": "Valeur Europe SAS",
+    "short_name": "Valeur Europe SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BIKCFRP1",
+    "bank_code": "15818",
+    "name": "Saxo Bank A/S",
+    "short_name": "Saxo Bank A/S"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRP1COV",
+    "bank_code": "15848",
+    "name": "Cr\u00e9dit Mutuel Home Loan SFH",
+    "short_name": "Cr\u00e9dit Mutuel Home Loan SFH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FORGFRPP",
+    "bank_code": "15883",
+    "name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale - Forge",
+    "short_name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale - Forge"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CAODFRP1",
+    "bank_code": "15898",
+    "name": "Cr\u00e9dit Agricole home loan SFH",
+    "short_name": "Cr\u00e9dit Agricole home loan SFH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FEFIFR21",
+    "bank_code": "15900",
+    "name": "FEDERAL FINANCE",
+    "short_name": "FEDERAL FINANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NATXFRPPPAI",
+    "bank_code": "15930",
+    "name": "BPCE Payment Services",
+    "short_name": "BPCE Payment Services"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MAFIFRP1",
+    "bank_code": "15960",
+    "name": "MACSF Financement",
+    "short_name": "MACSF Financement"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GSCFFR22",
+    "bank_code": "15968",
+    "name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale SCF",
+    "short_name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale SCF"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BATLFR21",
+    "bank_code": "15970",
+    "name": "Bail-Actea",
+    "short_name": "Bail-Actea"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "HICXFR21",
+    "bank_code": "15978",
+    "name": "HIGH CONNEXION",
+    "short_name": "HIGH CONNEXION"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15980",
+    "name": "Ark\u00e9a cr\u00e9dit bail",
+    "short_name": "Ark\u00e9a cr\u00e9dit bail"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "15988",
+    "name": "Cafineo",
+    "short_name": "Cafineo"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "DIACFR21",
+    "bank_code": "16000",
+    "name": "Diac",
+    "short_name": "Diac"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP860",
+    "bank_code": "16006",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel du Morbihan",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel du Morbihan"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BATMFRP1",
+    "bank_code": "16020",
+    "name": "Batimap",
+    "short_name": "Batimap"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "IBFFFR21",
+    "bank_code": "16030",
+    "name": "IBM France financement",
+    "short_name": "IBM France financement"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ECOCFRPP",
+    "bank_code": "16048",
+    "name": "Ebi SA",
+    "short_name": "Ebi SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BAOIFR21",
+    "bank_code": "16050",
+    "name": "Bati Lease",
+    "short_name": "Bati Lease"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16058",
+    "name": "CCF SFH",
+    "short_name": "CCF SFH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16068",
+    "name": "Landesbank Hessen-Th\u00fcringen Girozentrale (Helaba)",
+    "short_name": "Landesbank Hessen-Th\u00fcringen Girozentrale (Helaba)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRP1EPS",
+    "bank_code": "16073",
+    "name": "Cr\u00e9dit Mutuel Epargne Salariale",
+    "short_name": "Cr\u00e9dit Mutuel Epargne Salariale"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CTFAFRP2",
+    "bank_code": "16083",
+    "name": "Citadel France SAS",
+    "short_name": "Citadel France SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16088",
+    "name": "Ark\u00e9a Home Loans SFH",
+    "short_name": "Ark\u00e9a Home Loans SFH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP861",
+    "bank_code": "16106",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de Lorraine",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de Lorraine"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SIRCFR21",
+    "bank_code": "16130",
+    "name": "S.I.R.C.A.M.",
+    "short_name": "S.I.R.C.A.M."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BMEUFRP1",
+    "bank_code": "16133",
+    "name": "BOA Euroservices, S.A.",
+    "short_name": "BOA Euroservices, S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16138",
+    "name": "ADIE- l'Association pour le Droit \u00e0 l'Initiative Economique",
+    "short_name": "ADIE- l'Association pour le Droit \u00e0 l'Initiative Economique"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BGFIFRPP",
+    "bank_code": "16158",
+    "name": "BGFIBANK EUROPE",
+    "short_name": "BGFIBANK EUROPE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AACBFR21",
+    "bank_code": "16160",
+    "name": "Alsabail - Alsacienne de cr\u00e9dit bail immobilier",
+    "short_name": "Alsabail - Alsacienne de cr\u00e9dit bail immobilier"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AFRIFRPP",
+    "bank_code": "16168",
+    "name": "BOA France",
+    "short_name": "BOA France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMUBFR21",
+    "bank_code": "16170",
+    "name": "Caisse de cr\u00e9dit municipal de Boulogne-sur-Mer",
+    "short_name": "Caisse de cr\u00e9dit municipal de Boulogne-sur-Mer"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16178",
+    "name": "LA BANQUE POSTALE CONSUMER FINANCE",
+    "short_name": "LA BANQUE POSTALE CONSUMER FINANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BPCEFRPP",
+    "bank_code": "16188",
+    "name": "BPCE",
+    "short_name": "BPCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FRUTFRP1",
+    "bank_code": "16190",
+    "name": "BPCE lease immo",
+    "short_name": "BPCE lease immo"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCUIFR21",
+    "bank_code": "16200",
+    "name": "Caisse de cr\u00e9dit municipal de Nice",
+    "short_name": "Caisse de cr\u00e9dit municipal de Nice"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16208",
+    "name": "GE SCF",
+    "short_name": "GE SCF"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BFBKFRP1",
+    "bank_code": "16218",
+    "name": "Bforbank",
+    "short_name": "Bforbank"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GSFHFRPP",
+    "bank_code": "16228",
+    "name": "Soci\u00e9t\u00e9 g\u00e9n\u00e9rale SFH",
+    "short_name": "Soci\u00e9t\u00e9 g\u00e9n\u00e9rale SFH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16270",
+    "name": "Comptoir financier de garantie - CFG",
+    "short_name": "Comptoir financier de garantie - CFG"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP627",
+    "bank_code": "16275",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Hauts de France",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Hauts de France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NAMIFRP1",
+    "bank_code": "16278",
+    "name": "Natixis TradEx Solutions",
+    "short_name": "Natixis TradEx Solutions"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16283",
+    "name": "AYDO",
+    "short_name": "AYDO"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16298",
+    "name": "Ark\u00e9a banking services",
+    "short_name": "Ark\u00e9a banking services"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16318",
+    "name": "CRELAN HOME LOAN SCF",
+    "short_name": "CRELAN HOME LOAN SCF"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16328",
+    "name": "BNC SA",
+    "short_name": "BNC SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AFOPFR21",
+    "bank_code": "16338",
+    "name": "NOELSE PAY",
+    "short_name": "NOELSE PAY"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SLMPFRP1",
+    "bank_code": "16348",
+    "name": "Slimpay",
+    "short_name": "Slimpay"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16358",
+    "name": "Ark\u00e9a public sector SCF",
+    "short_name": "Ark\u00e9a public sector SCF"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "DALPFR21",
+    "bank_code": "16378",
+    "name": "PAYPLUG ENTERPRISE",
+    "short_name": "PAYPLUG ENTERPRISE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FSEUFRP2",
+    "bank_code": "16383",
+    "name": "Forte Securities Europe",
+    "short_name": "Forte Securities Europe"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PAOTFRP1",
+    "bank_code": "16408",
+    "name": "Paytop",
+    "short_name": "Paytop"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "TFRSFRP1",
+    "bank_code": "16418",
+    "name": "NGPES Payments",
+    "short_name": "NGPES Payments"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16433",
+    "name": "JPMorgan Chase bank, National Association",
+    "short_name": "JPMorgan Chase bank, National Association"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BPCEFRPPSFH",
+    "bank_code": "16438",
+    "name": "BPCE SFH",
+    "short_name": "BPCE SFH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16458",
+    "name": "HiPay",
+    "short_name": "HiPay"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRP1PSS",
+    "bank_code": "16468",
+    "name": "Cr\u00e9dit Agricole Public Sector SCF",
+    "short_name": "Cr\u00e9dit Agricole Public Sector SCF"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "REGRFRP1",
+    "bank_code": "16473",
+    "name": "RegardBTP",
+    "short_name": "RegardBTP"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CRNPFRP1",
+    "bank_code": "16478",
+    "name": "La Banque Postale Leasing & Factoring",
+    "short_name": "La Banque Postale Leasing & Factoring"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCFUFRP2",
+    "bank_code": "16483",
+    "name": "COHEN & COMPANY FINANCIAL (EUROPE) S.A",
+    "short_name": "COHEN & COMPANY FINANCIAL (EUROPE) S.A"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "YSEPESB2",
+    "bank_code": "16488",
+    "name": "YOUNITED",
+    "short_name": "YOUNITED"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "COLQFR21",
+    "bank_code": "16498",
+    "name": "Compagnie de l'Arc Atlantique",
+    "short_name": "Compagnie de l'Arc Atlantique"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FDFRFR22",
+    "bank_code": "16518",
+    "name": "CONCENTRIX PAYMENT SERVICES FRANCE SAS",
+    "short_name": "CONCENTRIX PAYMENT SERVICES FRANCE SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SMOEFRP1",
+    "bank_code": "16528",
+    "name": "XPOLLENS",
+    "short_name": "XPOLLENS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCMOFR21",
+    "bank_code": "16560",
+    "name": "Caisse de cr\u00e9dit municipal de Bordeaux",
+    "short_name": "Caisse de cr\u00e9dit municipal de Bordeaux"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "LEWAFRPP",
+    "bank_code": "16568",
+    "name": "Lemonway",
+    "short_name": "Lemonway"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16578",
+    "name": "BDM France",
+    "short_name": "BDM France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SFILFRPP",
+    "bank_code": "16588",
+    "name": "SFIL S.A.",
+    "short_name": "SFIL S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FPELFR21",
+    "bank_code": "16598",
+    "name": "Financi\u00e8re des paiements \u00e9lectroniques",
+    "short_name": "Financi\u00e8re des paiements \u00e9lectroniques"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP866",
+    "bank_code": "16606",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de Normandie",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de Normandie"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCBPFRPPPPG",
+    "bank_code": "16607",
+    "name": "Banque populaire du Sud",
+    "short_name": "Banque populaire du Sud"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "HLBPFRPP",
+    "bank_code": "16608",
+    "name": "LA BANQUE POSTALE HOME LOAN SFH",
+    "short_name": "LA BANQUE POSTALE HOME LOAN SFH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "EIBCFRPP",
+    "bank_code": "16618",
+    "name": "The Export-Import Bank of China",
+    "short_name": "The Export-Import Bank of China"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "UEDPFR21",
+    "bank_code": "16638",
+    "name": "U ETABLISSEMENT DE PAIEMENT",
+    "short_name": "U ETABLISSEMENT DE PAIEMENT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ANZBFRPP",
+    "bank_code": "16668",
+    "name": "Australia and New Zealand banking group limited",
+    "short_name": "Australia and New Zealand banking group limited"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BFRFFRPP",
+    "bank_code": "16678",
+    "name": "Brink's Payment Services",
+    "short_name": "Brink's Payment Services"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CLRVFRP2",
+    "bank_code": "16683",
+    "name": "CLERVILLE",
+    "short_name": "CLERVILLE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGFOFR21",
+    "bank_code": "16688",
+    "name": "AGENCE FRANCE LOCALE",
+    "short_name": "AGENCE FRANCE LOCALE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CICAFRP1",
+    "bank_code": "16700",
+    "name": "Cicobail",
+    "short_name": "Cicobail"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP867",
+    "bank_code": "16706",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Nord de France",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Nord de France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CINPFRP1",
+    "bank_code": "16718",
+    "name": "Cr\u00e9dit Immobilier de France D\u00e9veloppement",
+    "short_name": "Cr\u00e9dit Immobilier de France D\u00e9veloppement"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BUMDFRP2",
+    "bank_code": "16748",
+    "name": "TRACTIAL",
+    "short_name": "TRACTIAL"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ITIEFRP1",
+    "bank_code": "16758",
+    "name": "ELVEST",
+    "short_name": "ELVEST"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FRANFR21",
+    "bank_code": "16760",
+    "name": "Franfinance",
+    "short_name": "Franfinance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "LOCYFRPP",
+    "bank_code": "16773",
+    "name": "Lombard Odier (Europe) S.A.",
+    "short_name": "Lombard Odier (Europe) S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SAOFFR21",
+    "bank_code": "16788",
+    "name": "Open Bank, S.A.",
+    "short_name": "Open Bank, S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "TRZOFR21",
+    "bank_code": "16798",
+    "name": "Treezor SAS",
+    "short_name": "Treezor SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP868",
+    "bank_code": "16806",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de Centre France - Cr\u00e9dit agricole  Centre France (3\u00e8me du nom)",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de Centre France - Cr\u00e9dit agricole  Centre France (3\u00e8me du nom)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCBPFRPPGRE",
+    "bank_code": "16807",
+    "name": "BANQUE POPULAIRE AUVERGNE RHONE ALPES",
+    "short_name": "BANQUE POPULAIRE AUVERGNE RHONE ALPES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GAILFRP1",
+    "bank_code": "16808",
+    "name": "EZYNESS",
+    "short_name": "EZYNESS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16818",
+    "name": "CREDIT MUTUEL CAUTION HABITAT",
+    "short_name": "CREDIT MUTUEL CAUTION HABITAT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AECFFR21",
+    "bank_code": "16820",
+    "name": "American Express carte France",
+    "short_name": "American Express carte France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "LYCOFR21",
+    "bank_code": "16828",
+    "name": "LYRA COLLECT",
+    "short_name": "LYRA COLLECT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FINFFR21",
+    "bank_code": "16839",
+    "name": "ARKEA FINANCEMENTS & SERVICES",
+    "short_name": "ARKEA FINANCEMENTS & SERVICES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRP1EFG",
+    "bank_code": "16850",
+    "name": "Cr\u00e9dit agricole leasing & factoring",
+    "short_name": "Cr\u00e9dit agricole leasing & factoring"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16898",
+    "name": "CORHOFI FINANCIAL SERVICES",
+    "short_name": "CORHOFI FINANCIAL SERVICES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP869",
+    "bank_code": "16906",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Pyr\u00e9n\u00e9es-Gascogne",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Pyr\u00e9n\u00e9es-Gascogne"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16918",
+    "name": "PERSPECTEEV",
+    "short_name": "PERSPECTEEV"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16928",
+    "name": "LINXO",
+    "short_name": "LINXO"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16948",
+    "name": "POWENS",
+    "short_name": "POWENS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "QNTOFRP1",
+    "bank_code": "16958",
+    "name": "QONTO",
+    "short_name": "QONTO"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16978",
+    "name": "HARVEST FRANCE",
+    "short_name": "HARVEST FRANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "TREFFRP2",
+    "bank_code": "16979",
+    "name": "Tradition securities and futures",
+    "short_name": "Tradition securities and futures"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16983",
+    "name": "HILBERT INVESTMENT SOLUTIONS",
+    "short_name": "HILBERT INVESTMENT SOLUTIONS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "16988",
+    "name": "PAYMED",
+    "short_name": "PAYMED"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MOBQFR22",
+    "bank_code": "16989",
+    "name": "Mobilis banque",
+    "short_name": "Mobilis banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ROYCFRPB",
+    "bank_code": "16998",
+    "name": "ROYAL BANK OF CANADA",
+    "short_name": "ROYAL BANK OF CANADA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17018",
+    "name": "YAMAHA MOTOR FINANCE FRANCE",
+    "short_name": "YAMAHA MOTOR FINANCE FRANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MOXEFR22",
+    "bank_code": "17028",
+    "name": "MONEXT",
+    "short_name": "MONEXT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17038",
+    "name": "TRANSACTION CONNECT",
+    "short_name": "TRANSACTION CONNECT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17048",
+    "name": "Africa Rapidtransfer SA",
+    "short_name": "Africa Rapidtransfer SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17058",
+    "name": "CNOVA PAY",
+    "short_name": "CNOVA PAY"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SGFFFRPP",
+    "bank_code": "17060",
+    "name": "SOCIETE GENERALE Factoring",
+    "short_name": "SOCIETE GENERALE Factoring"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17068",
+    "name": "SI- EXPERTISE",
+    "short_name": "SI- EXPERTISE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17078",
+    "name": "JCB INTERNATIONAL FRANCE SAS",
+    "short_name": "JCB INTERNATIONAL FRANCE SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17088",
+    "name": "VIGICORP",
+    "short_name": "VIGICORP"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCUSFR21",
+    "bank_code": "17100",
+    "name": "Caisse de cr\u00e9dit municipal de Strasbourg",
+    "short_name": "Caisse de cr\u00e9dit municipal de Strasbourg"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP871",
+    "bank_code": "17106",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Sud-M\u00e9diterran\u00e9e (Ari\u00e8ge et Pyr\u00e9n\u00e9es-Orientales)",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Sud-M\u00e9diterran\u00e9e (Ari\u00e8ge et Pyr\u00e9n\u00e9es-Orientales)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GOAAFRP1",
+    "bank_code": "17118",
+    "name": "GoCardless SAS",
+    "short_name": "GoCardless SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BPLCFRPP",
+    "bank_code": "17128",
+    "name": "BARCLAYS BANK PLC, FRENCH BRANCH",
+    "short_name": "BARCLAYS BANK PLC, FRENCH BRANCH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEAYFR22",
+    "bank_code": "17138",
+    "name": "CENTRALPAY",
+    "short_name": "CENTRALPAY"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCUTFR21",
+    "bank_code": "17150",
+    "name": "Caisse de cr\u00e9dit municipal de Toulon",
+    "short_name": "Caisse de cr\u00e9dit municipal de Toulon"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BDIRFRPP",
+    "bank_code": "17153",
+    "name": "Bourse direct",
+    "short_name": "Bourse direct"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17168",
+    "name": "BORDEAUX METROPOLE ENERGIES",
+    "short_name": "BORDEAUX METROPOLE ENERGIES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "VITDFRP1",
+    "bank_code": "17173",
+    "name": "TSAF OTC",
+    "short_name": "TSAF OTC"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CAYGFRP2",
+    "bank_code": "17178",
+    "name": "CashBee",
+    "short_name": "CashBee"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SFESFRP2",
+    "bank_code": "17183",
+    "name": "SHARES FINANCIAL ASSETS",
+    "short_name": "SHARES FINANCIAL ASSETS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AHLFFR22",
+    "bank_code": "17188",
+    "name": "AXA Home Loan SFH",
+    "short_name": "AXA Home Loan SFH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP872",
+    "bank_code": "17206",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Alsace Vosges",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Alsace Vosges"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CHKCFRP2",
+    "bank_code": "17208",
+    "name": "CHECKOUT",
+    "short_name": "CHECKOUT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRP1PSF",
+    "bank_code": "17218",
+    "name": "PAYSURF",
+    "short_name": "PAYSURF"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SMPAFR22",
+    "bank_code": "17228",
+    "name": "SMILE & PAY",
+    "short_name": "SMILE & PAY"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17233",
+    "name": "GOLDMAN SACHS INT. PARIS BRANCH",
+    "short_name": "GOLDMAN SACHS INT. PARIS BRANCH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SCSYFRP2",
+    "bank_code": "17238",
+    "name": "AVENAPAY",
+    "short_name": "AVENAPAY"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17248",
+    "name": "FINTECTURE",
+    "short_name": "FINTECTURE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17273",
+    "name": "Amundi Interm\u00e9diation",
+    "short_name": "Amundi Interm\u00e9diation"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17278",
+    "name": "PLANET MERCHANT SERVICES SAS",
+    "short_name": "PLANET MERCHANT SERVICES SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17283",
+    "name": "Gallagher Securities Europe SAS",
+    "short_name": "Gallagher Securities Europe SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17298",
+    "name": "AGENCE REGIONALE DE L'ENERGIE ET DU CLIMAT OCCITANIE (AREC)",
+    "short_name": "AGENCE REGIONALE DE L'ENERGIE ET DU CLIMAT OCCITANIE (AREC)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17318",
+    "name": "BPCI SOFTWARE",
+    "short_name": "BPCI SOFTWARE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SWNBFR22",
+    "bank_code": "17328",
+    "name": "SWAN",
+    "short_name": "SWAN"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MEMOFRP2",
+    "bank_code": "17338",
+    "name": "MEMO BANK",
+    "short_name": "MEMO BANK"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17348",
+    "name": "WIDMEE",
+    "short_name": "WIDMEE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17368",
+    "name": "M-iTrust",
+    "short_name": "M-iTrust"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP777",
+    "bank_code": "17378",
+    "name": "CREDIT AGRICOLE PAYMENT SERVICES",
+    "short_name": "CREDIT AGRICOLE PAYMENT SERVICES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17383",
+    "name": "MAGEN FINANCIAL SAS",
+    "short_name": "MAGEN FINANCIAL SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GOAAFRP1",
+    "bank_code": "17398",
+    "name": "GoCardless SAS",
+    "short_name": "GoCardless SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17408",
+    "name": "ALMA",
+    "short_name": "ALMA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SNNNFR22",
+    "bank_code": "17418",
+    "name": "SHINE FRANCE",
+    "short_name": "SHINE FRANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17428",
+    "name": "EGPF POLYNESIE",
+    "short_name": "EGPF POLYNESIE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCAENCN1",
+    "bank_code": "17429",
+    "name": "Caisse de cr\u00e9dit agricole mutuel de la Nouvelle-Cal\u00e9donie et d\u00e9pendances",
+    "short_name": "Caisse de cr\u00e9dit agricole mutuel de la Nouvelle-Cal\u00e9donie et d\u00e9pendances"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17439",
+    "name": "SOFIDER",
+    "short_name": "SOFIDER"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SFPEFRP2",
+    "bank_code": "17448",
+    "name": "Okali",
+    "short_name": "Okali"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "JBBRFRPP",
+    "bank_code": "17453",
+    "name": "Kepler Cheuvreux",
+    "short_name": "Kepler Cheuvreux"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17458",
+    "name": "THUNES PAYMENT ACQUISITION SERVICES",
+    "short_name": "THUNES PAYMENT ACQUISITION SERVICES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SOCBPFTX",
+    "bank_code": "17469",
+    "name": "Banque Socr\u00e9do",
+    "short_name": "Banque Socr\u00e9do"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "HRSAFR22",
+    "bank_code": "17478",
+    "name": "Heuro",
+    "short_name": "Heuro"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CIPMPMP1",
+    "bank_code": "17479",
+    "name": "Coop\u00e9rative immobili\u00e8re des \u00eeles Saint-Pierre-et-Miquelon (C.I.S.P.M.)",
+    "short_name": "Coop\u00e9rative immobili\u00e8re des \u00eeles Saint-Pierre-et-Miquelon (C.I.S.P.M.)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17483",
+    "name": "UTI INTERNATIONAL (FRANCE) S.A.S",
+    "short_name": "UTI INTERNATIONAL (FRANCE) S.A.S"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FDSEFRP2",
+    "bank_code": "17488",
+    "name": "FDJ SERVICES",
+    "short_name": "FDJ SERVICES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BCADNCNN",
+    "bank_code": "17499",
+    "name": "Banque cal\u00e9donienne d'investissement - B.C.I.",
+    "short_name": "Banque cal\u00e9donienne d'investissement - B.C.I."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SWPAFR22",
+    "bank_code": "17508",
+    "name": "SWILE PAYMENT",
+    "short_name": "SWILE PAYMENT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CRTAFR21",
+    "bank_code": "17510",
+    "name": "Cr\u00e9atis",
+    "short_name": "Cr\u00e9atis"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP751",
+    "bank_code": "17515",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Ile-de-France",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance Ile-de-France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SPDKFRP2",
+    "bank_code": "17518",
+    "name": "SPENDESK FINANCIAL SERVICES",
+    "short_name": "SPENDESK FINANCIAL SERVICES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BACPFRPP",
+    "bank_code": "17519",
+    "name": "Banque centrale de compensation",
+    "short_name": "Banque centrale de compensation"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NATAFRPP",
+    "bank_code": "17538",
+    "name": "National Australia Bank Europe S.A",
+    "short_name": "National Australia Bank Europe S.A"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17548",
+    "name": "TMLC",
+    "short_name": "TMLC"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17549",
+    "name": "Natiocr\u00e9dibail",
+    "short_name": "Natiocr\u00e9dibail"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FFAAFRP2",
+    "bank_code": "17558",
+    "name": "FIFA Clearing House",
+    "short_name": "FIFA Clearing House"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17578",
+    "name": "CALEDONIENNE DE SOLUTIONS BUSINESS",
+    "short_name": "CALEDONIENNE DE SOLUTIONS BUSINESS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BTEJFRP1",
+    "bank_code": "17579",
+    "name": "Bank Tejarat",
+    "short_name": "Bank Tejarat"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17583",
+    "name": "NBC Paris SA",
+    "short_name": "NBC Paris SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "DTFEFR22",
+    "bank_code": "17588",
+    "name": "DAIMLER TRUCK FINANCIAL SERVICES FRANCE",
+    "short_name": "DAIMLER TRUCK FINANCIAL SERVICES FRANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "LYDIFRP2",
+    "bank_code": "17598",
+    "name": "LYDIA SOLUTIONS",
+    "short_name": "LYDIA SOLUTIONS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BLOMFRPP",
+    "bank_code": "17599",
+    "name": "Banque Banorient France",
+    "short_name": "Banque Banorient France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17608",
+    "name": "PENNYLANE",
+    "short_name": "PENNYLANE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BEMOFRPP",
+    "bank_code": "17619",
+    "name": "BEMO EUROPE - BANQUE PRIVEE",
+    "short_name": "BEMO EUROPE - BANQUE PRIVEE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCMNFR21",
+    "bank_code": "17620",
+    "name": "Caisse de cr\u00e9dit municipal de N\u00eemes",
+    "short_name": "Caisse de cr\u00e9dit municipal de N\u00eemes"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ABNGFRPP",
+    "bank_code": "17628",
+    "name": "The Access Bank UK Limited",
+    "short_name": "The Access Bank UK Limited"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "COBAFRPX",
+    "bank_code": "17629",
+    "name": "Commerzbank AG",
+    "short_name": "Commerzbank AG"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17638",
+    "name": "SOGESCOT",
+    "short_name": "SOGESCOT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17648",
+    "name": "SEM pour la r\u00e9novation \u00e9nerg\u00e9tique des logements",
+    "short_name": "SEM pour la r\u00e9novation \u00e9nerg\u00e9tique des logements"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17658",
+    "name": "CETIP",
+    "short_name": "CETIP"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GENFFRP1",
+    "bank_code": "17660",
+    "name": "G\u00e9n\u00e9fim",
+    "short_name": "G\u00e9n\u00e9fim"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17668",
+    "name": "2SF - Soci\u00e9t\u00e9 des services Fiduciaires",
+    "short_name": "2SF - Soci\u00e9t\u00e9 des services Fiduciaires"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "HLSAFR22",
+    "bank_code": "17678",
+    "name": "HELLOASSO",
+    "short_name": "HELLOASSO"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SBEXFRP1",
+    "bank_code": "17679",
+    "name": "Soci\u00e9t\u00e9 de banque et d'expansion - S.B.E. (2\u00e8me du nom)",
+    "short_name": "Soci\u00e9t\u00e9 de banque et d'expansion - S.B.E. (2\u00e8me du nom)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17683",
+    "name": "LUCKY OLDSTONE PSI",
+    "short_name": "LUCKY OLDSTONE PSI"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AFRAFRP2",
+    "bank_code": "17688",
+    "name": "AETHER FINANCIAL SERVICES",
+    "short_name": "AETHER FINANCIAL SERVICES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17698",
+    "name": "MON AMI POTO",
+    "short_name": "MON AMI POTO"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17708",
+    "name": "CREDIT AGRICOLE FINANCEMENT DE L'HABITAT SFH",
+    "short_name": "CREDIT AGRICOLE FINANCEMENT DE L'HABITAT SFH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17718",
+    "name": "UP PAIEMENT",
+    "short_name": "UP PAIEMENT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17728",
+    "name": "ALGOAN",
+    "short_name": "ALGOAN"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17738",
+    "name": "MPS",
+    "short_name": "MPS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "DBLKFR22",
+    "bank_code": "17748",
+    "name": "DEBLOCK",
+    "short_name": "DEBLOCK"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17758",
+    "name": "EFFYIS EUROPE",
+    "short_name": "EFFYIS EUROPE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "DFTOFRP2",
+    "bank_code": "17768",
+    "name": "Defacto",
+    "short_name": "Defacto"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17778",
+    "name": "BCB Payments (Europe)",
+    "short_name": "BCB Payments (Europe)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SBAAFRPP",
+    "bank_code": "17779",
+    "name": "Banque SBA",
+    "short_name": "Banque SBA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BSFAFR22",
+    "bank_code": "17783",
+    "name": "BSG FRANCE S.A.",
+    "short_name": "BSG FRANCE S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17788",
+    "name": "Circle Internet Financial Europe SAS",
+    "short_name": "Circle Internet Financial Europe SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "DEUTFRPP",
+    "bank_code": "17789",
+    "name": "Deutsche Bank AG",
+    "short_name": "Deutsche Bank AG"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17798",
+    "name": "IYU EUROPE",
+    "short_name": "IYU EUROPE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SEPBFRP1",
+    "bank_code": "17799",
+    "name": "Bank Sepah",
+    "short_name": "Bank Sepah"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP878",
+    "bank_code": "17806",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Centre-Est",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Centre-Est"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCBPFRPPTLS",
+    "bank_code": "17807",
+    "name": "Banque populaire Occitane",
+    "short_name": "Banque populaire Occitane"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "IIISFRP2",
+    "bank_code": "17808",
+    "name": "SOFIDOM",
+    "short_name": "SOFIDOM"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17818",
+    "name": "GROUPE ELVEST AGREE",
+    "short_name": "GROUPE ELVEST AGREE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MIPVFRP2",
+    "bank_code": "17838",
+    "name": "MIPISE PAYMENT SERVICES",
+    "short_name": "MIPISE PAYMENT SERVICES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GMACFR21",
+    "bank_code": "17839",
+    "name": "Stellantis Bank",
+    "short_name": "Stellantis Bank"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ZEIBFRPP",
+    "bank_code": "17858",
+    "name": "Zenith Bank (UK) Limited",
+    "short_name": "Zenith Bank (UK) Limited"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "DPBBFRP1",
+    "bank_code": "17863",
+    "name": "Deutsche Pfandbriefbank AG",
+    "short_name": "Deutsche Pfandbriefbank AG"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "HPAYFRP2",
+    "bank_code": "17868",
+    "name": "CORUSCANT",
+    "short_name": "CORUSCANT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "EXOEFRP1",
+    "bank_code": "17873",
+    "name": "Exo\u00e9",
+    "short_name": "Exo\u00e9"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17878",
+    "name": "SALVUS",
+    "short_name": "SALVUS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17888",
+    "name": "MERGE MONEY",
+    "short_name": "MERGE MONEY"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17898",
+    "name": "FINFROG",
+    "short_name": "FINFROG"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP879",
+    "bank_code": "17906",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de l'Anjou et du Maine",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de l'Anjou et du Maine"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FPTOFR22",
+    "bank_code": "17908",
+    "name": "FIPTO PI",
+    "short_name": "FIPTO PI"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17918",
+    "name": "1POINT6",
+    "short_name": "1POINT6"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "QNBAFRPP",
+    "bank_code": "17919",
+    "name": "Qatar national bank",
+    "short_name": "Qatar national bank"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GRGTFR22",
+    "bank_code": "17928",
+    "name": "Domino",
+    "short_name": "Domino"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17938",
+    "name": "TMFS",
+    "short_name": "TMFS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BNPANCNX",
+    "bank_code": "17939",
+    "name": "BNP Paribas Nouvelle-Cal\u00e9donie",
+    "short_name": "BNP Paribas Nouvelle-Cal\u00e9donie"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17958",
+    "name": "MIRABELLE",
+    "short_name": "MIRABELLE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BAMYFR22",
+    "bank_code": "17959",
+    "name": "Banque Michel Inchausp\u00e9 - BAMI",
+    "short_name": "Banque Michel Inchausp\u00e9 - BAMI"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17968",
+    "name": "OONETIC",
+    "short_name": "OONETIC"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17978",
+    "name": "ANZ Europe SA (ANZ EU)",
+    "short_name": "ANZ Europe SA (ANZ EU)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ARABFRPP",
+    "bank_code": "17979",
+    "name": "ARAB BANK EUROPE SA",
+    "short_name": "ARAB BANK EUROPE SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17983",
+    "name": "I-KAPITAL",
+    "short_name": "I-KAPITAL"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17988",
+    "name": "REVOLUT BANK S.A.",
+    "short_name": "REVOLUT BANK S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NBADFRPP",
+    "bank_code": "17989",
+    "name": "FIRST ABU DHABI BANK",
+    "short_name": "FIRST ABU DHABI BANK"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "17998",
+    "name": "COINHOUSE",
+    "short_name": "COINHOUSE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18008",
+    "name": "GOIN",
+    "short_name": "GOIN"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18018",
+    "name": "HEXARQ",
+    "short_name": "HEXARQ"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BNPCFR21",
+    "bank_code": "18020",
+    "name": "BNP Paribas Factor",
+    "short_name": "BNP Paribas Factor"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18028",
+    "name": "PAYMIUM",
+    "short_name": "PAYMIUM"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CETEFRP1",
+    "bank_code": "18029",
+    "name": "BNP Paribas Personal Finance",
+    "short_name": "BNP Paribas Personal Finance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18038",
+    "name": "METAL GEAR",
+    "short_name": "METAL GEAR"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BATFFR21",
+    "bank_code": "18040",
+    "name": "Batifranc",
+    "short_name": "Batifranc"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18048",
+    "name": "ILLIPAY",
+    "short_name": "ILLIPAY"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCMLFR21",
+    "bank_code": "18050",
+    "name": "Caisse de cr\u00e9dit municipal de Lyon",
+    "short_name": "Caisse de cr\u00e9dit municipal de Lyon"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18058",
+    "name": "APLO",
+    "short_name": "APLO"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MIDLFRPX",
+    "bank_code": "18059",
+    "name": "HSBC Bank Plc, Paris Branch",
+    "short_name": "HSBC Bank Plc, Paris Branch"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18068",
+    "name": "RUFIJI CAPITAL",
+    "short_name": "RUFIJI CAPITAL"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCDFFRPP",
+    "bank_code": "18079",
+    "name": "CCF",
+    "short_name": "CCF"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18083",
+    "name": "FEEFTY",
+    "short_name": "FEEFTY"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18088",
+    "name": "QWARKS",
+    "short_name": "QWARKS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AUDIFRPP",
+    "bank_code": "18089",
+    "name": "Bank Audi France",
+    "short_name": "Bank Audi France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18098",
+    "name": "FLOWDESK EUROPE",
+    "short_name": "FLOWDESK EUROPE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP881",
+    "bank_code": "18106",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel des Savoie",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel des Savoie"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18108",
+    "name": "ALPHACAP DIGITAL ASSETS",
+    "short_name": "ALPHACAP DIGITAL ASSETS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18128",
+    "name": "MERIA",
+    "short_name": "MERIA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ISAEFRPP",
+    "bank_code": "18129",
+    "name": "CACEIS Bank",
+    "short_name": "CACEIS Bank"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18138",
+    "name": "FINCTEK UE",
+    "short_name": "FINCTEK UE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18148",
+    "name": "Deskoin SAS",
+    "short_name": "Deskoin SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18158",
+    "name": "ALTRIUM FINANCIAL SERVICES SAS",
+    "short_name": "ALTRIUM FINANCIAL SERVICES SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCMYFR21",
+    "bank_code": "18160",
+    "name": "Caisse de cr\u00e9dit municipal de Nancy",
+    "short_name": "Caisse de cr\u00e9dit municipal de Nancy"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CGCPFRP1",
+    "bank_code": "18189",
+    "name": "Compagnie g\u00e9n\u00e9rale de cr\u00e9dit aux particuliers - Cr\u00e9dipar",
+    "short_name": "Compagnie g\u00e9n\u00e9rale de cr\u00e9dit aux particuliers - Cr\u00e9dipar"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP882",
+    "bank_code": "18206",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de Paris et d'Ile-de-France",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de Paris et d'Ile-de-France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "EXFNFRP1",
+    "bank_code": "18209",
+    "name": "Exane finance",
+    "short_name": "Exane finance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SOFRFRPP",
+    "bank_code": "18230",
+    "name": "SOFIPROTEOL",
+    "short_name": "SOFIPROTEOL"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PCBCFRPP",
+    "bank_code": "18233",
+    "name": "CHINA CONSTRUCTION BANK (EUROPE) S.A",
+    "short_name": "CHINA CONSTRUCTION BANK (EUROPE) S.A"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "UUFEFRP1",
+    "bank_code": "18280",
+    "name": "Unifergie - Union pour le financement des \u00e9conomies d'\u00e9nergie",
+    "short_name": "Unifergie - Union pour le financement des \u00e9conomies d'\u00e9nergie"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18283",
+    "name": "INGEPAR SA",
+    "short_name": "INGEPAR SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP883",
+    "bank_code": "18306",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Normandie-Seine",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Normandie-Seine"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP831",
+    "bank_code": "18315",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance C\u00f4te d'Azur",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance C\u00f4te d'Azur"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SOGENCNN",
+    "bank_code": "18319",
+    "name": "Soci\u00e9t\u00e9 g\u00e9n\u00e9rale cal\u00e9donienne de banque SGCB",
+    "short_name": "Soci\u00e9t\u00e9 g\u00e9n\u00e9rale cal\u00e9donienne de banque SGCB"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CPMEFRPP",
+    "bank_code": "18359",
+    "name": "Bpifrance",
+    "short_name": "Bpifrance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18383",
+    "name": "DEALERBOX TECHNOLOGIES",
+    "short_name": "DEALERBOX TECHNOLOGIES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMROFR21",
+    "bank_code": "18450",
+    "name": "Caisse de cr\u00e9dit municipal de Roubaix",
+    "short_name": "Caisse de cr\u00e9dit municipal de Roubaix"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCMTFR21",
+    "bank_code": "18470",
+    "name": "Caisse de cr\u00e9dit municipal de Nantes",
+    "short_name": "Caisse de cr\u00e9dit municipal de Nantes"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18483",
+    "name": "CIRCLUB",
+    "short_name": "CIRCLUB"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MHCBFRPP",
+    "bank_code": "18529",
+    "name": "Mizuho Bank Europe N.V. Paris Branch",
+    "short_name": "Mizuho Bank Europe N.V. Paris Branch"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18530",
+    "name": "Natiocredimurs, soci\u00e9t\u00e9 en nom collectif",
+    "short_name": "Natiocredimurs, soci\u00e9t\u00e9 en nom collectif"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "COSAFR21",
+    "bank_code": "18540",
+    "name": "Corsabail",
+    "short_name": "Corsabail"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "TREFFRP2",
+    "bank_code": "18553",
+    "name": "Tradition securities and futures",
+    "short_name": "Tradition securities and futures"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BMISFRPP",
+    "bank_code": "18569",
+    "name": "Banque Misr",
+    "short_name": "Banque Misr"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18583",
+    "name": "Maverix Securities (Europe)",
+    "short_name": "Maverix Securities (Europe)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "COLVFRP1",
+    "bank_code": "18610",
+    "name": "Compagnie pour la location de v\u00e9hicules - CLV",
+    "short_name": "Compagnie pour la location de v\u00e9hicules - CLV"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CFLCFRP1",
+    "bank_code": "18660",
+    "name": "Cofiloisirs - Compagnie pour le financement des loisirs",
+    "short_name": "Cofiloisirs - Compagnie pour le financement des loisirs"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18673",
+    "name": "La Fran\u00e7aise Finance Services",
+    "short_name": "La Fran\u00e7aise Finance Services"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18683",
+    "name": "Caption",
+    "short_name": "Caption"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FRAFFRPP",
+    "bank_code": "18689",
+    "name": "Fransabank France S.A.",
+    "short_name": "Fransabank France S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP887",
+    "bank_code": "18706",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Brie Picardie",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Brie Picardie"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCBPFRPPVER",
+    "bank_code": "18707",
+    "name": "Banque populaire Val de France (2\u00e8me du nom)",
+    "short_name": "Banque populaire Val de France (2\u00e8me du nom)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CEPAFRPP871",
+    "bank_code": "18715",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance d'Auvergne et du Limousin",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance d'Auvergne et du Limousin"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BFCORERX",
+    "bank_code": "18719",
+    "name": "Banque Fran\u00e7aise Commerciale Oc\u00e9an Indien",
+    "short_name": "Banque Fran\u00e7aise Commerciale Oc\u00e9an Indien"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18730",
+    "name": "BPCE LEASE NOUMEA",
+    "short_name": "BPCE LEASE NOUMEA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BKCHFRPP",
+    "bank_code": "18769",
+    "name": "Bank of China limited",
+    "short_name": "Bank of China limited"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18773",
+    "name": "CDC Placement",
+    "short_name": "CDC Placement"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18783",
+    "name": "EDMOND DE ROTHSCHILD CORPORATE FINANCE",
+    "short_name": "EDMOND DE ROTHSCHILD CORPORATE FINANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ICBCFRPP",
+    "bank_code": "18789",
+    "name": "Mega international commercial bank Co, Ltd",
+    "short_name": "Mega international commercial bank Co, Ltd"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMBRFR2BCME",
+    "bank_code": "18829",
+    "name": "Ark\u00e9a banque entreprises et institutionnels",
+    "short_name": "Ark\u00e9a banque entreprises et institutionnels"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FEMUFR21",
+    "bank_code": "18869",
+    "name": "Banque fran\u00e7aise mutualiste - B.F.M.",
+    "short_name": "Banque fran\u00e7aise mutualiste - B.F.M."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PSSTFRPP",
+    "bank_code": "18873",
+    "name": "La Banque Postale",
+    "short_name": "La Banque Postale"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18883",
+    "name": "LISE",
+    "short_name": "LISE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18890",
+    "name": "Somafi-Soguafi",
+    "short_name": "Somafi-Soguafi"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NATXFRPPBPS",
+    "bank_code": "18919",
+    "name": "NATIXIS WEALTH MANAGEMENT",
+    "short_name": "NATIXIS WEALTH MANAGEMENT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18930",
+    "name": "Compagnie financi\u00e8re du littoral - Cofilit",
+    "short_name": "Compagnie financi\u00e8re du littoral - Cofilit"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18943",
+    "name": "WH Selfinvest SA",
+    "short_name": "WH Selfinvest SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CSCAFR21",
+    "bank_code": "18950",
+    "name": "Caisse de cr\u00e9dit municipal d'Avignon",
+    "short_name": "Caisse de cr\u00e9dit municipal d'Avignon"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ABCOFRPP",
+    "bank_code": "18979",
+    "name": "ARAB BANKING CORPORATION SA",
+    "short_name": "ARAB BANKING CORPORATION SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "18983",
+    "name": "LCM Commodities SAS",
+    "short_name": "LCM Commodities SAS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AARBFRP1",
+    "bank_code": "18989",
+    "name": "Aareal Bank AG",
+    "short_name": "Aareal Bank AG"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "IVSTFRP1",
+    "bank_code": "19000",
+    "name": "Soci\u00e9t\u00e9 auxiliaire d'\u00e9tudes et d'investissements mobiliers - Investimo",
+    "short_name": "Soci\u00e9t\u00e9 auxiliaire d'\u00e9tudes et d'investissements mobiliers - Investimo"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CRMSGPG1",
+    "bank_code": "19020",
+    "name": "Cr\u00e9dit moderne Antilles Guyane",
+    "short_name": "Cr\u00e9dit moderne Antilles Guyane"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SALAFR2M",
+    "bank_code": "19063",
+    "name": "Landesbank Saar (SAARLB)",
+    "short_name": "Landesbank Saar (SAARLB)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "KBLXFRPP",
+    "bank_code": "19069",
+    "name": "BANQUE RICHELIEU FRANCE",
+    "short_name": "BANQUE RICHELIEU FRANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "19083",
+    "name": "Quideos",
+    "short_name": "Quideos"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP891",
+    "bank_code": "19106",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Provence-C\u00f4te d'Azur (Alpes de Haute-Provence-Alpes-maritimes-Var)",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel Provence-C\u00f4te d'Azur (Alpes de Haute-Provence-Alpes-maritimes-Var)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "19110",
+    "name": "BPCE LEASE TAHITI",
+    "short_name": "BPCE LEASE TAHITI"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CRSFFRP1",
+    "bank_code": "19150",
+    "name": "Cr\u00e9dit et services financiers - Creserfi",
+    "short_name": "Cr\u00e9dit et services financiers - Creserfi"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FIMUFR21",
+    "bank_code": "19169",
+    "name": "Finamur",
+    "short_name": "Finamur"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "EXPAFRP1",
+    "bank_code": "19173",
+    "name": "Exclusive partners",
+    "short_name": "Exclusive partners"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SPKOFRP2",
+    "bank_code": "19183",
+    "name": "Spiko Finance",
+    "short_name": "Spiko Finance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "19190",
+    "name": "BPCE LEASE REUNION",
+    "short_name": "BPCE LEASE REUNION"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BSABFRPP",
+    "bank_code": "19229",
+    "name": "Banco de Sabadell",
+    "short_name": "Banco de Sabadell"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CRLGFRP1",
+    "bank_code": "19230",
+    "name": "Cr\u00e9dit logement",
+    "short_name": "Cr\u00e9dit logement"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "19233",
+    "name": "Virtu Europe Trading Limited",
+    "short_name": "Virtu Europe Trading Limited"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CGLEFR21",
+    "bank_code": "19250",
+    "name": "Compagnie g\u00e9n\u00e9rale de location d'\u00e9quipements \"C.G.L.\"",
+    "short_name": "Compagnie g\u00e9n\u00e9rale de location d'\u00e9quipements \"C.G.L.\""
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SOGFFRP1",
+    "bank_code": "19259",
+    "name": "Sogefimur",
+    "short_name": "Sogefimur"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GENNFR22",
+    "bank_code": "19269",
+    "name": "G\u00e9n\u00e9banque",
+    "short_name": "G\u00e9n\u00e9banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "19283",
+    "name": "FINARY",
+    "short_name": "FINARY"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "19383",
+    "name": "Piper Sandler Europe",
+    "short_name": "Piper Sandler Europe"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "COGFFRP1",
+    "bank_code": "19400",
+    "name": "Conseil de gestion financi\u00e8re - Cogefi",
+    "short_name": "Conseil de gestion financi\u00e8re - Cogefi"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP894",
+    "bank_code": "19406",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de la Touraine et du Poitou",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de la Touraine et du Poitou"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SFAXFRPP",
+    "bank_code": "19460",
+    "name": "Sofax banque",
+    "short_name": "Sofax banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "19483",
+    "name": "ODDO BHF CORPORATE FINANCE PARTNERS SCA",
+    "short_name": "ODDO BHF CORPORATE FINANCE PARTNERS SCA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP895",
+    "bank_code": "19506",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel du Centre Ouest",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel du Centre Ouest"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "GEDIFR21",
+    "bank_code": "19519",
+    "name": "Gedex distribution",
+    "short_name": "Gedex distribution"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPI",
+    "bank_code": "19530",
+    "name": "Amundi",
+    "short_name": "Amundi"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "COMMFRPP",
+    "bank_code": "19533",
+    "name": "BANK OF COMMUNICATIONS (LUXEMBOURG) S.A.",
+    "short_name": "BANK OF COMMUNICATIONS (LUXEMBOURG) S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "19553",
+    "name": "Ark\u00e9a ProCapital Services",
+    "short_name": "Ark\u00e9a ProCapital Services"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SGCUFR21",
+    "bank_code": "19560",
+    "name": "SOMUDIMEC",
+    "short_name": "SOMUDIMEC"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "19573",
+    "name": "OFI Invest Interm\u00e9diation Services",
+    "short_name": "OFI Invest Interm\u00e9diation Services"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "19583",
+    "name": "Advenis Wise",
+    "short_name": "Advenis Wise"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "19633",
+    "name": "Landesbank Baden-W\u00fcrttemberg",
+    "short_name": "Landesbank Baden-W\u00fcrttemberg"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SOREFR21",
+    "bank_code": "19649",
+    "name": "Bpifrance R\u00e9gions",
+    "short_name": "Bpifrance R\u00e9gions"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NOMAFRPP",
+    "bank_code": "19730",
+    "name": "Banque Nomura France",
+    "short_name": "Banque Nomura France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "OPSPFR21OLK",
+    "bank_code": "19733",
+    "name": "OLKY PAYMENT SERVICE PROVIDER",
+    "short_name": "OLKY PAYMENT SERVICE PROVIDER"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIMQMX",
+    "bank_code": "19806",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de la Martinique et de la Guyane",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de la Martinique et de la Guyane"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SOAPFR22",
+    "bank_code": "19870",
+    "name": "Carrefour banque",
+    "short_name": "Carrefour banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "19873",
+    "name": "Compagnie Financi\u00e8re Jacques Coeur",
+    "short_name": "Compagnie Financi\u00e8re Jacques Coeur"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIRERX",
+    "bank_code": "19906",
+    "name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de la R\u00e9union",
+    "short_name": "Caisse r\u00e9gionale de cr\u00e9dit agricole mutuel de la R\u00e9union"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ENEEFRP1",
+    "bank_code": "19940",
+    "name": "BPCE ENERGECO",
+    "short_name": "BPCE ENERGECO"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MIRAFRPP",
+    "bank_code": "19973",
+    "name": "Mirabaud & Cie (Europe) SA",
+    "short_name": "Mirabaud & Cie (Europe) SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FXBBFRPP",
+    "bank_code": "20033",
+    "name": "iBanFirst",
+    "short_name": "iBanFirst"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PSSTFRPP",
+    "bank_code": "20041",
+    "name": "La Banque Postale",
+    "short_name": "La Banque Postale"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SPIFFRP1",
+    "bank_code": "20280",
+    "name": "Soci\u00e9t\u00e9 de caution mutuelle des professions immobili\u00e8res et financi\u00e8res",
+    "short_name": "Soci\u00e9t\u00e9 de caution mutuelle des professions immobili\u00e8res et financi\u00e8res"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NTSBFRM1",
+    "bank_code": "20433",
+    "name": "N26 Bank SE",
+    "short_name": "N26 Bank SE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "EBURFRP1",
+    "bank_code": "20733",
+    "name": "Ebury partners belgium NV",
+    "short_name": "Ebury partners belgium NV"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "21339",
+    "name": "Fortis lease",
+    "short_name": "Fortis lease"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PAILFRP1",
+    "bank_code": "21349",
+    "name": "Parilease",
+    "short_name": "Parilease"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "STFEFR21",
+    "bank_code": "21570",
+    "name": "Soci\u00e9t\u00e9 financi\u00e8re de la N.E.F.",
+    "short_name": "Soci\u00e9t\u00e9 financi\u00e8re de la N.E.F."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "21633",
+    "name": "WEBB Traders B.V.",
+    "short_name": "WEBB Traders B.V."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CPBIFRPP",
+    "bank_code": "21670",
+    "name": "Loomis FX, Gold and Services",
+    "short_name": "Loomis FX, Gold and Services"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ADYBFRP2",
+    "bank_code": "21733",
+    "name": "Adyen N.V.",
+    "short_name": "Adyen N.V."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MPAYFRP1",
+    "bank_code": "21933",
+    "name": "Mangopay S.A.",
+    "short_name": "Mangopay S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "21980",
+    "name": "Soci\u00e9t\u00e9 de caution mutuelle artisanale Occitane",
+    "short_name": "Soci\u00e9t\u00e9 de caution mutuelle artisanale Occitane"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "22760",
+    "name": "SOCAMA GRAND OUEST",
+    "short_name": "SOCAMA GRAND OUEST"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SCFFFR21",
+    "bank_code": "22840",
+    "name": "TRATON FINANCIAL SERVICES FRANCE",
+    "short_name": "TRATON FINANCIAL SERVICES FRANCE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "EPCMFRP1",
+    "bank_code": "22970",
+    "name": "Epargne cr\u00e9dit des militaires (E.C.M.)",
+    "short_name": "Epargne cr\u00e9dit des militaires (E.C.M.)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "23033",
+    "name": "HOIST FINANCE AB",
+    "short_name": "HOIST FINANCE AB"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "23120",
+    "name": "Soci\u00e9t\u00e9 de caution mutuelle artisanale Val de France",
+    "short_name": "Soci\u00e9t\u00e9 de caution mutuelle artisanale Val de France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "23133",
+    "name": "NATWEST MARKETS N.V.",
+    "short_name": "NATWEST MARKETS N.V."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "23159",
+    "name": "Soci\u00e9t\u00e9 pour la promotion de Professions Lib\u00e9rales Auvergne Rh\u00f4ne Alpes",
+    "short_name": "Soci\u00e9t\u00e9 pour la promotion de Professions Lib\u00e9rales Auvergne Rh\u00f4ne Alpes"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "23200",
+    "name": "Soci\u00e9t\u00e9 de caution mutuelle artisanale Bourgogne Franche-Comt\u00e9",
+    "short_name": "Soci\u00e9t\u00e9 de caution mutuelle artisanale Bourgogne Franche-Comt\u00e9"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SBILFRP1",
+    "bank_code": "23233",
+    "name": "Citigroup Global Markets Europe AG",
+    "short_name": "Citigroup Global Markets Europe AG"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "23333",
+    "name": "Blackrock (Netherlands) B.V.",
+    "short_name": "Blackrock (Netherlands) B.V."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "23433",
+    "name": "Nomura financial products Europe GmbH",
+    "short_name": "Nomura financial products Europe GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "23480",
+    "name": "SOCAMA DU SUD",
+    "short_name": "SOCAMA DU SUD"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "23533",
+    "name": "Abrdn Investments Ireland Limited",
+    "short_name": "Abrdn Investments Ireland Limited"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "23633",
+    "name": "MUFG Bank (Europe) N.V.",
+    "short_name": "MUFG Bank (Europe) N.V."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "23670",
+    "name": "SOCAMA MEDITERRANEE",
+    "short_name": "SOCAMA MEDITERRANEE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "23733",
+    "name": "Standard Chartered Bank AG",
+    "short_name": "Standard Chartered Bank AG"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BYBBFRPP",
+    "bank_code": "23779",
+    "name": "Byblos bank Europe",
+    "short_name": "Byblos bank Europe"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "23833",
+    "name": "American express payments Europe, S.L.",
+    "short_name": "American express payments Europe, S.L."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BCMAFRPP",
+    "bank_code": "23890",
+    "name": "Attijariwafa bank europe",
+    "short_name": "Attijariwafa bank europe"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SOCIFRP1",
+    "bank_code": "23930",
+    "name": "Sogama - cr\u00e9dit associatif",
+    "short_name": "Sogama - cr\u00e9dit associatif"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FIUZFRP1",
+    "bank_code": "23970",
+    "name": "Financi\u00e8re d'Uz\u00e8s",
+    "short_name": "Financi\u00e8re d'Uz\u00e8s"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "24033",
+    "name": "Jefferies GmbH",
+    "short_name": "Jefferies GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "24133",
+    "name": "IG Europe GmbH",
+    "short_name": "IG Europe GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "UBSWFRPP",
+    "bank_code": "24333",
+    "name": "UBS Europe SE",
+    "short_name": "UBS Europe SE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "24510",
+    "name": "Soci\u00e9t\u00e9 de caution mutuelle artisanale de la Corse \"Socama Corse\"",
+    "short_name": "Soci\u00e9t\u00e9 de caution mutuelle artisanale de la Corse \"Socama Corse\""
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PRIVFRPP",
+    "bank_code": "24599",
+    "name": "Milleis Banque",
+    "short_name": "Milleis Banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BCIBFRP1",
+    "bank_code": "24659",
+    "name": "Banque Chabri\u00e8res",
+    "short_name": "Banque Chabri\u00e8res"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "24733",
+    "name": "Bank of Montreal Europe plc",
+    "short_name": "Bank of Montreal Europe plc"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SBOSFRP1",
+    "bank_code": "24833",
+    "name": "State Street Bank International GmbH",
+    "short_name": "State Street Bank International GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AXFIFRPP",
+    "bank_code": "25080",
+    "name": "Axa banque financement",
+    "short_name": "Axa banque financement"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "25230",
+    "name": "SOCAMA Aquitaine Centre Atlantique",
+    "short_name": "SOCAMA Aquitaine Centre Atlantique"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "25233",
+    "name": "Instinet Germany GmbH",
+    "short_name": "Instinet Germany GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "25533",
+    "name": "Goldman Sachs Bank Europe SE",
+    "short_name": "Goldman Sachs Bank Europe SE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SETMFRP1",
+    "bank_code": "25609",
+    "name": "SOCAMETT",
+    "short_name": "SOCAMETT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "25633",
+    "name": "RBC Capital markets Europe GmbH",
+    "short_name": "RBC Capital markets Europe GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PSSSFR22",
+    "bank_code": "25733",
+    "name": "PPS EU SA",
+    "short_name": "PPS EU SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "25760",
+    "name": "Soci\u00e9t\u00e9 de Caution Mutuelle Immobili\u00e8re Auvergne Rhone Alpes",
+    "short_name": "Soci\u00e9t\u00e9 de Caution Mutuelle Immobili\u00e8re Auvergne Rhone Alpes"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MACQFRP2",
+    "bank_code": "25833",
+    "name": "Macquarie Bank Europe Designated Activity Company",
+    "short_name": "Macquarie Bank Europe Designated Activity Company"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "25933",
+    "name": "DekaBank Deutsche Girozentrale",
+    "short_name": "DekaBank Deutsche Girozentrale"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26033",
+    "name": "Partners Group (EU) GmbH",
+    "short_name": "Partners Group (EU) GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26059",
+    "name": "Soci\u00e9t\u00e9 de garantie mutuelle des m\u00e9tiers en Lorraine \"Sogammelor\"",
+    "short_name": "Soci\u00e9t\u00e9 de garantie mutuelle des m\u00e9tiers en Lorraine \"Sogammelor\""
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26140",
+    "name": "SOCAMA NORD",
+    "short_name": "SOCAMA NORD"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26219",
+    "name": "Soci\u00e9t\u00e9 de Caution Mutuelle des Moniteurs des Ecoles du Ski fran\u00e7ais",
+    "short_name": "Soci\u00e9t\u00e9 de Caution Mutuelle des Moniteurs des Ecoles du Ski fran\u00e7ais"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26233",
+    "name": "Monty global payments",
+    "short_name": "Monty global payments"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26333",
+    "name": "Blevins Franks wealth management limited",
+    "short_name": "Blevins Franks wealth management limited"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26379",
+    "name": "Soci\u00e9t\u00e9 pour la promotion des professionnels liberaux de Lorraine \"SOPROLIB    LORRAINE \"",
+    "short_name": "Soci\u00e9t\u00e9 pour la promotion des professionnels liberaux de Lorraine \"SOPROLIB    LORRAINE \""
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26429",
+    "name": "Soci\u00e9t\u00e9 de caution mutuelle des exploitants forestiers et scieurs du Massif central",
+    "short_name": "Soci\u00e9t\u00e9 de caution mutuelle des exploitants forestiers et scieurs du Massif central"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26449",
+    "name": "Soci\u00e9t\u00e9 de Caution Mutuelle des Transfontaliers",
+    "short_name": "Soci\u00e9t\u00e9 de Caution Mutuelle des Transfontaliers"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26470",
+    "name": "Soci\u00e9t\u00e9 de caution mutuelle immobili\u00e8re Occitane",
+    "short_name": "Soci\u00e9t\u00e9 de caution mutuelle immobili\u00e8re Occitane"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26633",
+    "name": "Allfunds Bank, S.A.U.",
+    "short_name": "Allfunds Bank, S.A.U."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SIAAFRP1",
+    "bank_code": "26679",
+    "name": "Soci\u00e9t\u00e9 interprofessionnelle artisanale de garantie d'investissements - S.I.A.G.I.",
+    "short_name": "Soci\u00e9t\u00e9 interprofessionnelle artisanale de garantie d'investissements - S.I.A.G.I."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SOXAFR2L",
+    "bank_code": "26733",
+    "name": "SOGEXIA S.A.",
+    "short_name": "SOGEXIA S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26819",
+    "name": "SOCI\u00c9T\u00c9 DE FINANCEMENT DES INDUSTRIES TECHNOLOGIQUES",
+    "short_name": "SOCI\u00c9T\u00c9 DE FINANCEMENT DES INDUSTRIES TECHNOLOGIQUES"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26833",
+    "name": "Greenhill Europe GmbH & Co. KG",
+    "short_name": "Greenhill Europe GmbH & Co. KG"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "26990",
+    "name": "SOCAMI ATLANTIQUE",
+    "short_name": "SOCAMI ATLANTIQUE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "27033",
+    "name": "Riverbank S.A.",
+    "short_name": "Riverbank S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NSMBFRPP",
+    "bank_code": "27133",
+    "name": "ABN Amro Bank NV",
+    "short_name": "ABN Amro Bank NV"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "27233",
+    "name": "APERA ASSET MANAGEMENT GMBH",
+    "short_name": "APERA ASSET MANAGEMENT GMBH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "27533",
+    "name": "SMBC Bank International plc",
+    "short_name": "SMBC Bank International plc"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BUNQFRP2",
+    "bank_code": "27633",
+    "name": "BUNQ B.V",
+    "short_name": "BUNQ B.V"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "27690",
+    "name": "SOCAMI DU SUD",
+    "short_name": "SOCAMI DU SUD"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FCARFR22",
+    "bank_code": "27733",
+    "name": "CA Auto Bank S.p.A. Succursale en France",
+    "short_name": "CA Auto Bank S.p.A. Succursale en France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "KREDFRPP",
+    "bank_code": "27800",
+    "name": "KBC bank",
+    "short_name": "KBC bank"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "27833",
+    "name": "Houlihan Lokey (Europe) Gmb",
+    "short_name": "Houlihan Lokey (Europe) Gmb"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PANXFR22",
+    "bank_code": "27933",
+    "name": "UNIFIEDPOST PAYMENTS",
+    "short_name": "UNIFIEDPOST PAYMENTS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "27990",
+    "name": "Soci\u00e9t\u00e9 de caution mutuelle immobili\u00e8re Val de France - Socami Val de France",
+    "short_name": "Soci\u00e9t\u00e9 de caution mutuelle immobili\u00e8re Val de France - Socami Val de France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "28010",
+    "name": "Soci\u00e9t\u00e9 de caution mutuelle immobili\u00e8re Alsace Lorraine Champagne",
+    "short_name": "Soci\u00e9t\u00e9 de caution mutuelle immobili\u00e8re Alsace Lorraine Champagne"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "KLRNFRP2",
+    "bank_code": "28033",
+    "name": "KLARNA BANK AB",
+    "short_name": "KLARNA BANK AB"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "28133",
+    "name": "Development Company for Israel (Europe) GmbH",
+    "short_name": "Development Company for Israel (Europe) GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "28150",
+    "name": "Soci\u00e9t\u00e9 de caution mutuelle immobili\u00e8re de la C\u00f4te d'Azur",
+    "short_name": "Soci\u00e9t\u00e9 de caution mutuelle immobili\u00e8re de la C\u00f4te d'Azur"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "REVOFRP2",
+    "bank_code": "28233",
+    "name": "Revolut Bank UAB",
+    "short_name": "Revolut Bank UAB"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMDIFR21",
+    "bank_code": "28570",
+    "name": "Caisse de cr\u00e9dit municipal de Dijon",
+    "short_name": "Caisse de cr\u00e9dit municipal de Dijon"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "28633",
+    "name": "Citadel Securities GCS (Ireland) Limited",
+    "short_name": "Citadel Securities GCS (Ireland) Limited"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "28760",
+    "name": "SOCAMIO",
+    "short_name": "SOCAMIO"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FONAFRP1",
+    "bank_code": "28860",
+    "name": "Foncaris",
+    "short_name": "Foncaris"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "28933",
+    "name": "FundsDLT S.A French Branch",
+    "short_name": "FundsDLT S.A French Branch"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "29033",
+    "name": "TRADEWEB PARIS",
+    "short_name": "TRADEWEB PARIS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "29133",
+    "name": "Tower Research Capital Europe BV (Paris Branch)",
+    "short_name": "Tower Research Capital Europe BV (Paris Branch)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "29333",
+    "name": "HSBC PRIVATE BANK (LUXEMBOURG) S.A.",
+    "short_name": "HSBC PRIVATE BANK (LUXEMBOURG) S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "29533",
+    "name": "EVERCORE GmbH France",
+    "short_name": "EVERCORE GmbH France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "29633",
+    "name": "Moneycorp Technologies Limited French Branch",
+    "short_name": "Moneycorp Technologies Limited French Branch"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "29733",
+    "name": "Lupus Alpha Asset Management AG - Paris Branch",
+    "short_name": "Lupus Alpha Asset Management AG - Paris Branch"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "29833",
+    "name": "Modulr Finance BV",
+    "short_name": "Modulr Finance BV"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "29933",
+    "name": "MOLLIE B.V",
+    "short_name": "MOLLIE B.V"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BDFEFRPP",
+    "bank_code": "30001",
+    "name": "Banque de France",
+    "short_name": "Banque de France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CRLYFRPP",
+    "bank_code": "30002",
+    "name": "Cr\u00e9dit lyonnais",
+    "short_name": "Cr\u00e9dit lyonnais"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SOGEFRPP",
+    "bank_code": "30003",
+    "name": "Soci\u00e9t\u00e9 g\u00e9n\u00e9rale s.a.",
+    "short_name": "Soci\u00e9t\u00e9 g\u00e9n\u00e9rale s.a."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BNPAFRPP",
+    "bank_code": "30004",
+    "name": "BNP Paribas",
+    "short_name": "BNP Paribas"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRPP",
+    "bank_code": "30006",
+    "name": "Cr\u00e9dit Agricole S.A.",
+    "short_name": "Cr\u00e9dit Agricole S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NATXFRPP",
+    "bank_code": "30007",
+    "name": "Natixis",
+    "short_name": "Natixis"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRP1BSD",
+    "bank_code": "30027",
+    "name": "Banque CIC Nord Ouest",
+    "short_name": "Banque CIC Nord Ouest"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "30033",
+    "name": "Pimco Europe GmbH French Branch",
+    "short_name": "Pimco Europe GmbH French Branch"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRP1CIO",
+    "bank_code": "30047",
+    "name": "Banque CIC Ouest",
+    "short_name": "Banque CIC Ouest"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CFFOFRPP",
+    "bank_code": "30051",
+    "name": "Compagnie de financement foncier",
+    "short_name": "Compagnie de financement foncier"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCFRFRPP",
+    "bank_code": "30056",
+    "name": "HSBC Continental Europe",
+    "short_name": "HSBC Continental Europe"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRPP",
+    "bank_code": "30066",
+    "name": "Cr\u00e9dit industriel et commercial - CIC",
+    "short_name": "Cr\u00e9dit industriel et commercial - CIC"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRP1SNV",
+    "bank_code": "30087",
+    "name": "Banque CIC Est",
+    "short_name": "Banque CIC Est"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "30133",
+    "name": "Banque J. Safra Sarasin (Luxembourg) SA, Succursale en France",
+    "short_name": "Banque J. Safra Sarasin (Luxembourg) SA, Succursale en France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "OPPFFRP2",
+    "bank_code": "30233",
+    "name": "Openpayd Financial Services Malta Limited",
+    "short_name": "Openpayd Financial Services Malta Limited"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BATIFRP1",
+    "bank_code": "30258",
+    "name": "Banque du b\u00e2timent et des travaux publics - BTP banque",
+    "short_name": "Banque du b\u00e2timent et des travaux publics - BTP banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "30433",
+    "name": "WisdomTree Ireland Limited",
+    "short_name": "WisdomTree Ireland Limited"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "INGBFRPP",
+    "bank_code": "30438",
+    "name": "ING Bank NV",
+    "short_name": "ING Bank NV"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MONTFRPP",
+    "bank_code": "30478",
+    "name": "BANQUE NOUVANT",
+    "short_name": "BANQUE NOUVANT"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "30533",
+    "name": "Convera Europe S.A.",
+    "short_name": "Convera Europe S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFRP1BTR",
+    "bank_code": "30568",
+    "name": "Banque Transatlantique S.A.",
+    "short_name": "Banque Transatlantique S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BARCFRPC",
+    "bank_code": "30588",
+    "name": "Barclays Bank Ireland",
+    "short_name": "Barclays Bank Ireland"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CHASFRPP",
+    "bank_code": "30628",
+    "name": "J.P. Morgan SE",
+    "short_name": "J.P. Morgan SE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "30633",
+    "name": "Convera Europe Financial S.A.",
+    "short_name": "Convera Europe Financial S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "TRYEFRP2",
+    "bank_code": "30733",
+    "name": "TRUELAYER (IRELAND) LIMITED",
+    "short_name": "TRUELAYER (IRELAND) LIMITED"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "LAZPFRPP",
+    "bank_code": "30748",
+    "name": "Lazard Fr\u00e8res Banque",
+    "short_name": "Lazard Fr\u00e8res Banque"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "UBSWFRPP",
+    "bank_code": "30758",
+    "name": "UBS Europe SE",
+    "short_name": "UBS Europe SE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NSMBFRPP",
+    "bank_code": "30788",
+    "name": "ABN Amro Bank NV",
+    "short_name": "ABN Amro Bank NV"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "FNOMFRP2",
+    "bank_code": "30833",
+    "name": "Finom Payments B.V.",
+    "short_name": "Finom Payments B.V."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NAVPFRP2",
+    "bank_code": "30933",
+    "name": "Narvi Payments Oy Ab",
+    "short_name": "Narvi Payments Oy Ab"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "30958",
+    "name": "BNP Paribas Lease Group",
+    "short_name": "BNP Paribas Lease Group"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "TRBKFRPP",
+    "bank_code": "31233",
+    "name": "Trade Republic Bank GmbH",
+    "short_name": "Trade Republic Bank GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "31333",
+    "name": "Banque Internationale \u00e0 Luxembourg S.A.",
+    "short_name": "Banque Internationale \u00e0 Luxembourg S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "31433",
+    "name": "Waystone Investment Management (IE) Limited",
+    "short_name": "Waystone Investment Management (IE) Limited"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BSUIFRPP",
+    "bank_code": "31489",
+    "name": "Cr\u00e9dit agricole corporate and investment bank",
+    "short_name": "Cr\u00e9dit agricole corporate and investment bank"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PNVTFR22",
+    "bank_code": "31533",
+    "name": "PAYNOVATE",
+    "short_name": "PAYNOVATE"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MOLUFR22",
+    "bank_code": "31633",
+    "name": "3S Money (Luxembourg) S.A",
+    "short_name": "3S Money (Luxembourg) S.A"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "VIVOFRP2",
+    "bank_code": "31733",
+    "name": "Vivid Money S.A.",
+    "short_name": "Vivid Money S.A."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AIRWFRP2",
+    "bank_code": "31933",
+    "name": "Airwallex (Netherlands) B.V.",
+    "short_name": "Airwallex (Netherlands) B.V."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "32033",
+    "name": "Mount Street Portfolio Advisers GmbH",
+    "short_name": "Mount Street Portfolio Advisers GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "UPSMFR22",
+    "bank_code": "32233",
+    "name": "Upvest Securities GmbH",
+    "short_name": "Upvest Securities GmbH"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "32333",
+    "name": "Wells Fargo Bank International Unlimited Company",
+    "short_name": "Wells Fargo Bank International Unlimited Company"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CDCGFRPP",
+    "bank_code": "40031",
+    "name": "Caisse des d\u00e9p\u00f4ts et consignations - section g\u00e9n\u00e9rale",
+    "short_name": "Caisse des d\u00e9p\u00f4ts et consignations - section g\u00e9n\u00e9rale"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BICFFRPP",
+    "bank_code": "40398",
+    "name": "Banque internationale de commerce - BRED",
+    "short_name": "Banque internationale de commerce - BRED"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BOUSFRPP",
+    "bank_code": "40618",
+    "name": "Boursorama",
+    "short_name": "Boursorama"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BSPFFRPP",
+    "bank_code": "40978",
+    "name": "Banque Palatine",
+    "short_name": "Banque Palatine"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BBVAFRPP",
+    "bank_code": "41189",
+    "name": "Banco Bilbao Vizcaya Argentaria (BBVA)",
+    "short_name": "Banco Bilbao Vizcaya Argentaria (BBVA)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BOFAFRPP",
+    "bank_code": "41219",
+    "name": "BANK OF AMERICA EUROPE DESIGNATED ACTIVITY COMPANY",
+    "short_name": "BANK OF AMERICA EUROPE DESIGNATED ACTIVITY COMPANY"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BOTKFRPX",
+    "bank_code": "41249",
+    "name": "MUFG Bank, Ltd",
+    "short_name": "MUFG Bank, Ltd"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MELIFRP1",
+    "bank_code": "41259",
+    "name": "Bank Melli Iran",
+    "short_name": "Bank Melli Iran"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BNPAFRPP",
+    "bank_code": "41329",
+    "name": "BNP Paribas",
+    "short_name": "BNP Paribas"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BCDMFRPP",
+    "bank_code": "41439",
+    "name": "Banque Chaabi du Maroc",
+    "short_name": "Banque Chaabi du Maroc"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGRIFRP1ACF",
+    "bank_code": "41539",
+    "name": "CA Consumer Finance",
+    "short_name": "CA Consumer Finance"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "NBOKFRPP",
+    "bank_code": "41639",
+    "name": "NBK France SA",
+    "short_name": "NBK France SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "LICOFRPP",
+    "bank_code": "41829",
+    "name": "Al Khaliji France",
+    "short_name": "Al Khaliji France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BNPARERX",
+    "bank_code": "41919",
+    "name": "BNP Paribas R\u00e9union",
+    "short_name": "BNP Paribas R\u00e9union"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "COFIFRPP",
+    "bank_code": "42529",
+    "name": "Edmond de Rothschild (France)",
+    "short_name": "Edmond de Rothschild (France)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CCOPFRPP",
+    "bank_code": "42559",
+    "name": "Cr\u00e9dit coop\u00e9ratif",
+    "short_name": "Cr\u00e9dit coop\u00e9ratif"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "MOEYFRPP",
+    "bank_code": "42799",
+    "name": "My Money Bank",
+    "short_name": "My Money Bank"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CFFRFRPP",
+    "bank_code": "43199",
+    "name": "Cr\u00e9dit Foncier de France",
+    "short_name": "Cr\u00e9dit Foncier de France"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SCBNFR21",
+    "bank_code": "43629",
+    "name": "Soci\u00e9t\u00e9 anonyme de cr\u00e9dit \u00e0 l'industrie fran\u00e7aise (C.A.L.I.F.)",
+    "short_name": "Soci\u00e9t\u00e9 anonyme de cr\u00e9dit \u00e0 l'industrie fran\u00e7aise (C.A.L.I.F.)"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SIBLFRPP",
+    "bank_code": "43799",
+    "name": "CA Indosuez",
+    "short_name": "CA Indosuez"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "UTUBFRPP",
+    "bank_code": "43849",
+    "name": "Tunisian foreign bank",
+    "short_name": "Tunisian foreign bank"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "UBAFFRPP",
+    "bank_code": "43899",
+    "name": "Union de banques arabes et fran\u00e7aises - U.B.A.F.",
+    "short_name": "Union de banques arabes et fran\u00e7aises - U.B.A.F."
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ESCBFRPP",
+    "bank_code": "44149",
+    "name": "Banque d'escompte",
+    "short_name": "Banque d'escompte"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "SDINFRP1",
+    "bank_code": "44269",
+    "name": "Bank Saderat Iran",
+    "short_name": "Bank Saderat Iran"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "PREUFRP1",
+    "bank_code": "44319",
+    "name": "Louvre Banque Priv\u00e9e",
+    "short_name": "Louvre Banque Priv\u00e9e"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BSCHFRPP",
+    "bank_code": "44729",
+    "name": "Banco Santander SA",
+    "short_name": "Banco Santander SA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AGFDFRPA",
+    "bank_code": "45129",
+    "name": "Agence fran\u00e7aise de d\u00e9veloppement",
+    "short_name": "Agence fran\u00e7aise de d\u00e9veloppement"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "",
+    "bank_code": "45159",
+    "name": "Institut d'\u00e9mission des d\u00e9partements d'Outre-Mer",
+    "short_name": "Institut d'\u00e9mission des d\u00e9partements d'Outre-Mer"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "INDDFRP1",
+    "bank_code": "45189",
+    "name": "Institut d'\u00e9mission d'Outre-Mer",
+    "short_name": "Institut d'\u00e9mission d'Outre-Mer"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "AULSFRP2",
+    "bank_code": "45340",
+    "name": "Aurel - BGC",
+    "short_name": "Aurel - BGC"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "BNABFRPP",
+    "bank_code": "45418",
+    "name": "BNP PARIBAS FINANCIAL MARKETS",
+    "short_name": "BNP PARIBAS FINANCIAL MARKETS"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CMCIFR2A",
+    "bank_code": "45539",
+    "name": "Caisse centrale du cr\u00e9dit mutuel",
+    "short_name": "Caisse centrale du cr\u00e9dit mutuel"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "ODDOFRPP",
+    "bank_code": "45850",
+    "name": "Oddo BHF SCA",
+    "short_name": "Oddo BHF SCA"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "CADCFR21",
+    "bank_code": "60220",
+    "name": "Caisse de d\u00e9veloppement de la Corse",
+    "short_name": "Caisse de d\u00e9veloppement de la Corse"
+  },
+  {
+    "country_code": "FR",
+    "bic": "LAYDFR2W",
+    "bank_code": "10228",
+    "name": "BANQUE LAYDERNIER",
+    "short_name": "BANQUE LAYDERNIER",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "LAYDFR2WXXX",
+    "bank_code": "10228",
+    "name": "BANQUE LAYDERNIER",
+    "short_name": "BANQUE LAYDERNIER",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "COURFR2T",
+    "bank_code": "10268",
+    "name": "BANQUE COURTOIS (SUCCESSEUR DE L'ANCIENNE MAISON COURTOIS & CIE DEPUIS 1760)",
+    "short_name": "BANQUE COURTOIS (SUCCESSEUR DE L'ANCIENNE MAISON COURTOIS & CIE DEPUIS 1760)",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "COURFR2TXXX",
+    "bank_code": "10268",
+    "name": "BANQUE COURTOIS (SUCCESSEUR DE L'ANCIENNE MAISON COURTOIS & CIE DEPUIS 1760)",
+    "short_name": "BANQUE COURTOIS (SUCCESSEUR DE L'ANCIENNE MAISON COURTOIS & CIE DEPUIS 1760)",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "NORDFRPPXXX",
+    "bank_code": "10268",
+    "name": "CREDIT DU NORD",
+    "short_name": "CREDIT DU NORD",
+    "primary": false,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "RALPFR2G",
+    "bank_code": "10468",
+    "name": "BANQUE RHONE-ALPES",
+    "short_name": "BANQUE RHONE-ALPES",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "RALPFR2GXXX",
+    "bank_code": "10468",
+    "name": "BANQUE RHONE-ALPES",
+    "short_name": "BANQUE RHONE-ALPES",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "TARNFR2L",
+    "bank_code": "10558",
+    "name": "BANQUE TARNEAUD",
+    "short_name": "BANQUE TARNEAUD",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "TARNFR2LXXX",
+    "bank_code": "10558",
+    "name": "BANQUE TARNEAUD",
+    "short_name": "BANQUE TARNEAUD",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "NOVUFR21XXX",
+    "bank_code": "11658",
+    "name": "NOUVELLE VAGUE",
+    "short_name": "NOUVELLE VAGUE",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "CCBPFRPP",
+    "bank_code": "11907",
+    "name": "Banque populaire du Massif central",
+    "short_name": "Banque populaire du Massif central",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "BDUPFR2SXXX",
+    "bank_code": "12939",
+    "name": "B",
+    "short_name": "A",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "FIDCFR21XXX",
+    "bank_code": "13179",
+    "name": "BANQUE FIDUCIAL",
+    "short_name": "BANQUE FIDUCIAL",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "KOLBFR21",
+    "bank_code": "13259",
+    "name": "BANQUE KOLB",
+    "short_name": "BANQUE KOLB",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "KOLBFR21XXX",
+    "bank_code": "13259",
+    "name": "BANQUE KOLB",
+    "short_name": "BANQUE KOLB",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "BMRZFR21XXX",
+    "bank_code": "13379",
+    "name": "BANQUE MARZE SA",
+    "short_name": "BANQUE MARZE SA",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "BNUGFR21",
+    "bank_code": "13489",
+    "name": "BANQUE NUGER",
+    "short_name": "BANQUE NUGER",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "BNUGFR21XXX",
+    "bank_code": "13489",
+    "name": "BANQUE NUGER",
+    "short_name": "BANQUE NUGER",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "NORDFRPP",
+    "bank_code": "13489",
+    "name": "CREDIT DU NORD",
+    "short_name": "CREDIT DU NORD",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "INGBFR21",
+    "bank_code": "14559",
+    "name": "ING Direct N.V.",
+    "short_name": "ING Direct N.V.",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "BREUFR22XXX",
+    "bank_code": "14818",
+    "name": "BANCA REGIONALE EUROPEA S.P.A.",
+    "short_name": "BANCA REGIONALE EUROPEA S.P.A.",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "CCBPFRPPXXX",
+    "bank_code": "15607",
+    "name": "BANQUE POPULAIRE GRAND OUEST",
+    "short_name": "BANQUE POPULAIRE GRAND OUEST",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "CMCIFR2AXXX",
+    "bank_code": "15629",
+    "name": "CREDIT MUTUEL",
+    "short_name": "CREDIT MUTUEL",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "CMCIFR2AXXX",
+    "bank_code": "16159",
+    "name": "CREDIT MUTUEL",
+    "short_name": "CREDIT MUTUEL",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "EDPIFR21XXX",
+    "bank_code": "16658",
+    "name": "EDENRED PAIEMENT",
+    "short_name": "EDENRED PAIEMENT",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "CCBPFRPP",
+    "bank_code": "16707",
+    "name": "Banque populaire de l'Ouest",
+    "short_name": "Banque populaire de l'Ouest",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "MRNGFR21XXX",
+    "bank_code": "16768",
+    "name": "MORNING",
+    "short_name": "MORNING",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "LBDIFRP1XXX",
+    "bank_code": "16908",
+    "name": "MA FRENCH BANK",
+    "short_name": "MA FRENCH BANK",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "CCBPFRPPXXX",
+    "bank_code": "17169",
+    "name": "BANQUE POPULAIRE GRAND OUEST",
+    "short_name": "BANQUE POPULAIRE GRAND OUEST",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "CEPAFRPP",
+    "bank_code": "18025",
+    "name": "Caisse d'\u00e9pargne et de pr\u00e9voyance de Picardie",
+    "short_name": "Caisse d'\u00e9pargne et de pr\u00e9voyance de Picardie",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "GPBAFRPP",
+    "bank_code": "18370",
+    "name": "ORANGE BANK",
+    "short_name": "ORANGE BANK",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "GPBAFRPPXXX",
+    "bank_code": "18370",
+    "name": "ORANGE BANK",
+    "short_name": "ORANGE BANK",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "PRNSFRP1XXX",
+    "bank_code": "21833",
+    "name": "PREPAID FINANCIAL SERVICES LTD",
+    "short_name": "PREPAID FINANCIAL SERVICES LTD",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "NORDFRPP",
+    "bank_code": "30076",
+    "name": "CREDIT DU NORD",
+    "short_name": "CREDIT DU NORD",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "NORDFRPPXXX",
+    "bank_code": "30076",
+    "name": "CREDIT DU NORD",
+    "short_name": "CREDIT DU NORD",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "NORDFRPP",
+    "bank_code": "30077",
+    "name": "CREDIT DU NORD",
+    "short_name": "CREDIT DU NORD",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "SMCTFR2A",
+    "bank_code": "30077",
+    "name": "SOCIETE MARSEILLAISE DE CREDIT",
+    "short_name": "SOCIETE MARSEILLAISE DE CREDIT",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "SMCTFR2AXXX",
+    "bank_code": "30077",
+    "name": "SOCIETE MARSEILLAISE DE CREDIT",
+    "short_name": "SOCIETE MARSEILLAISE DE CREDIT",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "CMCIFRPPXXX",
+    "bank_code": "41199",
+    "name": "CREDIT INDUSTRIEL ET COMMERCIAL",
+    "short_name": "CREDIT INDUSTRIEL ET COMMERCIAL",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "TRAVFRPPXXX",
+    "bank_code": "42649",
+    "name": "BANQUE TRAVELEX SA",
+    "short_name": "BANQUE TRAVELEX SA",
+    "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "bic": "PRNSFRP1XXX",
+    "bank_code": "74202",
+    "name": "PREPAID FINANCIAL SERVICES LTD",
+    "short_name": "PREPAID FINANCIAL SERVICES LTD",
+    "primary": true,
+    "status": "delisted"
+  }
+]

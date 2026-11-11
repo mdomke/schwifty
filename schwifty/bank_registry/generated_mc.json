@@ -1,0 +1,138 @@
+[
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "CMMDMCM1",
+    "bank_code": "10160",
+    "name": "Cr\u00e9dit mobilier de Monaco",
+    "short_name": "Cr\u00e9dit mobilier de Monaco"
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "BERLMCMC",
+    "bank_code": "11668",
+    "name": "Edmond de Rothschild (Monaco)",
+    "short_name": "Edmond de Rothschild (Monaco)"
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "UBSWMCMX",
+    "bank_code": "11999",
+    "name": "UBS (Monaco) S.A.",
+    "short_name": "UBS (Monaco) S.A."
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "BARCMCMX",
+    "bank_code": "12448",
+    "name": "Barclays bank plc Monaco",
+    "short_name": "Barclays bank plc Monaco"
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "CFMOMCMX",
+    "bank_code": "12739",
+    "name": "CFM Indosuez Wealth",
+    "short_name": "CFM Indosuez Wealth"
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "KBLXMCMC",
+    "bank_code": "13338",
+    "name": "BANQUE RICHELIEU MONACO",
+    "short_name": "BANQUE RICHELIEU MONACO"
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "SGBTMCMC",
+    "bank_code": "13368",
+    "name": "Soci\u00e9t\u00e9 g\u00e9n\u00e9rale private banking (Monaco)",
+    "short_name": "Soci\u00e9t\u00e9 g\u00e9n\u00e9rale private banking (Monaco)"
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "MMSEMCM1",
+    "bank_code": "14478",
+    "name": "ROTHSCHILD & CO WEALTH MANAGEMENT MONACO",
+    "short_name": "ROTHSCHILD & CO WEALTH MANAGEMENT MONACO"
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "BAERMCMC",
+    "bank_code": "14508",
+    "name": "Bank Julius Baer (Monaco) S.A.M.",
+    "short_name": "Bank Julius Baer (Monaco) S.A.M."
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "POSOMCM1",
+    "bank_code": "14908",
+    "name": "Banca popolare di Sondrio (Suisse)",
+    "short_name": "Banca popolare di Sondrio (Suisse)"
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "BACAMCMC",
+    "bank_code": "15638",
+    "name": "Andbank Monaco S.A.M.",
+    "short_name": "Andbank Monaco S.A.M."
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "HAVLMCMX",
+    "bank_code": "16038",
+    "name": "Moncrief Private Bank (Monaco) S.A.M.",
+    "short_name": "Moncrief Private Bank (Monaco) S.A.M."
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "UBPGMCMX",
+    "bank_code": "16648",
+    "name": "UNION BANCAIRE PRIVEE, UBP SA",
+    "short_name": "UNION BANCAIRE PRIVEE, UBP SA"
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "PICTMCMC",
+    "bank_code": "17288",
+    "name": "Bank PICTET & CIE (Europe) AG",
+    "short_name": "Bank PICTET & CIE (Europe) AG"
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "CMBMMCMX",
+    "bank_code": "17569",
+    "name": "CMB MONACO",
+    "short_name": "CMB MONACO"
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "EFGBMCMC",
+    "bank_code": "18759",
+    "name": "EFG Bank (Monaco)",
+    "short_name": "EFG Bank (Monaco)"
+  },
+  {
+    "country_code": "MC",
+    "primary": true,
+    "bic": "BJSBMCMX",
+    "bank_code": "24349",
+    "name": "Banque J. Safra Sarasin (Monaco) SA",
+    "short_name": "Banque J. Safra Sarasin (Monaco) SA"
+  }
+]

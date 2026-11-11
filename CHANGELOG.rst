@@ -26,6 +26,16 @@ Changed
   alphabetically. Records of the same rank are ordered by name and bank code. The deprecated
   ``BIC.bank_name``, ``BIC.bank_short_name`` and ``BIC.country_bank_code``, which return the first
   entry of these lists, change accordingly (#113).
+* The French and Monegasque bank registries are generated from REGAFI, the register of the
+  Autorité de contrôle prudentiel et de résolution, with BICs from GLEIF's BIC-to-LEI mapping. The
+  French registry was maintained by hand and covered 217 bank codes. It now covers all 796 that
+  REGAFI lists, among them payment and e-money institutions, finance companies and investment
+  firms, and the Monegasque one 17 instead of one. Among an institution's BICs, the ones that the
+  SCL directory lists as reachable for SEPA payments are preferred, which gives subsidiaries their
+  own BIC instead of the one of their group, e.g. Banque CIC Est (``30087``) resolves to
+  ``CMCIFRP1SNV`` instead of ``CMCIFRPP``. 556 bank codes have a BIC. Bank codes that REGAFI no
+  longer lists, such as those of Crédit du Nord and Orange Bank, are kept as delisted. The manual
+  registry only keeps additional BICs of a bank code, such as the branch BICs of BNP Paribas.
 * The Irish and Maltese bank registries are generated from the SCL directory, since their IBANs
   use the bank code of the BIC. This adds 234 Irish bank codes, most of them of credit unions, and
   40 Maltese ones. The manual registries keep the codes that the directory doesn't list, such as
