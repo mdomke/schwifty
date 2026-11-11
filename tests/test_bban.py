@@ -156,13 +156,16 @@ def test_bank_prefers_the_best_ranked_record_of_every_registered_bank_code() -> 
             entries = registry.get_banks_by_code(country_code, bank_code)
             if not bank_code:
                 continue
-            with suppress(InvalidAccountCode):
-                # See the comment in
-                # test_bank_and_bic_describe_the_same_record_for_every_registered_bank_code.
-                bban = BBAN.from_components(country_code, bank_code=bank_code)
-            best = max(map(lookup_rank, entries))
-            if bban.bank is not None and lookup_rank(bban.bank) != best:
-                not_best.append((country_code, bank_code, bban.bank.bic))
+            with suppress(GenerateRandomOverflowError):
+                # Aligned with the approach in
+                # test_bank_and_bic_describe_the_same_record_for_every_registered_bank_code:
+                # with a random account code every bank code should admit a
+                # constructible BBAN; the very few codes where even that is
+                # impossible are skipped, so the checks live inside the block.
+                bban = BBAN.random(country_code, bank_code=bank_code)
+                best = max(map(lookup_rank, entries))
+                if bban.bank is not None and lookup_rank(bban.bank) != best:
+                    not_best.append((country_code, bank_code, bban.bank.bic))
     assert not not_best
 
 
