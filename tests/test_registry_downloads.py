@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 from types import ModuleType
 from types import SimpleNamespace
+from typing import Any
 from unittest.mock import patch
 
 import pytest
@@ -313,3 +314,79 @@ def test_bank_registry_from_scl_directory(monkeypatch: pytest.MonkeyPatch) -> No
         ("ABRN", "ABRNIE21", True),
         ("ABRN", "ABRNIE21XYZ", False),
     ]
+
+
+def regafi_entity(
+    entity_id: str,
+    name: str,
+    cibs: list[str],
+    lei: str | None = None,
+    category: str = "Établissement de Crédit",
+    country: str = "FRANCE",
+) -> dict[str, Any]:
+    return {
+        "id_referentiel": entity_id,
+        "cib": json.dumps([{"code": cib, "date": "2000-01-01"} for cib in cibs]),
+        "lei": lei,
+        "denomination": name,
+        "nom_commerciaux": None,
+        "sigle": None,
+        "categorie": [category],
+        "pays": country,
+    }
+
+
+def test_french_registry_prefers_reachable_bics(monkeypatch: pytest.MonkeyPatch) -> None:
+    script = load_script("get_bank_registry_fr")
+    monkeypatch.setattr(script, "MIN_RECORDS", 1)
+    entities = [
+        # Its own branch BIC can be reached through its institution, and wins over the group BIC
+        # of the manual registry.
+        regafi_entity("1", "Banque CIC Est", ["30087"], lei="LEI1"),
+        # Among several reachable BICs, the curated one of the previous registry wins.
+        regafi_entity("2", "BFC Océan Indien", ["18719"], lei="LEI2"),
+        # Without a reachable BIC, the previous registry wins over GLEIF.
+        regafi_entity("3", "Bayerische Landesbank", ["10108"], lei="LEI3"),
+        # Without a previous BIC, connected BICs win over passive ones.
+        regafi_entity("4", "Toyota Kreditbank", ["13878"], lei="LEI4"),
+        # Without any BIC from GLEIF, a BIC of the SCL directory with the same name is taken.
+        regafi_entity("5", "Alma", ["17408"]),
+        regafi_entity("6", "Holding", ["99999"], category="Compagnie financière holding"),
+        regafi_entity("7", "Banque de Monaco", ["12345"], lei="LEI7", country="MONACO"),
+    ]
+    bics_by_lei = {
+        "LEI1": ["CMCIFRP1SNV"],
+        "LEI2": ["BFCOFRPP", "BFCORERX", "BFCOYTYT"],
+        "LEI3": ["BYLAFRP1"],
+        "LEI4": ["TKGTFR21", "TKGTFRPP"],
+        "LEI7": ["BAMOMCM1"],
+    }
+    scl = {
+        "CMCIFRP1": ("CREDIT MUTUEL CIC BANQUES", ["SCT"]),
+        "BFCOFRPP": ("BFC OCEAN INDIEN PARIS", ["SCT"]),
+        "BFCORERX": ("BFC OCEAN INDIEN", ["SCT"]),
+        "AALMFR22": ("ALMA", ["SCT"]),
+    }
+    known = {"30087": "CMCIFRPP", "18719": "BFCORERX", "10108": "BYLAFRPP"}
+    registries = script.process(entities, bics_by_lei, scl, known)
+    bics = {entry["bank_code"]: entry["bic"] for entry in registries["FR"]}
+    assert bics == {
+        "30087": "CMCIFRP1SNV",
+        "18719": "BFCORERX",
+        "10108": "BYLAFRPP",
+        "13878": "TKGTFRPP",
+        "17408": "AALMFR22",
+    }
+    assert [(entry["bank_code"], entry["bic"]) for entry in registries["MC"]] == [
+        ("12345", "BAMOMCM1")
+    ]
+
+
+def test_french_registry_keeps_the_bic_of_the_primary_record() -> None:
+    script = load_script("get_bank_registry_fr")
+    manual = [
+        {"bank_code": "30004", "bic": "BNPAFRPPIFN", "primary": False},
+        {"bank_code": "30004", "bic": "BNPAFRPPXXX", "primary": True},
+        {"bank_code": "10096", "bic": "CMCIFRPP", "primary": False},
+    ]
+    assert script.known_bics([], manual) == {"30004": "BNPAFRPP", "10096": "CMCIFRPP"}

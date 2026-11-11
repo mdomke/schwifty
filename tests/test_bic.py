@@ -307,7 +307,7 @@ def test_bic_structure_is_validated_over_full_string() -> None:
         ("FR", "30004", "BNPAFRPP"),
         ("FR", "30066", "CMCIFRPP"),
         ("FR", "17469", "SOCBPFTX"),
-        ("FR", "10096", "CMCIFRPP"),
+        ("FR", "10096", "CMCIFRP1LYB"),  # its own BIC, not the one of its group
         ("FR", "18719", "BFCORERX"),  # head office, not the Mayotte branch
         ("FR", "30077", "SMCTFR2A"),
         ("FR", "13489", "NORDFRPP"),
