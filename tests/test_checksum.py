@@ -371,10 +371,9 @@ def test_norway_checksum_checksum_edge_case() -> None:
     assert algorithms["NO:default"].validate(["6042", "143964"], "0") is True
 
 
-def test_norway_checksum_interbank_account_group() -> None:
-    # Interbank accounts (account group "00") must weight all ten digits
-    # preceding the control digit, including the bank register number.
-    # https://github.com/mdomke/schwifty/issues/356
+def test_norway_checksum_interbank_account_series() -> None:
+    # Accounts with the account series 00 weight all ten digits, including the bank register
+    # number, like any other account (#356).
     assert algorithms["NO:default"].compute(["1204", "001234"]) == "4"
     assert algorithms["NO:default"].validate(["1204", "001234"], "4") is True
     assert algorithms["NO:default"].validate(["1204", "001234"], "3") is False

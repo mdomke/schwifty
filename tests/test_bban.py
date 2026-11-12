@@ -119,6 +119,16 @@ def test_merged_bank_resolves_to_its_successor_under_a_new_bank_code() -> None:
     assert bban.bic == "UNCRITMM"
 
 
+def bban_of(country_code: str, bank_code: str) -> BBAN:
+    """Return a valid BBAN with ``bank_code``, whose account code doesn't matter."""
+    try:
+        return BBAN.from_components(country_code, bank_code=bank_code)
+    except InvalidAccountCode:
+        # With some bank codes, e.g. the Norwegian 0538, an account code of zeros has no valid
+        # check digit.
+        return BBAN.random(country_code, random=Random(0), bank_code=bank_code)  # noqa: S311
+
+
 def test_bank_and_bic_describe_the_same_record_for_every_registered_bank_code() -> None:
     # ``BBAN.bank`` and ``BBAN.bic`` used to pick their record differently, by file order and
     # by the alphabet, so that e.g. the name of Revolut Bank UK came with the BIC of Revolut Ltd.
@@ -129,18 +139,13 @@ def test_bank_and_bic_describe_the_same_record_for_every_registered_bank_code() 
         ):
             if not bank_code:
                 continue
-            with suppress(GenerateRandomOverflowError):
-                # With a random account code every bank code should admit a
-                # constructible BBAN.  The very few codes where even that is
-                # impossible are a property of the checksum rule, not of the
-                # record, and are simply skipped here.
-                bban = BBAN.random(country_code, bank_code=bank_code)
-                if (
-                    bban.bank is not None
-                    and bban.bank.bic
-                    and (bban.bic is None or bban.bic.canonical != BIC(bban.bank.bic).canonical)
-                ):
-                    disagree.append((country_code, bank_code, bban.bank.bic, bban.bic))
+            bban = bban_of(country_code, bank_code)
+            if (
+                bban.bank is not None
+                and bban.bank.bic
+                and (bban.bic is None or bban.bic.canonical != BIC(bban.bank.bic).canonical)
+            ):
+                disagree.append((country_code, bank_code, bban.bank.bic, bban.bic))
     assert not disagree
 
 
@@ -156,16 +161,10 @@ def test_bank_prefers_the_best_ranked_record_of_every_registered_bank_code() -> 
             entries = registry.get_banks_by_code(country_code, bank_code)
             if not bank_code:
                 continue
-            with suppress(GenerateRandomOverflowError):
-                # Aligned with the approach in
-                # test_bank_and_bic_describe_the_same_record_for_every_registered_bank_code:
-                # with a random account code every bank code should admit a
-                # constructible BBAN; the very few codes where even that is
-                # impossible are skipped, so the checks live inside the block.
-                bban = BBAN.random(country_code, bank_code=bank_code)
-                best = max(map(lookup_rank, entries))
-                if bban.bank is not None and lookup_rank(bban.bank) != best:
-                    not_best.append((country_code, bank_code, bban.bank.bic))
+            bban = bban_of(country_code, bank_code)
+            best = max(map(lookup_rank, entries))
+            if bban.bank is not None and lookup_rank(bban.bank) != best:
+                not_best.append((country_code, bank_code, bban.bank.bic))
     assert not not_best
 
 

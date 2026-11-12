@@ -18,12 +18,6 @@ Added
   ``scripts/get_scl_directory.py`` downloads, and which lists the payment service providers that
   can be reached through its SEPA clearer (#148).
 
-Fixed
-~~~~~
-* Fixed the Norwegian mod-11 check digit for accounts with the account group ``00`` (interbank
-  accounts): the bank register number is now included in the weighted sum as the official rule
-  requires, instead of being silently dropped (#356).
-
 Changed
 ~~~~~~~
 * :attr:`.BIC.banks`, :attr:`.BIC.domestic_bank_codes`, :attr:`.BIC.bank_names` and
@@ -56,6 +50,11 @@ Fixed
   now serviced by OTP banka (``KBMASI2X``). The Czech entry had lost its BIC altogether (#138).
 * Added the Portuguese bank code ``5200`` of Caixa de Crédito Agrícola Mútuo de Mafra
   (``CDOTPTP1``) and the Monegasque bank code ``30004`` of BNP Paribas (``BNPAMCM1``) (#138).
+* The Norwegian check digit of accounts with the account series ``00``, which is reserved for
+  settlement accounts between banks, weights all ten digits like for any other account. It was
+  computed from the last four digits of the account number only, which gave a different check
+  digit for most bank codes, e.g. ``1204.00.12344`` was rejected and ``IBAN.generate`` returned
+  ``1204.00.12343`` (#356).
 
 `2026.11.0`_ - 2026/11/05
 -------------------------
