@@ -18,6 +18,12 @@ Added
   ``scripts/get_scl_directory.py`` downloads, and which lists the payment service providers that
   can be reached through its SEPA clearer (#148).
 
+Fixed
+~~~~~
+* Fixed the Norwegian mod-11 check digit for accounts with the account group ``00`` (interbank
+  accounts): the bank register number is now included in the weighted sum as the official rule
+  requires, instead of being silently dropped (#356).
+
 Changed
 ~~~~~~~
 * :attr:`.BIC.banks`, :attr:`.BIC.domestic_bank_codes`, :attr:`.BIC.bank_names` and
