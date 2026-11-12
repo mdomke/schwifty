@@ -109,9 +109,9 @@ an account:
 
 .. code-block:: pycon
 
-  >>> from schwifty import BIC
+  >>> from schwifty import IBAN
   >>> from schwifty.domain import SEPAScheme
-  >>> SEPAScheme.CORE_DIRECT_DEBIT in BIC("COBADEFF").sepa_schemes
+  >>> SEPAScheme.CORE_DIRECT_DEBIT in IBAN("DE89 3704 0044 0532 0130 00").sepa_schemes
   True
   >>> registry.get_sepa_schemes("DEUTDEDBPAL")
   frozenset({<SEPAScheme.CREDIT_TRANSFER: 'SCT'>})

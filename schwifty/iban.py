@@ -17,6 +17,7 @@ from schwifty.checksum import ISO7064_mod97_10
 from schwifty.checksum import numerify
 from schwifty.domain import Bank
 from schwifty.domain import IBANSpec
+from schwifty.domain import SEPAScheme
 
 
 _IBAN_STRUCTURE_RE = re.compile(r"[A-Z]{2}\d{2}[A-Z0-9]+")
@@ -315,9 +316,29 @@ class IBAN(common.Base):
     def in_sepa_zone(self) -> bool:
         """bool: Is the country in the Single Euro Payments Area (SEPA) zone.
 
+        This tells whether the country takes part in SEPA, not the bank. Use :attr:`sepa_schemes`
+        for the schemes that the bank takes part in.
+
         .. versionadded:: 2024.01.1
         """
         return self.spec.in_sepa_zone
+
+    @property
+    def sepa_schemes(self) -> frozenset[SEPAScheme]:
+        """frozenset[SEPAScheme]: The SEPA schemes that the bank of this IBAN takes part in.
+
+        These are the schemes of the BIC that :attr:`bic` returns, see :attr:`.BIC.sepa_schemes`.
+        The set is empty if the bank code or its BIC is unknown, which means that the
+        participation is unknown, not that the bank takes part in none. Unlike
+        :attr:`in_sepa_zone`, which tells whether the country takes part in SEPA, this tells
+        whether e.g. a direct debit can be collected from the account's bank.
+
+        Examples:
+            >>> from schwifty.domain import SEPAScheme
+            >>> SEPAScheme.CORE_DIRECT_DEBIT in IBAN("DE89370400440532013000").sepa_schemes
+            True
+        """
+        return self.bban.sepa_schemes
 
     @property
     def is_aspirational(self) -> bool:

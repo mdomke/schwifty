@@ -33,7 +33,7 @@ schemes that banks take part in.
   >>> iban.bank.name, iban.bic
   ('Commerzbank', <BIC=COBADEFF>)
   >>> from schwifty.domain import SEPAScheme
-  >>> SEPAScheme.CORE_DIRECT_DEBIT in iban.bic.sepa_schemes
+  >>> SEPAScheme.CORE_DIRECT_DEBIT in iban.sepa_schemes
   True
 
 Features
@@ -61,7 +61,7 @@ Features
   from the official sources of central banks and banking associations where they are available
 * identify `retired bank codes`_ that IBANs in circulation still carry, and tell whether their
   bank merged into another one or closed
-* check which `SEPA schemes`_ the institution of a BIC takes part in, from the SCL directory of
+* check which `SEPA schemes`_ the bank of an IBAN or BIC takes part in, from the SCL directory of
   the Deutsche Bundesbank
 
 See the `docs <https://schwifty.readthedocs.io>`_ for more information.

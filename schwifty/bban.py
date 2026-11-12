@@ -20,6 +20,7 @@ from schwifty.domain import Component
 from schwifty.domain import IBANSpec
 from schwifty.domain import lookup_rank
 from schwifty.domain import Range
+from schwifty.domain import SEPAScheme
 
 
 # The national checksum is now constructed rather than guessed, so a valid BBAN is
@@ -352,6 +353,22 @@ class BBAN(common.Base):
             return BIC.from_bank_code(self.country_code, self._bank_lookup_key)
         except exceptions.SchwiftyException:
             return None
+
+    @property
+    def sepa_schemes(self) -> frozenset[SEPAScheme]:
+        """frozenset[SEPAScheme]: The SEPA schemes that the bank of this BBAN takes part in.
+
+        These are the schemes of the BIC that :attr:`bic` returns, see :attr:`.BIC.sepa_schemes`.
+        The set is empty if the bank code or its BIC is unknown, which means that the
+        participation is unknown, not that the bank takes part in none.
+
+        Examples:
+            >>> from schwifty.domain import SEPAScheme
+            >>> SEPAScheme.CORE_DIRECT_DEBIT in BBAN("DE", "370400440532013000").sepa_schemes
+            True
+        """
+        bic = self.bic
+        return bic.sepa_schemes if bic is not None else frozenset()
 
     @property
     def national_checksum_digits(self) -> str:

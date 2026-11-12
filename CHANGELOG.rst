@@ -13,6 +13,9 @@ Added
   IBAN, which national check digits are supported, and the registries that ship with ``schwifty``:
   the bank registries and their sources, the SCL directory and the IBAN registry. The functions of
   :mod:`schwifty.registry` that query them are documented as part of the API.
+* Added :attr:`.IBAN.sepa_schemes` and :attr:`.BBAN.sepa_schemes`, the SEPA schemes that the bank
+  of an account takes part in, e.g. to check whether a direct debit can be collected from it. They
+  are the schemes of the account's BIC, and empty if its BIC is unknown.
 
 `2026.11.1`_ - 2026/11/12
 -------------------------

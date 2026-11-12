@@ -12,6 +12,7 @@ from schwifty.bban import BBAN
 from schwifty.domain import Bank
 from schwifty.domain import BankStatus
 from schwifty.domain import lookup_rank
+from schwifty.domain import SEPAScheme
 from schwifty.exceptions import GenerateRandomOverflowError
 from schwifty.exceptions import InvalidAccountCode
 from schwifty.exceptions import InvalidBBANChecksum
@@ -387,3 +388,14 @@ def test_from_components_unsupported_country() -> None:
     # "Bank code exceeds maximum size 0".
     with pytest.raises(SchwiftyException, match="BBAN generation for GW not supported"):
         BBAN.from_components("GW", bank_code="GW123", account_code="1234567890123456")
+
+
+def test_sepa_schemes() -> None:
+    bban = BBAN("NO", "86011117947")
+    assert bban.bic == "DABANO22"
+    assert bban.sepa_schemes == {
+        SEPAScheme.CREDIT_TRANSFER,
+        SEPAScheme.CORE_DIRECT_DEBIT,
+        SEPAScheme.B2B_DIRECT_DEBIT,
+    }
+    assert BBAN("DE", "123456780000000001").sepa_schemes == frozenset()

@@ -147,6 +147,17 @@ A branch BIC that the directory doesn't list has the schemes of its institution.
 for a BIC that the directory doesn't list at all, which means that its participation is unknown.
 SEPA Instant Credit Transfers are not covered by the directory.
 
+:attr:`.IBAN.sepa_schemes` returns the schemes of the IBAN's bank, so that you can e.g. check
+whether a direct debit can be collected from an account. Its set is also empty if the registry
+doesn't know a BIC for the bank code. Unlike :attr:`.IBAN.in_sepa_zone`, which tells whether the
+account's country takes part in SEPA, it tells whether its bank does:
+
+.. code-block:: pycon
+
+  >>> iban = IBAN("DE89 3704 0044 0532 0130 00")
+  >>> iban.in_sepa_zone, SEPAScheme.CORE_DIRECT_DEBIT in iban.sepa_schemes
+  (True, True)
+
 
 Validation
 ----------

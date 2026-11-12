@@ -7,6 +7,7 @@ from pycountry import countries  # type: ignore
 
 from schwifty import IBAN
 from schwifty.domain import BankStatus
+from schwifty.domain import SEPAScheme
 from schwifty.exceptions import InvalidStructure
 from schwifty.exceptions import SchwiftyException
 from schwifty.registry import convert_bban_spec_to_regex
@@ -587,3 +588,19 @@ def test_deepcopy_allow_invalid(value: str) -> None:
     assert isinstance(copied, IBAN)
     assert copied == original
     assert not copied.is_valid
+
+
+def test_sepa_schemes() -> None:
+    # The schemes are the ones of the IBAN's BIC.
+    iban = IBAN("DE89370400440532013000")
+    assert iban.bic is not None
+    assert iban.sepa_schemes == iban.bic.sepa_schemes
+    assert SEPAScheme.CORE_DIRECT_DEBIT in iban.sepa_schemes
+
+
+def test_sepa_schemes_without_bic() -> None:
+    # The country takes part in SEPA, but the bank code is unknown, so the schemes are unknown.
+    iban = IBAN.generate("DE", bank_code="12345678", account_code="1")
+    assert iban.bic is None
+    assert iban.in_sepa_zone is True
+    assert iban.sepa_schemes == frozenset()
