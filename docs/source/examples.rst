@@ -1,5 +1,5 @@
-``schwifty`` by example
-=======================
+IBANs and BICs by example
+=========================
 
 Basics
 ------
@@ -32,8 +32,8 @@ Afterwards, you can access all relevant components and meta-information of the I
   >>> iban.bban
   <BBAN=370400440532013000>
 
-For many countries it is also possible to get ahold of the :class:`.BIC` associated to the bank-code
-of the IBAN.
+For many countries it is also possible to get the :class:`.BIC` and the bank associated to the
+bank-code of the IBAN.
 
 .. code-block:: pycon
 
@@ -72,60 +72,13 @@ the institution that services the BIC today:
   >>> BIC('BSABESBB').bank.name
   'BANCO DE SABADELL, S.A.'
 
-The mapping is included in the bank registry that ships with ``schwifty``, which currently
-includes entries for the following countries:
-
-* Andorra
-* Austria
-* Belgium
-* Bosnia and Herzegovina
-* Bulgaria
-* Costa Rica
-* Croatia
-* Czech Republic
-* Cyprus
-* Denmark
-* Estonia
-* Finland
-* France
-* Georgia
-* Germany
-* Greece
-* Hungary
-* Ireland
-* Iceland
-* Italy
-* Israel
-* Kazakhstan
-* Latvia
-* Lithuania
-* Luxembourg
-* Malta
-* Moldova
-* Monaco
-* Montenegro
-* Netherlands
-* Norway
-* Pakistan
-* Poland
-* Portugal
-* Romania
-* Saudi Arabia
-* Serbia
-* Slovakia
-* Slovenia
-* Spain
-* Sweden
-* Switzerland
-* Turkiye
-* Ukraine
-* United Arab Emirates
-* United Kingdom
+The mapping is included in the bank registry that ships with ``schwifty``, which covers 47
+countries. See :doc:`registries` for the list of countries and their sources.
 
 .. note::
 
   The :class:`.IBAN` and :class:`.BIC` classes are subclasses of :class:`str` so that all methods
-  and functionallities (e.g. slicing) can be directly used. E.g.
+  and functionalities (e.g. slicing) can be directly used. E.g.
 
   .. code-block:: pycon
 
@@ -136,6 +89,8 @@ includes entries for the following countries:
     8
     >>> iban.startswith("DE")
     True
+
+.. _retired-bank-codes:
 
 Retired bank codes
 ~~~~~~~~~~~~~~~~~~
@@ -170,6 +125,8 @@ you initiate one:
   >>> iban.bank.name, iban.bank.status
   ('Greensill Bank', <BankStatus.DELISTED: 'delisted'>)
 
+.. _sepa-schemes:
+
 SEPA schemes
 ~~~~~~~~~~~~
 
@@ -203,7 +160,7 @@ validation failures if the concrete cause is not important to you.
 .. note::
 
    Prior to schwifty 2021.01.0 a ``ValueError`` was raised for all kind of validation failures. In
-   order to keep backwards compatiblity schwifty's base exception is a subclass of ``ValueError``.
+   order to keep backwards compatibility schwifty's base exception is a subclass of ``ValueError``.
 
 For IBANs - with respect to ISO 13616 compliance - it is checked if the account-code, the bank-code
 and possibly the branch-code have the correct country-specific format. E.g.:
@@ -218,9 +175,9 @@ and possibly the branch-code have the correct country-specific format. E.g.:
   ...
   InvalidChecksumDigits: Invalid checksum digits
 
-Since version 2021.05.1 ``schwifty`` also provides the ability to validate the country specific
-checksum within the BBAN. This functionality is currently opt-in and can be used by providing the
-`validate_bban` parameter to the :class:`.IBAN` constructor or the :meth:`.IBAN.validate`-method.
+``schwifty`` can also validate the national check digits within the BBAN for 24 countries (see
+:doc:`national-accounts`). This validation is opt-in and can be used by providing the
+``validate_bban`` parameter to the :class:`.IBAN` constructor or the :meth:`.IBAN.validate`-method.
 
 .. code-block:: pycon
 
@@ -326,7 +283,7 @@ bank-codes, e.g.:
   'GENO DE M1 GLS'
 
 In case there are multiple BICs that can be related to a domestic bank code you can also use the
-:meth:`.BIC.candidates_from_bank_code`-method to get a list of all knwon BIC candidates.
+:meth:`.BIC.candidates_from_bank_code`-method to get a list of all known BIC candidates.
 
 .. code-block:: pycon
 
@@ -341,8 +298,8 @@ In case there are multiple BICs that can be related to a domestic bank code you 
 Random IBANs
 ~~~~~~~~~~~~
 
-For testing and other usecases it might be useful to generate random IBANs. Therefore you can simply
-call
+For testing and other use cases it might be useful to generate random IBANs. Therefore you can
+simply call
 
 .. code-block:: pycon
 
@@ -372,13 +329,8 @@ that the IBAN corresponds to a valid bank. E.g.:
 .. code-block:: pycon
 
   >>> IBAN.random(country_code="DE").bank
-  {'bank_code': '42870077',
-   'name': 'Deutsche Bank',
-   'short_name': 'Deutsche Bank',
-   'bic': 'DEUTDE3B428',
-   'primary': True,
-   'country_code': 'DE',
-   'checksum_algo': '63'}
+  Bank(country_code='DE', bic='BOTKDEDX', bank_code='30010700',
+       name='MUFG Bank (Europe) Germany Branch', ...)
 
 If you want to generate an IBAN with a truly random bank code use
 
@@ -390,7 +342,7 @@ If you want to generate an IBAN with a truly random bank code use
 Due to the nature of random numbers you might still hit a valid bank code once in a while.
 
 Pydantic integration
----------------------
+--------------------
 
 The :class:`.IBAN` and :class:`.BIC` types can be directly used for the popular data validation
 library `Pydantic <https://docs.pydantic.dev/latest/>`_ like so

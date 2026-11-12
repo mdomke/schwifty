@@ -11,9 +11,18 @@ Release v\ |release| (:ref:`What's new <changelog>`)
    :start-after: installation-begin
    :end-before: installation-end
 
-.. note::
+``schwifty`` supports Python 3.11 and newer.
 
-   Starting from version 2021.01.0 schwifty only supports Python 3.6+
+
+User guide
+----------
+.. toctree::
+   :maxdepth: 2
+
+   examples
+   national-accounts
+   registries
+   troubleshooting
 
 
 API documentation
@@ -21,9 +30,7 @@ API documentation
 .. toctree::
    :maxdepth: 2
 
-   examples
    api
-   troubleshooting
 
 .. toctree::
    :maxdepth: 1

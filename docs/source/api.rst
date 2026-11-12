@@ -50,6 +50,25 @@ Bank
    :undoc-members:
 
 
+Registry
+--------
+
+.. module:: schwifty.registry
+
+The registries that ship with ``schwifty``, see :doc:`registries`.
+
+.. autofunction:: get_banks_by_country
+.. autofunction:: get_banks_by_code
+.. autofunction:: get_banks_by_bic
+.. autofunction:: get_all_banks
+.. autofunction:: get_countries
+.. autofunction:: get_sepa_schemes
+.. autofunction:: get_iban_spec
+
+.. autoclass:: schwifty.domain.IBANSpec
+   :members:
+
+
 Exceptions
 ----------
 

@@ -5,6 +5,15 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Added
+~~~~~
+* The documentation describes how to validate and complete national account numbers without an
+  IBAN, which national check digits are supported, and the registries that ship with ``schwifty``:
+  the bank registries and their sources, the SCL directory and the IBAN registry. The functions of
+  :mod:`schwifty.registry` that query them are documented as part of the API.
+
 `2026.11.1`_ - 2026/11/12
 -------------------------
 Added

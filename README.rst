@@ -17,32 +17,61 @@ Gotta get schwifty with your IBANs
 
 .. teaser-begin
 
-``schwifty`` is a Python library that lets you easily work with IBANs and BICs
-as specified by the ISO. IBAN is the International Bank Account Number and BIC
-the Business Identifier Code. Both are used for international money transfer.
+``schwifty`` is a Python library for working with bank account numbers and bank identifiers: IBANs
+(International Bank Account Numbers, ISO 13616), BICs (Business Identifier Codes, ISO 9362) and
+the national account numbers they are built from. It brings the knowledge needed to work with them
+along: the format of the account numbers of 127 countries, the national check digit algorithms of
+24 of them, bank registries for 47 countries generated from their official sources, and the SEPA
+schemes that banks take part in.
+
+.. code-block:: pycon
+
+  >>> from schwifty import IBAN
+  >>> iban = IBAN("DE89 3704 0044 0532 0130 00", validate_bban=True)
+  >>> iban.bank_code, iban.account_code
+  ('37040044', '0532013000')
+  >>> iban.bank.name, iban.bic
+  ('Commerzbank', <BIC=COBADEFF>)
+  >>> from schwifty.domain import SEPAScheme
+  >>> SEPAScheme.CORE_DIRECT_DEBIT in iban.bic.sepa_schemes
+  True
 
 Features
 --------
 
-``schwifty`` lets you
+**IBANs**
 
-* `validate`_ check-digits and the country specific format of IBANs
-* `validate`_ the national check digits of the BBAN for more than 20 countries
-* `validate`_ format and country codes from BICs
-* `generate`_ BICs from country and bank-code
-* `generate`_ IBANs from country-code, bank-code and account-number.
-* `generate`_ random valid IBANs
-* look up the bank and BIC of an IBAN's bank-code in registries for 47 countries, generated from
-  the official sources where they are available
+* `validate`_ the check digits and the country specific format of IBANs, for the 105 countries of
+  the SWIFT IBAN registry and 22 countries that use IBANs without being part of it
+* `generate`_ IBANs from country code, bank code and account number, including the national check
+  digits, or `random`_ but valid ones for testing
+* access all components, e.g. bank code, branch code and account code, as attributes
+* use the ``IBAN`` and ``BIC`` types directly in `Pydantic`_ models
+
+**National account numbers**
+
+* `validate`_ and compute the `national check digits`_ of domestic account numbers for 24 countries,
+  with or without an IBAN, e.g. the check digit methods of German banks, the French RIB key or
+  the Spanish *dígitos de control*
+
+**BICs and banks**
+
+* `validate`_ the structure and country of BICs, and convert between bank codes and BICs
+* look up the bank behind a bank code or BIC in `bank registries`_ for 47 countries, generated
+  from the official sources of central banks and banking associations where they are available
 * identify `retired bank codes`_ that IBANs in circulation still carry, and tell whether their
   bank merged into another one or closed
-* check which `SEPA schemes`_ the institution of a BIC takes part in
-* access all relevant components as attributes
+* check which `SEPA schemes`_ the institution of a BIC takes part in, from the SCL directory of
+  the Deutsche Bundesbank
 
 See the `docs <https://schwifty.readthedocs.io>`_ for more information.
 
 .. _validate: https://schwifty.readthedocs.io/en/latest/examples.html#validation
 .. _generate: https://schwifty.readthedocs.io/en/latest/examples.html#generation
+.. _random: https://schwifty.readthedocs.io/en/latest/examples.html#random-ibans
+.. _Pydantic: https://schwifty.readthedocs.io/en/latest/examples.html#pydantic-integration
+.. _national check digits: https://schwifty.readthedocs.io/en/latest/national-accounts.html
+.. _bank registries: https://schwifty.readthedocs.io/en/latest/registries.html
 .. _retired bank codes: https://schwifty.readthedocs.io/en/latest/examples.html#retired-bank-codes
 .. _SEPA schemes: https://schwifty.readthedocs.io/en/latest/examples.html#sepa-schemes
 

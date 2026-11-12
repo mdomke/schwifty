@@ -74,6 +74,13 @@ class Range:
 
 @dataclass
 class IBANSpec(DictCompatMixin):
+    """The format of the IBAN and national account number (BBAN) of a country.
+
+    ``bban_spec`` and ``iban_spec`` use the notation of the SWIFT IBAN registry, e.g. ``8!n`` for
+    exactly eight digits. ``positions`` gives the range of each component within the BBAN. An
+    ``aspirational`` country uses IBANs without being part of the SWIFT IBAN registry.
+    """
+
     country: str
     bban_spec: str
     bban_length: int
