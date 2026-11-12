@@ -385,5 +385,5 @@ def test_from_components_unsupported_country() -> None:
     # Without component positions a BBAN cannot be assembled from components.
     # This raises the explicit "not supported" error rather than the misleading
     # "Bank code exceeds maximum size 0".
-    with pytest.raises(SchwiftyException, match="BBAN generation for AO not supported"):
-        BBAN.from_components("AO", bank_code="1234", account_code="12345678901234567")
+    with pytest.raises(SchwiftyException, match="BBAN generation for GW not supported"):
+        BBAN.from_components("GW", bank_code="GW123", account_code="1234567890123456")

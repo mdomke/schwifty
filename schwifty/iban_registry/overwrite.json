@@ -6,7 +6,25 @@
     "iban_spec": "AO2!n21!n",
     "iban_length": 25,
     "in_sepa_zone": false,
-    "aspirational": true
+    "aspirational": true,
+    "positions": {
+      "bank_code": [
+        0,
+        4
+      ],
+      "branch_code": [
+        4,
+        8
+      ],
+      "account_code": [
+        8,
+        19
+      ],
+      "national_checksum_digits": [
+        19,
+        21
+      ]
+    }
   },
   "AL": {
     "positions": {
@@ -633,15 +651,6 @@
     "iban_spec": "KM2!n23!n",
     "iban_length": 27,
     "in_sepa_zone": false,
-    "aspirational": true
-  },
-  "MA": {
-    "country": "MA",
-    "bban_spec": "24!n",
-    "bban_length": 24,
-    "iban_spec": "MA2!n24!n",
-    "iban_length": 28,
-    "in_sepa_zone": false,
     "aspirational": true,
     "positions": {
       "bank_code": [
@@ -654,6 +663,33 @@
       ],
       "account_code": [
         10,
+        21
+      ],
+      "national_checksum_digits": [
+        21,
+        23
+      ]
+    }
+  },
+  "MA": {
+    "country": "MA",
+    "bban_spec": "24!n",
+    "bban_length": 24,
+    "iban_spec": "MA2!n24!n",
+    "iban_length": 28,
+    "in_sepa_zone": false,
+    "aspirational": true,
+    "positions": {
+      "bank_code": [
+        0,
+        3
+      ],
+      "branch_code": [
+        3,
+        6
+      ],
+      "account_code": [
+        6,
         22
       ],
       "national_checksum_digits": [
@@ -709,7 +745,25 @@
     "iban_spec": "MG2!n23!n",
     "iban_length": 27,
     "in_sepa_zone": false,
-    "aspirational": true
+    "aspirational": true,
+    "positions": {
+      "bank_code": [
+        0,
+        5
+      ],
+      "branch_code": [
+        5,
+        10
+      ],
+      "account_code": [
+        10,
+        21
+      ],
+      "national_checksum_digits": [
+        21,
+        23
+      ]
+    }
   },
   "MK": {
     "positions": {
@@ -798,7 +852,25 @@
     "iban_spec": "MZ2!n21!n",
     "iban_length": 25,
     "in_sepa_zone": false,
-    "aspirational": true
+    "aspirational": true,
+    "positions": {
+      "bank_code": [
+        0,
+        4
+      ],
+      "branch_code": [
+        4,
+        8
+      ],
+      "account_code": [
+        8,
+        19
+      ],
+      "national_checksum_digits": [
+        19,
+        21
+      ]
+    }
   },
   "NE": {
     "country": "NE",

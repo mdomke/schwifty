@@ -17,6 +17,9 @@ Added
   and card clearing. They are taken from the SCL directory of the Deutsche Bundesbank, which
   ``scripts/get_scl_directory.py`` downloads, and which lists the payment service providers that
   can be reached through its SEPA clearer (#148).
+* The IBANs of Angola and Mozambique (bank code, branch code, account code and two check digits
+  of 4, 4, 11 and 2 digits) and of Comoros and Madagascar (5, 5, 11 and 2 digits) are split into
+  their components, e.g. for :attr:`.IBAN.bank_code`.
 
 Changed
 ~~~~~~~
@@ -55,6 +58,9 @@ Fixed
   computed from the last four digits of the account number only, which gave a different check
   digit for most bank codes, e.g. ``1204.00.12344`` was rejected and ``IBAN.generate`` returned
   ``1204.00.12343`` (#356).
+* The Moroccan IBAN is split into a bank code of 3 digits, a city code of 3 digits as branch code,
+  an account code of 16 digits and two check digits, as the Moroccan RIB is structured, instead of
+  5, 5, 12 and 2 digits.
 
 `2026.11.0`_ - 2026/11/05
 -------------------------

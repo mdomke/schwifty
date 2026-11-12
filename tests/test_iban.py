@@ -265,6 +265,26 @@ def test_iban_properties_is() -> None:
     assert iban.bank_code == "01"
 
 
+@pytest.mark.parametrize(
+    ("value", "bank_code", "branch_code", "account_code", "national_checksum_digits"),
+    [
+        ("AO06 0044 0000 6729 5030 1010 2", "0044", "0000", "67295030101", "02"),
+        ("KM46 0000 5000 0100 1090 4400 137", "00005", "00001", "00109044001", "37"),
+        ("MA64 0115 1900 0001 2050 0053 4921", "011", "519", "0000012050005349", "21"),
+        ("MG46 0000 5030 0712 8942 1016 045", "00005", "03007", "12894210160", "45"),
+        ("MZ59 0003 0108 0016 3671 0237 1", "0003", "0108", "00163671023", "71"),
+    ],
+)
+def test_iban_components_of_aspirational_countries(
+    value: str, bank_code: str, branch_code: str, account_code: str, national_checksum_digits: str
+) -> None:
+    iban = IBAN(value)
+    assert iban.bank_code == bank_code
+    assert iban.branch_code == branch_code
+    assert iban.account_code == account_code
+    assert iban.national_checksum_digits == national_checksum_digits
+
+
 def test_iban_properties_pl() -> None:
     iban = IBAN("PL66114010100000123400005678")
     assert iban.is_valid

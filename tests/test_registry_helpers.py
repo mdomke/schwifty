@@ -164,8 +164,8 @@ def test_iban_spec_has_positions() -> None:
     )
     assert spec.has_positions is False
     assert registry.get_iban_spec("DE").has_positions is True
-    # Angola defines a BBAN regex but no component positions.
-    assert registry.get_iban_spec("AO").has_positions is False
+    # Guinea-Bissau defines a BBAN regex but no component positions.
+    assert registry.get_iban_spec("GW").has_positions is False
 
 
 def test_bank_defaults() -> None:
