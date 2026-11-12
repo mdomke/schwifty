@@ -44,6 +44,11 @@ Changed
   40 Maltese ones. The manual registries keep the codes that the directory doesn't list, such as
   those of KBC Bank Ireland and Ulster Bank. For other countries, the update script reports the
   BICs of the directory that their registries lack (#148).
+* Updated the bank registries from their official sources. Among others, this adds Holvi Payment
+  Services in Austria (``94656``) and SpareBank 1 Østfold Akershus (``1086``) and SpareBank 1
+  Hallingdal Valdres (``2136``) in Norway. It marks Banca CF+ (``10312``) as merged into Banca
+  Sistema and the Italian branch of Solaris (``03665``) as closed, and renames Quilvest
+  (Switzerland) to EFG Bank.
 
 Fixed
 ~~~~~

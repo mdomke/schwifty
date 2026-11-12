@@ -1449,8 +1449,7 @@
       "name": "RAIFFEISENLANDESBANK NIEDER\u00d6STERREICH-WIEN AG",
       "short_name": "RAIFFEISENLANDESBANK NIEDER\u00d6STERREICH-WIEN AG",
       "bank_codes": [
-        "32300",
-        "32600"
+        "32300"
       ]
     },
     {
@@ -5960,6 +5959,16 @@
     {
       "country_code": "AT",
       "primary": false,
+      "bic": "HOLVATW2XXX",
+      "name": "Holvi Payment Services Oy Zweigniederlassung \u00d6sterreich",
+      "short_name": "Holvi Payment Services Oy Zweigniederlassung \u00d6sterreich",
+      "bank_codes": [
+        "94656"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
       "bic": "BUNDATWWXXX",
       "name": "Republik \u00d6sterreich",
       "short_name": "Republik \u00d6sterreich",
@@ -5995,6 +6004,16 @@
       "short_name": "Raiffeisen Bank International AG",
       "bank_codes": [
         "31112"
+      ]
+    },
+    {
+      "country_code": "AT",
+      "primary": false,
+      "bic": "RLNWATWW600",
+      "name": "RAIFFEISENLANDESBANK NIEDER\u00d6STERREICH-WIEN AG",
+      "short_name": "RAIFFEISENLANDESBANK NIEDER\u00d6STERREICH-WIEN AG",
+      "bank_codes": [
+        "32600"
       ]
     },
     {

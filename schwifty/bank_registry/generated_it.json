@@ -1114,14 +1114,6 @@
   {
     "country_code": "IT",
     "primary": true,
-    "bic": "SOBKITM2",
-    "bank_code": "03665",
-    "name": "SOLARIS SE",
-    "short_name": "SOLARIS SE"
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
     "bic": "ZURIITM2",
     "bank_code": "03667",
     "name": "ZURICH ITALY BANK S.P.A.",
@@ -3266,14 +3258,6 @@
   {
     "country_code": "IT",
     "primary": true,
-    "bic": "CFIUITR2",
-    "bank_code": "10312",
-    "name": "BANCA CF+ CREDITO FONDIARIO S.P.A.",
-    "short_name": "BANCA CF+ CREDITO FONDIARIO S.P.A."
-  },
-  {
-    "country_code": "IT",
-    "primary": true,
     "bic": "ISCSITRR",
     "bank_code": "10630",
     "name": "ISTITUTO PER IL CREDITO SPORTIVO E CULTURALE S.P.A.",
@@ -5338,6 +5322,15 @@
     "bank_code": "03662",
     "name": "AK NORDIC AB",
     "short_name": "AK NORDIC AB",
+    "status": "closed"
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "SOBKITM2",
+    "bank_code": "03665",
+    "name": "SOLARIS SE",
+    "short_name": "SOLARIS SE",
     "status": "closed"
   },
   {
@@ -8944,6 +8937,17 @@
     "status": "merged",
     "successor_bank_code": "05387",
     "legacy_name": "MELIORBANCA S.P.A."
+  },
+  {
+    "country_code": "IT",
+    "primary": true,
+    "bic": "BSISITMM",
+    "bank_code": "10312",
+    "name": "BANCA SISTEMA S.P.A.",
+    "short_name": "BANCA SISTEMA S.P.A.",
+    "status": "merged",
+    "successor_bank_code": "03158",
+    "legacy_name": "BANCA CF+ CREDITO FONDIARIO S.P.A."
   },
   {
     "country_code": "IT",

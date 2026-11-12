@@ -354,10 +354,10 @@
   {
     "country_code": "ES",
     "primary": true,
-    "bic": "",
-    "bank_code": "0115",
+    "bic": "CECAESMM105",
+    "bank_code": "2105",
     "name": "BANCO DE CASTILLA-LA MANCHA, S.A.",
-    "short_name": "BANCO CLM"
+    "short_name": "BANCO DE CASTIL"
   },
   {
     "country_code": "ES",
@@ -4854,6 +4854,15 @@
   {
     "country_code": "ES",
     "primary": true,
+    "bic": "",
+    "bank_code": "0115",
+    "name": "BANCO DE CASTILLA-LA MANCHA, S.A.",
+    "short_name": "BANCO CLM",
+    "status": "delisted"
+  },
+  {
+    "country_code": "ES",
+    "primary": true,
     "bic": "ABNAESMM",
     "bank_code": "0156",
     "name": "THE ROYAL BANK OF SCOTLAND PLC, S.E.",
@@ -4920,15 +4929,6 @@
     "bic": "BBVAESMM",
     "name": "CAIXA D'ESTALVIS DE TERRASSA",
     "short_name": "CAIXA TERRASSA",
-    "status": "delisted"
-  },
-  {
-    "country_code": "ES",
-    "primary": true,
-    "bic": "CECAESMM105",
-    "bank_code": "2105",
-    "name": "BANCO DE CASTILLA-LA MANCHA, S.A.",
-    "short_name": "BANCO DE CASTIL",
     "status": "delisted"
   },
   {

@@ -8763,14 +8763,6 @@
     "primary": false,
     "bic": "",
     "bank_code": "326461",
-    "name": "Територіально відокремлене безбалансове відділення №10014/0198 філії - Миколаївського обласного управління акціонерного товариства \"Державний ощадний банк України\"",
-    "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "326461",
     "name": "Територіально відокремлене безбалансове відділення №10014/0132 філії - Миколаївського обласного управління акціонерного товариства \"Державний ощадний банк України\"",
     "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
   },
@@ -9331,6 +9323,14 @@
     "primary": false,
     "bic": "",
     "bank_code": "328845",
+    "name": "Територіально відокремлене безбалансове відділення №10015/0587 філії - Одеського обласного управління акціонерного товариства \"Державний ощадний банк України\"",
+    "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
+  },
+  {
+    "country_code": "UA",
+    "primary": false,
+    "bic": "",
+    "bank_code": "328845",
     "name": "Територіально відокремлене безбалансове відділення №10015/0586 філії - Одеського обласного управління акціонерного товариства \"Державний ощадний банк України\"",
     "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
   },
@@ -9676,14 +9676,6 @@
     "bic": "",
     "bank_code": "331467",
     "name": "Територіально відокремлене безбалансове відділення №10016/031 філії - Полтавського обласного управління акціонерного товариства \"Державний ощадний банк України\"",
-    "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "331467",
-    "name": "Територіально відокремлене безбалансове відділення №10016/0133 філії - Полтавського обласного управління акціонерного товариства \"Державний ощадний банк України\"",
     "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
   },
   {
@@ -11764,14 +11756,6 @@
     "bic": "",
     "bank_code": "353553",
     "name": "Територіально відокремлене безбалансове відділення №10024/0250 філії - Чернігівського обласного управління акціонерного товариства \"Державний ощадний банк України\"",
-    "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "353553",
-    "name": "Територіально відокремлене безбалансове відділення №10024/0316 філії - Чернігівського обласного управління акціонерного товариства \"Державний ощадний банк України\"",
     "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
   },
   {
@@ -14648,14 +14632,6 @@
     "primary": false,
     "bic": "",
     "bank_code": "305299",
-    "name": "Відділення \"Криворізьке №26\" акціонерного товариства комерційного банку \"ПриватБанк\"",
-    "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "305299",
     "name": "Відділення \"Тернопільське №6\" акціонерного товариства комерційного банку \"ПриватБанк\"",
     "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
   },
@@ -15361,6 +15337,14 @@
     "bic": "",
     "bank_code": "305299",
     "name": "Відділення \"Premium Центр Полтавське №71\" акціонерного товариства комерційного банку \"ПриватБанк\"",
+    "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
+  },
+  {
+    "country_code": "UA",
+    "primary": false,
+    "bic": "",
+    "bank_code": "305299",
+    "name": "Відділення \"Столичне №23\" акціонерного товариства комерційного банку \"ПриватБанк\"",
     "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
   },
   {
@@ -16753,6 +16737,14 @@
     "bic": "",
     "bank_code": "305299",
     "name": "Відділення \"Одеське №74\" акціонерного товариства комерційного банку \"ПриватБанк\"",
+    "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
+  },
+  {
+    "country_code": "UA",
+    "primary": false,
+    "bic": "",
+    "bank_code": "305299",
+    "name": "Відділення \"Вінницьке №38\" акціонерного товариства комерційного банку \"ПриватБанк\"",
     "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
   },
   {
@@ -20024,14 +20016,6 @@
     "primary": false,
     "bic": "",
     "bank_code": "305299",
-    "name": "Відділення \"Краматорське №12\" акціонерного товариства комерційного банку \"ПриватБанк\"",
-    "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "305299",
     "name": "Відділення \"П'яте столичне №46\" акціонерного товариства комерційного банку \"ПриватБанк\"",
     "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
   },
@@ -20632,14 +20616,6 @@
     "primary": false,
     "bic": "",
     "bank_code": "305299",
-    "name": "Відділення \"Четверте Столичне №51\" акціонерного товариства комерційного банку \"ПриватБанк\"",
-    "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "305299",
     "name": "Відділення \"Третє Столичне №71\" акціонерного товариства комерційного банку \"ПриватБанк\"",
     "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
   },
@@ -21104,14 +21080,6 @@
     "primary": false,
     "bic": "",
     "bank_code": "305299",
-    "name": "Відділення \"П'яте столичне №42\" акціонерного товариства комерційного банку \"ПриватБанк\"",
-    "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "305299",
     "name": "Відділення \"Одеське №86\" акціонерного товариства комерційного банку \"ПриватБанк\"",
     "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
   },
@@ -21200,14 +21168,6 @@
     "primary": false,
     "bic": "",
     "bank_code": "305299",
-    "name": "Відділення \"Запорізьке №12\" акціонерного товариства комерційного банку \"ПриватБанк\"",
-    "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "305299",
     "name": "Відділення \"Харківське №46\" акціонерного товариства комерційного банку \"ПриватБанк\"",
     "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
   },
@@ -21241,14 +21201,6 @@
     "bic": "",
     "bank_code": "305299",
     "name": "Відділення \"Криворізьке №34\" акціонерного товариства комерційного банку \"ПриватБанк\"",
-    "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "305299",
-    "name": "Відділення \"Четверте Столичне №95\" акціонерного товариства комерційного банку \"ПриватБанк\"",
     "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
   },
   {
@@ -21697,14 +21649,6 @@
     "bic": "",
     "bank_code": "305299",
     "name": "Відділення \"Північно-західне №87\" акціонерного товариства комерційного банку \"ПриватБанк\"",
-    "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "305299",
-    "name": "Відділення \"Харківське №47\" акціонерного товариства комерційного банку \"ПриватБанк\"",
     "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
   },
   {
@@ -24082,14 +24026,6 @@
     "primary": false,
     "bic": "",
     "bank_code": "307770",
-    "name": "ВІДДІЛЕННЯ \"ЦЕНТР ОБСЛУГОВУВАННЯ КЛІЄНТІВ В М.НІКОПОЛЬ\" ПУБЛІЧНОГО АКЦІОНЕРНОГО ТОВАРИСТВА \"АКЦЕНТ-БАНК\"",
-    "short_name": "JOINT-STOCK COMPANY \"ACCENT-BANK\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "307770",
     "name": "ВІДДІЛЕННЯ \"ЦЕНТР ОБСЛУГОВУВАННЯ КЛІЄНТІВ №459 В М.ЛЬВІВ\" ПУБЛІЧНОГО АКЦІОНЕРНОГО ТОВАРИСТВА \"АКЦЕНТ-БАНК\"",
     "short_name": "JOINT-STOCK COMPANY \"ACCENT-BANK\""
   },
@@ -24835,14 +24771,6 @@
     "bic": "",
     "bank_code": "307770",
     "name": "ВІДДІЛЕННЯ \"ЦЕНТР ОБСЛУГОВУВАННЯ КЛІЄНТІВ №90 В М.КРЕМЕНЧУК\" ПУБЛІЧНОГО АКЦІОНЕРНОГО ТОВАРИСТВА \"АКЦЕНТ-БАНК\"",
-    "short_name": "JOINT-STOCK COMPANY \"ACCENT-BANK\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "307770",
-    "name": "ВІДДІЛЕННЯ \"ЦЕНТР ОБСЛУГОВУВАННЯ КЛІЄНТІВ №157 В М.КРАМАТОРСЬК\" АКЦІОНЕРНОГО ТОВАРИСТВА \"АКЦЕНТ-БАНК\"",
     "short_name": "JOINT-STOCK COMPANY \"ACCENT-BANK\""
   },
   {
@@ -27437,14 +27365,6 @@
     "primary": false,
     "bic": "",
     "bank_code": "322313",
-    "name": "Представництво акціонерного товариства «Державний експортно-імпортний банк України» у м. Житомирі",
-    "short_name": "Joint Stock Company \"The State Export-Import Bank of Ukraine\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "322313",
     "name": "Представництво акціонерного товариства «Державний експортно-імпортний банк України» у м. Полтаві",
     "short_name": "Joint Stock Company \"The State Export-Import Bank of Ukraine\""
   },
@@ -28919,14 +28839,6 @@
     "primary": false,
     "bic": "",
     "bank_code": "328168",
-    "name": "ЧЕРКАСЬКЕ ВІДДІЛЕННЯ ПУБЛІЧНОГО АКЦІОНЕРНОГО ТОВАРИСТВА \"МТБ БАНК\" №3",
-    "short_name": "PUBLIC JOINT STOCK COMPANY \"MTB BANK\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "328168",
     "name": "ПІВДЕННІВСЬКЕ ВІДДІЛЕННЯ ПУБЛІЧНОГО АКЦІОНЕРНОГО ТОВАРИСТВА \"МТБ БАНК\" №6",
     "short_name": "PUBLIC JOINT STOCK COMPANY \"MTB BANK\""
   },
@@ -28936,14 +28848,6 @@
     "bic": "",
     "bank_code": "328168",
     "name": "ТЕРНОПІЛЬСЬКЕ ВІДДІЛЕННЯ ПУБЛІЧНОГО АКЦІОНЕРНОГО ТОВАРИСТВА “МТБ БАНК” № 1",
-    "short_name": "PUBLIC JOINT STOCK COMPANY \"MTB BANK\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "328168",
-    "name": "КРОПИВНИЦЬКЕ ВІДДІЛЕННЯ ПУБЛІЧНОГО АКЦІОНЕРНОГО ТОВАРИСТВА \"МТБ БАНК\" №4",
     "short_name": "PUBLIC JOINT STOCK COMPANY \"MTB BANK\""
   },
   {
@@ -33239,6 +33143,14 @@
     "primary": false,
     "bic": "",
     "bank_code": "339500",
+    "name": "Харківське відділення №166 АКЦІОНЕРНОГО ТОВАРИСТВА \"ТАСКОМБАНК\"",
+    "short_name": "JOINT STOCK COMPANY \"TASCOMBANK\""
+  },
+  {
+    "country_code": "UA",
+    "primary": false,
+    "bic": "",
+    "bank_code": "339500",
     "name": "Київське відділення №36 АКЦІОНЕРНОГО ТОВАРИСТВА \"ТАСКОМБАНК\"",
     "short_name": "JOINT STOCK COMPANY \"TASCOMBANK\""
   },
@@ -36564,7 +36476,7 @@
     "primary": false,
     "bic": "",
     "bank_code": "380582",
-    "name": "Тарутинське відділення АКЦІОНЕРНОГО ТОВАРИСТВА \"МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ БАНК\".",
+    "name": "Бессарабське відділення АКЦІОНЕРНОГО ТОВАРИСТВА \"МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ БАНК\"",
     "short_name": "JOINT STOCK COMPANY MIZHNARODNYI INVESTYTSIINYI BANK"
   },
   {
@@ -38215,8 +38127,8 @@
     "primary": true,
     "bic": "",
     "bank_code": "380838",
-    "name": "Акціонерне товариство \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "name": "Акціонерне товариство \"ІНТЕЗА САНПАОЛО БАНК\"",
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38224,7 +38136,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Лук'янiвське вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38232,7 +38144,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Деснянське вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38240,7 +38152,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "вiддiлення \"Сімейний банкінг\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38248,7 +38160,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Оболонське вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38256,7 +38168,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Столичне відділення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38264,7 +38176,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Дніпровська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38272,7 +38184,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Подiльське вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38280,7 +38192,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Святошинське вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38288,7 +38200,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Харківська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38296,7 +38208,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Виноградарське вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38304,7 +38216,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Черкаська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38312,7 +38224,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Хмельницька обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38320,7 +38232,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Житомирська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38328,7 +38240,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Кременчуцьке відділення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38336,7 +38248,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Інститутське вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38344,7 +38256,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Сумська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38352,7 +38264,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Iндустріальне вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38360,7 +38272,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Чернігівська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38368,7 +38280,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Либідське відділення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38376,7 +38288,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Осокоркiвське вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38384,7 +38296,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Волинська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38392,7 +38304,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Залізничне відділення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38400,7 +38312,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Тернопільська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38408,7 +38320,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Саксаганське вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38416,7 +38328,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Криворізьке вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38424,7 +38336,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Театральне вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38432,7 +38344,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Кропивницька обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38440,7 +38352,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Рівненська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38448,7 +38360,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "вiдділення \"Львівська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38456,7 +38368,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Демiївське вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38464,7 +38376,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Вінницька обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38472,7 +38384,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Закарпатська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38480,7 +38392,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Буковинська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38488,7 +38400,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Полiтехнiчне вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38496,7 +38408,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Полтавська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38504,7 +38416,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "Лiвобережне вiддiлення Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38512,7 +38424,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Одеська обласна дирекція\" Акціонерного товариства \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",
@@ -38520,7 +38432,7 @@
     "bic": "",
     "bank_code": "380838",
     "name": "відділення \"Івано-Франківська обласна дирекція\" Акціонерного товариства  \"ПРАВЕКС БАНК\"",
-    "short_name": "\"PRAVEX BANK\" Joint-Stock Company"
+    "short_name": "INTESA SANPAOLO BANK Joint Stock Company"
   },
   {
     "country_code": "UA",

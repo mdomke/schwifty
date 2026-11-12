@@ -5236,8 +5236,8 @@
     "primary": true,
     "bic": "CQMAGB21XXX",
     "bank_code": "CQMA",
-    "name": "CQS Management Limited",
-    "short_name": "CQS Management Limited"
+    "name": "CQS MANAGEMENT LIMITED",
+    "short_name": "CQS MANAGEMENT LIMITED"
   },
   {
     "country_code": "GB",
@@ -8766,14 +8766,6 @@
     "bank_code": "GUOP",
     "name": "EG GROUP LIMITED",
     "short_name": "EG GROUP LIMITED"
-  },
-  {
-    "country_code": "GB",
-    "primary": true,
-    "bic": "GVIMGB21XXX",
-    "bank_code": "GVIM",
-    "name": "GVQ INVESTMENT MANAGEMENT LIMITED",
-    "short_name": "GVQ INVESTMENT MANAGEMENT LIMITED"
   },
   {
     "country_code": "GB",
@@ -14026,14 +14018,6 @@
   {
     "country_code": "GB",
     "primary": true,
-    "bic": "NCLIGB21XXX",
-    "bank_code": "NCLI",
-    "name": "NCL INVESTMENTS LIMITED",
-    "short_name": "NCL INVESTMENTS LIMITED"
-  },
-  {
-    "country_code": "GB",
-    "primary": true,
     "bic": "NDAMGB21XXX",
     "bank_code": "NDAM",
     "name": "NIPPON LIFE SCHRODERS ASSET MANAGEMENT EUROPE LIMITED",
@@ -19034,14 +19018,6 @@
   {
     "country_code": "GB",
     "primary": true,
-    "bic": "SVIMGB21XXX",
-    "bank_code": "SVIM",
-    "name": "GVQ INVESTMENT MANAGEMENT LIMITED",
-    "short_name": "GVQ INVESTMENT MANAGEMENT LIMITED"
-  },
-  {
-    "country_code": "GB",
-    "primary": true,
     "bic": "SWAEGB22XXX",
     "bank_code": "SWAE",
     "name": "SWAPMONEY LTD",
@@ -21370,14 +21346,6 @@
   {
     "country_code": "GB",
     "primary": true,
-    "bic": "WHHOGB21XXX",
-    "bank_code": "WHHO",
-    "name": "WHITMAN HOWARD LIMITED",
-    "short_name": "WHITMAN HOWARD LIMITED"
-  },
-  {
-    "country_code": "GB",
-    "primary": true,
     "bic": "WHISGB21XXX",
     "bank_code": "WHIS",
     "name": "W H IRELAND LIMITED",
@@ -21532,8 +21500,8 @@
     "primary": true,
     "bic": "WPSOGB2LXXX",
     "bank_code": "WPSO",
-    "name": "W.A.G PAYMENT SOLUTIONS PLC",
-    "short_name": "W.A.G PAYMENT SOLUTIONS PLC"
+    "name": "EUROWAG GROUP PLC",
+    "short_name": "EUROWAG GROUP PLC"
   },
   {
     "country_code": "GB",
@@ -21820,10 +21788,46 @@
   {
     "country_code": "GB",
     "primary": true,
+    "bic": "GVIMGB21XXX",
+    "bank_code": "GVIM",
+    "name": "GVQ INVESTMENT MANAGEMENT LIMITED",
+    "short_name": "GVQ INVESTMENT MANAGEMENT LIMITED",
+    "status": "delisted"
+  },
+  {
+    "country_code": "GB",
+    "primary": true,
+    "bic": "NCLIGB21XXX",
+    "bank_code": "NCLI",
+    "name": "NCL INVESTMENTS LIMITED",
+    "short_name": "NCL INVESTMENTS LIMITED",
+    "status": "delisted"
+  },
+  {
+    "country_code": "GB",
+    "primary": true,
+    "bic": "SVIMGB21XXX",
+    "bank_code": "SVIM",
+    "name": "GVQ INVESTMENT MANAGEMENT LIMITED",
+    "short_name": "GVQ INVESTMENT MANAGEMENT LIMITED",
+    "status": "delisted"
+  },
+  {
+    "country_code": "GB",
+    "primary": true,
     "bic": "SWEDGB21XXX",
     "bank_code": "SWED",
     "name": "Swedbank AB",
     "short_name": "Swedbank AB",
+    "status": "delisted"
+  },
+  {
+    "country_code": "GB",
+    "primary": true,
+    "bic": "WHHOGB21XXX",
+    "bank_code": "WHHO",
+    "name": "WHITMAN HOWARD LIMITED",
+    "short_name": "WHITMAN HOWARD LIMITED",
     "status": "delisted"
   }
 ]

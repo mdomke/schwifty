@@ -984,11 +984,11 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA CENTER",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03100",
         "03105"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -999,10 +999,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA WTC",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03102"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1013,10 +1013,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA KAMNIK",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03103"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1027,10 +1027,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA DOM\u017dALE",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03104"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1041,10 +1041,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA \u0160I\u0160KA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03106"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1055,11 +1055,11 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA TRZIN PIRAMIDA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03107",
         "03131"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1070,10 +1070,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA GROSUPLJE",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03108"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1084,10 +1084,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA ZALOG",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03109"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1098,10 +1098,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA LITIJA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03110"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1112,10 +1112,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA ZAGORJE OB SAVI",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03111"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1126,10 +1126,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA VRHNIKA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03112"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1140,11 +1140,11 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA KO\u010cEVJE",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03113",
         "03114"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1155,10 +1155,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA CERKNICA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03115"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1169,10 +1169,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA \u017dALEC",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03116"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1183,10 +1183,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA MOZIRJE",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03117"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1197,11 +1197,11 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA CELJE",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03118",
         "03165"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1212,10 +1212,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA IDRIJA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03119"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1226,10 +1226,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA MARIBOR I",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03120"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1240,12 +1240,12 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA MARIBOR II",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03121",
         "03188",
         "03189"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1256,10 +1256,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA GORNJA RADGONA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03122"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1270,10 +1270,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA ORMO\u017d",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03123"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1284,11 +1284,11 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA MURSKA SOBOTA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03124",
         "03125"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1299,10 +1299,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA KRANJ PRIMSKOVO",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03126"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1313,10 +1313,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA RADOVLJICA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03127"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1327,10 +1327,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA \u0160KOFJA LOKA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03128"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1341,12 +1341,12 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA NOVA GORICA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03130",
         "03180",
         "03185"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1357,10 +1357,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA MARIBOR TABOR",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03132"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1371,11 +1371,11 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA POSTOJNA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03133",
         "03179"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1386,11 +1386,11 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA ZUPAN\u010cI\u010cEVA JAMA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03134",
         "03170"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1401,11 +1401,11 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA KOPER",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03135",
         "03136"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1416,12 +1416,12 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA CITY PARK (BTC)",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03137",
         "03161",
         "03171"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1432,10 +1432,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA KRANJ CENTER",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03138"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1446,10 +1446,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA BLED",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03139"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1460,12 +1460,12 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA NOVO MESTO",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03150",
         "03151",
         "03156"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1476,10 +1476,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA METLIKA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03152"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1490,10 +1490,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA TREBNJE",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03153"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1504,10 +1504,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA \u010cRNOMELJ",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03154"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1518,10 +1518,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA KR\u0160KO",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03155"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1532,10 +1532,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA BRE\u017dICE",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03157"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1546,10 +1546,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA SEVNICA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03158"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1560,11 +1560,11 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA LJUBLJANA VI\u010c",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03160",
         "03162"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1575,10 +1575,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA ROGA\u0160KA SLATINA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03163"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1589,12 +1589,12 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D.",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03168",
         "03721",
         "03770"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1605,10 +1605,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. PRIVATNO BAN\u010cNI\u0160TVO",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03169"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1619,10 +1619,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA LJUTOMER",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03173"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1633,10 +1633,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA SLOVENJ GRADEC",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03175"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1647,10 +1647,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA VELENJE",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03176"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1661,11 +1661,11 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA JESENICE",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03178",
         "03186"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1676,10 +1676,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA ILIRSKA BISTRICA",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03181"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1690,10 +1690,10 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVALNICA PTUJ",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03182"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1704,11 +1704,11 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "SKB BANKA D.D. POSLOVANJE S PODJETJI",
+      "legacy_bic": "SKBASI2X",
       "bank_codes": [
         "03215",
         "03500"
-      ],
-      "legacy_bic": "SKBASI2X"
+      ]
     },
     {
       "country_code": "SI",
@@ -1719,6 +1719,7 @@
       "status": "merged",
       "successor_bank_code": "04000",
       "legacy_name": "NOVA KBM D.D.",
+      "legacy_bic": "ABANSI2X",
       "bank_codes": [
         "05100",
         "05200",
@@ -1759,8 +1760,7 @@
         "06808",
         "06811",
         "06814"
-      ],
-      "legacy_bic": "ABANSI2X"
+      ]
     }
   ],
   "expand_from": "bank_codes",

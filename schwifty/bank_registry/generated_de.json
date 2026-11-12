@@ -30843,8 +30843,7 @@
     "country_code": "DE",
     "checksum_algo": "10",
     "status": "merged",
-    "successor_bank_code": "63090100",
-    "legacy_name": "Volksbank Ulm-Biberach"
+    "successor_bank_code": "63090100"
   },
   {
     "bank_code": "65091040",

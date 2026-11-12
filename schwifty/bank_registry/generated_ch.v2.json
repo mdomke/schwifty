@@ -2648,8 +2648,8 @@
       ]
     },
     {
-      "name": "Quilvest (Switzerland) Ltd.",
-      "short_name": "Quilvest (Switzerland) Ltd.",
+      "name": "EFG Bank AG (ex Quilvest (Switzerland) Ltd.)",
+      "short_name": "EFG Bank AG (ex Quilvest (Switzerland) Ltd.)",
       "bic": "QVCHCHZHXXX",
       "country_code": "CH",
       "primary": false,
@@ -8062,8 +8062,8 @@
       ]
     },
     {
-      "name": "Quilvest (Switzerland) Ltd.",
-      "short_name": "Quilvest (Switzerland) Ltd.",
+      "name": "EFG Bank AG (ex Quilvest (Switzerland) Ltd.)",
+      "short_name": "EFG Bank AG (ex Quilvest (Switzerland) Ltd.)",
       "bic": "QVCHCHZHXXX",
       "country_code": "CH",
       "primary": true,
