@@ -42,6 +42,15 @@ Changed
   those of KBC Bank Ireland and Ulster Bank. For other countries, the update script reports the
   BICs of the directory that their registries lack (#148).
 
+Fixed
+~~~~~
+* The BICs of merged banks resolve to their former bank codes again: ``EQBKCZPP`` of Equa bank
+  to the Czech bank code ``6100``, which is now serviced by Raiffeisenbank (``RZBCCZPP``), and
+  ``ABANSI2X`` of Abanka and ``SKBASI2X`` of SKB banka to their Slovenian bank codes, which are
+  now serviced by OTP banka (``KBMASI2X``). The Czech entry had lost its BIC altogether (#138).
+* Added the Portuguese bank code ``5200`` of Caixa de Crédito Agrícola Mútuo de Mafra
+  (``CDOTPTP1``) and the Monegasque bank code ``30004`` of BNP Paribas (``BNPAMCM1``) (#138).
+
 `2026.11.0`_ - 2026/11/05
 -------------------------
 Added

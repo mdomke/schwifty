@@ -318,12 +318,14 @@ def test_bic_structure_is_validated_over_full_string() -> None:
         ("IT", "01030", "PASCITMM"),  # curated
         ("LV", "RIKO", "RIKOLV2X"),
         ("MC", "30003", "SOGEMCM1"),
+        ("MC", "30004", "BNPAMCM1"),  # French bank code of a Monegasque branch
         ("ME", "907", "CBCGMEPG"),
         ("MT", "CFTE", "CFTEMTM1"),
         ("NL", "ADYB", "ADYBNL2A"),
         ("PK", "UNIL", "UNILPKKA"),
         ("PL", "10100055", "NBPLPLPW"),
         ("PL", "10900004", "WBKPPLPP"),
+        ("PT", "5200", "CDOTPTP1"),
         ("RO", "BTRL", "BTRLRO22"),
         ("SE", "500", "ESSESESS"),
         ("SI", "01050", "BSLJSI2XFNB"),

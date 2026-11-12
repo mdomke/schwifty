@@ -678,5 +678,13 @@
     "name": "REVOLUT BANK UAB, SUCURSAL EM PORTUGAL",
     "short_name": "REVOLUT BANK",
     "primary": true
+  },
+  {
+    "country_code": "PT",
+    "bank_code": "5200",
+    "bic": "CDOTPTP1XXX",
+    "name": "CAIXA DE CRÉDITO AGRÍCOLA MÚTUO DE MAFRA, CRL",
+    "short_name": "CAIXA DE CRÉDITO AGRÍCOLA MÚTUO DE MAFRA, CRL",
+    "primary": true
   }
 ]

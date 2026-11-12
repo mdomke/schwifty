@@ -441,11 +441,14 @@
   {
     "country_code": "CZ",
     "primary": true,
-    "bic": "",
+    "bic": "RZBCCZPP",
     "bank_code": "6100",
-    "name": "Raiffeisenbank a.s. (do 31. 12. 2021 Equa bank a.s.)",
-    "short_name": "Raiffeisenbank a.s. (do 31. 12. 2021 Equa bank a.s.)",
-    "status": "merged"
+    "name": "Raiffeisenbank a.s.",
+    "short_name": "Raiffeisenbank a.s.",
+    "status": "merged",
+    "successor_bank_code": "5500",
+    "legacy_name": "Equa bank a.s.",
+    "legacy_bic": "EQBKCZPP"
   },
   {
     "country_code": "CZ",

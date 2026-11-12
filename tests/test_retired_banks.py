@@ -56,6 +56,7 @@ def test_account_codes_of_closed_banks_are_still_validated() -> None:
         ("DE", "13061088", "13061078", "Volks- und Raiffeisenbank"),
         ("CH", "31000", "30005", "UBS Switzerland AG - Zürich"),
         ("SI", "03100", "04000", "OTP BANKA D.D."),
+        ("CZ", "6100", "5500", "Raiffeisenbank a.s."),
     ],
 )
 def test_merged_bank_code_resolves_to_successor(
@@ -84,6 +85,23 @@ def test_bic_of_merged_bank_resolves_to_its_retired_bank_code() -> None:
 
     iban = IBAN.generate("DE", bank_code="13061088", account_code="1234567")
     assert iban.bic == "GENODEF1HWI"
+
+
+@pytest.mark.parametrize(
+    ("legacy_bic", "bank_code", "bic"),
+    [
+        ("EQBKCZPP", "6100", "RZBCCZPP"),  # Equa bank, merged into Raiffeisenbank
+        ("ABANSI2X", "05100", "KBMASI2X"),  # Abanka, merged into OTP banka
+        ("SKBASI2X", "03100", "KBMASI2X"),  # SKB banka, merged into OTP banka
+    ],
+)
+def test_legacy_bic_resolves_to_merged_bank_code(legacy_bic: str, bank_code: str, bic: str) -> None:
+    assert BIC(legacy_bic).exists is True
+    assert bank_code in BIC(legacy_bic).domestic_bank_codes
+    bank = BIC(legacy_bic).bank
+    assert bank is not None
+    assert bank.legacy_bic == legacy_bic
+    assert bank.bic == bic
 
 
 def test_merged_bank_code_keeps_its_checksum_method() -> None:

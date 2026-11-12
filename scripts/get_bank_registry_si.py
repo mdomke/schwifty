@@ -22,6 +22,9 @@ MIN_RECORDS = 500
 # 03 SKB banka, 05 and 06 Abanka were merged into Nova KBM, which became OTP banka (04) on
 # 22 August 2024.
 RETIRED_PREFIXES = {"03": "04", "05": "04", "06": "04"}
+# The BICs of the merged institutes, which the codes were listed with before the merger. Neither
+# the official list nor the previous registry has them anymore, so they are kept here.
+LEGACY_BICS = {"03": "SKBASI2X", "05": "ABANSI2X", "06": "ABANSI2X"}
 
 
 def process(previous):
@@ -57,7 +60,9 @@ def process(previous):
     for entry in previous:
         prefix = entry["bank_code"][:2]
         if entry["bank_code"] not in current and prefix in successors:
-            registry.append(alias(successors[prefix], entry["bank_code"], entry))
+            merged = alias(successors[prefix], entry["bank_code"], entry)
+            merged.setdefault("legacy_bic", LEGACY_BICS[prefix])
+            registry.append(merged)
 
     if len(registry) < MIN_RECORDS:
         raise ValueError(f"Only {len(registry)} records parsed, the format may have changed")

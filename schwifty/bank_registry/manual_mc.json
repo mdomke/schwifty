@@ -6,5 +6,13 @@
         "name": "SOCIETE GENERALE SA",
         "short_name": "SOCIETE GENERALE FONTVIEILLE",
         "primary": true
+    },
+    {
+        "country_code": "MC",
+        "bic": "BNPAMCM1",
+        "bank_code": "30004",
+        "name": "BNP PARIBAS",
+        "short_name": "BNP PARIBAS",
+        "primary": true
     }
 ]
