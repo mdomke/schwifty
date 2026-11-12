@@ -5,8 +5,8 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
-Unreleased
-----------
+`2026.11.1`_ - 2026/11/12
+-------------------------
 Added
 ~~~~~
 * Added :attr:`.BIC.bank`, the best ranked bank record of a BIC: the institution that services the
@@ -1399,6 +1399,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2026.11.1: https://github.com/mdomke/schwifty/compare/2026.11.0...2026.11.1
 .. _2026.11.0: https://github.com/mdomke/schwifty/compare/2026.10.1...2026.11.0
 .. _2026.10.1: https://github.com/mdomke/schwifty/compare/2026.10.0...2026.10.1
 .. _2026.10.0: https://github.com/mdomke/schwifty/compare/2026.07.3...2026.10.0
