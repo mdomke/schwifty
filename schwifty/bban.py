@@ -366,6 +366,8 @@ class BBAN(common.Base):
             >>> from schwifty.domain import SEPAScheme
             >>> SEPAScheme.CORE_DIRECT_DEBIT in BBAN("DE", "370400440532013000").sepa_schemes
             True
+
+        .. versionadded:: 2026.11.2
         """
         bic = self.bic
         return bic.sepa_schemes if bic is not None else frozenset()

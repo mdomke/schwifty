@@ -337,6 +337,8 @@ class IBAN(common.Base):
             >>> from schwifty.domain import SEPAScheme
             >>> SEPAScheme.CORE_DIRECT_DEBIT in IBAN("DE89370400440532013000").sepa_schemes
             True
+
+        .. versionadded:: 2026.11.2
         """
         return self.bban.sepa_schemes
 
