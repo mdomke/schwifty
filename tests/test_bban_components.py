@@ -53,6 +53,28 @@ def test_from_components_account_code_too_long() -> None:
         BBAN.from_components("DE", bank_code="12345678", account_code="12345678901")
 
 
+def test_from_components_extended_components_too_long() -> None:
+    with pytest.raises(exceptions.InvalidStructure, match="Currency code exceeds maximum size 3"):
+        BBAN.from_components("SC", account_code="12345", currency_code="USDD")
+
+    with pytest.raises(exceptions.InvalidAccountCode, match="Account type exceeds maximum size 1"):
+        BBAN.from_components("BR", account_code="12345", account_type="PP", account_id="1")
+
+    with pytest.raises(exceptions.InvalidAccountCode, match="Account id exceeds maximum size 1"):
+        BBAN.from_components("BR", account_code="12345", account_type="P", account_id="12")
+
+    with pytest.raises(
+        exceptions.InvalidAccountCode, match="Account holder id exceeds maximum size 10"
+    ):
+        BBAN.from_components(
+            "IS",
+            bank_code="0159",
+            branch_code="26",
+            account_code="007654",
+            account_holder_id="55107303399",
+        )
+
+
 def test_from_components_unknown_country() -> None:
     with pytest.raises(exceptions.InvalidCountryCode, match="Unknown country-code 'XX'"):
         BBAN.from_components("XX", bank_code="1", account_code="1")
