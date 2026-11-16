@@ -74,6 +74,13 @@ def test_from_components_extended_components_too_long() -> None:
             account_holder_id="55107303399",
         )
 
+    with pytest.raises(
+        exceptions.InvalidBBANChecksum, match="National checksum digits exceeds maximum size 2"
+    ):
+        BBAN.from_components(
+            "BE", bank_code="539", account_code="0075470", national_checksum_digits="345"
+        )
+
 
 def test_from_components_unknown_country() -> None:
     with pytest.raises(exceptions.InvalidCountryCode, match="Unknown country-code 'XX'"):
