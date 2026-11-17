@@ -917,3 +917,40 @@ class AlgorithmC0(checksum.Algorithm):
         bank_code, account_code = components
         solved = Algorithm20().solve([account_code])
         return None if solved is None else [bank_code, *solved]
+
+
+@register
+class AlgorithmD8(checksum.Algorithm):
+    """Method 00 from account code 1000000000, method 09 from 0010000000 to 0099999999.
+
+    Like with :class:`AlgorithmC1`, the account code selects the variant. Account codes in
+    neither range are invalid.
+    """
+
+    name = "D8"
+    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
+
+    def get_variant(self, account_code: str) -> checksum.Algorithm | None:
+        number = int(validate_account_code(account_code))
+        if number >= 1_000_000_000:
+            return Algorithm00()
+        if 10_000_000 <= number <= 99_999_999:
+            return Algorithm09()
+        return None
+
+    @override
+    def compute(self, components: list[str]) -> str:
+        variant = self.get_variant(components[0])
+        if variant is None:
+            raise InvalidBBANChecksum("Account code is in neither range of method D8")
+        return variant.compute(components)
+
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        variant = self.get_variant(components[0])
+        return variant is not None and variant.validate(components, expected)
+
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        variant = self.get_variant(components[0])
+        return None if variant is None else variant.solve(components)
