@@ -7,6 +7,13 @@ Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro
 
 Unreleased
 ----------
+Fixed
+~~~~~
+* :meth:`.BBAN.from_components` validates the length of all national components against their
+  specification, preventing oversized inputs for extended fields like ``account_id``,
+  ``account_type``, ``account_holder_id``, and ``currency_code`` from overflowing and corrupting
+  the assembled BBAN.
+
 Added
 ~~~~~
 * Added the German checksum method ``D8``, used by Volkswagen Bank (bank code ``27020000``) and

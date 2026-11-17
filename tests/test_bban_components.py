@@ -53,6 +53,56 @@ def test_from_components_account_code_too_long() -> None:
         BBAN.from_components("DE", bank_code="12345678", account_code="12345678901")
 
 
+@pytest.mark.parametrize(
+    ("country_code", "components", "expected_exception", "match"),
+    [
+        (
+            "SC",
+            {"account_code": "12345", "currency_code": "USDD"},
+            exceptions.InvalidStructure,
+            "Currency code exceeds maximum size 3",
+        ),
+        (
+            "BR",
+            {"account_code": "12345", "account_type": "PP", "account_id": "1"},
+            exceptions.InvalidAccountCode,
+            "Account type exceeds maximum size 1",
+        ),
+        (
+            "BR",
+            {"account_code": "12345", "account_type": "P", "account_id": "12"},
+            exceptions.InvalidAccountCode,
+            "Account id exceeds maximum size 1",
+        ),
+        (
+            "IS",
+            {
+                "bank_code": "0159",
+                "branch_code": "26",
+                "account_code": "007654",
+                "account_holder_id": "55107303399",
+            },
+            exceptions.InvalidAccountCode,
+            "Account holder id exceeds maximum size 10",
+        ),
+        (
+            "BE",
+            {"bank_code": "539", "account_code": "0075470", "national_checksum_digits": "345"},
+            exceptions.InvalidStructure,
+            "National checksum digits exceeds maximum size 2",
+        ),
+    ],
+)
+def test_from_components_extended_components_too_long(
+    country_code: str,
+    components: dict[str, str],
+    expected_exception: type[Exception],
+    match: str,
+) -> None:
+    with pytest.raises(expected_exception, match=match):
+        BBAN.from_components(country_code, **components)
+
+
 def test_from_components_unknown_country() -> None:
     with pytest.raises(exceptions.InvalidCountryCode, match="Unknown country-code 'XX'"):
         BBAN.from_components("XX", bank_code="1", account_code="1")
