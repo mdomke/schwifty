@@ -12,6 +12,13 @@ Fixed
 * The German checksum method ``23`` (Augsburger Aktienbank, bank code ``72020700``) compares
   positions 6 and 7 when the remainder is 1, as the specification requires, instead of positions 9
   and 10 like method ``16``.
+Added
+~~~~~
+* Added the German checksum method ``D8``, used by Volkswagen Bank (bank code ``27020000``) and
+  its branches Audi Bank, Skoda Bank, AutoEuropa Bank and Seat Bank. Account codes from
+  ``1000000000`` on are checked with method ``00``, account codes from ``0010000000`` to
+  ``0099999999`` are not checked (method ``09``), and all others are invalid. Account codes for
+  these banks were not checked before.
 
 `2026.11.2`_ - 2026/11/13
 -------------------------
