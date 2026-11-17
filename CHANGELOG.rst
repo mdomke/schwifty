@@ -9,6 +9,9 @@ Unreleased
 ----------
 Fixed
 ~~~~~
+* The German checksum method ``23`` (Augsburger Aktienbank, bank code ``72020700``) compares
+  positions 6 and 7 when the remainder is 1, as the specification requires, instead of positions 9
+  and 10 like method ``16``.
 * :meth:`.BBAN.from_components` validates the length of all national components against their
   specification, preventing oversized inputs for extended fields like ``account_id``,
   ``account_type``, ``account_holder_id``, and ``currency_code`` from overflowing and corrupting
