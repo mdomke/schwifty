@@ -4,8 +4,6 @@
     :target: https://github.com/mdomke/schwifty/actions?query=workflow%3Alint-and-test
 .. image:: https://img.shields.io/pypi/l/schwifty.svg?style=flat-square
     :target: https://pypi.python.org/pypi/schwifty
-.. image:: https://app.readthedocs.org/projects/schwifty/badge/?version=latest&style=flat-square
-    :target: https://schwifty.readthedocs.io
 .. image:: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json&style=flat-square
     :target: https://github.com/astral-sh/ruff
 .. image:: https://img.shields.io/codecov/c/gh/mdomke/schwifty?token=aJj1Yg0NUq&style=flat-square
