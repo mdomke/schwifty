@@ -71,6 +71,16 @@ def compute_national_checksum(country_code: str, components: dict[Component, str
     return algo.compute([components[key] for key in algo.accepts])
 
 
+_LENGTH_ERRORS = {
+    Component.BANK_CODE: exceptions.InvalidBankCode,
+    Component.BRANCH_CODE: exceptions.InvalidBranchCode,
+    Component.ACCOUNT_CODE: exceptions.InvalidAccountCode,
+    Component.ACCOUNT_ID: exceptions.InvalidAccountCode,
+    Component.ACCOUNT_TYPE: exceptions.InvalidAccountCode,
+    Component.ACCOUNT_HOLDER_ID: exceptions.InvalidAccountCode,
+}
+
+
 class BBAN(common.Base):
     """The Basic Bank Account Number (BBAN).
 
@@ -126,7 +136,12 @@ class BBAN(common.Base):
             values: The country specific BBAN components.
 
         Raises:
-            InvalidAccountCode: If the account code does not meet the national requirements.
+            SchwiftyException: If BBAN generation for the country code is not supported.
+            InvalidAccountCode: If the account code or related account component exceeds its
+                maximum size.
+            InvalidBankCode: If the bank code exceeds the maximum size.
+            InvalidBranchCode: If the branch code exceeds the maximum size.
+            InvalidStructure: If any other component exceeds the maximum size.
         """
         spec = _get_bban_spec(country_code)
         if not spec.has_positions:
@@ -151,28 +166,8 @@ class BBAN(common.Base):
                 continue
             if len(components[component]) > range_.length:
                 name = component.replace("_", " ").capitalize()
-                if component == Component.BANK_CODE:
-                    raise exceptions.InvalidBankCode(
-                        f"Bank code exceeds maximum size {range_.length}"
-                    )
-                if component == Component.BRANCH_CODE:
-                    raise exceptions.InvalidBranchCode(
-                        f"Branch code exceeds maximum size {range_.length}"
-                    )
-                if component in (
-                    Component.ACCOUNT_CODE,
-                    Component.ACCOUNT_ID,
-                    Component.ACCOUNT_TYPE,
-                    Component.ACCOUNT_HOLDER_ID,
-                ):
-                    raise exceptions.InvalidAccountCode(
-                        f"{name} exceeds maximum size {range_.length}"
-                    )
-                if component == Component.NATIONAL_CHECKSUM_DIGITS:
-                    raise exceptions.InvalidBBANChecksum(
-                        f"{name} exceeds maximum size {range_.length}"
-                    )
-                raise exceptions.InvalidStructure(f"{name} exceeds maximum size {range_.length}")
+                error = _LENGTH_ERRORS.get(component, exceptions.InvalidStructure)
+                raise error(f"{name} exceeds maximum size {range_.length}")
 
         checksum = compute_national_checksum(country_code, components)
         if checksum:
