@@ -5,8 +5,8 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
-Unreleased
-----------
+`2026.11.3`_ - 2026/11/17
+-------------------------
 Fixed
 ~~~~~
 * The German checksum method ``23`` (Augsburger Aktienbank, bank code ``72020700``) compares
@@ -1431,6 +1431,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2026.11.3: https://github.com/mdomke/schwifty/compare/2026.11.2...2026.11.3
 .. _2026.11.2: https://github.com/mdomke/schwifty/compare/2026.11.1...2026.11.2
 .. _2026.11.1: https://github.com/mdomke/schwifty/compare/2026.11.0...2026.11.1
 .. _2026.11.0: https://github.com/mdomke/schwifty/compare/2026.10.1...2026.11.0
