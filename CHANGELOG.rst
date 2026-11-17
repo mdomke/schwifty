@@ -5,6 +5,16 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Added
+~~~~~
+* Added the German checksum method ``D8``, used by Volkswagen Bank (bank code ``27020000``) and
+  its branches Audi Bank, Skoda Bank, AutoEuropa Bank and Seat Bank. Account codes from
+  ``1000000000`` on are checked with method ``00``, account codes from ``0010000000`` to
+  ``0099999999`` are not checked (method ``09``), and all others are invalid. Account codes for
+  these banks were not checked before.
+
 `2026.11.2`_ - 2026/11/13
 -------------------------
 Added
