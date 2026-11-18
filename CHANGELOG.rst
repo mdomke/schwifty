@@ -13,6 +13,9 @@ Added
   ``56250030``) and Stadtsparkasse Landstuhl -alt- (bank code ``54051660``). Account codes starting
   with ``0`` to ``7`` are checked with method ``02``, those starting with ``8`` or ``9`` with
   method ``00``. Account codes for these banks were not checked before.
+* Added the German checksum method ``B3``, used by BBBank (bank code ``66090800``). Account codes
+  starting with ``0`` to ``8`` are checked with method ``32``, those starting with ``9`` with
+  method ``06``. Account codes for this bank were not checked before.
 
 `2026.11.3`_ - 2026/11/17
 -------------------------
