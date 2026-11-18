@@ -221,6 +221,14 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("0019010660", "DE:A7"),
         ("0019010876", "DE:A7"),
         ("0209010892", "DE:A7"),
+        # Method B2 test account numbers. Account codes starting with 0 to 7 are checked with
+        # method 02 (variant 1), those starting with 8 or 9 with method 00 (variant 2).
+        ("0020012357", "DE:B2"),
+        ("0080012345", "DE:B2"),
+        ("0926801910", "DE:B2"),
+        ("1002345674", "DE:B2"),
+        ("8000990054", "DE:B2"),
+        ("9000481805", "DE:B2"),
         # Method C1, variant 1 (method 17) for account codes not starting with 5.
         ("0446786040", "DE:C1"),
         ("0478046940", "DE:C1"),
@@ -326,6 +334,16 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0543216789", "DE:A3"),
         # Method A7 test account number that neither method 00 nor method 03 accepts.
         ("0209010893", "DE:A7"),
+        # Method B2 test account numbers. The leading digit picks the variant and the other
+        # one is never tried: these variant 1 numbers pass method 00, and all variant 2
+        # numbers but 9980480111 pass method 02.
+        ("0080012347", "DE:B2"),
+        ("0932100027", "DE:B2"),
+        ("3310123454", "DE:B2"),
+        ("8000990057", "DE:B2"),
+        ("8011000126", "DE:B2"),
+        ("9000481800", "DE:B2"),
+        ("9980480111", "DE:B2"),
         # Just outside the exception range of method 99 the check digit applies again.
         ("0395999999", "DE:99"),
         ("0500000000", "DE:99"),
@@ -525,6 +543,33 @@ def test_german_checksum_50_compute_and_solve() -> None:
     algo = algorithms["DE:50"]
     assert algo.compute(["4444440001"]) == "2"
     assert algo.solve(["4444440001"]) == ["4444442001"]
+
+
+@pytest.mark.parametrize(
+    ("account_code", "check_digit", "solved"),
+    [
+        # Variant 1 (method 02) for account codes starting with 0 to 7.
+        ("0020012350", "7", "0020012357"),
+        # Variant 2 (method 00) for account codes starting with 8 or 9.
+        ("8000990050", "4", "8000990054"),
+    ],
+)
+def test_german_checksum_b2_compute_and_solve(
+    account_code: str, check_digit: str, solved: str
+) -> None:
+    algo = algorithms["DE:B2"]
+    assert algo.compute([account_code]) == check_digit
+    assert algo.solve([account_code]) == [solved]
+
+
+@pytest.mark.parametrize("account_code", ["0020012399", "0080012370"])
+def test_german_checksum_b2_invalid_remainder(account_code: str) -> None:
+    # These variant 1 test account numbers leave a remainder of 1, for which method 02 has
+    # no check digit, so they are rejected and can't be solved either.
+    algo = algorithms["DE:B2"]
+    with pytest.raises(InvalidBBANChecksum, match="Invalid remainder"):
+        algo.validate([account_code], "")
+    assert algo.solve([account_code]) is None
 
 
 @pytest.mark.parametrize(

@@ -5,6 +5,15 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Added
+~~~~~
+* Added the German checksum method ``B2``, used by Kreissparkasse Birkenfeld (bank code
+  ``56250030``) and Stadtsparkasse Landstuhl -alt- (bank code ``54051660``). Account codes starting
+  with ``0`` to ``7`` are checked with method ``02``, those starting with ``8`` or ``9`` with
+  method ``00``. Account codes for these banks were not checked before.
+
 `2026.11.3`_ - 2026/11/17
 -------------------------
 Fixed
