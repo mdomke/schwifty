@@ -616,6 +616,14 @@ class Algorithm29(checksum.Algorithm):
 
 
 @register
+class Algorithm30(WeightedMod10):
+    name = "30"
+    positions = Positions(start=1, end=9, check_digit=10)
+    reverse = False
+    weights: ClassVar[list[int]] = [2, 0, 0, 0, 0, 1, 2, 1, 2]
+
+
+@register
 class Algorithm31(WeightedMod11):
     name = "31"
     minuend = None
@@ -737,6 +745,44 @@ class Algorithm50(Algorithm06):
 
 
 @register
+class Algorithm56(WeightedMod11):
+    """Modulus 11 where a result of 10 or 11 yields no check digit.
+
+    Account codes starting with 9 use the check digit 7 for a result of 10 and 8 for 11
+    instead.
+    """
+
+    name = "56"
+    positions = Positions(start=1, end=9, check_digit=10)
+    weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7, 2, 3, 4]
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.starts_with_nine: bool = False
+
+    @override
+    def compute(self, components: list[str]) -> str:
+        self.starts_with_nine = validate_account_code(components[0])[0] == "9"
+        return super().compute(components)
+
+    @override
+    def reconcile(self, checksum: int) -> int:
+        if checksum < 10:
+            return checksum
+        if not self.starts_with_nine:
+            raise InvalidBBANChecksum(f"Invalid remainder: {self.remainder}")
+        return 7 if checksum == 10 else 8
+
+
+@register
+class Algorithm59(Algorithm08):
+    """Method 00, but account codes with fewer than nine digits are not checked."""
+
+    name = "59"
+    min_account_code = 100_000_000
+
+
+@register
 class Algorithm60(Algorithm00):
     name = "60"
     positions = Positions(start=3, end=9, check_digit=10)
@@ -789,6 +835,73 @@ class Algorithm63(WeightedMod10):
 
 
 @register
+class Algorithm64(Algorithm06):
+    name = "64"
+    positions = Positions(start=1, end=6, check_digit=7)
+    reverse = False
+    weights: ClassVar[list[int]] = [9, 10, 5, 8, 4, 2]
+
+
+@register
+class Algorithm65(Algorithm00):
+    """Method 00 over positions 1-7, and over positions 9 and 10 too if position 9 is 9."""
+
+    name = "65"
+    positions = Positions(start=1, end=7, check_digit=8)
+    reverse = False
+
+    @override
+    def get_digits(self, account_code: str) -> str:
+        digits = super().get_digits(account_code)
+        if account_code[8] == "9":
+            digits += account_code[8:]
+        return digits
+
+
+@register
+class Algorithm66(WeightedMod11):
+    """Modulus 11 over positions 2 and 5-9 of an account code whose position 1 is 0.
+
+    Positions 3 and 4 hold a sub-account number and are weighted with 0. Account codes
+    with 9 at position 2 have no check digit and are not checked.
+    """
+
+    name = "66"
+    positions = Positions(start=2, end=9, check_digit=10)
+    weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 0, 0, 7]
+
+    @override
+    def reconcile(self, checksum: int) -> int:
+        if self.remainder == 0:
+            return 1
+        if self.remainder == 1:
+            return 0
+        return checksum
+
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        account_code = validate_account_code(components[0])
+        if account_code[0] != "0":
+            return False
+        if account_code[1] == "9":
+            return True
+        return super().validate(components, expected)
+
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        # Position 1 has to be 0, which the check digit alone cannot supply, so set it
+        # before solving for the check digit.
+        account_code = validate_account_code(components[0])
+        return super().solve(["0" + account_code[1:]])
+
+
+@register
+class Algorithm67(Algorithm00):
+    name = "67"
+    positions = Positions(start=1, end=7, check_digit=8)
+
+
+@register
 class Algorithm68(Algorithm00):
     name = "68"
     positions = Positions(start=1, end=9, check_digit=10)
@@ -831,6 +944,21 @@ class Algorithm68(Algorithm00):
         if account_code[0] != "0":
             account_code = account_code[:3] + "9" + account_code[4:]
         return super().solve([account_code])
+
+
+@register
+class Algorithm71(WeightedMod11):
+    name = "71"
+    positions = Positions(start=2, end=7, check_digit=10)
+    reverse = False
+    weights: ClassVar[list[int]] = [6, 5, 4, 3, 2, 1]
+
+    @override
+    def reconcile(self, checksum: int) -> int:
+        # A remainder of 1 gives 10, of which the tens digit 1 is the check digit.
+        if checksum == 10:
+            return 1
+        return super().reconcile(checksum)
 
 
 @register
@@ -879,6 +1007,22 @@ class Algorithm76(WeightedMod11):
 
 
 @register
+class Algorithm78(SelectedVariant):
+    """Method 00, but 8-digit account codes have no check digit and are not checked."""
+
+    name = "78"
+
+    class Variant2(AcceptedRanges):
+        ranges: ClassVar[tuple[range, ...]] = (range(10_000_000, 100_000_000),)
+
+    @override
+    def get_variant(self, account_code: str) -> checksum.Algorithm:
+        if self.Variant2.contains(account_code):
+            return self.Variant2()
+        return Algorithm00()
+
+
+@register
 class Algorithm88(Algorithm06):
     name = "88"
     positions = Positions(start=4, end=9, check_digit=10)
@@ -915,6 +1059,18 @@ class Algorithm91(FallbackVariants):
         Variant3,
         Variant4,
     )
+
+
+@register
+class Algorithm92(Algorithm01):
+    name = "92"
+    positions = Positions(start=4, end=9, check_digit=10)
+
+
+@register
+class Algorithm94(Algorithm00):
+    name = "94"
+    weights: ClassVar[list[int]] = [1, 2]
 
 
 @register
@@ -1092,6 +1248,14 @@ class AlgorithmC0(checksum.Algorithm):
 
 
 @register
+class AlgorithmD7(Algorithm00):
+    """Method 00, but the check digit is the last digit of the sum instead of its complement."""
+
+    name = "D7"
+    minuend = None
+
+
+@register
 class AlgorithmD8(SelectedVariant):
     """Method 00 from account code 1000000000, method 09 from 0010000000 to 0099999999.
 
@@ -1110,3 +1274,14 @@ class AlgorithmD8(SelectedVariant):
         if self.Variant2.contains(account_code):
             return self.Variant2()
         return None
+
+
+@register
+class AlgorithmE0(Algorithm00):
+    """Method 00 with 7 added to the sum."""
+
+    name = "E0"
+
+    @override
+    def compute_weighted_sum(self, digits: str) -> int:
+        return super().compute_weighted_sum(digits) + 7

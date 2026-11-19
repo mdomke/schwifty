@@ -288,6 +288,60 @@ from schwifty.exceptions import InvalidBBANChecksum
         # account in [6000, 60000) is valid regardless of its check digit.
         ("0000006000", "DE:08"),
         ("0000059999", "DE:08"),
+        # Method 30 has no test account numbers, so these are computed by hand.
+        ("1234567892", "DE:30"),
+        ("9876543218", "DE:30"),
+        # Method 56 examples. Account codes starting with 9 use the check digit 7 for a
+        # result of 10 and 8 for a result of 11.
+        ("0290545005", "DE:56"),
+        ("9718304037", "DE:56"),
+        ("9000000048", "DE:56"),
+        # Method 59 does not check account codes with fewer than nine digits.
+        ("0012345678", "DE:59"),
+        ("0539290858", "DE:59"),
+        # Method 64 test account numbers.
+        ("1206473010", "DE:64"),
+        ("5016511020", "DE:64"),
+        # Method 65 examples. With a 9 at position 9, positions 9 and 10 count too.
+        ("1234567400", "DE:65"),
+        ("1234567590", "DE:65"),
+        # Method 66 test account numbers. Remainder 0 gives the check digit 1, and
+        # account codes with 9 at position 2 are not checked.
+        ("0100154508", "DE:66"),
+        ("0101154508", "DE:66"),
+        ("0100154516", "DE:66"),
+        ("0101154516", "DE:66"),
+        ("0100000021", "DE:66"),
+        ("0983393104", "DE:66"),
+        # Method 67 has no test account numbers. The sub-account at positions 9 and 10
+        # does not count.
+        ("1234567400", "DE:67"),
+        ("1234567499", "DE:67"),
+        # Method 71 example. Remainder 1 gives the check digit 1.
+        ("7101234007", "DE:71"),
+        ("0100006001", "DE:71"),
+        # Method 78 test account numbers. 8-digit account codes are not checked.
+        ("0007581499", "DE:78"),
+        ("9999999981", "DE:78"),
+        ("0012345678", "DE:78"),
+        # Method 92 has no test account numbers.
+        ("1234567893", "DE:92"),
+        # Method 94 test account number.
+        ("6782533003", "DE:94"),
+        # Method D7 test account numbers.
+        ("0500018205", "DE:D7"),
+        ("0230103715", "DE:D7"),
+        ("0301000434", "DE:D7"),
+        ("0330035104", "DE:D7"),
+        ("0420001202", "DE:D7"),
+        ("0134637709", "DE:D7"),
+        ("0201005939", "DE:D7"),
+        ("0602006999", "DE:D7"),
+        # Method E0 test account numbers.
+        ("1234568013", "DE:E0"),
+        ("1534568010", "DE:E0"),
+        ("0002610015", "DE:E0"),
+        ("8741013011", "DE:E0"),
     ],
 )
 def test_german_checksum_success(account_code: str, algorithm_name: str) -> None:
@@ -435,6 +489,35 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         # Account codes in neither range are invalid, even if they pass method 00.
         ("0009290701", "DE:D8"),
         ("0539290858", "DE:D8"),
+        ("1234567890", "DE:30"),
+        ("9876543210", "DE:30"),
+        ("0290545006", "DE:56"),
+        ("9718304038", "DE:56"),
+        ("0539290850", "DE:59"),
+        ("1206474010", "DE:64"),
+        ("5016512020", "DE:64"),
+        ("1234567500", "DE:65"),
+        ("1234567490", "DE:65"),
+        ("0100154509", "DE:66"),
+        # Position 1 does not belong to the account number and has to be 0.
+        ("1100154508", "DE:66"),
+        ("1234567500", "DE:67"),
+        ("7101234008", "DE:71"),
+        ("0007581498", "DE:78"),
+        ("9999999982", "DE:78"),
+        ("1234567890", "DE:92"),
+        ("6782533004", "DE:94"),
+        ("0501006102", "DE:D7"),
+        ("0231307867", "DE:D7"),
+        ("0301005331", "DE:D7"),
+        ("0330034104", "DE:D7"),
+        ("0420001302", "DE:D7"),
+        ("0135638809", "DE:D7"),
+        ("0202005939", "DE:D7"),
+        ("0601006977", "DE:D7"),
+        ("1234769013", "DE:E0"),
+        ("0002710014", "DE:E0"),
+        ("9741015011", "DE:E0"),
     ],
 )
 def test_german_checksum_failure(account_code: str, algorithm_name: str) -> None:
@@ -833,3 +916,27 @@ def test_german_checksum_91_solve_exhausted(monkeypatch: pytest.MonkeyPatch) -> 
         monkeypatch.setattr(variant, "solve", no_solution)
 
     assert algorithms["DE:91"].solve(["2974118000"]) is None
+
+
+def test_german_checksum_56_invalid_remainder() -> None:
+    # Remainders 0 and 1 give no check digit unless the account code starts with 9.
+    algo = algorithms["DE:56"]
+    for account_code in ("1000000090", "1000000040"):
+        with pytest.raises(InvalidBBANChecksum):
+            algo.compute([account_code])
+    assert algo.compute(["9000000130"]) == "7"
+    assert algo.compute(["9000000040"]) == "8"
+
+
+def test_german_checksum_66_solve() -> None:
+    # Position 1 is set to 0 before solving for the check digit.
+    assert algorithms["DE:66"].solve(["1234567890"]) == ["0234567890"]
+
+
+def test_german_checksum_78_compute_and_solve() -> None:
+    algo = algorithms["DE:78"]
+    assert algo.compute(["1234567890"]) == "7"
+    assert algo.solve(["1234567890"]) == ["1234567897"]
+    # 8-digit account codes have no check digit, so they are left as they are.
+    assert algo.compute(["0012345678"]) == ""
+    assert algo.solve(["0012345678"]) == ["0012345678"]
