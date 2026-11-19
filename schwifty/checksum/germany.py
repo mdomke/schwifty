@@ -246,11 +246,6 @@ class Algorithm09(checksum.Algorithm):
         return True
 
 
-def get_account_code(algorithm: checksum.Algorithm, components: list[str]) -> str:
-    """Return the account code from ``components`` in the order ``algorithm`` accepts them."""
-    return components[algorithm.accepts.index(Component.ACCOUNT_CODE)]
-
-
 class AcceptedRanges(checksum.Algorithm):
     """Method 09 for the account codes in :attr:`ranges`, and invalid for all others.
 
@@ -273,11 +268,12 @@ class AcceptedRanges(checksum.Algorithm):
 
     @override
     def validate(self, components: list[str], expected: str) -> bool:
-        return self.contains(get_account_code(self, components))
+        return self.contains(self.get_component(components, Component.ACCOUNT_CODE))
 
     @override
     def solve(self, components: list[str]) -> list[str] | None:
-        return components if self.contains(get_account_code(self, components)) else None
+        account_code = self.get_component(components, Component.ACCOUNT_CODE)
+        return components if self.contains(account_code) else None
 
 
 class CompositeAlgorithm(checksum.Algorithm):
@@ -292,8 +288,7 @@ class CompositeAlgorithm(checksum.Algorithm):
     accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
 
     def components_for(self, variant: checksum.Algorithm, components: list[str]) -> list[str]:
-        values = dict(zip(self.accepts, components, strict=True))
-        return [values[component] for component in variant.accepts]
+        return [self.get_component(components, component) for component in variant.accepts]
 
     def compute_with(self, variant: checksum.Algorithm, components: list[str]) -> str:
         return variant.compute(self.components_for(variant, components))
@@ -335,7 +330,7 @@ class FallbackVariants(CompositeAlgorithm):
 
     @override
     def validate(self, components: list[str], expected: str) -> bool:
-        account_code = get_account_code(self, components)
+        account_code = self.get_component(components, Component.ACCOUNT_CODE)
         for algo_cls in self.variants:
             with suppress(InvalidBBANChecksum):
                 if self.validate_with(algo_cls(), components, expected):
@@ -366,7 +361,7 @@ class SelectedVariant(CompositeAlgorithm):
         pass
 
     def select(self, components: list[str]) -> checksum.Algorithm | None:
-        return self.get_variant(get_account_code(self, components))
+        return self.get_variant(self.get_component(components, Component.ACCOUNT_CODE))
 
     @override
     def compute(self, components: list[str]) -> str:
