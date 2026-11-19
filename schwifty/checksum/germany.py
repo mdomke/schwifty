@@ -1095,6 +1095,40 @@ class Algorithm95(Algorithm06):
 
 
 @register
+class Algorithm96(FallbackVariants):
+    """Method 19, then method 00, then valid for account codes 0001300000 to 0099399999."""
+
+    name = "96"
+
+    class Variant3(AcceptedRanges):
+        ranges: ClassVar[tuple[range, ...]] = (range(1_300_000, 99_400_000),)
+
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Algorithm19,
+        Algorithm00,
+        Variant3,
+    )
+
+
+@register
+class Algorithm98(FallbackVariants):
+    """Method 01 over positions 3 to 9, then method 32."""
+
+    name = "98"
+
+    class Variant1(Algorithm01):
+        # The spec lists the weights 3, 7, 1, 3, 7, 1, 3 for positions 3 to 9 from left
+        # to right, so read from the right they cycle as 3, 1, 7.
+        positions = Positions(start=3, end=9, check_digit=10)
+        weights: ClassVar[list[int]] = [3, 1, 7]
+
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Variant1,
+        Algorithm32,
+    )
+
+
+@register
 class Algorithm99(Algorithm06):
     name = "99"
 
@@ -1143,6 +1177,18 @@ class AlgorithmA7(FallbackVariants):
 
 
 @register
+class AlgorithmB1(FallbackVariants):
+    """Method 05, then method 01, then method 00."""
+
+    name = "B1"
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Algorithm05,
+        Algorithm01,
+        Algorithm00,
+    )
+
+
+@register
 class AlgorithmB2(SelectedVariant):
     """Method 02 for account codes starting with 0 to 7, method 00 for 8 and 9.
 
@@ -1172,6 +1218,28 @@ class AlgorithmB3(SelectedVariant):
         if validate_account_code(account_code)[0] == "9":
             return Algorithm06()
         return Algorithm32()
+
+
+@register
+class AlgorithmB8(FallbackVariants):
+    """Method 20, then method 29, then valid for two ranges of account codes.
+
+    The ranges are 5100000000 to 5999999999 and 9010000000 to 9109999999.
+    """
+
+    name = "B8"
+
+    class Variant3(AcceptedRanges):
+        ranges: ClassVar[tuple[range, ...]] = (
+            range(5_100_000_000, 6_000_000_000),
+            range(9_010_000_000, 9_110_000_000),
+        )
+
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Algorithm20,
+        Algorithm29,
+        Variant3,
+    )
 
 
 @register
@@ -1248,6 +1316,76 @@ class AlgorithmC0(checksum.Algorithm):
 
 
 @register
+class AlgorithmC2(FallbackVariants):
+    """Method 22, then method 00, then method 04."""
+
+    name = "C2"
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Algorithm22,
+        Algorithm00,
+        Algorithm04,
+    )
+
+
+@register
+class AlgorithmC7(FallbackVariants):
+    """Method 63, then method 06."""
+
+    name = "C7"
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Algorithm63,
+        Algorithm06,
+    )
+
+
+@register
+class AlgorithmC8(FallbackVariants):
+    """Method 00, then method 04, then method 07."""
+
+    name = "C8"
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Algorithm00,
+        Algorithm04,
+        Algorithm07,
+    )
+
+
+@register
+class AlgorithmC9(FallbackVariants):
+    """Method 00, then method 07."""
+
+    name = "C9"
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Algorithm00,
+        Algorithm07,
+    )
+
+
+@register
+class AlgorithmD2(FallbackVariants):
+    """Method 95, then method 00, then method 68."""
+
+    name = "D2"
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Algorithm95,
+        Algorithm00,
+        Algorithm68,
+    )
+
+
+@register
+class AlgorithmD6(FallbackVariants):
+    """Method 07, then method 03, then method 00."""
+
+    name = "D6"
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Algorithm07,
+        Algorithm03,
+        Algorithm00,
+    )
+
+
+@register
 class AlgorithmD7(Algorithm00):
     """Method 00, but the check digit is the last digit of the sum instead of its complement."""
 
@@ -1285,3 +1423,25 @@ class AlgorithmE0(Algorithm00):
     @override
     def compute_weighted_sum(self, digits: str) -> int:
         return super().compute_weighted_sum(digits) + 7
+
+
+@register
+class AlgorithmE3(FallbackVariants):
+    """Method 00, then method 21."""
+
+    name = "E3"
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Algorithm00,
+        Algorithm21,
+    )
+
+
+@register
+class AlgorithmE4(FallbackVariants):
+    """Method 02, then method 00."""
+
+    name = "E4"
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Algorithm02,
+        Algorithm00,
+    )
