@@ -39,6 +39,27 @@ Added
   * ``94``: Weberbank (``10120100``)
   * ``D7``: Oyak Anker Bank (``57020500``)
   * ``E0``: start:bausparkasse (``20120400``)
+* Added the German checksum methods ``96``, ``98``, ``B1``, ``B8``, ``C2``, ``C7``, ``C8``,
+  ``C9``, ``D2``, ``D6``, ``E3`` and ``E4``. Each checks the account code with existing methods
+  in turn until one accepts it. Account codes for the banks that use them were not checked
+  before, so invalid ones are now rejected:
+
+  * ``96``: methods ``19`` and ``00``, then accounts 0001300000 to 0099399999 without check;
+    Frankfurter Sparkasse (``50050201``)
+  * ``98``: method ``01`` over positions 3 to 9, then method ``32``; CB Bank (``74290100``)
+  * ``B1``: methods ``05``, ``01`` and ``00``; Stadtsparkasse Hildesheim -alt- (``25950001``)
+    and Sparkasse Hildesheim Goslar Peine (``25950130``)
+  * ``B8``: methods ``20`` and ``29``, then accounts 5100000000 to 5999999999 and 9010000000 to
+    9109999999 without check; BSK 1818 - Berliner Sparkasse (``10050000``) and
+    S-Kreditpartner, Berlin (``10050020``)
+  * ``C2``: methods ``22``, ``00`` and ``04``; Sparkasse Mittelholstein (``21450000``)
+  * ``C7``: methods ``63`` and ``06``; norisbank (``76026000``)
+  * ``C8``: methods ``00``, ``04`` and ``07``; Nord-Ostsee Sparkasse (``21750000``)
+  * ``C9``: methods ``00`` and ``07``; Sparkasse Neunkirchen (``59252046``)
+  * ``D2``: methods ``95``, ``00`` and ``68``; CACEIS Bank, Germany Branch (``70120500``)
+  * ``D6``: methods ``07``, ``03`` and ``00``; Stadtsparkasse Wedel (``22151730``)
+  * ``E3``: methods ``00`` and ``21``; Sparkasse Saarbrücken (``59050101``)
+  * ``E4``: methods ``02`` and ``00``; Sparkasse an Volme und Ruhr (``45050001``)
 
 Changed
 ~~~~~~~
