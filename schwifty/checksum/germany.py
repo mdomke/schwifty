@@ -776,7 +776,7 @@ class Algorithm56(WeightedMod11):
 
 @register
 class Algorithm59(Algorithm08):
-    """Method 00, but account codes with fewer than nine digits are not checked."""
+    """Method 08 (method 00 that skips small account codes) with a limit of nine digits."""
 
     name = "59"
     min_account_code = 100_000_000
