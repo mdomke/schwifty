@@ -106,7 +106,7 @@ The national check digits of the following countries are validated:
 
 German banks choose one of the check digit methods defined by the Deutsche Bundesbank, which the
 bank registry records as :attr:`.Bank.checksum_algo`. Of the 91 methods in use, ``schwifty``
-implements the 53 that cover about 98% of all active German bank codes. The check digits of bank
+implements the 54 that cover about 98% of all active German bank codes. The check digits of bank
 codes whose method isn't implemented are accepted as they are.
 
 Where a country's BBAN format declares national check digits, but ``schwifty`` has no algorithm for

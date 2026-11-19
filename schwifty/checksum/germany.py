@@ -424,10 +424,74 @@ class Algorithm26(Algorithm06):
 
 
 @register
+class Algorithm27(checksum.Algorithm):
+    """Method 00 for account codes up to 999 999 999, method 29 from 1 000 000 000.
+
+    Like with :class:`AlgorithmB2`, the account code selects the variant.
+    """
+
+    name = "27"
+    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
+
+    def get_variant(self, account_code: str) -> checksum.Algorithm:
+        if int(validate_account_code(account_code)) >= 1_000_000_000:
+            return Algorithm29()
+        return Algorithm00()
+
+    @override
+    def compute(self, components: list[str]) -> str:
+        return self.get_variant(components[0]).compute(components)
+
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        return self.get_variant(components[0]).validate(components, expected)
+
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        return self.get_variant(components[0]).solve(components)
+
+
+@register
 class Algorithm28(Algorithm06):
     name = "28"
     positions = Positions(start=1, end=7, check_digit=8)
     weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7, 8]
+
+
+@register
+class Algorithm29(checksum.Algorithm):
+    """Iterated transformation table lookup (Modulus 10)."""
+
+    name = "29"
+    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
+
+    # Transformation table rows 1-4 for digits 0-9
+    table: ClassVar[list[list[int]]] = [
+        [0, 1, 5, 9, 3, 7, 4, 8, 2, 6],
+        [0, 1, 7, 6, 9, 8, 3, 2, 5, 4],
+        [0, 1, 8, 4, 6, 2, 9, 5, 7, 3],
+        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    ]
+    # Rows assigned to positions 1 to 9 (from left to right)
+    rows: ClassVar[list[int]] = [1, 4, 3, 2, 1, 4, 3, 2, 1]
+
+    @override
+    def compute(self, components: list[str]) -> str:
+        account_code = validate_account_code(components[0])
+        total = sum(
+            self.table[row - 1][int(d)] for row, d in zip(self.rows, account_code[:9], strict=True)
+        )
+        return str((10 - (total % 10)) % 10)
+
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        account_code = validate_account_code(components[0])
+        return self.compute(components) == account_code[9]
+
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        account_code = validate_account_code(components[0])
+        return [account_code[:9] + self.compute([account_code])]
 
 
 @register

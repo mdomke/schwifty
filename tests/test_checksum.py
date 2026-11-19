@@ -45,6 +45,18 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("0520309001", "DE:26"),
         ("1111118111", "DE:26"),
         ("0005501024", "DE:26"),
+        # Method 27 test account numbers. Numbers >= 1 000 000 000 use method 29 (iterated
+        # transformation); numbers < 1 000 000 000 use method 00.
+        ("0009290701", "DE:27"),
+        ("0539290858", "DE:27"),
+        ("2847169488", "DE:27"),
+        ("6019937007", "DE:27"),
+        ("6021354007", "DE:27"),
+        # Method 29 test account numbers (iterated transformation).
+        ("1000061378", "DE:29"),
+        ("1000061412", "DE:29"),
+        ("2938692523", "DE:29"),
+        ("3145863029", "DE:29"),
         # Method 31 test account numbers. Positions 1 to 9 are weighted 1 to 9 from left to
         # right and the remainder of the sum divided by 11 is the check digit at position 10.
         ("1000000524", "DE:31"),
@@ -301,6 +313,15 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0099999910", "DE:48"),
         # Valid for method 06, but method 48 expects check digit 7 at position 9.
         ("0094012341", "DE:48"),
+        # Method 27 with a wrong check digit.
+        ("2847169487", "DE:27"),
+        ("6025017009", "DE:27"),
+        ("6028267003", "DE:27"),
+        # Method 29 with a wrong check digit.
+        ("0132572975", "DE:29"),
+        ("1000061457", "DE:29"),
+        ("1000061498", "DE:29"),
+        ("5432198760", "DE:29"),
         # Method 31 with a wrong check digit.
         ("1000000525", "DE:31"),
         # Method 40 with a wrong check digit.
@@ -669,6 +690,38 @@ def test_german_checksum_d8_compute_and_solve() -> None:
     with pytest.raises(InvalidBBANChecksum):
         algo.compute(["0123456789"])
     assert algo.solve(["0123456789"]) is None
+
+
+@pytest.mark.parametrize(
+    ("account_code", "check_digit", "solved"),
+    [
+        # Method 27: < 1 000 000 000 (Method 00)
+        ("0539290850", "8", "0539290858"),
+        # Method 27: >= 1 000 000 000 (Method 29)
+        ("2847169480", "8", "2847169488"),
+    ],
+)
+def test_german_checksum_27_compute_and_solve(
+    account_code: str, check_digit: str, solved: str
+) -> None:
+    algo = algorithms["DE:27"]
+    assert algo.compute([account_code]) == check_digit
+    assert algo.solve([account_code]) == [solved]
+
+
+@pytest.mark.parametrize(
+    ("account_code", "check_digit", "solved"),
+    [
+        ("3145863020", "9", "3145863029"),
+        ("2938692520", "3", "2938692523"),
+    ],
+)
+def test_german_checksum_29_compute_and_solve(
+    account_code: str, check_digit: str, solved: str
+) -> None:
+    algo = algorithms["DE:29"]
+    assert algo.compute([account_code]) == check_digit
+    assert algo.solve([account_code]) == [solved]
 
 
 def test_german_checksum_91_solve_exhausted(monkeypatch: pytest.MonkeyPatch) -> None:

@@ -194,6 +194,8 @@ def test_bank_prefers_the_best_ranked_record_of_every_registered_bank_code() -> 
         "20090700",  # Edekabank, method 50
         "21352240",  # Sparkasse Holstein, method A7
         "56250030",  # Kreissparkasse Birkenfeld, method B2
+        "25050000",  # Norddeutsche Landesbank, method 27
+        "29050000",  # Norddeutsche Landesbank, method 29
         "66090800",  # BBBank, method B3
         "27020000",  # Volkswagen Bank, method D8
     ],
@@ -295,6 +297,8 @@ def test_random_national_checksum_overflow(monkeypatch: pytest.MonkeyPatch) -> N
         ("20090700", "50"),  # Edekabank
         ("21352240", "A7"),  # Sparkasse Holstein
         ("56250030", "B2"),  # Kreissparkasse Birkenfeld
+        ("25050000", "27"),  # Norddeutsche Landesbank
+        ("29050000", "29"),  # Norddeutsche Landesbank
         ("66090800", "B3"),  # BBBank
         ("27020000", "D8"),  # Volkswagen Bank
     ],
