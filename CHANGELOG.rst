@@ -9,6 +9,11 @@ Unreleased
 ----------
 Added
 ~~~~~
+* Added German checksum methods ``27`` and ``29``, used by Norddeutsche Landesbank (bank codes
+  ``25050000`` and ``29050000``), Landesbank Saar (``59050000``), and Investitionsbank
+  Sachsen-Anhalt (``81010400``). Method ``29`` uses iterated transformation table lookups, and
+  method ``27`` selects method ``00`` for accounts under 1 000 000 000 and method ``29``
+  otherwise. Account codes for these banks were not checked before.
 * Added the German checksum method ``B2``, used by Kreissparkasse Birkenfeld (bank code
   ``56250030``) and Stadtsparkasse Landstuhl -alt- (bank code ``54051660``). Account codes starting
   with ``0`` to ``7`` are checked with method ``02``, those starting with ``8`` or ``9`` with
