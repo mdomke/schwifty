@@ -10,9 +10,12 @@ from schwifty.checksum.germany import Algorithm00
 from schwifty.checksum.germany import Algorithm02
 from schwifty.checksum.germany import Algorithm09
 from schwifty.checksum.germany import Algorithm91
+from schwifty.checksum.germany import AlgorithmC0
 from schwifty.checksum.germany import digit_sum
 from schwifty.checksum.germany import FallbackVariants
+from schwifty.checksum.germany import SelectedVariant
 from schwifty.checksum.germany import WeightedModulus
+from schwifty.domain import Component
 from schwifty.exceptions import InvalidAccountCode
 from schwifty.exceptions import InvalidBBANChecksum
 
@@ -571,6 +574,48 @@ def test_german_checksum_fallback_variants_solve_tries_next_variant() -> None:
     assert algo.solve(["0000000123"]) == ["0000000123"]
     # The account code is outside of the range, so method 00 places the check digit.
     assert algo.solve(["1234567890"]) == ["1234567897"]
+
+
+def test_german_checksum_fallback_variants_picks_components_by_name() -> None:
+    checked: list[str] = []
+
+    class SmallNumbers(AcceptedRanges):
+        ranges: ClassVar[tuple[range, ...]] = (range(1_000),)
+
+    class BankAndAccount(FallbackVariants):
+        accepts: ClassVar[list[Component]] = [Component.BANK_CODE, Component.ACCOUNT_CODE]
+        variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (SmallNumbers, Algorithm00)
+
+        @override
+        def allows_fallback(self, account_code: str) -> bool:
+            checked.append(account_code)
+            return True
+
+    algo = BankAndAccount()
+    # The variants only accept the account code, so they are given that alone.
+    assert algo.validate(["13051172", "1123456780"], "") is True
+    assert checked == ["1123456780"]
+    assert algo.compute(["13051172", "0000000123"]) == ""
+    # The solved account code is put back next to the bank code.
+    assert algo.solve(["13051172", "1234567890"]) == ["13051172", "1234567897"]
+
+
+def test_german_checksum_selected_variant_picks_components_by_name() -> None:
+    class BankAndAccount(SelectedVariant):
+        accepts: ClassVar[list[Component]] = [Component.BANK_CODE, Component.ACCOUNT_CODE]
+
+        @override
+        def get_variant(self, account_code: str) -> checksum.Algorithm:
+            return AlgorithmC0() if account_code.startswith("00") else Algorithm00()
+
+    algo = BankAndAccount()
+    # Method C0 needs the bank code as well; the Bundesbank example uses 13051172.
+    assert algo.validate(["13051172", "0043001500"], "") is True
+    assert algo.validate(["13051042", "0043001500"], "") is False
+    # Method 00 only accepts the account code.
+    assert algo.validate(["13051172", "1123456780"], "") is True
+    assert algo.compute(["13051172", "1234567890"]) == "7"
+    assert algo.solve(["13051172", "1234567890"]) == ["13051172", "1234567897"]
 
 
 def test_german_checksum_48_compute_and_solve() -> None:
