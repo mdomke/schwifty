@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import warnings
+from collections.abc import Mapping
 from random import Random
 from typing import Any
 from typing import Self
@@ -69,6 +70,26 @@ def compute_national_checksum(country_code: str, components: dict[Component, str
         return ""
 
     return algo.compute([components[key] for key in algo.accepts])
+
+
+def _split_branch_code(
+    components: dict[Component, str],
+    ranges: dict[Component, Range],
+    values: Mapping[str | Component, Any] | None = None,
+) -> None:
+    bank_code_length = ranges[Component.BANK_CODE].length
+    branch_code_length = ranges[Component.BRANCH_CODE].length
+
+    raw_branch_code = "" if values is None else (values.get(Component.BRANCH_CODE) or "")
+    bank_code = components[Component.BANK_CODE]
+    if (
+        not common.clean(raw_branch_code)
+        and len(bank_code) == bank_code_length + branch_code_length
+    ):
+        components[Component.BRANCH_CODE] = bank_code[
+            bank_code_length : bank_code_length + branch_code_length
+        ]
+        components[Component.BANK_CODE] = bank_code[:bank_code_length]
 
 
 _LENGTH_ERRORS = {
@@ -152,14 +173,7 @@ class BBAN(common.Base):
         for key, range_ in ranges.items():
             components[key] = common.clean(values.get(key, "")).zfill(range_.length)
 
-        bank_code_length: int = ranges[Component.BANK_CODE].length
-        branch_code_length: int = ranges[Component.BRANCH_CODE].length
-
-        if len(components[Component.BANK_CODE]) == bank_code_length + branch_code_length:
-            components[Component.BRANCH_CODE] = components[Component.BANK_CODE][
-                bank_code_length : bank_code_length + branch_code_length
-            ]
-            components[Component.BANK_CODE] = components[Component.BANK_CODE][:bank_code_length]
+        _split_branch_code(components, ranges, values)
 
         for component, range_ in ranges.items():
             if range_.is_empty:
@@ -260,14 +274,7 @@ class BBAN(common.Base):
                         bank_value or spec.defaults.get(f"default_{key.value}") or range_.cut(bban)
                     )
 
-            bank_code = components[Component.BANK_CODE]
-            bank_code_length = ranges[Component.BANK_CODE].length
-            branch_code_length = ranges[Component.BRANCH_CODE].length
-
-            if len(bank_code) >= bank_code_length + branch_code_length:
-                start = bank_code_length
-                end = start + branch_code_length
-                components[Component.BRANCH_CODE] = bank_code[start:end]
+            _split_branch_code(components, ranges, values)
 
             for key, value in components.items():
                 components[key] = value[: ranges[key].length]
