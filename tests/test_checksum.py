@@ -229,6 +229,15 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("1002345674", "DE:B2"),
         ("8000990054", "DE:B2"),
         ("9000481805", "DE:B2"),
+        # Method B3 test account numbers. Account codes starting with 0 to 8 are checked with
+        # method 32 (variant 1), those starting with 9 with method 06 (variant 2).
+        ("0000000019", "DE:B3"),
+        ("0000000140", "DE:B3"),
+        ("1000000060", "DE:B3"),
+        ("1002798417", "DE:B3"),
+        ("8409915001", "DE:B3"),
+        ("9635000101", "DE:B3"),
+        ("9730200100", "DE:B3"),
         # Method C1, variant 1 (method 17) for account codes not starting with 5.
         ("0446786040", "DE:C1"),
         ("0478046940", "DE:C1"),
@@ -344,6 +353,15 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("8011000126", "DE:B2"),
         ("9000481800", "DE:B2"),
         ("9980480111", "DE:B2"),
+        # Method B3 test account numbers.
+        ("0002799899", "DE:B3"),
+        ("1000000111", "DE:B3"),
+        ("9635100101", "DE:B3"),
+        ("9730300100", "DE:B3"),
+        # The leading digit picks the B3 variant and the other one is never tried: these
+        # account codes only pass method 06 (variant 2) and method 32 (variant 1) respectively.
+        ("1000000066", "DE:B3"),
+        ("9635000106", "DE:B3"),
         # Just outside the exception range of method 99 the check digit applies again.
         ("0395999999", "DE:99"),
         ("0500000000", "DE:99"),
@@ -570,6 +588,23 @@ def test_german_checksum_b2_invalid_remainder(account_code: str) -> None:
     with pytest.raises(InvalidBBANChecksum, match="Invalid remainder"):
         algo.validate([account_code], "")
     assert algo.solve([account_code]) is None
+
+
+@pytest.mark.parametrize(
+    ("account_code", "check_digit", "solved"),
+    [
+        # Variant 1 (method 32) for account codes starting with 0 to 8.
+        ("1002798410", "7", "1002798417"),
+        # Variant 2 (method 06) for account codes starting with 9.
+        ("9635000100", "1", "9635000101"),
+    ],
+)
+def test_german_checksum_b3_compute_and_solve(
+    account_code: str, check_digit: str, solved: str
+) -> None:
+    algo = algorithms["DE:B3"]
+    assert algo.compute([account_code]) == check_digit
+    assert algo.solve([account_code]) == [solved]
 
 
 @pytest.mark.parametrize(
