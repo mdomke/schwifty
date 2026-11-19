@@ -1,8 +1,17 @@
+from typing import ClassVar
+
 import pytest
 
+from schwifty import checksum
+from schwifty._compat import override
 from schwifty.checksum import algorithms
+from schwifty.checksum.germany import AcceptedRanges
+from schwifty.checksum.germany import Algorithm00
+from schwifty.checksum.germany import Algorithm02
+from schwifty.checksum.germany import Algorithm09
 from schwifty.checksum.germany import Algorithm91
 from schwifty.checksum.germany import digit_sum
+from schwifty.checksum.germany import FallbackVariants
 from schwifty.checksum.germany import WeightedModulus
 from schwifty.exceptions import InvalidAccountCode
 from schwifty.exceptions import InvalidBBANChecksum
@@ -522,6 +531,46 @@ def test_german_checksum_fallback_variants_compute_and_solve(algorithm_name: str
     algo = algorithms[algorithm_name]
     assert algo.compute(["3456789010"]) == "9"
     assert algo.solve(["3456789010"]) == ["3456789019"]
+
+
+def test_german_checksum_fallback_variants_raising_variant_rejects() -> None:
+    class RaisingThenAccepting(FallbackVariants):
+        variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (Algorithm02, Algorithm09)
+
+    # Method 02 has no check digit for a remainder of 1 and raises, which moves on to the
+    # next variant instead of escaping from ``validate``.
+    with pytest.raises(InvalidBBANChecksum):
+        Algorithm02().compute(["1234567820"])
+    assert RaisingThenAccepting().validate(["1234567820"], "") is True
+    # Method A2 fails method 00 here, and method 04 raises, so the account code is invalid.
+    assert algorithms["DE:A2"].validate(["1234567060"], "") is False
+
+
+def test_german_checksum_fallback_variants_allows_fallback() -> None:
+    class StopsOnNine(FallbackVariants):
+        variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (Algorithm00, Algorithm09)
+
+        @override
+        def allows_fallback(self, account_code: str) -> bool:
+            return account_code[0] != "9"
+
+    # Both account codes fail method 00, but only the one not starting with 9 may fall
+    # back to method 09.
+    assert StopsOnNine().validate(["1123456781"], "") is True
+    assert StopsOnNine().validate(["9123456780"], "") is False
+
+
+def test_german_checksum_fallback_variants_solve_tries_next_variant() -> None:
+    class SmallNumbers(AcceptedRanges):
+        ranges: ClassVar[tuple[range, ...]] = (range(1_000),)
+
+    class RangesThenMethod00(FallbackVariants):
+        variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (SmallNumbers, Algorithm00)
+
+    algo = RangesThenMethod00()
+    assert algo.solve(["0000000123"]) == ["0000000123"]
+    # The account code is outside of the range, so method 00 places the check digit.
+    assert algo.solve(["1234567890"]) == ["1234567897"]
 
 
 def test_german_checksum_48_compute_and_solve() -> None:
