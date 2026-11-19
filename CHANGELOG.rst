@@ -14,6 +14,13 @@ Added
   with ``0`` to ``7`` are checked with method ``02``, those starting with ``8`` or ``9`` with
   method ``00``. Account codes for these banks were not checked before.
 
+Fixed
+~~~~~
+* :meth:`.BBAN.from_components` and :meth:`.BBAN.random` only split a combined bank and branch
+  code when no branch code was explicitly provided, avoiding overwriting caller-provided branch
+  codes. Passing an oversized bank code alongside an explicit branch code now raises
+  :exc:`.InvalidBankCode`, even when the branch codes match.
+
 `2026.11.3`_ - 2026/11/17
 -------------------------
 Fixed

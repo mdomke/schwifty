@@ -26,6 +26,56 @@ def test_from_components_splits_combined_bank_and_branch_code() -> None:
     assert bban.branch_code == "601613"
 
 
+def test_from_components_splits_with_whitespace_branch_code() -> None:
+    # A whitespace-only branch code is treated as omitted, so the combined
+    # bank and branch code is still split.
+    bban = BBAN.from_components(
+        "GB",
+        bank_code="NWBK601613",
+        branch_code="   ",
+        account_code="31926819",
+    )
+    assert bban.bank_code == "NWBK"
+    assert bban.branch_code == "601613"
+
+
+def test_from_components_does_not_overwrite_explicit_branch_code() -> None:
+    # If a branch code is explicitly provided, an oversized bank code should not
+    # be split into branch code and overwrite it; it should raise InvalidBankCode instead.
+    with pytest.raises(exceptions.InvalidBankCode, match="Bank code exceeds maximum size 4"):
+        BBAN.from_components(
+            "GB",
+            bank_code="NWBK601613",
+            branch_code="999999",
+            account_code="31926819",
+        )
+
+
+def test_from_components_rejects_matching_explicit_branch_code() -> None:
+    # Passing an oversized bank code alongside an explicit branch code raises
+    # InvalidBankCode even when the branch codes match.
+    with pytest.raises(exceptions.InvalidBankCode, match="Bank code exceeds maximum size 4"):
+        BBAN.from_components(
+            "GB",
+            bank_code="NWBK601613",
+            branch_code="601613",
+            account_code="31926819",
+        )
+
+
+def test_random_does_not_overwrite_explicit_branch_code() -> None:
+    # Explicit branch code should not be replaced by the trailing part of a combined bank code.
+    bban = BBAN.random("GB", bank_code="NWBK601613", branch_code="999999")
+    assert bban.bank_code == "NWBK"
+    assert bban.branch_code == "999999"
+
+
+def test_random_splits_combined_bank_and_branch_code() -> None:
+    bban = BBAN.random("GB", bank_code="NWBK601613")
+    assert bban.bank_code == "NWBK"
+    assert bban.branch_code == "601613"
+
+
 def test_from_components_computes_national_checksum() -> None:
     bban = BBAN.from_components(
         "IT", bank_code="05428", branch_code="11101", account_code="000000123456"
