@@ -51,6 +51,13 @@ class Algorithm(metaclass=abc.ABCMeta):
         Component.ACCOUNT_CODE,
     ]
 
+    def get_component(self, values: list[str], component: Component) -> str:
+        """Return the value of ``component`` from ``values``.
+
+        ``values`` holds the component values in the order of :attr:`accepts`.
+        """
+        return values[self.accepts.index(component)]
+
     @abc.abstractmethod
     def compute(self, components: list[str]) -> str:
         pass

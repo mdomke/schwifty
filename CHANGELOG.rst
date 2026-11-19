@@ -22,6 +22,14 @@ Added
   starting with ``0`` to ``8`` are checked with method ``32``, those starting with ``9`` with
   method ``06``. Account codes for this bank were not checked before.
 
+Changed
+~~~~~~~
+* German checksum methods that fall back to further variants now treat a variant that finds no
+  valid check digit as a rejection and move on to the next variant. As a result, the ``validate``
+  method of the ``A2`` checksum algorithm returns ``False`` instead of raising
+  :exc:`.InvalidBBANChecksum` when its method ``04`` variant hits a remainder of 1. Validating a
+  BBAN raises :exc:`.InvalidBBANChecksum` in both cases, as before.
+
 Fixed
 ~~~~~
 * :meth:`.BBAN.from_components` and :meth:`.BBAN.random` only split a combined bank and branch

@@ -7,6 +7,7 @@ https://www.bundesbank.de/resource/blob/603320/16a80c739bbbae592ca575905975c2d0/
 
 from __future__ import annotations
 
+import abc
 import string
 from contextlib import suppress
 from dataclasses import dataclass
@@ -245,6 +246,141 @@ class Algorithm09(checksum.Algorithm):
         return True
 
 
+class AcceptedRanges(checksum.Algorithm):
+    """Method 09 for the account codes in :attr:`ranges`, and invalid for all others.
+
+    Account codes in the ranges carry no check digit. This serves as the last variant of
+    a :class:`FallbackVariants`, or as the variant a :class:`SelectedVariant` picks for
+    the ranges. The ranges are half-open, like Python's :class:`range`.
+    """
+
+    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
+    ranges: ClassVar[tuple[range, ...]]
+
+    @classmethod
+    def contains(cls, account_code: str) -> bool:
+        number = int(validate_account_code(account_code))
+        return any(number in accepted for accepted in cls.ranges)
+
+    @override
+    def compute(self, components: list[str]) -> str:
+        return ""
+
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        return self.contains(self.get_component(components, Component.ACCOUNT_CODE))
+
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        account_code = self.get_component(components, Component.ACCOUNT_CODE)
+        return components if self.contains(account_code) else None
+
+
+class CompositeAlgorithm(checksum.Algorithm):
+    """A method that checks the account code with other methods, its variants.
+
+    A variant may accept other components than the method itself, e.g. only the account
+    code while another variant also needs the bank code. Each variant is therefore given
+    the components it accepts, picked by name, and the components it solves are put back
+    in their place.
+    """
+
+    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
+
+    def components_for(self, variant: checksum.Algorithm, components: list[str]) -> list[str]:
+        return [self.get_component(components, component) for component in variant.accepts]
+
+    def compute_with(self, variant: checksum.Algorithm, components: list[str]) -> str:
+        return variant.compute(self.components_for(variant, components))
+
+    def validate_with(
+        self, variant: checksum.Algorithm, components: list[str], expected: str
+    ) -> bool:
+        return variant.validate(self.components_for(variant, components), expected)
+
+    def solve_with(self, variant: checksum.Algorithm, components: list[str]) -> list[str] | None:
+        solved = variant.solve(self.components_for(variant, components))
+        if solved is None:
+            return None
+        values = dict(zip(self.accepts, components, strict=True))
+        values.update(zip(variant.accepts, solved, strict=True))
+        return [values[component] for component in self.accepts]
+
+
+class FallbackVariants(CompositeAlgorithm):
+    """Check the account code with each variant in turn until one accepts it.
+
+    A variant that raises :class:`~schwifty.exceptions.InvalidBBANChecksum`, e.g. for a
+    remainder that yields no check digit, counts as rejecting the account code.
+    """
+
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]]
+
+    def allows_fallback(self, account_code: str) -> bool:
+        """Return whether ``account_code`` may be checked with the next variant.
+
+        Override this for methods where a rejection by a variant is final for some
+        account codes.
+        """
+        return True
+
+    @override
+    def compute(self, components: list[str]) -> str:
+        return self.compute_with(self.variants[0](), components)
+
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        account_code = self.get_component(components, Component.ACCOUNT_CODE)
+        for algo_cls in self.variants:
+            with suppress(InvalidBBANChecksum):
+                if self.validate_with(algo_cls(), components, expected):
+                    return True
+            if not self.allows_fallback(account_code):
+                return False
+        return False
+
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        for algo_cls in self.variants:
+            solved = self.solve_with(algo_cls(), components)
+            if solved is not None and self.validate(solved, ""):
+                return solved
+        return None
+
+
+class SelectedVariant(CompositeAlgorithm):
+    """Check the account code with the one variant that the account code selects.
+
+    Unlike :class:`FallbackVariants`, an account code rejected by the selected variant is
+    invalid and no other variant is tried. Account codes for which :meth:`get_variant`
+    returns ``None`` are invalid as well.
+    """
+
+    @abc.abstractmethod
+    def get_variant(self, account_code: str) -> checksum.Algorithm | None:
+        pass
+
+    def select(self, components: list[str]) -> checksum.Algorithm | None:
+        return self.get_variant(self.get_component(components, Component.ACCOUNT_CODE))
+
+    @override
+    def compute(self, components: list[str]) -> str:
+        variant = self.select(components)
+        if variant is None:
+            raise InvalidBBANChecksum(f"Account code matches no variant of method {self.name}")
+        return self.compute_with(variant, components)
+
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        variant = self.select(components)
+        return variant is not None and self.validate_with(variant, components, expected)
+
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        variant = self.select(components)
+        return None if variant is None else self.solve_with(variant, components)
+
+
 @register
 class Algorithm10(Algorithm06):
     name = "10"
@@ -424,31 +560,16 @@ class Algorithm26(Algorithm06):
 
 
 @register
-class Algorithm27(checksum.Algorithm):
-    """Method 00 for account codes up to 999 999 999, method 29 from 1 000 000 000.
-
-    Like with :class:`AlgorithmB2`, the account code selects the variant.
-    """
+class Algorithm27(SelectedVariant):
+    """Method 00 for account codes up to 999 999 999, method 29 from 1 000 000 000."""
 
     name = "27"
-    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
 
+    @override
     def get_variant(self, account_code: str) -> checksum.Algorithm:
         if int(validate_account_code(account_code)) >= 1_000_000_000:
             return Algorithm29()
         return Algorithm00()
-
-    @override
-    def compute(self, components: list[str]) -> str:
-        return self.get_variant(components[0]).compute(components)
-
-    @override
-    def validate(self, components: list[str], expected: str) -> bool:
-        return self.get_variant(components[0]).validate(components, expected)
-
-    @override
-    def solve(self, components: list[str]) -> list[str] | None:
-        return self.get_variant(components[0]).solve(components)
 
 
 @register
@@ -771,9 +892,8 @@ class Algorithm88(Algorithm06):
 
 
 @register
-class Algorithm91(checksum.Algorithm):
+class Algorithm91(FallbackVariants):
     name = "91"
-    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
 
     class Variant1(Algorithm06):
         positions = Positions(start=1, end=6, check_digit=7)
@@ -789,22 +909,12 @@ class Algorithm91(checksum.Algorithm):
     class Variant4(Variant1):
         weights: ClassVar[list[int]] = [2, 4, 8, 5, 10, 9]
 
-    @override
-    def compute(self, components: list[str]) -> str:
-        return self.Variant1().compute(components)
-
-    @override
-    def validate(self, components: list[str], expected: str) -> bool:
-        variants = (self.Variant1, self.Variant2, self.Variant3, self.Variant4)
-        return any(algo_cls().validate(components, expected) for algo_cls in variants)
-
-    @override
-    def solve(self, components: list[str]) -> list[str] | None:
-        for algo_cls in [self.Variant1, self.Variant2, self.Variant3, self.Variant4]:
-            solved = algo_cls().solve(components)
-            if solved is not None and self.validate(solved, ""):
-                return solved
-        return None
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Variant1,
+        Variant2,
+        Variant3,
+        Variant4,
+    )
 
 
 @register
@@ -840,29 +950,10 @@ class Algorithm99(Algorithm06):
         return super().validate(components, expected)
 
 
-class FallbackVariants(checksum.Algorithm):
-    """Check the account code with the second variant if the first one rejects it."""
-
-    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
-    variants: ClassVar[tuple[type[WeightedModulus], type[WeightedModulus]]]
-
-    @override
-    def compute(self, components: list[str]) -> str:
-        return self.variants[0]().compute(components)
-
-    @override
-    def validate(self, components: list[str], expected: str) -> bool:
-        return any(algo_cls().validate(components, expected) for algo_cls in self.variants)
-
-    @override
-    def solve(self, components: list[str]) -> list[str] | None:
-        return self.variants[0]().solve(components)
-
-
 @register
 class Algorithm49(FallbackVariants):
     name = "49"
-    variants: ClassVar[tuple[type[WeightedModulus], type[WeightedModulus]]] = (
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
         Algorithm00,
         Algorithm01,
     )
@@ -871,7 +962,7 @@ class Algorithm49(FallbackVariants):
 @register
 class AlgorithmA2(FallbackVariants):
     name = "A2"
-    variants: ClassVar[tuple[type[WeightedModulus], type[WeightedModulus]]] = (
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
         Algorithm00,
         Algorithm04,
     )
@@ -880,7 +971,7 @@ class AlgorithmA2(FallbackVariants):
 @register
 class AlgorithmA3(FallbackVariants):
     name = "A3"
-    variants: ClassVar[tuple[type[WeightedModulus], type[WeightedModulus]]] = (
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
         Algorithm00,
         Algorithm10,
     )
@@ -889,100 +980,58 @@ class AlgorithmA3(FallbackVariants):
 @register
 class AlgorithmA7(FallbackVariants):
     name = "A7"
-    variants: ClassVar[tuple[type[WeightedModulus], type[WeightedModulus]]] = (
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
         Algorithm00,
         Algorithm03,
     )
 
 
 @register
-class AlgorithmB2(checksum.Algorithm):
+class AlgorithmB2(SelectedVariant):
     """Method 02 for account codes starting with 0 to 7, method 00 for 8 and 9.
 
-    Like with :class:`AlgorithmC1`, the leading digit selects the variant, so an account
-    code rejected by that variant is invalid and the other one is not tried.
+    The leading digit selects the variant.
     """
 
     name = "B2"
-    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
 
+    @override
     def get_variant(self, account_code: str) -> WeightedModulus:
         if validate_account_code(account_code)[0] in "89":
             return Algorithm00()
         return Algorithm02()
 
-    @override
-    def compute(self, components: list[str]) -> str:
-        return self.get_variant(components[0]).compute(components)
-
-    @override
-    def validate(self, components: list[str], expected: str) -> bool:
-        return self.get_variant(components[0]).validate(components, expected)
-
-    @override
-    def solve(self, components: list[str]) -> list[str] | None:
-        return self.get_variant(components[0]).solve(components)
-
 
 @register
-class AlgorithmB3(checksum.Algorithm):
+class AlgorithmB3(SelectedVariant):
     """Method 32 for account codes starting with 0 to 8, method 06 for 9.
 
-    Like with :class:`AlgorithmC1`, the leading digit selects the variant, so an account
-    code rejected by that variant is invalid and the other one is not tried.
+    The leading digit selects the variant.
     """
 
     name = "B3"
-    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
 
+    @override
     def get_variant(self, account_code: str) -> WeightedModulus:
         if validate_account_code(account_code)[0] == "9":
             return Algorithm06()
         return Algorithm32()
 
-    @override
-    def compute(self, components: list[str]) -> str:
-        return self.get_variant(components[0]).compute(components)
-
-    @override
-    def validate(self, components: list[str], expected: str) -> bool:
-        return self.get_variant(components[0]).validate(components, expected)
-
-    @override
-    def solve(self, components: list[str]) -> list[str] | None:
-        return self.get_variant(components[0]).solve(components)
-
 
 @register
-class AlgorithmC1(checksum.Algorithm):
-    """Method 17, or a variant of it over positions 1-9 for account codes starting with 5.
-
-    Unlike :class:`FallbackVariants`, the leading digit selects the variant, so an account
-    code rejected by that variant is invalid and the other one is not tried.
-    """
+class AlgorithmC1(SelectedVariant):
+    """Method 17, or a variant of it over positions 1-9 for account codes starting with 5."""
 
     name = "C1"
-    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
 
     class Variant2(Algorithm17):
         positions = Positions(start=1, end=9, check_digit=10)
 
+    @override
     def get_variant(self, account_code: str) -> WeightedModulus:
         if validate_account_code(account_code)[0] == "5":
             return self.Variant2()
         return Algorithm17()
-
-    @override
-    def compute(self, components: list[str]) -> str:
-        return self.get_variant(components[0]).compute(components)
-
-    @override
-    def validate(self, components: list[str], expected: str) -> bool:
-        return self.get_variant(components[0]).validate(components, expected)
-
-    @override
-    def solve(self, components: list[str]) -> list[str] | None:
-        return self.get_variant(components[0]).solve(components)
 
 
 @register
@@ -1043,37 +1092,21 @@ class AlgorithmC0(checksum.Algorithm):
 
 
 @register
-class AlgorithmD8(checksum.Algorithm):
+class AlgorithmD8(SelectedVariant):
     """Method 00 from account code 1000000000, method 09 from 0010000000 to 0099999999.
 
-    Like with :class:`AlgorithmC1`, the account code selects the variant. Account codes in
-    neither range are invalid.
+    Account codes in neither range are invalid.
     """
 
     name = "D8"
-    accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
 
+    class Variant2(AcceptedRanges):
+        ranges: ClassVar[tuple[range, ...]] = (range(10_000_000, 100_000_000),)
+
+    @override
     def get_variant(self, account_code: str) -> checksum.Algorithm | None:
-        number = int(validate_account_code(account_code))
-        if number >= 1_000_000_000:
+        if int(validate_account_code(account_code)) >= 1_000_000_000:
             return Algorithm00()
-        if 10_000_000 <= number <= 99_999_999:
-            return Algorithm09()
+        if self.Variant2.contains(account_code):
+            return self.Variant2()
         return None
-
-    @override
-    def compute(self, components: list[str]) -> str:
-        variant = self.get_variant(components[0])
-        if variant is None:
-            raise InvalidBBANChecksum("Account code is in neither range of method D8")
-        return variant.compute(components)
-
-    @override
-    def validate(self, components: list[str], expected: str) -> bool:
-        variant = self.get_variant(components[0])
-        return variant is not None and variant.validate(components, expected)
-
-    @override
-    def solve(self, components: list[str]) -> list[str] | None:
-        variant = self.get_variant(components[0])
-        return None if variant is None else variant.solve(components)
