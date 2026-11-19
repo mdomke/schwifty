@@ -21,6 +21,24 @@ Added
 * Added the German checksum method ``B3``, used by BBBank (bank code ``66090800``). Account codes
   starting with ``0`` to ``8`` are checked with method ``32``, those starting with ``9`` with
   method ``06``. Account codes for this bank were not checked before.
+* Added the German checksum methods ``30``, ``56``, ``59``, ``64``, ``65``, ``66``, ``67``,
+  ``71``, ``78``, ``92``, ``94``, ``D7`` and ``E0``. Account codes for the banks that use them
+  were not checked before, so invalid ones are now rejected:
+
+  * ``30``: Piraeus Bank Frankfurt Branch (``52420600``)
+  * ``56``: S Broker Wiesbaden (``30030100`` and ``51051000``) and HSBC Continental Europe,
+    Germany (``30030880``)
+  * ``59``: ZV Landesbank Baden-Württemberg (``55050000``)
+  * ``64``: Volksbank Koblenz Mittelrhein -alt- (``57090000`` and ``57090010``)
+  * ``65``: Baden-Württembergische Bank (``60020030`` and ``66020020``)
+  * ``66``: Credit Suisse (Deutschland) (``50120500``)
+  * ``67``: FNZ Bank (``70013000`` and ``70013010``)
+  * ``71``: Internationales Bankhaus Bodensee (``65110200``)
+  * ``78``: Sparkasse Essen (``36050105``)
+  * ``92``: MLP Banking (``67230000`` and ``67230001``)
+  * ``94``: Weberbank (``10120100``)
+  * ``D7``: Oyak Anker Bank (``57020500``)
+  * ``E0``: start:bausparkasse (``20120400``)
 
 Changed
 ~~~~~~~
