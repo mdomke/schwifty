@@ -60,6 +60,22 @@ Added
   * ``D6``: methods ``07``, ``03`` and ``00``; Stadtsparkasse Wedel (``22151730``)
   * ``E3``: methods ``00`` and ``21``; Sparkasse Saarbrücken (``59050101``)
   * ``E4``: methods ``02`` and ``00``; Sparkasse an Volme und Ruhr (``45050001``)
+* Added the German checksum methods ``74``, ``A5``, ``A6``, ``B5``, ``B7`` and ``D0``. Account
+  codes for the banks that use them were not checked before, so invalid ones are now rejected:
+
+  * ``74``: method ``00``, where 6-digit account codes may also use the difference to the sum
+    rounded up to a multiple of 5 as check digit, then method ``04``; Förde Sparkasse
+    (``21050170``)
+  * ``A5``: method ``00``, then method ``10`` for account codes not starting with 9; Sparkasse
+    Mittelfranken-Süd (``76450000``)
+  * ``A6``: method ``00`` for account codes with an 8 at position 2, method ``01`` otherwise;
+    Sparkasse Bad Hersfeld-Rotenburg (``53250000``)
+  * ``B5``: method ``05``, then method ``00`` for account codes not starting with 8 or 9;
+    Kreissparkasse Köln (``37050299``)
+  * ``B7``: method ``01`` for account codes 0001000000 to 0005999999 and 0700000000 to
+    0899999999, no check otherwise; Oldenburgische Landesbank AG (``50010700``)
+  * ``D0``: no check for account codes starting with 57, method ``20`` otherwise; Stadt- und
+    Kreissparkasse Leipzig (``86055592``)
 
 Changed
 ~~~~~~~
