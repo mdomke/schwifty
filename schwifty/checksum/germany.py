@@ -962,6 +962,37 @@ class Algorithm71(WeightedMod11):
 
 
 @register
+class Algorithm74(FallbackVariants):
+    """Method 00 with a second check digit for 6-digit account codes, then method 04."""
+
+    name = "74"
+
+    class Variant1(Algorithm00):
+        """Method 00, but 6-digit account codes may also round the sum up to a multiple of 5.
+
+        The difference between the rounded and the original sum is the second check digit.
+        The spec doesn't say what happens to a sum that is already a multiple of 5. Rounding
+        it up leaves it unchanged, so the second check digit is 0 then.
+        """
+
+        @override
+        def validate(self, components: list[str], expected: str) -> bool:
+            if super().validate(components, expected):
+                return True
+            [account_code] = components
+            if not 100_000 <= int(account_code) <= 999_999:
+                return False
+            # ``validate`` above computed the remainder of the sum modulo 10, which has the
+            # same remainder modulo 5 as the sum itself.
+            return account_code[-1] == str(-self.remainder % 5)
+
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Variant1,
+        Algorithm04,
+    )
+
+
+@register
 class Algorithm76(WeightedMod11):
     name = "76"
     minuend = None
@@ -1168,6 +1199,34 @@ class AlgorithmA3(FallbackVariants):
 
 
 @register
+class AlgorithmA5(FallbackVariants):
+    """Method 00, then method 10. Account codes starting with 9 must pass method 00."""
+
+    name = "A5"
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Algorithm00,
+        Algorithm10,
+    )
+
+    @override
+    def allows_fallback(self, account_code: str) -> bool:
+        return account_code[0] != "9"
+
+
+@register
+class AlgorithmA6(SelectedVariant):
+    """Method 00 for account codes with an 8 at position 2, method 01 for all others."""
+
+    name = "A6"
+
+    @override
+    def get_variant(self, account_code: str) -> WeightedModulus:
+        if validate_account_code(account_code)[1] == "8":
+            return Algorithm00()
+        return Algorithm01()
+
+
+@register
 class AlgorithmA7(FallbackVariants):
     name = "A7"
     variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
@@ -1218,6 +1277,42 @@ class AlgorithmB3(SelectedVariant):
         if validate_account_code(account_code)[0] == "9":
             return Algorithm06()
         return Algorithm32()
+
+
+@register
+class AlgorithmB5(FallbackVariants):
+    """Method 05, then method 00. Account codes starting with 8 or 9 must pass method 05."""
+
+    name = "B5"
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+        Algorithm05,
+        Algorithm00,
+    )
+
+    @override
+    def allows_fallback(self, account_code: str) -> bool:
+        return account_code[0] not in "89"
+
+
+@register
+class AlgorithmB7(SelectedVariant):
+    """Method 01 for two ranges of account codes, method 09 for all others.
+
+    The ranges are 0001000000 to 0005999999 and 0700000000 to 0899999999.
+    """
+
+    name = "B7"
+    ranges: ClassVar[tuple[range, ...]] = (
+        range(1_000_000, 6_000_000),
+        range(700_000_000, 900_000_000),
+    )
+
+    @override
+    def get_variant(self, account_code: str) -> checksum.Algorithm:
+        number = int(validate_account_code(account_code))
+        if any(number in accepted for accepted in self.ranges):
+            return Algorithm01()
+        return Algorithm09()
 
 
 @register
@@ -1359,6 +1454,19 @@ class AlgorithmC9(FallbackVariants):
         Algorithm00,
         Algorithm07,
     )
+
+
+@register
+class AlgorithmD0(SelectedVariant):
+    """Method 09 for account codes starting with 57, method 20 for all others."""
+
+    name = "D0"
+
+    @override
+    def get_variant(self, account_code: str) -> checksum.Algorithm:
+        if validate_account_code(account_code).startswith("57"):
+            return Algorithm09()
+        return Algorithm20()
 
 
 @register
