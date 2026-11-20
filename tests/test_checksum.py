@@ -495,6 +495,119 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("6100273479", "DE:D0"),
         ("5700000000", "DE:D0"),
         ("5799999999", "DE:D0"),
+        # Method 51 test account numbers.
+        ("0001156071", "DE:51"),
+        ("0001156136", "DE:51"),
+        ("0001156078", "DE:51"),
+        ("0001234567", "DE:51"),
+        ("0000340968", "DE:51"),
+        ("0000201178", "DE:51"),
+        ("0001009588", "DE:51"),
+        ("0000156071", "DE:51"),
+        ("0101356073", "DE:51"),
+        ("0199100002", "DE:51"),
+        ("0099100010", "DE:51"),
+        ("2599100002", "DE:51"),
+        ("0199100004", "DE:51"),
+        ("2599100003", "DE:51"),
+        ("3199204090", "DE:51"),
+        # Method 57 test account numbers.
+        ("7500021766", "DE:57"),
+        ("9400001734", "DE:57"),
+        ("7800028282", "DE:57"),
+        ("8100244186", "DE:57"),
+        ("3251080371", "DE:57"),
+        ("3891234567", "DE:57"),
+        ("7777778800", "DE:57"),
+        ("5001050352", "DE:57"),
+        ("5045090090", "DE:57"),
+        ("1909700805", "DE:57"),
+        ("9322111030", "DE:57"),
+        ("7400060823", "DE:57"),
+        ("0185125434", "DE:57"),
+        # Method 58 test account numbers.
+        ("1800881120", "DE:58"),
+        ("9200654108", "DE:58"),
+        ("1015222224", "DE:58"),
+        ("3703169668", "DE:58"),
+        ("1800293377", "DE:58"),
+        # Method 81 test account numbers.
+        ("0000646440", "DE:81"),
+        ("0001359100", "DE:81"),
+        ("0199100002", "DE:81"),
+        ("0099100010", "DE:81"),
+        ("2599100002", "DE:81"),
+        ("0199100004", "DE:81"),
+        ("2599100003", "DE:81"),
+        ("3199204090", "DE:81"),
+        # Method 93 test account numbers.
+        ("6714790000", "DE:93"),
+        ("0000671479", "DE:93"),
+        ("1277830000", "DE:93"),
+        ("0000127783", "DE:93"),
+        ("1277910000", "DE:93"),
+        ("0000127791", "DE:93"),
+        ("3067540000", "DE:93"),
+        ("0000306754", "DE:93"),
+        ("6714791000", "DE:93"),
+        # Method A4 test account numbers.
+        ("0004711173", "DE:A4"),
+        ("0007093330", "DE:A4"),
+        ("0004711172", "DE:A4"),
+        ("0007093335", "DE:A4"),
+        ("1199503010", "DE:A4"),
+        ("8499421235", "DE:A4"),
+        ("0000862342", "DE:A4"),
+        ("8997710000", "DE:A4"),
+        ("0664040000", "DE:A4"),
+        ("0000905844", "DE:A4"),
+        ("5030101099", "DE:A4"),
+        ("0001123458", "DE:A4"),
+        ("1299503117", "DE:A4"),
+        # Method A8 test account numbers.
+        ("0007436661", "DE:A8"),
+        ("0007436670", "DE:A8"),
+        ("0001359100", "DE:A8"),
+        ("0007436660", "DE:A8"),
+        ("0007436678", "DE:A8"),
+        ("0003503398", "DE:A8"),
+        ("0001340967", "DE:A8"),
+        ("0199100002", "DE:A8"),
+        ("0099100010", "DE:A8"),
+        ("2599100002", "DE:A8"),
+        ("0199100004", "DE:A8"),
+        ("2599100003", "DE:A8"),
+        ("3199204090", "DE:A8"),
+        # Method C3 test account numbers.
+        ("0009294182", "DE:C3"),
+        ("0004431276", "DE:C3"),
+        ("0000019919", "DE:C3"),
+        ("9000420530", "DE:C3"),
+        ("9000010006", "DE:C3"),
+        ("9000577650", "DE:C3"),
+        # Method C5 test account numbers.
+        ("0000301168", "DE:C5"),
+        ("0000302554", "DE:C5"),
+        ("0300020050", "DE:C5"),
+        ("0300566000", "DE:C5"),
+        ("1000061378", "DE:C5"),
+        ("1000061412", "DE:C5"),
+        ("4450164064", "DE:C5"),
+        ("4863476104", "DE:C5"),
+        ("5000000028", "DE:C5"),
+        ("5000000391", "DE:C5"),
+        ("6450008149", "DE:C5"),
+        ("6800001016", "DE:C5"),
+        ("9000100012", "DE:C5"),
+        ("9000210017", "DE:C5"),
+        ("3060188103", "DE:C5"),
+        ("3070402023", "DE:C5"),
+        ("0030000000", "DE:C5"),
+        ("0059999999", "DE:C5"),
+        ("7000000000", "DE:C5"),
+        ("7099999999", "DE:C5"),
+        ("8500000000", "DE:C5"),
+        ("8599999999", "DE:C5"),
     ],
 )
 def test_german_checksum_success(account_code: str, algorithm_name: str) -> None:
@@ -730,6 +843,60 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("6100272885", "DE:D0"),
         ("6100273377", "DE:D0"),
         ("6100274012", "DE:D0"),
+        ("0123412345", "DE:51"),
+        ("0067493647", "DE:51"),
+        ("0099345678", "DE:51"),
+        ("0099100110", "DE:51"),
+        ("0199100040", "DE:51"),
+        ("5302707782", "DE:57"),
+        ("6412121212", "DE:57"),
+        ("1813499124", "DE:57"),
+        ("2206735010", "DE:57"),
+        ("0012345678", "DE:57"),
+        ("1800293376", "DE:58"),
+        ("0099345678", "DE:81"),
+        ("0099100110", "DE:81"),
+        ("0199100040", "DE:81"),
+        ("6714780000", "DE:93"),
+        ("0000671478", "DE:93"),
+        ("0000399443", "DE:A4"),
+        ("0000553313", "DE:A4"),
+        ("0007436666", "DE:A8"),
+        ("0007436677", "DE:A8"),
+        ("0003503391", "DE:A8"),
+        ("0001340966", "DE:A8"),
+        ("0099345678", "DE:A8"),
+        ("0099100110", "DE:A8"),
+        ("0199100040", "DE:A8"),
+        ("0000017002", "DE:C3"),
+        ("0000123451", "DE:C3"),
+        ("0000122448", "DE:C3"),
+        ("9000734028", "DE:C3"),
+        ("9000733227", "DE:C3"),
+        ("9000731120", "DE:C3"),
+        ("0000302589", "DE:C5"),
+        ("0000507336", "DE:C5"),
+        ("0302555000", "DE:C5"),
+        ("0302589000", "DE:C5"),
+        ("1000061457", "DE:C5"),
+        ("1000061498", "DE:C5"),
+        ("4864446015", "DE:C5"),
+        ("4865038012", "DE:C5"),
+        ("5000001028", "DE:C5"),
+        ("5000001075", "DE:C5"),
+        ("6450008150", "DE:C5"),
+        ("6542812818", "DE:C5"),
+        ("9000110012", "DE:C5"),
+        ("9000300310", "DE:C5"),
+        ("3081000783", "DE:C5"),
+        ("3081308871", "DE:C5"),
+        ("0029999999", "DE:C5"),
+        ("0060000000", "DE:C5"),
+        ("7100000000", "DE:C5"),
+        ("8499999999", "DE:C5"),
+        ("2000000000", "DE:C5"),
+        ("0001234567", "DE:C5"),
+        ("0000999999", "DE:C5"),
     ],
 )
 def test_german_checksum_failure(account_code: str, algorithm_name: str) -> None:
@@ -903,6 +1070,104 @@ def test_german_checksum_selected_method_09(algorithm_name: str, account_code: s
     algo = algorithms[algorithm_name]
     assert algo.compute([account_code]) == ""
     assert algo.solve([account_code]) == [account_code]
+
+
+@pytest.mark.parametrize(
+    "algorithm_name",
+    ["DE:51", "DE:57", "DE:58", "DE:75", "DE:81", "DE:93", "DE:A4", "DE:A8", "DE:C3", "DE:C5"],
+)
+def test_german_checksum_phase_4_solve(algorithm_name: str) -> None:
+    # Some of these methods reject whole ranges of account codes, so not every input can be
+    # solved, but every solution must validate.
+    algo = algorithms[algorithm_name]
+    account_codes = [
+        "0000123450",
+        "0001234560",
+        "0123450789",
+        "0912345089",
+        "1234567890",
+        "3456789010",
+        "5512345670",
+        "7012345678",
+        "9876543210",
+    ]
+    solutions = [algo.solve([account_code]) for account_code in account_codes]
+    assert any(solved is not None for solved in solutions)
+    for solved in solutions:
+        if solved is not None:
+            assert algo.validate(solved, "") is True
+
+
+def test_german_checksum_57_variant_4_has_no_check_digit() -> None:
+    algo = algorithms["DE:57"]
+    assert algo.compute(["1909700805"]) == ""
+    assert algo.solve(["1909700805"]) == ["1909700805"]
+    assert algo.solve(["1813499124"]) is None
+
+
+@pytest.mark.parametrize(
+    ("account_code", "solved"),
+    [
+        # 6 and 7 digits: base number at positions 5 to 9, check digit at position 10.
+        ("0000123450", "0000123455"),
+        ("0001234560", "0001234567"),
+        # 9 digits: base number at positions 2 to 6, check digit at position 7.
+        ("0123450789", "0123455789"),
+        # 9 digits with a 9 at position 2: positions 3 to 7, check digit at position 8.
+        ("0912345089", "0912345589"),
+    ],
+)
+def test_german_checksum_75_positions(account_code: str, solved: str) -> None:
+    assert algorithms["DE:75"].solve([account_code]) == [solved]
+
+
+@pytest.mark.parametrize("account_code", ["0000012345", "0012345678", "1234567890"])
+def test_german_checksum_75_invalid_length(account_code: str) -> None:
+    assert algorithms["DE:75"].validate([account_code], "") is False
+
+
+@pytest.mark.parametrize(
+    ("bank_code", "account_code", "valid"),
+    [
+        # Method 53, which builds the ESER account number from the bank code.
+        ("80053782", "0487310018", True),
+        ("80053762", "0467310018", False),
+        ("80053772", "0477310018", False),
+        # Method 20.
+        ("80053762", "9110000000", True),
+        ("80053762", "0269876545", True),
+        ("80053762", "9111000000", False),
+        ("80053762", "0269456780", False),
+    ],
+)
+def test_german_checksum_b6(bank_code: str, account_code: str, valid: bool) -> None:
+    assert algorithms["DE:B6"].validate([bank_code, account_code], "") is valid
+
+
+def test_german_checksum_53() -> None:
+    algo = algorithms["DE:53"]
+    # The example from the spec.
+    assert algo.compute(["16052072", "0382432256"]) == "2"
+    assert algo.validate(["16052072", "0382432256"], "") is True
+    # 10-digit account codes starting with 9 use method 20.
+    assert algo.compute(["16052072", "9123456780"]) == "4"
+    assert algo.validate(["16052072", "9123456784"], "") is True
+    assert algo.solve(["16052072", "9123456780"]) == ["16052072", "9123456784"]
+    # No factor below 10 brings this ESER account number to a remainder of 10.
+    assert algo.solve(["16052072", "0100000002"]) is None
+    # Account codes with fewer than 9 digits have no ESER account number.
+    assert algo.validate(["16052072", "0012345678"], "") is False
+    assert algo.solve(["16052072", "0012345678"]) is None
+    with pytest.raises(InvalidBBANChecksum):
+        algo.compute(["16052072", "0012345678"])
+
+
+@pytest.mark.parametrize("algorithm_name", ["DE:53", "DE:B6"])
+def test_german_checksum_eser_solve(algorithm_name: str) -> None:
+    algo = algorithms[algorithm_name]
+    solved = algo.solve(["80053782", "0487310010"])
+    assert solved == ["80053782", "0483310010"]
+    assert algo.validate(["80053782", "0483310010"], "") is True
 
 
 def test_german_checksum_98_weights_read_from_the_right() -> None:
