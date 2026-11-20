@@ -1168,6 +1168,22 @@ class AlgorithmA3(FallbackVariants):
 
 
 @register
+class AlgorithmA6(SelectedVariant):
+    """Method 00 when the second digit is 8, method 01 otherwise.
+
+    The second digit of the padded account code selects the variant.
+    """
+
+    name = "A6"
+
+    @override
+    def get_variant(self, account_code: str) -> WeightedModulus:
+        if validate_account_code(account_code)[1] == "8":
+            return Algorithm00()
+        return Algorithm01()
+
+
+@register
 class AlgorithmA7(FallbackVariants):
     name = "A7"
     variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (

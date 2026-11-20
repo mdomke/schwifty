@@ -237,6 +237,15 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("9876543210", "DE:A3"),
         ("1234567890", "DE:A3"),
         ("0123456789", "DE:A3"),
+        # Method A6 test account numbers. Second digit 8 selects method 00, otherwise
+        # method 01.
+        ("0800048548", "DE:A6"),
+        ("0855000014", "DE:A6"),
+        ("0000000017", "DE:A6"),
+        ("0055300030", "DE:A6"),
+        ("0150178033", "DE:A6"),
+        ("0600003555", "DE:A6"),
+        ("0900291823", "DE:A6"),
         # Method A7 test account numbers. Variant 1 is method 00, and the account codes it
         # rejects are checked with method 03, which adds the products without their digit
         # sums. For 0019010660, method 00 counts 6*2 = 12 as 1 + 2 and expects check digit 9,
@@ -524,6 +533,11 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0123456789", "DE:A2"),
         ("6543217890", "DE:A3"),
         ("0543216789", "DE:A3"),
+        # Method A6 with wrong check digits.
+        ("0860000817", "DE:A6"),
+        ("0810033652", "DE:A6"),
+        ("0000305888", "DE:A6"),
+        ("0200071280", "DE:A6"),
         # Method A7 test account number that neither method 00 nor method 03 accepts.
         ("0209010893", "DE:A7"),
         # Method B2 test account numbers. The leading digit picks the variant and the other
@@ -733,6 +747,23 @@ def test_german_checksum_91_compute_and_solve() -> None:
     algo = algorithms["DE:91"]
     assert algo.compute(["2974118000"]) == "8"
     assert algo.solve(["2974118000"]) == ["2974118000"]
+
+
+@pytest.mark.parametrize(
+    ("account_code", "check_digit", "solved"),
+    [
+        # Second digit 8: Method 00
+        ("0800048540", "8", "0800048548"),
+        # Second digit not 8: Method 01
+        ("0150178030", "3", "0150178033"),
+    ],
+)
+def test_german_checksum_a6_compute_and_solve(
+    account_code: str, check_digit: str, solved: str
+) -> None:
+    algo = algorithms["DE:A6"]
+    assert algo.compute([account_code]) == check_digit
+    assert algo.solve([account_code]) == [solved]
 
 
 @pytest.mark.parametrize("algorithm_name", ["DE:49", "DE:A2", "DE:A3", "DE:A7"])

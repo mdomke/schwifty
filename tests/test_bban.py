@@ -192,6 +192,7 @@ def test_bank_prefers_the_best_ranked_record_of_every_registered_bank_code() -> 
         "20190109",  # Volksbank Raiffeisenbank, method 48
         "40351060",  # Kreissparkasse Steinfurt, method 49
         "20090700",  # Edekabank, method 50
+        "53250000",  # Sparkasse Bad Hersfeld-Rotenburg, method A6
         "21352240",  # Sparkasse Holstein, method A7
         "56250030",  # Kreissparkasse Birkenfeld, method B2
         "25050000",  # Norddeutsche Landesbank, method 27
@@ -295,6 +296,7 @@ def test_random_national_checksum_overflow(monkeypatch: pytest.MonkeyPatch) -> N
         ("20190109", "48"),  # Volksbank Raiffeisenbank
         ("40351060", "49"),  # Kreissparkasse Steinfurt
         ("20090700", "50"),  # Edekabank
+        ("53250000", "A6"),  # Sparkasse Bad Hersfeld-Rotenburg
         ("21352240", "A7"),  # Sparkasse Holstein
         ("56250030", "B2"),  # Kreissparkasse Birkenfeld
         ("25050000", "27"),  # Norddeutsche Landesbank

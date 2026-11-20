@@ -9,6 +9,9 @@ Unreleased
 ----------
 Added
 ~~~~~
+* Added the German checksum method ``A6``, used by Sparkasse Bad Hersfeld-Rotenburg (bank code
+  ``53250000``). Account codes with ``8`` as their second digit are checked with method ``00``,
+  others with method ``01``. Account codes for this bank were not checked before.
 * Added German checksum methods ``27`` and ``29``, used by Norddeutsche Landesbank (bank codes
   ``25050000`` and ``29050000``), Landesbank Saar (``59050000``), and Investitionsbank
   Sachsen-Anhalt (``81010400``). Method ``29`` uses iterated transformation table lookups, and
