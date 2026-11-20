@@ -73,7 +73,7 @@ Fixed
 ~~~~~
 * :meth:`.BBAN.random` and :meth:`.IBAN.random` generate their values with ``rstr.Xeger``, which
   works with rstr 4.0.0. That release removed ``Rstr.xeger``, so both methods raised
-  ``AttributeError`` on a fresh install.
+  ``AttributeError`` on a fresh install. The package now requires ``rstr>=4.0``.
 * :meth:`.BBAN.from_components` and :meth:`.BBAN.random` only split a combined bank and branch
   code when no branch code was explicitly provided, avoiding overwriting caller-provided branch
   codes. Passing an oversized bank code alongside an explicit branch code now raises

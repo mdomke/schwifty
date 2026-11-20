@@ -29,7 +29,7 @@ dependencies = [
     "importlib_resources>=5.10; python_version <= '3.11'",
     "typing-extensions>=4.4.0; python_version < '3.12'",
     "pycountry",
-    "rstr",
+    "rstr>=4.0",
 ]
 
 [project.optional-dependencies]
