@@ -76,6 +76,26 @@ Added
     0899999999, no check otherwise; Oldenburgische Landesbank AG (``50010700``)
   * ``D0``: no check for account codes starting with 57, method ``20`` otherwise; Stadt- und
     Kreissparkasse Leipzig (``86055592``)
+* Added the German checksum methods ``57``, ``81``, ``A4``, ``A8``, ``B6``, ``C3`` and ``C5``,
+  and the methods ``51``, ``53``, ``58``, ``75`` and ``93`` they build on. With these, every
+  German checksum method used by a bank in the registry is implemented. Account codes for the
+  banks that use the new methods were not checked before, so invalid ones are now rejected:
+
+  * ``57``: four variants picked by the first two digits; TARGOBANK (``30020900``)
+  * ``81``: method ``32``, or the exception of method ``51`` for account codes with a 9 at
+    position 3; Augsburger Aktienbank (netbank) (``20090500``)
+  * ``A4``: methods ``32``, its modulus 7 version and ``93``, or methods ``33`` and ``93`` for
+    account codes with 99 at positions 3-4; apoBank (``30060601``)
+  * ``A8``: methods ``32`` and ``00`` over positions 4 to 9, or the exception of method ``51``
+    for account codes with a 9 at position 3; Sparda-Bank Berlin (``12096597``)
+  * ``B6``: method ``20`` for account codes starting with 1 to 9 or 02691 to 02699, method
+    ``53`` otherwise; Saalesparkasse (``80053762``). Like ``C0``, this method needs the bank
+    code.
+  * ``C3``: method ``58`` for account codes starting with 9, method ``00`` otherwise; Marcard,
+    Stein & Co Bankiers (``20030400``)
+  * ``C5``: methods ``75``, ``29``, ``00`` or ``09``, picked by the length and leading digits
+    of the account code; Hamburg Commercial Bank (``20050000``, ``21050000`` and
+    ``23050000``)
 
 Changed
 ~~~~~~~

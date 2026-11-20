@@ -56,6 +56,26 @@ def validate_account_code(account_code: str) -> str:
     return account_code
 
 
+ESER_WEIGHTS = (2, 4, 8, 5, 10, 9, 7, 3, 6, 1, 2, 4)
+
+
+def eser_check_digit(head: str, tail: str) -> str:
+    """Return the check digit of the ESER account number ``head`` + P + ``tail``.
+
+    Methods 52 and 53 check the account number of the former ESER system, which is built
+    from the bank code and the account code. The check digit is the factor of the weight
+    over P that brings the weighted sum to a remainder of 10 modulo 11. An empty string
+    means there is no such factor below 10.
+    """
+    digits = head + "0" + tail
+    remainder = sum(int(d) * w for d, w in zip(reversed(digits), ESER_WEIGHTS, strict=False)) % 11
+    weight = ESER_WEIGHTS[len(tail)]
+    for check_digit in range(10):
+        if (remainder + check_digit * weight) % 11 == 10:
+            return str(check_digit)
+    return ""
+
+
 class WeightedModulus(checksum.Algorithm):
     accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
     minuend: ClassVar[int | None] = None
@@ -146,6 +166,17 @@ class WeightedMod10(WeightedModulus):
 class WeightedMod11(WeightedModulus):
     modulus: ClassVar[int] = 11
     minuend: ClassVar[int | None] = 11
+
+
+class WeightedMod7(WeightedModulus):
+    """Modulus 7: the check digit is 7 minus the remainder, and 0 for a remainder of 0."""
+
+    modulus: ClassVar[int] = 7
+    minuend: ClassVar[int | None] = 7
+
+    @override
+    def reconcile(self, checksum: int) -> int:
+        return checksum % 7
 
 
 @register
@@ -745,6 +776,117 @@ class Algorithm50(Algorithm06):
 
 
 @register
+class Algorithm51(SelectedVariant):
+    """Methods A to D in turn, or the exception for account codes with a 9 at position 3.
+
+    Account codes with a 9 at position 3 are Sachkonten (general ledger accounts). Methods
+    81 and A8 check them with the same exception.
+    """
+
+    name = "51"
+
+    class Methods(FallbackVariants):
+        """Method A (32), B (33), C (00 over positions 4 to 9) and D (modulus 7)."""
+
+        class MethodC(Algorithm00):
+            positions = Positions(start=4, end=9, check_digit=10)
+
+        class MethodD(WeightedMod7):
+            positions = Positions(start=5, end=9, check_digit=10)
+            weights: ClassVar[list[int]] = [2, 3, 4, 5, 6]
+
+        variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+            Algorithm32,
+            Algorithm33,
+            MethodC,
+            MethodD,
+        )
+
+    class Sachkonten(FallbackVariants):
+        """Modulus 11 over positions 3 to 9, then over positions 1 to 9.
+
+        A remainder of 0 or 1 gives the check digit 0.
+        """
+
+        class Variant1(WeightedMod11):
+            positions = Positions(start=3, end=9, check_digit=10)
+            weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7, 8]
+
+        class Variant2(WeightedMod11):
+            positions = Positions(start=1, end=9, check_digit=10)
+            weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+        variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (Variant1, Variant2)
+
+    @staticmethod
+    def is_sachkonto(account_code: str) -> bool:
+        return validate_account_code(account_code)[2] == "9"
+
+    @override
+    def get_variant(self, account_code: str) -> checksum.Algorithm:
+        if self.is_sachkonto(account_code):
+            return self.Sachkonten()
+        return self.Methods()
+
+
+@register
+class Algorithm53(checksum.Algorithm):
+    """Method 52 for 9-digit account codes, method 20 for 10-digit ones starting with 9.
+
+    Like method 52, this checks the account number of the former ESER system, so it needs
+    the bank code. Other account codes are invalid.
+    """
+
+    name = "53"
+    accepts: ClassVar[list[Component]] = [Component.BANK_CODE, Component.ACCOUNT_CODE]
+
+    @staticmethod
+    def is_nine_digits(account_code: str) -> bool:
+        return account_code[0] == "0" and account_code[1] != "0"
+
+    @staticmethod
+    def compute_eser(bank_code: str, account_code: str) -> str:
+        # Bank code XXX5XXXX and account code 0XTPXXXXXX give the ESER account number
+        # XXTX-XP-XXXXXX, with the leading zeros of the last part dropped.
+        head = bank_code[4:6] + account_code[2] + bank_code[7] + account_code[1]
+        return eser_check_digit(head, account_code[4:].lstrip("0"))
+
+    @override
+    def compute(self, components: list[str]) -> str:
+        bank_code, account_code = components
+        validate_account_code(account_code)
+        if account_code[0] == "9":
+            return Algorithm20().compute([account_code])
+        if self.is_nine_digits(account_code):
+            return self.compute_eser(bank_code, account_code)
+        raise InvalidBBANChecksum("Method 53 only checks 9-digit or 10-digit account codes")
+
+    @override
+    def validate(self, components: list[str], expected: str) -> bool:
+        bank_code, account_code = components
+        validate_account_code(account_code)
+        if account_code[0] == "9":
+            return Algorithm20().validate([account_code], expected)
+        if self.is_nine_digits(account_code):
+            return self.compute_eser(bank_code, account_code) == account_code[3]
+        return False
+
+    @override
+    def solve(self, components: list[str]) -> list[str] | None:
+        bank_code, account_code = components
+        validate_account_code(account_code)
+        if account_code[0] == "9":
+            solved = Algorithm20().solve([account_code])
+            return None if solved is None else [bank_code, *solved]
+        if not self.is_nine_digits(account_code):
+            return None
+        check_digit = self.compute_eser(bank_code, account_code)
+        if not check_digit:
+            return None
+        return [bank_code, account_code[:3] + check_digit + account_code[4:]]
+
+
+@register
 class Algorithm56(WeightedMod11):
     """Modulus 11 where a result of 10 or 11 yields no check digit.
 
@@ -772,6 +914,83 @@ class Algorithm56(WeightedMod11):
         if not self.starts_with_nine:
             raise InvalidBBANChecksum(f"Invalid remainder: {self.remainder}")
         return 7 if checksum == 10 else 8
+
+
+@register
+class Algorithm57(SelectedVariant):
+    """The first two digits of the account code pick one of four variants.
+
+    Account codes starting with 00 are invalid. Account codes starting with 777777 or 888888,
+    and the account code 0185125434, are valid without a check digit.
+    """
+
+    name = "57"
+
+    class Variant1(Algorithm00):
+        """Method 00 with the weights 1, 2, 1, ... from the left."""
+
+        weights: ClassVar[list[int]] = [1, 2]
+
+    class Variant2(Algorithm00):
+        """Method 00 with the check digit at position 3 and the weights 1, 2, ... from the left."""
+
+        positions = Positions(start=1, end=10, check_digit=3)
+        reverse = False
+        weights: ClassVar[list[int]] = [1, 2]
+
+        @override
+        def get_digits(self, account_code: str) -> str:
+            digits = super().get_digits(account_code)
+            return digits[:2] + digits[3:]
+
+    class Variant4(checksum.Algorithm):
+        """No check digit, but positions 3-4 must be 01 to 12 and positions 7-9 below 500."""
+
+        accepts: ClassVar[list[Component]] = [Component.ACCOUNT_CODE]
+
+        @staticmethod
+        def is_valid(account_code: str) -> bool:
+            return 1 <= int(account_code[2:4]) <= 12 and int(account_code[6:9]) < 500
+
+        @override
+        def compute(self, components: list[str]) -> str:
+            return ""
+
+        @override
+        def validate(self, components: list[str], expected: str) -> bool:
+            return self.is_valid(components[0])
+
+        @override
+        def solve(self, components: list[str]) -> list[str] | None:
+            return components if self.is_valid(components[0]) else None
+
+    variant1_prefixes: ClassVar[frozenset[int]] = frozenset(
+        {51, 55, 61, 64, 65, 66, 70, *range(73, 83), 88, 94, 95}
+    )
+    variant3_prefixes: ClassVar[frozenset[int]] = frozenset({40, 50, 91, 99})
+
+    @override
+    def get_variant(self, account_code: str) -> checksum.Algorithm | None:
+        validate_account_code(account_code)
+        prefix = int(account_code[:2])
+        if account_code == "0185125434" or account_code.startswith(("777777", "888888")):
+            return Algorithm09()
+        if prefix == 0:
+            return None
+        if prefix <= 31:
+            return self.Variant4()
+        if prefix in self.variant1_prefixes:
+            return self.Variant1()
+        if prefix in self.variant3_prefixes:
+            return Algorithm09()
+        return self.Variant2()
+
+
+@register
+class Algorithm58(Algorithm02):
+    name = "58"
+    positions = Positions(start=5, end=9, check_digit=10)
+    weights: ClassVar[list[int]] = [2, 3, 4, 5, 6]
 
 
 @register
@@ -993,6 +1212,36 @@ class Algorithm74(FallbackVariants):
 
 
 @register
+class Algorithm75(SelectedVariant):
+    """Method 00 over a 5-digit base number whose place depends on the account code's length.
+
+    6- and 7-digit account codes have the base number at positions 5 to 9 and the check
+    digit at position 10. 9-digit ones have them at positions 2 to 6 and 7, or at 3 to 7
+    and 8 if position 2 is 9. Account codes of other lengths are invalid.
+    """
+
+    name = "75"
+
+    class Variant1(Algorithm00):
+        positions = Positions(start=5, end=9, check_digit=10)
+
+    class Variant2(Algorithm00):
+        positions = Positions(start=2, end=6, check_digit=7)
+
+    class Variant3(Algorithm00):
+        positions = Positions(start=3, end=7, check_digit=8)
+
+    @override
+    def get_variant(self, account_code: str) -> WeightedModulus | None:
+        number = int(validate_account_code(account_code))
+        if 100_000 <= number < 10_000_000:
+            return self.Variant1()
+        if 100_000_000 <= number < 1_000_000_000:
+            return self.Variant3() if account_code[1] == "9" else self.Variant2()
+        return None
+
+
+@register
 class Algorithm76(WeightedMod11):
     name = "76"
     minuend = None
@@ -1054,6 +1303,19 @@ class Algorithm78(SelectedVariant):
 
 
 @register
+class Algorithm81(SelectedVariant):
+    """Method 32, or the exception of method 51 for account codes with a 9 at position 3."""
+
+    name = "81"
+
+    @override
+    def get_variant(self, account_code: str) -> checksum.Algorithm:
+        if Algorithm51.is_sachkonto(account_code):
+            return Algorithm51.Sachkonten()
+        return Algorithm32()
+
+
+@register
 class Algorithm88(Algorithm06):
     name = "88"
     positions = Positions(start=4, end=9, check_digit=10)
@@ -1096,6 +1358,40 @@ class Algorithm91(FallbackVariants):
 class Algorithm92(Algorithm01):
     name = "92"
     positions = Positions(start=4, end=9, check_digit=10)
+
+
+@register
+class Algorithm93(FallbackVariants):
+    """Modulus 11, then modulus 7, over a 5-digit customer number.
+
+    The customer number is at positions 5 to 9 with the check digit at position 10 if the
+    account code starts with 0000, and at positions 1 to 5 with the check digit at position 6
+    otherwise.
+    """
+
+    name = "93"
+
+    @staticmethod
+    def customer_number_positions(account_code: str) -> Positions:
+        if account_code.startswith("0000"):
+            return Positions(start=5, end=9, check_digit=10)
+        return Positions(start=1, end=5, check_digit=6)
+
+    class Variant1(Algorithm06):
+        weights: ClassVar[list[int]] = [2, 3, 4, 5, 6]
+
+        @override
+        def get_positions(self, account_code: str) -> Positions:
+            return Algorithm93.customer_number_positions(account_code)
+
+    class Variant2(WeightedMod7):
+        weights: ClassVar[list[int]] = [2, 3, 4, 5, 6]
+
+        @override
+        def get_positions(self, account_code: str) -> Positions:
+            return Algorithm93.customer_number_positions(account_code)
+
+    variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (Variant1, Variant2)
 
 
 @register
@@ -1199,6 +1495,37 @@ class AlgorithmA3(FallbackVariants):
 
 
 @register
+class AlgorithmA4(SelectedVariant):
+    """Two chains of variants, picked by whether positions 3-4 are 99.
+
+    Account codes with 99 at positions 3-4 are checked with method 33, then method 93. All
+    others are checked with method 32, then its modulus 7 version, then method 93.
+    """
+
+    name = "A4"
+
+    class Chain1(FallbackVariants):
+        class Variant2(WeightedMod7):
+            positions = Positions(start=4, end=9, check_digit=10)
+            weights: ClassVar[list[int]] = [2, 3, 4, 5, 6, 7]
+
+        variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (
+            Algorithm32,
+            Variant2,
+            Algorithm93,
+        )
+
+    class Chain2(FallbackVariants):
+        variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (Algorithm33, Algorithm93)
+
+    @override
+    def get_variant(self, account_code: str) -> checksum.Algorithm:
+        if validate_account_code(account_code)[2:4] == "99":
+            return self.Chain2()
+        return self.Chain1()
+
+
+@register
 class AlgorithmA5(FallbackVariants):
     """Method 00, then method 10. Account codes starting with 9 must pass method 00."""
 
@@ -1233,6 +1560,28 @@ class AlgorithmA7(FallbackVariants):
         Algorithm00,
         Algorithm03,
     )
+
+
+@register
+class AlgorithmA8(SelectedVariant):
+    """Method 32, then method 00 over positions 4 to 9.
+
+    Account codes with a 9 at position 3 are checked with the exception of method 51.
+    """
+
+    name = "A8"
+
+    class Methods(FallbackVariants):
+        class Variant2(Algorithm00):
+            positions = Positions(start=4, end=9, check_digit=10)
+
+        variants: ClassVar[tuple[type[checksum.Algorithm], ...]] = (Algorithm32, Variant2)
+
+    @override
+    def get_variant(self, account_code: str) -> checksum.Algorithm:
+        if Algorithm51.is_sachkonto(account_code):
+            return Algorithm51.Sachkonten()
+        return self.Methods()
 
 
 @register
@@ -1292,6 +1641,25 @@ class AlgorithmB5(FallbackVariants):
     @override
     def allows_fallback(self, account_code: str) -> bool:
         return account_code[0] not in "89"
+
+
+@register
+class AlgorithmB6(SelectedVariant):
+    """Method 20 for some account codes, method 53 for all others.
+
+    Method 20 applies to account codes starting with 1 to 9, or with 02691 to 02699. Since
+    method 53 needs the bank code, so does this method.
+    """
+
+    name = "B6"
+    accepts: ClassVar[list[Component]] = [Component.BANK_CODE, Component.ACCOUNT_CODE]
+
+    @override
+    def get_variant(self, account_code: str) -> checksum.Algorithm:
+        validate_account_code(account_code)
+        if account_code[0] != "0" or 2691 <= int(account_code[:5]) <= 2699:
+            return Algorithm20()
+        return Algorithm53()
 
 
 @register
@@ -1364,7 +1732,6 @@ class AlgorithmC0(checksum.Algorithm):
 
     name = "C0"
     accepts: ClassVar[list[Component]] = [Component.BANK_CODE, Component.ACCOUNT_CODE]
-    eser_weights: ClassVar[list[int]] = [2, 4, 8, 5, 10, 9, 7, 3, 6, 1, 2, 4]
 
     @staticmethod
     def has_two_leading_zeros(account_code: str) -> bool:
@@ -1374,16 +1741,7 @@ class AlgorithmC0(checksum.Algorithm):
         """Return the method 52 check digit, or an empty string if there is none."""
         # Bank code XXX5XXXX and account code 00XPXXXXXX give the ESER account number
         # XXXX-XP-XXXXXX, with the leading zeros of the last part dropped.
-        tail = account_code[4:].lstrip("0")
-        digits = bank_code[4:8] + account_code[2] + "0" + tail
-        remainder = (
-            sum(int(d) * w for d, w in zip(reversed(digits), self.eser_weights, strict=False)) % 11
-        )
-        weight = self.eser_weights[len(tail)]
-        for check_digit in range(10):
-            if (remainder + check_digit * weight) % 11 == 10:
-                return str(check_digit)
-        return ""
+        return eser_check_digit(bank_code[4:8] + account_code[2], account_code[4:].lstrip("0"))
 
     @override
     def compute(self, components: list[str]) -> str:
@@ -1420,6 +1778,56 @@ class AlgorithmC2(FallbackVariants):
         Algorithm00,
         Algorithm04,
     )
+
+
+@register
+class AlgorithmC3(SelectedVariant):
+    """Method 58 for account codes starting with 9, method 00 for all others."""
+
+    name = "C3"
+
+    @override
+    def get_variant(self, account_code: str) -> WeightedModulus:
+        if validate_account_code(account_code)[0] == "9":
+            return Algorithm58()
+        return Algorithm00()
+
+
+@register
+class AlgorithmC5(SelectedVariant):
+    """The length and leading digits of the account code pick the variant.
+
+    - 6-digit account codes with 1 to 8 at position 5, and 9-digit ones with 1 to 8 at
+      position 2: method 75.
+    - 10-digit account codes starting with 1, 4, 5, 6 or 9: method 29.
+    - 10-digit account codes starting with 3: method 00.
+    - 8-digit account codes with 3, 4 or 5 at position 3, and 10-digit ones starting with 70
+      or 85: method 09.
+
+    All other account codes are invalid.
+    """
+
+    name = "C5"
+
+    class Variant4(AcceptedRanges):
+        ranges: ClassVar[tuple[range, ...]] = (
+            range(30_000_000, 60_000_000),
+            range(7_000_000_000, 7_100_000_000),
+            range(8_500_000_000, 8_600_000_000),
+        )
+
+    @override
+    def get_variant(self, account_code: str) -> checksum.Algorithm | None:
+        number = int(validate_account_code(account_code))
+        if 100_000 <= number < 900_000 or 100_000_000 <= number < 900_000_000:
+            return Algorithm75()
+        if account_code[0] in "14569":
+            return Algorithm29()
+        if account_code[0] == "3":
+            return Algorithm00()
+        if self.Variant4.contains(account_code):
+            return self.Variant4()
+        return None
 
 
 @register
