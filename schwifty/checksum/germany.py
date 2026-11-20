@@ -1328,6 +1328,50 @@ class AlgorithmC2(FallbackVariants):
 
 
 @register
+class AlgorithmC5(SelectedVariant):
+    """Method 75, 29, 00 or 09, depending on the length and the leading digits.
+
+    Account codes that fall into none of the ranges of the variants are invalid.
+    """
+
+    name = "C5"
+
+    class Variant1(Algorithm00):
+        """Method 75 for 6-digit and 9-digit account codes."""
+
+        ranges: ClassVar[tuple[range, ...]] = (
+            range(100_000, 900_000),
+            range(100_000_000, 900_000_000),
+        )
+
+        @override
+        def get_positions(self, account_code: str) -> Positions:
+            if account_code.startswith("0000"):
+                return Positions(start=5, end=9, check_digit=10)
+            return Positions(start=2, end=6, check_digit=7)
+
+    class Variant4(AcceptedRanges):
+        ranges: ClassVar[tuple[range, ...]] = (
+            range(30_000_000, 60_000_000),
+            range(7_000_000_000, 7_100_000_000),
+            range(8_500_000_000, 8_600_000_000),
+        )
+
+    @override
+    def get_variant(self, account_code: str) -> checksum.Algorithm | None:
+        number = int(validate_account_code(account_code))
+        if any(number in accepted for accepted in self.Variant1.ranges):
+            return self.Variant1()
+        if account_code[0] in "14569":
+            return Algorithm29()
+        if account_code[0] == "3":
+            return Algorithm00()
+        if self.Variant4.contains(account_code):
+            return self.Variant4()
+        return None
+
+
+@register
 class AlgorithmC7(FallbackVariants):
     """Method 63, then method 06."""
 

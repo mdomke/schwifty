@@ -60,6 +60,10 @@ Added
   * ``D6``: methods ``07``, ``03`` and ``00``; Stadtsparkasse Wedel (``22151730``)
   * ``E3``: methods ``00`` and ``21``; Sparkasse Saarbrücken (``59050101``)
   * ``E4``: methods ``02`` and ``00``; Sparkasse an Volme und Ruhr (``45050001``)
+* Added the German checksum method ``C5``, used by Hamburg Commercial Bank (bank codes
+  ``20050000``, ``21050000`` and ``23050000``). The length and the leading digits of the account
+  code select method ``75``, ``29``, ``00`` or ``09``, and account codes outside of these ranges
+  are invalid. Account codes for this bank were not checked before.
 
 Changed
 ~~~~~~~

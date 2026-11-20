@@ -197,6 +197,7 @@ def test_bank_prefers_the_best_ranked_record_of_every_registered_bank_code() -> 
         "25050000",  # Norddeutsche Landesbank, method 27
         "29050000",  # Norddeutsche Landesbank, method 29
         "66090800",  # BBBank, method B3
+        "21050000",  # Hamburg Commercial Bank, method C5
         "27020000",  # Volkswagen Bank, method D8
     ],
 )
@@ -261,8 +262,8 @@ def test_random_national_checksum_overflow(monkeypatch: pytest.MonkeyPatch) -> N
 
     # Pin the bank ``random`` picks to one whose checksum method schwifty
     # implements. The validator is only consulted for those, so letting the
-    # choice stay random made this test flaky: 54 of the 4922 German records name
-    # a method we don't implement (e.g. "B8" or "C5"), and for those there is
+    # choice stay random made this test flaky: 13 of the 4922 German records name
+    # a method we don't implement (e.g. "A8" or "C3"), and for those there is
     # nothing to retry and no overflow to raise.
     deutsche_bank = registry.get_banks_by_code("DE", "10070000")
     assert [bank.checksum_algo for bank in deutsche_bank] == ["63"]
@@ -300,6 +301,7 @@ def test_random_national_checksum_overflow(monkeypatch: pytest.MonkeyPatch) -> N
         ("25050000", "27"),  # Norddeutsche Landesbank
         ("29050000", "29"),  # Norddeutsche Landesbank
         ("66090800", "B3"),  # BBBank
+        ("21050000", "C5"),  # Hamburg Commercial Bank
         ("27020000", "D8"),  # Volkswagen Bank
     ],
 )

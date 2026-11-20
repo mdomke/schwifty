@@ -385,6 +385,32 @@ from schwifty.exceptions import InvalidBBANChecksum
         ("0076543216", "DE:C2"),
         ("3456789012", "DE:C2"),
         ("9024675138", "DE:C2"),
+        # Method C5 test account numbers. Variant 1 (method 75) for 6- and 9-digit account
+        # codes, variant 2 (method 29) for 10-digit account codes starting with 1, 4, 5, 6 or 9,
+        # variant 3 (method 00) for those starting with 3.
+        ("0000301168", "DE:C5"),
+        ("0000302554", "DE:C5"),
+        ("0300020050", "DE:C5"),
+        ("0300566000", "DE:C5"),
+        ("1000061378", "DE:C5"),
+        ("1000061412", "DE:C5"),
+        ("4450164064", "DE:C5"),
+        ("4863476104", "DE:C5"),
+        ("5000000028", "DE:C5"),
+        ("5000000391", "DE:C5"),
+        ("6450008149", "DE:C5"),
+        ("6800001016", "DE:C5"),
+        ("9000100012", "DE:C5"),
+        ("9000210017", "DE:C5"),
+        ("3060188103", "DE:C5"),
+        ("3070402023", "DE:C5"),
+        # Variant 4 (method 09) has no check digit.
+        ("0030000000", "DE:C5"),
+        ("0059999999", "DE:C5"),
+        ("7000000000", "DE:C5"),
+        ("7099999999", "DE:C5"),
+        ("8500000000", "DE:C5"),
+        ("8599999999", "DE:C5"),
         # Method C7 test account numbers.
         ("0003500022", "DE:C7"),
         ("0038150900", "DE:C7"),
@@ -625,6 +651,33 @@ def test_german_checksum_success(account_code: str, algorithm_name: str) -> None
         ("0328705282", "DE:C2"),
         ("7352569145", "DE:C2"),
         ("9024675131", "DE:C2"),
+        ("0000302589", "DE:C5"),
+        ("0000507336", "DE:C5"),
+        ("0302555000", "DE:C5"),
+        ("0302589000", "DE:C5"),
+        ("1000061457", "DE:C5"),
+        ("1000061498", "DE:C5"),
+        ("4864446015", "DE:C5"),
+        ("4865038012", "DE:C5"),
+        ("5000001028", "DE:C5"),
+        ("5000001075", "DE:C5"),
+        ("6450008150", "DE:C5"),
+        ("6542812818", "DE:C5"),
+        ("9000110012", "DE:C5"),
+        ("9000300310", "DE:C5"),
+        ("3081000783", "DE:C5"),
+        ("3081308871", "DE:C5"),
+        # Account codes in none of the C5 ranges are invalid.
+        ("0000000019", "DE:C5"),
+        ("0000901160", "DE:C5"),
+        ("0001234567", "DE:C5"),
+        ("0012345678", "DE:C5"),
+        ("0060000000", "DE:C5"),
+        ("0900000000", "DE:C5"),
+        ("2000000000", "DE:C5"),
+        ("7100000000", "DE:C5"),
+        ("8000000000", "DE:C5"),
+        ("8600000000", "DE:C5"),
         ("1234517892", "DE:C7"),
         ("0987614325", "DE:C7"),
         ("1234567890", "DE:C8"),
@@ -1010,6 +1063,36 @@ def test_german_checksum_c0_compute_and_solve() -> None:
     assert algo.compute(["13051172", "1234567890"]) == "6"
     # The check digit is solved with method 20, which accepts every account code.
     assert algo.solve(["13051172", "1234567890"]) == ["13051172", "1234567896"]
+
+
+@pytest.mark.parametrize(
+    ("account_code", "check_digit", "solved"),
+    [
+        # Variant 1 (method 75) has the check digit at position 10 for 6-digit account codes
+        # and at position 7 for 9-digit ones.
+        ("0000301160", "8", "0000301168"),
+        ("0300560000", "6", "0300566000"),
+        # Variant 2 (method 29).
+        ("1000061370", "8", "1000061378"),
+        # Variant 3 (method 00).
+        ("3060188100", "3", "3060188103"),
+        # Variant 4 (method 09) has no check digit, so the account code is left as it is.
+        ("0045678901", "", "0045678901"),
+    ],
+)
+def test_german_checksum_c5_compute_and_solve(
+    account_code: str, check_digit: str, solved: str
+) -> None:
+    algo = algorithms["DE:C5"]
+    assert algo.compute([account_code]) == check_digit
+    assert algo.solve([account_code]) == [solved]
+
+
+def test_german_checksum_c5_outside_of_all_ranges() -> None:
+    algo = algorithms["DE:C5"]
+    with pytest.raises(InvalidBBANChecksum):
+        algo.compute(["2000000000"])
+    assert algo.solve(["2000000000"]) is None
 
 
 def test_german_checksum_d8_compute_and_solve() -> None:
