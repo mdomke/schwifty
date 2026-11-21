@@ -888,11 +888,11 @@ wheels = [
 
 [[package]]
 name = "rstr"
-version = "3.2.2"
+version = "4.0.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/9f/80/d7449656d45a776b7a443ce3af4eb97c4debe416a1a80f60311c7cfd02ff/rstr-3.2.2.tar.gz", hash = "sha256:c4a564d4dfb4472d931d145c43d1cf1ad78c24592142e7755b8866179eeac012", size = 13560, upload-time = "2023-10-11T20:07:57.422Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/cd/74/e078f68fae148cdee0b71648ca19b28f306f683214997284c0d2b5fde1cb/rstr-4.0.0.tar.gz", hash = "sha256:1a1e7f304b0291edbc12955a9cb4093bfe1c7c1d48e0797e752bb3bf2a24574a", size = 14576, upload-time = "2026-11-19T23:26:56.133Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c8/8c/a0f14f2fcdd846839c478048032b2fc93293deaa936ff6751f27dcf50995/rstr-3.2.2-py3-none-any.whl", hash = "sha256:f39195d38da1748331eeec52f1276e71eb6295e7949beea91a5e9af2340d7b3b", size = 10030, upload-time = "2023-10-11T20:07:55.873Z" },
+    { url = "https://files.pythonhosted.org/packages/b1/8b/86a00b3172958bbe667158d4417d0c12d51cb7aff9b1c2eb955edd136154/rstr-4.0.0-py3-none-any.whl", hash = "sha256:a000b4de844b2341bac4be2bcad120768988702aac46f3a232e8885184aa9198", size = 9804, upload-time = "2026-11-19T23:26:54.836Z" },
 ]
 
 [[package]]

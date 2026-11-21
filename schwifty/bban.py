@@ -6,7 +6,7 @@ from random import Random
 from typing import Any
 from typing import Self
 
-from rstr import Rstr
+from rstr import Xeger
 
 from schwifty import common
 from schwifty import exceptions
@@ -235,7 +235,7 @@ class BBAN(common.Base):
         if not country_code:
             country_code = random.choice(registry.get_countries())
 
-        rstr = Rstr(random)
+        xeger = Xeger(random)
         spec = _get_bban_spec(country_code)
         bank: Bank | None
         lookup_by = spec.bic_lookup_components or [Component.BANK_CODE]
@@ -250,7 +250,7 @@ class BBAN(common.Base):
             bank = _get_random_bank(country_code, random) if use_registry else None
 
         if not spec.has_positions:
-            return cls(country_code, rstr.xeger(spec.regex).upper())
+            return cls(country_code, xeger.xeger(spec.regex).upper())
 
         ranges = spec.positions
         algo = _get_national_checksum_algorithm(country_code, bank)
@@ -263,7 +263,7 @@ class BBAN(common.Base):
         # The loop only re-runs on the rare occasions where a particular random
         # account body admits no valid check digit for the selected method.
         for _ in range(_MAX_RANDOM_ATTEMPTS):
-            bban = rstr.xeger(spec.regex).upper()
+            bban = xeger.xeger(spec.regex).upper()
             components: dict[Component, str] = {}
             for key, range_ in ranges.items():
                 if (value := values.get(key)) is not None:
