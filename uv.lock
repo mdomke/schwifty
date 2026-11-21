@@ -966,7 +966,7 @@ requires-dist = [
     { name = "importlib-resources", marker = "python_full_version < '3.12'", specifier = ">=5.10" },
     { name = "pycountry" },
     { name = "pydantic", marker = "extra == 'pydantic'", specifier = ">=2.0" },
-    { name = "rstr", specifier = ">=4.0" },
+    { name = "rstr" },
     { name = "typing-extensions", marker = "python_full_version < '3.12'", specifier = ">=4.4.0" },
 ]
 provides-extras = ["pydantic"]
