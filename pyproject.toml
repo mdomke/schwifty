@@ -160,6 +160,14 @@ help = "Build the HTML documentation"
 cmd = "uv run --with-requirements requirements.txt make html"
 cwd = "docs"
 
+[tool.poe.tasks.update-registries]
+help = "Update the generated registries from their sources, e.g. `poe update-registries de scl`"
+cmd = "uv run --group scripts python -m scripts.update"
+
+[tool.poe.tasks.registry-diff]
+help = "Summarize the changes to the generated registries since a git revision (default: HEAD)"
+cmd = "uv run python -m scripts.registry_diff"
+
 [tool.poe.tasks.check]
 help = "Run all checks (code, format, types, docs)"
 sequence = [

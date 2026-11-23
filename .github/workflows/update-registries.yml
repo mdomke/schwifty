@@ -1,0 +1,200 @@
+name: update-registries
+
+# Regenerates the registries from their sources every week and proposes the changes in a single
+# pull request on the `registry-update` branch. Every source is updated in its own job, so that a
+# broken source doesn't hold back the others; a broken source opens an issue instead.
+#
+# Pull requests opened with the default GITHUB_TOKEN don't trigger other workflows, so the
+# `lint-and-test` checks don't run on them. Store a fine-grained token with contents and pull
+# request write access as the REGISTRY_UPDATE_TOKEN secret to have them run. Without it, this
+# workflow runs the tests itself and reports the result in the pull request.
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: "Sources to update, separated by spaces (default: all)"
+        required: false
+        default: ""
+      force:
+        description: "Keep changes that fail the sanity checks"
+        type: boolean
+        default: false
+
+concurrency:
+  group: update-registries
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  PYTHON_VERSION: "3.15"
+  # The generated registry files, as a git pathspec. Other files, such as the __pycache__
+  # directories that running the scripts creates in schwifty/, are never collected.
+  REGISTRY_FILES: ":(glob)schwifty/*_registry/generated*.json"
+
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    outputs:
+      sources: ${{ steps.sources.outputs.sources }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install uv
+        uses: astral-sh/setup-uv@v8.3.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: List sources
+        id: sources
+        env:
+          SOURCES: ${{ inputs.sources }}
+        # Fails on unknown source names before any update job starts.
+        run: echo "sources=$(uv run python -m scripts.update --list ${SOURCES})" >> "${GITHUB_OUTPUT}"
+
+  update:
+    needs: sources
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      issues: write
+    strategy:
+      fail-fast: false
+      matrix:
+        source: ${{ fromJSON(needs.sources.outputs.sources) }}
+    env:
+      SOURCE: ${{ matrix.source }}
+      ISSUE_TITLE: "Registry source broken: ${{ matrix.source }}"
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install uv
+        uses: astral-sh/setup-uv@v8.3.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Update
+        env:
+          FORCE: ${{ inputs.force && '--force' || '' }}
+        run: |
+          set -o pipefail
+          uv run --group scripts python -m scripts.update "${SOURCE}" ${FORCE} 2>&1 | tee update.log
+      - name: Collect the changed files
+        run: |
+          mkdir staging
+          git ls-files --modified --others --exclude-standard -- "${REGISTRY_FILES}" \
+            | xargs --no-run-if-empty cp --parents --target-directory staging
+      - uses: actions/upload-artifact@v7
+        with:
+          name: registry-${{ matrix.source }}
+          path: staging/
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Report the broken source
+        if: failure()
+        run: |
+          {
+            echo "The scheduled update of \`${SOURCE}\` failed in ${RUN_URL}."
+            echo
+            echo '```'
+            tail -n 60 update.log 2>/dev/null || echo "No output"
+            echo '```'
+          } > issue.md
+          number=$(gh issue list --state open --search "in:title \"${ISSUE_TITLE}\"" \
+            --json number,title --jq ".[] | select(.title == \"${ISSUE_TITLE}\") | .number" | head -n 1)
+          if [ -n "${number}" ]; then
+            gh issue comment "${number}" --body-file issue.md
+          else
+            gh issue create --title "${ISSUE_TITLE}" --body-file issue.md
+          fi
+      - name: Close the issue of the fixed source
+        if: success()
+        run: |
+          gh issue list --state open --search "in:title \"${ISSUE_TITLE}\"" \
+            --json number,title --jq ".[] | select(.title == \"${ISSUE_TITLE}\") | .number" \
+            | xargs --no-run-if-empty -I {} gh issue close {} --comment "Updated successfully in ${RUN_URL}."
+
+  pull-request:
+    needs: [sources, update]
+    # Propose the changes of the sources that succeeded, even if others failed.
+    if: ${{ !cancelled() && needs.sources.result == 'success' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      BRANCH: registry-update
+      GH_TOKEN: ${{ secrets.REGISTRY_UPDATE_TOKEN || github.token }}
+      UPDATE_RESULT: ${{ needs.update.result }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          token: ${{ secrets.REGISTRY_UPDATE_TOKEN || github.token }}
+      - name: Install uv
+        uses: astral-sh/setup-uv@v8.3.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - uses: actions/download-artifact@v8
+        # There are no artifacts if no source changed anything.
+        continue-on-error: true
+        with:
+          pattern: registry-*
+          merge-multiple: true
+      - name: Check for changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain -- "${REGISTRY_FILES}")" ]; then
+            echo "changed=true" >> "${GITHUB_OUTPUT}"
+          else
+            echo "No registry changes"
+          fi
+      - name: Test
+        id: test
+        if: steps.changes.outputs.changed
+        continue-on-error: true
+        run: uv run poe test
+      - name: Describe the changes
+        if: steps.changes.outputs.changed
+        env:
+          TEST_OUTCOME: ${{ steps.test.outcome }}
+        run: |
+          {
+            echo "Automated update of the registries from their sources, by ${RUN_URL}."
+            echo
+            if [ "${TEST_OUTCOME}" = "success" ]; then
+              echo "✅ \`poe test\` passes with these changes."
+            else
+              echo "❌ \`poe test\` fails with these changes, see the run for details."
+            fi
+            if [ "${UPDATE_RESULT}" != "success" ]; then
+              echo
+              echo "⚠️ Some sources failed to update and are not included, see the issues titled"
+              echo "\"Registry source broken\"."
+            fi
+            echo
+            echo "## Changes"
+            echo
+            uv run python -m scripts.registry_diff --base HEAD --markdown --max-length 55000 || true
+          } > body.md
+          cat body.md >> "${GITHUB_STEP_SUMMARY}"
+      - name: Open or update the pull request
+        if: steps.changes.outputs.changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch --create "${BRANCH}"
+          git add -- "${REGISTRY_FILES}"
+          git commit --quiet --message "Update the registries from their sources"
+          # The branch is regenerated from main on every run, so it replaces the previous update.
+          git push --force origin "${BRANCH}:${BRANCH}"
+          number=$(gh pr list --head "${BRANCH}" --state open --json number --jq '.[0].number')
+          if [ -n "${number}" ]; then
+            gh pr edit "${number}" --body-file body.md
+          else
+            gh pr create --base main --head "${BRANCH}" \
+              --title "Update the registries from their sources" --body-file body.md
+          fi

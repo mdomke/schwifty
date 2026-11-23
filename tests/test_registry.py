@@ -3,6 +3,7 @@ import pytest
 from schwifty import BIC
 from schwifty import IBAN
 from schwifty import registry
+from schwifty.checksum import algorithms
 from schwifty.checksum.poland import DefaultAlgorithm
 from schwifty.domain import Component
 
@@ -119,3 +120,15 @@ def test_bic_helpers_normalize_case_and_branch(bic: str) -> None:
 def test_bic_helpers_unknown_bic(bic: str) -> None:
     assert registry.get_banks_by_bic(bic) == []
     assert registry.get_sepa_schemes(bic) is None
+
+
+def test_checksum_methods_of_banks_are_implemented() -> None:
+    # A bank whose checksum method isn't implemented has its account codes accepted unchecked,
+    # so a registry update that introduces a new method must fail here.
+    unimplemented = {
+        f"{bank.country_code}:{bank.checksum_algo}"
+        for bank in registry.get_all_banks()
+        if bank.checksum_algo != "default"
+        and f"{bank.country_code}:{bank.checksum_algo}" not in algorithms
+    }
+    assert unimplemented == set()

@@ -5,6 +5,19 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
+Unreleased
+----------
+Added
+~~~~~
+* The registries are updated from their sources every week by the ``update-registries`` workflow,
+  which proposes the changes in a pull request that lists the added, retired and renamed bank
+  codes, new BICs and changed checksum methods. A source that fails to update opens an issue. To
+  update by hand, run ``uv run poe update-registries``, which replaces ``scripts/update-all.sh``.
+  Changes that look like an incomplete source, such as more than 5% of a country's bank codes
+  being retired at once, or invalid entries are reverted instead of being kept.
+* A test checks that every checksum method the bank registries use is implemented, since account
+  codes of a bank with an unknown method are not checked at all.
+
 `2026.11.4`_ - 2026/11/23
 -------------------------
 Added
