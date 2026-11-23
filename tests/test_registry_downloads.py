@@ -418,3 +418,16 @@ def test_swedish_download_link_accepts_excel():
         assert script.get_download_url() == (
             "https://www.bankinfrastruktur.se/media/x/tabell-for-nedladdning.xlsx"
         )
+
+
+def test_spanish_banks_of_the_same_name_are_kept_when_not_served():
+    script = load_script("get_bank_registry_es")
+    bclm = {"bank_code": "2105", "name": "BANCO DE CASTILLA-LA MANCHA, S.A.", "bic": "CECAESMM105"}
+    previous = [
+        bclm,
+        {"bank_code": "0115", "name": bclm["name"], "bic": ""},
+        {"bank_code": "0001", "name": "GONE BANK", "bic": ""},
+    ]
+    current = [bclm]
+    # 0115 is listed under the same name, but wasn't served; 0001 is gone from iban.es.
+    assert script.keep_unserved(current, previous) == [bclm, previous[1]]

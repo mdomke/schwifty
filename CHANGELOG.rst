@@ -24,6 +24,11 @@ Fixed
 * ``scripts/get_bank_registry_se.py`` reads the Excel copy of the clearing number table that
   Bankinfrastruktur i Sverige links instead of the CSV file since November 2026. Only clearing
   numbers with an IBAN conversion method are taken from it, as before (#379).
+* ``scripts/get_bank_registry_es.py`` no longer retires a bank code that iban.es didn't serve while
+  it still lists a bank of the same name. iban.es serves such banks from a single page that
+  returns one of them at random, so every update retired one of the codes of Banco de
+  Castilla-La Mancha (``2105`` or ``0115``) and of The Royal Bank of Scotland (``1477`` or
+  ``0156``) and reactivated the other.
 
 `2026.11.4`_ - 2026/11/23
 -------------------------

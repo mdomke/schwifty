@@ -136,6 +136,23 @@ def process():
     return list(registry.values())
 
 
+def keep_unserved(current, previous):
+    """Add the previous entries of bank codes that iban.es lists, but didn't serve this time.
+
+    iban.es serves banks of the same name from a single page, which returns one of them at random,
+    e.g. ``2105`` or ``0115`` for Banco de Castilla-La Mancha. A bank code that is missing while
+    a bank of the same name is still listed is therefore kept as it was, instead of being retired.
+    """
+    codes = {entry["bank_code"] for entry in current}
+    names = {entry["name"] for entry in current}
+    unserved = [
+        entry for entry in previous if entry["bank_code"] not in codes and entry["name"] in names
+    ]
+    for entry in unserved:
+        print(f"Not served, kept as it was {entry['bank_code']}: {entry['name']}")
+    return current + unserved
+
+
 def correct(entries):
     """Apply ``CORRECTIONS`` to the entries of the corrected bank codes."""
     found = set()
@@ -194,5 +211,6 @@ if __name__ == "__main__":
     # Banks that are missing from iban.es, because they were removed or their page fails to
     # load, are kept from the previous registry. Read it before replacing it. The corrections
     # apply afterwards, so that they also cover such banks.
-    data = resolve_successors(correct(merge(process(), load_previous(OUTPUT))))
+    previous = load_previous(OUTPUT)
+    data = resolve_successors(correct(merge(keep_unserved(process(), previous), previous)))
     write_json(OUTPUT, data, indent=2)
