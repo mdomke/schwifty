@@ -92,3 +92,30 @@ def test_be_registry_skips_unassigned_bank_codes(bank_code: str) -> None:
     # The NBB list marks unassigned identification numbers as "VRIJ" or "Onbeschikbaar"
     # with a BIC of "N/A"; those are not banks.
     assert registry.get_banks_by_code("BE", bank_code) == []
+
+
+# BKAUATWW is an 8-character BIC present in both the bank registry and the SCL directory.
+_KNOWN_BIC = "BKAUATWW"
+_UNKNOWN_BIC = "ZZZZZZZZ"
+
+
+@pytest.mark.parametrize(
+    "bic",
+    [_KNOWN_BIC, _KNOWN_BIC.lower(), _KNOWN_BIC + "XXX", (_KNOWN_BIC + "XXX").lower()],
+)
+def test_bic_helpers_normalize_case_and_branch(bic: str) -> None:
+    expected_banks = registry.get_banks_by_bic(_KNOWN_BIC)
+    expected_schemes = registry.get_sepa_schemes(_KNOWN_BIC)
+    assert expected_banks
+    assert expected_schemes is not None
+    assert registry.get_banks_by_bic(bic) == expected_banks
+    assert registry.get_sepa_schemes(bic) == expected_schemes
+
+
+@pytest.mark.parametrize(
+    "bic",
+    [_UNKNOWN_BIC, _UNKNOWN_BIC.lower(), _UNKNOWN_BIC + "XXX", (_UNKNOWN_BIC + "XXX").lower()],
+)
+def test_bic_helpers_unknown_bic(bic: str) -> None:
+    assert registry.get_banks_by_bic(bic) == []
+    assert registry.get_sepa_schemes(bic) is None
