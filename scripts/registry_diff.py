@@ -138,8 +138,12 @@ def values(entries: list[Entry], key: str) -> set[str]:
     return {entry[key] for entry in entries if entry.get(key)}
 
 
-def show(items: set[str]) -> str:
-    return ", ".join(sorted(items)) or "-"
+def show(items: set[str], limit: int = 3, width: int = 80) -> str:
+    """Join ``items``, showing at most ``limit`` of them, each shortened to ``width``."""
+    shown = [item if len(item) <= width else f"{item[: width - 1]}…" for item in sorted(items)]
+    if len(shown) > limit:
+        shown = [*shown[:limit], f"{len(shown) - limit} more"]
+    return ", ".join(shown) or "-"
 
 
 def compare_banks(report: Report, old_entries: list[Entry], new_entries: list[Entry]) -> None:
@@ -162,9 +166,11 @@ def compare_banks(report: Report, old_entries: list[Entry], new_entries: list[En
             retired.append(f"`{code}` {describe(before)} ({status})")
         elif is_now_active and not was_active:
             reactivated.append(f"`{code}` {describe(after)}")
-        if values(before, "name") != values(after, "name"):
+        old_names, new_names = values(before, "name"), values(after, "name")
+        if old_names != new_names:
+            # Registries that list branches have many names per bank code; only show the changed.
             renamed.append(
-                f"`{code}` {show(values(before, 'name'))} → {show(values(after, 'name'))}"
+                f"`{code}` {show(old_names - new_names)} → {show(new_names - old_names)}"
             )
         if values(before, "bic") != values(after, "bic"):
             rebic.append(f"`{code}` {show(values(before, 'bic'))} → {show(values(after, 'bic'))}")
@@ -251,6 +257,11 @@ def compare_iban(report: Report, old: dict[str, Any], new: dict[str, Any]) -> No
         report.problems.append(f"Countries were removed: {', '.join(removed)}")
 
 
+def display_path(path: str) -> str:
+    """Return ``path`` without the leading ``schwifty/``, e.g. ``scl_registry/generated.json``."""
+    return path.removeprefix("schwifty/")
+
+
 def listed(items: list[str], limit: int = MAX_LISTED) -> list[str]:
     lines = items[:limit]
     if len(items) > limit:
@@ -296,11 +307,11 @@ def render_markdown_listing(reports: Iterable[Report], limit: int) -> str:
             f"{len(items)} {kind.lower()}" for kind, items in report.changes.items()
         )
         lines.append(
-            f"| `{Path(report.path).name}` | {changes or '-'} | {len(report.problems) or '-'} "
+            f"| `{display_path(report.path)}` | {changes or '-'} | {len(report.problems) or '-'} "
             f"| {len(report.warnings) or '-'} |"
         )
     for report in reports:
-        lines += ["", f"### `{Path(report.path).name}`", ""]
+        lines += ["", f"### `{display_path(report.path)}`", ""]
         lines.extend(f"> [!CAUTION]\n> {problem}\n" for problem in report.problems)
         lines.extend(f"> [!WARNING]\n> {warning}\n" for warning in report.warnings)
         for kind, items in report.changes.items():

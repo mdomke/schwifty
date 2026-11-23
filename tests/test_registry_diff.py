@@ -169,7 +169,7 @@ def test_render() -> None:
     assert "Renamed: 100" in text
     assert "… and 75 more" in text
     markdown = render_markdown(reports)
-    assert "| `generated_de.json` | 100 renamed | - | - |" in markdown
+    assert "| `bank_registry/generated_de.json` | 100 renamed | - | - |" in markdown
     assert len(render_markdown(reports, max_length=1000)) <= 1000
     assert render_text([]) == "No registry changes"
     assert render_markdown([]) == "No registry changes."
@@ -210,3 +210,15 @@ def test_update_force_keeps_problems(root: Path, monkeypatch: pytest.MonkeyPatch
     fake_source(root, monkeypatch, banks(10)[:3])
     assert update.update("fake", force=True)
     assert len(json.loads((root / BANK_FILE).read_text())) == 3
+
+
+def test_renamed_branches_only_show_the_changed_names() -> None:
+    old = [bank("00000001", f"Branch {i}") for i in range(100)]
+    new = [*old[1:], bank("00000001", "Branch New " + "x" * 100)]
+    report = compare(BANK_FILE, dump(old), dump(new))
+    assert report.changes["Renamed"] == [f"`00000001` Branch 0 → Branch New {'x' * 68}…"]
+    many = [bank("00000001", f"Other {i}") for i in range(5)]
+    report = compare(BANK_FILE, dump(old[:5]), dump(many))
+    assert report.changes["Renamed"] == [
+        "`00000001` Branch 0, Branch 1, Branch 2, 2 more → Other 0, Other 1, Other 2, 2 more"
+    ]
