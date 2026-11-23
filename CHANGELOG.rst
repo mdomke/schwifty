@@ -17,6 +17,13 @@ Added
   being retired at once, or invalid entries are reverted instead of being kept.
 * A test checks that every checksum method the bank registries use is implemented, since account
   codes of a bank with an unknown method are not checked at all.
+* Added TF Bank Nordic AB (``980``, ``NRDISE22``) to the Swedish bank registry.
+
+Fixed
+~~~~~
+* ``scripts/get_bank_registry_se.py`` reads the Excel copy of the clearing number table that
+  Bankinfrastruktur i Sverige links instead of the CSV file since November 2026. Only clearing
+  numbers with an IBAN conversion method are taken from it, as before (#379).
 
 `2026.11.4`_ - 2026/11/23
 -------------------------

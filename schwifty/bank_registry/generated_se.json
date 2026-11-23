@@ -398,5 +398,13 @@
     "bank_code": "978",
     "name": "Klarna Bank",
     "short_name": "Klarna Bank"
+  },
+  {
+    "country_code": "SE",
+    "primary": true,
+    "bic": "NRDISE22",
+    "bank_code": "980",
+    "name": "TF Bank Nordic AB",
+    "short_name": "TF Bank Nordic AB"
   }
 ]

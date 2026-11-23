@@ -1,6 +1,7 @@
 """Offline checks for registry download link selection."""
 
 import importlib.util
+import io
 import json
 from pathlib import Path
 from types import ModuleType
@@ -390,3 +391,30 @@ def test_french_registry_keeps_the_bic_of_the_primary_record() -> None:
         {"bank_code": "10096", "bic": "CMCIFRPP", "primary": False},
     ]
     assert script.known_bics([], manual) == {"30004": "BNPAFRPP", "10096": "CMCIFRPP"}
+
+
+def test_swedish_master_table_rows():
+    pd = pytest.importorskip("pandas")
+    pytest.importorskip("openpyxl")
+    script = load_script("get_bank_registry_se")
+    rows = [
+        ["MASTER Clearingnummer (SE)", "", "", "", "", "", ""],
+        ["Clearingnummer", "", "Aktör", "Huvud clnr", "BIC", "IBAN ID", "Metod IBAN konvertering"],
+        ["från", "till", "", "", "", "", ""],
+        ["1100", "1199", "Nordea", "1100", "NDEASESS", "300", "1:1"],
+        ["9900", "9900", "Bankgirocentralen BGC", "", "BGABSESS", "990", ""],
+        ["2190", "2299", "", "", "", "", ""],
+    ]
+    buffer = io.BytesIO()
+    pd.DataFrame(rows).to_excel(buffer, header=False, index=False)
+    assert script.excel_rows(buffer.getvalue()) == [["Nordea", "NDEASESS", "300"]]
+
+
+def test_swedish_download_link_accepts_excel():
+    script = load_script("get_bank_registry_se")
+    page = b'<a href="/media/x/tabell-for-nedladdning.xlsx">Tabell i CSV-format</a>'
+    response = SimpleNamespace(content=page, raise_for_status=lambda: None)
+    with patch.object(script.httpx2, "get", return_value=response):
+        assert script.get_download_url() == (
+            "https://www.bankinfrastruktur.se/media/x/tabell-for-nedladdning.xlsx"
+        )
