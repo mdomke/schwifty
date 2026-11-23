@@ -156,8 +156,8 @@
     "primary": true,
     "bic": "FNFIMTMM",
     "bank_code": "FNFI",
-    "name": "Finby Finance Limited",
-    "short_name": "Finby Finance Limited"
+    "name": "FINBY FINANCE LIMITED",
+    "short_name": "FINBY FINANCE LIMITED"
   },
   {
     "country_code": "MT",
@@ -212,8 +212,8 @@
     "primary": true,
     "bic": "MBWMMTMT",
     "bank_code": "MBWM",
-    "name": "Medirect Bank (Malta) plc",
-    "short_name": "Medirect Bank (Malta) plc"
+    "name": "MEDIRECT BANK (MALTA) PLC",
+    "short_name": "MEDIRECT BANK (MALTA) PLC"
   },
   {
     "country_code": "MT",

@@ -3002,14 +3002,6 @@
   {
     "country_code": "FR",
     "primary": true,
-    "bic": "QNTOFRP1",
-    "bank_code": "16958",
-    "name": "QONTO",
-    "short_name": "QONTO"
-  },
-  {
-    "country_code": "FR",
-    "primary": true,
     "bic": "",
     "bank_code": "16978",
     "name": "HARVEST FRANCE",
@@ -6098,6 +6090,14 @@
   {
     "country_code": "FR",
     "primary": true,
+    "bic": "",
+    "bank_code": "32433",
+    "name": "Paynetics AD",
+    "short_name": "Paynetics AD"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
     "bic": "CDCGFRPP",
     "bank_code": "40031",
     "name": "Caisse des d\u00e9p\u00f4ts et consignations - section g\u00e9n\u00e9rale",
@@ -6617,6 +6617,15 @@
     "name": "MA FRENCH BANK",
     "short_name": "MA FRENCH BANK",
     "primary": true,
+    "status": "delisted"
+  },
+  {
+    "country_code": "FR",
+    "primary": true,
+    "bic": "QNTOFRP1",
+    "bank_code": "16958",
+    "name": "QONTO",
+    "short_name": "QONTO",
     "status": "delisted"
   },
   {

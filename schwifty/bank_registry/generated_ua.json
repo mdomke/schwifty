@@ -2795,14 +2795,6 @@
     "primary": false,
     "bic": "",
     "bank_code": "300346",
-    "name": "Відділення \"Центр-Одеське\" Акціонерного товариства \"Сенс Банк\"",
-    "short_name": "Joint-Stock Company \"Sense Bank\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "300346",
     "name": "Відділення \"ЦГО-Ужгород\" Акціонерного товариства \"Сенс Банк\"",
     "short_name": "Joint-Stock Company \"Sense Bank\""
   },
@@ -9059,14 +9051,6 @@
     "primary": false,
     "bic": "",
     "bank_code": "328845",
-    "name": "Територіально відокремлене безбалансове відділення №10015/0540 філії - Одеського обласного управління акціонерного товариства \"Державний ощадний банк України\"",
-    "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "328845",
     "name": "Територіально відокремлене безбалансове відділення №10015/0589 філії - Одеського обласного управління акціонерного товариства \"Державний ощадний банк України\"",
     "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
   },
@@ -9236,14 +9220,6 @@
     "bic": "",
     "bank_code": "328845",
     "name": "Територіально відокремлене безбалансове відділення №10015/0357 філії - Одеського обласного управління акціонерного товариства \"Державний ощадний банк України\"",
-    "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "328845",
-    "name": "Територіально відокремлене безбалансове відділення №10015/0603 філії - Одеського обласного управління акціонерного товариства \"Державний ощадний банк України\"",
     "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
   },
   {
@@ -10196,14 +10172,6 @@
     "bic": "",
     "bank_code": "333368",
     "name": "Територіально відокремлене безбалансове відділення №10017/037 філії - Рівненського обласного управління акціонерного товариства \"Державний ощадний банк України\"",
-    "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "335106",
-    "name": "Територіально відокремлене безбалансове відділення №10004/0284 філії - Донецького обласного управління акціонерного товариства \"Державний ощадний банк України\"",
     "short_name": "Joint Stock Company \"State Savings Bank of Ukraine\""
   },
   {
@@ -16736,14 +16704,6 @@
     "primary": false,
     "bic": "",
     "bank_code": "305299",
-    "name": "Відділення \"Одеське №74\" акціонерного товариства комерційного банку \"ПриватБанк\"",
-    "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "305299",
     "name": "Відділення \"Вінницьке №38\" акціонерного товариства комерційного банку \"ПриватБанк\"",
     "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
   },
@@ -20328,14 +20288,6 @@
     "primary": false,
     "bic": "",
     "bank_code": "305299",
-    "name": "Відділення \"Івано-Франківське №18\" акціонерного товариства комерційного банку \"ПриватБанк\"",
-    "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "305299",
     "name": "Відділення \"Одеське №47\" акціонерного товариства комерційного банку \"ПриватБанк\"",
     "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
   },
@@ -20537,14 +20489,6 @@
     "bic": "",
     "bank_code": "305299",
     "name": "Відділення \"Кропивницьке №27\" акціонерного товариства комерційного банку \"ПриватБанк\"",
-    "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "305299",
-    "name": "Відділення \"Закарпатське №17\" акціонерного товариства комерційного банку \"ПриватБанк\"",
     "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
   },
   {
@@ -21569,14 +21513,6 @@
     "bic": "",
     "bank_code": "305299",
     "name": "Відділення \"П'яте столичне №23\" акціонерного товариства комерційного банку \"ПриватБанк\"",
-    "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "305299",
-    "name": "Відділення \"Краматорське №1\"  акціонерного товариства комерційного банку \"ПриватБанк\"",
     "short_name": "Joint-Stock Company Commercial Bank \"PrivatBank\""
   },
   {
@@ -23643,14 +23579,6 @@
     "bic": "",
     "bank_code": "307770",
     "name": "ВІДДІЛЕННЯ \"ЦЕНТР ОБСЛУГОВУВАННЯ КЛІЄНТІВ №88 В М.ПОЛТАВА\" ПУБЛІЧНОГО АКЦІОНЕРНОГО ТОВАРИСТВА \"АКЦЕНТ-БАНК\"",
-    "short_name": "JOINT-STOCK COMPANY \"ACCENT-BANK\""
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "307770",
-    "name": "ВIДДIЛЕННЯ \"ЦЕНТР ОБСЛУГОВУВАННЯ КЛIЄНТIВ №537 В М.КИЇВ\" АКЦІОНЕРНОГО ТОВАРИСТВА \"АКЦЕНТ-БАНК\"",
     "short_name": "JOINT-STOCK COMPANY \"ACCENT-BANK\""
   },
   {
@@ -35681,8 +35609,8 @@
     "primary": true,
     "bic": "",
     "bank_code": "370140",
-    "name": "ПРИВАТНЕ АКЦІОНЕРНЕ ТОВАРИСТВО  “ПЕРЕХІДНИЙ БАНК “ЮТЕ БАНК”",
-    "short_name": "PRIVATE JOINT STOCK COMPANY “BRIDGE BANK “IUTE BANK”"
+    "name": "АКЦІОНЕРНЕ ТОВАРИСТВО “ЮТЕ БАНК”",
+    "short_name": "JOINT STOCK COMPANY “IUTE BANK”"
   },
   {
     "country_code": "UA",
@@ -36726,14 +36654,6 @@
     "bic": "",
     "bank_code": "380634",
     "name": "Відділення №21 у м. Одесі ПУБЛІЧНОГО АКЦІОНЕРНОГО ТОВАРИСТВА\"КОМЕРЦІЙНИЙ БАНК \"АКОРДБАНК\"",
-    "short_name": "\"COMMERCIAL BANK \"ACCORDBANK\", PUBLIC JOINT-STOCK COMPANY"
-  },
-  {
-    "country_code": "UA",
-    "primary": false,
-    "bic": "",
-    "bank_code": "380634",
-    "name": "Відділення №161 у м. Києві ПУБЛІЧНОГО АКЦІОНЕРНОГО ТОВАРИСТВА \"КОМЕРЦІЙНИЙ БАНК \"АКОРДБАНК\"",
     "short_name": "\"COMMERCIAL BANK \"ACCORDBANK\", PUBLIC JOINT-STOCK COMPANY"
   },
   {

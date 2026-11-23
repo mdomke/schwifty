@@ -18586,14 +18586,6 @@
   {
     "country_code": "GB",
     "primary": true,
-    "bic": "SPELGB21XXX",
-    "bank_code": "SPEL",
-    "name": "J.P. MORGAN TRUSTEE & ADMINISTRATION SERVICES LIMITED",
-    "short_name": "J.P. MORGAN TRUSTEE & ADMINISTRATION SERVICES LIMITED"
-  },
-  {
-    "country_code": "GB",
-    "primary": true,
     "bic": "SPFHGB22XXX",
     "bank_code": "SPFH",
     "name": "JD SPORTS FASHION PLC",
@@ -21801,6 +21793,15 @@
     "bank_code": "NCLI",
     "name": "NCL INVESTMENTS LIMITED",
     "short_name": "NCL INVESTMENTS LIMITED",
+    "status": "delisted"
+  },
+  {
+    "country_code": "GB",
+    "primary": true,
+    "bic": "SPELGB21XXX",
+    "bank_code": "SPEL",
+    "name": "J.P. MORGAN TRUSTEE & ADMINISTRATION SERVICES LIMITED",
+    "short_name": "J.P. MORGAN TRUSTEE & ADMINISTRATION SERVICES LIMITED",
     "status": "delisted"
   },
   {
