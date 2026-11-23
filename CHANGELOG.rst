@@ -5,8 +5,8 @@ Changelog
 
 Versions follow `CalVer <http://www.calver.org/>`_ with the scheme ``YY.0M.Micro``.
 
-Unreleased
-----------
+`2026.11.4`_ - 2026/11/23
+-------------------------
 Added
 ~~~~~
 * Added German checksum methods ``27`` and ``29``, used by Norddeutsche Landesbank (bank codes
@@ -114,6 +114,9 @@ Fixed
   code when no branch code was explicitly provided, avoiding overwriting caller-provided branch
   codes. Passing an oversized bank code alongside an explicit branch code now raises
   :exc:`.InvalidBankCode`, even when the branch codes match.
+* :func:`schwifty.registry.get_banks_by_bic` finds the banks of a BIC given in lowercase, such as
+  ``bkauatww`` or ``bkauatwwxxx``. It used to return an empty list for them, while
+  :func:`schwifty.registry.get_sepa_schemes` already accepted lowercase BICs.
 
 `2026.11.3`_ - 2026/11/17
 -------------------------
@@ -1541,6 +1544,7 @@ Added
 * Added :attr:`.BIC.country` and :attr:`.IBAN.country`.
 
 
+.. _2026.11.4: https://github.com/mdomke/schwifty/compare/2026.11.3...2026.11.4
 .. _2026.11.3: https://github.com/mdomke/schwifty/compare/2026.11.2...2026.11.3
 .. _2026.11.2: https://github.com/mdomke/schwifty/compare/2026.11.1...2026.11.2
 .. _2026.11.1: https://github.com/mdomke/schwifty/compare/2026.11.0...2026.11.1
