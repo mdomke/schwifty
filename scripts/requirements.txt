@@ -1,6 +1,0 @@
-beautifulsoup4
-httpx2
-xlrd>=2.0.1
-pandas
-openpyxl
-lxml

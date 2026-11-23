@@ -69,6 +69,10 @@ to list all available tasks. The most important ones are:
      - Build the HTML documentation into ``docs/build/html``.
    * - ``uv run poe build``
      - Build the source distribution and wheel.
+   * - ``uv run poe update-registries``
+     - Update the generated registries from their sources, see ``scripts/README.md``.
+   * - ``uv run poe registry-diff``
+     - Summarize the changes to the generated registries since ``HEAD``.
 
 If you installed the ``prek`` hooks, ``check-code``, ``check-fmt``, ``check-docs`` and
 ``check-types`` also run automatically on every commit. You can run them manually against the whole
