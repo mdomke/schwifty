@@ -36,7 +36,8 @@
         7,
         8
       ]
-    }
+    },
+    "in_sepa_zone": true
   },
   "AX": {
     "positions": {
@@ -710,6 +711,9 @@
       ]
     }
   },
+  "MD": {
+    "in_sepa_zone": true
+  },
   "ME": {
     "positions": {
       "account_code": [
@@ -720,7 +724,8 @@
         16,
         18
       ]
-    }
+    },
+    "in_sepa_zone": true
   },
   "MF": {
     "positions": {
@@ -775,7 +780,8 @@
         13,
         15
       ]
-    }
+    },
+    "in_sepa_zone": true
   },
   "ML": {
     "country": "ML",
@@ -1017,7 +1023,8 @@
         16,
         18
       ]
-    }
+    },
+    "in_sepa_zone": true
   },
   "SC": {
     "positions": {

@@ -18,6 +18,10 @@ Added
 * A test checks that every checksum method the bank registries use is implemented, since account
   codes of a bank with an unknown method are not checked at all.
 * Added TF Bank Nordic AB (``980``, ``NRDISE22``) to the Swedish bank registry.
+* Albania (``AL``), Moldova (``MD``), Montenegro (``ME``), North Macedonia (``MK``) and Serbia
+  (``RS``) are now part of the SEPA zone, so ``IBAN.in_sepa_zone`` returns ``True`` for them. The
+  SWIFT IBAN registry doesn't list them as SEPA countries yet, so the flag is set in
+  ``schwifty/iban_registry/overwrite.json``.
 
 Fixed
 ~~~~~
