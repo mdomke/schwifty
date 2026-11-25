@@ -173,6 +173,8 @@ class BIC(common.Base):
             * United Arab Emirates
             * United Kingdom
         """
+        country_code = common.clean(country_code)
+        bank_code = common.clean(bank_code)
         banks = registry.get_banks_by_code(country_code, bank_code)
         if not banks:
             raise exceptions.InvalidBankCode(
