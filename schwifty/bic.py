@@ -24,8 +24,8 @@ if TYPE_CHECKING:
     from pydantic.json_schema import JsonSchemaValue
     from pydantic_core import CoreSchema
 
-_bic_iso9362_re = re.compile(r"[A-Z0-9]{4}[A-Z]{2}[A-Z0-9]{2}(?:[A-Z0-9]{3})?")
-_bic_swift_re = re.compile(r"[A-Z]{4}[A-Z]{2}[A-Z0-9]{2}(?:[A-Z0-9]{3})?")
+_bic_iso9362_re = re.compile(r"^[A-Z0-9]{4}[A-Z]{2}[A-Z0-9]{2}(?:[A-Z0-9]{3})?$")
+_bic_swift_re = re.compile(r"^[A-Z]{4}[A-Z]{2}[A-Z0-9]{2}(?:[A-Z0-9]{3})?$")
 
 # Country codes SWIFT uses in BICs that are not (yet) part of ISO 3166-1. Kosovo's banks are
 # assigned the user-assigned code XK, which the IBAN registry uses as well.
@@ -299,7 +299,7 @@ class BIC(common.Base):
                     core_schema.is_instance_schema(BIC),
                     core_schema.no_info_plain_validator_function(BIC),
                     core_schema.str_schema(
-                        pattern=r"[A-Z0-9]{4}[A-Z]{2}[A-Z0-9]{2}(?:[A-Z0-9]{3})?",
+                        pattern=_bic_iso9362_re.pattern,
                         min_length=8,
                         max_length=11,
                     ),
