@@ -19,9 +19,12 @@ Added
   codes of a bank with an unknown method are not checked at all.
 * Added TF Bank Nordic AB (``980``, ``NRDISE22``) to the Swedish bank registry.
 * Albania (``AL``), Moldova (``MD``), Montenegro (``ME``), North Macedonia (``MK``) and Serbia
-  (``RS``) are now part of the SEPA zone, so ``IBAN.in_sepa_zone`` returns ``True`` for them. The
-  SWIFT IBAN registry doesn't list them as SEPA countries yet, so the flag is set in
-  ``schwifty/iban_registry/overwrite.json``.
+  (``RS``) are now part of the SEPA zone, so ``IBAN.in_sepa_zone`` returns ``True`` for them,
+  although the SWIFT IBAN registry doesn't list them as SEPA countries yet (#381).
+* ``IBAN.generate()``, ``IBAN.random()``, ``BIC.from_bank_code()``,
+  ``BIC.candidates_from_bank_code()``, ``registry.get_banks_by_country()`` and
+  ``registry.get_banks_by_code()`` accept country and bank codes in lowercase and with whitespace,
+  like the ``IBAN`` and ``BIC`` constructors already do (#383).
 
 Fixed
 ~~~~~
@@ -33,6 +36,9 @@ Fixed
   returns one of them at random, so every update retired one of the codes of Banco de
   Castilla-La Mancha (``2105`` or ``0115``) and of The Royal Bank of Scotland (``1477`` or
   ``0156``) and reactivated the other.
+* The ``pattern`` of the JSON schema that Pydantic generates for ``BIC`` fields is anchored, so
+  that JSON Schema validators no longer accept strings that merely contain a valid BIC, such as
+  ``XGENODEM1`` (#382).
 
 `2026.11.4`_ - 2026/11/23
 -------------------------

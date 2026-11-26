@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import copy
+import re
 
 import pytest
 from pycountry import countries  # type: ignore
@@ -459,6 +460,11 @@ def test_pydantic_protocol() -> None:
     schema = Model.model_json_schema()
     pattern = schema["properties"]["bic"]["pattern"]
     assert pattern == bic_module._bic_iso9362_re.pattern
+    # JSON Schema validators search for the pattern, so it must be anchored to reject strings that
+    # merely contain a valid BIC.
+    for value in ("XGENODEM1", "GENODEM1X", "AAGENODEM1"):
+        assert re.search(pattern, value) is None
+    assert re.search(pattern, "GENODEM1GLS")
 
     loaded = Model.model_validate_json(dumped)
     assert loaded == model

@@ -1,7 +1,5 @@
 """Edge-case tests for :class:`schwifty.BIC`."""
 
-import re
-
 import pytest
 
 from schwifty import BIC
@@ -50,29 +48,3 @@ def test_bic_type_and_formatted_for_eight_character_code() -> None:
     assert bic.type == "testing"
     assert bic.branch_code == ""
     assert bic.formatted == "GENO DE M0"
-
-
-def test_bic_json_schema_pattern_is_anchored() -> None:
-    # JSON Schema treats "pattern" as a search, while BIC validation uses fullmatch.
-    # An unanchored pattern therefore accepts strings that merely contain a valid BIC.
-    from pydantic import BaseModel
-
-    from schwifty import bic as bic_module
-
-    class Model(BaseModel):
-        bic: BIC
-
-    pattern = Model.model_json_schema()["properties"]["bic"]["pattern"]
-    assert pattern.startswith("^")
-    assert pattern.endswith("$")
-    assert bic_module._bic_iso9362_re.pattern == pattern
-    assert bic_module._bic_swift_re.pattern.startswith("^")
-    assert bic_module._bic_swift_re.pattern.endswith("$")
-
-    # Reproduce jsonschema's search semantics against the published pattern.
-    compiled = re.compile(pattern)
-    for invalid in ("XGENODEM1", "GENODEM1X", "AAGENODEM1"):
-        assert compiled.search(invalid) is None
-        assert compiled.fullmatch(invalid) is None
-    assert compiled.search("GENODEM1GLS") is not None
-    assert compiled.fullmatch("GENODEM1GLS") is not None
