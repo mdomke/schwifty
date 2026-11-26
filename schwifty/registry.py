@@ -16,6 +16,7 @@ try:
 except ImportError:
     from importlib_resources import files  # type: ignore
 
+from schwifty import common
 from schwifty import exceptions
 from schwifty.domain import Bank
 from schwifty.domain import BankStatus
@@ -208,10 +209,11 @@ class Registry:
         )
 
     def get_banks_by_country(self, country_code: str) -> list[Bank]:
-        return self._get_country_banks(country_code).banks
+        return self._get_country_banks(common.clean(country_code)).banks
 
     def get_banks_by_code(self, country_code: str, bank_code: str) -> list[Bank]:
-        return self._get_country_banks(country_code).by_bank_code.get(bank_code, [])
+        banks = self._get_country_banks(common.clean(country_code))
+        return banks.by_bank_code.get(common.clean(bank_code), [])
 
     def get_banks_by_bic(self, bic: str) -> list[Bank]:
         # Only the registry of the BIC's own country is searched, so that a lookup doesn't

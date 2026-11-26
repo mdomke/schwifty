@@ -155,6 +155,7 @@ class IBAN(common.Base):
             Added support for generating the country specific checksum of the BBAN for Belgian
             banks.
         """
+        country_code = common.clean(country_code)
         return cls.from_bban(
             country_code,
             BBAN.from_components(
@@ -199,6 +200,7 @@ class IBAN(common.Base):
             GenerateRandomOverflowError: If no valid random value can be gerated after multiple
                                          tries.
         """
+        country_code = common.clean(country_code)
         bban = BBAN.random(country_code, random=random, use_registry=use_registry, **values)
         return cls.from_bban(bban.country_code, bban)
 
