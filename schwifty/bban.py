@@ -127,7 +127,7 @@ class BBAN(common.Base):
         return super().__new__(cls, value, **kwargs)
 
     def __init__(self, country_code: str, value: str) -> None:
-        self.country_code = country_code
+        self.country_code = common.clean(country_code)
 
     # BBAN.__new__ needs both values when pickle reconstructs the object.
     def __getnewargs__(self) -> tuple[str, str]:  # type: ignore[override]
@@ -164,6 +164,7 @@ class BBAN(common.Base):
             InvalidBranchCode: If the branch code exceeds the maximum size.
             InvalidStructure: If any other component exceeds the maximum size.
         """
+        country_code = common.clean(country_code)
         spec = _get_bban_spec(country_code)
         if not spec.has_positions:
             raise exceptions.SchwiftyException(f"BBAN generation for {country_code} not supported")
@@ -232,6 +233,7 @@ class BBAN(common.Base):
         if random is None:
             random = Random()  # noqa: S311
 
+        country_code = common.clean(country_code)
         if not country_code:
             country_code = random.choice(registry.get_countries())
 

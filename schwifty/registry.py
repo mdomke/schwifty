@@ -138,6 +138,7 @@ class Registry:
         return self._save(name, data)
 
     def get_iban_spec(self, country_code: str) -> IBANSpec:
+        country_code = common.clean(country_code)
         spec = self._get("iban")
         assert isinstance(spec, dict)
         try:
