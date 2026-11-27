@@ -28,6 +28,9 @@ Added
 
 Fixed
 ~~~~~
+* ``registry.get_iban_spec()`` now cleans the country code like the other registry lookups, so
+  the BBAN entry points that use it (``BBAN.from_components()`` and ``BBAN.random()``) accept
+  lowercase or whitespace-padded input instead of raising ``InvalidCountryCode``.
 * ``scripts/get_bank_registry_se.py`` reads the Excel copy of the clearing number table that
   Bankinfrastruktur i Sverige links instead of the CSV file since November 2026. Only clearing
   numbers with an IBAN conversion method are taken from it, as before (#379).

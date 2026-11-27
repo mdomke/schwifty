@@ -4,6 +4,7 @@ from random import Random
 
 import pytest
 
+from schwifty import BBAN
 from schwifty import BIC
 from schwifty import IBAN
 from schwifty import registry
@@ -75,3 +76,27 @@ def test_get_banks_by_code_normalizes_codes(
 @pytest.mark.parametrize("country_code", ["DE", "de", " d e "])
 def test_get_banks_by_country_normalizes_codes(country_code: str) -> None:
     assert registry.get_banks_by_country(country_code) == registry.get_banks_by_country("DE")
+
+
+@pytest.mark.parametrize("country_code", ["DE", "de", " d e "])
+def test_get_iban_spec_normalizes_country_code(country_code: str) -> None:
+    # get_banks_by_code and get_banks_by_country clean their country code, but get_iban_spec
+    # used to pass it through, so the BBAN entry points that rely on it rejected "de" while
+    # the equivalent IBAN entry points accepted it.
+    assert registry.get_iban_spec(country_code) == registry.get_iban_spec("DE")
+
+
+@pytest.mark.parametrize("country_code", ["DE", "de", " d e "])
+def test_bban_from_components_normalizes_country_code(country_code: str) -> None:
+    expected = BBAN.from_components("DE", bank_code="37040044", account_code="532013000")
+    actual = BBAN.from_components(country_code, bank_code="37040044", account_code="532013000")
+    assert actual == expected
+    assert actual.country_code == "DE"
+
+
+@pytest.mark.parametrize("country_code", ["DE", "de", " d e "])
+def test_bban_random_normalizes_country_code(country_code: str) -> None:
+    expected = BBAN.random("DE", random=Random(7))  # noqa: S311
+    actual = BBAN.random(country_code, random=Random(7))  # noqa: S311
+    assert actual == expected
+    assert actual.country_code == "DE"
