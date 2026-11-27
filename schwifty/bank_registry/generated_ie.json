@@ -36,8 +36,8 @@
     "primary": true,
     "bic": "AGCUIE21",
     "bank_code": "AGCU",
-    "name": "St Agnes Credit Union Limited",
-    "short_name": "St Agnes Credit Union Limited"
+    "name": "St. Agnes Credit Union Limited",
+    "short_name": "St. Agnes Credit Union Limited"
   },
   {
     "country_code": "IE",
@@ -132,8 +132,8 @@
     "primary": true,
     "bic": "BARCIE2D",
     "bank_code": "BARC",
-    "name": "BARCLAYS BANK IRELAND PLC",
-    "short_name": "BARCLAYS BANK IRELAND PLC"
+    "name": "Barclays Bank Ireland Plc",
+    "short_name": "Barclays Bank Ireland Plc"
   },
   {
     "country_code": "IE",
@@ -260,16 +260,16 @@
     "primary": true,
     "bic": "BLDIIE21",
     "bank_code": "BLDI",
-    "name": "BALLYSHANNON & KILLYBEGS CREDIT UNION LIMITED",
-    "short_name": "BALLYSHANNON & KILLYBEGS CREDIT UNION LIMITED"
+    "name": "BALLYSHANNON E KILLYBEGS CREDIT UNION LIMITED",
+    "short_name": "BALLYSHANNON E KILLYBEGS CREDIT UNION LIMITED"
   },
   {
     "country_code": "IE",
     "primary": true,
     "bic": "BLDOIE21",
     "bank_code": "BLDO",
-    "name": "BALTINGLASS CREDIT UNION LTD",
-    "short_name": "BALTINGLASS CREDIT UNION LTD"
+    "name": "BALTINGLASS CREDIT UNION LIMITED",
+    "short_name": "BALTINGLASS CREDIT UNION LIMITED"
   },
   {
     "country_code": "IE",
@@ -332,8 +332,8 @@
     "primary": true,
     "bic": "BLTNIE21",
     "bank_code": "BLTN",
-    "name": "Ballygall Credit Union",
-    "short_name": "Ballygall Credit Union"
+    "name": "BALLYGALL CREDIT UNION LIMITED",
+    "short_name": "BALLYGALL CREDIT UNION LIMITED"
   },
   {
     "country_code": "IE",
@@ -508,8 +508,8 @@
     "primary": true,
     "bic": "CCGDIE21",
     "bank_code": "CCGD",
-    "name": "COMHAR CREIDMHEASA GHAOTH DOBHAIR TEORANTA",
-    "short_name": "COMHAR CREIDMHEASA GHAOTH DOBHAIR TEORANTA"
+    "name": "Comhar Creidmheasa Ghaoth Dobhair Teoanta",
+    "short_name": "Comhar Creidmheasa Ghaoth Dobhair Teoanta"
   },
   {
     "country_code": "IE",
@@ -548,8 +548,8 @@
     "primary": true,
     "bic": "CDCIIE21",
     "bank_code": "CDCI",
-    "name": "HEARTLAND CREDIT UNION LTD",
-    "short_name": "HEARTLAND CREDIT UNION LTD"
+    "name": "HEARTLAND CREDIT UNION LIMITED",
+    "short_name": "HEARTLAND CREDIT UNION LIMITED"
   },
   {
     "country_code": "IE",
@@ -588,16 +588,16 @@
     "primary": true,
     "bic": "CHCUIE21",
     "bank_code": "CHCU",
-    "name": "Cahir Credit Union Limited",
-    "short_name": "Cahir Credit Union Limited"
+    "name": "CAHIR CREDIT UNION LIMITED",
+    "short_name": "CAHIR CREDIT UNION LIMITED"
   },
   {
     "country_code": "IE",
     "primary": true,
     "bic": "CIENIE21",
     "bank_code": "CIEN",
-    "name": "Dundalk Credit Union Limited",
-    "short_name": "Dundalk Credit Union Limited"
+    "name": "DUNDALK CREDIT UNION LTD",
+    "short_name": "DUNDALK CREDIT UNION LTD"
   },
   {
     "country_code": "IE",
@@ -700,8 +700,8 @@
     "primary": true,
     "bic": "CNRNIE21",
     "bank_code": "CNRN",
-    "name": "CANA CREDIT UNION LIMITED",
-    "short_name": "CANA CREDIT UNION LIMITED"
+    "name": "CANA Credit Union Limited",
+    "short_name": "CANA Credit Union Limited"
   },
   {
     "country_code": "IE",
@@ -740,8 +740,8 @@
     "primary": true,
     "bic": "CSDNIE21",
     "bank_code": "CSDN",
-    "name": "Crosshaven Carragline Credit Union Ltd",
-    "short_name": "Crosshaven Carragline Credit Union Ltd"
+    "name": "CROSSHAVEN CARRIGALINE CREDIT UNION LTD",
+    "short_name": "CROSSHAVEN CARRIGALINE CREDIT UNION LTD"
   },
   {
     "country_code": "IE",
@@ -764,8 +764,8 @@
     "primary": true,
     "bic": "CSENIE21",
     "bank_code": "CSEN",
-    "name": "CASTLECOMER CREDIT UNION LIMITED",
-    "short_name": "CASTLECOMER CREDIT UNION LIMITED"
+    "name": "Castlecomer Credit Union Limited",
+    "short_name": "Castlecomer Credit Union Limited"
   },
   {
     "country_code": "IE",
@@ -868,8 +868,8 @@
     "primary": true,
     "bic": "DEEUIE21",
     "bank_code": "DEEU",
-    "name": "DERG CREDIT UNION LTD",
-    "short_name": "DERG CREDIT UNION LTD"
+    "name": "Derg Credit Union Ltd",
+    "short_name": "Derg Credit Union Ltd"
   },
   {
     "country_code": "IE",
@@ -1164,8 +1164,8 @@
     "primary": true,
     "bic": "INGBIE2DICM",
     "bank_code": "INGB",
-    "name": "ING BANK NV DUBLIN BRANCH",
-    "short_name": "ING BANK NV DUBLIN BRANCH"
+    "name": "ING BANK NV DUBLIN BRANCH IRELAND",
+    "short_name": "ING BANK NV DUBLIN BRANCH IRELAND"
   },
   {
     "country_code": "IE",
@@ -1260,8 +1260,8 @@
     "primary": true,
     "bic": "KIEUIE21",
     "bank_code": "KIEU",
-    "name": "KILMALLOCK CREDIT UNION LIMITED",
-    "short_name": "KILMALLOCK CREDIT UNION LIMITED"
+    "name": "Kilmallock Credit Union Limited",
+    "short_name": "Kilmallock Credit Union Limited"
   },
   {
     "country_code": "IE",
@@ -1276,8 +1276,8 @@
     "primary": true,
     "bic": "KIROIE21",
     "bank_code": "KIRO",
-    "name": "Killarney Credit Union Limited",
-    "short_name": "Killarney Credit Union Limited"
+    "name": "Killarney Credit Union Ltd",
+    "short_name": "Killarney Credit Union Ltd"
   },
   {
     "country_code": "IE",
@@ -1292,8 +1292,8 @@
     "primary": true,
     "bic": "KPDCIE21",
     "bank_code": "KPDC",
-    "name": "Kilcock-Kilcloon and District Credit Union Limited",
-    "short_name": "Kilcock-Kilcloon and District Credit Union Limited"
+    "name": "Kilcock-Kilcloon and District Credit Union Ltd",
+    "short_name": "Kilcock-Kilcloon and District Credit Union Ltd"
   },
   {
     "country_code": "IE",
@@ -1348,8 +1348,8 @@
     "primary": true,
     "bic": "LECOIE21",
     "bank_code": "LECO",
-    "name": "Letterkenny Credit Union Limited",
-    "short_name": "Letterkenny Credit Union Limited"
+    "name": "LETTERKENNY CREDIT UNION LTD",
+    "short_name": "LETTERKENNY CREDIT UNION LTD"
   },
   {
     "country_code": "IE",
@@ -1412,8 +1412,8 @@
     "primary": true,
     "bic": "MCCRIE21",
     "bank_code": "MCCR",
-    "name": "Clonakilty & Dunmanway Credit Union Ltd",
-    "short_name": "Clonakilty & Dunmanway Credit Union Ltd"
+    "name": "Clonakilty & Dunmanway Credit Union Limited",
+    "short_name": "Clonakilty & Dunmanway Credit Union Limited"
   },
   {
     "country_code": "IE",
@@ -1716,8 +1716,8 @@
     "primary": true,
     "bic": "RDCUIE21",
     "bank_code": "RDCU",
-    "name": "HERITAGE CREDIT UNION LIMITED",
-    "short_name": "HERITAGE CREDIT UNION LIMITED"
+    "name": "HERITAGE CREDIT UNION LTD",
+    "short_name": "HERITAGE CREDIT UNION LTD"
   },
   {
     "country_code": "IE",
@@ -1764,8 +1764,8 @@
     "primary": true,
     "bic": "RORUIE21",
     "bank_code": "RORU",
-    "name": "Roscommon Credit Union Limited",
-    "short_name": "Roscommon Credit Union Limited"
+    "name": "ROSCOMMON CREDIT UNION LIMITED",
+    "short_name": "ROSCOMMON CREDIT UNION LIMITED"
   },
   {
     "country_code": "IE",
@@ -1788,8 +1788,8 @@
     "primary": true,
     "bic": "SBDCIE21",
     "bank_code": "SBDC",
-    "name": "CORE CREDIT UNION LTD.",
-    "short_name": "CORE CREDIT UNION LTD."
+    "name": "CORE CREDIT UNION LIMITED",
+    "short_name": "CORE CREDIT UNION LIMITED"
   },
   {
     "country_code": "IE",
@@ -1812,8 +1812,8 @@
     "primary": true,
     "bic": "SHCUIE21",
     "bank_code": "SHCU",
-    "name": "Sheephaven Credit Union Limited",
-    "short_name": "Sheephaven Credit Union Limited"
+    "name": "SHEEPHAVEN CREDIT UNION LIMITED",
+    "short_name": "SHEEPHAVEN CREDIT UNION LIMITED"
   },
   {
     "country_code": "IE",
@@ -1900,8 +1900,8 @@
     "primary": true,
     "bic": "TDCOIE21",
     "bank_code": "TDCO",
-    "name": "Tallaght & Firhouse Credit Union Ltd",
-    "short_name": "Tallaght & Firhouse Credit Union Ltd"
+    "name": "Tallaght & Firhouse Credit Union Limited",
+    "short_name": "Tallaght & Firhouse Credit Union Limited"
   },
   {
     "country_code": "IE",
@@ -2004,8 +2004,8 @@
     "primary": true,
     "bic": "TWCUIE21",
     "bank_code": "TWCU",
-    "name": "Kilnamanagh & Tallaght West Credit Union Ltd",
-    "short_name": "Kilnamanagh & Tallaght West Credit Union Ltd"
+    "name": "Kilnamanagh & Tallaght West Credit Union Limited",
+    "short_name": "Kilnamanagh & Tallaght West Credit Union Limited"
   },
   {
     "country_code": "IE",

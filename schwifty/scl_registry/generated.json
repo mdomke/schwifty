@@ -1477,6 +1477,7 @@
   "FLESDEMM": ["B2B", "COR", "SCC", "SCT"],
   "FLORNL2A": ["B2B", "COR", "SCT"],
   "FLORNL2AEUR": ["SCT"],
+  "FLWPIT22": ["SCT"],
   "FMBKDEMM": ["COR", "SCT"],
   "FNATITRR": ["B2B", "COR", "SCT"],
   "FNCULT22": ["SCT"],
